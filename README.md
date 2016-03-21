@@ -24,24 +24,22 @@ TODO
 ## Notifications APIs
 
 ### "Dispatch Notification"
-*exposed by: Notifications Server*
+ *exposed by: Notifications Server*
 
 *called by: EnrollApp*
 TODO
 
 ### (Google & Apple Push Notification APIs)
-*called by: Notifications Server*
+ *called by: Notifications Server*
 
 ### "Fetch Notifications" 
-*exposed by: Notifications Server*
-
-*called by: mobile client*
+ *exposed by: Notifications Server* 
+ *called by: mobile client*
 TODO
 
-### "Register Notification Response" 
-*exposed by: Notifications Server*
-
-*called by: mobile client*
+### "Register Notification Response"  
+ *exposed by: Notifications Server*
+ *called by: mobile client*
 TODO
 
 
