@@ -11,3 +11,14 @@ Workflow:
 4. The following JSON payload is returned:
   * [schema](enroll/my-account/response/schema.json)
   * [example](enroll/my-account/response/example.json)
+
+## Document Store API
+
+## Notifications API
+
+******
+
+### Some resources for dealing with JSON schemas:
+* [jsonschema - Python tool] (http://python-jsonschema.readthedocs.org/en/latest/)
+* [JSON Schema Lint - validator of JSON against a schema] (http://jsonschemalint.com/draft4/#)
+* [JSON Schema Generator] (http://jsonschema.net/#/)
