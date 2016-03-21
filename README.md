@@ -10,4 +10,4 @@ Workflow:
     `GET https://enroll.dchealthlink.org/api/my-account/`
 4. The following JSON payload is returned:
   * [schema](enroll/my-account/response/schema.json)
-  * [example](https://github.com/benjaminrosenbaum/HBX-mobile-app-APIs/blob/master/enroll/my-account/response/example.json)
+  * [example]enroll/my-account/response/example.json)
