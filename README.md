@@ -2,7 +2,8 @@
 Specifications and resources for mobile apps needed by the HBX mobile app
 
 ## "My Account" API (Enroll App)
-Workflow:
+
+### Workflow - Individual/Family or Employee User (MVP):
 
 1. The mobile app connects to IAM, passing user credentials, to retrieve a valid SAML token
 2. The mobile app connects to the EnrollApp session API to establish a session, passing the SAML token
@@ -11,12 +12,35 @@ Workflow:
 4. The following JSON payload is returned:
   * [schema](enroll/my-account/response/schema.json)
   * [example](enroll/my-account/response/example.json)
+  
+### Variation - Employer or Broker (post-MVP):
+
+Possibly, the enroller or broker may be able to get a list of accounts they manage (employees, clients), and then call the above API with a user id, and receive the same payload if authorized to see it
+e.g. `GET https://enroll.dchealthlink.org/api/my-account/12345`
 
 ## Document Store API
 TODO 
 
-## Notifications API
+## Notifications APIs
+
+### "Dispatch Notification"
+*exposed by: Notifications Server*
+*called by: EnrollApp*
 TODO
+
+### (Google & Apple Push Notification APIs)
+*called by: Notifications Server*
+
+### "Fetch Notifications" 
+*exposed by: Notifications Server*
+*called by: mobile client*
+TODO
+
+### "Register Notification Response" 
+*exposed by: Notifications Server*
+*called by: mobile client*
+TODO
+
 
 ******
 
