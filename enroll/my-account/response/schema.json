@@ -1,0 +1,164 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://enroll.dchealthlink.com",
+  "type": "object",
+  "properties": {
+    "subscriber_plans": {
+      "id": "http://enroll.dchealthlink.com/subscriber_plans",
+      "type": "array",
+      "items": {
+        "id": "http://enroll.dchealthlink.com/subscriber_plans/0",
+        "type": "object",
+        "properties": {
+          "plan": {
+            "id": "http://enroll.dchealthlink.com/subscriber_plans/0/plan",
+            "type": "object",
+            "properties": {
+              "name": {
+                "id": "http://enroll.dchealthlink.com/subscriber_plans/0/plan/name",
+                "type": "string"
+              },
+              "type": {
+                "id": "http://enroll.dchealthlink.com/subscriber_plans/0/plan/type",
+                "type": "string",
+                "enum": [
+                   "HMO",
+                   "PPO",
+                   "POS"
+                ]
+              },
+              "care_type": {
+                "id": "http://enroll.dchealthlink.com/subscriber_plans/0/plan/care_type",
+                "type": "string",
+                "description": "dental or medical plan",
+                "enum": [
+                   "dental",
+                   "medical"
+                ]
+              },
+              "level": {
+                "id": "http://enroll.dchealthlink.com/subscriber_plans/0/plan/level",
+                "type": "string",
+                "description": "metal level of plan",
+                "enum": [
+                   "BRONZE",
+                   "SILVER",
+                   "GOLD",
+                   "PLATINUM",
+                   "CATASTROPHIC",
+                   null
+                ]
+              },
+              "benefits_summary_url": {
+                "id": "http://enroll.dchealthlink.com/subscriber_plans/0/plan/benefits_summary_url",
+                "type": "string",
+                "description": "URL on carrier site of summary benefits info"
+              },
+              "carrier_contact_info": {
+                "id": "http://enroll.dchealthlink.com/subscriber_plans/0/plan/carrier_contact_info",
+                "type": "object",
+                "properties": {
+                  "phone": {
+                    "id": "http://enroll.dchealthlink.com/subscriber_plans/0/plan/carrier_contact_info/phone",
+                    "type": "string",
+                    "format": "phone"
+                  },
+                  "email": {
+                    "id": "http://enroll.dchealthlink.com/subscriber_plans/0/plan/carrier_contact_info/email",
+                    "type": "string",
+                    "format": "email"
+                  }
+                }
+              }
+            }
+          },
+          "date_coverage_effective": {
+            "id": "http://enroll.dchealthlink.com/subscriber_plans/0/date_coverage_effective",
+            "type": "string",
+            "description": "date on which plan coverage becomes effective",
+            "format": "date"
+          },
+          "date_coverage_terminated": {
+            "id": "http://enroll.dchealthlink.com/subscriber_plans/0/date_coverage_terminated",
+            "type": "string",
+            "description": "date on which plan coverage ends",
+            "format": "date"
+          },
+          "dc_health_link_id": {
+            "id": "http://enroll.dchealthlink.com/subscriber_plans/0/dc_health_link_id",
+            "type": "string",
+            "description": "unique numeric id"
+          },
+          "members_covered": {
+            "id": "http://enroll.dchealthlink.com/subscriber_plans/0/members_covered",
+            "type": "array",
+            "items": {
+              "id": "http://enroll.dchealthlink.com/subscriber_plans/0/members_covered/1",
+              "type": "string",
+              "description": "First name of covered family member"
+            },
+            "minItems": "1"
+          },
+          "raw_monthly_premium": {
+            "id": "http://enroll.dchealthlink.com/subscriber_plans/0/raw_monthly_premium",
+            "type": "number",
+            "description": "monthly premium in dollars, before APTC offset"
+          },
+          "aptc_applied": {
+            "id": "http://enroll.dchealthlink.com/subscriber_plans/0/aptc_applied",
+            "type": "number",
+            "description": "monthly dollar amount of APTC applied to premium"
+          },
+          "date_selected": {
+            "id": "http://enroll.dchealthlink.com/subscriber_plans/0/date_selected",
+            "type": "string",
+            "description": "date and time plan coverage was selected by user or automatic renewal",
+            "format": "date-time"
+          },
+          "coverage_status": {
+            "id": "http://enroll.dchealthlink.com/subscriber_plans/0/status",
+            "type": "string",
+            "enum": [
+              "selected",
+              "canceled",
+              "terminated",
+              "enrolled",
+              null]
+          },
+          "document_validation_status": {
+            "id": "http://enroll.dchealthlink.com/subscriber_plans/0/document_validation_status",
+            "type": "string",
+            "enum" : [ "verified", "unverified"]
+          }
+        }
+      },
+      "minItems": "0"
+    },
+    "broker": {
+      "id": "http://enroll.dchealthlink.com/broker",
+      "type": "object",
+      "properties": {
+        "name": {
+          "id": "http://enroll.dchealthlink.com/broker/name",
+          "type": "string"
+        },
+        "broker_contact_info": {
+          "id": "http://enroll.dchealthlink.com/broker/broker_contact_info",
+          "type": "object",
+          "properties": {
+            "phone": {
+              "id": "http://enroll.dchealthlink.com/broker/broker_contact_info/phone",
+              "type": "string",
+              "format": "phone"
+            },
+            "email": {
+              "id": "http://enroll.dchealthlink.com/broker/broker_contact_info/email",
+              "type": "string",
+              "format": "email"
+            }
+          }
+        }
+      }
+    }
+  }
+}
