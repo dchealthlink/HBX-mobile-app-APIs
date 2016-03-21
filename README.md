@@ -9,5 +9,5 @@ Workflow:
 3. Inside that same session, the mobile app hits a "My Account" API URL (to be determined by the EnrollApp team) such as: 
     `GET https://enroll.dchealthlink.org/api/my-account/`
 4. The following JSON payload is returned:
-  * [schema](https://github.com/benjaminrosenbaum/HBX-mobile-app-APIs/blob/master/enroll/my-account/response/schema.json)
+  * [schema](blob/master/enroll/my-account/response/schema.json)
   * [example](https://github.com/benjaminrosenbaum/HBX-mobile-app-APIs/blob/master/enroll/my-account/response/example.json)
