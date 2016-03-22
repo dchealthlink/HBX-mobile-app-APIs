@@ -1,13 +1,19 @@
 # HBX-mobile-app-APIs
 Specifications and resources for mobile apps needed by the HBX mobile app
 
-## "My Account" API (Enroll App)
-
-### Workflow - Individual/Family or Employee User (MVP):
-
+### Context - Mobile App calls to EnrollApp APIs
 1. The mobile app connects to IAM, passing user credentials, to retrieve a valid SAML token
 2. The mobile app connects to the EnrollApp session API to establish a session, passing the SAML token
-3. Inside that same session, the mobile app hits a "My Account" API URL (to be determined by the EnrollApp team) such as: 
+3. The mobile app calls an API from within that session
+
+## Core EnrollApp APIs
+
+### "My Account" API (Enroll App)
+ * *exposed by: EnrollApp*
+ * *called by: mobile app*
+
+* Simple case: Individual/Family or Employee User (MVP):
+URL to be determined by the EnrollApp team, e.g.: 
     `GET https://enroll.dchealthlink.org/api/my-account/`
 4. The following JSON payload is returned:
   * [schema](enroll/my-account/response/schema.json)
@@ -24,9 +30,8 @@ TODO
 ## Notifications APIs
 
 ### "Dispatch Notification"
- *exposed by: Notifications Server*
-
-* *called by: EnrollApp*
+ * *exposed by: Notifications Server*
+ * *called by: EnrollApp*
 TODO
 
 ### (Google & Apple Push Notification APIs)
