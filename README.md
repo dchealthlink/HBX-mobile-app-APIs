@@ -9,9 +9,21 @@ Specifications and resources for mobile apps needed by the HBX mobile app
 
 # List of APIs
 
+## Security APIs (IAM)
+
+### Web Service to create a new user account
+* *exposed by: IAM*
+* *called by: mobile app*
+* TBD
+ 
+### Web Service to log in to an existing user account 
+* *exposed by: IAM*
+* *called by: mobile app*
+* Returns a SAML token to pass to EnrollApp's _create session_ API
+
 ## Core EnrollApp APIs
 
-### "My Account" API (Enroll App)
+### "My Account" API 
  * *exposed by: EnrollApp*
  * *called by: mobile app*
 
@@ -26,6 +38,9 @@ URL to be determined by the EnrollApp team, e.g.:
 
 Possibly, the enroller or broker may be able to get a list of accounts they manage (employees, clients), and then call the above API with a user id, and receive the same payload if authorized to see it
 e.g. `GET https://enroll.dchealthlink.org/api/my-account/12345`
+
+### "Available Plans" API 
+
 
 ## Document Store API
 TODO 
