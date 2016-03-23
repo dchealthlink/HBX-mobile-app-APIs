@@ -6,6 +6,7 @@
          "type": "HMO",
          "care_type" : "medical",
          "level": "BRONZE",
+         "offered_through": "Pollo Loco Food Trucks Inc.",
          "benefits_summary_url": "http://hmo.bluechoice.bcbs.com/summary555.pdf",
          "carrier_contact_info": {
             "phone" : "+13015456767",
@@ -26,7 +27,9 @@
          "plan" : {  
          "name": "Kaiser DENTAL Plan",
          "type": "HMO",
-         "care_type" : "dental",         
+         "care_type" : "dental",
+         "offered_through": "Pollo Loco Food Trucks Inc.",
+         "benefits_summary_url": "http://kaiserdental.com/summary123.pdf",         
          "carrier_contact_info": {
             "phone" : "+12025456667"
           }
