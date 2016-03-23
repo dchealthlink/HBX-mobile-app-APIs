@@ -23,9 +23,17 @@ Specifications and resources for mobile apps needed by the HBX mobile app
 
 ## Core EnrollApp APIs
 
+### Registration and Login APIs
+name parts, dob, ssn -> matching returns list of companies, choose company -> match with existing personid, employer
+-- if existing user acct, send to account recovery
+need home address -- validate personal/contact info
+family members & relationships (eligibility for coverage, differntial employer contributions by relationship)
+
+
 ### "My Account" API 
  * *exposed by: EnrollApp*
  * *called by: mobile app*
+ * Returns information about the account, including accountholder info, broker, and plans (
 
 * Simple case: Individual/Family or Employee User (MVP):
 URL to be determined by the EnrollApp team, e.g.: 
@@ -40,6 +48,10 @@ Possibly, the enroller or broker may be able to get a list of accounts they mana
 e.g. `GET https://enroll.dchealthlink.org/api/my-account/12345`
 
 ### "Available Plans" API 
+ * *exposed by: EnrollApp*
+ * *called by: mobile app*
+ 
+--> consider reason for enrollment, life events etc
 
 
 ## Document Store API
