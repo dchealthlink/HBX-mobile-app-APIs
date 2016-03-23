@@ -1,10 +1,13 @@
 # HBX-mobile-app-APIs
 Specifications and resources for mobile apps needed by the HBX mobile app
 
-### Context - Mobile App calls to EnrollApp APIs
+## Context 
+### _How does the Mobile App call the EnrollApp APIs?_
 1. The mobile app connects to IAM, passing user credentials, to retrieve a valid SAML token
 2. The mobile app connects to the EnrollApp session API to establish a session, passing the SAML token
 3. The mobile app calls an API from within that session
+
+# List of APIs
 
 ## Core EnrollApp APIs
 
