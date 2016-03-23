@@ -22,7 +22,7 @@ URL to be determined by the EnrollApp team, e.g.:
   * [schema](enroll/my-account/response/schema.json)
   * [example](enroll/my-account/response/example.json)
   
-### Variation - Employer or Broker (post-MVP):
+#### Variation - Employer or Broker (post-MVP):
 
 Possibly, the enroller or broker may be able to get a list of accounts they manage (employees, clients), and then call the above API with a user id, and receive the same payload if authorized to see it
 e.g. `GET https://enroll.dchealthlink.org/api/my-account/12345`
