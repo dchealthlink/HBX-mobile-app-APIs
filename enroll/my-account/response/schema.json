@@ -49,6 +49,11 @@
                    null
                 ]
               },
+              "offered_through": {
+                "id": "http://enroll.dchealthlink.com/subscriber_plans/0/plan/offered_through",
+                "type": "string",
+                "description": "For SHOP employees, name of employer offering the plan"
+              },
               "benefits_summary_url": {
                 "id": "http://enroll.dchealthlink.com/subscriber_plans/0/plan/benefits_summary_url",
                 "type": "string",
