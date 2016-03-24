@@ -1,6 +1,29 @@
 # HBX-mobile-app-APIs
 Specifications and resources for mobile apps needed by the HBX mobile app
 
+## APIs needed - Iteration 0
+
+Iteration 0 of the mobile app targets SHOP employees who have already enrolled and received coverage, and allows them to check their coverage details.
+
+## APIs needed - Iteration 1
+
+Iteration 1 of the mobile app targets SHOP employees and provides end-to-end registration, shopping, and account details.
+
+## APIs needed - Iteration 2
+
+Iteration 2 of the mobile app targets SHOP employees and provides them with notifications and the opportunity to upload documents
+
+## APIs needed - Iteration 3
+
+Iteration 3 of the mobile app targets SHOP employees and provides them with the ability to register Life Events and submit appropriate documentation
+
+## APIs needed - Iteration 4
+
+Iteration 4 of the mobile app targets SHOP _employers_ and allows them to view their roster of employees and those employees' statuses and coverage info, as well as administer their plan offerings. N.B.: Priorities & feature inclusions for Iteration 4 are still being determined.
+
+
+
+
 ## Context 
 ### _How does the Mobile App call the EnrollApp APIs?_
 1. The mobile app connects to IAM, passing user credentials, to retrieve a valid SAML token
@@ -10,6 +33,8 @@ Specifications and resources for mobile apps needed by the HBX mobile app
 # List of APIs
 
 ## Security APIs (IAM)
+
+
 
 ### Web Service to create a new user account
 * *exposed by: IAM*
