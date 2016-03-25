@@ -4,8 +4,8 @@
          "plan" : {  
          "name":"BlueChoice HMO HSA Bronze $6,550",
          "type": "HMO",
-         "care_type" : "medical",
-         "level": "BRONZE",
+         "coverage_kind" : "health",
+         "metal_level": "BRONZE",
          "offered_through": "Pollo Loco Food Trucks Inc.",
          "benefits_summary_url": "http://hmo.bluechoice.bcbs.com/summary555.pdf",
          "carrier_contact_info": {
@@ -27,7 +27,7 @@
          "plan" : {  
          "name": "Kaiser DENTAL Plan",
          "type": "HMO",
-         "care_type" : "dental",
+         "coverage_kind" : "dental",
          "offered_through": "Pollo Loco Food Trucks Inc.",
          "benefits_summary_url": "http://kaiserdental.com/summary123.pdf",         
          "carrier_contact_info": {
