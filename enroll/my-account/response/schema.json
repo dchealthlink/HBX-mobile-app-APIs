@@ -27,25 +27,25 @@
                    "POS"
                 ]
               },
-              "care_type": {
+              "coverage_kind": {
                 "id": "http://enroll.dchealthlink.com/subscriber_plans/0/plan/care_type",
                 "type": "string",
-                "description": "dental or medical plan",
+                "description": "dental or health plan",
                 "enum": [
                    "dental",
-                   "medical"
+                   "health"
                 ]
               },
-              "level": {
+              "metal_level": {
                 "id": "http://enroll.dchealthlink.com/subscriber_plans/0/plan/level",
                 "type": "string",
                 "description": "metal level of plan",
                 "enum": [
-                   "BRONZE",
-                   "SILVER",
-                   "GOLD",
-                   "PLATINUM",
-                   "CATASTROPHIC",
+                   "bronze",
+                   "silver",
+                   "gold",
+                   "platinum",
+                   "catastrophic",
                    null
                 ]
               },
