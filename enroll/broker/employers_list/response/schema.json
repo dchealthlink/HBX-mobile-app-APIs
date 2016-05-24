@@ -1,0 +1,180 @@
+
+
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "title": "Broker Employers List",
+  "description": "List of employers who are clients of a given broker",
+  "properties": {
+    "broker_clients": {
+      "type": "array",
+      "title": "Broker_clients schema.",
+      "description": "the list of employer clients of a broker",
+      "items": {
+        "type": "object",
+        "title": "3 schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "properties": {
+          "employer_name": {
+            "type": "string",
+            "title": "Employer_name schema.",
+            "description": "An explanation about the purpose of this instance."
+          },
+          "open_enrollment_begins": {
+            "type": "null",
+            "title": "Open_enrollment_begins schema.",
+            "description": "An explanation about the purpose of this instance."
+          },
+          "open_enrollment_ends": {
+            "type": "string",
+            "title": "Open_enrollment_ends schema.",
+            "description": "An explanation about the purpose of this instance."
+          },
+          "plan_year_begins": {
+            "type": "string",
+            "title": "Plan_year_begins schema.",
+            "description": "An explanation about the purpose of this instance."
+          },
+          "renewal_applicable_available": {
+            "type": "string",
+            "title": "Renewal_applicable_available schema.",
+            "description": "An explanation about the purpose of this instance."
+          },
+          "renewal_application_due": {
+            "type": "string",
+            "title": "Renewal_application_due schema.",
+            "description": "An explanation about the purpose of this instance."
+          },
+          "renewal_in_progress": {
+            "type": "string",
+            "title": "Renewal_in_progress schema.",
+            "description": "An explanation about the purpose of this instance."
+          },
+          "binder_payment_due": {
+            "type": "null",
+            "title": "Binder_payment_due schema.",
+            "description": "An explanation about the purpose of this instance."
+          },
+          "employees_total": {
+            "type": "integer",
+            "title": "Employees_total schema.",
+            "description": "An explanation about the purpose of this instance."
+          },
+          "employees_enrolled": {
+            "type": "integer",
+            "title": "Employees_enrolled schema.",
+            "description": "An explanation about the purpose of this instance."
+          },
+          "employees_waived": {
+            "type": "integer",
+            "title": "Employees_waived schema.",
+            "description": "An explanation about the purpose of this instance."
+          },
+          "minimum_participation_required": {
+            "type": "integer",
+            "title": "Minimum_participation_required schema.",
+            "description": "An explanation about the purpose of this instance."
+          },
+          "estimated premium": {
+            "type": "object",
+            "title": "Estimated premium schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "properties": {
+              "premium_date": {
+                "type": "string",
+                "title": "Premium_date schema.",
+                "description": "An explanation about the purpose of this instance."
+              },
+              "employee_contribution": {
+                "type": "integer",
+                "title": "Employee_contribution schema.",
+                "description": "An explanation about the purpose of this instance."
+              },
+              "employer_contribution": {
+                "type": "integer",
+                "title": "Employer_contribution schema.",
+                "description": "An explanation about the purpose of this instance."
+              }
+            },
+            "required": [
+              "premium_date",
+              "employee_contribution",
+              "employer_contribution"
+            ]
+          },
+          "contact_info": {
+            "type": "object",
+            "title": "Contact_info schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "properties": {
+              "phone": {
+                "type": "string",
+                "title": "Phone schema.",
+                "description": "An explanation about the purpose of this instance."
+              },
+              "email": {
+                "type": "string",
+                "title": "Email schema.",
+                "description": "An explanation about the purpose of this instance."
+              },
+              "address_1": {
+                "type": "string",
+                "title": "Address_1 schema.",
+                "description": "An explanation about the purpose of this instance."
+              },
+              "address_2": {
+                "type": "null",
+                "title": "Address_2 schema.",
+                "description": "An explanation about the purpose of this instance."
+              },
+              "city": {
+                "type": "string",
+                "title": "City schema.",
+                "description": "An explanation about the purpose of this instance."
+              },
+              "state": {
+                "type": "string",
+                "title": "State schema.",
+                "description": "An explanation about the purpose of this instance."
+              },
+              "zip": {
+                "type": "string",
+                "title": "Zip schema.",
+                "description": "An explanation about the purpose of this instance."
+              }
+            },
+            "required": [
+              "phone",
+              "email",
+              "address_1",
+              "address_2",
+              "city",
+              "state",
+              "zip"
+            ]
+          }
+        },
+        "required": [
+          "employer_name",
+          "open_enrollment_begins",
+          "open_enrollment_ends",
+          "plan_year_begins",
+          "renewal_applicable_available",
+          "renewal_application_due",
+          "renewal_in_progress",
+          "binder_payment_due",
+          "employees_total",
+          "employees_enrolled",
+          "employees_waived",
+          "minimum_participation_required",
+          "estimated premium",
+          "contact_info"
+        ]
+      }
+    }
+  },
+  "required": [
+    "broker_clients"
+  ]
+}
+
