@@ -1,117 +1,205 @@
 {
-  "broker_clients":
-   [
-     {
-       "employer_name": "Courage, LLC",
-       "open_enrollment_begins" : "05-01-2016",
-       "open_enrollment_ends" : "06-13-2016",
-       "plan_year_begins": "07-01-2016",
-       "renewal_applicable_available": "04-01-2016",
-       "renewal_application_due": "06-10-2016",
-       "renewal_in_progress": "false",
-       "binder_payment_due": "06-12-2016",
-       "employees_total": 20,
-       "employees_enrolled": 5,
-       "employees_waived": 0,
-       "minimum_participation_required": 10,
-       "estimated premium": {
-          "premium_date": "05-01-2016",
-          "employee_contribution": 3237.00,
-          "employer_contribution": 9321.00
-       },
-       "contact_info": {
-          "phone": "202-444-9000",
-          "email": "contact@couragellc.com",
-          "address_1": "1600 Pennsylvania Avenue",
-          "address_2": null,
-          "city": "Washington",
-          "state": "DC",
-          "zip": "20500"
-       }   
-     },
-     {
-       "employer_name": "District Yoga",
-       "open_enrollment_begins" : "05-11-2016",
-       "open_enrollment_ends" : "06-13-2016",
-       "plan_year_begins": "07-01-2016",
-       "renewal_applicable_available": "04-01-2016",
-       "renewal_application_due": "06-10-2016",
-       "renewal_in_progress": "false",
-       "binder_payment_due": null,
-       "employees_total": 30,
-       "employees_enrolled": 20,
-       "employees_waived": 3,
-       "minimum_participation_required": 20,
-       "estimated premium": {
-          "premium_date": "05-01-2016",
-          "employee_contribution": 3447.00,
-          "employer_contribution": 3001.00
-       },
-       "contact_info": {
-          "phone": "202-444-9000",
-          "email": "contact@districtyoga.com",
-          "address_1": "1600 New York Avenue",
-          "address_2": null,
-          "city": "Washington",
-          "state": "DC",
-          "zip": "20500"
-       }     
-     },
-     {
-       "employer_name": "DC Cupcakes",
-       "open_enrollment_begins" : null,
-       "open_enrollment_ends" : "12-13-2016",
-       "plan_year_begins": "01-01-2016",
-       "renewal_applicable_available": "08-01-2016",
-       "renewal_application_due": "11-10-2016",
-       "renewal_in_progress": "false",
-       "binder_payment_due": null,
-       "employees_total": 50,
-       "employees_enrolled": 40,
-       "employees_waived": 7,
-       "minimum_participation_required": 35,
-       "estimated premium": {
-          "premium_date": "05-01-2016",
-          "employee_contribution": 93447.00,
-          "employer_contribution": 8001.00
-       },
-       "contact_info": {
-          "phone": "202-444-9000",
-          "email": "contact@dccupcakes.com",
-          "address_1": "1600 Rhode Island Avenue",
-          "address_2": null,
-          "city": "Washington",
-          "state": "DC",
-          "zip": "20500"
-       }     
-     },
-     {
-       "employer_name": "Bistrot Du Coin",
-       "open_enrollment_begins" : null,
-       "open_enrollment_ends" : "07-13-2016",
-       "plan_year_begins": "08-01-2016",
-       "renewal_applicable_available": "05-01-2016",
-       "renewal_application_due": "07-10-2016",
-       "renewal_in_progress": "true",
-       "binder_payment_due": null, 
-       "employees_total": 30,
-       "employees_enrolled": 20,
-       "employees_waived": 3,
-       "minimum_participation_required": 20,
-       "estimated premium": {
-          "premium_date": "05-01-2016",
-          "employee_contribution": 5447.00,
-          "employer_contribution": 6644.00
-       },
-       "contact_info": {
-          "phone": "202-444-9000",
-          "email": "contact@bistroducoin.com",
-          "address_1": "1600 New Hampshire Avenue",
-          "address_2": null,
-          "city": "Washington",
-          "state": "DC",
-          "zip": "20500"
-       }     
-     }
- ]
+    "broker_agency" : "Bob's Brokers",
+    
+    "broker_clients": [
+            {
+            "employer_name": "Courage, LLC",
+            "open_enrollment_begins" : "05-01-2016",
+            "open_enrollment_ends" : "06-13-2016",
+            "plan_year_begins": "07-01-2016",
+            "renewal_applicable_available": "04-01-2016",
+            "renewal_application_due": "06-10-2016",
+            "renewal_in_progress": "false",
+            "binder_payment_due": "06-12-2016",
+            "employees_total": 20,
+            "employees_enrolled": 5,
+            "employees_waived": 0,
+            "minimum_participation_required": 10,
+            "estimated_premium": {
+                "premium_date": "05-01-2016",
+                "employee_contribution": 3237.00,
+                "employer_contribution": 9321.00
+                },
+            "contact_info": {
+                "phone": "202-444-9000",
+                "email": "contact@couragellc.com",
+                "address_1": "1600 Pennsylvania Avenue",
+                "address_2": null,
+                "city": "Washington",
+                "state": "DC",
+                "zip": "20500"
+                }
+            },
+            {
+            "employer_name": "National Network to End Domestic Violence",
+            "open_enrollment_begins" : "05-01-2016",
+            "open_enrollment_ends" : "06-13-2016",
+            "plan_year_begins": "08-01-2016",
+            "renewal_applicable_available": "05-01-2016",
+            "renewal_application_due": "06-10-2016",
+            "renewal_in_progress": "false",
+            "binder_payment_due": null,
+            "employees_total": 41,
+            "employees_enrolled": 10,
+            "employees_waived": 5,
+            "minimum_participation_required": 24,
+            "estimated_premium": {
+                "premium_date": "05-01-2016",
+                "employee_contribution": 5447.00,
+                "employer_contribution": 6644.00
+                },
+            "contact_info": {
+                "phone": "202-444-9000",
+                "email": "contact@bistroducoin.com",
+                "address_1": "1600 New Hampshire Avenue",
+                "address_2": null,
+                "city": "Washington",
+                "state": "DC",
+                "zip": "20500"
+                }
+            },
+            {
+            "employer_name": "District Yoga",
+            "open_enrollment_begins" : "05-11-2016",
+            "open_enrollment_ends" : "06-13-2016",
+            "plan_year_begins": "07-01-2016",
+            "renewal_applicable_available": "04-01-2016",
+            "renewal_application_due": "06-10-2016",
+            "renewal_in_progress": "false",
+            "binder_payment_due": "06-01-2016",
+            "employees_total": 30,
+            "employees_enrolled": 20,
+            "employees_waived": 3,
+            "minimum_participation_required": 20,
+            "estimated_premium": {
+                "premium_date": "05-01-2016",
+                "employee_contribution": 3447.00,
+                "employer_contribution": 3001.00
+                },
+            "contact_info": {
+                "phone": "202-444-9000",
+                "email": "contact@districtyoga.com",
+                "address_1": "1600 New York Avenue",
+                "address_2": null,
+                "city": "Washington",
+                "state": "DC",
+                "zip": "20500"
+                }
+            },
+            {
+            "employer_name": "DC Cupcakes",
+            "open_enrollment_begins" : null,
+            "open_enrollment_ends" : "12-13-2016",
+            "plan_year_begins": "04-01-2016",
+            "renewal_applicable_available": "08-01-2016",
+            "renewal_application_due": "11-10-2016",
+            "renewal_in_progress": "false",
+            "binder_payment_due": null,
+            "employees_total": 50,
+            "employees_enrolled": 40,
+            "employees_waived": 7,
+            "minimum_participation_required": 35,
+            "estimated_premium": {
+                "premium_date": "05-01-2016",
+                "employee_contribution": 93447.00,
+                "employer_contribution": 8001.00
+            },
+            "contact_info": {
+                "phone": "202-444-9000",
+                "email": "contact@dccupcakes.com",
+                "address_1": "1600 Rhode Island Avenue",
+                "address_2": null,
+                "city": "Washington",
+                "state": "DC",
+                "zip": "20500"
+                }
+            },
+            {
+            "employer_name": "OPEN Art Studio",
+            "open_enrollment_begins" : "05-01-2016",
+            "open_enrollment_ends" : "07-13-2016",
+            "plan_year_begins": "08-01-2016",
+            "renewal_applicable_available": "05-01-2016",
+            "renewal_application_due": "07-10-2016",
+            "renewal_in_progress": "false",
+            "binder_payment_due": "06-01-2016",
+            "employees_total": 30,
+            "employees_enrolled": 20,
+            "employees_waived": 3,
+            "minimum_participation_required": 20,
+            "estimated_premium": {
+            "premium_date": "05-01-2016",
+            "employee_contribution": 5447.00,
+            "employer_contribution": 6644.00
+            },
+            "contact_info": {
+            "phone": "202-444-9000",
+            "email": "contact@bistroducoin.com",
+            "address_1": "1600 New Hampshire Avenue",
+            "address_2": null,
+            "city": "Washington",
+            "state": "DC",
+            "zip": "20500"
+            }
+            },
+            {
+            "employer_name": "DC Brau Brewing Company",
+            "open_enrollment_begins" : null,
+            "open_enrollment_ends" : "07-13-2016",
+            "plan_year_begins": "08-01-2016",
+            "renewal_applicable_available": "05-01-2016",
+            "renewal_application_due": "07-10-2016",
+            "renewal_in_progress": "true",
+            "binder_payment_due": "05-01-2016",
+            "employees_total": 30,
+            "employees_enrolled": 20,
+            "employees_waived": 3,
+            "minimum_participation_required": 20,
+            "estimated_premium": {
+                "premium_date": "05-01-2016",
+                "employee_contribution": 5447.00,
+                "employer_contribution": 6644.00
+            },
+            "contact_info": {
+                "phone": "202-444-9000",
+                "email": "contact@bistroducoin.com",
+                "address_1": "1600 New Hampshire Avenue",
+                "address_2": null,
+                "city": "Washington",
+                "state": "DC",
+                "zip": "20500"
+                }
+            },
+            {
+            "employer_name": "Bistrot Du Coin",
+            "open_enrollment_begins" : null,
+            "open_enrollment_ends" : "07-13-2016",
+            "plan_year_begins": "08-01-2016",
+            "renewal_applicable_available": "05-01-2016",
+            "renewal_application_due": "07-10-2016",
+            "renewal_in_progress": "true",
+            "binder_payment_due": "06-01-2016",
+            "employees_total": 30,
+            "employees_enrolled": 20,
+            "employees_waived": 3,
+            "minimum_participation_required": 20,
+            "estimated_premium": {
+            "premium_date": "05-01-2016",
+            "employee_contribution": 5447.00,
+            "employer_contribution": 6644.00
+            },
+            "contact_info": {
+            "phone": "202-444-9000",
+            "email": "contact@bistroducoin.com",
+            "address_1": "1600 New Hampshire Avenue",
+            "address_2": null,
+            "city": "Washington",
+            "state": "DC",
+            "zip": "20500"
+            }
+            }
+
+
+]
 }
+
