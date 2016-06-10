@@ -1,7 +1,7 @@
 # HBX-mobile-app-APIs
 Specifications and resources for mobile apps needed by the HBX mobile app
 
-## APIs needed - Version 1 (Broker MVP)
+## APIs needed - Simple Broker App
 
 Iteration 0 of the mobile app targets SHOP brokers, and allows them to do easy management of SHOP employer clients.
 
@@ -17,7 +17,7 @@ The following JSON payloads provide the information that the mobile app needs fo
     
 ## Future Possibilities
 
-### Version 2 (Expanded Broker App) 
+### Expanded Broker App 
 
 The MVP API could be extended, or more endpoints added, to include:
  - roster/enrollment/participation information
@@ -25,11 +25,11 @@ The MVP API could be extended, or more endpoints added, to include:
  - payment and invoice information
 
 
-### Version 3 (Employer MVP)
+### Employer App
  - roster management
  - employee coverage information
 
-Additional versions will target additional customer groups including Employee and Individual users, providing shopping, verification, upload, notifications, etc.
+Additional versions could target additional customer groups including Employee and Individual users, providing shopping, verification, upload, notifications, etc.
 
 ******
 
