@@ -15,11 +15,11 @@ The following JSON payloads provide the information that the mobile app needs fo
      * [schema](enroll/broker/employers_list/response/schema.json)
      * [example](enroll/broker/employers_list/response/example.json)
     
-## Additional APIs needed
+## Future Possibilities
 
 ### Version 2 (Expanded Broker App) 
 
-The MVP API will be extended, or more endpoints added, to include:
+The MVP API could be extended, or more endpoints added, to include:
  - roster/enrollment/participation information
  - employer plan offerings information
  - payment and invoice information
@@ -29,11 +29,7 @@ The MVP API will be extended, or more endpoints added, to include:
  - roster management
  - employee coverage information
 
-### Future versions
- 
-Will target additional customer groups including Employee and Individual users, providing shopping, verification, upload, notifications, etc.
-
-TODO
+Additional versions will target additional customer groups including Employee and Individual users, providing shopping, verification, upload, notifications, etc.
 
 ******
 
