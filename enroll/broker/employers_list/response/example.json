@@ -1,14 +1,15 @@
+
  {
     "broker_agency" : "Bob's Brokers",
     
     "broker_clients": [
             {
             "employer_name": "Courageous Consulting, LLC",
-            "open_enrollment_begins" : "05-01-2016",
-            "open_enrollment_ends" : "06-13-2016",
-            "plan_year_begins": "07-01-2016",
-            "renewal_application_available": "04-01-2016",
-            "renewal_application_due": "06-10-2016",
+            "open_enrollment_begins" : "06-01-2016",
+            "open_enrollment_ends" : "07-13-2016",
+            "plan_year_begins": "08-01-2016",
+            "renewal_application_available": "05-01-2016",
+            "renewal_application_due": "07-10-2016",
             "renewal_in_progress": "false",
             "binder_payment_due": null,
             "employees_total": 30,
@@ -32,11 +33,11 @@
             },
             {
             "employer_name": "National Network to End Domestic Abuse",
-            "open_enrollment_begins" : "05-01-2016",
-            "open_enrollment_ends" : "06-13-2016",
+            "open_enrollment_begins" : "06-01-2016",
+            "open_enrollment_ends" : "07-13-2016",
             "plan_year_begins": "08-01-2016",
             "renewal_application_available": "05-01-2016",
-            "renewal_application_due": "06-10-2016",
+            "renewal_application_due": "07-10-2016",
             "renewal_in_progress": "false",
             "binder_payment_due": null,
             "employees_total": 41,
@@ -60,11 +61,11 @@
             },
             {
             "employer_name": "District Yoga",
-            "open_enrollment_begins" : "05-11-2016",
-            "open_enrollment_ends" : "06-13-2016",
-            "plan_year_begins": "07-01-2016",
-            "renewal_application_available": "04-01-2016",
-            "renewal_application_due": "06-10-2016",
+            "open_enrollment_begins" : "06-01-2016",
+            "open_enrollment_ends" : "07-13-2016",
+            "plan_year_begins": "08-01-2016",
+            "renewal_application_available": "05-01-2016",
+            "renewal_application_due": "07-10-2016",
             "renewal_in_progress": "false",
             "binder_payment_due": null,
             "employees_total": 30,
@@ -89,10 +90,10 @@
             {
             "employer_name": "DC Cupcakes",
             "open_enrollment_begins" : null,
-            "open_enrollment_ends" : "12-13-2016",
-            "plan_year_begins": "04-01-2016",
+            "open_enrollment_ends" : "10-13-2016",
+            "plan_year_begins": "11-01-2016",
             "renewal_application_available": "08-01-2016",
-            "renewal_application_due": "11-10-2016",
+            "renewal_application_due": "10-10-2016",
             "renewal_in_progress": "false",
             "binder_payment_due": null,
             "employees_total": 50,
@@ -116,7 +117,7 @@
             },
             {
             "employer_name": "OPEN Art Studio",
-            "open_enrollment_begins" : "05-01-2016",
+            "open_enrollment_begins" : "06-01-2016",
             "open_enrollment_ends" : "07-13-2016",
             "plan_year_begins": "08-01-2016",
             "renewal_application_available": "05-01-2016",
@@ -200,4 +201,3 @@
             }
     ]
 }
-
