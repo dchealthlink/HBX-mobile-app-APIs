@@ -64,8 +64,9 @@ end
 
 
 in_open_enrollment = plan_starting_in(2, true)
-later = plan_starting_in(5, false)
 in_renewal = plan_starting_in(2, false)
+later = plan_starting_in(5, false)
+even_later = plan_starting_in(9, false)
 
 
 
@@ -241,6 +242,78 @@ text = """
                 \"zip\": \"20500\"
                 },
             \"active_general_agency\": \"ACME General Agency, Inc.\"
+            },
+            {
+            \"employer_name\": \"Strategy & Tactics Game Shop\",
+            #{later.date_fields},
+            \"renewal_in_progress\": \"false\",
+            \"binder_payment_due\": null,
+            \"employees_total\": 6,
+            \"employees_enrolled\": 2,
+            \"employees_waived\": 2,
+            \"minimum_participation_required\": 4,
+            \"estimated_premium\": {
+                \"employee_contribution\": 22447.00,
+                \"employer_contribution\": 33041.00
+                },
+            \"contact_info\": {
+                \"phone\": \"202-444-9000\",
+                \"email\": \"contact@stgames.com\",
+                \"address_1\": \"1500 Arizona Avenue\",
+                \"address_2\": null,
+                \"city\": \"Washington\",
+                \"state\": \"DC\",
+                \"zip\": \"20170\"
+                },
+            \"active_general_agency\": null
+            },
+            {
+            \"employer_name\": \"Portia's Tea Bar\",
+            #{even_later.date_fields},
+            \"renewal_in_progress\": \"false\",
+            \"binder_payment_due\": null,
+            \"employees_total\": 12,
+            \"employees_enrolled\": 9,
+            \"employees_waived\": 2,
+            \"minimum_participation_required\": 8,
+            \"estimated_premium\": {
+                \"employee_contribution\": 52447.00,
+                \"employer_contribution\": 63041.00
+                },
+            \"contact_info\": {
+                \"phone\": \"202-468-6571\",
+                \"email\": \"portia@portiasteabar.com\",
+                \"address_1\": \"100 M St NW\",
+                \"address_2\": null,
+                \"city\": \"Washington\",
+                \"state\": \"DC\",
+                \"zip\": \"20110\"
+                },
+            \"active_general_agency\": null
+            },
+            {
+            \"employer_name\": \"J. Grigory Food Trucks & Fine Comestibles\",
+            #{even_later.date_fields},
+            \"renewal_in_progress\": \"false\",
+            \"binder_payment_due\": null,
+            \"employees_total\": 66,
+            \"employees_enrolled\": 50,
+            \"employees_waived\": 0,
+            \"minimum_participation_required\": 44,
+            \"estimated_premium\": {
+                \"employee_contribution\": 152447.00,
+                \"employer_contribution\": 163041.00
+                },
+            \"contact_info\": {
+                \"phone\": \"202-468-6571\",
+                \"email\": \"info@jgrigoryfoods.com\",
+                \"address_1\": \"100 M St NE\",
+                \"address_2\": null,
+                \"city\": \"Washington\",
+                \"state\": \"DC\",
+                \"zip\": \"20110\"
+                },
+            \"active_general_agency\": null
             }
     ]
 }
