@@ -47,8 +47,12 @@ class PlanYear
     end
 end
 
+
+def now 
+    Date.parse(Time.now.to_s)
+end
+
 def plan_starting_in(months, in_open_enrollment)
-    now = Date.parse(Time.now.to_s)
     PlanYear.new( (now >> months).on(1), in_open_enrollment)
 end
 
@@ -61,14 +65,14 @@ def fmt(dt)
     end
 end
 
-
+min_months_to_renew = if now.mday < 10 then 2 else 1
+min_months_to_enroll = if now.mday < 13 then 2 else 1
 
 in_open_enrollment = plan_starting_in(2, true)
+late_open_enrollment = plan_starting_in(min_months_to_enroll, true)
 in_renewal = plan_starting_in(2, false)
-later = plan_starting_in(5, false)
-even_later = plan_starting_in(9, false)
-
-
+early_renewal  = plan_starting_in(3, false)
+late_to_renewal = plan_starting_in(min_months_to_renew, false)
 
 text = """
  {
@@ -77,7 +81,7 @@ text = """
     \"broker_clients\": [
             {
             \"employer_name\": \"Courageous Consulting, LLC\",
-            #{in_open_enrollment.date_fields},
+            #{late_open_enrollment.date_fields},
             \"renewal_in_progress\": \"false\",
             \"binder_payment_due\": null,
             \"employees_total\": 30,
@@ -90,7 +94,7 @@ text = """
                 },
             \"contact_info\": {
                 \"phone\": \"202-468-6571\",
-                \"email\": \"contact@courageous-consulting.com\",
+                \"emails\": [\"contact@courageous-consulting.com\", \"info@courageous-consulting.net\"],
                 \"address_1\": \"1600 Pennsylvania Avenue\",
                 \"address_2\": null,
                 \"city\": \"Washington\",
@@ -114,7 +118,7 @@ text = """
                 },
             \"contact_info\": {
                 \"phone\": \"202-444-9000\",
-                \"email\": \"contact@endabuse.org\",
+                \"emails\": [\"contact@endabuse.org\"],
                 \"address_1\": \"1600 New Hampshire Avenue\",
                 \"address_2\": null,
                 \"city\": \"Washington\",
@@ -138,7 +142,7 @@ text = """
                 },
             \"contact_info\": {
                 \"phone\": \"202-444-9000\",
-                \"email\": \"contact@districtyoga.com\",
+                \"emails\": [\"contact@districtyoga.com\"],
                 \"address_1\": \"1600 New York Avenue\",
                 \"address_2\": null,
                 \"city\": \"Washington\",
@@ -149,7 +153,7 @@ text = """
             },
             {
             \"employer_name\": \"DC Cupcakes\",
-            #{later.date_fields},
+            #{plan_starting_in(5, false).date_fields},
             \"renewal_in_progress\": \"false\",
             \"binder_payment_due\": null,
             \"employees_total\": 50,
@@ -162,7 +166,7 @@ text = """
                 },
             \"contact_info\": {
                 \"phone\": \"202-444-9000\",
-                \"email\": \"contact@dccupcakes.com\",
+                \"emails\": [\"contact@dccupcakes.com\"],
                 \"address_1\": \"1600 Rhode Island Avenue\",
                 \"address_2\": null,
                 \"city\": \"Washington\",
@@ -173,7 +177,7 @@ text = """
             },
             {
             \"employer_name\": \"OPEN Art Studio\",
-            #{in_open_enrollment.date_fields},
+            #{late_open_enrollment.date_fields},
             \"renewal_in_progress\": \"false\",
             \"binder_payment_due\": null,
             \"employees_total\": 30,
@@ -186,7 +190,7 @@ text = """
                 },
             \"contact_info\": {
                 \"phone\": \"202-444-9000\",
-                \"email\": \"contact@openart.org\",
+                \"emails\": [\"contact@openart.org\"],
                 \"address_1\": \"1600 New Hampshire Avenue\",
                 \"address_2\": null,
                 \"city\": \"Washington\",
@@ -210,7 +214,7 @@ text = """
                 },
             \"contact_info\": {
                 \"phone\": \"202-444-9000\",
-                \"email\": \"contact@bistroducoin.com\",
+                \"emails\": [\"contact@bistroducoin.com\"],
                 \"address_1\": \"1600 New Hampshire Avenue\",
                 \"address_2\": null,
                 \"city\": \"Washington\",
@@ -221,7 +225,7 @@ text = """
             },
             {
             \"employer_name\": \"Bistrot Du Monde\",
-            #{in_renewal.date_fields},
+            #{late_to_renewal.date_fields},
             \"renewal_in_progress\": \"true\",
             \"binder_payment_due\": null,
             \"employees_total\": 30,
@@ -234,7 +238,7 @@ text = """
                 },
             \"contact_info\": {
                 \"phone\": \"202-444-9000\",
-                \"email\": \"contact@bistrodumonde.com\",
+                \"emails\": [\"contact@bistrodumonde.com\"],
                 \"address_1\": \"1600 New Hampshire Avenue\",
                 \"address_2\": null,
                 \"city\": \"Washington\",
@@ -245,7 +249,7 @@ text = """
             },
             {
             \"employer_name\": \"Strategy & Tactics Game Shop\",
-            #{later.date_fields},
+            #{plan_starting_in(8, false).date_fields},
             \"renewal_in_progress\": \"false\",
             \"binder_payment_due\": null,
             \"employees_total\": 6,
@@ -258,7 +262,7 @@ text = """
                 },
             \"contact_info\": {
                 \"phone\": \"202-444-9000\",
-                \"email\": \"contact@stgames.com\",
+                \"emails\": [\"contact@stgames.com\"],
                 \"address_1\": \"1500 Arizona Avenue\",
                 \"address_2\": null,
                 \"city\": \"Washington\",
@@ -269,7 +273,7 @@ text = """
             },
             {
             \"employer_name\": \"Portia's Tea Bar\",
-            #{even_later.date_fields},
+            #{plan_starting_in(7, false).date_fields},
             \"renewal_in_progress\": \"false\",
             \"binder_payment_due\": null,
             \"employees_total\": 12,
@@ -282,7 +286,7 @@ text = """
                 },
             \"contact_info\": {
                 \"phone\": \"202-468-6571\",
-                \"email\": \"portia@portiasteabar.com\",
+                \"emails\": [\"portia@portiasteabar.com\", \"portia@helloportia.com\"],
                 \"address_1\": \"100 M St NW\",
                 \"address_2\": null,
                 \"city\": \"Washington\",
@@ -293,7 +297,7 @@ text = """
             },
             {
             \"employer_name\": \"J. Grigory Food Trucks & Fine Comestibles\",
-            #{even_later.date_fields},
+            #{plan_starting_in(6, false).date_fields},
             \"renewal_in_progress\": \"false\",
             \"binder_payment_due\": null,
             \"employees_total\": 66,
@@ -306,7 +310,7 @@ text = """
                 },
             \"contact_info\": {
                 \"phone\": \"202-468-6571\",
-                \"email\": \"info@jgrigoryfoods.com\",
+                \"emails\": [\"info@jgrigoryfoods.com\"],
                 \"address_1\": \"100 M St NE\",
                 \"address_2\": null,
                 \"city\": \"Washington\",
