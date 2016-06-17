@@ -65,8 +65,8 @@ def fmt(dt)
     end
 end
 
-min_months_to_renew = if now.mday < 10 then 2 else 1
-min_months_to_enroll = if now.mday < 13 then 2 else 1
+min_months_to_renew = if now.mday < 10 then 2 else 1 end
+min_months_to_enroll = if now.mday < 13 then 2 else 1 end
 
 in_open_enrollment = plan_starting_in(2, true)
 late_open_enrollment = plan_starting_in(min_months_to_enroll, true)
@@ -240,6 +240,30 @@ text = """
                 \"phone\": \"202-444-9000\",
                 \"emails\": [\"contact@bistrodumonde.com\"],
                 \"address_1\": \"1600 New Hampshire Avenue\",
+                \"address_2\": null,
+                \"city\": \"Washington\",
+                \"state\": \"DC\",
+                \"zip\": \"20500\"
+                },
+            \"active_general_agency\": \"ACME General Agency, Inc.\"
+            },  
+            {
+            \"employer_name\": \"Bistrot Du Bois\",
+            #{early_renewal.date_fields},
+            \"renewal_in_progress\": \"true\",
+            \"binder_payment_due\": null,
+            \"employees_total\": 15,
+            \"employees_enrolled\": 7,
+            \"employees_waived\": 7,
+            \"minimum_participation_required\": 10,
+            \"estimated_premium\": {
+                \"employee_contribution\": 554.00,
+                \"employer_contribution\": 674.00
+                },
+            \"contact_info\": {
+                \"phone\": \"202-468-6571\",
+                \"emails\": [\"contact@bistrodubois.com\"],
+                \"address_1\": \"1600 New York Avenue\",
                 \"address_2\": null,
                 \"city\": \"Washington\",
                 \"state\": \"DC\",
