@@ -65,8 +65,8 @@ def fmt(dt)
     end
 end
 
-min_months_to_renew = if now.mday < 10 then 2 else 1 end
-min_months_to_enroll = if now.mday < 13 then 2 else 1 end
+min_months_to_renew = if now.mday > 10 then 2 else 1 end
+min_months_to_enroll = if now.mday > 13 then 2 else 1 end
 
 in_open_enrollment = plan_starting_in(2, true)
 late_open_enrollment = plan_starting_in(min_months_to_enroll, true)
