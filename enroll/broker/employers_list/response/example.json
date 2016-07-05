@@ -17,20 +17,35 @@
             "employees_waived": 0,
             "minimum_participation_required": 20,
             "estimated_premium": {
-                "employee_contribution": 3237.00,
-                "employer_contribution": 9321.00
+                "employee_contribution": 2125.0,
+                "employer_contribution": 3850.0
                 },
-            "contact_info": [{
-                "phone": "202-468-6571",
-                "emails": ["contact@courageous-consulting.com", "info@courageous-consulting.net"],
-                "address_1": "1600 Pennsylvania Avenue",
-                "address_2": null,
-                "city": "Washington",
-                "state": "DC",
-                "zip": "20500"
+            "contact_info": [
+                {
+                  "first": "Bob",
+                  "last": "Doe",
+                  "phone": "",
+                  "emails": ["bob@courageous-consulting.com"],
+                  "address_1": "",
+                  "address_2": "",
+                  "city": "",
+                  "state": "",
+                  "zip": ""
                 },
+                {
+                  "first": "Primary",
+                  "last": "Office",
+                  "phone": "202-468-6571",
+                  "emails": [""],
+                  "address_1": "1600 Pennsylvania Avenue",
+                  "address_2": "",
+                  "city": "Washington",
+                  "state": "DC",
+                  "zip": "20001"
+                }
+            ],
             "active_general_agency": null
-            }],
+            },
             {
             "employer_name": "National Network to End Domestic Abuse",
             "open_enrollment_begins" : "07-01-2016",
@@ -38,27 +53,42 @@
             "plan_year_begins": "09-01-2016",
             "renewal_application_available": "06-01-2016",
             "renewal_application_due": "08-10-2016",
-            "renewal_in_progress": "false",
+            "renewal_in_progress": "false",            
             "binder_payment_due": null,
             "employees_total": 41,
             "employees_enrolled": 10,
             "employees_waived": 5,
             "minimum_participation_required": 27,
             "estimated_premium": {
-                "employee_contribution": 5447.00,
-                "employer_contribution": 6644.00
+                "employee_contribution": 6081.62,
+                "employer_contribution": 11420.47
                 },
-            "contact_info": [{
-                "phone": "202-444-9000",
-                "emails": ["contact@endabuse.org"],
-                "address_1": "1600 New Hampshire Avenue",
-                "address_2": null,
-                "city": "Washington",
-                "state": "DC",
-                "zip": "20500"
+            "contact_info": [
+                {
+                  "first": "Jane",
+                  "last": "Doe",
+                  "phone": "202-555-0000",
+                  "emails": ["contact@endabuse.org"],
+                  "address_1": "",
+                  "address_2": "",
+                  "city": "",
+                  "state": "",
+                  "zip": ""
                 },
+                {
+                  "first": "Primary",
+                  "last": "Office",
+                  "phone": "202-468-6571",
+                  "emails": [""],
+                  "address_1": "1600 New Hampshire Avenue",
+                  "address_2": "",
+                  "city": "Washington",
+                  "state": "DC",
+                  "zip": "20001"
+                }
+            ],
             "active_general_agency": null
-            }],
+            },
             {
             "employer_name": "District Yoga",
             "open_enrollment_begins" : "07-01-2016",
@@ -73,18 +103,33 @@
             "employees_waived": 3,
             "minimum_participation_required": 20,
             "estimated_premium": {
-                "employee_contribution": 3447.00,
-                "employer_contribution": 3001.00
+                "employee_contribution": 11215.82,
+                "employer_contribution": 20891.71
                 },
-            "contact_info": [{
-                "phone": "202-444-9000",
-                "emails": ["contact@districtyoga.com"],
-                "address_1": "1600 New York Avenue",
-                "address_2": null,
-                "city": "Washington",
-                "state": "DC",
-                "zip": "20500"
-                }],
+            "contact_info": [      
+                {
+                  "first": "Priya",
+                  "last": "Chandragupta",
+                  "phone": "202-468-6571",
+                  "emails": ["contact@districtyoga.com"],
+                  "address_1": "",
+                  "address_2": "",
+                  "city": "",
+                  "state": "",
+                  "zip": ""
+                },
+                {
+                  "first": "Primary",
+                  "last": "Office",
+                  "phone": "202-555-0212",
+                  "emails": [""],
+                  "address_1": "1600 New York Avenue",
+                  "address_2": "",
+                  "city": "Washington",
+                  "state": "DC",
+                  "zip": "20001"
+                }
+            ],
             "active_general_agency": null
             },
             {
@@ -99,20 +144,35 @@
             "employees_total": 50,
             "employees_enrolled": 40,
             "employees_waived": 7,
-            "minimum_participation_required": 35,
+            "minimum_participation_required": 33,
             "estimated_premium": {
-                "employee_contribution": 93447.00,
-                "employer_contribution": 8001.00
+                "employee_contribution": 25767.18,
+                "employer_contribution": 48666.54
                 },
-            "contact_info": [{
-                "phone": "202-444-9000",
-                "emails": ["contact@dccupcakes.com"],
-                "address_1": "1600 Rhode Island Avenue",
-                "address_2": null,
-                "city": "Washington",
-                "state": "DC",
-                "zip": "20500"
-                }],
+            "contact_info": [      
+                {
+                  "first": "Emile",
+                  "last": "Della Noce",
+                  "phone": "202-468-6571",
+                  "emails": ["contact@dccupcakes.com"],
+                  "address_1": "",
+                  "address_2": "",
+                  "city": "",
+                  "state": "",
+                  "zip": ""
+                },
+                {
+                  "first": "Primary",
+                  "last": "Office",
+                  "phone": "202-555-0313",
+                  "emails": [""],
+                  "address_1": "1600 Rhode Island Avenue",
+                  "address_2": "",
+                  "city": "Washington",
+                  "state": "DC",
+                  "zip": "20001"
+                }
+            ],
             "active_general_agency": null
             },
             {
@@ -129,18 +189,44 @@
             "employees_waived": 3,
             "minimum_participation_required": 20,
             "estimated_premium": {
-                "employee_contribution": 5447.00,
-                "employer_contribution": 6644.00
+                "employee_contribution": 11215.82,
+                "employer_contribution": 20891.71
                 },
-            "contact_info": [{
-                "phone": "202-444-9000",
-                "emails": ["contact@openart.org"],
-                "address_1": "1600 New Hampshire Avenue",
-                "address_2": null,
-                "city": "Washington",
-                "state": "DC",
-                "zip": "20500"
-                }],
+            "contact_info": [      
+                {
+                  "first": "Yona",
+                  "last": "Mendelssohn",
+                  "phone": "202-468-6571",
+                  "emails": ["yona@openart.org"],
+                  "address_1": "",
+                  "address_2": "",
+                  "city": "",
+                  "state": "",
+                  "zip": ""
+                },
+                {
+                  "first": "Noam",
+                  "last": "Mendelssohn",
+                  "phone": "202-468-6571",
+                  "emails": ["noam@openart.org"],
+                  "address_1": "",
+                  "address_2": "",
+                  "city": "",
+                  "state": "",
+                  "zip": ""
+                },
+                {
+                  "first": "Primary",
+                  "last": "Office",
+                  "phone": "202-555-0414",
+                  "emails": [""],
+                  "address_1": "1600 Arizona Avenue",
+                  "address_2": "",
+                  "city": "Washington",
+                  "state": "DC",
+                  "zip": "20001"
+                }
+            ],
             "active_general_agency": "Betadyne General Agency, Inc."
             },
             {
@@ -154,21 +240,58 @@
             "binder_payment_due": null,
             "employees_total": 30,
             "employees_enrolled": 20,
-            "employees_waived": 3,
+            "employees_waived": 6,
             "minimum_participation_required": 20,
             "estimated_premium": {
-                "employee_contribution": 5447.00,
-                "employer_contribution": 6644.00
+                "employee_contribution": 12544.07,
+                "employer_contribution": 23628.83
                 },
-            "contact_info": [{
-                "phone": "202-444-9000",
-                "emails": ["contact@bistroducoin.com"],
-                "address_1": "1600 New Hampshire Avenue",
-                "address_2": null,
-                "city": "Washington",
-                "state": "DC",
-                "zip": "20500"
-                }],
+            "contact_info": [      
+                {
+                  "first": "Heinrich",
+                  "last": "Biergarten",
+                  "phone": "202-468-6571",
+                  "emails": ["heini@bestbrau.com"],
+                  "address_1": "",
+                  "address_2": "",
+                  "city": "",
+                  "state": "",
+                  "zip": ""
+                },
+                {
+                  "first": "Ulrich",
+                  "last": "Suufersohn",
+                  "phone": "202-468-6571",
+                  "emails": ["ueli@bestbrau.com"],
+                  "address_1": "",
+                  "address_2": "",
+                  "city": "",
+                  "state": "",
+                  "zip": ""
+                },
+                {
+                  "first": "Primary",
+                  "last": "Office",
+                  "phone": "202-555-0515",
+                  "emails": [""],
+                  "address_1": "1600 Nebraska Avenue",
+                  "address_2": "",
+                  "city": "Washington",
+                  "state": "DC",
+                  "zip": "20001"
+                }
+                {
+                  "first": "Branch",
+                  "last": "Office",
+                  "phone": "202-468-6571",
+                  "emails": [""],
+                  "address_1": "6600 Nebraska Avenue",
+                  "address_2": "",
+                  "city": "Washington",
+                  "state": "DC",
+                  "zip": "20001"
+                }
+            ],
             "active_general_agency": "ACME General Agency, Inc."
             },
             {
@@ -180,23 +303,49 @@
             "renewal_application_due": "07-10-2016",
             "renewal_in_progress": "true",
             "binder_payment_due": null,
-            "employees_total": 30,
+            "employees_total": 33,
             "employees_enrolled": 20,
-            "employees_waived": 3,
-            "minimum_participation_required": 20,
+            "employees_waived": 4,
+            "minimum_participation_required": 22,
             "estimated_premium": {
-                "employee_contribution": 5447.00,
-                "employer_contribution": 6644.00
+                "employee_contribution": 11727.7,
+                "employer_contribution": 21942.9
                 },
-            "contact_info": [{
-                "phone": "202-444-9000",
-                "emails": ["contact@bistrodumonde.com"],
-                "address_1": "1600 New Hampshire Avenue",
-                "address_2": null,
-                "city": "Washington",
-                "state": "DC",
-                "zip": "20500"
-                }],
+            "contact_info": [      
+                {
+                  "first": "Claudette",
+                  "last": "Noire",
+                  "phone": "202-468-6571",
+                  "emails": ["cnoire@dumonde.com"],
+                  "address_1": "",
+                  "address_2": "",
+                  "city": "",
+                  "state": "",
+                  "zip": ""
+                },
+                {
+                  "first": "Aloise",
+                  "last": "Rouge",
+                  "phone": "202-468-6571",
+                  "emails": ["arouge@dumonde.com"],
+                  "address_1": "",
+                  "address_2": "",
+                  "city": "",
+                  "state": "",
+                  "zip": ""
+                },
+                {
+                  "first": "Primary",
+                  "last": "Office",
+                  "phone": "202-555-0005",
+                  "emails": [""],
+                  "address_1": "1600 Louisiana Avenue",
+                  "address_2": "",
+                  "city": "Washington",
+                  "state": "DC",
+                  "zip": "20001"
+                }
+            ],
             "active_general_agency": "ACME General Agency, Inc."
             },  
             {
@@ -213,18 +362,44 @@
             "employees_waived": 7,
             "minimum_participation_required": 10,
             "estimated_premium": {
-                "employee_contribution": 554.00,
-                "employer_contribution": 674.00
+                "employee_contribution": 4509.26,
+                "employer_contribution": 8516.65
                 },
-            "contact_info": [{
-                "phone": "202-468-6571",
-                "emails": ["contact@bistrodubois.com"],
-                "address_1": "1600 New York Avenue",
-                "address_2": null,
-                "city": "Washington",
-                "state": "DC",
-                "zip": "20500"
-                }],
+            "contact_info": [      
+                {
+                  "first": "Claudette",
+                  "last": "Blanc",
+                  "phone": "202-468-6571",
+                  "emails": ["cblan@dubois.com"],
+                  "address_1": "",
+                  "address_2": "",
+                  "city": "",
+                  "state": "",
+                  "zip": ""
+                },
+                {
+                  "first": "Aloise",
+                  "last": "Vert",
+                  "phone": "202-468-6571",
+                  "emails": ["avert@dubois.com"],
+                  "address_1": "",
+                  "address_2": "",
+                  "city": "",
+                  "state": "",
+                  "zip": ""
+                },
+                {
+                  "first": "Primary",
+                  "last": "Office",
+                  "phone": "202-555-0006",
+                  "emails": [""],
+                  "address_1": "1600 Maine Avenue",
+                  "address_2": "",
+                  "city": "Washington",
+                  "state": "DC",
+                  "zip": "20001"
+                }
+            ],
             "active_general_agency": "ACME General Agency, Inc."
             },
             {
@@ -241,18 +416,33 @@
             "employees_waived": 2,
             "minimum_participation_required": 4,
             "estimated_premium": {
-                "employee_contribution": 22447.00,
-                "employer_contribution": 33041.00
+                "employee_contribution": 1058.87,
+                "employer_contribution": 1961.04
                 },
-            "contact_info": [{
-                "phone": "202-444-9000",
-                "emails": ["contact@stgames.com"],
-                "address_1": "1500 Arizona Avenue",
-                "address_2": null,
-                "city": "Washington",
-                "state": "DC",
-                "zip": "20170"
-                }],
+            "contact_info": [      
+                {
+                  "first": "Maria Susanna",
+                  "last": "Ludador",
+                  "phone": "202-468-6571",
+                  "emails": ["contact@stgames.com"],
+                  "address_1": "",
+                  "address_2": "",
+                  "city": "",
+                  "state": "",
+                  "zip": ""
+                },
+                {
+                  "first": "Primary",
+                  "last": "Office",
+                  "phone": "202-555-0007",
+                  "emails": [""],
+                  "address_1": "1600 Georgia Avenue",
+                  "address_2": "",
+                  "city": "Washington",
+                  "state": "DC",
+                  "zip": "20001"
+                }
+            ],
             "active_general_agency": null
             },
             {
@@ -269,18 +459,45 @@
             "employees_waived": 2,
             "minimum_participation_required": 8,
             "estimated_premium": {
-                "employee_contribution": 52447.00,
-                "employer_contribution": 63041.00
+                "employee_contribution": 4764.92,
+                "employer_contribution": 8824.7
                 },
-            "contact_info": [{
-                "phone": "202-468-6571",
-                "emails": ["portia@portiasteabar.com", "portia@helloportia.com"],
-                "address_1": "100 M St NW",
-                "address_2": null,
-                "city": "Washington",
-                "state": "DC",
-                "zip": "20110"
-                }],
+            "contact_info": [      
+                {
+                  "first": "Portia",
+                  "last": "Inglesham",
+                  "phone": "202-468-6571",
+                  "emails": ["portia@helloportia.com"],
+                  "address_1": "",
+                  "address_2": "",
+                  "city": "",
+                  "state": "",
+                  "zip": ""
+                },
+                {
+                  "first": "Primary",
+                  "last": "Office",
+                  "phone": "202-555-0008",
+                  "emails": [""],
+                  "address_1": "1600 Alabama Avenue",
+                  "address_2": "",
+                  "city": "Washington",
+                  "state": "DC",
+                  "zip": "20001"
+                },
+                {
+                  "first": "Branch",
+                  "last": "Office",
+                  "phone": "202-555-0009",
+                  "emails": [""],
+                  "address_1": "1600 Utah Avenue",
+                  "address_2": "Suite 500",
+                  "city": "Washington",
+                  "state": "DC",
+                  "zip": "20001"
+                }
+            ],
+            "binder_payment_due": null,
             "active_general_agency": null
             },
             {

@@ -65,6 +65,50 @@ def fmt(dt)
     end
 end
 
+
+def contact(first: "", last: "", phone: "", email: "", address_1: "", address_2: "", 
+    city: "", state: "", zip: "")
+    """{
+                  \"first\": \"#{first}\",
+                  \"last\": \"#{last}\",
+                  \"phone\": \"#{phone}\",
+                  \"emails\": [\"#{email}\"],
+                  \"address_1\": \"#{address_1}\",
+                  \"address_2\": \"#{address_2}\",
+                  \"city\": \"#{city}\",
+                  \"state\": \"#{state}\",
+                  \"zip\": \"#{zip}\"
+                }"""
+end
+
+
+def staffer(first: "John", last: "Doe", phone: "202-468-6571", email: "john.doe@example.com")
+    contact(first: first, last: last, phone: phone, email: email)
+end
+
+def office(first: "Primary", last: "Office", phone: "202-468-6571", email: "", 
+            address_1: "609 H St. NE", address_2: "", city: "Washington", state: "DC", zip: "20001")
+    contact(first: first, last: last, phone: phone, email: email, address_1: address_1, address_2:address_2,
+        city: city, state: state, zip: zip)
+end
+
+def participation(total, enrolled, waived)
+
+        ee_contrib = (enrolled * 425.00 * ((waived + 1) ** 0.2)).round(2)
+        er_contrib = (enrolled * 770.00 * ((waived + 1) ** 0.22)).round(2)
+
+         """\"binder_payment_due\": null,
+            \"employees_total\": #{total},
+            \"employees_enrolled\": #{enrolled},
+            \"employees_waived\": #{waived},
+            \"minimum_participation_required\": #{(total * 2.0 / 3.0).to_i},
+            \"estimated_premium\": {
+                \"employee_contribution\": #{ee_contrib},
+                \"employer_contribution\": #{er_contrib}
+                }"""
+end
+
+
 min_months_to_renew = if now.mday > 10 then 2 else 1 end
 min_months_to_enroll = if now.mday > 13 then 2 else 1 end
 
@@ -83,240 +127,117 @@ text = """
             \"employer_name\": \"Courageous Consulting, LLC\",
             #{late_open_enrollment.date_fields},
             \"renewal_in_progress\": \"false\",
-            \"binder_payment_due\": null,
-            \"employees_total\": 30,
-            \"employees_enrolled\": 5,
-            \"employees_waived\": 0,
-            \"minimum_participation_required\": 20,
-            \"estimated_premium\": {
-                \"employee_contribution\": 3237.00,
-                \"employer_contribution\": 9321.00
-                },
-            \"contact_info\": [{
-                \"phone\": \"202-468-6571\",
-                \"emails\": [\"contact@courageous-consulting.com\", \"info@courageous-consulting.net\"],
-                \"address_1\": \"1600 Pennsylvania Avenue\",
-                \"address_2\": null,
-                \"city\": \"Washington\",
-                \"state\": \"DC\",
-                \"zip\": \"20500\"
-                },
+            #{participation(30, 5, 0)},
+            \"contact_info\": [
+                #{staffer(first: "Bob", phone: "", email: "bob@courageous-consulting.com")},
+                #{office(address_1: "1600 Pennsylvania Avenue")}
+            ],
             \"active_general_agency\": null
-            }],
+            },
             {
             \"employer_name\": \"National Network to End Domestic Abuse\",
             #{in_open_enrollment.date_fields},
-            \"renewal_in_progress\": \"false\",
-            \"binder_payment_due\": null,
-            \"employees_total\": 41,
-            \"employees_enrolled\": 10,
-            \"employees_waived\": 5,
-            \"minimum_participation_required\": 27,
-            \"estimated_premium\": {
-                \"employee_contribution\": 5447.00,
-                \"employer_contribution\": 6644.00
-                },
-            \"contact_info\": [{
-                \"phone\": \"202-444-9000\",
-                \"emails\": [\"contact@endabuse.org\"],
-                \"address_1\": \"1600 New Hampshire Avenue\",
-                \"address_2\": null,
-                \"city\": \"Washington\",
-                \"state\": \"DC\",
-                \"zip\": \"20500\"
-                },
+            \"renewal_in_progress\": \"false\",            
+            #{participation(41, 10, 5)},
+            \"contact_info\": [
+                #{staffer(first: "Jane", phone: "202-555-0000", email: "contact@endabuse.org")},
+                #{office(address_1: "1600 New Hampshire Avenue")}
+            ],
             \"active_general_agency\": null
-            }],
+            },
             {
             \"employer_name\": \"District Yoga\",
             #{in_open_enrollment.date_fields},
             \"renewal_in_progress\": \"false\",
-            \"binder_payment_due\": null,
-            \"employees_total\": 30,
-            \"employees_enrolled\": 20,
-            \"employees_waived\": 3,
-            \"minimum_participation_required\": 20,
-            \"estimated_premium\": {
-                \"employee_contribution\": 3447.00,
-                \"employer_contribution\": 3001.00
-                },
-            \"contact_info\": [{
-                \"phone\": \"202-444-9000\",
-                \"emails\": [\"contact@districtyoga.com\"],
-                \"address_1\": \"1600 New York Avenue\",
-                \"address_2\": null,
-                \"city\": \"Washington\",
-                \"state\": \"DC\",
-                \"zip\": \"20500\"
-                }],
+            #{participation(30, 20, 3)},
+            \"contact_info\": [      
+                #{staffer(first: "Priya", last: "Chandragupta", email: "contact@districtyoga.com")},
+                #{office(address_1: "1600 New York Avenue", phone: "202-555-0212")}
+            ],
             \"active_general_agency\": null
             },
             {
             \"employer_name\": \"DC Cupcakes\",
             #{plan_starting_in(5, false).date_fields},
             \"renewal_in_progress\": \"false\",
-            \"binder_payment_due\": null,
-            \"employees_total\": 50,
-            \"employees_enrolled\": 40,
-            \"employees_waived\": 7,
-            \"minimum_participation_required\": 35,
-            \"estimated_premium\": {
-                \"employee_contribution\": 93447.00,
-                \"employer_contribution\": 8001.00
-                },
-            \"contact_info\": [{
-                \"phone\": \"202-444-9000\",
-                \"emails\": [\"contact@dccupcakes.com\"],
-                \"address_1\": \"1600 Rhode Island Avenue\",
-                \"address_2\": null,
-                \"city\": \"Washington\",
-                \"state\": \"DC\",
-                \"zip\": \"20500\"
-                }],
+            #{participation(50, 40, 7)},
+            \"contact_info\": [      
+                #{staffer(first: "Emile", last: "Della Noce", email: "contact@dccupcakes.com")},
+                #{office(address_1: "1600 Rhode Island Avenue", phone: "202-555-0313")}
+            ],
             \"active_general_agency\": null
             },
             {
             \"employer_name\": \"OPEN Art Studio\",
             #{late_open_enrollment.date_fields},
             \"renewal_in_progress\": \"false\",
-            \"binder_payment_due\": null,
-            \"employees_total\": 30,
-            \"employees_enrolled\": 20,
-            \"employees_waived\": 3,
-            \"minimum_participation_required\": 20,
-            \"estimated_premium\": {
-                \"employee_contribution\": 5447.00,
-                \"employer_contribution\": 6644.00
-                },
-            \"contact_info\": [{
-                \"phone\": \"202-444-9000\",
-                \"emails\": [\"contact@openart.org\"],
-                \"address_1\": \"1600 New Hampshire Avenue\",
-                \"address_2\": null,
-                \"city\": \"Washington\",
-                \"state\": \"DC\",
-                \"zip\": \"20500\"
-                }],
+            #{participation(30, 20, 3)},
+            \"contact_info\": [      
+                #{staffer(first: "Yona", last: "Mendelssohn", email: "yona@openart.org")},
+                #{staffer(first: "Noam", last: "Mendelssohn", email: "noam@openart.org")},
+                #{office(address_1: "1600 Arizona Avenue", phone: "202-555-0414")}
+            ],
             \"active_general_agency\": \"Betadyne General Agency, Inc.\"
             },
             {
             \"employer_name\": \"Best Brau Brewing Company\",
             #{in_renewal.date_fields},
             \"renewal_in_progress\": \"true\",
-            \"binder_payment_due\": null,
-            \"employees_total\": 30,
-            \"employees_enrolled\": 20,
-            \"employees_waived\": 3,
-            \"minimum_participation_required\": 20,
-            \"estimated_premium\": {
-                \"employee_contribution\": 5447.00,
-                \"employer_contribution\": 6644.00
-                },
-            \"contact_info\": [{
-                \"phone\": \"202-444-9000\",
-                \"emails\": [\"contact@bistroducoin.com\"],
-                \"address_1\": \"1600 New Hampshire Avenue\",
-                \"address_2\": null,
-                \"city\": \"Washington\",
-                \"state\": \"DC\",
-                \"zip\": \"20500\"
-                }],
+            #{participation(30, 20, 6)},
+            \"contact_info\": [      
+                #{staffer(first: "Heinrich", last: "Biergarten", email: "heini@bestbrau.com")},
+                #{staffer(first: "Ulrich", last: "Suufersohn", email: "ueli@bestbrau.com")},
+                #{office(address_1: "1600 Nebraska Avenue", phone: "202-555-0515")}
+                #{office(first: "Branch", address_1: "6600 Nebraska Avenue")}
+            ],
             \"active_general_agency\": \"ACME General Agency, Inc.\"
             },
             {
             \"employer_name\": \"Bistrot Du Monde\",
             #{late_to_renewal.date_fields},
             \"renewal_in_progress\": \"true\",
-            \"binder_payment_due\": null,
-            \"employees_total\": 30,
-            \"employees_enrolled\": 20,
-            \"employees_waived\": 3,
-            \"minimum_participation_required\": 20,
-            \"estimated_premium\": {
-                \"employee_contribution\": 5447.00,
-                \"employer_contribution\": 6644.00
-                },
-            \"contact_info\": [{
-                \"phone\": \"202-444-9000\",
-                \"emails\": [\"contact@bistrodumonde.com\"],
-                \"address_1\": \"1600 New Hampshire Avenue\",
-                \"address_2\": null,
-                \"city\": \"Washington\",
-                \"state\": \"DC\",
-                \"zip\": \"20500\"
-                }],
+            #{participation(33, 20, 4)},
+            \"contact_info\": [      
+                #{staffer(first: "Claudette", last: "Noire", email: "cnoire@dumonde.com")},
+                #{staffer(first: "Aloise", last: "Rouge", email: "arouge@dumonde.com")},
+                #{office(address_1: "1600 Louisiana Avenue", phone: "202-555-0005")}
+            ],
             \"active_general_agency\": \"ACME General Agency, Inc.\"
             },  
             {
             \"employer_name\": \"Bistrot Du Bois\",
             #{early_renewal.date_fields},
             \"renewal_in_progress\": \"true\",
-            \"binder_payment_due\": null,
-            \"employees_total\": 15,
-            \"employees_enrolled\": 7,
-            \"employees_waived\": 7,
-            \"minimum_participation_required\": 10,
-            \"estimated_premium\": {
-                \"employee_contribution\": 554.00,
-                \"employer_contribution\": 674.00
-                },
-            \"contact_info\": [{
-                \"phone\": \"202-468-6571\",
-                \"emails\": [\"contact@bistrodubois.com\"],
-                \"address_1\": \"1600 New York Avenue\",
-                \"address_2\": null,
-                \"city\": \"Washington\",
-                \"state\": \"DC\",
-                \"zip\": \"20500\"
-                }],
+            #{participation(15, 7, 7)},
+            \"contact_info\": [      
+                #{staffer(first: "Claudette", last: "Blanc", email: "cblan@dubois.com")},
+                #{staffer(first: "Aloise", last: "Vert", email: "avert@dubois.com")},
+                #{office(address_1: "1600 Maine Avenue", phone: "202-555-0006")}
+            ],
             \"active_general_agency\": \"ACME General Agency, Inc.\"
             },
             {
             \"employer_name\": \"Strategy & Tactics Game Shop\",
             #{plan_starting_in(8, false).date_fields},
             \"renewal_in_progress\": \"false\",
-            \"binder_payment_due\": null,
-            \"employees_total\": 6,
-            \"employees_enrolled\": 2,
-            \"employees_waived\": 2,
-            \"minimum_participation_required\": 4,
-            \"estimated_premium\": {
-                \"employee_contribution\": 22447.00,
-                \"employer_contribution\": 33041.00
-                },
-            \"contact_info\": [{
-                \"phone\": \"202-444-9000\",
-                \"emails\": [\"contact@stgames.com\"],
-                \"address_1\": \"1500 Arizona Avenue\",
-                \"address_2\": null,
-                \"city\": \"Washington\",
-                \"state\": \"DC\",
-                \"zip\": \"20170\"
-                }],
+            #{participation(6, 2, 2)},
+            \"contact_info\": [      
+                #{staffer(first: "Maria Susanna", last: "Ludador", email: "contact@stgames.com")},
+                #{office(address_1: "1600 Georgia Avenue", phone: "202-555-0007")}
+            ],
             \"active_general_agency\": null
             },
             {
             \"employer_name\": \"Portia's Tea Bar\",
             #{plan_starting_in(7, false).date_fields},
             \"renewal_in_progress\": \"false\",
+            #{participation(12, 9, 2)},
+            \"contact_info\": [      
+                #{staffer(first: "Portia", last: "Inglesham", email: "portia@helloportia.com")},
+                #{office(address_1: "1600 Alabama Avenue", phone: "202-555-0008")},
+                #{office(first: "Branch", address_1: "1600 Utah Avenue", address_2: "Suite 500", phone: "202-555-0009")}
+            ],
             \"binder_payment_due\": null,
-            \"employees_total\": 12,
-            \"employees_enrolled\": 9,
-            \"employees_waived\": 2,
-            \"minimum_participation_required\": 8,
-            \"estimated_premium\": {
-                \"employee_contribution\": 52447.00,
-                \"employer_contribution\": 63041.00
-                },
-            \"contact_info\": [{
-                \"phone\": \"202-468-6571\",
-                \"emails\": [\"portia@portiasteabar.com\", \"portia@helloportia.com\"],
-                \"address_1\": \"100 M St NW\",
-                \"address_2\": null,
-                \"city\": \"Washington\",
-                \"state\": \"DC\",
-                \"zip\": \"20110\"
-                }],
             \"active_general_agency\": null
             },
             {
