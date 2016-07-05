@@ -20,7 +20,7 @@
                 "employee_contribution": 3237.00,
                 "employer_contribution": 9321.00
                 },
-            "contact_info": {
+            "contact_info": [{
                 "phone": "202-468-6571",
                 "emails": ["contact@courageous-consulting.com", "info@courageous-consulting.net"],
                 "address_1": "1600 Pennsylvania Avenue",
@@ -30,14 +30,14 @@
                 "zip": "20500"
                 },
             "active_general_agency": null
-            },
+            }],
             {
             "employer_name": "National Network to End Domestic Abuse",
-            "open_enrollment_begins" : "06-01-2016",
-            "open_enrollment_ends" : "07-13-2016",
-            "plan_year_begins": "08-01-2016",
-            "renewal_application_available": "05-01-2016",
-            "renewal_application_due": "07-10-2016",
+            "open_enrollment_begins" : "07-01-2016",
+            "open_enrollment_ends" : "08-13-2016",
+            "plan_year_begins": "09-01-2016",
+            "renewal_application_available": "06-01-2016",
+            "renewal_application_due": "08-10-2016",
             "renewal_in_progress": "false",
             "binder_payment_due": null,
             "employees_total": 41,
@@ -48,7 +48,7 @@
                 "employee_contribution": 5447.00,
                 "employer_contribution": 6644.00
                 },
-            "contact_info": {
+            "contact_info": [{
                 "phone": "202-444-9000",
                 "emails": ["contact@endabuse.org"],
                 "address_1": "1600 New Hampshire Avenue",
@@ -58,14 +58,14 @@
                 "zip": "20500"
                 },
             "active_general_agency": null
-            },
+            }],
             {
             "employer_name": "District Yoga",
-            "open_enrollment_begins" : "06-01-2016",
-            "open_enrollment_ends" : "07-13-2016",
-            "plan_year_begins": "08-01-2016",
-            "renewal_application_available": "05-01-2016",
-            "renewal_application_due": "07-10-2016",
+            "open_enrollment_begins" : "07-01-2016",
+            "open_enrollment_ends" : "08-13-2016",
+            "plan_year_begins": "09-01-2016",
+            "renewal_application_available": "06-01-2016",
+            "renewal_application_due": "08-10-2016",
             "renewal_in_progress": "false",
             "binder_payment_due": null,
             "employees_total": 30,
@@ -76,7 +76,7 @@
                 "employee_contribution": 3447.00,
                 "employer_contribution": 3001.00
                 },
-            "contact_info": {
+            "contact_info": [{
                 "phone": "202-444-9000",
                 "emails": ["contact@districtyoga.com"],
                 "address_1": "1600 New York Avenue",
@@ -84,16 +84,16 @@
                 "city": "Washington",
                 "state": "DC",
                 "zip": "20500"
-                },
+                }],
             "active_general_agency": null
             },
             {
             "employer_name": "DC Cupcakes",
             "open_enrollment_begins" : null,
-            "open_enrollment_ends" : "10-13-2016",
-            "plan_year_begins": "11-01-2016",
-            "renewal_application_available": "08-01-2016",
-            "renewal_application_due": "10-10-2016",
+            "open_enrollment_ends" : "11-13-2016",
+            "plan_year_begins": "12-01-2016",
+            "renewal_application_available": "09-01-2016",
+            "renewal_application_due": "11-10-2016",
             "renewal_in_progress": "false",
             "binder_payment_due": null,
             "employees_total": 50,
@@ -104,7 +104,7 @@
                 "employee_contribution": 93447.00,
                 "employer_contribution": 8001.00
                 },
-            "contact_info": {
+            "contact_info": [{
                 "phone": "202-444-9000",
                 "emails": ["contact@dccupcakes.com"],
                 "address_1": "1600 Rhode Island Avenue",
@@ -112,7 +112,7 @@
                 "city": "Washington",
                 "state": "DC",
                 "zip": "20500"
-                },
+                }],
             "active_general_agency": null
             },
             {
@@ -132,7 +132,7 @@
                 "employee_contribution": 5447.00,
                 "employer_contribution": 6644.00
                 },
-            "contact_info": {
+            "contact_info": [{
                 "phone": "202-444-9000",
                 "emails": ["contact@openart.org"],
                 "address_1": "1600 New Hampshire Avenue",
@@ -140,16 +140,16 @@
                 "city": "Washington",
                 "state": "DC",
                 "zip": "20500"
-                },
+                }],
             "active_general_agency": "Betadyne General Agency, Inc."
             },
             {
             "employer_name": "Best Brau Brewing Company",
             "open_enrollment_begins" : null,
-            "open_enrollment_ends" : "07-13-2016",
-            "plan_year_begins": "08-01-2016",
-            "renewal_application_available": "05-01-2016",
-            "renewal_application_due": "07-10-2016",
+            "open_enrollment_ends" : "08-13-2016",
+            "plan_year_begins": "09-01-2016",
+            "renewal_application_available": "06-01-2016",
+            "renewal_application_due": "08-10-2016",
             "renewal_in_progress": "true",
             "binder_payment_due": null,
             "employees_total": 30,
@@ -160,7 +160,7 @@
                 "employee_contribution": 5447.00,
                 "employer_contribution": 6644.00
                 },
-            "contact_info": {
+            "contact_info": [{
                 "phone": "202-444-9000",
                 "emails": ["contact@bistroducoin.com"],
                 "address_1": "1600 New Hampshire Avenue",
@@ -168,7 +168,7 @@
                 "city": "Washington",
                 "state": "DC",
                 "zip": "20500"
-                },
+                }],
             "active_general_agency": "ACME General Agency, Inc."
             },
             {
@@ -188,7 +188,7 @@
                 "employee_contribution": 5447.00,
                 "employer_contribution": 6644.00
                 },
-            "contact_info": {
+            "contact_info": [{
                 "phone": "202-444-9000",
                 "emails": ["contact@bistrodumonde.com"],
                 "address_1": "1600 New Hampshire Avenue",
@@ -196,16 +196,16 @@
                 "city": "Washington",
                 "state": "DC",
                 "zip": "20500"
-                },
+                }],
             "active_general_agency": "ACME General Agency, Inc."
             },  
             {
             "employer_name": "Bistrot Du Bois",
             "open_enrollment_begins" : null,
-            "open_enrollment_ends" : "08-13-2016",
-            "plan_year_begins": "09-01-2016",
-            "renewal_application_available": "06-01-2016",
-            "renewal_application_due": "08-10-2016",
+            "open_enrollment_ends" : "09-13-2016",
+            "plan_year_begins": "10-01-2016",
+            "renewal_application_available": "07-01-2016",
+            "renewal_application_due": "09-10-2016",
             "renewal_in_progress": "true",
             "binder_payment_due": null,
             "employees_total": 15,
@@ -216,7 +216,7 @@
                 "employee_contribution": 554.00,
                 "employer_contribution": 674.00
                 },
-            "contact_info": {
+            "contact_info": [{
                 "phone": "202-468-6571",
                 "emails": ["contact@bistrodubois.com"],
                 "address_1": "1600 New York Avenue",
@@ -224,16 +224,16 @@
                 "city": "Washington",
                 "state": "DC",
                 "zip": "20500"
-                },
+                }],
             "active_general_agency": "ACME General Agency, Inc."
             },
             {
             "employer_name": "Strategy & Tactics Game Shop",
             "open_enrollment_begins" : null,
-            "open_enrollment_ends" : "01-13-2017",
-            "plan_year_begins": "02-01-2017",
-            "renewal_application_available": "11-01-2016",
-            "renewal_application_due": "01-10-2017",
+            "open_enrollment_ends" : "02-13-2017",
+            "plan_year_begins": "03-01-2017",
+            "renewal_application_available": "12-01-2016",
+            "renewal_application_due": "02-10-2017",
             "renewal_in_progress": "false",
             "binder_payment_due": null,
             "employees_total": 6,
@@ -244,7 +244,7 @@
                 "employee_contribution": 22447.00,
                 "employer_contribution": 33041.00
                 },
-            "contact_info": {
+            "contact_info": [{
                 "phone": "202-444-9000",
                 "emails": ["contact@stgames.com"],
                 "address_1": "1500 Arizona Avenue",
@@ -252,16 +252,16 @@
                 "city": "Washington",
                 "state": "DC",
                 "zip": "20170"
-                },
+                }],
             "active_general_agency": null
             },
             {
             "employer_name": "Portia's Tea Bar",
             "open_enrollment_begins" : null,
-            "open_enrollment_ends" : "12-13-2016",
-            "plan_year_begins": "01-01-2017",
-            "renewal_application_available": "10-01-2016",
-            "renewal_application_due": "12-10-2016",
+            "open_enrollment_ends" : "01-13-2017",
+            "plan_year_begins": "02-01-2017",
+            "renewal_application_available": "11-01-2016",
+            "renewal_application_due": "01-10-2017",
             "renewal_in_progress": "false",
             "binder_payment_due": null,
             "employees_total": 12,
@@ -272,7 +272,7 @@
                 "employee_contribution": 52447.00,
                 "employer_contribution": 63041.00
                 },
-            "contact_info": {
+            "contact_info": [{
                 "phone": "202-468-6571",
                 "emails": ["portia@portiasteabar.com", "portia@helloportia.com"],
                 "address_1": "100 M St NW",
@@ -280,16 +280,16 @@
                 "city": "Washington",
                 "state": "DC",
                 "zip": "20110"
-                },
+                }],
             "active_general_agency": null
             },
             {
             "employer_name": "J. Grigory Food Trucks & Fine Comestibles",
             "open_enrollment_begins" : null,
-            "open_enrollment_ends" : "11-13-2016",
-            "plan_year_begins": "12-01-2016",
-            "renewal_application_available": "09-01-2016",
-            "renewal_application_due": "11-10-2016",
+            "open_enrollment_ends" : "12-13-2016",
+            "plan_year_begins": "01-01-2017",
+            "renewal_application_available": "10-01-2016",
+            "renewal_application_due": "12-10-2016",
             "renewal_in_progress": "false",
             "binder_payment_due": null,
             "employees_total": 66,
@@ -300,7 +300,7 @@
                 "employee_contribution": 152447.00,
                 "employer_contribution": 163041.00
                 },
-            "contact_info": {
+            "contact_info": [{
                 "phone": "202-468-6571",
                 "emails": ["info@jgrigoryfoods.com"],
                 "address_1": "100 M St NE",
@@ -308,7 +308,7 @@
                 "city": "Washington",
                 "state": "DC",
                 "zip": "20110"
-                },
+                }],
             "active_general_agency": null
             }
     ]

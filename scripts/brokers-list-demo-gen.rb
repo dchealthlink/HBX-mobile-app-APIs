@@ -92,7 +92,7 @@ text = """
                 \"employee_contribution\": 3237.00,
                 \"employer_contribution\": 9321.00
                 },
-            \"contact_info\": {
+            \"contact_info\": [{
                 \"phone\": \"202-468-6571\",
                 \"emails\": [\"contact@courageous-consulting.com\", \"info@courageous-consulting.net\"],
                 \"address_1\": \"1600 Pennsylvania Avenue\",
@@ -102,7 +102,7 @@ text = """
                 \"zip\": \"20500\"
                 },
             \"active_general_agency\": null
-            },
+            }],
             {
             \"employer_name\": \"National Network to End Domestic Abuse\",
             #{in_open_enrollment.date_fields},
@@ -116,7 +116,7 @@ text = """
                 \"employee_contribution\": 5447.00,
                 \"employer_contribution\": 6644.00
                 },
-            \"contact_info\": {
+            \"contact_info\": [{
                 \"phone\": \"202-444-9000\",
                 \"emails\": [\"contact@endabuse.org\"],
                 \"address_1\": \"1600 New Hampshire Avenue\",
@@ -126,7 +126,7 @@ text = """
                 \"zip\": \"20500\"
                 },
             \"active_general_agency\": null
-            },
+            }],
             {
             \"employer_name\": \"District Yoga\",
             #{in_open_enrollment.date_fields},
@@ -140,7 +140,7 @@ text = """
                 \"employee_contribution\": 3447.00,
                 \"employer_contribution\": 3001.00
                 },
-            \"contact_info\": {
+            \"contact_info\": [{
                 \"phone\": \"202-444-9000\",
                 \"emails\": [\"contact@districtyoga.com\"],
                 \"address_1\": \"1600 New York Avenue\",
@@ -148,7 +148,7 @@ text = """
                 \"city\": \"Washington\",
                 \"state\": \"DC\",
                 \"zip\": \"20500\"
-                },
+                }],
             \"active_general_agency\": null
             },
             {
@@ -164,7 +164,7 @@ text = """
                 \"employee_contribution\": 93447.00,
                 \"employer_contribution\": 8001.00
                 },
-            \"contact_info\": {
+            \"contact_info\": [{
                 \"phone\": \"202-444-9000\",
                 \"emails\": [\"contact@dccupcakes.com\"],
                 \"address_1\": \"1600 Rhode Island Avenue\",
@@ -172,7 +172,7 @@ text = """
                 \"city\": \"Washington\",
                 \"state\": \"DC\",
                 \"zip\": \"20500\"
-                },
+                }],
             \"active_general_agency\": null
             },
             {
@@ -188,7 +188,7 @@ text = """
                 \"employee_contribution\": 5447.00,
                 \"employer_contribution\": 6644.00
                 },
-            \"contact_info\": {
+            \"contact_info\": [{
                 \"phone\": \"202-444-9000\",
                 \"emails\": [\"contact@openart.org\"],
                 \"address_1\": \"1600 New Hampshire Avenue\",
@@ -196,7 +196,7 @@ text = """
                 \"city\": \"Washington\",
                 \"state\": \"DC\",
                 \"zip\": \"20500\"
-                },
+                }],
             \"active_general_agency\": \"Betadyne General Agency, Inc.\"
             },
             {
@@ -212,7 +212,7 @@ text = """
                 \"employee_contribution\": 5447.00,
                 \"employer_contribution\": 6644.00
                 },
-            \"contact_info\": {
+            \"contact_info\": [{
                 \"phone\": \"202-444-9000\",
                 \"emails\": [\"contact@bistroducoin.com\"],
                 \"address_1\": \"1600 New Hampshire Avenue\",
@@ -220,7 +220,7 @@ text = """
                 \"city\": \"Washington\",
                 \"state\": \"DC\",
                 \"zip\": \"20500\"
-                },
+                }],
             \"active_general_agency\": \"ACME General Agency, Inc.\"
             },
             {
@@ -236,7 +236,7 @@ text = """
                 \"employee_contribution\": 5447.00,
                 \"employer_contribution\": 6644.00
                 },
-            \"contact_info\": {
+            \"contact_info\": [{
                 \"phone\": \"202-444-9000\",
                 \"emails\": [\"contact@bistrodumonde.com\"],
                 \"address_1\": \"1600 New Hampshire Avenue\",
@@ -244,7 +244,7 @@ text = """
                 \"city\": \"Washington\",
                 \"state\": \"DC\",
                 \"zip\": \"20500\"
-                },
+                }],
             \"active_general_agency\": \"ACME General Agency, Inc.\"
             },  
             {
@@ -260,7 +260,7 @@ text = """
                 \"employee_contribution\": 554.00,
                 \"employer_contribution\": 674.00
                 },
-            \"contact_info\": {
+            \"contact_info\": [{
                 \"phone\": \"202-468-6571\",
                 \"emails\": [\"contact@bistrodubois.com\"],
                 \"address_1\": \"1600 New York Avenue\",
@@ -268,7 +268,7 @@ text = """
                 \"city\": \"Washington\",
                 \"state\": \"DC\",
                 \"zip\": \"20500\"
-                },
+                }],
             \"active_general_agency\": \"ACME General Agency, Inc.\"
             },
             {
@@ -284,7 +284,7 @@ text = """
                 \"employee_contribution\": 22447.00,
                 \"employer_contribution\": 33041.00
                 },
-            \"contact_info\": {
+            \"contact_info\": [{
                 \"phone\": \"202-444-9000\",
                 \"emails\": [\"contact@stgames.com\"],
                 \"address_1\": \"1500 Arizona Avenue\",
@@ -292,7 +292,7 @@ text = """
                 \"city\": \"Washington\",
                 \"state\": \"DC\",
                 \"zip\": \"20170\"
-                },
+                }],
             \"active_general_agency\": null
             },
             {
@@ -308,7 +308,7 @@ text = """
                 \"employee_contribution\": 52447.00,
                 \"employer_contribution\": 63041.00
                 },
-            \"contact_info\": {
+            \"contact_info\": [{
                 \"phone\": \"202-468-6571\",
                 \"emails\": [\"portia@portiasteabar.com\", \"portia@helloportia.com\"],
                 \"address_1\": \"100 M St NW\",
@@ -316,7 +316,7 @@ text = """
                 \"city\": \"Washington\",
                 \"state\": \"DC\",
                 \"zip\": \"20110\"
-                },
+                }],
             \"active_general_agency\": null
             },
             {
@@ -332,7 +332,7 @@ text = """
                 \"employee_contribution\": 152447.00,
                 \"employer_contribution\": 163041.00
                 },
-            \"contact_info\": {
+            \"contact_info\": [{
                 \"phone\": \"202-468-6571\",
                 \"emails\": [\"info@jgrigoryfoods.com\"],
                 \"address_1\": \"100 M St NE\",
@@ -340,7 +340,7 @@ text = """
                 \"city\": \"Washington\",
                 \"state\": \"DC\",
                 \"zip\": \"20110\"
-                },
+                }],
             \"active_general_agency\": null
             }
     ]
