@@ -187,7 +187,7 @@ text = """
             \"contact_info\": [      
                 #{staffer(first: "Heinrich", last: "Biergarten", email: "heini@bestbrau.com")},
                 #{staffer(first: "Ulrich", last: "Suufersohn", email: "ueli@bestbrau.com")},
-                #{office(address_1: "1600 Nebraska Avenue", phone: "202-555-0515")}
+                #{office(address_1: "1600 Nebraska Avenue", phone: "202-555-0515")},
                 #{office(first: "Branch", address_1: "6600 Nebraska Avenue")}
             ],
             \"active_general_agency\": \"ACME General Agency, Inc.\"
