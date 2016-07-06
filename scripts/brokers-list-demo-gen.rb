@@ -66,12 +66,13 @@ def fmt(dt)
 end
 
 
-def contact(first: "", last: "", phone: "", email: "", address_1: "", address_2: "", 
+def contact(first: "", last: "", phone: "", mobile: "", email: "", address_1: "", address_2: "", 
     city: "", state: "", zip: "")
     """{
                   \"first\": \"#{first}\",
                   \"last\": \"#{last}\",
                   \"phone\": \"#{phone}\",
+                  \"mobile\": \"#{mobile}\",
                   \"emails\": [\"#{email}\"],
                   \"address_1\": \"#{address_1}\",
                   \"address_2\": \"#{address_2}\",
@@ -82,8 +83,8 @@ def contact(first: "", last: "", phone: "", email: "", address_1: "", address_2:
 end
 
 
-def staffer(first: "John", last: "Doe", phone: "202-468-6571", email: "john.doe@example.com")
-    contact(first: first, last: last, phone: phone, email: email)
+def staffer(first: "John", last: "Doe", phone: "202-468-6571", mobile: "202-468-6571", email: "john.doe@example.com")
+    contact(first: first, last: last, phone: phone, mobile: mobile, email: email)
 end
 
 def office(first: "Primary", last: "Office", phone: "202-468-6571", email: "", 
