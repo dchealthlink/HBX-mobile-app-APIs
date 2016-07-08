@@ -234,7 +234,7 @@ text = """
             \"renewal_in_progress\": \"false\",
             #{participation(12, 9, 2)},
             \"contact_info\": [      
-                #{staffer(first: "Portia", last: "Inglesham", email: "portia@helloportia.com")},
+                #{staffer(first: "Portia", last: "Binglesworth-Inglesham", email: "portia@helloportia.com")},
                 #{office(address_1: "1600 Alabama Avenue", phone: "202-555-0008")},
                 #{office(first: "Branch", address_1: "1600 Utah Avenue", address_2: "Suite 500", phone: "202-555-0009")}
             ],
