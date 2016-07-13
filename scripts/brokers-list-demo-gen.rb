@@ -254,15 +254,10 @@ text = """
                 \"employee_contribution\": 152447.00,
                 \"employer_contribution\": 163041.00
                 },
-            \"contact_info\": [{
-                \"phone\": \"202-468-6571\",
-                \"emails\": [\"info@jgrigoryfoods.com\"],
-                \"address_1\": \"100 M St NE\",
-                \"address_2\": null,
-                \"city\": \"Washington\",
-                \"state\": \"DC\",
-                \"zip\": \"20110\"
-                }],
+            \"contact_info\": [
+                #{staffer(first: "Joe", last: "Grigory", email: "jgrigory@jgrigory.com")},
+                #{office(address_1: "1600 North Carolina Avenue", phone: "202-555-0009")}
+            ],
             \"active_general_agency\": null
             }
     ]

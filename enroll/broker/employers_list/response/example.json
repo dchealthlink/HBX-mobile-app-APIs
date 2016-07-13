@@ -312,10 +312,10 @@
             {
             "employer_name": "Bistrot Du Monde",
             "open_enrollment_begins" : null,
-            "open_enrollment_ends" : "07-13-2016",
-            "plan_year_begins": "08-01-2016",
-            "renewal_application_available": "05-01-2016",
-            "renewal_application_due": "07-10-2016",
+            "open_enrollment_ends" : "08-13-2016",
+            "plan_year_begins": "09-01-2016",
+            "renewal_application_available": "06-01-2016",
+            "renewal_application_due": "08-10-2016",
             "renewal_in_progress": "true",
             "binder_payment_due": null,
             "employees_total": 33,
@@ -488,7 +488,7 @@
             "contact_info": [      
                 {
                   "first": "Portia",
-                  "last": "Inglesham",
+                  "last": "Binglesworth-Inglesham",
                   "phone": "202-468-6571",
                   "mobile": "202-468-6571",
                   "emails": ["portia@helloportia.com"],
@@ -543,15 +543,32 @@
                 "employee_contribution": 152447.00,
                 "employer_contribution": 163041.00
                 },
-            "contact_info": [{
-                "phone": "202-468-6571",
-                "emails": ["info@jgrigoryfoods.com"],
-                "address_1": "100 M St NE",
-                "address_2": null,
-                "city": "Washington",
-                "state": "DC",
-                "zip": "20110"
-                }],
+            "contact_info": [
+                {
+                  "first": "Joe",
+                  "last": "Grigory",
+                  "phone": "202-468-6571",
+                  "mobile": "202-468-6571",
+                  "emails": ["jgrigory@jgrigory.com"],
+                  "address_1": "",
+                  "address_2": "",
+                  "city": "",
+                  "state": "",
+                  "zip": ""
+                },
+                {
+                  "first": "Primary",
+                  "last": "Office",
+                  "phone": "202-555-0009",
+                  "mobile": "",
+                  "emails": [""],
+                  "address_1": "1600 North Carolina Avenue",
+                  "address_2": "",
+                  "city": "Washington",
+                  "state": "DC",
+                  "zip": "20001"
+                }
+            ],
             "active_general_agency": null
             }
     ]
