@@ -8,7 +8,7 @@
   "properties": {
     "broker_agency": {
       "type": "string",
-      "description": "Legal name of broker agency organization",
+      "description": "Legal name of broker agency organization"
     },
     "broker_clients": {
       "type": "array",
@@ -22,10 +22,10 @@
           "employer_name": {
             "type": "string",
             "title": "Employer_name schema.",
-            "description": "An explanation about the purpose of this instance."
+            "description": "The business name of the employer client."
           },
           "open_enrollment_begins": {
-            "type": "string",
+            "type": ["string", "null"],
             "title": "Open_enrollment_begins schema.",
             "description": "The date (MM/DD/YYYY) on which this employer's next open enrollment begins"
           },
@@ -39,8 +39,8 @@
             "title": "Plan_year_begins schema.",
             "description": "The date (MM/DD/YYYY) on which this employer's next coverage plan year begins"
           },
-          "renewal_in_progress": {
-            "type": "boolean",
+          "renewal_in_progress": { 
+            "enum": [ "false", "true" ],
             "title": "Renewal_in_progress schema.",
             "description": "Boolean value(true/false) showing whether the employer is currently in a renewal process."
           },
@@ -55,7 +55,7 @@
             "description": "The date (MM/DD/YYYY) of the deadline for this employer's next renewal application."
           },
           "binder_payment_due": {
-            "type": "string",
+            "type": ["string", "null"],
             "title": "Binder_payment_due schema.",
             "description": "The date (MM/DD/YYYY) on which this employer's next binder payment, if any, is due, or null."
           },
@@ -101,56 +101,90 @@
             ]
           },
           "contact_info": {
-            "type": "object",
-            "title": "Contact_info schema.",
-            "description": "Contact information for this employer",
-            "properties": {
-              "phone": {
-                "type": "string",
-                "format": "phone",
-                "title": "Phone schema.",
-                "description": "Phone number of the employer's point of contact."
+            "type": "array",
+            "title": "Employer contact info array schema.",
+            "description": "the list of contacts (staff points of contact as well as office locations) for an employer",
+            "items": {
+              "type": "object",
+              "title": "Contact_info schema.",
+              "description": "Contact information for this contact",
+              "properties": {
+                "first": {
+                  "type": "string",
+                  "title": "First name schema.",
+                  "description": "First name of the contact."
+                },
+                "last": {
+                  "type": "string",
+                  "title": "Last name schema.",
+                  "description": "Last name of the contact."
+                },
+                "phone": {
+                  "type": "string",
+                  "pattern": "(^$)|([0-9]{3}-[0-9]{3}-[0-9]{4})",
+                  "title": "Phone schema.",
+                  "description": "Phone number of the contact."
+                },
+                "mobile": {
+                  "type": "string",
+                  "format": "phone",
+                  "title": "Phone schema.",
+                  "description": "Phone number of the contact."
+                },
+                "emails": {
+                  "type": "array",
+                  "format": "email",
+                  "title": "Email schema.",
+                  "description": "Contact emails for the contact",
+                  "items": {
+                    "type": "string",
+                     "oneOf": [
+                      { "enum": [ "" ] },
+                      { "format": "email" }
+                    ]
+                  }
+                },
+                "address_1": {
+                  "type": ["string", "null"],
+                  "title": "Address_1 schema.",
+                  "description": "First line of contact address."
+                },
+                "address_2": {
+                  "type": "string",
+                  "title": "Address_2 schema.",
+                  "description": "Second line of contact address."
+                },
+                "city": {
+                  "type": "string",
+                  "title": "City schema.",
+                  "description": "City of contact address."
+                },
+                "state": {
+                  "type": "string",
+                  "title": "State schema.",
+                  "description": "Two-letter state code of contact address."
+                },
+                "zip": {
+                  "type": "string",
+                  "title": "Zip schema.",
+                  "description": "Five-digit zip code of contact address"
+                }
               },
-              "email": {
-                "type": "string",
-                "format": "email",
-                "title": "Email schema.",
-                "description": "Contact email for the employer"
-              },
-              "address_1": {
-                "type": "string",
-                "title": "Address_1 schema.",
-                "description": "First line of employer contact address."
-              },
-              "address_2": {
-                "type": "null",
-                "title": "Address_2 schema.",
-                "description": "Second line of employer contact address."
-              },
-              "city": {
-                "type": "string",
-                "title": "City schema.",
-                "description": "City of employer contact address."
-              },
-              "state": {
-                "type": "string",
-                "title": "State schema.",
-                "description": "Two-letter state code of employer contact address."
-              },
-              "zip": {
-                "type": "number",
-                "title": "Zip schema.",
-                "description": "Five-digit zip code of employer contact address"
-              }
-            },
-            "required": [
-              "phone",
-              "email",
-              "address_1",
-              "city",
-              "state",
-              "zip"
-            ]
+              "required": [
+                "first",
+                "phone",
+                "emails",
+                "address_1",
+                "city",
+                "state",
+                "zip"
+              ]
+            }
+          },
+          "general_agency": {
+            "type": "string",
+            "title": "General_agency schema.",
+            "description": "An optional name of a general agency or wholesaler which this broker uses for this client."
           }
         },
         "required": [
@@ -165,7 +199,7 @@
           "employees_enrolled",
           "employees_waived",
           "minimum_participation_required",
-          "estimated premium",
+          "estimated_premium",
           "contact_info"
         ]
       }
