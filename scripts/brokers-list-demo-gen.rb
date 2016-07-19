@@ -66,12 +66,13 @@ def fmt(dt)
 end
 
 
-def contact(first: "", last: "", phone: "", email: "", address_1: "", address_2: "", 
+def contact(first: "", last: "", phone: "", mobile: "", email: "", address_1: "", address_2: "", 
     city: "", state: "", zip: "")
     """{
                   \"first\": \"#{first}\",
                   \"last\": \"#{last}\",
                   \"phone\": \"#{phone}\",
+                  \"mobile\": \"#{mobile}\",
                   \"emails\": [\"#{email}\"],
                   \"address_1\": \"#{address_1}\",
                   \"address_2\": \"#{address_2}\",
@@ -82,8 +83,8 @@ def contact(first: "", last: "", phone: "", email: "", address_1: "", address_2:
 end
 
 
-def staffer(first: "John", last: "Doe", phone: "202-468-6571", email: "john.doe@example.com")
-    contact(first: first, last: last, phone: phone, email: email)
+def staffer(first: "John", last: "Doe", phone: "202-468-6571", mobile: "202-468-6571", email: "john.doe@example.com")
+    contact(first: first, last: last, phone: phone, mobile: mobile, email: email)
 end
 
 def office(first: "Primary", last: "Office", phone: "202-468-6571", email: "", 
@@ -187,7 +188,7 @@ text = """
             \"contact_info\": [      
                 #{staffer(first: "Heinrich", last: "Biergarten", email: "heini@bestbrau.com")},
                 #{staffer(first: "Ulrich", last: "Suufersohn", email: "ueli@bestbrau.com")},
-                #{office(address_1: "1600 Nebraska Avenue", phone: "202-555-0515")}
+                #{office(address_1: "1600 Nebraska Avenue", phone: "202-555-0515")},
                 #{office(first: "Branch", address_1: "6600 Nebraska Avenue")}
             ],
             \"active_general_agency\": \"ACME General Agency, Inc.\"
@@ -233,7 +234,7 @@ text = """
             \"renewal_in_progress\": \"false\",
             #{participation(12, 9, 2)},
             \"contact_info\": [      
-                #{staffer(first: "Portia", last: "Inglesham", email: "portia@helloportia.com")},
+                #{staffer(first: "Portia", last: "Binglesworth-Inglesham", email: "portia@helloportia.com")},
                 #{office(address_1: "1600 Alabama Avenue", phone: "202-555-0008")},
                 #{office(first: "Branch", address_1: "1600 Utah Avenue", address_2: "Suite 500", phone: "202-555-0009")}
             ],
@@ -253,15 +254,10 @@ text = """
                 \"employee_contribution\": 152447.00,
                 \"employer_contribution\": 163041.00
                 },
-            \"contact_info\": [{
-                \"phone\": \"202-468-6571\",
-                \"emails\": [\"info@jgrigoryfoods.com\"],
-                \"address_1\": \"100 M St NE\",
-                \"address_2\": null,
-                \"city\": \"Washington\",
-                \"state\": \"DC\",
-                \"zip\": \"20110\"
-                }],
+            \"contact_info\": [
+                #{staffer(first: "Joe", last: "Grigory", email: "jgrigory@jgrigory.com")},
+                #{office(address_1: "1600 North Carolina Avenue", phone: "202-555-0009")}
+            ],
             \"active_general_agency\": null
             }
     ]
