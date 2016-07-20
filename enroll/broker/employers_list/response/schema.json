@@ -83,16 +83,26 @@
             "type": "object",
             "title": "Estimated premium schema.",
             "description": "Information on the employer's current monthly premium.",
-            "properties": {
+            "properties": {            
+              "billing_report_date": {
+                "type": "string",
+                "title": "billing_report_date schema.",
+                "description": "The date (MM/DD/YYYY) for which monthly premium information is provided."
+              },            
+              "total_premium": {
+                "type": "number",
+                "title": "total_premium schema.",
+                "description": "The monthly total premium."
+              },            
               "employee_contribution": {
                 "type": "number",
                 "title": "Employee_contribution schema.",
-                "description": "The portion of the current monthly total premium paid by employees."
+                "description": "The portion of the monthly total premium paid by employees."
               },
               "employer_contribution": {
                 "type": "number",
                 "title": "Employer_contribution schema.",
-                "description": "The portion of the current monthly total premium paid by the employer"
+                "description": "The portion of the monthly total premium paid by the employer"
               }
             },
             "required": [

@@ -104,6 +104,8 @@ def participation(total, enrolled, waived)
             \"employees_waived\": #{waived},
             \"minimum_participation_required\": #{(total * 2.0 / 3.0).to_i},
             \"estimated_premium\": {
+                \"billing_report_date\": #{fmt(now >> 1)},
+                \"total_premium\": #{ee_contrib + er_contrib},
                 \"employee_contribution\": #{ee_contrib},
                 \"employer_contribution\": #{er_contrib}
                 }"""
