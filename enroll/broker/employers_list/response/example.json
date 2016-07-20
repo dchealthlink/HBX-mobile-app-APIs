@@ -5,11 +5,11 @@
     "broker_clients": [
             {
             "employer_name": "Courageous Consulting, LLC",
-            "open_enrollment_begins" : "06-01-2016",
-            "open_enrollment_ends" : "07-13-2016",
-            "plan_year_begins": "08-01-2016",
-            "renewal_application_available": "05-01-2016",
-            "renewal_application_due": "07-10-2016",
+            "open_enrollment_begins" : "07-01-2016",
+            "open_enrollment_ends" : "08-13-2016",
+            "plan_year_begins": "09-01-2016",
+            "renewal_application_available": "06-01-2016",
+            "renewal_application_due": "08-10-2016",
             "renewal_in_progress": "false",
             "binder_payment_due": null,
             "employees_total": 30,
@@ -17,6 +17,8 @@
             "employees_waived": 0,
             "minimum_participation_required": 20,
             "estimated_premium": {
+                "billing_report_date": "08-20-2016",
+                "total_premium": 5975.0,
                 "employee_contribution": 2125.0,
                 "employer_contribution": 3850.0
                 },
@@ -62,6 +64,8 @@
             "employees_waived": 5,
             "minimum_participation_required": 27,
             "estimated_premium": {
+                "billing_report_date": "08-20-2016",
+                "total_premium": 17502.09,
                 "employee_contribution": 6081.62,
                 "employer_contribution": 11420.47
                 },
@@ -107,6 +111,8 @@
             "employees_waived": 3,
             "minimum_participation_required": 20,
             "estimated_premium": {
+                "billing_report_date": "08-20-2016",
+                "total_premium": 32107.53,
                 "employee_contribution": 11215.82,
                 "employer_contribution": 20891.71
                 },
@@ -152,6 +158,8 @@
             "employees_waived": 7,
             "minimum_participation_required": 33,
             "estimated_premium": {
+                "billing_report_date": "08-20-2016",
+                "total_premium": 74433.72,
                 "employee_contribution": 25767.18,
                 "employer_contribution": 48666.54
                 },
@@ -185,11 +193,11 @@
             },
             {
             "employer_name": "OPEN Art Studio",
-            "open_enrollment_begins" : "06-01-2016",
-            "open_enrollment_ends" : "07-13-2016",
-            "plan_year_begins": "08-01-2016",
-            "renewal_application_available": "05-01-2016",
-            "renewal_application_due": "07-10-2016",
+            "open_enrollment_begins" : "07-01-2016",
+            "open_enrollment_ends" : "08-13-2016",
+            "plan_year_begins": "09-01-2016",
+            "renewal_application_available": "06-01-2016",
+            "renewal_application_due": "08-10-2016",
             "renewal_in_progress": "false",
             "binder_payment_due": null,
             "employees_total": 30,
@@ -197,6 +205,8 @@
             "employees_waived": 3,
             "minimum_participation_required": 20,
             "estimated_premium": {
+                "billing_report_date": "08-20-2016",
+                "total_premium": 32107.53,
                 "employee_contribution": 11215.82,
                 "employer_contribution": 20891.71
                 },
@@ -254,6 +264,8 @@
             "employees_waived": 6,
             "minimum_participation_required": 20,
             "estimated_premium": {
+                "billing_report_date": "08-20-2016",
+                "total_premium": 36172.9,
                 "employee_contribution": 12544.07,
                 "employer_contribution": 23628.83
                 },
@@ -323,6 +335,8 @@
             "employees_waived": 4,
             "minimum_participation_required": 22,
             "estimated_premium": {
+                "billing_report_date": "08-20-2016",
+                "total_premium": 33670.600000000006,
                 "employee_contribution": 11727.7,
                 "employer_contribution": 21942.9
                 },
@@ -380,6 +394,8 @@
             "employees_waived": 7,
             "minimum_participation_required": 10,
             "estimated_premium": {
+                "billing_report_date": "08-20-2016",
+                "total_premium": 13025.91,
                 "employee_contribution": 4509.26,
                 "employer_contribution": 8516.65
                 },
@@ -437,6 +453,8 @@
             "employees_waived": 2,
             "minimum_participation_required": 4,
             "estimated_premium": {
+                "billing_report_date": "08-20-2016",
+                "total_premium": 3019.91,
                 "employee_contribution": 1058.87,
                 "employer_contribution": 1961.04
                 },
@@ -482,6 +500,8 @@
             "employees_waived": 2,
             "minimum_participation_required": 8,
             "estimated_premium": {
+                "billing_report_date": "08-20-2016",
+                "total_premium": 13589.62,
                 "employee_contribution": 4764.92,
                 "employer_contribution": 8824.7
                 },
