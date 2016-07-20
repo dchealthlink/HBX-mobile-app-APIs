@@ -240,22 +240,13 @@ text = """
                 #{office(address_1: "1600 Alabama Avenue", phone: "202-555-0008")},
                 #{office(first: "Branch", address_1: "1600 Utah Avenue", address_2: "Suite 500", phone: "202-555-0009")}
             ],
-            \"binder_payment_due\": null,
             \"active_general_agency\": null
             },
             {
             \"employer_name\": \"J. Grigory Food Trucks & Fine Comestibles\",
             #{plan_starting_in(6, false).date_fields},
             \"renewal_in_progress\": \"false\",
-            \"binder_payment_due\": null,
-            \"employees_total\": 66,
-            \"employees_enrolled\": 50,
-            \"employees_waived\": 0,
-            \"minimum_participation_required\": 44,
-            \"estimated_premium\": {
-                \"employee_contribution\": 152447.00,
-                \"employer_contribution\": 163041.00
-                },
+            #{participation(66, 50, 0)},
             \"contact_info\": [
                 #{staffer(first: "Joe", last: "Grigory", email: "jgrigory@jgrigory.com")},
                 #{office(address_1: "1600 North Carolina Avenue", phone: "202-555-0009")}

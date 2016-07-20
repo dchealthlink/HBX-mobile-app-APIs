@@ -543,7 +543,6 @@
                   "zip": "20001"
                 }
             ],
-            "binder_payment_due": null,
             "active_general_agency": null
             },
             {
@@ -560,8 +559,10 @@
             "employees_waived": 0,
             "minimum_participation_required": 44,
             "estimated_premium": {
-                "employee_contribution": 152447.00,
-                "employer_contribution": 163041.00
+                "billing_report_date": "08-20-2016",
+                "total_premium": 59750.0,
+                "employee_contribution": 21250.0,
+                "employer_contribution": 38500.0
                 },
             "contact_info": [
                 {
