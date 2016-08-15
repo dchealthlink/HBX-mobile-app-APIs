@@ -5,11 +5,11 @@
     "broker_clients": [
             {
             "employer_name": "Courageous Consulting, LLC",
-            "open_enrollment_begins" : "07-01-2016",
-            "open_enrollment_ends" : "08-13-2016",
-            "plan_year_begins": "09-01-2016",
-            "renewal_application_available": "06-01-2016",
-            "renewal_application_due": "08-10-2016",
+            "open_enrollment_begins" : "08-01-2016",
+            "open_enrollment_ends" : "09-13-2016",
+            "plan_year_begins": "10-01-2016",
+            "renewal_application_available": "07-01-2016",
+            "renewal_application_due": "09-10-2016",
             "renewal_in_progress": "false",
             "binder_payment_due": null,
             "employees_total": 30,
@@ -17,7 +17,7 @@
             "employees_waived": 0,
             "minimum_participation_required": 20,
             "estimated_premium": {
-                "billing_report_date": "08-20-2016",
+                "billing_report_date": "09-15-2016",
                 "total_premium": 5975.0,
                 "employee_contribution": 2125.0,
                 "employer_contribution": 3850.0
@@ -52,11 +52,11 @@
             },
             {
             "employer_name": "National Network to End Domestic Abuse",
-            "open_enrollment_begins" : "07-01-2016",
-            "open_enrollment_ends" : "08-13-2016",
-            "plan_year_begins": "09-01-2016",
-            "renewal_application_available": "06-01-2016",
-            "renewal_application_due": "08-10-2016",
+            "open_enrollment_begins" : "08-01-2016",
+            "open_enrollment_ends" : "09-13-2016",
+            "plan_year_begins": "10-01-2016",
+            "renewal_application_available": "07-01-2016",
+            "renewal_application_due": "09-10-2016",
             "renewal_in_progress": "false",            
             "binder_payment_due": null,
             "employees_total": 41,
@@ -64,7 +64,7 @@
             "employees_waived": 5,
             "minimum_participation_required": 27,
             "estimated_premium": {
-                "billing_report_date": "08-20-2016",
+                "billing_report_date": "09-15-2016",
                 "total_premium": 17502.09,
                 "employee_contribution": 6081.62,
                 "employer_contribution": 11420.47
@@ -99,11 +99,11 @@
             },
             {
             "employer_name": "District Yoga",
-            "open_enrollment_begins" : "07-01-2016",
-            "open_enrollment_ends" : "08-13-2016",
-            "plan_year_begins": "09-01-2016",
-            "renewal_application_available": "06-01-2016",
-            "renewal_application_due": "08-10-2016",
+            "open_enrollment_begins" : "08-01-2016",
+            "open_enrollment_ends" : "09-13-2016",
+            "plan_year_begins": "10-01-2016",
+            "renewal_application_available": "07-01-2016",
+            "renewal_application_due": "09-10-2016",
             "renewal_in_progress": "false",
             "binder_payment_due": null,
             "employees_total": 30,
@@ -111,7 +111,7 @@
             "employees_waived": 3,
             "minimum_participation_required": 20,
             "estimated_premium": {
-                "billing_report_date": "08-20-2016",
+                "billing_report_date": "09-15-2016",
                 "total_premium": 32107.53,
                 "employee_contribution": 11215.82,
                 "employer_contribution": 20891.71
@@ -147,10 +147,10 @@
             {
             "employer_name": "DC Cupcakes",
             "open_enrollment_begins" : null,
-            "open_enrollment_ends" : "11-13-2016",
-            "plan_year_begins": "12-01-2016",
-            "renewal_application_available": "09-01-2016",
-            "renewal_application_due": "11-10-2016",
+            "open_enrollment_ends" : "12-13-2016",
+            "plan_year_begins": "01-01-2017",
+            "renewal_application_available": "10-01-2016",
+            "renewal_application_due": "12-10-2016",
             "renewal_in_progress": "false",
             "binder_payment_due": null,
             "employees_total": 50,
@@ -158,7 +158,7 @@
             "employees_waived": 7,
             "minimum_participation_required": 33,
             "estimated_premium": {
-                "billing_report_date": "08-20-2016",
+                "billing_report_date": "09-15-2016",
                 "total_premium": 74433.72,
                 "employee_contribution": 25767.18,
                 "employer_contribution": 48666.54
@@ -193,11 +193,11 @@
             },
             {
             "employer_name": "OPEN Art Studio",
-            "open_enrollment_begins" : "07-01-2016",
-            "open_enrollment_ends" : "08-13-2016",
-            "plan_year_begins": "09-01-2016",
-            "renewal_application_available": "06-01-2016",
-            "renewal_application_due": "08-10-2016",
+            "open_enrollment_begins" : "08-01-2016",
+            "open_enrollment_ends" : "09-13-2016",
+            "plan_year_begins": "10-01-2016",
+            "renewal_application_available": "07-01-2016",
+            "renewal_application_due": "09-10-2016",
             "renewal_in_progress": "false",
             "binder_payment_due": null,
             "employees_total": 30,
@@ -205,7 +205,7 @@
             "employees_waived": 3,
             "minimum_participation_required": 20,
             "estimated_premium": {
-                "billing_report_date": "08-20-2016",
+                "billing_report_date": "09-15-2016",
                 "total_premium": 32107.53,
                 "employee_contribution": 11215.82,
                 "employer_contribution": 20891.71
@@ -253,10 +253,10 @@
             {
             "employer_name": "Best Brau Brewing Company",
             "open_enrollment_begins" : null,
-            "open_enrollment_ends" : "08-13-2016",
-            "plan_year_begins": "09-01-2016",
-            "renewal_application_available": "06-01-2016",
-            "renewal_application_due": "08-10-2016",
+            "open_enrollment_ends" : "09-13-2016",
+            "plan_year_begins": "10-01-2016",
+            "renewal_application_available": "07-01-2016",
+            "renewal_application_due": "09-10-2016",
             "renewal_in_progress": "true",
             "binder_payment_due": null,
             "employees_total": 30,
@@ -264,7 +264,7 @@
             "employees_waived": 6,
             "minimum_participation_required": 20,
             "estimated_premium": {
-                "billing_report_date": "08-20-2016",
+                "billing_report_date": "09-15-2016",
                 "total_premium": 36172.9,
                 "employee_contribution": 12544.07,
                 "employer_contribution": 23628.83
@@ -324,10 +324,10 @@
             {
             "employer_name": "Bistrot Du Monde",
             "open_enrollment_begins" : null,
-            "open_enrollment_ends" : "08-13-2016",
-            "plan_year_begins": "09-01-2016",
-            "renewal_application_available": "06-01-2016",
-            "renewal_application_due": "08-10-2016",
+            "open_enrollment_ends" : "09-13-2016",
+            "plan_year_begins": "10-01-2016",
+            "renewal_application_available": "07-01-2016",
+            "renewal_application_due": "09-10-2016",
             "renewal_in_progress": "true",
             "binder_payment_due": null,
             "employees_total": 33,
@@ -335,7 +335,7 @@
             "employees_waived": 4,
             "minimum_participation_required": 22,
             "estimated_premium": {
-                "billing_report_date": "08-20-2016",
+                "billing_report_date": "09-15-2016",
                 "total_premium": 33670.600000000006,
                 "employee_contribution": 11727.7,
                 "employer_contribution": 21942.9
@@ -383,10 +383,10 @@
             {
             "employer_name": "Bistrot Du Bois",
             "open_enrollment_begins" : null,
-            "open_enrollment_ends" : "09-13-2016",
-            "plan_year_begins": "10-01-2016",
-            "renewal_application_available": "07-01-2016",
-            "renewal_application_due": "09-10-2016",
+            "open_enrollment_ends" : "10-13-2016",
+            "plan_year_begins": "11-01-2016",
+            "renewal_application_available": "08-01-2016",
+            "renewal_application_due": "10-10-2016",
             "renewal_in_progress": "true",
             "binder_payment_due": null,
             "employees_total": 15,
@@ -394,7 +394,7 @@
             "employees_waived": 7,
             "minimum_participation_required": 10,
             "estimated_premium": {
-                "billing_report_date": "08-20-2016",
+                "billing_report_date": "09-15-2016",
                 "total_premium": 13025.91,
                 "employee_contribution": 4509.26,
                 "employer_contribution": 8516.65
@@ -442,10 +442,10 @@
             {
             "employer_name": "Strategy & Tactics Game Shop",
             "open_enrollment_begins" : null,
-            "open_enrollment_ends" : "02-13-2017",
-            "plan_year_begins": "03-01-2017",
-            "renewal_application_available": "12-01-2016",
-            "renewal_application_due": "02-10-2017",
+            "open_enrollment_ends" : "03-13-2017",
+            "plan_year_begins": "04-01-2017",
+            "renewal_application_available": "01-01-2017",
+            "renewal_application_due": "03-10-2017",
             "renewal_in_progress": "false",
             "binder_payment_due": null,
             "employees_total": 6,
@@ -453,7 +453,7 @@
             "employees_waived": 2,
             "minimum_participation_required": 4,
             "estimated_premium": {
-                "billing_report_date": "08-20-2016",
+                "billing_report_date": "09-15-2016",
                 "total_premium": 3019.91,
                 "employee_contribution": 1058.87,
                 "employer_contribution": 1961.04
@@ -489,10 +489,10 @@
             {
             "employer_name": "Portia's Tea Bar",
             "open_enrollment_begins" : null,
-            "open_enrollment_ends" : "01-13-2017",
-            "plan_year_begins": "02-01-2017",
-            "renewal_application_available": "11-01-2016",
-            "renewal_application_due": "01-10-2017",
+            "open_enrollment_ends" : "02-13-2017",
+            "plan_year_begins": "03-01-2017",
+            "renewal_application_available": "12-01-2016",
+            "renewal_application_due": "02-10-2017",
             "renewal_in_progress": "false",
             "binder_payment_due": null,
             "employees_total": 12,
@@ -500,7 +500,7 @@
             "employees_waived": 2,
             "minimum_participation_required": 8,
             "estimated_premium": {
-                "billing_report_date": "08-20-2016",
+                "billing_report_date": "09-15-2016",
                 "total_premium": 13589.62,
                 "employee_contribution": 4764.92,
                 "employer_contribution": 8824.7
@@ -548,10 +548,10 @@
             {
             "employer_name": "J. Grigory Food Trucks & Fine Comestibles",
             "open_enrollment_begins" : null,
-            "open_enrollment_ends" : "12-13-2016",
-            "plan_year_begins": "01-01-2017",
-            "renewal_application_available": "10-01-2016",
-            "renewal_application_due": "12-10-2016",
+            "open_enrollment_ends" : "01-13-2017",
+            "plan_year_begins": "02-01-2017",
+            "renewal_application_available": "11-01-2016",
+            "renewal_application_due": "01-10-2017",
             "renewal_in_progress": "false",
             "binder_payment_due": null,
             "employees_total": 66,
@@ -559,7 +559,7 @@
             "employees_waived": 0,
             "minimum_participation_required": 44,
             "estimated_premium": {
-                "billing_report_date": "08-20-2016",
+                "billing_report_date": "09-15-2016",
                 "total_premium": 59750.0,
                 "employee_contribution": 21250.0,
                 "employer_contribution": 38500.0
