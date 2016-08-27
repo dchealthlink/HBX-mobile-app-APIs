@@ -4,7 +4,7 @@
     
     "broker_clients": [
             {
-            {
+            
             "employer_name": "Courageous Consulting, LLC",
             "employees_total": 30,
             "employees_enrolled": 5,
@@ -12,8 +12,7 @@
             "minimum_participation_required": 20,
             "billing_report_date": "\"09-27-2016\"",
             "binder_payment_due": null,
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_0.json"
-},
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_0.json",
             "open_enrollment_begins" : "08-01-2016",
             "open_enrollment_ends" : "09-13-2016",
             "plan_year_begins": "10-01-2016",
@@ -53,7 +52,7 @@
             "active_general_agency": null
             },
             {
-            {
+            
             "employer_name": "National Network to End Domestic Abuse",
             "employees_total": 41,
             "employees_enrolled": 10,
@@ -61,8 +60,7 @@
             "minimum_participation_required": 27,
             "billing_report_date": "\"09-27-2016\"",
             "binder_payment_due": null,
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_1.json"
-},
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_1.json",
             "open_enrollment_begins" : "08-01-2016",
             "open_enrollment_ends" : "09-13-2016",
             "plan_year_begins": "10-01-2016",
@@ -101,7 +99,7 @@
             "active_general_agency": null
             },
             {
-            {
+            
             "employer_name": "District Yoga",
             "employees_total": 30,
             "employees_enrolled": 20,
@@ -109,8 +107,7 @@
             "minimum_participation_required": 20,
             "billing_report_date": "\"09-27-2016\"",
             "binder_payment_due": null,
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_2.json"
-},
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_2.json",
             "open_enrollment_begins" : "08-01-2016",
             "open_enrollment_ends" : "09-13-2016",
             "plan_year_begins": "10-01-2016",
@@ -150,7 +147,7 @@
             "active_general_agency": null
             },
             {
-            {
+            
             "employer_name": "DC Cupcakes",
             "employees_total": 50,
             "employees_enrolled": 40,
@@ -158,8 +155,7 @@
             "minimum_participation_required": 33,
             "billing_report_date": "\"09-27-2016\"",
             "binder_payment_due": null,
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_3.json"
-},
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_3.json",
             "open_enrollment_begins" : null,
             "open_enrollment_ends" : "12-13-2016",
             "plan_year_begins": "01-01-2017",
@@ -199,7 +195,7 @@
             "active_general_agency": null
             },
             {
-            {
+            
             "employer_name": "OPEN Art Studio",
             "employees_total": 30,
             "employees_enrolled": 20,
@@ -207,8 +203,7 @@
             "minimum_participation_required": 20,
             "billing_report_date": "\"09-27-2016\"",
             "binder_payment_due": null,
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_4.json"
-},
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_4.json",
             "open_enrollment_begins" : "08-01-2016",
             "open_enrollment_ends" : "09-13-2016",
             "plan_year_begins": "10-01-2016",
@@ -262,7 +257,7 @@
             "active_general_agency": "Betadyne General Agency, Inc."
             },
             {
-            {
+            
             "employer_name": "Best Brau Brewing Company",
             "employees_total": 30,
             "employees_enrolled": 20,
@@ -270,8 +265,7 @@
             "minimum_participation_required": 20,
             "billing_report_date": "\"09-27-2016\"",
             "binder_payment_due": null,
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_5.json"
-},
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_5.json",
             "open_enrollment_begins" : null,
             "open_enrollment_ends" : "09-13-2016",
             "plan_year_begins": "10-01-2016",
@@ -339,7 +333,7 @@
             "active_general_agency": "ACME General Agency, Inc."
             },
             {
-            {
+            
             "employer_name": "Bistrot Du Monde",
             "employees_total": 33,
             "employees_enrolled": 20,
@@ -347,8 +341,7 @@
             "minimum_participation_required": 22,
             "billing_report_date": "\"09-27-2016\"",
             "binder_payment_due": null,
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_6.json"
-},
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_6.json",
             "employer_name": "",
             "open_enrollment_begins" : null,
             "open_enrollment_ends" : "09-13-2016",
@@ -403,7 +396,7 @@
             "active_general_agency": "ACME General Agency, Inc."
             },  
             {
-            {
+            
             "employer_name": "Bistrot Du Bois",
             "employees_total": 15,
             "employees_enrolled": 7,
@@ -411,8 +404,7 @@
             "minimum_participation_required": 10,
             "billing_report_date": "\"09-27-2016\"",
             "binder_payment_due": null,
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_7.json"
-},
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_7.json",
             "open_enrollment_begins" : null,
             "open_enrollment_ends" : "10-13-2016",
             "plan_year_begins": "11-01-2016",
@@ -466,7 +458,7 @@
             "active_general_agency": "ACME General Agency, Inc."
             },
             {
-            {
+            
             "employer_name": "Strategy & Tactics Game Shop",
             "employees_total": 6,
             "employees_enrolled": 2,
@@ -474,8 +466,7 @@
             "minimum_participation_required": 4,
             "billing_report_date": "\"09-27-2016\"",
             "binder_payment_due": null,
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_8.json"
-},
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_8.json",
             "open_enrollment_begins" : null,
             "open_enrollment_ends" : "03-13-2017",
             "plan_year_begins": "04-01-2017",
@@ -515,7 +506,7 @@
             "active_general_agency": null
             },
             {
-            {
+            
             "employer_name": "Portia's Tea Bar",
             "employees_total": 12,
             "employees_enrolled": 9,
@@ -523,8 +514,7 @@
             "minimum_participation_required": 8,
             "billing_report_date": "\"09-27-2016\"",
             "binder_payment_due": null,
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_9.json"
-},
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_9.json",
             "open_enrollment_begins" : null,
             "open_enrollment_ends" : "02-13-2017",
             "plan_year_begins": "03-01-2017",
@@ -578,7 +568,7 @@
             "active_general_agency": null
             },
             {
-            {
+            
             "employer_name": "J. Grigory Food Trucks & Fine Comestibles",
             "employees_total": 66,
             "employees_enrolled": 50,
@@ -586,8 +576,7 @@
             "minimum_participation_required": 44,
             "billing_report_date": "\"09-27-2016\"",
             "binder_payment_due": null,
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_10.json"
-},
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_10.json",
             "open_enrollment_begins" : null,
             "open_enrollment_ends" : "01-13-2017",
             "plan_year_begins": "02-01-2017",

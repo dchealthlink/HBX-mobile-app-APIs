@@ -104,6 +104,10 @@ def office(first: "Primary", last: "Office", phone: "202-468-6571", email: "",
         city: city, state: state, zip: zip)
 end
 
+def json_section(obj, opts)
+    JSON.pretty_generate(obj, opts).gsub(/\{|\}/, '').rstrip
+end
+
 def participation(employer_name, total, enrolled, waived)
 
         ee_contrib = (enrolled * 425.00 * ((waived + 1) ** 0.2)).round(2)
@@ -127,7 +131,7 @@ def participation(employer_name, total, enrolled, waived)
         details_url = create_employer_example_file(details)
 
         summary[:employer_details_url] = "#{details_url}"
-        JSON.pretty_generate(summary, {indent: "            "})          
+        json_section(summary, {indent: "            "})       
 end
 
 
