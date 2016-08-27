@@ -107,8 +107,7 @@ def participation(employer_name, total, enrolled, waived)
         ee_contrib = (enrolled * 425.00 * ((waived + 1) ** 0.2)).round(2)
         er_contrib = (enrolled * 770.00 * ((waived + 1) ** 0.22)).round(2)
 
-        participation_section = """\"binder_payment_due\": null,
-            \"employees_total\": #{total},
+        participation_section = """\"employees_total\": #{total},
             \"employees_enrolled\": #{enrolled},
             \"employees_waived\": #{waived},
             \"minimum_participation_required\": #{(total * 2.0 / 3.0).to_i}"""
@@ -126,6 +125,7 @@ def participation(employer_name, total, enrolled, waived)
 
          """\"employer_name\": \"#{employer_name}\",
             \"employer_details_url\": \"#{details_url}\",
+            \"binder_payment_due\": null,
             #{participation_section}"""
 
           
