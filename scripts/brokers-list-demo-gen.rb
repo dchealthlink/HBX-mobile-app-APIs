@@ -107,22 +107,26 @@ def participation(employer_name, total, enrolled, waived)
         ee_contrib = (enrolled * 425.00 * ((waived + 1) ** 0.2)).round(2)
         er_contrib = (enrolled * 770.00 * ((waived + 1) ** 0.22)).round(2)
 
-        details_url = create_employer_example_file("""
-{
-    \"employer_name\": \"#{employer_name}\",
-    \"billing_report_date\": #{fmt(now >> 1)},
-    \"total_premium\": #{ee_contrib + er_contrib},
-    \"employee_contribution\": #{ee_contrib},
-    \"employer_contribution\": #{er_contrib}
-}""")
-
-         """\"employer_name\": \"#{employer_name}\",
-            \"employer_details_url\": \"#{details_url}\",
-            \"binder_payment_due\": null,
+        participation_section = """\"binder_payment_due\": null,
             \"employees_total\": #{total},
             \"employees_enrolled\": #{enrolled},
             \"employees_waived\": #{waived},
             \"minimum_participation_required\": #{(total * 2.0 / 3.0).to_i}"""
+
+
+        details_url = create_employer_example_file("""
+        {
+            \"employer_name\": \"#{employer_name}\",
+            #{participation_section},
+            \"billing_report_date\": #{fmt(now >> 1)},
+            \"total_premium\": #{ee_contrib + er_contrib},
+            \"employee_contribution\": #{ee_contrib},
+            \"employer_contribution\": #{er_contrib}
+        }""")
+
+         """\"employer_name\": \"#{employer_name}\",
+            \"employer_details_url\": \"#{details_url}\",
+            #{participation_section}"""
 
           
 end

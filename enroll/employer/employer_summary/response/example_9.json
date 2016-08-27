@@ -1,8 +1,13 @@
 
-{
-    "employer_name": "Portia's Tea Bar",
-    "billing_report_date": "09-23-2016",
-    "total_premium": 13589.62,
-    "employee_contribution": 4764.92,
-    "employer_contribution": 8824.7
-}
+        {
+            "employer_name": "Portia's Tea Bar",
+            "binder_payment_due": null,
+            "employees_total": 12,
+            "employees_enrolled": 9,
+            "employees_waived": 2,
+            "minimum_participation_required": 8,
+            "billing_report_date": "09-27-2016",
+            "total_premium": 13589.62,
+            "employee_contribution": 4764.92,
+            "employer_contribution": 8824.7
+        }
