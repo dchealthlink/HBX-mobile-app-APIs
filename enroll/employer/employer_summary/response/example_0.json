@@ -1,12 +1,12 @@
-
-        {
-            "employer_name": "Courageous Consulting, LLC",
-            "employees_total": 30,
-            "employees_enrolled": 5,
-            "employees_waived": 0,
-            "minimum_participation_required": 20,
-            "billing_report_date": "09-27-2016",
-            "total_premium": 5975.0,
-            "employee_contribution": 2125.0,
-            "employer_contribution": 3850.0
-        }
+{
+  "employer_name": "Courageous Consulting, LLC",
+  "employees_total": 30,
+  "employees_enrolled": 5,
+  "employees_waived": 0,
+  "minimum_participation_required": 20,
+  "billing_report_date": "\"09-27-2016\"",
+  "binder_payment_due": null,
+  "total_premium": 5975.0,
+  "employee_contribution": 2125.0,
+  "employer_contribution": 3850.0
+}

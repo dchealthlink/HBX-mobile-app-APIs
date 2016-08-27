@@ -1,12 +1,12 @@
-
-        {
-            "employer_name": "National Network to End Domestic Abuse",
-            "employees_total": 41,
-            "employees_enrolled": 10,
-            "employees_waived": 5,
-            "minimum_participation_required": 27,
-            "billing_report_date": "09-27-2016",
-            "total_premium": 17502.09,
-            "employee_contribution": 6081.62,
-            "employer_contribution": 11420.47
-        }
+{
+  "employer_name": "National Network to End Domestic Abuse",
+  "employees_total": 41,
+  "employees_enrolled": 10,
+  "employees_waived": 5,
+  "minimum_participation_required": 27,
+  "billing_report_date": "\"09-27-2016\"",
+  "binder_payment_due": null,
+  "total_premium": 17502.09,
+  "employee_contribution": 6081.62,
+  "employer_contribution": 11420.47
+}

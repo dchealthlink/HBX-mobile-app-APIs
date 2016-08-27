@@ -1,12 +1,13 @@
 #! /usr/bin/env ruby
 
 require 'date'
+require 'json'
 
 @example_no = 0
 def create_employer_example_file(content) 
 
     path = "enroll/employer/employer_summary/response/example_#{@example_no}.json"
-    File.write("#{__dir__}/../#{path}", content)
+    File.write("#{__dir__}/../#{path}", JSON.pretty_generate(content))
     @example_no += 1
     "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/#{path}"
 end
@@ -77,18 +78,19 @@ end
 
 def contact(first: "", last: "", phone: "", mobile: "", email: "", address_1: "", address_2: "", 
     city: "", state: "", zip: "")
-    """{
-                  \"first\": \"#{first}\",
-                  \"last\": \"#{last}\",
-                  \"phone\": \"#{phone}\",
-                  \"mobile\": \"#{mobile}\",
-                  \"emails\": [\"#{email}\"],
-                  \"address_1\": \"#{address_1}\",
-                  \"address_2\": \"#{address_2}\",
-                  \"city\": \"#{city}\",
-                  \"state\": \"#{state}\",
-                  \"zip\": \"#{zip}\"
-                }"""
+    JSON.pretty_generate(
+        {
+                  first: "#{first}",
+                  last: "#{last}",
+                  phone: "#{phone}",
+                  mobile: "#{mobile}",
+                  emails: ["#{email}"],
+                  address_1: "#{address_1}",
+                  address_2: "#{address_2}",
+                  city: "#{city}",
+                  state: "#{state}",
+                  zip: "#{zip}" 
+                }, {indent: "                  "})
 end
 
 
@@ -107,28 +109,25 @@ def participation(employer_name, total, enrolled, waived)
         ee_contrib = (enrolled * 425.00 * ((waived + 1) ** 0.2)).round(2)
         er_contrib = (enrolled * 770.00 * ((waived + 1) ** 0.22)).round(2)
 
-        participation_section = """\"employees_total\": #{total},
-            \"employees_enrolled\": #{enrolled},
-            \"employees_waived\": #{waived},
-            \"minimum_participation_required\": #{(total * 2.0 / 3.0).to_i}"""
 
+        summary = {
+            employer_name: "#{employer_name}",
+            employees_total: total,
+            employees_enrolled: enrolled,
+            employees_waived: waived,
+            minimum_participation_required: (total * 2.0 / 3.0).to_i,
+            billing_report_date: fmt(now >> 1),
+            binder_payment_due: nil,
+        }
 
-        details_url = create_employer_example_file("""
-        {
-            \"employer_name\": \"#{employer_name}\",
-            #{participation_section},
-            \"billing_report_date\": #{fmt(now >> 1)},
-            \"total_premium\": #{ee_contrib + er_contrib},
-            \"employee_contribution\": #{ee_contrib},
-            \"employer_contribution\": #{er_contrib}
-        }""")
+        details = summary.clone
+        details[:total_premium] = ee_contrib + er_contrib
+        details[:employee_contribution] = ee_contrib
+        details[:employer_contribution] = er_contrib
+        details_url = create_employer_example_file(details)
 
-         """\"employer_name\": \"#{employer_name}\",
-            \"employer_details_url\": \"#{details_url}\",
-            \"binder_payment_due\": null,
-            #{participation_section}"""
-
-          
+        summary[:employer_details_url] = "#{details_url}"
+        JSON.pretty_generate(summary, {indent: "            "})          
 end
 
 

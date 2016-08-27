@@ -1,12 +1,12 @@
-
-        {
-            "employer_name": "J. Grigory Food Trucks & Fine Comestibles",
-            "employees_total": 66,
-            "employees_enrolled": 50,
-            "employees_waived": 0,
-            "minimum_participation_required": 44,
-            "billing_report_date": "09-27-2016",
-            "total_premium": 59750.0,
-            "employee_contribution": 21250.0,
-            "employer_contribution": 38500.0
-        }
+{
+  "employer_name": "J. Grigory Food Trucks & Fine Comestibles",
+  "employees_total": 66,
+  "employees_enrolled": 50,
+  "employees_waived": 0,
+  "minimum_participation_required": 44,
+  "billing_report_date": "\"09-27-2016\"",
+  "binder_payment_due": null,
+  "total_premium": 59750.0,
+  "employee_contribution": 21250.0,
+  "employer_contribution": 38500.0
+}

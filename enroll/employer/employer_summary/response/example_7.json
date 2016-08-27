@@ -1,12 +1,12 @@
-
-        {
-            "employer_name": "Bistrot Du Bois",
-            "employees_total": 15,
-            "employees_enrolled": 7,
-            "employees_waived": 7,
-            "minimum_participation_required": 10,
-            "billing_report_date": "09-27-2016",
-            "total_premium": 13025.91,
-            "employee_contribution": 4509.26,
-            "employer_contribution": 8516.65
-        }
+{
+  "employer_name": "Bistrot Du Bois",
+  "employees_total": 15,
+  "employees_enrolled": 7,
+  "employees_waived": 7,
+  "minimum_participation_required": 10,
+  "billing_report_date": "\"09-27-2016\"",
+  "binder_payment_due": null,
+  "total_premium": 13025.91,
+  "employee_contribution": 4509.26,
+  "employer_contribution": 8516.65
+}

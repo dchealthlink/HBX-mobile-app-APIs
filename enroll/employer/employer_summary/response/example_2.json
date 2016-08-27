@@ -1,12 +1,12 @@
-
-        {
-            "employer_name": "District Yoga",
-            "employees_total": 30,
-            "employees_enrolled": 20,
-            "employees_waived": 3,
-            "minimum_participation_required": 20,
-            "billing_report_date": "09-27-2016",
-            "total_premium": 32107.53,
-            "employee_contribution": 11215.82,
-            "employer_contribution": 20891.71
-        }
+{
+  "employer_name": "District Yoga",
+  "employees_total": 30,
+  "employees_enrolled": 20,
+  "employees_waived": 3,
+  "minimum_participation_required": 20,
+  "billing_report_date": "\"09-27-2016\"",
+  "binder_payment_due": null,
+  "total_premium": 32107.53,
+  "employee_contribution": 11215.82,
+  "employer_contribution": 20891.71
+}

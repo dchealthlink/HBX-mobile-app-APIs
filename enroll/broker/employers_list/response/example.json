@@ -4,13 +4,16 @@
     
     "broker_clients": [
             {
+            {
             "employer_name": "Courageous Consulting, LLC",
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_0.json",
-            "binder_payment_due": null,
             "employees_total": 30,
             "employees_enrolled": 5,
             "employees_waived": 0,
             "minimum_participation_required": 20,
+            "billing_report_date": "\"09-27-2016\"",
+            "binder_payment_due": null,
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_0.json"
+},
             "open_enrollment_begins" : "08-01-2016",
             "open_enrollment_ends" : "09-13-2016",
             "plan_year_begins": "10-01-2016",
@@ -23,36 +26,43 @@
                   "last": "Doe",
                   "phone": "",
                   "mobile": "202-468-6571",
-                  "emails": ["bob@courageous-consulting.com"],
+                  "emails": [
+                                    "bob@courageous-consulting.com"
+                  ],
                   "address_1": "",
                   "address_2": "",
                   "city": "",
                   "state": "",
                   "zip": ""
-                },
+},
                 {
                   "first": "Primary",
                   "last": "Office",
                   "phone": "202-468-6571",
                   "mobile": "",
-                  "emails": [""],
+                  "emails": [
+                                    ""
+                  ],
                   "address_1": "1600 Pennsylvania Avenue",
                   "address_2": "",
                   "city": "Washington",
                   "state": "DC",
                   "zip": "20001"
-                }
+}
             ],
             "active_general_agency": null
             },
             {
+            {
             "employer_name": "National Network to End Domestic Abuse",
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_1.json",
-            "binder_payment_due": null,
             "employees_total": 41,
             "employees_enrolled": 10,
             "employees_waived": 5,
             "minimum_participation_required": 27,
+            "billing_report_date": "\"09-27-2016\"",
+            "binder_payment_due": null,
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_1.json"
+},
             "open_enrollment_begins" : "08-01-2016",
             "open_enrollment_ends" : "09-13-2016",
             "plan_year_begins": "10-01-2016",
@@ -64,36 +74,43 @@
                   "last": "Doe",
                   "phone": "202-555-0000",
                   "mobile": "202-468-6571",
-                  "emails": ["contact@endabuse.org"],
+                  "emails": [
+                                    "contact@endabuse.org"
+                  ],
                   "address_1": "",
                   "address_2": "",
                   "city": "",
                   "state": "",
                   "zip": ""
-                },
+},
                 {
                   "first": "Primary",
                   "last": "Office",
                   "phone": "202-468-6571",
                   "mobile": "",
-                  "emails": [""],
+                  "emails": [
+                                    ""
+                  ],
                   "address_1": "1600 New Hampshire Avenue",
                   "address_2": "",
                   "city": "Washington",
                   "state": "DC",
                   "zip": "20001"
-                }
+}
             ],
             "active_general_agency": null
             },
             {
+            {
             "employer_name": "District Yoga",
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_2.json",
-            "binder_payment_due": null,
             "employees_total": 30,
             "employees_enrolled": 20,
             "employees_waived": 3,
             "minimum_participation_required": 20,
+            "billing_report_date": "\"09-27-2016\"",
+            "binder_payment_due": null,
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_2.json"
+},
             "open_enrollment_begins" : "08-01-2016",
             "open_enrollment_ends" : "09-13-2016",
             "plan_year_begins": "10-01-2016",
@@ -106,36 +123,43 @@
                   "last": "Chandragupta",
                   "phone": "202-468-6571",
                   "mobile": "202-468-6571",
-                  "emails": ["contact@districtyoga.com"],
+                  "emails": [
+                                    "contact@districtyoga.com"
+                  ],
                   "address_1": "",
                   "address_2": "",
                   "city": "",
                   "state": "",
                   "zip": ""
-                },
+},
                 {
                   "first": "Primary",
                   "last": "Office",
                   "phone": "202-555-0212",
                   "mobile": "",
-                  "emails": [""],
+                  "emails": [
+                                    ""
+                  ],
                   "address_1": "1600 New York Avenue",
                   "address_2": "",
                   "city": "Washington",
                   "state": "DC",
                   "zip": "20001"
-                }
+}
             ],
             "active_general_agency": null
             },
             {
+            {
             "employer_name": "DC Cupcakes",
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_3.json",
-            "binder_payment_due": null,
             "employees_total": 50,
             "employees_enrolled": 40,
             "employees_waived": 7,
             "minimum_participation_required": 33,
+            "billing_report_date": "\"09-27-2016\"",
+            "binder_payment_due": null,
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_3.json"
+},
             "open_enrollment_begins" : null,
             "open_enrollment_ends" : "12-13-2016",
             "plan_year_begins": "01-01-2017",
@@ -148,36 +172,43 @@
                   "last": "Della Noce",
                   "phone": "202-468-6571",
                   "mobile": "202-468-6571",
-                  "emails": ["contact@dccupcakes.com"],
+                  "emails": [
+                                    "contact@dccupcakes.com"
+                  ],
                   "address_1": "",
                   "address_2": "",
                   "city": "",
                   "state": "",
                   "zip": ""
-                },
+},
                 {
                   "first": "Primary",
                   "last": "Office",
                   "phone": "202-555-0313",
                   "mobile": "",
-                  "emails": [""],
+                  "emails": [
+                                    ""
+                  ],
                   "address_1": "1600 Rhode Island Avenue",
                   "address_2": "",
                   "city": "Washington",
                   "state": "DC",
                   "zip": "20001"
-                }
+}
             ],
             "active_general_agency": null
             },
             {
+            {
             "employer_name": "OPEN Art Studio",
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_4.json",
-            "binder_payment_due": null,
             "employees_total": 30,
             "employees_enrolled": 20,
             "employees_waived": 3,
             "minimum_participation_required": 20,
+            "billing_report_date": "\"09-27-2016\"",
+            "binder_payment_due": null,
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_4.json"
+},
             "open_enrollment_begins" : "08-01-2016",
             "open_enrollment_ends" : "09-13-2016",
             "plan_year_begins": "10-01-2016",
@@ -190,48 +221,57 @@
                   "last": "Mendelssohn",
                   "phone": "202-468-6571",
                   "mobile": "202-468-6571",
-                  "emails": ["yona@openart.org"],
+                  "emails": [
+                                    "yona@openart.org"
+                  ],
                   "address_1": "",
                   "address_2": "",
                   "city": "",
                   "state": "",
                   "zip": ""
-                },
+},
                 {
                   "first": "Noam",
                   "last": "Mendelssohn",
                   "phone": "202-468-6571",
                   "mobile": "202-468-6571",
-                  "emails": ["noam@openart.org"],
+                  "emails": [
+                                    "noam@openart.org"
+                  ],
                   "address_1": "",
                   "address_2": "",
                   "city": "",
                   "state": "",
                   "zip": ""
-                },
+},
                 {
                   "first": "Primary",
                   "last": "Office",
                   "phone": "202-555-0414",
                   "mobile": "",
-                  "emails": [""],
+                  "emails": [
+                                    ""
+                  ],
                   "address_1": "1600 Arizona Avenue",
                   "address_2": "",
                   "city": "Washington",
                   "state": "DC",
                   "zip": "20001"
-                }
+}
             ],
             "active_general_agency": "Betadyne General Agency, Inc."
             },
             {
+            {
             "employer_name": "Best Brau Brewing Company",
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_5.json",
-            "binder_payment_due": null,
             "employees_total": 30,
             "employees_enrolled": 20,
             "employees_waived": 6,
             "minimum_participation_required": 20,
+            "billing_report_date": "\"09-27-2016\"",
+            "binder_payment_due": null,
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_5.json"
+},
             "open_enrollment_begins" : null,
             "open_enrollment_ends" : "09-13-2016",
             "plan_year_begins": "10-01-2016",
@@ -244,60 +284,71 @@
                   "last": "Biergarten",
                   "phone": "202-468-6571",
                   "mobile": "202-468-6571",
-                  "emails": ["heini@bestbrau.com"],
+                  "emails": [
+                                    "heini@bestbrau.com"
+                  ],
                   "address_1": "",
                   "address_2": "",
                   "city": "",
                   "state": "",
                   "zip": ""
-                },
+},
                 {
                   "first": "Ulrich",
                   "last": "Suufersohn",
                   "phone": "202-468-6571",
                   "mobile": "202-468-6571",
-                  "emails": ["ueli@bestbrau.com"],
+                  "emails": [
+                                    "ueli@bestbrau.com"
+                  ],
                   "address_1": "",
                   "address_2": "",
                   "city": "",
                   "state": "",
                   "zip": ""
-                },
+},
                 {
                   "first": "Primary",
                   "last": "Office",
                   "phone": "202-555-0515",
                   "mobile": "",
-                  "emails": [""],
+                  "emails": [
+                                    ""
+                  ],
                   "address_1": "1600 Nebraska Avenue",
                   "address_2": "",
                   "city": "Washington",
                   "state": "DC",
                   "zip": "20001"
-                },
+},
                 {
                   "first": "Branch",
                   "last": "Office",
                   "phone": "202-468-6571",
                   "mobile": "",
-                  "emails": [""],
+                  "emails": [
+                                    ""
+                  ],
                   "address_1": "6600 Nebraska Avenue",
                   "address_2": "",
                   "city": "Washington",
                   "state": "DC",
                   "zip": "20001"
-                }
+}
             ],
             "active_general_agency": "ACME General Agency, Inc."
             },
             {
+            {
             "employer_name": "Bistrot Du Monde",
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_6.json",
-            "binder_payment_due": null,
             "employees_total": 33,
             "employees_enrolled": 20,
             "employees_waived": 4,
             "minimum_participation_required": 22,
+            "billing_report_date": "\"09-27-2016\"",
+            "binder_payment_due": null,
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_6.json"
+},
             "employer_name": "",
             "open_enrollment_begins" : null,
             "open_enrollment_ends" : "09-13-2016",
@@ -311,48 +362,57 @@
                   "last": "Noire",
                   "phone": "202-468-6571",
                   "mobile": "202-468-6571",
-                  "emails": ["cnoire@dumonde.com"],
+                  "emails": [
+                                    "cnoire@dumonde.com"
+                  ],
                   "address_1": "",
                   "address_2": "",
                   "city": "",
                   "state": "",
                   "zip": ""
-                },
+},
                 {
                   "first": "Aloise",
                   "last": "Rouge",
                   "phone": "202-468-6571",
                   "mobile": "202-468-6571",
-                  "emails": ["arouge@dumonde.com"],
+                  "emails": [
+                                    "arouge@dumonde.com"
+                  ],
                   "address_1": "",
                   "address_2": "",
                   "city": "",
                   "state": "",
                   "zip": ""
-                },
+},
                 {
                   "first": "Primary",
                   "last": "Office",
                   "phone": "202-555-0005",
                   "mobile": "",
-                  "emails": [""],
+                  "emails": [
+                                    ""
+                  ],
                   "address_1": "1600 Louisiana Avenue",
                   "address_2": "",
                   "city": "Washington",
                   "state": "DC",
                   "zip": "20001"
-                }
+}
             ],
             "active_general_agency": "ACME General Agency, Inc."
             },  
             {
+            {
             "employer_name": "Bistrot Du Bois",
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_7.json",
-            "binder_payment_due": null,
             "employees_total": 15,
             "employees_enrolled": 7,
             "employees_waived": 7,
             "minimum_participation_required": 10,
+            "billing_report_date": "\"09-27-2016\"",
+            "binder_payment_due": null,
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_7.json"
+},
             "open_enrollment_begins" : null,
             "open_enrollment_ends" : "10-13-2016",
             "plan_year_begins": "11-01-2016",
@@ -365,48 +425,57 @@
                   "last": "Blanc",
                   "phone": "202-468-6571",
                   "mobile": "202-468-6571",
-                  "emails": ["cblan@dubois.com"],
+                  "emails": [
+                                    "cblan@dubois.com"
+                  ],
                   "address_1": "",
                   "address_2": "",
                   "city": "",
                   "state": "",
                   "zip": ""
-                },
+},
                 {
                   "first": "Aloise",
                   "last": "Vert",
                   "phone": "202-468-6571",
                   "mobile": "202-468-6571",
-                  "emails": ["avert@dubois.com"],
+                  "emails": [
+                                    "avert@dubois.com"
+                  ],
                   "address_1": "",
                   "address_2": "",
                   "city": "",
                   "state": "",
                   "zip": ""
-                },
+},
                 {
                   "first": "Primary",
                   "last": "Office",
                   "phone": "202-555-0006",
                   "mobile": "",
-                  "emails": [""],
+                  "emails": [
+                                    ""
+                  ],
                   "address_1": "1600 Maine Avenue",
                   "address_2": "",
                   "city": "Washington",
                   "state": "DC",
                   "zip": "20001"
-                }
+}
             ],
             "active_general_agency": "ACME General Agency, Inc."
             },
             {
+            {
             "employer_name": "Strategy & Tactics Game Shop",
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_8.json",
-            "binder_payment_due": null,
             "employees_total": 6,
             "employees_enrolled": 2,
             "employees_waived": 2,
             "minimum_participation_required": 4,
+            "billing_report_date": "\"09-27-2016\"",
+            "binder_payment_due": null,
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_8.json"
+},
             "open_enrollment_begins" : null,
             "open_enrollment_ends" : "03-13-2017",
             "plan_year_begins": "04-01-2017",
@@ -419,36 +488,43 @@
                   "last": "Ludador",
                   "phone": "202-468-6571",
                   "mobile": "202-468-6571",
-                  "emails": ["contact@stgames.com"],
+                  "emails": [
+                                    "contact@stgames.com"
+                  ],
                   "address_1": "",
                   "address_2": "",
                   "city": "",
                   "state": "",
                   "zip": ""
-                },
+},
                 {
                   "first": "Primary",
                   "last": "Office",
                   "phone": "202-555-0007",
                   "mobile": "",
-                  "emails": [""],
+                  "emails": [
+                                    ""
+                  ],
                   "address_1": "1600 Georgia Avenue",
                   "address_2": "",
                   "city": "Washington",
                   "state": "DC",
                   "zip": "20001"
-                }
+}
             ],
             "active_general_agency": null
             },
             {
+            {
             "employer_name": "Portia's Tea Bar",
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_9.json",
-            "binder_payment_due": null,
             "employees_total": 12,
             "employees_enrolled": 9,
             "employees_waived": 2,
             "minimum_participation_required": 8,
+            "billing_report_date": "\"09-27-2016\"",
+            "binder_payment_due": null,
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_9.json"
+},
             "open_enrollment_begins" : null,
             "open_enrollment_ends" : "02-13-2017",
             "plan_year_begins": "03-01-2017",
@@ -461,48 +537,57 @@
                   "last": "Binglesworth-Inglesham",
                   "phone": "202-468-6571",
                   "mobile": "202-468-6571",
-                  "emails": ["portia@helloportia.com"],
+                  "emails": [
+                                    "portia@helloportia.com"
+                  ],
                   "address_1": "",
                   "address_2": "",
                   "city": "",
                   "state": "",
                   "zip": ""
-                },
+},
                 {
                   "first": "Primary",
                   "last": "Office",
                   "phone": "202-555-0008",
                   "mobile": "",
-                  "emails": [""],
+                  "emails": [
+                                    ""
+                  ],
                   "address_1": "1600 Alabama Avenue",
                   "address_2": "",
                   "city": "Washington",
                   "state": "DC",
                   "zip": "20001"
-                },
+},
                 {
                   "first": "Branch",
                   "last": "Office",
                   "phone": "202-555-0009",
                   "mobile": "",
-                  "emails": [""],
+                  "emails": [
+                                    ""
+                  ],
                   "address_1": "1600 Utah Avenue",
                   "address_2": "Suite 500",
                   "city": "Washington",
                   "state": "DC",
                   "zip": "20001"
-                }
+}
             ],
             "active_general_agency": null
             },
             {
+            {
             "employer_name": "J. Grigory Food Trucks & Fine Comestibles",
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_10.json",
-            "binder_payment_due": null,
             "employees_total": 66,
             "employees_enrolled": 50,
             "employees_waived": 0,
             "minimum_participation_required": 44,
+            "billing_report_date": "\"09-27-2016\"",
+            "binder_payment_due": null,
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_10.json"
+},
             "open_enrollment_begins" : null,
             "open_enrollment_ends" : "01-13-2017",
             "plan_year_begins": "02-01-2017",
@@ -515,25 +600,29 @@
                   "last": "Grigory",
                   "phone": "202-468-6571",
                   "mobile": "202-468-6571",
-                  "emails": ["jgrigory@jgrigory.com"],
+                  "emails": [
+                                    "jgrigory@jgrigory.com"
+                  ],
                   "address_1": "",
                   "address_2": "",
                   "city": "",
                   "state": "",
                   "zip": ""
-                },
+},
                 {
                   "first": "Primary",
                   "last": "Office",
                   "phone": "202-555-0009",
                   "mobile": "",
-                  "emails": [""],
+                  "emails": [
+                                    ""
+                  ],
                   "address_1": "1600 North Carolina Avenue",
                   "address_2": "",
                   "city": "Washington",
                   "state": "DC",
                   "zip": "20001"
-                }
+}
             ],
             "active_general_agency": null
             }

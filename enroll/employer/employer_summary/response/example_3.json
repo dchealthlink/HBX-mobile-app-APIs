@@ -1,12 +1,12 @@
-
-        {
-            "employer_name": "DC Cupcakes",
-            "employees_total": 50,
-            "employees_enrolled": 40,
-            "employees_waived": 7,
-            "minimum_participation_required": 33,
-            "billing_report_date": "09-27-2016",
-            "total_premium": 74433.72,
-            "employee_contribution": 25767.18,
-            "employer_contribution": 48666.54
-        }
+{
+  "employer_name": "DC Cupcakes",
+  "employees_total": 50,
+  "employees_enrolled": 40,
+  "employees_waived": 7,
+  "minimum_participation_required": 33,
+  "billing_report_date": "\"09-27-2016\"",
+  "binder_payment_due": null,
+  "total_premium": 74433.72,
+  "employee_contribution": 25767.18,
+  "employer_contribution": 48666.54
+}
