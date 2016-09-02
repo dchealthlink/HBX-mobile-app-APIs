@@ -122,6 +122,7 @@ def participation(employer_name, total, enrolled, waived)
             minimum_participation_required: (total * 2.0 / 3.0).to_i,
             billing_report_date: fmt(now >> 1),
             binder_payment_due: nil,
+            active_general_agency: (total < 5) ? nil : "Betadyne General Agency, Inc."
         }
 
         details = summary.clone
@@ -156,8 +157,7 @@ text = """
             \"contact_info\": [
                 #{staffer(first: "Bob", phone: "", email: "bob@courageous-consulting.com")},
                 #{office(address_1: "1600 Pennsylvania Avenue")}
-            ],
-            \"active_general_agency\": null
+            ]
             },
             {
             #{participation("National Network to End Domestic Abuse", 41, 10, 5)},
@@ -165,8 +165,7 @@ text = """
             \"renewal_in_progress\": \"false\", \"contact_info\": [
                 #{staffer(first: "Jane", phone: "202-555-0000", email: "contact@endabuse.org")},
                 #{office(address_1: "1600 New Hampshire Avenue")}
-            ],
-            \"active_general_agency\": null
+            ]
             },
             {
             #{participation("District Yoga", 30, 20, 3)},
@@ -175,8 +174,7 @@ text = """
             \"contact_info\": [      
                 #{staffer(first: "Priya", last: "Chandragupta", email: "contact@districtyoga.com")},
                 #{office(address_1: "1600 New York Avenue", phone: "202-555-0212")}
-            ],
-            \"active_general_agency\": null
+            ]
             },
             {
             #{participation("DC Cupcakes", 50, 40, 7)},
@@ -185,8 +183,7 @@ text = """
             \"contact_info\": [      
                 #{staffer(first: "Emile", last: "Della Noce", email: "contact@dccupcakes.com")},
                 #{office(address_1: "1600 Rhode Island Avenue", phone: "202-555-0313")}
-            ],
-            \"active_general_agency\": null
+            ]
             },
             {
             #{participation("OPEN Art Studio", 30, 20, 3)},
@@ -196,8 +193,7 @@ text = """
                 #{staffer(first: "Yona", last: "Mendelssohn", email: "yona@openart.org")},
                 #{staffer(first: "Noam", last: "Mendelssohn", email: "noam@openart.org")},
                 #{office(address_1: "1600 Arizona Avenue", phone: "202-555-0414")}
-            ],
-            \"active_general_agency\": \"Betadyne General Agency, Inc.\"
+            ]
             },
             {
             #{participation("Best Brau Brewing Company", 30, 20, 6)},
@@ -208,8 +204,7 @@ text = """
                 #{staffer(first: "Ulrich", last: "Suufersohn", email: "ueli@bestbrau.com")},
                 #{office(address_1: "1600 Nebraska Avenue", phone: "202-555-0515")},
                 #{office(first: "Branch", address_1: "6600 Nebraska Avenue")}
-            ],
-            \"active_general_agency\": \"ACME General Agency, Inc.\"
+            ]
             },
             {
             #{participation("Bistrot Du Monde", 33, 20, 4)},
@@ -220,8 +215,7 @@ text = """
                 #{staffer(first: "Claudette", last: "Noire", email: "cnoire@dumonde.com")},
                 #{staffer(first: "Aloise", last: "Rouge", email: "arouge@dumonde.com")},
                 #{office(address_1: "1600 Louisiana Avenue", phone: "202-555-0005")}
-            ],
-            \"active_general_agency\": \"ACME General Agency, Inc.\"
+            ]
             },  
             {
             #{participation("Bistrot Du Bois", 15, 7, 7)},
@@ -231,8 +225,7 @@ text = """
                 #{staffer(first: "Claudette", last: "Blanc", email: "cblan@dubois.com")},
                 #{staffer(first: "Aloise", last: "Vert", email: "avert@dubois.com")},
                 #{office(address_1: "1600 Maine Avenue", phone: "202-555-0006")}
-            ],
-            \"active_general_agency\": \"ACME General Agency, Inc.\"
+            ]
             },
             {
             #{participation("Strategy & Tactics Game Shop", 6, 2, 2)},
@@ -241,8 +234,7 @@ text = """
             \"contact_info\": [      
                 #{staffer(first: "Maria Susanna", last: "Ludador", email: "contact@stgames.com")},
                 #{office(address_1: "1600 Georgia Avenue", phone: "202-555-0007")}
-            ],
-            \"active_general_agency\": null
+            ]
             },
             {
             #{participation("Portia's Tea Bar", 12, 9, 2)},
@@ -252,8 +244,7 @@ text = """
                 #{staffer(first: "Portia", last: "Binglesworth-Inglesham", email: "portia@helloportia.com")},
                 #{office(address_1: "1600 Alabama Avenue", phone: "202-555-0008")},
                 #{office(first: "Branch", address_1: "1600 Utah Avenue", address_2: "Suite 500", phone: "202-555-0009")}
-            ],
-            \"active_general_agency\": null
+            ]
             },
             {
             #{participation("J. Grigory Food Trucks & Fine Comestibles", 66, 50, 0)},
@@ -262,8 +253,7 @@ text = """
             \"contact_info\": [
                 #{staffer(first: "Joe", last: "Grigory", email: "jgrigory@jgrigory.com")},
                 #{office(address_1: "1600 North Carolina Avenue", phone: "202-555-0009")}
-            ],
-            \"active_general_agency\": null
+            ]
             }
     ]
 }

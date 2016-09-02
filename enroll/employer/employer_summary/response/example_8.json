@@ -4,8 +4,9 @@
   "employees_enrolled": 2,
   "employees_waived": 2,
   "minimum_participation_required": 4,
-  "billing_report_date": "\"09-27-2016\"",
+  "billing_report_date": "\"10-02-2016\"",
   "binder_payment_due": null,
+  "active_general_agency": "Betadyne General Agency, Inc.",
   "total_premium": 3019.91,
   "employee_contribution": 1058.87,
   "employer_contribution": 1961.04

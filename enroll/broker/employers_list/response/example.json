@@ -10,8 +10,9 @@
             "employees_enrolled": 5,
             "employees_waived": 0,
             "minimum_participation_required": 20,
-            "billing_report_date": "\"09-27-2016\"",
+            "billing_report_date": "\"10-02-2016\"",
             "binder_payment_due": null,
+            "active_general_agency": "Betadyne General Agency, Inc.",
             "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_0.json",
             "open_enrollment_begins" : "08-01-2016",
             "open_enrollment_ends" : "09-13-2016",
@@ -48,8 +49,7 @@
                   "state": "DC",
                   "zip": "20001"
 }
-            ],
-            "active_general_agency": null
+            ]
             },
             {
             
@@ -58,14 +58,15 @@
             "employees_enrolled": 10,
             "employees_waived": 5,
             "minimum_participation_required": 27,
-            "billing_report_date": "\"09-27-2016\"",
+            "billing_report_date": "\"10-02-2016\"",
             "binder_payment_due": null,
+            "active_general_agency": "Betadyne General Agency, Inc.",
             "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_1.json",
-            "open_enrollment_begins" : "08-01-2016",
-            "open_enrollment_ends" : "09-13-2016",
-            "plan_year_begins": "10-01-2016",
-            "renewal_application_available": "07-01-2016",
-            "renewal_application_due": "09-10-2016",
+            "open_enrollment_begins" : "09-01-2016",
+            "open_enrollment_ends" : "10-13-2016",
+            "plan_year_begins": "11-01-2016",
+            "renewal_application_available": "08-01-2016",
+            "renewal_application_due": "10-10-2016",
             "renewal_in_progress": "false", "contact_info": [
                 {
                   "first": "Jane",
@@ -95,8 +96,7 @@
                   "state": "DC",
                   "zip": "20001"
 }
-            ],
-            "active_general_agency": null
+            ]
             },
             {
             
@@ -105,14 +105,15 @@
             "employees_enrolled": 20,
             "employees_waived": 3,
             "minimum_participation_required": 20,
-            "billing_report_date": "\"09-27-2016\"",
+            "billing_report_date": "\"10-02-2016\"",
             "binder_payment_due": null,
+            "active_general_agency": "Betadyne General Agency, Inc.",
             "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_2.json",
-            "open_enrollment_begins" : "08-01-2016",
-            "open_enrollment_ends" : "09-13-2016",
-            "plan_year_begins": "10-01-2016",
-            "renewal_application_available": "07-01-2016",
-            "renewal_application_due": "09-10-2016",
+            "open_enrollment_begins" : "09-01-2016",
+            "open_enrollment_ends" : "10-13-2016",
+            "plan_year_begins": "11-01-2016",
+            "renewal_application_available": "08-01-2016",
+            "renewal_application_due": "10-10-2016",
             "renewal_in_progress": "false",
             "contact_info": [      
                 {
@@ -143,8 +144,7 @@
                   "state": "DC",
                   "zip": "20001"
 }
-            ],
-            "active_general_agency": null
+            ]
             },
             {
             
@@ -153,14 +153,15 @@
             "employees_enrolled": 40,
             "employees_waived": 7,
             "minimum_participation_required": 33,
-            "billing_report_date": "\"09-27-2016\"",
+            "billing_report_date": "\"10-02-2016\"",
             "binder_payment_due": null,
+            "active_general_agency": "Betadyne General Agency, Inc.",
             "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_3.json",
             "open_enrollment_begins" : null,
-            "open_enrollment_ends" : "12-13-2016",
-            "plan_year_begins": "01-01-2017",
-            "renewal_application_available": "10-01-2016",
-            "renewal_application_due": "12-10-2016",
+            "open_enrollment_ends" : "01-13-2017",
+            "plan_year_begins": "02-01-2017",
+            "renewal_application_available": "11-01-2016",
+            "renewal_application_due": "01-10-2017",
             "renewal_in_progress": "false",
             "contact_info": [      
                 {
@@ -191,8 +192,7 @@
                   "state": "DC",
                   "zip": "20001"
 }
-            ],
-            "active_general_agency": null
+            ]
             },
             {
             
@@ -201,8 +201,9 @@
             "employees_enrolled": 20,
             "employees_waived": 3,
             "minimum_participation_required": 20,
-            "billing_report_date": "\"09-27-2016\"",
+            "billing_report_date": "\"10-02-2016\"",
             "binder_payment_due": null,
+            "active_general_agency": "Betadyne General Agency, Inc.",
             "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_4.json",
             "open_enrollment_begins" : "08-01-2016",
             "open_enrollment_ends" : "09-13-2016",
@@ -253,8 +254,7 @@
                   "state": "DC",
                   "zip": "20001"
 }
-            ],
-            "active_general_agency": "Betadyne General Agency, Inc."
+            ]
             },
             {
             
@@ -263,14 +263,15 @@
             "employees_enrolled": 20,
             "employees_waived": 6,
             "minimum_participation_required": 20,
-            "billing_report_date": "\"09-27-2016\"",
+            "billing_report_date": "\"10-02-2016\"",
             "binder_payment_due": null,
+            "active_general_agency": "Betadyne General Agency, Inc.",
             "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_5.json",
             "open_enrollment_begins" : null,
-            "open_enrollment_ends" : "09-13-2016",
-            "plan_year_begins": "10-01-2016",
-            "renewal_application_available": "07-01-2016",
-            "renewal_application_due": "09-10-2016",
+            "open_enrollment_ends" : "10-13-2016",
+            "plan_year_begins": "11-01-2016",
+            "renewal_application_available": "08-01-2016",
+            "renewal_application_due": "10-10-2016",
             "renewal_in_progress": "true",
             "contact_info": [      
                 {
@@ -329,8 +330,7 @@
                   "state": "DC",
                   "zip": "20001"
 }
-            ],
-            "active_general_agency": "ACME General Agency, Inc."
+            ]
             },
             {
             
@@ -339,8 +339,9 @@
             "employees_enrolled": 20,
             "employees_waived": 4,
             "minimum_participation_required": 22,
-            "billing_report_date": "\"09-27-2016\"",
+            "billing_report_date": "\"10-02-2016\"",
             "binder_payment_due": null,
+            "active_general_agency": "Betadyne General Agency, Inc.",
             "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_6.json",
             "employer_name": "",
             "open_enrollment_begins" : null,
@@ -392,8 +393,7 @@
                   "state": "DC",
                   "zip": "20001"
 }
-            ],
-            "active_general_agency": "ACME General Agency, Inc."
+            ]
             },  
             {
             
@@ -402,14 +402,15 @@
             "employees_enrolled": 7,
             "employees_waived": 7,
             "minimum_participation_required": 10,
-            "billing_report_date": "\"09-27-2016\"",
+            "billing_report_date": "\"10-02-2016\"",
             "binder_payment_due": null,
+            "active_general_agency": "Betadyne General Agency, Inc.",
             "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_7.json",
             "open_enrollment_begins" : null,
-            "open_enrollment_ends" : "10-13-2016",
-            "plan_year_begins": "11-01-2016",
-            "renewal_application_available": "08-01-2016",
-            "renewal_application_due": "10-10-2016",
+            "open_enrollment_ends" : "11-13-2016",
+            "plan_year_begins": "12-01-2016",
+            "renewal_application_available": "09-01-2016",
+            "renewal_application_due": "11-10-2016",
             "renewal_in_progress": "true",
             "contact_info": [      
                 {
@@ -454,8 +455,7 @@
                   "state": "DC",
                   "zip": "20001"
 }
-            ],
-            "active_general_agency": "ACME General Agency, Inc."
+            ]
             },
             {
             
@@ -464,14 +464,15 @@
             "employees_enrolled": 2,
             "employees_waived": 2,
             "minimum_participation_required": 4,
-            "billing_report_date": "\"09-27-2016\"",
+            "billing_report_date": "\"10-02-2016\"",
             "binder_payment_due": null,
+            "active_general_agency": "Betadyne General Agency, Inc.",
             "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_8.json",
             "open_enrollment_begins" : null,
-            "open_enrollment_ends" : "03-13-2017",
-            "plan_year_begins": "04-01-2017",
-            "renewal_application_available": "01-01-2017",
-            "renewal_application_due": "03-10-2017",
+            "open_enrollment_ends" : "04-13-2017",
+            "plan_year_begins": "05-01-2017",
+            "renewal_application_available": "02-01-2017",
+            "renewal_application_due": "04-10-2017",
             "renewal_in_progress": "false",
             "contact_info": [      
                 {
@@ -502,8 +503,7 @@
                   "state": "DC",
                   "zip": "20001"
 }
-            ],
-            "active_general_agency": null
+            ]
             },
             {
             
@@ -512,14 +512,15 @@
             "employees_enrolled": 9,
             "employees_waived": 2,
             "minimum_participation_required": 8,
-            "billing_report_date": "\"09-27-2016\"",
+            "billing_report_date": "\"10-02-2016\"",
             "binder_payment_due": null,
+            "active_general_agency": "Betadyne General Agency, Inc.",
             "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_9.json",
             "open_enrollment_begins" : null,
-            "open_enrollment_ends" : "02-13-2017",
-            "plan_year_begins": "03-01-2017",
-            "renewal_application_available": "12-01-2016",
-            "renewal_application_due": "02-10-2017",
+            "open_enrollment_ends" : "03-13-2017",
+            "plan_year_begins": "04-01-2017",
+            "renewal_application_available": "01-01-2017",
+            "renewal_application_due": "03-10-2017",
             "renewal_in_progress": "false",
             "contact_info": [      
                 {
@@ -564,8 +565,7 @@
                   "state": "DC",
                   "zip": "20001"
 }
-            ],
-            "active_general_agency": null
+            ]
             },
             {
             
@@ -574,14 +574,15 @@
             "employees_enrolled": 50,
             "employees_waived": 0,
             "minimum_participation_required": 44,
-            "billing_report_date": "\"09-27-2016\"",
+            "billing_report_date": "\"10-02-2016\"",
             "binder_payment_due": null,
+            "active_general_agency": "Betadyne General Agency, Inc.",
             "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_10.json",
             "open_enrollment_begins" : null,
-            "open_enrollment_ends" : "01-13-2017",
-            "plan_year_begins": "02-01-2017",
-            "renewal_application_available": "11-01-2016",
-            "renewal_application_due": "01-10-2017",
+            "open_enrollment_ends" : "02-13-2017",
+            "plan_year_begins": "03-01-2017",
+            "renewal_application_available": "12-01-2016",
+            "renewal_application_due": "02-10-2017",
             "renewal_in_progress": "false",
             "contact_info": [
                 {
@@ -612,8 +613,7 @@
                   "state": "DC",
                   "zip": "20001"
 }
-            ],
-            "active_general_agency": null
+            ]
             }
     ]
 }
