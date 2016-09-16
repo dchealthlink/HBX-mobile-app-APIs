@@ -1,0 +1,34 @@
+{
+  "employer_name": "Best Brau Brewing Company",
+  "roster": [
+    [
+      {
+        "id": 500,
+        "enrollment_status": "Enrolled",
+        "name_prefix": "Mr.",
+        "first_name": "Sammy",
+        "middle_name": "R.",
+        "last_name": "Davis",
+        "name_suffix": "Jr."
+      },
+      {
+        "id": 501,
+        "enrollment_status": "Waived",
+        "name_prefix": "Mr.",
+        "first_name": "Frank",
+        "middle_name": "S.",
+        "last_name": "Sinatra",
+        "name_suffix": "III"
+      },
+      {
+        "id": 502,
+        "enrollment_status": "Not Enrolled",
+        "name_prefix": "Mr.",
+        "first_name": "Dean",
+        "middle_name": "D.",
+        "last_name": "Martin",
+        "name_suffix": "Sr."
+      }
+    ]
+  ]
+}

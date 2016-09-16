@@ -3,12 +3,19 @@
 require 'date'
 require 'json'
 
-@example_no = 0
-def create_employer_example_file(content) 
-
-    path = "enroll/employer/employer_summary/response/example_#{@example_no}.json"
+@details_example_no = 0
+def create_employer_details_example_file(content) 
+    path = "enroll/employer/employer_summary/response/example_#{@details_example_no}.json"
     File.write("#{__dir__}/../#{path}", JSON.pretty_generate(content))
-    @example_no += 1
+    @details_example_no += 1
+    "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/#{path}"
+end
+
+@roster_example_no = 0
+def create_employee_roster_example_file(content) 
+    path = "enroll/employer/employee_roster/response/example_#{@roster_example_no}.json"
+    File.write("#{__dir__}/../#{path}", JSON.pretty_generate(content))
+    @roster_example_no += 1
     "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/#{path}"
 end
 
@@ -129,9 +136,26 @@ def participation(employer_name, total, enrolled, waived)
         details[:total_premium] = ee_contrib + er_contrib
         details[:employee_contribution] = ee_contrib
         details[:employer_contribution] = er_contrib
-        details_url = create_employer_example_file(details)
+        summary[:employer_details_url] = create_employer_details_example_file(details)
+        summary[:employee_roster_url] = create_employee_roster_example_file({
+            employer_name: "#{employer_name}",
+            roster: [
+                ["Mr. Sammy R. Davis Jr.", "Mr. Frank S. Sinatra III", "Mr. Dean D. Martin Sr."].each_with_index.map do |e, index|
+                    
+                    pfx, first, mid, last, sfx = e.split
+                    { 
+                        id: @roster_example_no * 100 + index,
+                        enrollment_status: ["Enrolled", "Waived", "Not Enrolled"][index],
+                        name_prefix: pfx,
+                        first_name: first,
+                        middle_name: mid,
+                        last_name: last,
+                        name_suffix: sfx
+                    }
+                end
+            ]
+            })
 
-        summary[:employer_details_url] = "#{details_url}"
         json_section(summary, {indent: "            "})       
 end
 
