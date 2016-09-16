@@ -1,6 +1,8 @@
 # HBX-mobile-app-APIs
 Specifications and resources for mobile apps needed by the HBX mobile app
 
+Entry point: [hostname]/api/v1/mobile_api/employers_list
+
 ## APIs needed - Simple Broker App
 
 Iteration 0 of the mobile app targets SHOP brokers, and allows them to do easy management of SHOP employer clients.
