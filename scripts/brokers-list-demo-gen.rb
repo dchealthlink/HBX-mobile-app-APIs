@@ -76,7 +76,7 @@ end
 
 def fmt(dt)
     if dt
-        "\"%s\"" % dt.strftime("%m-%d-%Y")
+        "\"%s\"" % dt.strftime("%Y-%m-%d")
     else
         "null"
     end
@@ -119,7 +119,6 @@ def participation(employer_name, total, enrolled, waived)
 
         ee_contrib = (enrolled * 425.00 * ((waived + 1) ** 0.2)).round(2)
         er_contrib = (enrolled * 770.00 * ((waived + 1) ** 0.22)).round(2)
-
 
         summary = {
             employer_name: "#{employer_name}",
