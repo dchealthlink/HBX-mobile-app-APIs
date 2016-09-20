@@ -60,6 +60,10 @@ class PlanYear
         @start_date
     end
 
+    def in_renewal_OE
+        @in_open_enrollment && (@start_date.month > 6)
+    end
+
     def date_fields
         """\"open_enrollment_begins\" : #{fmt(open_enrollment_begins)},
             \"open_enrollment_ends\" : #{fmt(end_of_open_enrollment)},
@@ -134,8 +138,13 @@ def participation(employer_name, total, enrolled, waived, plan_year)
             minimum_participation_required: (total * 2.0 / 3.0).to_i,
             billing_report_date: fmt(now >> 1),
             active_general_agency: (total < 5) ? nil : "Betadyne General Agency, Inc.",
-
         }
+
+        period_types = ["active"]
+        period_types << "renewal" if plan_year.in_renewal_OE
+
+        coverage_options = { health: ["Enrolled", "Waived", "Not Enrolled"], 
+                             dental:  ["Enrolled", "Not Enrolled", nil] }
 
         details = summary.clone
         details[:total_premium] = ee_contrib + er_contrib
@@ -150,7 +159,17 @@ def participation(employer_name, total, enrolled, waived, plan_year)
                     pfx, first, mid, last, sfx = e.split
                     { 
                         id: @roster_example_no * 100 + index,
-                        enrollment_status: ["Enrolled", "Waived", "Not Enrolled"][index],
+                        enrollments: 
+                            period_types.map do |period_type|
+                                coverage_options.map do |coverage_kind, stati|
+                                    status = stati[index]
+                                    {
+                                        coverage_kind: coverage_kind,
+                                        period_type: period_type,
+                                        status: status
+                                    } if status
+                                end.compact
+                            end,
                         # removed: name_prefix: pfx,
                         first_name: first,
                         middle_name: mid,
