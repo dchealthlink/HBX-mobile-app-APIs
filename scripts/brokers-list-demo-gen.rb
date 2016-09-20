@@ -78,18 +78,9 @@ def plan_starting_in(months, in_open_enrollment = false, in_pending_renewal = fa
     PlanYear.new( (now >> months).on(1), in_open_enrollment, in_pending_renewal)
 end
 
-def fmt_unescaped(dt)
+def fmt(dt)
     dt.strftime("%Y-%m-%d") if dt
 end
-
-def fmt(dt)
-    if dt
-        "\"%s\"" % fmt_unescaped(dt)
-    else
-        "null"
-    end
-end
-
 
 def contact(first: "", last: "", phone: "", mobile: "", email: "", address_1: "", address_2: "", 
     city: "", state: "", zip: "")
@@ -125,8 +116,6 @@ end
 
 def participation(employer_name, total, enrolled, waived, plan_year)
 
-    print "%%%%%% #{plan_year} %%%%%\n\n"
-
         ee_contrib = (enrolled * 425.00 * ((waived + 1) ** 0.2)).round(2)
         er_contrib = (enrolled * 770.00 * ((waived + 1) ** 0.22)).round(2)
 
@@ -135,15 +124,15 @@ def participation(employer_name, total, enrolled, waived, plan_year)
             employees_total: total,
             employees_enrolled: enrolled,
             employees_waived: waived,
-            open_enrollment_begins:        fmt_unescaped(plan_year.open_enrollment_begins),
-            open_enrollment_ends:          fmt_unescaped(plan_year.end_of_open_enrollment),
-            plan_year_begins:              fmt_unescaped(plan_year.plan_year_begins),
+            open_enrollment_begins:        fmt(plan_year.open_enrollment_begins),
+            open_enrollment_ends:          fmt(plan_year.end_of_open_enrollment),
+            plan_year_begins:              fmt(plan_year.plan_year_begins),
             renewal_in_progress:           plan_year.in_pending_renewal,
-            renewal_application_available: fmt_unescaped(plan_year.renewal_begins),
-            renewal_application_due:       fmt_unescaped(plan_year.renewal_deadline),
+            renewal_application_available: fmt(plan_year.renewal_begins),
+            renewal_application_due:       fmt(plan_year.renewal_deadline),
             binder_payment_due: nil,
             minimum_participation_required: (total * 2.0 / 3.0).to_i,
-            billing_report_date: fmt_unescaped(now >> 1),
+            billing_report_date: fmt(now >> 1),
             active_general_agency: (total < 5) ? nil : "Betadyne General Agency, Inc.",
 
         }
@@ -179,8 +168,8 @@ end
 min_months_to_renew = if now.mday > 10 then 2 else 1 end
 min_months_to_enroll = if now.mday > 13 then 2 else 1 end
 
-in_open_enrollment = plan_starting_in(2, true, false)
-late_open_enrollment = plan_starting_in(min_months_to_enroll, true, false)
+in_open_enrollment = plan_starting_in(2, true)
+late_open_enrollment = plan_starting_in(min_months_to_enroll, true)
 in_renewal = plan_starting_in(2, false, true)
 early_renewal  = plan_starting_in(3, false, true)
 late_to_renewal = plan_starting_in(min_months_to_renew, false, true)
@@ -213,7 +202,7 @@ text = """
             ]
             },
             {
-            #{participation("DC Cupcakes", 50, 40, 7, plan_starting_in(5, false))},
+            #{participation("DC Cupcakes", 50, 40, 7, plan_starting_in(5))},
             \"contact_info\": [      
                 #{staffer(first: "Emile", last: "Della Noce", email: "contact@dccupcakes.com")},
                 #{office(address_1: "1600 Rhode Island Avenue", phone: "202-555-0313")}
@@ -253,14 +242,14 @@ text = """
             ]
             },
             {
-            #{participation("Strategy & Tactics Game Shop", 6, 2, 2, plan_starting_in(8, false, false))},
+            #{participation("Strategy & Tactics Game Shop", 6, 2, 2, plan_starting_in(8))},
             \"contact_info\": [      
                 #{staffer(first: "Maria Susanna", last: "Ludador", email: "contact@stgames.com")},
                 #{office(address_1: "1600 Georgia Avenue", phone: "202-555-0007")}
             ]
             },
             {
-            #{participation("Portia's Tea Bar", 12, 9, 2, plan_starting_in(7, false, false))},
+            #{participation("Portia's Tea Bar", 12, 9, 2, plan_starting_in(7))},
             \"contact_info\": [      
                 #{staffer(first: "Portia", last: "Binglesworth-Inglesham", email: "portia@helloportia.com")},
                 #{office(address_1: "1600 Alabama Avenue", phone: "202-555-0008")},
@@ -268,7 +257,7 @@ text = """
             ]
             },
             {
-            #{participation("J. Grigory Food Trucks & Fine Comestibles", 66, 50, 0, plan_starting_in(6, false, false))},
+            #{participation("J. Grigory Food Trucks & Fine Comestibles", 66, 50, 0, plan_starting_in(6))},
             \"contact_info\": [
                 #{staffer(first: "Joe", last: "Grigory", email: "jgrigory@jgrigory.com")},
                 #{office(address_1: "1600 North Carolina Avenue", phone: "202-555-0009")}
