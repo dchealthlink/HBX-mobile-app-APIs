@@ -73,10 +73,13 @@ def plan_starting_in(months, in_open_enrollment)
     PlanYear.new( (now >> months).on(1), in_open_enrollment)
 end
 
+def fmt_unescaped(dt)
+    dt.strftime("%Y-%m-%d") if dt
+end
 
 def fmt(dt)
     if dt
-        "\"%s\"" % dt.strftime("%Y-%m-%d")
+        "\"%s\"" % fmt_unescaped(dt)
     else
         "null"
     end
@@ -126,7 +129,7 @@ def participation(employer_name, total, enrolled, waived)
             employees_enrolled: enrolled,
             employees_waived: waived,
             minimum_participation_required: (total * 2.0 / 3.0).to_i,
-            billing_report_date: fmt(now >> 1),
+            billing_report_date: fmt_unescaped(now >> 1),
             binder_payment_due: nil,
             active_general_agency: (total < 5) ? nil : "Betadyne General Agency, Inc."
         }
