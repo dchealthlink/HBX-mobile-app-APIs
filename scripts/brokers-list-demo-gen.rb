@@ -151,7 +151,7 @@ def participation(employer_name, total, enrolled, waived, plan_year)
                     { 
                         id: @roster_example_no * 100 + index,
                         enrollment_status: ["Enrolled", "Waived", "Not Enrolled"][index],
-                        name_prefix: pfx,
+                        # removed: name_prefix: pfx,
                         first_name: first,
                         middle_name: mid,
                         last_name: last,
