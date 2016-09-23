@@ -153,7 +153,7 @@ def participation(employer_name, total, enrolled, waived, plan_year)
         summary[:employer_details_url] = create_employer_details_example_file(details)
         summary[:employee_roster_url] = create_employee_roster_example_file({
             employer_name: "#{employer_name}",
-            roster: [
+            roster: 
                 ["Mr. Sammy R. Davis Jr.", "Mr. Frank S. Sinatra III", "Mr. Dean D. Martin Sr."].each_with_index.map do |e, index|
                     
                     pfx, first, mid, last, sfx = e.split
@@ -169,7 +169,7 @@ def participation(employer_name, total, enrolled, waived, plan_year)
                                         status: status
                                     } if status
                                 end.compact
-                            end,
+                            end.flatten,
                         # removed: name_prefix: pfx,
                         first_name: first,
                         middle_name: mid,
@@ -177,7 +177,6 @@ def participation(employer_name, total, enrolled, waived, plan_year)
                         name_suffix: sfx
                     }
                 end
-            ]
             })
 
         json_section(summary, {indent: "            "})       

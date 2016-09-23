@@ -1,96 +1,82 @@
 {
   "employer_name": "District Yoga",
   "roster": [
-    [
-      {
-        "id": 200,
-        "enrollments": [
-          [
-            {
-              "coverage_kind": "health",
-              "period_type": "active",
-              "status": "Enrolled"
-            },
-            {
-              "coverage_kind": "dental",
-              "period_type": "active",
-              "status": "Enrolled"
-            }
-          ],
-          [
-            {
-              "coverage_kind": "health",
-              "period_type": "renewal",
-              "status": "Enrolled"
-            },
-            {
-              "coverage_kind": "dental",
-              "period_type": "renewal",
-              "status": "Enrolled"
-            }
-          ]
-        ],
-        "first_name": "Sammy",
-        "middle_name": "R.",
-        "last_name": "Davis",
-        "name_suffix": "Jr."
-      },
-      {
-        "id": 201,
-        "enrollments": [
-          [
-            {
-              "coverage_kind": "health",
-              "period_type": "active",
-              "status": "Waived"
-            },
-            {
-              "coverage_kind": "dental",
-              "period_type": "active",
-              "status": "Not Enrolled"
-            }
-          ],
-          [
-            {
-              "coverage_kind": "health",
-              "period_type": "renewal",
-              "status": "Waived"
-            },
-            {
-              "coverage_kind": "dental",
-              "period_type": "renewal",
-              "status": "Not Enrolled"
-            }
-          ]
-        ],
-        "first_name": "Frank",
-        "middle_name": "S.",
-        "last_name": "Sinatra",
-        "name_suffix": "III"
-      },
-      {
-        "id": 202,
-        "enrollments": [
-          [
-            {
-              "coverage_kind": "health",
-              "period_type": "active",
-              "status": "Not Enrolled"
-            }
-          ],
-          [
-            {
-              "coverage_kind": "health",
-              "period_type": "renewal",
-              "status": "Not Enrolled"
-            }
-          ]
-        ],
-        "first_name": "Dean",
-        "middle_name": "D.",
-        "last_name": "Martin",
-        "name_suffix": "Sr."
-      }
-    ]
+    {
+      "id": 200,
+      "enrollments": [
+        {
+          "coverage_kind": "health",
+          "period_type": "active",
+          "status": "Enrolled"
+        },
+        {
+          "coverage_kind": "dental",
+          "period_type": "active",
+          "status": "Enrolled"
+        },
+        {
+          "coverage_kind": "health",
+          "period_type": "renewal",
+          "status": "Enrolled"
+        },
+        {
+          "coverage_kind": "dental",
+          "period_type": "renewal",
+          "status": "Enrolled"
+        }
+      ],
+      "first_name": "Sammy",
+      "middle_name": "R.",
+      "last_name": "Davis",
+      "name_suffix": "Jr."
+    },
+    {
+      "id": 201,
+      "enrollments": [
+        {
+          "coverage_kind": "health",
+          "period_type": "active",
+          "status": "Waived"
+        },
+        {
+          "coverage_kind": "dental",
+          "period_type": "active",
+          "status": "Not Enrolled"
+        },
+        {
+          "coverage_kind": "health",
+          "period_type": "renewal",
+          "status": "Waived"
+        },
+        {
+          "coverage_kind": "dental",
+          "period_type": "renewal",
+          "status": "Not Enrolled"
+        }
+      ],
+      "first_name": "Frank",
+      "middle_name": "S.",
+      "last_name": "Sinatra",
+      "name_suffix": "III"
+    },
+    {
+      "id": 202,
+      "enrollments": [
+        {
+          "coverage_kind": "health",
+          "period_type": "active",
+          "status": "Not Enrolled"
+        },
+        {
+          "coverage_kind": "health",
+          "period_type": "renewal",
+          "status": "Not Enrolled"
+        }
+      ],
+      "first_name": "Dean",
+      "middle_name": "D.",
+      "last_name": "Martin",
+      "name_suffix": "Sr."
+    }
   ]
 }
