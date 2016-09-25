@@ -3,28 +3,32 @@
   "roster": [
     {
       "id": 0,
-      "enrollments": [
-        {
-          "coverage_kind": "health",
-          "period_type": "active",
-          "status": "Enrolled"
-        },
-        {
-          "coverage_kind": "dental",
-          "period_type": "active",
-          "status": "Enrolled"
-        },
-        {
-          "coverage_kind": "health",
-          "period_type": "renewal",
-          "status": "Enrolled"
-        },
-        {
-          "coverage_kind": "dental",
-          "period_type": "renewal",
-          "status": "Enrolled"
-        }
-      ],
+      "enrollments": {
+        "active": [
+          {
+            "coverage_kind": "health",
+            "period_type": "active",
+            "status": "Enrolled"
+          },
+          {
+            "coverage_kind": "dental",
+            "period_type": "active",
+            "status": "Enrolled"
+          }
+        ],
+        "renewal": [
+          {
+            "coverage_kind": "health",
+            "period_type": "renewal",
+            "status": "Enrolled"
+          },
+          {
+            "coverage_kind": "dental",
+            "period_type": "renewal",
+            "status": "Enrolled"
+          }
+        ]
+      },
       "first_name": "Sammy",
       "middle_name": "R.",
       "last_name": "Davis",
@@ -32,28 +36,32 @@
     },
     {
       "id": 1,
-      "enrollments": [
-        {
-          "coverage_kind": "health",
-          "period_type": "active",
-          "status": "Waived"
-        },
-        {
-          "coverage_kind": "dental",
-          "period_type": "active",
-          "status": "Not Enrolled"
-        },
-        {
-          "coverage_kind": "health",
-          "period_type": "renewal",
-          "status": "Waived"
-        },
-        {
-          "coverage_kind": "dental",
-          "period_type": "renewal",
-          "status": "Not Enrolled"
-        }
-      ],
+      "enrollments": {
+        "active": [
+          {
+            "coverage_kind": "health",
+            "period_type": "active",
+            "status": "Waived"
+          },
+          {
+            "coverage_kind": "dental",
+            "period_type": "active",
+            "status": "Not Enrolled"
+          }
+        ],
+        "renewal": [
+          {
+            "coverage_kind": "health",
+            "period_type": "renewal",
+            "status": "Waived"
+          },
+          {
+            "coverage_kind": "dental",
+            "period_type": "renewal",
+            "status": "Not Enrolled"
+          }
+        ]
+      },
       "first_name": "Frank",
       "middle_name": "S.",
       "last_name": "Sinatra",
@@ -61,18 +69,22 @@
     },
     {
       "id": 2,
-      "enrollments": [
-        {
-          "coverage_kind": "health",
-          "period_type": "active",
-          "status": "Not Enrolled"
-        },
-        {
-          "coverage_kind": "health",
-          "period_type": "renewal",
-          "status": "Not Enrolled"
-        }
-      ],
+      "enrollments": {
+        "active": [
+          {
+            "coverage_kind": "health",
+            "period_type": "active",
+            "status": "Not Enrolled"
+          }
+        ],
+        "renewal": [
+          {
+            "coverage_kind": "health",
+            "period_type": "renewal",
+            "status": "Not Enrolled"
+          }
+        ]
+      },
       "first_name": "Dean",
       "middle_name": "D.",
       "last_name": "Martin",

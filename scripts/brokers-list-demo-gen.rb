@@ -160,7 +160,8 @@ def participation(employer_name, total, enrolled, waived, plan_year)
                     { 
                         id: @roster_example_no * 100 + index,
                         enrollments: 
-                            period_types.map do |period_type|
+                            Hash[period_types.map do |period_type|
+                                [ period_type, 
                                 coverage_options.map do |coverage_kind, stati|
                                     status = stati[index]
                                     {
@@ -168,8 +169,8 @@ def participation(employer_name, total, enrolled, waived, plan_year)
                                         period_type: period_type,
                                         status: status
                                     } if status
-                                end.compact
-                            end.flatten,
+                                end.compact ]
+                            end ],
                         # removed: name_prefix: pfx,
                         first_name: first,
                         middle_name: mid,

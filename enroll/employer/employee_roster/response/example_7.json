@@ -3,18 +3,20 @@
   "roster": [
     {
       "id": 700,
-      "enrollments": [
-        {
-          "coverage_kind": "health",
-          "period_type": "active",
-          "status": "Enrolled"
-        },
-        {
-          "coverage_kind": "dental",
-          "period_type": "active",
-          "status": "Enrolled"
-        }
-      ],
+      "enrollments": {
+        "active": [
+          {
+            "coverage_kind": "health",
+            "period_type": "active",
+            "status": "Enrolled"
+          },
+          {
+            "coverage_kind": "dental",
+            "period_type": "active",
+            "status": "Enrolled"
+          }
+        ]
+      },
       "first_name": "Sammy",
       "middle_name": "R.",
       "last_name": "Davis",
@@ -22,18 +24,20 @@
     },
     {
       "id": 701,
-      "enrollments": [
-        {
-          "coverage_kind": "health",
-          "period_type": "active",
-          "status": "Waived"
-        },
-        {
-          "coverage_kind": "dental",
-          "period_type": "active",
-          "status": "Not Enrolled"
-        }
-      ],
+      "enrollments": {
+        "active": [
+          {
+            "coverage_kind": "health",
+            "period_type": "active",
+            "status": "Waived"
+          },
+          {
+            "coverage_kind": "dental",
+            "period_type": "active",
+            "status": "Not Enrolled"
+          }
+        ]
+      },
       "first_name": "Frank",
       "middle_name": "S.",
       "last_name": "Sinatra",
@@ -41,13 +45,15 @@
     },
     {
       "id": 702,
-      "enrollments": [
-        {
-          "coverage_kind": "health",
-          "period_type": "active",
-          "status": "Not Enrolled"
-        }
-      ],
+      "enrollments": {
+        "active": [
+          {
+            "coverage_kind": "health",
+            "period_type": "active",
+            "status": "Not Enrolled"
+          }
+        ]
+      },
       "first_name": "Dean",
       "middle_name": "D.",
       "last_name": "Martin",
