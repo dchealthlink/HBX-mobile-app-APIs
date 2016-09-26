@@ -155,22 +155,30 @@ def participation(employer_name, total, enrolled, waived, plan_year)
             employer_name: "#{employer_name}",
             roster: 
                 ["Mr. Sammy R. Davis Jr.", "Mr. Frank S. Sinatra III", "Mr. Dean D. Martin Sr."].each_with_index.map do |e, index|
-                    
+                
                     pfx, first, mid, last, sfx = e.split
+                    enrollments = {}
+                    period_types.each do |period_type|
+                        enrollments[period_type] = {}
+                        coverage_options.keys.each do |coverage_kind|
+                            status = coverage_options[coverage_kind][index]
+                            if status then
+                                enrollment = { status: status }
+                                case status when "Enrolled", "Waived"
+                                        er_cost = (status == "Enrolled") ? (er_contrib / 3).round(2) : 0.0
+                                        ee_cost = (status == "Enrolled") ? (ee_contrib / 3).round(2) : 0.0
+                                        enrollment[:employer_contribution] = er_cost
+                                        enrollment[:employee_cost] = ee_cost
+                                        enrollment[:total_premium] = er_cost + ee_cost
+                                end
+                                enrollments[period_type][coverage_kind] = enrollment
+                            end
+                        end
+                    end
+        
                     { 
                         id: @roster_example_no * 100 + index,
-                        enrollments: 
-                            Hash[period_types.map do |period_type|
-                                [ period_type, 
-                                coverage_options.map do |coverage_kind, stati|
-                                    status = stati[index]
-                                    {
-                                        coverage_kind: coverage_kind,
-                                        period_type: period_type,
-                                        status: status
-                                    } if status
-                                end.compact ]
-                            end ],
+                        enrollments: enrollments,
                         # removed: name_prefix: pfx,
                         first_name: first,
                         middle_name: mid,

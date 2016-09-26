@@ -4,18 +4,20 @@
     {
       "id": 700,
       "enrollments": {
-        "active": [
-          {
-            "coverage_kind": "health",
-            "period_type": "active",
-            "status": "Enrolled"
+        "active": {
+          "health": {
+            "status": "Enrolled",
+            "employer_contribution": 2838.88,
+            "employee_cost": 1503.09,
+            "total_premium": 4341.97
           },
-          {
-            "coverage_kind": "dental",
-            "period_type": "active",
-            "status": "Enrolled"
+          "dental": {
+            "status": "Enrolled",
+            "employer_contribution": 2838.88,
+            "employee_cost": 1503.09,
+            "total_premium": 4341.97
           }
-        ]
+        }
       },
       "first_name": "Sammy",
       "middle_name": "R.",
@@ -25,18 +27,17 @@
     {
       "id": 701,
       "enrollments": {
-        "active": [
-          {
-            "coverage_kind": "health",
-            "period_type": "active",
-            "status": "Waived"
+        "active": {
+          "health": {
+            "status": "Waived",
+            "employer_contribution": 0.0,
+            "employee_cost": 0.0,
+            "total_premium": 0.0
           },
-          {
-            "coverage_kind": "dental",
-            "period_type": "active",
+          "dental": {
             "status": "Not Enrolled"
           }
-        ]
+        }
       },
       "first_name": "Frank",
       "middle_name": "S.",
@@ -46,13 +47,11 @@
     {
       "id": 702,
       "enrollments": {
-        "active": [
-          {
-            "coverage_kind": "health",
-            "period_type": "active",
+        "active": {
+          "health": {
             "status": "Not Enrolled"
           }
-        ]
+        }
       },
       "first_name": "Dean",
       "middle_name": "D.",
