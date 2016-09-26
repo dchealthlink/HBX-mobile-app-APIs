@@ -170,6 +170,10 @@ def participation(employer_name, total, enrolled, waived, plan_year)
                                         enrollment[:employer_contribution] = er_cost
                                         enrollment[:employee_cost] = ee_cost
                                         enrollment[:total_premium] = er_cost + ee_cost
+
+                                        enrollment[:plan_name] = "KP DC Silver 2000/35"
+                                        enrollment[:plan_type] = "HMO"
+                                        enrollment[:metal_level] = "Silver"
                                 end
                                 enrollments[period_type][coverage_kind] = enrollment
                             end

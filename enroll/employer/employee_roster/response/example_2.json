@@ -9,13 +9,19 @@
             "status": "Enrolled",
             "employer_contribution": 6963.9,
             "employee_cost": 3738.61,
-            "total_premium": 10702.51
+            "total_premium": 10702.51,
+            "plan_name": "KP DC Silver 2000/35",
+            "plan_type": "HMO",
+            "metal_level": "Silver"
           },
           "dental": {
             "status": "Enrolled",
             "employer_contribution": 6963.9,
             "employee_cost": 3738.61,
-            "total_premium": 10702.51
+            "total_premium": 10702.51,
+            "plan_name": "KP DC Silver 2000/35",
+            "plan_type": "HMO",
+            "metal_level": "Silver"
           }
         },
         "renewal": {
@@ -23,13 +29,19 @@
             "status": "Enrolled",
             "employer_contribution": 6963.9,
             "employee_cost": 3738.61,
-            "total_premium": 10702.51
+            "total_premium": 10702.51,
+            "plan_name": "KP DC Silver 2000/35",
+            "plan_type": "HMO",
+            "metal_level": "Silver"
           },
           "dental": {
             "status": "Enrolled",
             "employer_contribution": 6963.9,
             "employee_cost": 3738.61,
-            "total_premium": 10702.51
+            "total_premium": 10702.51,
+            "plan_name": "KP DC Silver 2000/35",
+            "plan_type": "HMO",
+            "metal_level": "Silver"
           }
         }
       },
@@ -46,7 +58,10 @@
             "status": "Waived",
             "employer_contribution": 0.0,
             "employee_cost": 0.0,
-            "total_premium": 0.0
+            "total_premium": 0.0,
+            "plan_name": "KP DC Silver 2000/35",
+            "plan_type": "HMO",
+            "metal_level": "Silver"
           },
           "dental": {
             "status": "Not Enrolled"
@@ -57,7 +72,10 @@
             "status": "Waived",
             "employer_contribution": 0.0,
             "employee_cost": 0.0,
-            "total_premium": 0.0
+            "total_premium": 0.0,
+            "plan_name": "KP DC Silver 2000/35",
+            "plan_type": "HMO",
+            "metal_level": "Silver"
           },
           "dental": {
             "status": "Not Enrolled"
