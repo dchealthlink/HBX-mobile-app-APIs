@@ -5,7 +5,7 @@ require 'json'
 
 @details_example_no = 0
 def create_employer_details_example_file(content) 
-    path = "enroll/employer/employer_summary/response/example_#{@details_example_no}.json"
+    path = "enroll/employer/employer_details/response/example_#{@details_example_no}.json"
     File.write("#{__dir__}/../#{path}", JSON.pretty_generate(content))
     @details_example_no += 1
     "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/#{path}"
@@ -150,6 +150,59 @@ def participation(employer_name, total, enrolled, waived, plan_year)
         details[:total_premium] = ee_contrib + er_contrib
         details[:employee_contribution] = ee_contrib
         details[:employer_contribution] = er_contrib
+
+        details[:plan_offerings] = Hash[period_types.map do |period_type|
+            [period_type, ["Closers", "Other Employees"].map do |group_name|
+                { 
+                    benefit_group_name: group_name,
+                    eligibility_rule: 'First of the month following or coinciding with date of hire',
+                    health: {
+                         reference_plan_name: 'KP DC PLATINUM 500/20/DENTAL/PED DENTAL/SEL',
+                         reference_plan_HIOS_id: "94506DC0350009-01",
+                         carrier_name: 'Kaiser',
+                         plan_type: 'HMO',
+                         metal_level: 'Platinum',
+                         plan_option_kind: 'single_carrier',
+                         plans_by: 'All Plans From a Single Carrier',
+                         plans_by_summary_text: 'All Kaiser Plans',
+                         employer_contribution_by_relationship: { 
+                            employee: 80, 
+                            spouse: 70,
+                            domestic_partner: 60,
+                            child: 50
+                        },
+                        estimated_employer_max_monthly_cost: 6000,
+                        estimated_plan_participant_min_monthly_cost: 312,
+                        estimated_plan_participant_max_monthly_cost: 954 
+                    },
+                    dental: {
+                         reference_plan_name: 'BlueDental Preferred',
+                         reference_plan_HIOS_id: "94506DC0350009-01",
+                         carrier_name: 'CareFirst',
+                         plan_type: 'PPO',
+                         plan_option_kind: 'single_plan',
+                         plans_by: 'Custom (3 Plans)',
+                         plans_by_summary_text: 'Custom (3 Plans)',
+                         elected_dental_plans: [
+                            { carrier_name: 'CareFirst', plan_name: 'BlueDental Preferred '},
+                            { carrier_name: 'CareFirst', plan_name: 'BlueDental Traditional'},
+                            { carrier_name: 'Delta Dental ', plan_name: 'Delta Dental PPO Basic Plan for Families for Small Businesses '}
+                         ],
+                         employer_contribution_by_relationship: { 
+                            employee: 80, 
+                            spouse: 70,
+                            domestic_partner: 60,
+                            child: 50
+                        },
+                        estimated_employer_max_monthly_cost: 2000,
+                        estimated_plan_participant_min_monthly_cost: 92,
+                        estimated_plan_participant_max_monthly_cost: 54 
+                    },
+
+                }
+            end]
+        end]
+
         summary[:employer_details_url] = create_employer_details_example_file(details)
         summary[:employee_roster_url] = create_employee_roster_example_file({
             employer_name: "#{employer_name}",

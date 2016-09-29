@@ -17,9 +17,9 @@
             "renewal_application_due": "2016-10-10",
             "binder_payment_due": null,
             "minimum_participation_required": 20,
-            "billing_report_date": "2016-10-26",
+            "billing_report_date": "2016-10-29",
             "active_general_agency": "Betadyne General Agency, Inc.",
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_0.json",
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_details/response/example_0.json",
             "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employee_roster/response/example_0.json",
             
             "contact_info": [
@@ -67,9 +67,9 @@
             "renewal_application_due": "2016-10-10",
             "binder_payment_due": null,
             "minimum_participation_required": 27,
-            "billing_report_date": "2016-10-26",
+            "billing_report_date": "2016-10-29",
             "active_general_agency": "Betadyne General Agency, Inc.",
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_1.json",
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_details/response/example_1.json",
             "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employee_roster/response/example_1.json",
             "contact_info": [
                 {
@@ -116,9 +116,9 @@
             "renewal_application_due": "2016-10-10",
             "binder_payment_due": null,
             "minimum_participation_required": 20,
-            "billing_report_date": "2016-10-26",
+            "billing_report_date": "2016-10-29",
             "active_general_agency": "Betadyne General Agency, Inc.",
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_2.json",
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_details/response/example_2.json",
             "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employee_roster/response/example_2.json",
             "contact_info": [      
                 {
@@ -165,9 +165,9 @@
             "renewal_application_due": "2017-01-10",
             "binder_payment_due": null,
             "minimum_participation_required": 33,
-            "billing_report_date": "2016-10-26",
+            "billing_report_date": "2016-10-29",
             "active_general_agency": "Betadyne General Agency, Inc.",
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_3.json",
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_details/response/example_3.json",
             "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employee_roster/response/example_3.json",
             "contact_info": [      
                 {
@@ -214,9 +214,9 @@
             "renewal_application_due": "2016-10-10",
             "binder_payment_due": null,
             "minimum_participation_required": 20,
-            "billing_report_date": "2016-10-26",
+            "billing_report_date": "2016-10-29",
             "active_general_agency": "Betadyne General Agency, Inc.",
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_4.json",
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_details/response/example_4.json",
             "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employee_roster/response/example_4.json",
             "contact_info": [      
                 {
@@ -277,9 +277,9 @@
             "renewal_application_due": "2016-10-10",
             "binder_payment_due": null,
             "minimum_participation_required": 20,
-            "billing_report_date": "2016-10-26",
+            "billing_report_date": "2016-10-29",
             "active_general_agency": "Betadyne General Agency, Inc.",
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_5.json",
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_details/response/example_5.json",
             "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employee_roster/response/example_5.json",
             "contact_info": [      
                 {
@@ -354,9 +354,9 @@
             "renewal_application_due": "2016-10-10",
             "binder_payment_due": null,
             "minimum_participation_required": 22,
-            "billing_report_date": "2016-10-26",
+            "billing_report_date": "2016-10-29",
             "active_general_agency": "Betadyne General Agency, Inc.",
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_6.json",
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_details/response/example_6.json",
             "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employee_roster/response/example_6.json",
             "contact_info": [      
                 {
@@ -417,9 +417,9 @@
             "renewal_application_due": "2016-11-10",
             "binder_payment_due": null,
             "minimum_participation_required": 10,
-            "billing_report_date": "2016-10-26",
+            "billing_report_date": "2016-10-29",
             "active_general_agency": "Betadyne General Agency, Inc.",
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_7.json",
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_details/response/example_7.json",
             "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employee_roster/response/example_7.json",
             "contact_info": [      
                 {
@@ -480,9 +480,9 @@
             "renewal_application_due": "2017-04-10",
             "binder_payment_due": null,
             "minimum_participation_required": 4,
-            "billing_report_date": "2016-10-26",
+            "billing_report_date": "2016-10-29",
             "active_general_agency": "Betadyne General Agency, Inc.",
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_8.json",
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_details/response/example_8.json",
             "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employee_roster/response/example_8.json",
             "contact_info": [      
                 {
@@ -529,9 +529,9 @@
             "renewal_application_due": "2017-03-10",
             "binder_payment_due": null,
             "minimum_participation_required": 8,
-            "billing_report_date": "2016-10-26",
+            "billing_report_date": "2016-10-29",
             "active_general_agency": "Betadyne General Agency, Inc.",
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_9.json",
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_details/response/example_9.json",
             "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employee_roster/response/example_9.json",
             "contact_info": [      
                 {
@@ -592,9 +592,9 @@
             "renewal_application_due": "2017-02-10",
             "binder_payment_due": null,
             "minimum_participation_required": 44,
-            "billing_report_date": "2016-10-26",
+            "billing_report_date": "2016-10-29",
             "active_general_agency": "Betadyne General Agency, Inc.",
-            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_summary/response/example_10.json",
+            "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employer_details/response/example_10.json",
             "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/enroll/employer/employee_roster/response/example_10.json",
             "contact_info": [
                 {
