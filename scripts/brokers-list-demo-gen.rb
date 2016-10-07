@@ -207,9 +207,11 @@ def participation(employer_name, total, enrolled, waived, plan_year)
         summary[:employee_roster_url] = create_employee_roster_example_file({
             employer_name: "#{employer_name}",
             roster: 
-                ["Mr. Sammy R. Davis Jr.", "Mr. Frank S. Sinatra III", "Mr. Dean D. Martin Sr."].each_with_index.map do |e, index|
+                ["Mr. Sammy R. Davis Jr. 1925-12-08 XXX-XX-6789 2008-12-08", 
+                 "Mr. Frank S. Sinatra III 1915-12-12 XXX-XX-2000 2007-12-12", 
+                 "Mr. Dean D. Martin Sr. 1917-06-07 XXX-XX-4566 2012-03-03"].each_with_index.map do |e, index|
                 
-                    pfx, first, mid, last, sfx = e.split
+                    pfx, first, mid, last, sfx, dob, ssn, hired = e.split
                     enrollments = {}
                     period_types.each do |period_type|
                         enrollments[period_type] = {}
@@ -236,11 +238,13 @@ def participation(employer_name, total, enrolled, waived, plan_year)
                     { 
                         id: @roster_example_no * 100 + index,
                         enrollments: enrollments,
-                        # removed: name_prefix: pfx,
                         first_name: first,
                         middle_name: mid,
                         last_name: last,
-                        name_suffix: sfx
+                        name_suffix: sfx,
+                        date_of_birth: dob,
+                        ssn_masked: ssn,
+                        hired_on: hired
                     }
                 end
             })

@@ -48,7 +48,10 @@
       "first_name": "Sammy",
       "middle_name": "R.",
       "last_name": "Davis",
-      "name_suffix": "Jr."
+      "name_suffix": "Jr.",
+      "date_of_birth": "1925-12-08",
+      "ssn_masked": "XXX-XX-6789",
+      "hired_on": "2008-12-08"
     },
     {
       "id": 401,
@@ -85,7 +88,10 @@
       "first_name": "Frank",
       "middle_name": "S.",
       "last_name": "Sinatra",
-      "name_suffix": "III"
+      "name_suffix": "III",
+      "date_of_birth": "1915-12-12",
+      "ssn_masked": "XXX-XX-2000",
+      "hired_on": "2007-12-12"
     },
     {
       "id": 402,
@@ -104,7 +110,10 @@
       "first_name": "Dean",
       "middle_name": "D.",
       "last_name": "Martin",
-      "name_suffix": "Sr."
+      "name_suffix": "Sr.",
+      "date_of_birth": "1917-06-07",
+      "ssn_masked": "XXX-XX-4566",
+      "hired_on": "2012-03-03"
     }
   ]
 }
