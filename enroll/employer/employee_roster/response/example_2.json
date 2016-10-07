@@ -51,7 +51,8 @@
       "name_suffix": "Jr.",
       "date_of_birth": "1925-12-08",
       "ssn_masked": "XXX-XX-6789",
-      "hired_on": "2008-12-08"
+      "hired_on": "2008-12-08",
+      "is_business_owner": false
     },
     {
       "id": 201,
@@ -91,7 +92,8 @@
       "name_suffix": "III",
       "date_of_birth": "1915-12-12",
       "ssn_masked": "XXX-XX-2000",
-      "hired_on": "2007-12-12"
+      "hired_on": "2007-12-12",
+      "is_business_owner": true
     },
     {
       "id": 202,
@@ -113,7 +115,8 @@
       "name_suffix": "Sr.",
       "date_of_birth": "1917-06-07",
       "ssn_masked": "XXX-XX-4566",
-      "hired_on": "2012-03-03"
+      "hired_on": "2012-03-03",
+      "is_business_owner": false
     }
   ]
 }

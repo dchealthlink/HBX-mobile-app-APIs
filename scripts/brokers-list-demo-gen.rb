@@ -244,7 +244,8 @@ def participation(employer_name, total, enrolled, waived, plan_year)
                         name_suffix: sfx,
                         date_of_birth: dob,
                         ssn_masked: ssn,
-                        hired_on: hired
+                        hired_on: hired,
+                        is_business_owner: (index == 1) #Frank is the Chairman of the Board
                     }
                 end
             })
