@@ -12,7 +12,9 @@
             "total_premium": 10702.51,
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
-            "metal_level": "Silver"
+            "metal_level": "Silver",
+            "benefit_group_name": "Other Employees",
+            "plan_start_on": "2016-12-01"
           },
           "dental": {
             "status": "Enrolled",
@@ -21,7 +23,9 @@
             "total_premium": 10702.51,
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
-            "metal_level": "Silver"
+            "metal_level": "Silver",
+            "benefit_group_name": "Other Employees",
+            "plan_start_on": "2016-12-01"
           }
         },
         "renewal": {
@@ -32,7 +36,9 @@
             "total_premium": 10702.51,
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
-            "metal_level": "Silver"
+            "metal_level": "Silver",
+            "benefit_group_name": "Other Employees",
+            "plan_start_on": "2016-12-01"
           },
           "dental": {
             "status": "Enrolled",
@@ -41,7 +47,9 @@
             "total_premium": 10702.51,
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
-            "metal_level": "Silver"
+            "metal_level": "Silver",
+            "benefit_group_name": "Other Employees",
+            "plan_start_on": "2016-12-01"
           }
         }
       },
@@ -65,7 +73,9 @@
             "total_premium": 0.0,
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
-            "metal_level": "Silver"
+            "metal_level": "Silver",
+            "benefit_group_name": "Closers",
+            "plan_start_on": "2016-12-01"
           },
           "dental": {
             "status": "Not Enrolled"
@@ -79,7 +89,9 @@
             "total_premium": 0.0,
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
-            "metal_level": "Silver"
+            "metal_level": "Silver",
+            "benefit_group_name": "Closers",
+            "plan_start_on": "2016-12-01"
           },
           "dental": {
             "status": "Not Enrolled"

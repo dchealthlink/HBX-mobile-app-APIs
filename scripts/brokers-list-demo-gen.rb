@@ -224,11 +224,13 @@ def participation(employer_name, total, enrolled, waived, plan_year)
                                         ee_cost = (status == "Enrolled") ? (ee_contrib / 3).round(2) : 0.0
                                         enrollment[:employer_contribution] = er_cost
                                         enrollment[:employee_cost] = ee_cost
-                                        enrollment[:total_premium] = er_cost + ee_cost
+                                        enrollment[:total_premium] = (er_cost + ee_cost).round(2)
 
                                         enrollment[:plan_name] = "KP DC Silver 2000/35"
                                         enrollment[:plan_type] = "HMO"
                                         enrollment[:metal_level] = "Silver"
+                                        enrollment[:benefit_group_name] = (index == 1) ? "Closers" : "Other Employees"
+                                        enrollment[:plan_start_on] = fmt(plan_year.plan_year_begins)
                                 end
                                 enrollments[period_type][coverage_kind] = enrollment
                             end
