@@ -118,6 +118,21 @@ def json_section(obj, opts)
     JSON.pretty_generate(obj, opts).gsub(/\{|\}/, '').rstrip
 end
 
+def parse_person(person_string)
+    gender, first, mid, last, sfx, dob, ssn, hired = person_string.split
+    result = { 
+        first_name: first,
+        middle_name: mid,
+        last_name: last,
+        name_suffix: sfx,
+        date_of_birth: dob,
+        ssn_masked: ssn,
+        gender: gender
+    }
+    result[:hired_on] = hired if hired
+    result
+end
+
 def participation(employer_name, total, enrolled, waived, plan_year)
 
         ee_contrib = (enrolled * 425.00 * ((waived + 1) ** 0.2)).round(2)
@@ -207,11 +222,15 @@ def participation(employer_name, total, enrolled, waived, plan_year)
         summary[:employee_roster_url] = create_employee_roster_example_file({
             employer_name: "#{employer_name}",
             roster: 
-                ["Mr. Sammy R. Davis Jr. 1925-12-08 XXX-XX-6789 2008-12-08", 
-                 "Mr. Frank S. Sinatra III 1915-12-12 XXX-XX-2000 2007-12-12", 
-                 "Mr. Dean D. Martin Sr. 1917-06-07 XXX-XX-4566 2012-03-03"].each_with_index.map do |e, index|
+                [["M Sammy R. Davis Jr. 1925-12-08 ***-**-6789 2008-12-08",   
+                    ["F Tracey Davis Jr. 1965-08-07 ***-**-9909",
+                     "M Manny Davis X 1971-09-09 ***-**-5505"] ], 
+                 ["M Frank S. Sinatra III 1915-12-12 ***-**-2000 2007-12-12", [] ], 
+                 ["M Dean D. Martin Sr. 1917-06-07 ***-**-4566 2012-03-03",   [] ]
+                ].each_with_index.map do |e, index|
                 
-                    pfx, first, mid, last, sfx, dob, ssn, hired = e.split
+                    employee = parse_person(e[0])
+                    dependents = e[1].map { |d| parse_person(d) }
                     enrollments = {}
                     period_types.each do |period_type|
                         enrollments[period_type] = {}
@@ -236,19 +255,12 @@ def participation(employer_name, total, enrolled, waived, plan_year)
                             end
                         end
                     end
-        
-                    { 
-                        id: @roster_example_no * 100 + index,
-                        enrollments: enrollments,
-                        first_name: first,
-                        middle_name: mid,
-                        last_name: last,
-                        name_suffix: sfx,
-                        date_of_birth: dob,
-                        ssn_masked: ssn,
-                        hired_on: hired,
-                        is_business_owner: (index == 1) #Frank is the Chairman of the Board
-                    }
+                    
+                    employee[:id] = @roster_example_no * 100 + index
+                    employee[:enrollments],
+                    employee[:is_business_owner] = (index == 1) #Frank is the Chairman of the Board
+                    employee[:dependents] = dependents
+                    employee
                 end
             })
 

@@ -2,88 +2,69 @@
   "employer_name": "Strategy & Tactics Game Shop",
   "roster": [
     {
-      "id": 800,
-      "enrollments": {
-        "active": {
-          "health": {
-            "status": "Enrolled",
-            "employer_contribution": 653.68,
-            "employee_cost": 352.96,
-            "total_premium": 1006.64,
-            "plan_name": "KP DC Silver 2000/35",
-            "plan_type": "HMO",
-            "metal_level": "Silver",
-            "benefit_group_name": "Other Employees",
-            "plan_start_on": "2017-06-01"
-          },
-          "dental": {
-            "status": "Enrolled",
-            "employer_contribution": 653.68,
-            "employee_cost": 352.96,
-            "total_premium": 1006.64,
-            "plan_name": "KP DC Silver 2000/35",
-            "plan_type": "HMO",
-            "metal_level": "Silver",
-            "benefit_group_name": "Other Employees",
-            "plan_start_on": "2017-06-01"
-          }
-        }
-      },
       "first_name": "Sammy",
       "middle_name": "R.",
       "last_name": "Davis",
       "name_suffix": "Jr.",
       "date_of_birth": "1925-12-08",
-      "ssn_masked": "XXX-XX-6789",
+      "ssn_masked": "***-**-6789",
+      "gender": "M",
       "hired_on": "2008-12-08",
-      "is_business_owner": false
+      "id": 800,
+      "enrollments": false,
+      "is_business_owner": null,
+      "dependents": [
+        {
+          "first_name": "Tracey",
+          "middle_name": "Davis",
+          "last_name": "Jr.",
+          "name_suffix": "1965-08-07",
+          "date_of_birth": "***-**-9909",
+          "ssn_masked": null,
+          "gender": "F"
+        },
+        {
+          "first_name": "Manny",
+          "middle_name": "Davis",
+          "last_name": "X",
+          "name_suffix": "1971-09-09",
+          "date_of_birth": "***-**-5505",
+          "ssn_masked": null,
+          "gender": "M"
+        }
+      ]
     },
     {
-      "id": 801,
-      "enrollments": {
-        "active": {
-          "health": {
-            "status": "Waived",
-            "employer_contribution": 0.0,
-            "employee_cost": 0.0,
-            "total_premium": 0.0,
-            "plan_name": "KP DC Silver 2000/35",
-            "plan_type": "HMO",
-            "metal_level": "Silver",
-            "benefit_group_name": "Closers",
-            "plan_start_on": "2017-06-01"
-          },
-          "dental": {
-            "status": "Not Enrolled"
-          }
-        }
-      },
       "first_name": "Frank",
       "middle_name": "S.",
       "last_name": "Sinatra",
       "name_suffix": "III",
       "date_of_birth": "1915-12-12",
-      "ssn_masked": "XXX-XX-2000",
+      "ssn_masked": "***-**-2000",
+      "gender": "M",
       "hired_on": "2007-12-12",
-      "is_business_owner": true
+      "id": 801,
+      "enrollments": true,
+      "is_business_owner": null,
+      "dependents": [
+
+      ]
     },
     {
-      "id": 802,
-      "enrollments": {
-        "active": {
-          "health": {
-            "status": "Not Enrolled"
-          }
-        }
-      },
       "first_name": "Dean",
       "middle_name": "D.",
       "last_name": "Martin",
       "name_suffix": "Sr.",
       "date_of_birth": "1917-06-07",
-      "ssn_masked": "XXX-XX-4566",
+      "ssn_masked": "***-**-4566",
+      "gender": "M",
       "hired_on": "2012-03-03",
-      "is_business_owner": false
+      "id": 802,
+      "enrollments": false,
+      "is_business_owner": null,
+      "dependents": [
+
+      ]
     }
   ]
 }
