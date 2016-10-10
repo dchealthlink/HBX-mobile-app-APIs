@@ -222,11 +222,11 @@ def participation(employer_name, total, enrolled, waived, plan_year)
         summary[:employee_roster_url] = create_employee_roster_example_file({
             employer_name: "#{employer_name}",
             roster: 
-                [["M Sammy R. Davis Jr. 1925-12-08 ***-**-6789 2008-12-08",   
-                    ["F Tracey Davis Jr. 1965-08-07 ***-**-9909",
-                     "M Manny Davis X 1971-09-09 ***-**-5505"] ], 
-                 ["M Frank S. Sinatra III 1915-12-12 ***-**-2000 2007-12-12", [] ], 
-                 ["M Dean D. Martin Sr. 1917-06-07 ***-**-4566 2012-03-03",   [] ]
+                [["male Sammy R. Davis Jr. 1925-12-08 ***-**-6789 2008-12-08",   
+                    ["female Tracey Davis Jr. 1965-08-07 ***-**-9909",
+                     "male Manny Davis X 1971-09-09 ***-**-5505"] ], 
+                 ["male Frank S. Sinatra III 1915-12-12 ***-**-2000 2007-12-12", [] ], 
+                 ["male Dean D. Martin Sr. 1917-06-07 ***-**-4566 2012-03-03",   [] ]
                 ].each_with_index.map do |e, index|
                 
                     employee = parse_person(e[0])

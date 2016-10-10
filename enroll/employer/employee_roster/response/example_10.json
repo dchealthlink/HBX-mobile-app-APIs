@@ -8,7 +8,7 @@
       "name_suffix": "Jr.",
       "date_of_birth": "1925-12-08",
       "ssn_masked": "***-**-6789",
-      "gender": "M",
+      "gender": "male",
       "hired_on": "2008-12-08",
       "id": 1000,
       "enrollments": false,
@@ -21,7 +21,7 @@
           "name_suffix": "1965-08-07",
           "date_of_birth": "***-**-9909",
           "ssn_masked": null,
-          "gender": "F"
+          "gender": "female"
         },
         {
           "first_name": "Manny",
@@ -30,7 +30,7 @@
           "name_suffix": "1971-09-09",
           "date_of_birth": "***-**-5505",
           "ssn_masked": null,
-          "gender": "M"
+          "gender": "male"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "name_suffix": "III",
       "date_of_birth": "1915-12-12",
       "ssn_masked": "***-**-2000",
-      "gender": "M",
+      "gender": "male",
       "hired_on": "2007-12-12",
       "id": 1001,
       "enrollments": true,
@@ -57,7 +57,7 @@
       "name_suffix": "Sr.",
       "date_of_birth": "1917-06-07",
       "ssn_masked": "***-**-4566",
-      "gender": "M",
+      "gender": "male",
       "hired_on": "2012-03-03",
       "id": 1002,
       "enrollments": false,
