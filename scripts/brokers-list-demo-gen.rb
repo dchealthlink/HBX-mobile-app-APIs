@@ -257,7 +257,7 @@ def participation(employer_name, total, enrolled, waived, plan_year)
                     end
                     
                     employee[:id] = @roster_example_no * 100 + index
-                    employee[:enrollments],
+                    employee[:enrollments] = enrollments
                     employee[:is_business_owner] = (index == 1) #Frank is the Chairman of the Board
                     employee[:dependents] = dependents
                     employee

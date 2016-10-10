@@ -11,8 +11,33 @@
       "gender": "male",
       "hired_on": "2008-12-08",
       "id": 1000,
-      "enrollments": false,
-      "is_business_owner": null,
+      "enrollments": {
+        "active": {
+          "health": {
+            "status": "Enrolled",
+            "employer_contribution": 12833.33,
+            "employee_cost": 7083.33,
+            "total_premium": 19916.66,
+            "plan_name": "KP DC Silver 2000/35",
+            "plan_type": "HMO",
+            "metal_level": "Silver",
+            "benefit_group_name": "Other Employees",
+            "plan_start_on": "2017-04-01"
+          },
+          "dental": {
+            "status": "Enrolled",
+            "employer_contribution": 12833.33,
+            "employee_cost": 7083.33,
+            "total_premium": 19916.66,
+            "plan_name": "KP DC Silver 2000/35",
+            "plan_type": "HMO",
+            "metal_level": "Silver",
+            "benefit_group_name": "Other Employees",
+            "plan_start_on": "2017-04-01"
+          }
+        }
+      },
+      "is_business_owner": false,
       "dependents": [
         {
           "first_name": "Tracey",
@@ -44,8 +69,25 @@
       "gender": "male",
       "hired_on": "2007-12-12",
       "id": 1001,
-      "enrollments": true,
-      "is_business_owner": null,
+      "enrollments": {
+        "active": {
+          "health": {
+            "status": "Waived",
+            "employer_contribution": 0.0,
+            "employee_cost": 0.0,
+            "total_premium": 0.0,
+            "plan_name": "KP DC Silver 2000/35",
+            "plan_type": "HMO",
+            "metal_level": "Silver",
+            "benefit_group_name": "Closers",
+            "plan_start_on": "2017-04-01"
+          },
+          "dental": {
+            "status": "Not Enrolled"
+          }
+        }
+      },
+      "is_business_owner": true,
       "dependents": [
 
       ]
@@ -60,8 +102,14 @@
       "gender": "male",
       "hired_on": "2012-03-03",
       "id": 1002,
-      "enrollments": false,
-      "is_business_owner": null,
+      "enrollments": {
+        "active": {
+          "health": {
+            "status": "Not Enrolled"
+          }
+        }
+      },
+      "is_business_owner": false,
       "dependents": [
 
       ]
