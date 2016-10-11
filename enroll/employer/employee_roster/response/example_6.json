@@ -22,7 +22,7 @@
             "plan_type": "HMO",
             "metal_level": "Silver",
             "benefit_group_name": "Other Employees",
-            "plan_start_on": "2016-11-01"
+            "plan_start_on": "2016-12-01"
           },
           "dental": {
             "status": "Enrolled",
@@ -33,7 +33,7 @@
             "plan_type": "HMO",
             "metal_level": "Silver",
             "benefit_group_name": "Other Employees",
-            "plan_start_on": "2016-11-01"
+            "plan_start_on": "2016-12-01"
           }
         }
       },
@@ -41,20 +41,20 @@
       "dependents": [
         {
           "first_name": "Tracey",
-          "middle_name": "Davis",
-          "last_name": "Jr.",
-          "name_suffix": "1965-08-07",
-          "date_of_birth": "***-**-9909",
-          "ssn_masked": null,
+          "middle_name": "M.",
+          "last_name": "Davis",
+          "name_suffix": "Jr.",
+          "date_of_birth": "1965-08-07",
+          "ssn_masked": "***-**-9909",
           "gender": "female"
         },
         {
           "first_name": "Manny",
-          "middle_name": "Davis",
-          "last_name": "X",
-          "name_suffix": "1971-09-09",
-          "date_of_birth": "***-**-5505",
-          "ssn_masked": null,
+          "middle_name": "D.",
+          "last_name": "Davis",
+          "name_suffix": "X",
+          "date_of_birth": "1971-09-09",
+          "ssn_masked": "***-**-5505",
           "gender": "male"
         }
       ]
@@ -80,7 +80,7 @@
             "plan_type": "HMO",
             "metal_level": "Silver",
             "benefit_group_name": "Closers",
-            "plan_start_on": "2016-11-01"
+            "plan_start_on": "2016-12-01"
           },
           "dental": {
             "status": "Not Enrolled"
