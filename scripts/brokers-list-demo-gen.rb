@@ -165,55 +165,77 @@ def participation(employer_name, total, enrolled, waived, plan_year)
         details[:total_premium] = ee_contrib + er_contrib
         details[:employee_contribution] = ee_contrib
         details[:employer_contribution] = er_contrib
+        details[:plan_offerings] = Hash[period_types.each_with_index.map do |period_type, period_type_index|
+            [period_type, ["Closers", "Other Employees"].each_with_index.map do |group_name, group_name_index|
 
-        details[:plan_offerings] = Hash[period_types.map do |period_type|
-            [period_type, ["Closers", "Other Employees"].map do |group_name|
+                group_difference = group_name_index * -10
+                health_plans = [{
+                                    reference_plan_name: 'KP DC PLATINUM 500/20/DENTAL/PED DENTAL/SEL',
+                                    reference_plan_HIOS_id: "94506DC0350009-01",
+                                    carrier_name: 'Kaiser',
+                                    plan_type: 'HMO',
+                                    metal_level: 'Platinum',
+                                    plan_option_kind: 'single_carrier',
+                                    plans_by: 'All Plans From a Single Carrier',
+                                    plans_by_summary_text: 'All Kaiser Plans',
+                                    employer_contribution_by_relationship: { 
+                                        employee: 90 + group_difference, 
+                                        spouse: 80 + group_difference,
+                                        domestic_partner: 70 + group_difference,
+                                        child: 60  + group_difference
+                                    },   
+                                    estimated_employer_max_monthly_cost: 6000 + (group_difference * 12),
+                                    estimated_plan_participant_min_monthly_cost: 312 + (group_difference * 2),
+                                    estimated_plan_participant_max_monthly_cost: 954  + (group_difference * 2)
+                                },{
+                                    reference_plan_name: 'UHC CHOICE PLUS POS GOLD 0 B',
+                                    reference_plan_HIOS_id: "78606AB0440009-05",
+                                    carrier_name: 'United Health Care',
+                                    plan_type: 'POS',
+                                    metal_level: 'Gold',
+                                    plan_option_kind: 'single_plan',
+                                    plans_by: 'A Single Plan',
+                                    plans_by_summary_text: 'Reference Plan Only',
+                                    employer_contribution_by_relationship: { 
+                                       employee: 50 + group_difference, 
+                                       spouse: 50 + group_difference, 
+                                       domestic_partner: 50 + group_difference, 
+                                       child: 50 + group_difference
+                                    },   
+                                    estimated_employer_max_monthly_cost: 6000 + (group_difference * 12),
+                                    estimated_plan_participant_min_monthly_cost: 312 + (group_difference * 2),
+                                    estimated_plan_participant_max_monthly_cost: 954  + (group_difference * 2)
+                                }]
+
+                dental_plans = [{
+                                     reference_plan_name: 'BlueDental Preferred',
+                                     reference_plan_HIOS_id: "94506DC0350009-01",
+                                     carrier_name: 'CareFirst',
+                                     plan_type: 'PPO',
+                                     plan_option_kind: 'single_plan',
+                                     plans_by: 'Custom (3 Plans)',
+                                     plans_by_summary_text: 'Custom (3 Plans)',
+                                     elected_dental_plans: [
+                                        { carrier_name: 'CareFirst', plan_name: 'BlueDental Preferred '},
+                                        { carrier_name: 'CareFirst', plan_name: 'BlueDental Traditional'},
+                                        { carrier_name: 'Delta Dental ', plan_name: 'Delta Dental PPO Basic Plan for Families for Small Businesses '}
+                                     ],
+                                     employer_contribution_by_relationship: { 
+                                        employee: 80, 
+                                        spouse: 70,
+                                        domestic_partner: 60,
+                                        child: 50
+                                    },
+                                    estimated_employer_max_monthly_cost: 2000,
+                                    estimated_plan_participant_min_monthly_cost: 92,
+                                    estimated_plan_participant_max_monthly_cost: 54 
+                                }, nil]
+
                 { 
                     benefit_group_name: group_name,
                     eligibility_rule: 'First of the month following or coinciding with date of hire',
-                    health: {
-                         reference_plan_name: 'KP DC PLATINUM 500/20/DENTAL/PED DENTAL/SEL',
-                         reference_plan_HIOS_id: "94506DC0350009-01",
-                         carrier_name: 'Kaiser',
-                         plan_type: 'HMO',
-                         metal_level: 'Platinum',
-                         plan_option_kind: 'single_carrier',
-                         plans_by: 'All Plans From a Single Carrier',
-                         plans_by_summary_text: 'All Kaiser Plans',
-                         employer_contribution_by_relationship: { 
-                            employee: 80, 
-                            spouse: 70,
-                            domestic_partner: 60,
-                            child: 50
-                        },
-                        estimated_employer_max_monthly_cost: 6000,
-                        estimated_plan_participant_min_monthly_cost: 312,
-                        estimated_plan_participant_max_monthly_cost: 954 
-                    },
-                    dental: {
-                         reference_plan_name: 'BlueDental Preferred',
-                         reference_plan_HIOS_id: "94506DC0350009-01",
-                         carrier_name: 'CareFirst',
-                         plan_type: 'PPO',
-                         plan_option_kind: 'single_plan',
-                         plans_by: 'Custom (3 Plans)',
-                         plans_by_summary_text: 'Custom (3 Plans)',
-                         elected_dental_plans: [
-                            { carrier_name: 'CareFirst', plan_name: 'BlueDental Preferred '},
-                            { carrier_name: 'CareFirst', plan_name: 'BlueDental Traditional'},
-                            { carrier_name: 'Delta Dental ', plan_name: 'Delta Dental PPO Basic Plan for Families for Small Businesses '}
-                         ],
-                         employer_contribution_by_relationship: { 
-                            employee: 80, 
-                            spouse: 70,
-                            domestic_partner: 60,
-                            child: 50
-                        },
-                        estimated_employer_max_monthly_cost: 2000,
-                        estimated_plan_participant_min_monthly_cost: 92,
-                        estimated_plan_participant_max_monthly_cost: 54 
-                    },
-
+                    health: health_plans[period_type_index],
+                    dental: dental_plans[period_type_index]
                 }
             end]
         end]
@@ -232,7 +254,7 @@ def participation(employer_name, total, enrolled, waived, plan_year)
                     employee = parse_person(e[0])
                     dependents = e[1].map { |d| parse_person(d) }
                     enrollments = {}
-                    period_types.each do |period_type|
+                    period_types.each_with_index do |period_type, period_type_index|
                         enrollments[period_type] = {}
                         coverage_options.keys.each do |coverage_kind|
                             status = coverage_options[coverage_kind][index]

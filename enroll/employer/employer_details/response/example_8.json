@@ -11,7 +11,7 @@
   "renewal_application_due": "2017-05-10",
   "binder_payment_due": null,
   "minimum_participation_required": 4,
-  "billing_report_date": "2016-11-11",
+  "billing_report_date": "2016-11-13",
   "active_general_agency": "Betadyne General Agency, Inc.",
   "total_premium": 3019.91,
   "employee_contribution": 1058.87,
@@ -31,10 +31,10 @@
           "plans_by": "All Plans From a Single Carrier",
           "plans_by_summary_text": "All Kaiser Plans",
           "employer_contribution_by_relationship": {
-            "employee": 80,
-            "spouse": 70,
-            "domestic_partner": 60,
-            "child": 50
+            "employee": 90,
+            "spouse": 80,
+            "domestic_partner": 70,
+            "child": 60
           },
           "estimated_employer_max_monthly_cost": 6000,
           "estimated_plan_participant_min_monthly_cost": 312,
@@ -91,9 +91,9 @@
             "domestic_partner": 60,
             "child": 50
           },
-          "estimated_employer_max_monthly_cost": 6000,
-          "estimated_plan_participant_min_monthly_cost": 312,
-          "estimated_plan_participant_max_monthly_cost": 954
+          "estimated_employer_max_monthly_cost": 5880,
+          "estimated_plan_participant_min_monthly_cost": 292,
+          "estimated_plan_participant_max_monthly_cost": 934
         },
         "dental": {
           "reference_plan_name": "BlueDental Preferred",
