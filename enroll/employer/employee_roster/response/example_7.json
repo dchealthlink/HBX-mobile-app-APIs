@@ -21,8 +21,7 @@
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
-            "benefit_group_name": "Other Employees",
-            "plan_start_on": "2017-01-01"
+            "benefit_group_name": "Other Employees"
           },
           "dental": {
             "status": "Enrolled",
@@ -32,8 +31,7 @@
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
-            "benefit_group_name": "Other Employees",
-            "plan_start_on": "2017-01-01"
+            "benefit_group_name": "Other Employees"
           }
         }
       },
@@ -79,8 +77,7 @@
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
-            "benefit_group_name": "Closers",
-            "plan_start_on": "2017-01-01"
+            "benefit_group_name": "Closers"
           },
           "dental": {
             "status": "Not Enrolled"

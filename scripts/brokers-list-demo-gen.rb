@@ -271,7 +271,6 @@ def participation(employer_name, total, enrolled, waived, plan_year)
                                         enrollment[:plan_type] = "HMO"
                                         enrollment[:metal_level] = "Silver"
                                         enrollment[:benefit_group_name] = (index == 1) ? "Closers" : "Other Employees"
-                                        enrollment[:plan_start_on] = fmt(plan_year.plan_year_begins)
                                 end
                                 enrollments[period_type][coverage_kind] = enrollment
                             end
