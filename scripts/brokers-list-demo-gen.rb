@@ -166,7 +166,7 @@ def participation(employer_name, total, enrolled, waived, plan_year)
         details[:employee_contribution] = ee_contrib
         details[:employer_contribution] = er_contrib
         details[:plan_offerings] = Hash[period_types.each_with_index.map do |period_type, period_type_index|
-            [period_type, ["Closers", "Other Employees"].each_with_index.map do |group_name, group_name_index|
+            [period_type, ["CEO’S & MANAGERS", "CADDIES & MAINTENANCE"].each_with_index.map do |group_name, group_name_index|
 
                 group_difference = group_name_index * -10
                 health_plans = [{
@@ -257,7 +257,9 @@ def participation(employer_name, total, enrolled, waived, plan_year)
                     period_types.each_with_index do |period_type, period_type_index|
                         enrollments[period_type] = {}
                         coverage_options.keys.each do |coverage_kind|
-                            status = coverage_options[coverage_kind][index]
+
+                            which = (index + period_type_index) % 3
+                            status = coverage_options[coverage_kind][which]
                             if status then
                                 enrollment = { status: status }
                                 case status when "Enrolled", "Waived"

@@ -19,7 +19,7 @@
   "plan_offerings": {
     "active": [
       {
-        "benefit_group_name": "Closers",
+        "benefit_group_name": "CEO’S & MANAGERS",
         "eligibility_rule": "First of the month following or coinciding with date of hire",
         "health": {
           "reference_plan_name": "KP DC PLATINUM 500/20/DENTAL/PED DENTAL/SEL",
@@ -74,7 +74,7 @@
         }
       },
       {
-        "benefit_group_name": "Other Employees",
+        "benefit_group_name": "CADDIES & MAINTENANCE",
         "eligibility_rule": "First of the month following or coinciding with date of hire",
         "health": {
           "reference_plan_name": "KP DC PLATINUM 500/20/DENTAL/PED DENTAL/SEL",
@@ -131,7 +131,7 @@
     ],
     "renewal": [
       {
-        "benefit_group_name": "Closers",
+        "benefit_group_name": "CEO’S & MANAGERS",
         "eligibility_rule": "First of the month following or coinciding with date of hire",
         "health": {
           "reference_plan_name": "UHC CHOICE PLUS POS GOLD 0 B",
@@ -155,7 +155,7 @@
         "dental": null
       },
       {
-        "benefit_group_name": "Other Employees",
+        "benefit_group_name": "CADDIES & MAINTENANCE",
         "eligibility_rule": "First of the month following or coinciding with date of hire",
         "health": {
           "reference_plan_name": "UHC CHOICE PLUS POS GOLD 0 B",
