@@ -146,7 +146,7 @@
             "employee": 50,
             "spouse": null,
             "domestic_partner": null,
-            "child": 50
+            "child": 0
           },
           "estimated_employer_max_monthly_cost": 6000,
           "estimated_plan_participant_min_monthly_cost": 312,
@@ -170,7 +170,7 @@
             "employee": 40,
             "spouse": null,
             "domestic_partner": null,
-            "child": 40
+            "child": 0
           },
           "estimated_employer_max_monthly_cost": 5880,
           "estimated_plan_participant_min_monthly_cost": 292,

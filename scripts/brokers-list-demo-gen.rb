@@ -303,6 +303,7 @@ late_to_renewal = plan_starting_in(min_months_to_renew, false, true)
 text = """
  {
     \"broker_agency\" : \"Bob's Brokers\",
+    \"broker_name\" : \"Bill\",
     
     \"broker_clients\": [
             {
