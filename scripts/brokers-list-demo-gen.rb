@@ -198,9 +198,9 @@ def participation(employer_name, total, enrolled, waived, plan_year)
                                     plans_by_summary_text: 'Reference Plan Only',
                                     employer_contribution_by_relationship: { 
                                        employee: 50 + group_difference, 
-                                       spouse: 50 + group_difference, 
-                                       domestic_partner: 50 + group_difference, 
-                                       child: 50 + group_difference
+                                       spouse: nil, 
+                                       domestic_partner: nil, 
+                                       child: 0
                                     },   
                                     estimated_employer_max_monthly_cost: 6000 + (group_difference * 12),
                                     estimated_plan_participant_min_monthly_cost: 312 + (group_difference * 2),
