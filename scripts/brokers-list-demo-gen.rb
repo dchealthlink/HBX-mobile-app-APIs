@@ -158,8 +158,8 @@ def participation(employer_name, total, enrolled, waived, plan_year)
         period_types = ["active"]
         period_types << "renewal" if plan_year.in_renewal_OE
 
-        coverage_options = { health: ["Enrolled", "Waived", "Not Enrolled"], 
-                             dental:  ["Enrolled", "Not Enrolled", nil] }
+        coverage_options = { health: ["Enrolled", "Waived", "Not Enrolled", "Terminated"], 
+                             dental:  ["Enrolled", "Not Enrolled", nil, nil] }
 
         details = summary.clone
         details[:total_premium] = ee_contrib + er_contrib
@@ -252,17 +252,18 @@ def participation(employer_name, total, enrolled, waived, plan_year)
                 ].each_with_index.map do |e, index|
                 
                     employee = parse_person(e[0])
+                    termination_date = nil
                     dependents = e[1].map { |d| parse_person(d) }
                     enrollments = {}
                     period_types.each_with_index do |period_type, period_type_index|
                         enrollments[period_type] = {}
                         coverage_options.keys.each do |coverage_kind|
 
-                            which = (index + period_type_index) % 3
+                            which = (index + period_type_index + employer_name.length) % coverage_options[:health].length
                             status = coverage_options[coverage_kind][which]
                             if status then
                                 enrollment = { status: status }
-                                case status when "Enrolled", "Waived"
+                                case status when "Enrolled", "Waived", "Terminated"
                                         er_cost = (status == "Enrolled") ? (er_contrib / 3).round(2) : 0.0
                                         ee_cost = (status == "Enrolled") ? (ee_contrib / 3).round(2) : 0.0
                                         enrollment[:employer_contribution] = er_cost
@@ -273,6 +274,10 @@ def participation(employer_name, total, enrolled, waived, plan_year)
                                         enrollment[:plan_type] = "HMO"
                                         enrollment[:metal_level] = "Silver"
                                         enrollment[:benefit_group_name] = (index == 1) ? "Closers" : "Other Employees"
+                                        if status == "Terminated" then
+                                            enrollment[:terminated_on] = Date.today
+                                            enrollment[:terminate_reason] = "I have coverage through an individual market health plan"
+                                        end
                                 end
                                 enrollments[period_type][coverage_kind] = enrollment
                             end
