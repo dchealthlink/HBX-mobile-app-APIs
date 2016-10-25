@@ -182,7 +182,7 @@ def participation(employer_name, total, enrolled, waived, plan_year)
                                         employee: 90 + group_difference, 
                                         spouse: 80 + group_difference,
                                         domestic_partner: 70 + group_difference,
-                                        child: 60  + group_difference
+                                        child_under_26: 60  + group_difference
                                     },   
                                     estimated_employer_max_monthly_cost: 6000 + (group_difference * 12),
                                     estimated_plan_participant_min_monthly_cost: 312 + (group_difference * 2),
@@ -200,7 +200,7 @@ def participation(employer_name, total, enrolled, waived, plan_year)
                                        employee: 50 + group_difference, 
                                        spouse: nil, 
                                        domestic_partner: nil, 
-                                       child: 0
+                                       child_under_26: 0
                                     },   
                                     estimated_employer_max_monthly_cost: 6000 + (group_difference * 12),
                                     estimated_plan_participant_min_monthly_cost: 312 + (group_difference * 2),
@@ -224,7 +224,7 @@ def participation(employer_name, total, enrolled, waived, plan_year)
                                         employee: 80, 
                                         spouse: 70,
                                         domestic_partner: 60,
-                                        child: 50
+                                        child_under_26: 50
                                     },
                                     estimated_employer_max_monthly_cost: 2000,
                                     estimated_plan_participant_min_monthly_cost: 92,

@@ -34,7 +34,7 @@
             "employee": 90,
             "spouse": 80,
             "domestic_partner": 70,
-            "child": 60
+            "child_under_26": 60
           },
           "estimated_employer_max_monthly_cost": 6000,
           "estimated_plan_participant_min_monthly_cost": 312,
@@ -66,7 +66,7 @@
             "employee": 80,
             "spouse": 70,
             "domestic_partner": 60,
-            "child": 50
+            "child_under_26": 50
           },
           "estimated_employer_max_monthly_cost": 2000,
           "estimated_plan_participant_min_monthly_cost": 92,
@@ -89,7 +89,7 @@
             "employee": 80,
             "spouse": 70,
             "domestic_partner": 60,
-            "child": 50
+            "child_under_26": 50
           },
           "estimated_employer_max_monthly_cost": 5880,
           "estimated_plan_participant_min_monthly_cost": 292,
@@ -121,7 +121,7 @@
             "employee": 80,
             "spouse": 70,
             "domestic_partner": 60,
-            "child": 50
+            "child_under_26": 50
           },
           "estimated_employer_max_monthly_cost": 2000,
           "estimated_plan_participant_min_monthly_cost": 92,
