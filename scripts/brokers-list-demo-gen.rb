@@ -248,7 +248,12 @@ def participation(employer_name, total, enrolled, waived, plan_year)
                     ["female Tracey M. Davis Jr. 1965-08-07 ***-**-9909",
                      "male Manny D. Davis X 1971-09-09 ***-**-5505"] ], 
                  ["male Frank S. Sinatra III 1915-12-12 ***-**-2000 2007-12-12", [] ], 
-                 ["male Dean D. Martin Sr. 1917-06-07 ***-**-4566 2012-03-03",   [] ]
+                 ["male Dean D. Martin Sr. 1917-06-07 ***-**-4566 2012-03-03",   [] ],
+                 ["female Abigail M. Yates PhD. 1975-12-08 ***-**-6001 2008-10-08",   
+                    ["male Kevin R. Beckman X. 1985-08-07 ***-**-7603"] ], 
+                 ["female Jillian S. Holtzmann PhD. 1985-11-11 ***-**-2050 2009-11-12", [] ], 
+                 ["female Patty D. Tolan Cdtr 1987-06-06 ***-**-4546 2015-04-03",   [] ], 
+                 ["female Erin S. Gilbert PhD. 1969-03-01 ***-**-4554 2016-01-01",   [] ]
                 ].each_with_index.map do |e, index|
                 
                     employee = parse_person(e[0])
