@@ -141,6 +141,8 @@ def participation(employer_name, total, enrolled, waived, plan_year)
   ee_contrib = (enrolled * 425.00 * ((waived + 1) ** 0.2)).round(2)
   er_contrib = (enrolled * 770.00 * ((waived + 1) ** 0.22)).round(2)
 
+
+  total_employees = 3 + (employer_name.length % 4) 
   employee_data = [["male Sammy R. Davis Jr. 1925-12-08 ***-**-6789 2008-12-08",   
                       ["female Tracey M. Davis Jr. 1965-08-07 ***-**-9909",
                        "male Manny D. Davis X 1971-09-09 ***-**-5505"] ], 
@@ -151,7 +153,7 @@ def participation(employer_name, total, enrolled, waived, plan_year)
                    ["female Jillian S. Holtzmann PhD. 1985-11-11 ***-**-2050 2009-11-12", [] ], 
                    ["female Patty D. Tolan Cdtr 1987-06-06 ***-**-4546 2015-04-03",   [] ], 
                    ["female Erin S. Gilbert PhD. 1969-03-01 ***-**-4554 2016-01-01",   [] ]
-                  ]
+                  ].take (total_employees)
 
   roster = {
     employer_name: "#{employer_name}",
@@ -168,8 +170,8 @@ def participation(employer_name, total, enrolled, waived, plan_year)
                   if status then
                     enrollment = { status: status }
                     case status when "Enrolled", "Waived", "Terminated"
-                      er_cost = (status == "Enrolled") ? (er_contrib / employee_data.length).round(2) : 0.0
-                      ee_cost = (status == "Enrolled") ? (ee_contrib / employee_data.length).round(2) : 0.0
+                      er_cost = (status == "Enrolled") ? (er_contrib / total_employees).round(2) : 0.0
+                      ee_cost = (status == "Enrolled") ? (ee_contrib / total_employees).round(2) : 0.0
                       enrollment[:employer_contribution] = er_cost
                       enrollment[:employee_cost] = ee_cost
                       enrollment[:total_premium] = (er_cost + ee_cost).round(2)
@@ -177,7 +179,7 @@ def participation(employer_name, total, enrolled, waived, plan_year)
                       enrollment[:plan_type] = "HMO"
                       enrollment[:metal_level] = "Silver"
                       enrollment[:benefit_group_name] = (index == 1) ? "Closers" : "Other Employees"
-                      if status == "Terminated" then
+                      case status when "Terminated" then
                         enrollment[:terminated_on] = Date.today
                         enrollment[:terminate_reason] = "I have coverage through an individual market health plan"
                       end
@@ -195,10 +197,12 @@ def participation(employer_name, total, enrolled, waived, plan_year)
             end
   }
 
+  active_health_coverages = roster[:roster].map { |e| e[:enrollments]["active"][:health] }
+  enrolled, waived = ["Enrolled", "Waived"].map {|status| active_health_coverages.count { |e| e[:status] == status } }
 
   summary = {
     employer_name: "#{employer_name}",
-    employees_total: total,
+    employees_total: total_employees,
     employees_enrolled: enrolled,
     employees_waived: waived,
     open_enrollment_begins:        fmt(plan_year.open_enrollment_begins),
@@ -208,9 +212,9 @@ def participation(employer_name, total, enrolled, waived, plan_year)
     renewal_application_available: fmt(plan_year.renewal_begins),
     renewal_application_due:       fmt(plan_year.renewal_deadline),
     binder_payment_due: nil,
-    minimum_participation_required: (total * 2.0 / 3.0).to_i,
+    minimum_participation_required: (total_employees * 2.0 / 3.0).to_i,
     billing_report_date: fmt(now >> 1),
-    active_general_agency: (total < 5) ? nil : "Betadyne General Agency, Inc.",
+    active_general_agency: (total_employees < 5) ? nil : "Betadyne General Agency, Inc.",
   }
 
   details = summary.clone

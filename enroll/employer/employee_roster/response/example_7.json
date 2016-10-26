@@ -63,9 +63,9 @@
         "active": {
           "health": {
             "status": "Enrolled",
-            "employer_contribution": 1216.66,
-            "employee_cost": 644.18,
-            "total_premium": 1860.84,
+            "employer_contribution": 1419.44,
+            "employee_cost": 751.54,
+            "total_premium": 2170.98,
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
@@ -73,9 +73,9 @@
           },
           "dental": {
             "status": "Enrolled",
-            "employer_contribution": 1216.66,
-            "employee_cost": 644.18,
-            "total_premium": 1860.84,
+            "employer_contribution": 1419.44,
+            "employee_cost": 751.54,
+            "total_premium": 2170.98,
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
@@ -195,9 +195,9 @@
         "active": {
           "health": {
             "status": "Enrolled",
-            "employer_contribution": 1216.66,
-            "employee_cost": 644.18,
-            "total_premium": 1860.84,
+            "employer_contribution": 1419.44,
+            "employee_cost": 751.54,
+            "total_premium": 2170.98,
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
@@ -205,45 +205,13 @@
           },
           "dental": {
             "status": "Enrolled",
-            "employer_contribution": 1216.66,
-            "employee_cost": 644.18,
-            "total_premium": 1860.84,
+            "employer_contribution": 1419.44,
+            "employee_cost": 751.54,
+            "total_premium": 2170.98,
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
             "benefit_group_name": "Other Employees"
-          }
-        }
-      },
-      "is_business_owner": false,
-      "dependents": [
-
-      ]
-    },
-    {
-      "first_name": "Erin",
-      "middle_name": "S.",
-      "last_name": "Gilbert",
-      "name_suffix": "PhD.",
-      "date_of_birth": "1969-03-01",
-      "ssn_masked": "***-**-4554",
-      "gender": "female",
-      "hired_on": "2016-01-01",
-      "id": 706,
-      "enrollments": {
-        "active": {
-          "health": {
-            "status": "Waived",
-            "employer_contribution": 0.0,
-            "employee_cost": 0.0,
-            "total_premium": 0.0,
-            "plan_name": "KP DC Silver 2000/35",
-            "plan_type": "HMO",
-            "metal_level": "Silver",
-            "benefit_group_name": "Other Employees"
-          },
-          "dental": {
-            "status": "Not Enrolled"
           }
         }
       },
