@@ -81,7 +81,7 @@
             "plan_type": "HMO",
             "metal_level": "Silver",
             "benefit_group_name": "Closers",
-            "terminated_on": "2016-10-25",
+            "terminated_on": "2016-10-26",
             "terminate_reason": "I have coverage through an individual market health plan"
           }
         }
@@ -112,7 +112,7 @@
             "plan_type": "HMO",
             "metal_level": "Silver",
             "benefit_group_name": "Other Employees",
-            "terminated_on": "2016-10-25",
+            "terminated_on": "2016-10-26",
             "terminate_reason": "I have coverage through an individual market health plan"
           }
         },
@@ -269,7 +269,7 @@
             "plan_type": "HMO",
             "metal_level": "Silver",
             "benefit_group_name": "Other Employees",
-            "terminated_on": "2016-10-25",
+            "terminated_on": "2016-10-26",
             "terminate_reason": "I have coverage through an individual market health plan"
           }
         }
@@ -300,7 +300,7 @@
             "plan_type": "HMO",
             "metal_level": "Silver",
             "benefit_group_name": "Other Employees",
-            "terminated_on": "2016-10-25",
+            "terminated_on": "2016-10-26",
             "terminate_reason": "I have coverage through an individual market health plan"
           }
         },
