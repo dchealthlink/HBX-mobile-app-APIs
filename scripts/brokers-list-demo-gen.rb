@@ -134,170 +134,166 @@ def parse_person(person_string)
 end
 
 def participation(employer_name, total, enrolled, waived, plan_year)
+  period_types = ["active"]
+  period_types << "renewal" if plan_year.in_renewal_OE
+  coverage_options = { health: ["Enrolled", "Waived", "Not Enrolled", "Terminated"], 
+                       dental:  ["Enrolled", "Not Enrolled", nil, nil] }
+  ee_contrib = (enrolled * 425.00 * ((waived + 1) ** 0.2)).round(2)
+  er_contrib = (enrolled * 770.00 * ((waived + 1) ** 0.22)).round(2)
 
-        ee_contrib = (enrolled * 425.00 * ((waived + 1) ** 0.2)).round(2)
-        er_contrib = (enrolled * 770.00 * ((waived + 1) ** 0.22)).round(2)
+  employee_data = [["male Sammy R. Davis Jr. 1925-12-08 ***-**-6789 2008-12-08",   
+                      ["female Tracey M. Davis Jr. 1965-08-07 ***-**-9909",
+                       "male Manny D. Davis X 1971-09-09 ***-**-5505"] ], 
+                   ["male Frank S. Sinatra III 1915-12-12 ***-**-2000 2007-12-12", [] ], 
+                   ["male Dean D. Martin Sr. 1917-06-07 ***-**-4566 2012-03-03",   [] ],
+                   ["female Abigail M. Yates PhD. 1975-12-08 ***-**-6001 2008-10-08",   
+                      ["male Kevin R. Beckman X. 1985-08-07 ***-**-7603"] ], 
+                   ["female Jillian S. Holtzmann PhD. 1985-11-11 ***-**-2050 2009-11-12", [] ], 
+                   ["female Patty D. Tolan Cdtr 1987-06-06 ***-**-4546 2015-04-03",   [] ], 
+                   ["female Erin S. Gilbert PhD. 1969-03-01 ***-**-4554 2016-01-01",   [] ]
+                  ]
 
-        summary = {
-            employer_name: "#{employer_name}",
-            employees_total: total,
-            employees_enrolled: enrolled,
-            employees_waived: waived,
-            open_enrollment_begins:        fmt(plan_year.open_enrollment_begins),
-            open_enrollment_ends:          fmt(plan_year.end_of_open_enrollment),
-            plan_year_begins:              fmt(plan_year.plan_year_begins),
-            renewal_in_progress:           plan_year.in_pending_renewal,
-            renewal_application_available: fmt(plan_year.renewal_begins),
-            renewal_application_due:       fmt(plan_year.renewal_deadline),
-            binder_payment_due: nil,
-            minimum_participation_required: (total * 2.0 / 3.0).to_i,
-            billing_report_date: fmt(now >> 1),
-            active_general_agency: (total < 5) ? nil : "Betadyne General Agency, Inc.",
-        }
-
-        period_types = ["active"]
-        period_types << "renewal" if plan_year.in_renewal_OE
-
-        coverage_options = { health: ["Enrolled", "Waived", "Not Enrolled", "Terminated"], 
-                             dental:  ["Enrolled", "Not Enrolled", nil, nil] }
-
-        details = summary.clone
-        details[:total_premium] = ee_contrib + er_contrib
-        details[:employee_contribution] = ee_contrib
-        details[:employer_contribution] = er_contrib
-        details[:plan_offerings] = Hash[period_types.each_with_index.map do |period_type, period_type_index|
-            [period_type, ["CEO’S & MANAGERS", "CADDIES & MAINTENANCE"].each_with_index.map do |group_name, group_name_index|
-
-                group_difference = group_name_index * -10
-                health_plans = [{
-                                    reference_plan_name: 'KP DC PLATINUM 500/20/DENTAL/PED DENTAL/SEL',
-                                    reference_plan_HIOS_id: "94506DC0350009-01",
-                                    carrier_name: 'Kaiser',
-                                    plan_type: 'HMO',
-                                    metal_level: 'Platinum',
-                                    plan_option_kind: 'single_carrier',
-                                    plans_by: 'All Plans From a Single Carrier',
-                                    plans_by_summary_text: 'All Kaiser Plans',
-                                    employer_contribution_by_relationship: { 
-                                        employee: 90 + group_difference, 
-                                        spouse: 80 + group_difference,
-                                        domestic_partner: 70 + group_difference,
-                                        child_under_26: 60  + group_difference
-                                    },   
-                                    estimated_employer_max_monthly_cost: 6000 + (group_difference * 12),
-                                    estimated_plan_participant_min_monthly_cost: 312 + (group_difference * 2),
-                                    estimated_plan_participant_max_monthly_cost: 954  + (group_difference * 2)
-                                },{
-                                    reference_plan_name: 'UHC CHOICE PLUS POS GOLD 0 B',
-                                    reference_plan_HIOS_id: "78606AB0440009-05",
-                                    carrier_name: 'United Health Care',
-                                    plan_type: 'POS',
-                                    metal_level: 'Gold',
-                                    plan_option_kind: 'single_plan',
-                                    plans_by: 'A Single Plan',
-                                    plans_by_summary_text: 'Reference Plan Only',
-                                    employer_contribution_by_relationship: { 
-                                       employee: 50 + group_difference, 
-                                       spouse: nil, 
-                                       domestic_partner: nil, 
-                                       child_under_26: 0
-                                    },   
-                                    estimated_employer_max_monthly_cost: 6000 + (group_difference * 12),
-                                    estimated_plan_participant_min_monthly_cost: 312 + (group_difference * 2),
-                                    estimated_plan_participant_max_monthly_cost: 954  + (group_difference * 2)
-                                }]
-
-                dental_plans = [{
-                                     reference_plan_name: 'BlueDental Preferred',
-                                     reference_plan_HIOS_id: "94506DC0350009-01",
-                                     carrier_name: 'CareFirst',
-                                     plan_type: 'PPO',
-                                     plan_option_kind: 'single_plan',
-                                     plans_by: 'Custom (3 Plans)',
-                                     plans_by_summary_text: 'Custom (3 Plans)',
-                                     elected_dental_plans: [
-                                        { carrier_name: 'CareFirst', plan_name: 'BlueDental Preferred '},
-                                        { carrier_name: 'CareFirst', plan_name: 'BlueDental Traditional'},
-                                        { carrier_name: 'Delta Dental ', plan_name: 'Delta Dental PPO Basic Plan for Families for Small Businesses '}
-                                     ],
-                                     employer_contribution_by_relationship: { 
-                                        employee: 80, 
-                                        spouse: 70,
-                                        domestic_partner: 60,
-                                        child_under_26: 50
-                                    },
-                                    estimated_employer_max_monthly_cost: 2000,
-                                    estimated_plan_participant_min_monthly_cost: 92,
-                                    estimated_plan_participant_max_monthly_cost: 54 
-                                }, nil]
-
-                { 
-                    benefit_group_name: group_name,
-                    eligibility_rule: 'First of the month following or coinciding with date of hire',
-                    health: health_plans[period_type_index],
-                    dental: dental_plans[period_type_index]
-                }
-            end]
-        end]
-
-        summary[:employer_details_url] = create_employer_details_example_file(details)
-        summary[:employee_roster_url] = create_employee_roster_example_file({
-            employer_name: "#{employer_name}",
-            roster: 
-                [["male Sammy R. Davis Jr. 1925-12-08 ***-**-6789 2008-12-08",   
-                    ["female Tracey M. Davis Jr. 1965-08-07 ***-**-9909",
-                     "male Manny D. Davis X 1971-09-09 ***-**-5505"] ], 
-                 ["male Frank S. Sinatra III 1915-12-12 ***-**-2000 2007-12-12", [] ], 
-                 ["male Dean D. Martin Sr. 1917-06-07 ***-**-4566 2012-03-03",   [] ],
-                 ["female Abigail M. Yates PhD. 1975-12-08 ***-**-6001 2008-10-08",   
-                    ["male Kevin R. Beckman X. 1985-08-07 ***-**-7603"] ], 
-                 ["female Jillian S. Holtzmann PhD. 1985-11-11 ***-**-2050 2009-11-12", [] ], 
-                 ["female Patty D. Tolan Cdtr 1987-06-06 ***-**-4546 2015-04-03",   [] ], 
-                 ["female Erin S. Gilbert PhD. 1969-03-01 ***-**-4554 2016-01-01",   [] ]
-                ].each_with_index.map do |e, index|
-                
-                    employee = parse_person(e[0])
-                    termination_date = nil
-                    dependents = e[1].map { |d| parse_person(d) }
-                    enrollments = {}
-                    period_types.each_with_index do |period_type, period_type_index|
-                        enrollments[period_type] = {}
-                        coverage_options.keys.each do |coverage_kind|
-
-                            which = (index + period_type_index + employer_name.length) % coverage_options[:health].length
-                            status = coverage_options[coverage_kind][which]
-                            if status then
-                                enrollment = { status: status }
-                                case status when "Enrolled", "Waived", "Terminated"
-                                        er_cost = (status == "Enrolled") ? (er_contrib / 3).round(2) : 0.0
-                                        ee_cost = (status == "Enrolled") ? (ee_contrib / 3).round(2) : 0.0
-                                        enrollment[:employer_contribution] = er_cost
-                                        enrollment[:employee_cost] = ee_cost
-                                        enrollment[:total_premium] = (er_cost + ee_cost).round(2)
-
-                                        enrollment[:plan_name] = "KP DC Silver 2000/35"
-                                        enrollment[:plan_type] = "HMO"
-                                        enrollment[:metal_level] = "Silver"
-                                        enrollment[:benefit_group_name] = (index == 1) ? "Closers" : "Other Employees"
-                                        if status == "Terminated" then
-                                            enrollment[:terminated_on] = Date.today
-                                            enrollment[:terminate_reason] = "I have coverage through an individual market health plan"
-                                        end
-                                end
-                                enrollments[period_type][coverage_kind] = enrollment
-                            end
-                        end
+  roster = {
+    employer_name: "#{employer_name}",
+    roster: employee_data.each_with_index.map do |e, index|
+              employee = parse_person(e[0])
+              termination_date = nil
+              dependents = e[1].map { |d| parse_person(d) }
+              enrollments = {}
+              period_types.each_with_index do |period_type, period_type_index|
+                enrollments[period_type] = {}
+                coverage_options.keys.each do |coverage_kind|
+                  which = (index + period_type_index + employer_name.length) % coverage_options[:health].length
+                  status = coverage_options[coverage_kind][which]
+                  if status then
+                    enrollment = { status: status }
+                    case status when "Enrolled", "Waived", "Terminated"
+                      er_cost = (status == "Enrolled") ? (er_contrib / employee_data.length).round(2) : 0.0
+                      ee_cost = (status == "Enrolled") ? (ee_contrib / employee_data.length).round(2) : 0.0
+                      enrollment[:employer_contribution] = er_cost
+                      enrollment[:employee_cost] = ee_cost
+                      enrollment[:total_premium] = (er_cost + ee_cost).round(2)
+                      enrollment[:plan_name] = "KP DC Silver 2000/35"
+                      enrollment[:plan_type] = "HMO"
+                      enrollment[:metal_level] = "Silver"
+                      enrollment[:benefit_group_name] = (index == 1) ? "Closers" : "Other Employees"
+                      if status == "Terminated" then
+                        enrollment[:terminated_on] = Date.today
+                        enrollment[:terminate_reason] = "I have coverage through an individual market health plan"
+                      end
                     end
-                    
-                    employee[:id] = @roster_example_no * 100 + index
-                    employee[:enrollments] = enrollments
-                    employee[:is_business_owner] = (index == 1) #Frank is the Chairman of the Board
-                    employee[:dependents] = dependents
-                    employee
+                    enrollments[period_type][coverage_kind] = enrollment
+                  end
                 end
-            })
+              end
+              
+              employee[:id] = @roster_example_no * 100 + index
+              employee[:enrollments] = enrollments
+              employee[:is_business_owner] = (index == 1) #Frank is the Chairman of the Board
+              employee[:dependents] = dependents
+              employee
+            end
+  }
 
-        json_section(summary, {indent: "            "})       
+
+  summary = {
+    employer_name: "#{employer_name}",
+    employees_total: total,
+    employees_enrolled: enrolled,
+    employees_waived: waived,
+    open_enrollment_begins:        fmt(plan_year.open_enrollment_begins),
+    open_enrollment_ends:          fmt(plan_year.end_of_open_enrollment),
+    plan_year_begins:              fmt(plan_year.plan_year_begins),
+    renewal_in_progress:           plan_year.in_pending_renewal,
+    renewal_application_available: fmt(plan_year.renewal_begins),
+    renewal_application_due:       fmt(plan_year.renewal_deadline),
+    binder_payment_due: nil,
+    minimum_participation_required: (total * 2.0 / 3.0).to_i,
+    billing_report_date: fmt(now >> 1),
+    active_general_agency: (total < 5) ? nil : "Betadyne General Agency, Inc.",
+  }
+
+  details = summary.clone
+  details[:total_premium] = ee_contrib + er_contrib
+  details[:employee_contribution] = ee_contrib
+  details[:employer_contribution] = er_contrib
+  details[:plan_offerings] = Hash[period_types.each_with_index.map do |period_type, period_type_index|
+    [period_type, ["CEO’S & MANAGERS", "CADDIES & MAINTENANCE"].each_with_index.map do |group_name, group_name_index|
+      group_difference = group_name_index * -10
+      health_plans = [{
+                        reference_plan_name: 'KP DC PLATINUM 500/20/DENTAL/PED DENTAL/SEL',
+                        reference_plan_HIOS_id: "94506DC0350009-01",
+                        carrier_name: 'Kaiser',
+                        plan_type: 'HMO',
+                        metal_level: 'Platinum',
+                        plan_option_kind: 'single_carrier',
+                        plans_by: 'All Plans From a Single Carrier',
+                        plans_by_summary_text: 'All Kaiser Plans',
+                        employer_contribution_by_relationship: { 
+                            employee: 90 + group_difference, 
+                            spouse: 80 + group_difference,
+                            domestic_partner: 70 + group_difference,
+                            child_under_26: 60  + group_difference
+                        },   
+                        estimated_employer_max_monthly_cost: 6000 + (group_difference * 12),
+                        estimated_plan_participant_min_monthly_cost: 312 + (group_difference * 2),
+                        estimated_plan_participant_max_monthly_cost: 954  + (group_difference * 2)
+                    },{
+                        reference_plan_name: 'UHC CHOICE PLUS POS GOLD 0 B',
+                        reference_plan_HIOS_id: "78606AB0440009-05",
+                        carrier_name: 'United Health Care',
+                        plan_type: 'POS',
+                        metal_level: 'Gold',
+                        plan_option_kind: 'single_plan',
+                        plans_by: 'A Single Plan',
+                        plans_by_summary_text: 'Reference Plan Only',
+                        employer_contribution_by_relationship: { 
+                           employee: 50 + group_difference, 
+                           spouse: nil, 
+                           domestic_partner: nil, 
+                           child_under_26: 0
+                        },   
+                        estimated_employer_max_monthly_cost: 6000 + (group_difference * 12),
+                        estimated_plan_participant_min_monthly_cost: 312 + (group_difference * 2),
+                        estimated_plan_participant_max_monthly_cost: 954  + (group_difference * 2)
+                    }]  
+
+      dental_plans = [{
+                         reference_plan_name: 'BlueDental Preferred',
+                         reference_plan_HIOS_id: "94506DC0350009-01",
+                         carrier_name: 'CareFirst',
+                         plan_type: 'PPO',
+                         plan_option_kind: 'single_plan',
+                         plans_by: 'Custom (3 Plans)',
+                         plans_by_summary_text: 'Custom (3 Plans)',
+                         elected_dental_plans: [
+                            { carrier_name: 'CareFirst', plan_name: 'BlueDental Preferred '},
+                            { carrier_name: 'CareFirst', plan_name: 'BlueDental Traditional'},
+                            { carrier_name: 'Delta Dental ', plan_name: 'Delta Dental PPO Basic Plan for Families for Small Businesses '}
+                         ],
+                         employer_contribution_by_relationship: { 
+                            employee: 80, 
+                            spouse: 70,
+                            domestic_partner: 60,
+                            child_under_26: 50
+                        },
+                        estimated_employer_max_monthly_cost: 2000,
+                        estimated_plan_participant_min_monthly_cost: 92,
+                        estimated_plan_participant_max_monthly_cost: 54 
+                    }, nil]
+
+      { 
+          benefit_group_name: group_name,
+          eligibility_rule: 'First of the month following or coinciding with date of hire',
+          health: health_plans[period_type_index],
+          dental: dental_plans[period_type_index]
+      }
+    end]
+  end]
+
+  summary[:employer_details_url] = create_employer_details_example_file(details)
+  summary[:employee_roster_url] = create_employee_roster_example_file(roster)
+  json_section(summary, {indent: "            "})       
 end
 
 

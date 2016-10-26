@@ -117,9 +117,9 @@
         "active": {
           "health": {
             "status": "Enrolled",
-            "employer_contribution": 7876.28,
-            "employee_cost": 4181.36,
-            "total_premium": 12057.64,
+            "employer_contribution": 3375.55,
+            "employee_cost": 1792.01,
+            "total_premium": 5167.56,
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
@@ -127,9 +127,9 @@
           },
           "dental": {
             "status": "Enrolled",
-            "employer_contribution": 7876.28,
-            "employee_cost": 4181.36,
-            "total_premium": 12057.64,
+            "employer_contribution": 3375.55,
+            "employee_cost": 1792.01,
+            "total_premium": 5167.56,
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",

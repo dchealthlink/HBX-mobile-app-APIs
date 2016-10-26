@@ -82,9 +82,9 @@
         "renewal": {
           "health": {
             "status": "Enrolled",
-            "employer_contribution": 3806.82,
-            "employee_cost": 2027.21,
-            "total_premium": 5834.03,
+            "employer_contribution": 1631.5,
+            "employee_cost": 868.8,
+            "total_premium": 2500.3,
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
@@ -92,9 +92,9 @@
           },
           "dental": {
             "status": "Enrolled",
-            "employer_contribution": 3806.82,
-            "employee_cost": 2027.21,
-            "total_premium": 5834.03,
+            "employer_contribution": 1631.5,
+            "employee_cost": 868.8,
+            "total_premium": 2500.3,
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
@@ -121,9 +121,9 @@
         "active": {
           "health": {
             "status": "Enrolled",
-            "employer_contribution": 3806.82,
-            "employee_cost": 2027.21,
-            "total_premium": 5834.03,
+            "employer_contribution": 1631.5,
+            "employee_cost": 868.8,
+            "total_premium": 2500.3,
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
@@ -131,9 +131,9 @@
           },
           "dental": {
             "status": "Enrolled",
-            "employer_contribution": 3806.82,
-            "employee_cost": 2027.21,
-            "total_premium": 5834.03,
+            "employer_contribution": 1631.5,
+            "employee_cost": 868.8,
+            "total_premium": 2500.3,
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
@@ -270,9 +270,9 @@
         "renewal": {
           "health": {
             "status": "Enrolled",
-            "employer_contribution": 3806.82,
-            "employee_cost": 2027.21,
-            "total_premium": 5834.03,
+            "employer_contribution": 1631.5,
+            "employee_cost": 868.8,
+            "total_premium": 2500.3,
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
@@ -280,9 +280,9 @@
           },
           "dental": {
             "status": "Enrolled",
-            "employer_contribution": 3806.82,
-            "employee_cost": 2027.21,
-            "total_premium": 5834.03,
+            "employer_contribution": 1631.5,
+            "employee_cost": 868.8,
+            "total_premium": 2500.3,
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
@@ -309,9 +309,9 @@
         "active": {
           "health": {
             "status": "Enrolled",
-            "employer_contribution": 3806.82,
-            "employee_cost": 2027.21,
-            "total_premium": 5834.03,
+            "employer_contribution": 1631.5,
+            "employee_cost": 868.8,
+            "total_premium": 2500.3,
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
@@ -319,9 +319,9 @@
           },
           "dental": {
             "status": "Enrolled",
-            "employer_contribution": 3806.82,
-            "employee_cost": 2027.21,
-            "total_premium": 5834.03,
+            "employer_contribution": 1631.5,
+            "employee_cost": 868.8,
+            "total_premium": 2500.3,
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
