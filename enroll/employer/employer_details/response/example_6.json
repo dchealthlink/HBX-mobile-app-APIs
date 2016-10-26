@@ -3,6 +3,7 @@
   "employees_total": 3,
   "employees_enrolled": 1,
   "employees_waived": 1,
+  "employees_terminated": 0,
   "open_enrollment_begins": null,
   "open_enrollment_ends": "2016-11-13",
   "plan_year_begins": "2016-12-01",

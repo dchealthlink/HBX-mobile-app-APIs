@@ -198,13 +198,16 @@ def participation(employer_name, total, enrolled, waived, plan_year)
   }
 
   active_health_coverages = roster[:roster].map { |e| e[:enrollments]["active"][:health] }
-  enrolled, waived = ["Enrolled", "Waived"].map {|status| active_health_coverages.count { |e| e[:status] == status } }
+  enrolled, waived, terminated = ["Enrolled", "Waived", "Terminated"].map do |status| 
+    active_health_coverages.count { |e| e[:status] == status } 
+  end
 
   summary = {
-    employer_name: "#{employer_name}",
-    employees_total: total_employees,
-    employees_enrolled: enrolled,
-    employees_waived: waived,
+    employer_name:                 "#{employer_name}",
+    employees_total:               total_employees,
+    employees_enrolled:            enrolled,
+    employees_waived:              waived,
+    employees_terminated:          terminated, 
     open_enrollment_begins:        fmt(plan_year.open_enrollment_begins),
     open_enrollment_ends:          fmt(plan_year.end_of_open_enrollment),
     plan_year_begins:              fmt(plan_year.plan_year_begins),
