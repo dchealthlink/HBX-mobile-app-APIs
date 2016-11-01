@@ -225,7 +225,7 @@ def participation(employer_name, total, enrolled, waived, plan_year)
   details[:employee_contribution] = ee_contrib
   details[:employer_contribution] = er_contrib
   details[:plan_offerings] = Hash[period_types.each_with_index.map do |period_type, period_type_index|
-    [period_type, ["CEO’S & MANAGERS", "CADDIES & MAINTENANCE"].each_with_index.map do |group_name, group_name_index|
+    [period_type, ["FULL-TIME EMPLOYEES", "PART-TIME EMPLOYEES"].each_with_index.map do |group_name, group_name_index|
       group_difference = group_name_index * -10
       health_plans = [{
                         reference_plan_name: 'KP DC PLATINUM 500/20/DENTAL/PED DENTAL/SEL',

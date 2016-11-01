@@ -16,20 +16,6 @@
           "health": {
             "status": "Not Enrolled"
           }
-        },
-        "renewal": {
-          "health": {
-            "status": "Terminated",
-            "employer_contribution": 0.0,
-            "employee_cost": 0.0,
-            "total_premium": 0.0,
-            "plan_name": "KP DC Silver 2000/35",
-            "plan_type": "HMO",
-            "metal_level": "Silver",
-            "benefit_group_name": "Other Employees",
-            "terminated_on": "2016-10-26",
-            "terminate_reason": "I have coverage through an individual market health plan"
-          }
         }
       },
       "is_business_owner": false,
@@ -75,30 +61,8 @@
             "plan_type": "HMO",
             "metal_level": "Silver",
             "benefit_group_name": "Closers",
-            "terminated_on": "2016-10-26",
+            "terminated_on": "2016-11-01",
             "terminate_reason": "I have coverage through an individual market health plan"
-          }
-        },
-        "renewal": {
-          "health": {
-            "status": "Enrolled",
-            "employer_contribution": 2284.09,
-            "employee_cost": 1216.32,
-            "total_premium": 3500.41,
-            "plan_name": "KP DC Silver 2000/35",
-            "plan_type": "HMO",
-            "metal_level": "Silver",
-            "benefit_group_name": "Closers"
-          },
-          "dental": {
-            "status": "Enrolled",
-            "employer_contribution": 2284.09,
-            "employee_cost": 1216.32,
-            "total_premium": 3500.41,
-            "plan_name": "KP DC Silver 2000/35",
-            "plan_type": "HMO",
-            "metal_level": "Silver",
-            "benefit_group_name": "Closers"
           }
         }
       },
@@ -139,21 +103,6 @@
             "metal_level": "Silver",
             "benefit_group_name": "Other Employees"
           }
-        },
-        "renewal": {
-          "health": {
-            "status": "Waived",
-            "employer_contribution": 0.0,
-            "employee_cost": 0.0,
-            "total_premium": 0.0,
-            "plan_name": "KP DC Silver 2000/35",
-            "plan_type": "HMO",
-            "metal_level": "Silver",
-            "benefit_group_name": "Other Employees"
-          },
-          "dental": {
-            "status": "Not Enrolled"
-          }
         }
       },
       "is_business_owner": false,
@@ -186,11 +135,6 @@
           "dental": {
             "status": "Not Enrolled"
           }
-        },
-        "renewal": {
-          "health": {
-            "status": "Not Enrolled"
-          }
         }
       },
       "is_business_owner": false,
@@ -220,20 +164,6 @@
         "active": {
           "health": {
             "status": "Not Enrolled"
-          }
-        },
-        "renewal": {
-          "health": {
-            "status": "Terminated",
-            "employer_contribution": 0.0,
-            "employee_cost": 0.0,
-            "total_premium": 0.0,
-            "plan_name": "KP DC Silver 2000/35",
-            "plan_type": "HMO",
-            "metal_level": "Silver",
-            "benefit_group_name": "Other Employees",
-            "terminated_on": "2016-10-26",
-            "terminate_reason": "I have coverage through an individual market health plan"
           }
         }
       },

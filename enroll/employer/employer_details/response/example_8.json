@@ -5,14 +5,14 @@
   "employees_waived": 1,
   "employees_terminated": 0,
   "open_enrollment_begins": null,
-  "open_enrollment_ends": "2017-05-13",
-  "plan_year_begins": "2017-06-01",
+  "open_enrollment_ends": "2017-06-13",
+  "plan_year_begins": "2017-07-01",
   "renewal_in_progress": false,
-  "renewal_application_available": "2017-03-01",
-  "renewal_application_due": "2017-05-10",
+  "renewal_application_available": "2017-04-01",
+  "renewal_application_due": "2017-06-10",
   "binder_payment_due": null,
   "minimum_participation_required": 2,
-  "billing_report_date": "2016-11-26",
+  "billing_report_date": "2016-12-01",
   "active_general_agency": null,
   "total_premium": 3019.91,
   "employee_contribution": 1058.87,
@@ -20,7 +20,7 @@
   "plan_offerings": {
     "active": [
       {
-        "benefit_group_name": "CEO’S & MANAGERS",
+        "benefit_group_name": "FULL-TIME EMPLOYEES",
         "eligibility_rule": "First of the month following or coinciding with date of hire",
         "health": {
           "reference_plan_name": "KP DC PLATINUM 500/20/DENTAL/PED DENTAL/SEL",
@@ -75,7 +75,7 @@
         }
       },
       {
-        "benefit_group_name": "CADDIES & MAINTENANCE",
+        "benefit_group_name": "PART-TIME EMPLOYEES",
         "eligibility_rule": "First of the month following or coinciding with date of hire",
         "health": {
           "reference_plan_name": "KP DC PLATINUM 500/20/DENTAL/PED DENTAL/SEL",
