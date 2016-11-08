@@ -1,9 +1,5 @@
 {
   "employer_name": "J. Grigory Food Trucks & Fine Comestibles",
-  "employees_total": 4,
-  "employees_enrolled": 1,
-  "employees_waived": 1,
-  "employees_terminated": 1,
   "open_enrollment_begins": null,
   "open_enrollment_ends": "2017-04-13",
   "plan_year_begins": "2017-05-01",
@@ -12,11 +8,8 @@
   "renewal_application_due": "2017-04-10",
   "binder_payment_due": null,
   "minimum_participation_required": 2,
-  "billing_report_date": "2016-12-01",
+  "billing_report_date": "2016-12-08",
   "active_general_agency": null,
-  "total_premium": 59750.0,
-  "employee_contribution": 21250.0,
-  "employer_contribution": 38500.0,
   "plan_offerings": {
     "active": [
       {

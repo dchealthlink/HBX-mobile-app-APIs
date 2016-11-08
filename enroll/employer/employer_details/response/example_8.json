@@ -1,9 +1,5 @@
 {
   "employer_name": "Strategy & Tactics Game Shop",
-  "employees_total": 3,
-  "employees_enrolled": 1,
-  "employees_waived": 1,
-  "employees_terminated": 0,
   "open_enrollment_begins": null,
   "open_enrollment_ends": "2017-06-13",
   "plan_year_begins": "2017-07-01",
@@ -12,11 +8,8 @@
   "renewal_application_due": "2017-06-10",
   "binder_payment_due": null,
   "minimum_participation_required": 2,
-  "billing_report_date": "2016-12-01",
+  "billing_report_date": "2016-12-08",
   "active_general_agency": null,
-  "total_premium": 3019.91,
-  "employee_contribution": 1058.87,
-  "employer_contribution": 1961.04,
   "plan_offerings": {
     "active": [
       {

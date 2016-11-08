@@ -1,9 +1,5 @@
 {
   "employer_name": "District Yoga",
-  "employees_total": 4,
-  "employees_enrolled": 1,
-  "employees_waived": 1,
-  "employees_terminated": 1,
   "open_enrollment_begins": "2016-11-01",
   "open_enrollment_ends": "2016-12-13",
   "plan_year_begins": "2017-01-01",
@@ -12,11 +8,8 @@
   "renewal_application_due": "2016-12-10",
   "binder_payment_due": null,
   "minimum_participation_required": 2,
-  "billing_report_date": "2016-12-01",
+  "billing_report_date": "2016-12-08",
   "active_general_agency": null,
-  "total_premium": 32107.53,
-  "employee_contribution": 11215.82,
-  "employer_contribution": 20891.71,
   "plan_offerings": {
     "active": [
       {

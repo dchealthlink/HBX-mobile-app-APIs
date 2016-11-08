@@ -1,9 +1,5 @@
 {
   "employer_name": "Portia's Tea Bar",
-  "employees_total": 3,
-  "employees_enrolled": 1,
-  "employees_waived": 1,
-  "employees_terminated": 0,
   "open_enrollment_begins": null,
   "open_enrollment_ends": "2017-05-13",
   "plan_year_begins": "2017-06-01",
@@ -12,11 +8,8 @@
   "renewal_application_due": "2017-05-10",
   "binder_payment_due": null,
   "minimum_participation_required": 2,
-  "billing_report_date": "2016-12-01",
+  "billing_report_date": "2016-12-08",
   "active_general_agency": null,
-  "total_premium": 13589.62,
-  "employee_contribution": 4764.92,
-  "employer_contribution": 8824.7,
   "plan_offerings": {
     "active": [
       {

@@ -203,11 +203,7 @@ def participation(employer_name, total, enrolled, waived, plan_year)
   end
 
   summary = {
-    employer_name:                 "#{employer_name}",
-    employees_total:               total_employees,
-    employees_enrolled:            enrolled,
-    employees_waived:              waived,
-    employees_terminated:          terminated, 
+    employer_name:                 "#{employer_name}", 
     open_enrollment_begins:        fmt(plan_year.open_enrollment_begins),
     open_enrollment_ends:          fmt(plan_year.end_of_open_enrollment),
     plan_year_begins:              fmt(plan_year.plan_year_begins),
@@ -221,9 +217,9 @@ def participation(employer_name, total, enrolled, waived, plan_year)
   }
 
   details = summary.clone
-  details[:total_premium] = ee_contrib + er_contrib
-  details[:employee_contribution] = ee_contrib
-  details[:employer_contribution] = er_contrib
+  # details[:total_premium] = ee_contrib + er_contrib
+  # details[:employee_contribution] = ee_contrib
+  # details[:employer_contribution] = er_contrib
   details[:plan_offerings] = Hash[period_types.each_with_index.map do |period_type, period_type_index|
     [period_type, ["FULL-TIME EMPLOYEES", "PART-TIME EMPLOYEES"].each_with_index.map do |group_name, group_name_index|
       group_difference = group_name_index * -10
@@ -297,6 +293,11 @@ def participation(employer_name, total, enrolled, waived, plan_year)
       }
     end]
   end]
+
+  summary[:employees_total]       =  total_employees   
+  summary[:employees_enrolled]    =  enrolled        
+  summary[:employees_waived]      =  waived          
+  summary[:employees_terminated]  =  terminated       
 
   summary[:employer_details_url] = create_employer_details_example_file(details)
   summary[:employee_roster_url] = create_employee_roster_example_file(roster)

@@ -1,9 +1,5 @@
 {
   "employer_name": "OPEN Art Studio",
-  "employees_total": 6,
-  "employees_enrolled": 2,
-  "employees_waived": 1,
-  "employees_terminated": 2,
   "open_enrollment_begins": "2016-10-01",
   "open_enrollment_ends": "2016-11-13",
   "plan_year_begins": "2016-12-01",
@@ -12,11 +8,8 @@
   "renewal_application_due": "2016-11-10",
   "binder_payment_due": null,
   "minimum_participation_required": 4,
-  "billing_report_date": "2016-12-01",
+  "billing_report_date": "2016-12-08",
   "active_general_agency": "Betadyne General Agency, Inc.",
-  "total_premium": 32107.53,
-  "employee_contribution": 11215.82,
-  "employer_contribution": 20891.71,
   "plan_offerings": {
     "active": [
       {
