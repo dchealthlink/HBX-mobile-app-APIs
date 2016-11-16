@@ -61,7 +61,7 @@ class PlanYear
     end
 
     def in_renewal_OE
-        @in_open_enrollment && (@start_date.month > 6)
+        @in_open_enrollment && (@start_date.month % 2 > 0)
     end
 
     def date_fields
@@ -207,7 +207,7 @@ def participation(employer_name, total, enrolled, waived, plan_year)
     open_enrollment_begins:        fmt(plan_year.open_enrollment_begins),
     open_enrollment_ends:          fmt(plan_year.end_of_open_enrollment),
     plan_year_begins:              fmt(plan_year.plan_year_begins),
-    renewal_in_progress:           plan_year.in_pending_renewal,
+    renewal_in_progress:           plan_year.in_pending_renewal || plan_year.in_renewal_OE,
     renewal_application_available: fmt(plan_year.renewal_begins),
     renewal_application_due:       fmt(plan_year.renewal_deadline),
     binder_payment_due: nil,
