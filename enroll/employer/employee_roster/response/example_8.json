@@ -11,8 +11,9 @@
       "gender": "male",
       "hired_on": "2008-12-08",
       "id": 800,
-      "enrollments": {
-        "active": {
+      "enrollments": [
+        {
+          "start_on": "2017-07-01",
           "health": {
             "status": "Enrolled",
             "employer_contribution": 653.68,
@@ -21,7 +22,7 @@
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
-            "benefit_group_name": "Other Employees"
+            "benefit_group_name": "PART-TIME EMPLOYEES"
           },
           "dental": {
             "status": "Enrolled",
@@ -31,10 +32,10 @@
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
-            "benefit_group_name": "Other Employees"
+            "benefit_group_name": "PART-TIME EMPLOYEES"
           }
         }
-      },
+      ],
       "is_business_owner": false,
       "dependents": [
         {
@@ -67,8 +68,9 @@
       "gender": "male",
       "hired_on": "2007-12-12",
       "id": 801,
-      "enrollments": {
-        "active": {
+      "enrollments": [
+        {
+          "start_on": "2017-07-01",
           "health": {
             "status": "Waived",
             "employer_contribution": 0.0,
@@ -77,13 +79,13 @@
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
-            "benefit_group_name": "Closers"
+            "benefit_group_name": "FULL-TIME EMPLOYEES"
           },
           "dental": {
             "status": "Not Enrolled"
           }
         }
-      },
+      ],
       "is_business_owner": true,
       "dependents": [
 
@@ -99,13 +101,15 @@
       "gender": "male",
       "hired_on": "2012-03-03",
       "id": 802,
-      "enrollments": {
-        "active": {
+      "enrollments": [
+        {
+          "start_on": "2017-07-01",
           "health": {
             "status": "Not Enrolled"
-          }
+          },
+          "dental": null
         }
-      },
+      ],
       "is_business_owner": false,
       "dependents": [
 

@@ -2,14 +2,14 @@
   "employer_name": "National Network to End Domestic Abuse",
   "binder_payment_due": null,
   "minimum_participation_required": 3,
-  "billing_report_date": "2016-12-22",
+  "billing_report_date": "2016-12-23",
   "active_general_agency": "Betadyne General Agency, Inc.",
   "plan_years": [
     {
+      "plan_year_begins": "2017-01-01",
       "open_enrollment_begins": "2016-11-01",
       "open_enrollment_ends": "2016-12-13",
-      "plan_year_begins": "2017-01-01",
-      "renewal_in_progress": true,
+      "renewal_in_progress": false,
       "renewal_application_available": "2016-10-01",
       "renewal_application_due": "2016-12-10",
       "plan_offerings": [

@@ -6,19 +6,30 @@
       "employer_name": "Courageous Consulting, LLC",
       "binder_payment_due": null,
       "minimum_participation_required": 3,
-      "billing_report_date": "2016-12-22",
+      "billing_report_date": "2016-12-23",
       "active_general_agency": "Betadyne General Agency, Inc.",
       "plan_years": [
         {
+          "plan_year_begins": "2018-01-01",
+          "open_enrollment_begins": null,
+          "open_enrollment_ends": "2017-12-13",
+          "renewal_in_progress": false,
+          "renewal_application_available": "2017-10-01",
+          "renewal_application_due": "2017-12-10",
+          "employees_enrolled": 1,
+          "employees_waived": 1,
+          "employees_terminated": 1
+        },
+        {
+          "plan_year_begins": "2017-01-01",
           "open_enrollment_begins": "2016-11-01",
           "open_enrollment_ends": "2016-12-13",
-          "plan_year_begins": "2017-01-01",
-          "renewal_in_progress": true,
+          "renewal_in_progress": false,
           "renewal_application_available": "2016-10-01",
           "renewal_application_due": "2016-12-10",
           "employees_enrolled": 1,
           "employees_waived": 1,
-          "employees_terminated": 1
+          "employees_terminated": 2
         }
       ],
       "employees_total": 5,
@@ -45,14 +56,14 @@
       "employer_name": "National Network to End Domestic Abuse",
       "binder_payment_due": null,
       "minimum_participation_required": 3,
-      "billing_report_date": "2016-12-22",
+      "billing_report_date": "2016-12-23",
       "active_general_agency": "Betadyne General Agency, Inc.",
       "plan_years": [
         {
+          "plan_year_begins": "2017-01-01",
           "open_enrollment_begins": "2016-11-01",
           "open_enrollment_ends": "2016-12-13",
-          "plan_year_begins": "2017-01-01",
-          "renewal_in_progress": true,
+          "renewal_in_progress": false,
           "renewal_application_available": "2016-10-01",
           "renewal_application_due": "2016-12-10",
           "employees_enrolled": 1,
@@ -98,13 +109,24 @@
       "employer_name": "District Yoga",
       "binder_payment_due": null,
       "minimum_participation_required": 2,
-      "billing_report_date": "2016-12-22",
+      "billing_report_date": "2016-12-23",
       "active_general_agency": null,
       "plan_years": [
         {
+          "plan_year_begins": "2018-01-01",
+          "open_enrollment_begins": null,
+          "open_enrollment_ends": "2017-12-13",
+          "renewal_in_progress": false,
+          "renewal_application_available": "2017-10-01",
+          "renewal_application_due": "2017-12-10",
+          "employees_enrolled": 1,
+          "employees_waived": 1,
+          "employees_terminated": 1
+        },
+        {
+          "plan_year_begins": "2017-01-01",
           "open_enrollment_begins": "2016-11-01",
           "open_enrollment_ends": "2016-12-13",
-          "plan_year_begins": "2017-01-01",
           "renewal_in_progress": true,
           "renewal_application_available": "2016-10-01",
           "renewal_application_due": "2016-12-10",
@@ -151,19 +173,30 @@
       "employer_name": "DC Cupcakes",
       "binder_payment_due": null,
       "minimum_participation_required": 4,
-      "billing_report_date": "2016-12-22",
+      "billing_report_date": "2016-12-23",
       "active_general_agency": "Betadyne General Agency, Inc.",
       "plan_years": [
         {
+          "plan_year_begins": "2018-04-01",
+          "open_enrollment_begins": null,
+          "open_enrollment_ends": "2018-03-13",
+          "renewal_in_progress": false,
+          "renewal_application_available": "2018-01-01",
+          "renewal_application_due": "2018-03-10",
+          "employees_enrolled": 2,
+          "employees_waived": 1,
+          "employees_terminated": 2
+        },
+        {
+          "plan_year_begins": "2017-04-01",
           "open_enrollment_begins": null,
           "open_enrollment_ends": "2017-03-13",
-          "plan_year_begins": "2017-04-01",
           "renewal_in_progress": false,
           "renewal_application_available": "2017-01-01",
           "renewal_application_due": "2017-03-10",
           "employees_enrolled": 2,
-          "employees_waived": 1,
-          "employees_terminated": 2
+          "employees_waived": 2,
+          "employees_terminated": 1
         }
       ],
       "employees_total": 6,
@@ -204,14 +237,14 @@
       "employer_name": "OPEN Art Studio",
       "binder_payment_due": null,
       "minimum_participation_required": 4,
-      "billing_report_date": "2016-12-22",
+      "billing_report_date": "2016-12-23",
       "active_general_agency": "Betadyne General Agency, Inc.",
       "plan_years": [
         {
+          "plan_year_begins": "2017-01-01",
           "open_enrollment_begins": "2016-11-01",
           "open_enrollment_ends": "2016-12-13",
-          "plan_year_begins": "2017-01-01",
-          "renewal_in_progress": true,
+          "renewal_in_progress": false,
           "renewal_application_available": "2016-10-01",
           "renewal_application_due": "2016-12-10",
           "employees_enrolled": 2,
@@ -271,13 +304,24 @@
       "employer_name": "Best Brau Brewing Company",
       "binder_payment_due": null,
       "minimum_participation_required": 2,
-      "billing_report_date": "2016-12-22",
+      "billing_report_date": "2016-12-23",
       "active_general_agency": null,
       "plan_years": [
         {
+          "plan_year_begins": "2018-01-01",
+          "open_enrollment_begins": null,
+          "open_enrollment_ends": "2017-12-13",
+          "renewal_in_progress": false,
+          "renewal_application_available": "2017-10-01",
+          "renewal_application_due": "2017-12-10",
+          "employees_enrolled": 1,
+          "employees_waived": 1,
+          "employees_terminated": 1
+        },
+        {
+          "plan_year_begins": "2017-01-01",
           "open_enrollment_begins": null,
           "open_enrollment_ends": "2016-12-13",
-          "plan_year_begins": "2017-01-01",
           "renewal_in_progress": true,
           "renewal_application_available": "2016-10-01",
           "renewal_application_due": "2016-12-10",
@@ -352,19 +396,30 @@
       "employer_name": "Bistrot Du Monde",
       "binder_payment_due": null,
       "minimum_participation_required": 2,
-      "billing_report_date": "2016-12-22",
+      "billing_report_date": "2016-12-23",
       "active_general_agency": null,
       "plan_years": [
         {
+          "plan_year_begins": "2018-01-01",
           "open_enrollment_begins": null,
-          "open_enrollment_ends": "2016-12-13",
-          "plan_year_begins": "2017-01-01",
-          "renewal_in_progress": true,
-          "renewal_application_available": "2016-10-01",
-          "renewal_application_due": "2016-12-10",
+          "open_enrollment_ends": "2017-12-13",
+          "renewal_in_progress": false,
+          "renewal_application_available": "2017-10-01",
+          "renewal_application_due": "2017-12-10",
           "employees_enrolled": 1,
           "employees_waived": 1,
           "employees_terminated": 0
+        },
+        {
+          "plan_year_begins": "2017-01-01",
+          "open_enrollment_begins": null,
+          "open_enrollment_ends": "2016-12-13",
+          "renewal_in_progress": true,
+          "renewal_application_available": "2016-10-01",
+          "renewal_application_due": "2016-12-10",
+          "employees_enrolled": 0,
+          "employees_waived": 1,
+          "employees_terminated": 1
         }
       ],
       "employees_total": 3,
@@ -419,19 +474,30 @@
       "employer_name": "Bistrot Du Bois",
       "binder_payment_due": null,
       "minimum_participation_required": 4,
-      "billing_report_date": "2016-12-22",
+      "billing_report_date": "2016-12-23",
       "active_general_agency": "Betadyne General Agency, Inc.",
       "plan_years": [
         {
+          "plan_year_begins": "2018-02-01",
+          "open_enrollment_begins": null,
+          "open_enrollment_ends": "2018-01-13",
+          "renewal_in_progress": false,
+          "renewal_application_available": "2017-11-01",
+          "renewal_application_due": "2018-01-10",
+          "employees_enrolled": 2,
+          "employees_waived": 1,
+          "employees_terminated": 2
+        },
+        {
+          "plan_year_begins": "2017-02-01",
           "open_enrollment_begins": null,
           "open_enrollment_ends": "2017-01-13",
-          "plan_year_begins": "2017-02-01",
           "renewal_in_progress": true,
           "renewal_application_available": "2016-11-01",
           "renewal_application_due": "2017-01-10",
           "employees_enrolled": 2,
-          "employees_waived": 1,
-          "employees_terminated": 2
+          "employees_waived": 2,
+          "employees_terminated": 1
         }
       ],
       "employees_total": 6,
@@ -486,13 +552,13 @@
       "employer_name": "Strategy & Tactics Game Shop",
       "binder_payment_due": null,
       "minimum_participation_required": 2,
-      "billing_report_date": "2016-12-22",
+      "billing_report_date": "2016-12-23",
       "active_general_agency": null,
       "plan_years": [
         {
+          "plan_year_begins": "2017-07-01",
           "open_enrollment_begins": null,
           "open_enrollment_ends": "2017-06-13",
-          "plan_year_begins": "2017-07-01",
           "renewal_in_progress": false,
           "renewal_application_available": "2017-04-01",
           "renewal_application_due": "2017-06-10",
@@ -539,13 +605,13 @@
       "employer_name": "Portia's Tea Bar",
       "binder_payment_due": null,
       "minimum_participation_required": 2,
-      "billing_report_date": "2016-12-22",
+      "billing_report_date": "2016-12-23",
       "active_general_agency": null,
       "plan_years": [
         {
+          "plan_year_begins": "2017-06-01",
           "open_enrollment_begins": null,
           "open_enrollment_ends": "2017-05-13",
-          "plan_year_begins": "2017-06-01",
           "renewal_in_progress": false,
           "renewal_application_available": "2017-03-01",
           "renewal_application_due": "2017-05-10",
@@ -606,13 +672,13 @@
       "employer_name": "J. Grigory Food Trucks & Fine Comestibles",
       "binder_payment_due": null,
       "minimum_participation_required": 2,
-      "billing_report_date": "2016-12-22",
+      "billing_report_date": "2016-12-23",
       "active_general_agency": null,
       "plan_years": [
         {
+          "plan_year_begins": "2017-05-01",
           "open_enrollment_begins": null,
           "open_enrollment_ends": "2017-04-13",
-          "plan_year_begins": "2017-05-01",
           "renewal_in_progress": false,
           "renewal_application_available": "2017-02-01",
           "renewal_application_due": "2017-04-10",
