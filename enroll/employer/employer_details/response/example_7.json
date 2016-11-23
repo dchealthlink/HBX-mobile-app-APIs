@@ -12,6 +12,7 @@
       "renewal_in_progress": false,
       "renewal_application_available": "2017-11-01",
       "renewal_application_due": "2018-01-10",
+      "state": "Active",
       "plan_offerings": [
         {
           "benefit_group_name": "FULL-TIME EMPLOYEES",
@@ -132,6 +133,7 @@
       "renewal_in_progress": true,
       "renewal_application_available": "2016-11-01",
       "renewal_application_due": "2017-01-10",
+      "state": "Renewing Draft",
       "plan_offerings": [
         {
           "benefit_group_name": "FULL-TIME EMPLOYEES",

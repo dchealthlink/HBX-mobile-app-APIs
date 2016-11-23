@@ -26,19 +26,19 @@ class Date
 end
 
 class PlanYear
-    def initialize(start_date, in_open_enrollment, in_pending_renewal, in_renewal_OE)
+
+    attr_reader :state, :in_renewal_OE, :in_pending_renewal
+
+    def initialize(start_date, in_open_enrollment, in_pending_renewal, in_renewal_OE, state)
         @start_date = start_date
         @in_open_enrollment = in_open_enrollment
         @in_pending_renewal = in_pending_renewal
         @in_renewal_OE = in_renewal_OE
+        @state = state
     end
 
     def previous
-        PlanYear.new(@start_date >> 12, false, false, false) 
-    end
-
-    def in_pending_renewal
-        @in_pending_renewal
+        PlanYear.new(@start_date >> 12, false, false, false, "Active") 
     end
 
     def end_of_open_enrollment
@@ -65,10 +65,6 @@ class PlanYear
         @start_date
     end
 
-    def in_renewal_OE
-        #@in_open_enrollment && (@start_date.month % 2 > 0)
-        @in_renewal_OE
-    end
 
   #  def date_fields
   #      """\"open_enrollment_begins\" : #{fmt(open_enrollment_begins)},
@@ -84,8 +80,8 @@ def now
     Date.parse(Time.now.to_s)
 end
 
-def plan_starting_in(months, in_open_enrollment = false, in_pending_renewal = false, in_renewal_OE = false)
-    PlanYear.new( (now >> months).on(1), in_open_enrollment, in_pending_renewal, in_renewal_OE)
+def plan_starting_in(months: 0, in_open_enrollment: false, in_pending_renewal: false, in_renewal_OE:false, state: 'Active')
+    PlanYear.new( (now >> months).on(1), in_open_enrollment, in_pending_renewal, in_renewal_OE, state)
 end
 
 def fmt(dt)
@@ -142,7 +138,8 @@ def render_plan_year(plan_year)
     open_enrollment_ends:          fmt(plan_year.end_of_open_enrollment),
     renewal_in_progress:           plan_year.in_pending_renewal || plan_year.in_renewal_OE,
     renewal_application_available: fmt(plan_year.renewal_begins),
-    renewal_application_due:       fmt(plan_year.renewal_deadline)
+    renewal_application_due:       fmt(plan_year.renewal_deadline),
+    state:                         plan_year.state 
   }
 end
 
@@ -329,12 +326,13 @@ end
 min_months_to_renew = if now.mday > 10 then 2 else 1 end
 min_months_to_enroll = if now.mday > 13 then 2 else 1 end
 
-in_open_enrollment = plan_starting_in(2, true)
-in_renewal_open_enrollment = plan_starting_in(2, true, false, true)
-late_open_enrollment = plan_starting_in(min_months_to_enroll, true)
-in_renewal = plan_starting_in(2, false, true)
-early_renewal  = plan_starting_in(3, false, true)
-late_to_renewal = plan_starting_in(min_months_to_renew, false, true)
+in_open_enrollment = plan_starting_in(months: 2, in_open_enrollment: true, state: "Enrolling" )
+in_renewal_open_enrollment = plan_starting_in(months: 2, in_open_enrollment: true, in_renewal_OE: true,
+  state: "Renewing Enrolling")
+late_open_enrollment = plan_starting_in(months: min_months_to_enroll, in_open_enrollment: true, in_renewal_OE: true, state: "Renewing Enrolling")
+in_renewal = plan_starting_in(months: 2, in_pending_renewal: true, state: "Renewing Published")
+early_renewal  = plan_starting_in(months: 3, in_pending_renewal: true, state: "Renewing Draft")
+late_to_renewal = plan_starting_in(months: min_months_to_renew, in_pending_renewal: true, state: "Renewing Publish Pending")
 
 result = {
     broker_agency: "Bob's Brokers",
@@ -346,7 +344,7 @@ result = {
                 ]),
             participation("National Network to End Domestic Abuse", 41, 10, 5, [in_open_enrollment], [staffer(first: "Jane", phone: "202-555-0000", email: "contact@endabuse.org"), office(address_1: "1600 New Hampshire Avenue")]),
             participation("District Yoga", 30, 20, 3, [in_renewal_open_enrollment.previous, in_renewal_open_enrollment], [staffer(first: "Priya", last: "Chandragupta", email: "contact@districtyoga.com"),office(address_1: "1600 New York Avenue", phone: "202-555-0212")]),
-            participation("DC Cupcakes", 50, 40, 7, [plan_starting_in(5).previous, plan_starting_in(5)], [
+            participation("DC Cupcakes", 50, 40, 7, [plan_starting_in(months: 5).previous, plan_starting_in(months: 5)], [
                 staffer(first: "Emile", last: "Della Noce", email: "contact@dccupcakes.com"), 
                 office(address_1: "1600 Rhode Island Avenue", phone: "202-555-0313")]),
             participation("OPEN Art Studio", 30, 20, 3, [late_open_enrollment], [
@@ -366,14 +364,14 @@ result = {
                 staffer(first: "Claudette", last: "Blanc", email: "cblan@dubois.com"),
                 staffer(first: "Aloise", last: "Vert", email: "avert@dubois.com"),
                 office(address_1: "1600 Maine Avenue", phone: "202-555-0006")]),
-            participation("Strategy & Tactics Game Shop", 6, 2, 2, [plan_starting_in(8)], [
+            participation("Strategy & Tactics Game Shop", 6, 2, 2, [plan_starting_in(months: 8)], [
                 staffer(first: "Maria Susanna", last: "Ludador", email: "contact@stgames.com"),
                 office(address_1: "1600 Georgia Avenue", phone: "202-555-0007")]),
-            participation("Portia's Tea Bar", 12, 9, 2, [plan_starting_in(7)], [
+            participation("Portia's Tea Bar", 12, 9, 2, [plan_starting_in(months: 7)], [
                 staffer(first: "Portia", last: "Binglesworth-Inglesham", email: "portia@helloportia.com"),
                 office(address_1: "1600 Alabama Avenue", phone: "202-555-0008"),
                 office(first: "Branch", address_1: "1600 Utah Avenue", address_2: "Suite 500", phone: "202-555-0009")]),
-            participation("J. Grigory Food Trucks & Fine Comestibles", 66, 50, 0, [plan_starting_in(6)], [staffer(first: "Joe", last: "Grigory", email: "jgrigory@jgrigory.com"),
+            participation("J. Grigory Food Trucks & Fine Comestibles", 66, 50, 0, [plan_starting_in(months: 6)], [staffer(first: "Joe", last: "Grigory", email: "jgrigory@jgrigory.com"),
                 office(address_1: "1600 North Carolina Avenue", phone: "202-555-0009")])
     ]
 }

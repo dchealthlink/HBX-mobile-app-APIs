@@ -12,6 +12,7 @@
       "renewal_in_progress": false,
       "renewal_application_available": "2016-10-01",
       "renewal_application_due": "2016-12-10",
+      "state": "Enrolling",
       "plan_offerings": [
         {
           "benefit_group_name": "FULL-TIME EMPLOYEES",
