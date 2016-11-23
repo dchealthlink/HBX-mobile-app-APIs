@@ -11,9 +11,8 @@
       "gender": "male",
       "hired_on": "2008-12-08",
       "id": 300,
-      "enrollments": [
-        {
-          "start_on": "2018-04-01",
+      "enrollments": {
+        "active": {
           "health": {
             "status": "Terminated",
             "employer_contribution": 0.0,
@@ -22,36 +21,12 @@
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
-            "benefit_group_name": "PART-TIME EMPLOYEES",
-            "terminated_on": "2016-11-23",
+            "benefit_group_name": "Other Employees",
+            "terminated_on": "2016-11-22",
             "terminate_reason": "I have coverage through an individual market health plan"
-          },
-          "dental": null
-        },
-        {
-          "start_on": "2017-04-01",
-          "health": {
-            "status": "Enrolled",
-            "employer_contribution": 8111.09,
-            "employee_cost": 4294.53,
-            "total_premium": 12405.62,
-            "plan_name": "KP DC Silver 2000/35",
-            "plan_type": "HMO",
-            "metal_level": "Silver",
-            "benefit_group_name": "PART-TIME EMPLOYEES"
-          },
-          "dental": {
-            "status": "Enrolled",
-            "employer_contribution": 8111.09,
-            "employee_cost": 4294.53,
-            "total_premium": 12405.62,
-            "plan_name": "KP DC Silver 2000/35",
-            "plan_type": "HMO",
-            "metal_level": "Silver",
-            "benefit_group_name": "PART-TIME EMPLOYEES"
           }
         }
-      ],
+      },
       "is_business_owner": false,
       "dependents": [
         {
@@ -84,9 +59,8 @@
       "gender": "male",
       "hired_on": "2007-12-12",
       "id": 301,
-      "enrollments": [
-        {
-          "start_on": "2018-04-01",
+      "enrollments": {
+        "active": {
           "health": {
             "status": "Enrolled",
             "employer_contribution": 8111.09,
@@ -95,7 +69,7 @@
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
-            "benefit_group_name": "FULL-TIME EMPLOYEES"
+            "benefit_group_name": "Closers"
           },
           "dental": {
             "status": "Enrolled",
@@ -105,26 +79,10 @@
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
-            "benefit_group_name": "FULL-TIME EMPLOYEES"
-          }
-        },
-        {
-          "start_on": "2017-04-01",
-          "health": {
-            "status": "Waived",
-            "employer_contribution": 0.0,
-            "employee_cost": 0.0,
-            "total_premium": 0.0,
-            "plan_name": "KP DC Silver 2000/35",
-            "plan_type": "HMO",
-            "metal_level": "Silver",
-            "benefit_group_name": "FULL-TIME EMPLOYEES"
-          },
-          "dental": {
-            "status": "Not Enrolled"
+            "benefit_group_name": "Closers"
           }
         }
-      ],
+      },
       "is_business_owner": true,
       "dependents": [
 
@@ -140,9 +98,8 @@
       "gender": "male",
       "hired_on": "2012-03-03",
       "id": 302,
-      "enrollments": [
-        {
-          "start_on": "2018-04-01",
+      "enrollments": {
+        "active": {
           "health": {
             "status": "Waived",
             "employer_contribution": 0.0,
@@ -151,20 +108,13 @@
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
-            "benefit_group_name": "PART-TIME EMPLOYEES"
+            "benefit_group_name": "Other Employees"
           },
           "dental": {
             "status": "Not Enrolled"
           }
-        },
-        {
-          "start_on": "2017-04-01",
-          "health": {
-            "status": "Not Enrolled"
-          },
-          "dental": null
         }
-      ],
+      },
       "is_business_owner": false,
       "dependents": [
 
@@ -180,31 +130,13 @@
       "gender": "female",
       "hired_on": "2008-10-08",
       "id": 303,
-      "enrollments": [
-        {
-          "start_on": "2018-04-01",
+      "enrollments": {
+        "active": {
           "health": {
             "status": "Not Enrolled"
-          },
-          "dental": null
-        },
-        {
-          "start_on": "2017-04-01",
-          "health": {
-            "status": "Terminated",
-            "employer_contribution": 0.0,
-            "employee_cost": 0.0,
-            "total_premium": 0.0,
-            "plan_name": "KP DC Silver 2000/35",
-            "plan_type": "HMO",
-            "metal_level": "Silver",
-            "benefit_group_name": "PART-TIME EMPLOYEES",
-            "terminated_on": "2016-11-23",
-            "terminate_reason": "I have coverage through an individual market health plan"
-          },
-          "dental": null
+          }
         }
-      ],
+      },
       "is_business_owner": false,
       "dependents": [
         {
@@ -228,9 +160,8 @@
       "gender": "female",
       "hired_on": "2009-11-12",
       "id": 304,
-      "enrollments": [
-        {
-          "start_on": "2018-04-01",
+      "enrollments": {
+        "active": {
           "health": {
             "status": "Terminated",
             "employer_contribution": 0.0,
@@ -239,36 +170,12 @@
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
-            "benefit_group_name": "PART-TIME EMPLOYEES",
-            "terminated_on": "2016-11-23",
+            "benefit_group_name": "Other Employees",
+            "terminated_on": "2016-11-22",
             "terminate_reason": "I have coverage through an individual market health plan"
-          },
-          "dental": null
-        },
-        {
-          "start_on": "2017-04-01",
-          "health": {
-            "status": "Enrolled",
-            "employer_contribution": 8111.09,
-            "employee_cost": 4294.53,
-            "total_premium": 12405.62,
-            "plan_name": "KP DC Silver 2000/35",
-            "plan_type": "HMO",
-            "metal_level": "Silver",
-            "benefit_group_name": "PART-TIME EMPLOYEES"
-          },
-          "dental": {
-            "status": "Enrolled",
-            "employer_contribution": 8111.09,
-            "employee_cost": 4294.53,
-            "total_premium": 12405.62,
-            "plan_name": "KP DC Silver 2000/35",
-            "plan_type": "HMO",
-            "metal_level": "Silver",
-            "benefit_group_name": "PART-TIME EMPLOYEES"
           }
         }
-      ],
+      },
       "is_business_owner": false,
       "dependents": [
 
@@ -284,9 +191,8 @@
       "gender": "female",
       "hired_on": "2015-04-03",
       "id": 305,
-      "enrollments": [
-        {
-          "start_on": "2018-04-01",
+      "enrollments": {
+        "active": {
           "health": {
             "status": "Enrolled",
             "employer_contribution": 8111.09,
@@ -295,7 +201,7 @@
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
-            "benefit_group_name": "PART-TIME EMPLOYEES"
+            "benefit_group_name": "Other Employees"
           },
           "dental": {
             "status": "Enrolled",
@@ -305,26 +211,10 @@
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
-            "benefit_group_name": "PART-TIME EMPLOYEES"
-          }
-        },
-        {
-          "start_on": "2017-04-01",
-          "health": {
-            "status": "Waived",
-            "employer_contribution": 0.0,
-            "employee_cost": 0.0,
-            "total_premium": 0.0,
-            "plan_name": "KP DC Silver 2000/35",
-            "plan_type": "HMO",
-            "metal_level": "Silver",
-            "benefit_group_name": "PART-TIME EMPLOYEES"
-          },
-          "dental": {
-            "status": "Not Enrolled"
+            "benefit_group_name": "Other Employees"
           }
         }
-      ],
+      },
       "is_business_owner": false,
       "dependents": [
 

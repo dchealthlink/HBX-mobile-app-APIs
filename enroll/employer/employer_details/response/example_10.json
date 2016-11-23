@@ -2,13 +2,13 @@
   "employer_name": "J. Grigory Food Trucks & Fine Comestibles",
   "binder_payment_due": null,
   "minimum_participation_required": 2,
-  "billing_report_date": "2016-12-23",
+  "billing_report_date": "2016-12-22",
   "active_general_agency": null,
   "plan_years": [
     {
-      "plan_year_begins": "2017-05-01",
       "open_enrollment_begins": null,
       "open_enrollment_ends": "2017-04-13",
+      "plan_year_begins": "2017-05-01",
       "renewal_in_progress": false,
       "renewal_application_available": "2017-02-01",
       "renewal_application_due": "2017-04-10",
