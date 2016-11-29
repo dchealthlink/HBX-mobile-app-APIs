@@ -1,8 +1,7 @@
 {
   "employer_name": "OPEN Art Studio",
   "binder_payment_due": null,
-  "minimum_participation_required": 4,
-  "billing_report_date": "2016-12-23",
+  "billing_report_date": "2016-12-29",
   "active_general_agency": "Betadyne General Agency, Inc.",
   "plan_years": [
     {
@@ -13,6 +12,7 @@
       "renewal_application_available": "2016-10-01",
       "renewal_application_due": "2016-12-10",
       "state": "Renewing Enrolling",
+      "minimum_participation_required": 4,
       "plan_offerings": [
         {
           "benefit_group_name": "FULL-TIME EMPLOYEES",

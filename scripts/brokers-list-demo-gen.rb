@@ -131,16 +131,16 @@ def parse_person(person_string)
 end
 
 
-def render_plan_year(plan_year)
+def render_plan_year(plan_year, total_employees)
  {
-    plan_year_begins:              fmt(plan_year.plan_year_begins),
-    open_enrollment_begins:        fmt(plan_year.open_enrollment_begins),
-    open_enrollment_ends:          fmt(plan_year.end_of_open_enrollment),
-    renewal_in_progress:           plan_year.in_pending_renewal || plan_year.in_renewal_OE,
-    renewal_application_available: fmt(plan_year.renewal_begins),
-    renewal_application_due:       fmt(plan_year.renewal_deadline),
-    state:                         plan_year.state 
-  }
+    plan_year_begins:               fmt(plan_year.plan_year_begins),
+    open_enrollment_begins:         fmt(plan_year.open_enrollment_begins),
+    open_enrollment_ends:           fmt(plan_year.end_of_open_enrollment),
+    renewal_in_progress:            plan_year.in_pending_renewal || plan_year.in_renewal_OE,
+    renewal_application_available:  fmt(plan_year.renewal_begins),
+    renewal_application_due:        fmt(plan_year.renewal_deadline),
+    state:                          plan_year.state ,
+    minimum_participation_required: (total_employees * 2.0 / 3.0).to_i,  }
 end
 
 def enrollment_for(status, total_employees, er_contrib, ee_contrib, benefit_group_name)
@@ -211,14 +211,13 @@ def participation(employer_name, total, enrolled, waived, plan_years, contacts)
   summary = {
     employer_name:                  "#{employer_name}", 
     binder_payment_due:             nil,
-    minimum_participation_required: (total_employees * 2.0 / 3.0).to_i,
     billing_report_date:            fmt(now >> 1),
     active_general_agency:          (total_employees < 5) ? nil : "Betadyne General Agency, Inc.",
   }
   details = summary.clone
 
-  summary[:plan_years] = plan_years.map { |py| render_plan_year(py) }
-  details[:plan_years] = plan_years.map { |py| render_plan_year(py) }
+  summary[:plan_years] = plan_years.map { |py| render_plan_year(py, total_employees) }
+  details[:plan_years] = plan_years.map { |py| render_plan_year(py, total_employees) }
 
   # details[:total_premium] = ee_contrib + er_contrib
   # details[:employee_contribution] = ee_contrib
