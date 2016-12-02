@@ -3,12 +3,14 @@
 require 'date'
 require 'json'
 
+@branch = ARGV[0] || "master"
+
 @details_example_no = 0
 def create_employer_details_example_file(content) 
     path = "enroll/employer/employer_details/response/example_#{@details_example_no}.json"
     File.write("#{__dir__}/../#{path}", JSON.pretty_generate(content))
     @details_example_no += 1
-    "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/#{path}"
+    "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/#{@branch}/#{path}"
 end
 
 @roster_example_no = 0
@@ -16,7 +18,7 @@ def create_employee_roster_example_file(content)
     path = "enroll/employer/employee_roster/response/example_#{@roster_example_no}.json"
     File.write("#{__dir__}/../#{path}", JSON.pretty_generate(content))
     @roster_example_no += 1
-    "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/#{path}"
+    "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/#{@branch}/#{path}"
 end
 
 class Date
