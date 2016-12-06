@@ -40,7 +40,7 @@ class PlanYear
     end
 
     def previous
-        PlanYear.new(@start_date >> 12, false, false, false, "Active") 
+        PlanYear.new(@start_date << 12, false, false, false, "Active") 
     end
 
     def end_of_open_enrollment

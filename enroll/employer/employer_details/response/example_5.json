@@ -1,16 +1,16 @@
 {
   "employer_name": "Best Brau Brewing Company",
   "binder_payment_due": null,
-  "billing_report_date": "2017-01-02",
+  "billing_report_date": "2017-01-06",
   "active_general_agency": null,
   "plan_years": [
     {
-      "plan_year_begins": "2018-02-01",
+      "plan_year_begins": "2016-02-01",
       "open_enrollment_begins": null,
-      "open_enrollment_ends": "2018-01-13",
+      "open_enrollment_ends": "2016-01-13",
       "renewal_in_progress": false,
-      "renewal_application_available": "2017-11-01",
-      "renewal_application_due": "2018-01-10",
+      "renewal_application_available": "2015-11-01",
+      "renewal_application_due": "2016-01-10",
       "state": "Active",
       "minimum_participation_required": 2,
       "plan_offerings": [
