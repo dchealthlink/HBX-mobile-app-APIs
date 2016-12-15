@@ -5,7 +5,7 @@ hash = Hash[procs.map do |p|
 	["/proc/#{$1}/environ", p] 
 end]
 hash.each do |env, line| 
-	loc = `grep -az "\\bPWD" #{env}`.gsub(/^PWD=/, "") 
+	loc = `grep -az "\\bPWD" #{env}`.gsub(/^PWD=/, "").gsub("\u0000", '') 
 	branch = `cd #{loc}/..; git status 2>&1`.lines[0]
 	print "#{line}\nrunning in: #{loc}\n#{branch}\n"
 end
