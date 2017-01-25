@@ -1,0 +1,748 @@
+{
+  "broker_agency": "Bob's Brokers",
+  "broker_name": "Bill",
+  "broker_clients": [
+    {
+      "employer_name": "Courageous Consulting, LLC",
+      "binder_payment_due": null,
+      "billing_report_date": "2017-01-22",
+      "active_general_agency": "Betadyne General Agency, Inc.",
+      "plan_years": [
+        {
+          "plan_year_begins": "2016-02-09",
+          "open_enrollment_begins": null,
+          "open_enrollment_ends": "2016-01-21",
+          "renewal_in_progress": false,
+          "renewal_application_available": "2015-11-09",
+          "renewal_application_due": "2016-01-18",
+          "state": "Active",
+          "minimum_participation_required": 3,
+          "employees_enrolled": 1,
+          "employees_waived": 1,
+          "employees_terminated": 1
+        },
+        {
+          "plan_year_begins": "2017-02-09",
+          "open_enrollment_begins": "2016-12-09",
+          "open_enrollment_ends": "2017-01-21",
+          "renewal_in_progress": true,
+          "renewal_application_available": "2016-11-09",
+          "renewal_application_due": "2017-02-09",
+          "state": "Renewing Enrolling",
+          "minimum_participation_required": 3,
+          "employees_enrolled": 1,
+          "employees_waived": 1,
+          "employees_terminated": 2
+        }
+      ],
+      "employees_total": 5,
+      "employer_details_url": "employer_details_0.json",
+      "employee_roster_url": "roster_0.json",
+      "contact_info": [
+        {
+          "first": "Bob",
+          "last": "Doe",
+          "phone": "",
+          "mobile": "202-468-6571",
+          "emails": [
+            "bob@courageous-consulting.com"
+          ],
+          "address_1": "",
+          "address_2": "",
+          "city": "",
+          "state": "",
+          "zip": ""
+        }
+      ]
+    },
+    {
+      "employer_name": "National Network to End Domestic Abuse",
+      "binder_payment_due": null,
+      "billing_report_date": "2017-01-22",
+      "active_general_agency": "Betadyne General Agency, Inc.",
+      "plan_years": [
+        {
+          "plan_year_begins": "2017-02-09",
+          "open_enrollment_begins": "2016-12-09",
+          "open_enrollment_ends": "2017-01-21",
+          "renewal_in_progress": false,
+          "renewal_application_available": "2016-11-09",
+          "renewal_application_due": "2017-02-09",
+          "state": "Enrolling",
+          "minimum_participation_required": 3,
+          "employees_enrolled": 1,
+          "employees_waived": 1,
+          "employees_terminated": 1
+        }
+      ],
+      "employees_total": 5,
+      "employer_details_url": "employer_details_1.json",
+      "employee_roster_url": "roster_1.json",
+      "contact_info": [
+        {
+          "first": "Jane",
+          "last": "Doe",
+          "phone": "202-555-0000",
+          "mobile": "202-468-6571",
+          "emails": [
+            "contact@endabuse.org"
+          ],
+          "address_1": "",
+          "address_2": "",
+          "city": "",
+          "state": "",
+          "zip": ""
+        },
+        {
+          "first": "Primary",
+          "last": "Office",
+          "phone": "202-468-6571",
+          "mobile": "",
+          "emails": [
+            ""
+          ],
+          "address_1": "1600 New Hampshire Avenue",
+          "address_2": "",
+          "city": "Washington",
+          "state": "DC",
+          "zip": "20001"
+        }
+      ]
+    },
+    {
+      "employer_name": "District Yoga",
+      "binder_payment_due": null,
+      "billing_report_date": "2017-01-22",
+      "active_general_agency": null,
+      "plan_years": [
+        {
+          "plan_year_begins": "2016-02-09",
+          "open_enrollment_begins": null,
+          "open_enrollment_ends": "2016-01-21",
+          "renewal_in_progress": false,
+          "renewal_application_available": "2015-11-09",
+          "renewal_application_due": "2016-01-18",
+          "state": "Active",
+          "minimum_participation_required": 2,
+          "employees_enrolled": 1,
+          "employees_waived": 1,
+          "employees_terminated": 1
+        },
+        {
+          "plan_year_begins": "2017-02-09",
+          "open_enrollment_begins": "2016-12-09",
+          "open_enrollment_ends": "2017-01-21",
+          "renewal_in_progress": true,
+          "renewal_application_available": "2016-11-09",
+          "renewal_application_due": "2017-02-09",
+          "state": "Renewing Enrolling",
+          "minimum_participation_required": 2,
+          "employees_enrolled": 1,
+          "employees_waived": 1,
+          "employees_terminated": 1
+        }
+      ],
+      "employees_total": 4,
+      "employer_details_url": "employer_details_2.json",
+      "employee_roster_url": "broker_1/roster_2.json",
+      "contact_info": [
+        {
+          "first": "Priya",
+          "last": "Chandragupta",
+          "phone": "202-468-6571",
+          "mobile": "202-468-6571",
+          "emails": [
+            "contact@districtyoga.com"
+          ],
+          "address_1": "",
+          "address_2": "",
+          "city": "",
+          "state": "",
+          "zip": ""
+        },
+        {
+          "first": "Primary",
+          "last": "Office",
+          "phone": "202-555-0212",
+          "mobile": "",
+          "emails": [
+            ""
+          ],
+          "address_1": "1600 New York Avenue",
+          "address_2": "",
+          "city": "Washington",
+          "state": "DC",
+          "zip": "20001"
+        }
+      ]
+    },
+    {
+      "employer_name": "DC Cupcakes",
+      "binder_payment_due": null,
+      "billing_report_date": "2017-01-22",
+      "active_general_agency": "Betadyne General Agency, Inc.",
+      "plan_years": [
+        {
+          "plan_year_begins": "2016-05-09",
+          "open_enrollment_begins": null,
+          "open_enrollment_ends": "2016-04-21",
+          "renewal_in_progress": false,
+          "renewal_application_available": "2016-02-09",
+          "renewal_application_due": "2016-04-18",
+          "state": "Active",
+          "minimum_participation_required": 4,
+          "employees_enrolled": 2,
+          "employees_waived": 1,
+          "employees_terminated": 2
+        },
+        {
+          "plan_year_begins": "2017-05-09",
+          "open_enrollment_begins": null,
+          "open_enrollment_ends": "2017-04-21",
+          "renewal_in_progress": false,
+          "renewal_application_available": "2017-02-09",
+          "renewal_application_due": "2017-05-09",
+          "state": "Active",
+          "minimum_participation_required": 4,
+          "employees_enrolled": 2,
+          "employees_waived": 2,
+          "employees_terminated": 1
+        }
+      ],
+      "employees_total": 6,
+      "employer_details_url": "broker_1/employer_details_3.json",
+      "employee_roster_url": "broker_1/roster_3.json",
+      "contact_info": [
+        {
+          "first": "Emile",
+          "last": "Della Noce",
+          "phone": "202-468-6571",
+          "mobile": "202-468-6571",
+          "emails": [
+            "contact@dccupcakes.com"
+          ],
+          "address_1": "",
+          "address_2": "",
+          "city": "",
+          "state": "",
+          "zip": ""
+        },
+        {
+          "first": "Primary",
+          "last": "Office",
+          "phone": "202-555-0313",
+          "mobile": "",
+          "emails": [
+            ""
+          ],
+          "address_1": "1600 Rhode Island Avenue",
+          "address_2": "",
+          "city": "Washington",
+          "state": "DC",
+          "zip": "20001"
+        }
+      ]
+    },
+    {
+      "employer_name": "OPEN Art Studio",
+      "binder_payment_due": null,
+      "billing_report_date": "2017-01-22",
+      "active_general_agency": "Betadyne General Agency, Inc.",
+      "plan_years": [
+        {
+          "plan_year_begins": "2017-02-09",
+          "open_enrollment_begins": "2016-12-09",
+          "open_enrollment_ends": "2017-01-27",
+          "renewal_in_progress": true,
+          "renewal_application_available": "2016-11-09",
+          "renewal_application_due": "2017-02-09",
+          "state": "Renewing Enrolling",
+          "minimum_participation_required": 4,
+          "employees_enrolled": 2,
+          "employees_waived": 1,
+          "employees_terminated": 2
+        }
+      ],
+      "employees_total": 6,
+      "employer_details_url": "broker_1/employer_details_4.json",
+      "employee_roster_url": "roster_4.json",
+      "contact_info": [
+        {
+          "first": "Yona",
+          "last": "Mendelssohn",
+          "phone": "202-468-6571",
+          "mobile": "202-468-6571",
+          "emails": [
+            "yona@openart.org"
+          ],
+          "address_1": "",
+          "address_2": "",
+          "city": "",
+          "state": "",
+          "zip": ""
+        },
+        {
+          "first": "Noam",
+          "last": "Mendelssohn",
+          "phone": "202-468-6571",
+          "mobile": "202-468-6571",
+          "emails": [
+            "noam@openart.org"
+          ],
+          "address_1": "",
+          "address_2": "",
+          "city": "",
+          "state": "",
+          "zip": ""
+        },
+        {
+          "first": "Primary",
+          "last": "Office",
+          "phone": "202-555-0414",
+          "mobile": "",
+          "emails": [
+            ""
+          ],
+          "address_1": "1600 Arizona Avenue",
+          "address_2": "",
+          "city": "Washington",
+          "state": "DC",
+          "zip": "20001"
+        }
+      ]
+    },
+    {
+      "employer_name": "Best Brau Brewing Company",
+      "binder_payment_due": null,
+      "billing_report_date": "2017-01-22",
+      "active_general_agency": null,
+      "plan_years": [
+        {
+          "plan_year_begins": "2016-02-09",
+          "open_enrollment_begins": null,
+          "open_enrollment_ends": "2016-01-21",
+          "renewal_in_progress": false,
+          "renewal_application_available": "2015-11-09",
+          "renewal_application_due": "2016-01-18",
+          "state": "Active",
+          "minimum_participation_required": 2,
+          "employees_enrolled": 1,
+          "employees_waived": 1,
+          "employees_terminated": 1
+        },
+        {
+          "plan_year_begins": "2017-02-09",
+          "open_enrollment_begins": null,
+          "open_enrollment_ends": "2017-01-27",
+          "renewal_in_progress": true,
+          "renewal_application_available": "2016-11-09",
+          "renewal_application_due": "2017-01-18",
+          "state": "Renewing Published",
+          "minimum_participation_required": 2,
+          "employees_enrolled": 1,
+          "employees_waived": 1,
+          "employees_terminated": 1
+        }
+      ],
+      "employees_total": 4,
+      "employer_details_url": "employer_details_5.json",
+      "employee_roster_url": "roster_5.json",
+      "contact_info": [
+        {
+          "first": "Heinrich",
+          "last": "Biergarten",
+          "phone": "202-468-6571",
+          "mobile": "202-468-6571",
+          "emails": [
+            "heini@bestbrau.com"
+          ],
+          "address_1": "",
+          "address_2": "",
+          "city": "",
+          "state": "",
+          "zip": ""
+        },
+        {
+          "first": "Ulrich",
+          "last": "Suufersohn",
+          "phone": "202-468-6571",
+          "mobile": "202-468-6571",
+          "emails": [
+            "ueli@bestbrau.com"
+          ],
+          "address_1": "",
+          "address_2": "",
+          "city": "",
+          "state": "",
+          "zip": ""
+        },
+        {
+          "first": "Primary",
+          "last": "Office",
+          "phone": "202-555-0515",
+          "mobile": "",
+          "emails": [
+            ""
+          ],
+          "address_1": "1600 Nebraska Avenue",
+          "address_2": "",
+          "city": "Washington",
+          "state": "DC",
+          "zip": "20001"
+        },
+        {
+          "first": "Branch",
+          "last": "Office",
+          "phone": "202-468-6571",
+          "mobile": "",
+          "emails": [
+            ""
+          ],
+          "address_1": "6600 Nebraska Avenue",
+          "address_2": "",
+          "city": "Washington",
+          "state": "DC",
+          "zip": "20001"
+        }
+      ]
+    },
+    {
+      "employer_name": "Bistrot Du Monde",
+      "binder_payment_due": null,
+      "billing_report_date": "2017-01-22",
+      "active_general_agency": null,
+      "plan_years": [
+        {
+          "plan_year_begins": "2016-02-09",
+          "open_enrollment_begins": null,
+          "open_enrollment_ends": "2016-01-21",
+          "renewal_in_progress": false,
+          "renewal_application_available": "2015-11-09",
+          "renewal_application_due": "2016-01-18",
+          "state": "Active",
+          "minimum_participation_required": 2,
+          "employees_enrolled": 1,
+          "employees_waived": 1,
+          "employees_terminated": 0
+        },
+        {
+          "plan_year_begins": "2017-02-09",
+          "open_enrollment_begins": null,
+          "open_enrollment_ends": "2017-01-27",
+          "renewal_in_progress": true,
+          "renewal_application_available": "2016-11-09",
+          "renewal_application_due": "2017-02-09",
+          "state": "Renewing Publish Pending",
+          "minimum_participation_required": 2,
+          "employees_enrolled": 0,
+          "employees_waived": 1,
+          "employees_terminated": 1
+        }
+      ],
+      "employees_total": 3,
+      "employer_details_url": "employer_details_6.json",
+      "employee_roster_url": "roster_6.json",
+      "contact_info": [
+        {
+          "first": "Claudette",
+          "last": "Noire",
+          "phone": "202-468-6571",
+          "mobile": "202-468-6571",
+          "emails": [
+            "cnoire@dumonde.com"
+          ],
+          "address_1": "",
+          "address_2": "",
+          "city": "",
+          "state": "",
+          "zip": ""
+        },
+        {
+          "first": "Aloise",
+          "last": "Rouge",
+          "phone": "202-468-6571",
+          "mobile": "202-468-6571",
+          "emails": [
+            "arouge@dumonde.com"
+          ],
+          "address_1": "",
+          "address_2": "",
+          "city": "",
+          "state": "",
+          "zip": ""
+        },
+        {
+          "first": "Primary",
+          "last": "Office",
+          "phone": "202-555-0005",
+          "mobile": "",
+          "emails": [
+            ""
+          ],
+          "address_1": "1600 Louisiana Avenue",
+          "address_2": "",
+          "city": "Washington",
+          "state": "DC",
+          "zip": "20001"
+        }
+      ]
+    },
+    {
+      "employer_name": "Bistrot Du Bois",
+      "binder_payment_due": null,
+      "billing_report_date": "2017-01-22",
+      "active_general_agency": "Betadyne General Agency, Inc.",
+      "plan_years": [
+        {
+          "plan_year_begins": "2016-03-09",
+          "open_enrollment_begins": null,
+          "open_enrollment_ends": "2016-02-21",
+          "renewal_in_progress": false,
+          "renewal_application_available": "2015-12-09",
+          "renewal_application_due": "2016-02-18",
+          "state": "Active",
+          "minimum_participation_required": 4,
+          "employees_enrolled": 2,
+          "employees_waived": 1,
+          "employees_terminated": 2
+        },
+        {
+          "plan_year_begins": "2017-03-09",
+          "open_enrollment_begins": null,
+          "open_enrollment_ends": "2017-02-21",
+          "renewal_in_progress": true,
+          "renewal_application_available": "2016-12-09",
+          "renewal_application_due": "2017-03-09",
+          "state": "Renewing Draft",
+          "minimum_participation_required": 4,
+          "employees_enrolled": 2,
+          "employees_waived": 2,
+          "employees_terminated": 1
+        }
+      ],
+      "employees_total": 6,
+      "employer_details_url": "employer_details_7.json",
+      "employee_roster_url": "roster_7.json",
+      "contact_info": [
+        {
+          "first": "Claudette",
+          "last": "Blanc",
+          "phone": "202-468-6571",
+          "mobile": "202-468-6571",
+          "emails": [
+            "cblan@dubois.com"
+          ],
+          "address_1": "",
+          "address_2": "",
+          "city": "",
+          "state": "",
+          "zip": ""
+        },
+        {
+          "first": "Aloise",
+          "last": "Vert",
+          "phone": "202-468-6571",
+          "mobile": "202-468-6571",
+          "emails": [
+            "avert@dubois.com"
+          ],
+          "address_1": "",
+          "address_2": "",
+          "city": "",
+          "state": "",
+          "zip": ""
+        },
+        {
+          "first": "Primary",
+          "last": "Office",
+          "phone": "202-555-0006",
+          "mobile": "",
+          "emails": [
+            ""
+          ],
+          "address_1": "1600 Maine Avenue",
+          "address_2": "",
+          "city": "Washington",
+          "state": "DC",
+          "zip": "20001"
+        }
+      ]
+    },
+    {
+      "employer_name": "Strategy & Tactics Game Shop",
+      "binder_payment_due": null,
+      "billing_report_date": "2017-01-22",
+      "active_general_agency": null,
+      "plan_years": [
+        {
+          "plan_year_begins": "2017-08-09",
+          "open_enrollment_begins": null,
+          "open_enrollment_ends": "2017-07-21",
+          "renewal_in_progress": false,
+          "renewal_application_available": "2017-05-09",
+          "renewal_application_due": "2017-08-09",
+          "state": "Active",
+          "minimum_participation_required": 2,
+          "employees_enrolled": 1,
+          "employees_waived": 1,
+          "employees_terminated": 0
+        }
+      ],
+      "employees_total": 3,
+      "employer_details_url": "employer_details_8.json",
+      "employee_roster_url": "roster_8.json",
+      "contact_info": [
+        {
+          "first": "Maria Susanna",
+          "last": "Ludador",
+          "phone": "202-468-6571",
+          "mobile": "202-468-6571",
+          "emails": [
+            "contact@stgames.com"
+          ],
+          "address_1": "",
+          "address_2": "",
+          "city": "",
+          "state": "",
+          "zip": ""
+        },
+        {
+          "first": "Primary",
+          "last": "Office",
+          "phone": "202-555-0007",
+          "mobile": "",
+          "emails": [
+            ""
+          ],
+          "address_1": "1600 Georgia Avenue",
+          "address_2": "",
+          "city": "Washington",
+          "state": "DC",
+          "zip": "20001"
+        }
+      ]
+    },
+    {
+      "employer_name": "Portia's Tea Bar",
+      "binder_payment_due": null,
+      "billing_report_date": "2017-01-22",
+      "active_general_agency": null,
+      "plan_years": [
+        {
+          "plan_year_begins": "2017-07-09",
+          "open_enrollment_begins": null,
+          "open_enrollment_ends": "2017-06-21",
+          "renewal_in_progress": false,
+          "renewal_application_available": "2017-04-09",
+          "renewal_application_due": "2017-07-09",
+          "state": "Active",
+          "minimum_participation_required": 2,
+          "employees_enrolled": 1,
+          "employees_waived": 1,
+          "employees_terminated": 0
+        }
+      ],
+      "employees_total": 3,
+      "employer_details_url": "employer_details_9.json",
+      "employee_roster_url": "roster_9.json",
+      "contact_info": [
+        {
+          "first": "Portia",
+          "last": "Binglesworth-Inglesham",
+          "phone": "202-468-6571",
+          "mobile": "202-468-6571",
+          "emails": [
+            "portia@helloportia.com"
+          ],
+          "address_1": "",
+          "address_2": "",
+          "city": "",
+          "state": "",
+          "zip": ""
+        },
+        {
+          "first": "Primary",
+          "last": "Office",
+          "phone": "202-555-0008",
+          "mobile": "",
+          "emails": [
+            ""
+          ],
+          "address_1": "1600 Alabama Avenue",
+          "address_2": "",
+          "city": "Washington",
+          "state": "DC",
+          "zip": "20001"
+        },
+        {
+          "first": "Branch",
+          "last": "Office",
+          "phone": "202-555-0009",
+          "mobile": "",
+          "emails": [
+            ""
+          ],
+          "address_1": "1600 Utah Avenue",
+          "address_2": "Suite 500",
+          "city": "Washington",
+          "state": "DC",
+          "zip": "20001"
+        }
+      ]
+    },
+    {
+      "employer_name": "J. Grigory Food Trucks & Fine Comestibles",
+      "binder_payment_due": null,
+      "billing_report_date": "2017-01-22",
+      "active_general_agency": null,
+      "plan_years": [
+        {
+          "plan_year_begins": "2017-03-23",
+          "open_enrollment_begins": "2017-01-08",
+          "open_enrollment_ends": "2017-03-05",
+          "renewal_in_progress": true,
+          "renewal_application_available": "2017-01-01",
+          "renewal_application_due": "2017-03-13",
+          "state": "Active",
+          "minimum_participation_required": 2,
+          "employees_enrolled": 1,
+          "employees_waived": 1,
+          "employees_terminated": 1
+        }
+      ],
+      "employees_total": 4,
+      "employer_details_url": "employer_details_10.json",
+      "employee_roster_url": "roster_10.json",
+      "contact_info": [
+        {
+          "first": "Joe",
+          "last": "Grigory",
+          "phone": "202-468-6571",
+          "mobile": "202-468-6571",
+          "emails": [
+            "jgrigory@jgrigory.com"
+          ],
+          "address_1": "",
+          "address_2": "",
+          "city": "",
+          "state": "",
+          "zip": ""
+        },
+        {
+          "first": "Primary",
+          "last": "Office",
+          "phone": "202-555-0009",
+          "mobile": "",
+          "emails": [
+            ""
+          ],
+          "address_1": "1600 North Carolina Avenue",
+          "address_2": "",
+          "city": "Washington",
+          "state": "DC",
+          "zip": "20001"
+        }
+      ]
+    }
+  ]
+}
