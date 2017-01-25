@@ -1,0 +1,119 @@
+{
+  "employer_name": "Portia's Tea Bar",
+  "roster": [
+    {
+      "first_name": "Sammy",
+      "middle_name": "R.",
+      "last_name": "Davis",
+      "name_suffix": "Jr.",
+      "date_of_birth": "2022-01-21T00:00:00+00:00",
+      "ssn_masked": "***-**-6789",
+      "gender": "male",
+      "hired_on": "2008-12-08",
+      "id": 900,
+      "enrollments": [
+        {
+          "start_on": "2017-07-09",
+          "health": {
+            "status": "Enrolled",
+            "employer_contribution": 2941.57,
+            "employee_cost": 1588.31,
+            "total_premium": 4529.88,
+            "plan_name": "KP DC Silver 2000/35",
+            "plan_type": "HMO",
+            "metal_level": "Silver",
+            "benefit_group_name": "PART-TIME EMPLOYEES"
+          },
+          "dental": {
+            "status": "Enrolled",
+            "employer_contribution": 2941.57,
+            "employee_cost": 1588.31,
+            "total_premium": 4529.88,
+            "plan_name": "KP DC Silver 2000/35",
+            "plan_type": "HMO",
+            "metal_level": "Silver",
+            "benefit_group_name": "PART-TIME EMPLOYEES"
+          }
+        }
+      ],
+      "is_business_owner": false,
+      "dependents": [
+        {
+          "first_name": "Tracey",
+          "middle_name": "M.",
+          "last_name": "Davis",
+          "name_suffix": "Jr.",
+          "date_of_birth": "1965-08-07",
+          "ssn_masked": "***-**-9909",
+          "gender": "female"
+        },
+        {
+          "first_name": "Manny",
+          "middle_name": "D.",
+          "last_name": "Davis",
+          "name_suffix": "X",
+          "date_of_birth": "1971-09-09",
+          "ssn_masked": "***-**-5505",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "first_name": "Frank",
+      "middle_name": "S.",
+      "last_name": "Sinatra",
+      "name_suffix": "III",
+      "date_of_birth": "1915-12-12",
+      "ssn_masked": "***-**-2000",
+      "gender": "male",
+      "hired_on": "2007-12-12",
+      "id": 901,
+      "enrollments": [
+        {
+          "start_on": "2017-07-09",
+          "health": {
+            "status": "Waived",
+            "employer_contribution": 0.0,
+            "employee_cost": 0.0,
+            "total_premium": 0.0,
+            "plan_name": "KP DC Silver 2000/35",
+            "plan_type": "HMO",
+            "metal_level": "Silver",
+            "benefit_group_name": "FULL-TIME EMPLOYEES"
+          },
+          "dental": {
+            "status": "Not Enrolled"
+          }
+        }
+      ],
+      "is_business_owner": true,
+      "dependents": [
+
+      ]
+    },
+    {
+      "first_name": "Dean",
+      "middle_name": "D.",
+      "last_name": "Martin",
+      "name_suffix": "Sr.",
+      "date_of_birth": "1917-06-07",
+      "ssn_masked": "***-**-4566",
+      "gender": "male",
+      "hired_on": "2012-03-03",
+      "id": 902,
+      "enrollments": [
+        {
+          "start_on": "2017-07-09",
+          "health": {
+            "status": "Not Enrolled"
+          },
+          "dental": null
+        }
+      ],
+      "is_business_owner": false,
+      "dependents": [
+
+      ]
+    }
+  ]
+}

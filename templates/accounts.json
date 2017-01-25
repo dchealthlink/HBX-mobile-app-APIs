@@ -1,0 +1,11 @@
+{
+  "brokers": [
+    "broker_1",
+    "broker_empty",
+    "broker_er_roster_empty"
+  ],
+  "employers": [
+    "employer_roster_empty",
+    "employer_2"
+  ]
+}
