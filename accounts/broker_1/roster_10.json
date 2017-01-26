@@ -13,7 +13,7 @@
       "id": 1000,
       "enrollments": [
         {
-          "start_on": "2017-06-09",
+          "start_on": "2017-06-13",
           "health": {
             "status": "Waived",
             "employer_contribution": 0.0,
@@ -63,7 +63,7 @@
       "id": 1001,
       "enrollments": [
         {
-          "start_on": "2017-06-09",
+          "start_on": "2017-06-13",
           "health": {
             "status": "Not Enrolled"
           },
@@ -87,7 +87,7 @@
       "id": 1002,
       "enrollments": [
         {
-          "start_on": "2017-06-09",
+          "start_on": "2017-06-13",
           "health": {
             "status": "Terminated",
             "employer_contribution": 0.0,
@@ -120,7 +120,7 @@
       "id": 1003,
       "enrollments": [
         {
-          "start_on": "2017-06-09",
+          "start_on": "2017-06-13",
           "health": {
             "status": "Enrolled",
             "employer_contribution": 9625.0,

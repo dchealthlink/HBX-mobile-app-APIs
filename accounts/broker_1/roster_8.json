@@ -13,7 +13,7 @@
       "id": 800,
       "enrollments": [
         {
-          "start_on": "2017-08-09",
+          "start_on": "2017-08-13",
           "health": {
             "status": "Enrolled",
             "employer_contribution": 653.68,
@@ -70,7 +70,7 @@
       "id": 801,
       "enrollments": [
         {
-          "start_on": "2017-08-09",
+          "start_on": "2017-08-13",
           "health": {
             "status": "Waived",
             "employer_contribution": 0.0,
@@ -103,7 +103,7 @@
       "id": 802,
       "enrollments": [
         {
-          "start_on": "2017-08-09",
+          "start_on": "2017-08-13",
           "health": {
             "status": "Not Enrolled"
           },
