@@ -13,7 +13,7 @@
       "id": 300,
       "enrollments": [
         {
-          "start_on": "2016-05-09",
+          "start_on": "2016-05-13",
           "health": {
             "status": "Terminated",
             "employer_contribution": 0.0,
@@ -29,7 +29,7 @@
           "dental": null
         },
         {
-          "start_on": "2017-05-09",
+          "start_on": "2017-05-13",
           "health": {
             "status": "Enrolled",
             "employer_contribution": 8111.09,
@@ -86,7 +86,7 @@
       "id": 301,
       "enrollments": [
         {
-          "start_on": "2016-05-09",
+          "start_on": "2016-05-13",
           "health": {
             "status": "Enrolled",
             "employer_contribution": 8111.09,
@@ -109,7 +109,7 @@
           }
         },
         {
-          "start_on": "2017-05-09",
+          "start_on": "2017-05-13",
           "health": {
             "status": "Waived",
             "employer_contribution": 0.0,
@@ -142,7 +142,7 @@
       "id": 302,
       "enrollments": [
         {
-          "start_on": "2016-05-09",
+          "start_on": "2016-05-13",
           "health": {
             "status": "Waived",
             "employer_contribution": 0.0,
@@ -158,7 +158,7 @@
           }
         },
         {
-          "start_on": "2017-05-09",
+          "start_on": "2017-05-13",
           "health": {
             "status": "Not Enrolled"
           },
@@ -182,14 +182,14 @@
       "id": 303,
       "enrollments": [
         {
-          "start_on": "2016-05-09",
+          "start_on": "2016-05-13",
           "health": {
             "status": "Not Enrolled"
           },
           "dental": null
         },
         {
-          "start_on": "2017-05-09",
+          "start_on": "2017-05-13",
           "health": {
             "status": "Terminated",
             "employer_contribution": 0.0,
@@ -230,7 +230,7 @@
       "id": 304,
       "enrollments": [
         {
-          "start_on": "2016-05-09",
+          "start_on": "2016-05-13",
           "health": {
             "status": "Terminated",
             "employer_contribution": 0.0,
@@ -246,7 +246,7 @@
           "dental": null
         },
         {
-          "start_on": "2017-05-09",
+          "start_on": "2017-05-13",
           "health": {
             "status": "Enrolled",
             "employer_contribution": 8111.09,
@@ -286,7 +286,7 @@
       "id": 305,
       "enrollments": [
         {
-          "start_on": "2016-05-09",
+          "start_on": "2016-05-13",
           "health": {
             "status": "Enrolled",
             "employer_contribution": 8111.09,
@@ -309,7 +309,7 @@
           }
         },
         {
-          "start_on": "2017-05-09",
+          "start_on": "2017-05-13",
           "health": {
             "status": "Waived",
             "employer_contribution": 0.0,

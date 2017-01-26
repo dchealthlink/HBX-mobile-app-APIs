@@ -1,16 +1,16 @@
 {
   "employer_name": "Courageous Consulting, LLC",
   "binder_payment_due": null,
-  "billing_report_date": "2017-01-26",
+  "billing_report_date": "@date",
   "active_general_agency": "Betadyne General Agency, Inc.",
   "plan_years": [
     {
-      "plan_year_begins": "2017-05-01",
-      "open_enrollment_begins": "2017-03-01",
-      "open_enrollment_ends": "2017-04-09",
-      "renewal_in_progress": true,
-      "renewal_application_available": "2017-01-16",
-      "renewal_application_due": "2017-03-12",
+	  "plan_year_begins": "@month.add_months 4",
+	  "open_enrollment_begins": "@month.add_months 2",
+	  "open_enrollment_ends": "@date.add_days 73",
+	  "renewal_in_progress": true,
+	  "renewal_application_available": "@date.add_days -10",
+	  "renewal_application_due": "@month.add_days 70",
       "state": "Renewing Enrolling",
       "minimum_participation_required": 3,
       "plan_offerings": [
