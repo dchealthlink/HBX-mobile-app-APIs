@@ -2,7 +2,8 @@
   "brokers": [
     "broker_1",
     "broker_empty",
-    "broker_er_roster_empty"
+    "broker_er_roster_empty",
+    "broker_er_in_pending"
   ],
   "employers": [
     "employer_roster_empty",
