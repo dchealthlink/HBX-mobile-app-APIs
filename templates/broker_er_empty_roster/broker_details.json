@@ -17,9 +17,9 @@
           "renewal_application_due": "@date.add_days -370",
           "state": "Active",
           "minimum_participation_required": 3,
-          "employees_enrolled": 1,
-          "employees_waived": 1,
-          "employees_terminated": 1
+          "employees_enrolled": 0,
+          "employees_waived": 0,
+          "employees_terminated": 0
         },
         {
           "plan_year_begins": "@date.add_days 18",
@@ -30,12 +30,12 @@
           "renewal_application_due": "@date.add_days 18",
           "state": "Renewing Enrolling",
           "minimum_participation_required": 3,
-          "employees_enrolled": 1,
-          "employees_waived": 1,
-          "employees_terminated": 2
+          "employees_enrolled": 0,
+          "employees_waived": 0,
+          "employees_terminated": 0
         }
       ],
-      "employees_total": 5,
+      "employees_total": 0,
       "employer_details_url": "employer_details_0.json",
       "employee_roster_url": null,
       "contact_info": [
