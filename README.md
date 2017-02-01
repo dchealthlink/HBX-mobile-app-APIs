@@ -14,8 +14,8 @@ The MVP will require a couple of specific new API endpoints to yield broker data
 The following JSON payloads provide the information that the mobile app needs for the Broker MVP:
    `GET http://enroll.dchealthlink.com/broker_agencies/profiles/employers_api?id=<broker id>`
      The following JSON payload is returned:
-     * [schema](enroll/broker/employers_list/response/schema.json)
-     * [example](enroll/broker/employers_list/response/example.json)
+     * [schema](generated/enroll/broker/employers_list/response/schema.json)
+     * [example](generated/enroll/broker/employers_list/response/example.json)
     
 ## Future Possibilities
 
