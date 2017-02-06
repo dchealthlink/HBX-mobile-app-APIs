@@ -1,8 +1,13 @@
 module Helper
 
   class << self
-    def write_json content, path, prefix
-      File.write "#{prefix}/#{path}", JSON.pretty_generate(content)
+    def write_json content, file_name
+      File.write file_name, JSON.pretty_generate(content)
+    end
+
+    def create_directory path
+      FileUtils.rm_rf(Dir.glob("#{path}/*"))
+      FileUtils.mkdir_p(path) unless File.directory?(path)
     end
 
     def staffer first: 'John', last: 'Doe', phone: '202-468-6571', mobile: '202-468-6571', email: 'john.doe@example.com'
@@ -30,10 +35,6 @@ module Helper
           zip: "#{zip}"
       }
     end
-  end
-
-  def clear_directory
-    FileUtils.rm_rf(Dir.glob('../generated/broker_1/*'))
   end
 
   def now

@@ -6,15 +6,23 @@ class EmployeeUtil < BaseUtil
   @@roster_example_no = 0
 
   class << self
-    def create_employee_roster content
-      path = "#{BaseUtil::DIR_GENERATED}/broker_1/roster_#{@@roster_example_no}.json"
-      Helper::write_json content, path, "#{__dir__}/.."
+    def create_employee_roster root_directory, partial_path, content
+      Helper::write_json content, roster_path(root_directory)
+      url = url roster_path(partial_path)
       @@roster_example_no += 1
-      url path
+      url
     end
 
     def roster_example_no
       @@roster_example_no
+    end
+
+    def roster_example_no= value
+      @@roster_example_no = value
+    end
+
+    def roster_path root_directory
+      "#{root_directory}/roster_#{@@roster_example_no}.json"
     end
   end
 
@@ -49,6 +57,11 @@ class EmployeeUtil < BaseUtil
     end
   end
 
+  #
+  # Private
+  #
+  private
+
   def er_contrib enrolled, waived
     (enrolled * 770.00 * ((waived + 1) ** 0.22)).round(2)
   end
@@ -56,7 +69,5 @@ class EmployeeUtil < BaseUtil
   def ee_contrib enrolled, waived
     (enrolled * 425.00 * ((waived + 1) ** 0.2)).round(2)
   end
-
-  private :er_contrib, :ee_contrib
 
 end

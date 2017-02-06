@@ -27,7 +27,7 @@ class PlanYear
   end
 
   def open_enrollment_begins
-    earliest_open_enrollment_begins if @in_open_enrollment
+    earliest_open_enrollment_begins #if @in_open_enrollment
   end
 
   def renewal_begins

@@ -6,7 +6,7 @@
   "plan_years": [
     {
       "plan_year_begins": "2016-04-01",
-      "open_enrollment_begins": null,
+      "open_enrollment_begins": "2016-02-01",
       "open_enrollment_ends": "2016-03-13",
       "renewal_in_progress": false,
       "renewal_application_available": "2016-01-01",

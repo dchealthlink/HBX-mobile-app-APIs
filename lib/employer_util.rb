@@ -7,15 +7,23 @@ class EmployerUtil < BaseUtil
   @@details_example_no = 0
 
   class << self
-    def create_employer_details content
-      path = "#{BaseUtil::DIR_GENERATED}/broker_1/employer_details_#{@@details_example_no}.json"
-      Helper::write_json content, path, "#{__dir__}/.."
+    def create_employer_details root_directory, partial_path, content
+      Helper::write_json content, employer_details_path(root_directory)
+      url = url employer_details_path(partial_path)
       @@details_example_no += 1
-      url path
+      url
     end
 
     def details_example_no
       @@details_example_no
+    end
+
+    def details_example_no= value
+      @@details_example_no = value
+    end
+
+    def employer_details_path root_directory
+      "#{root_directory}/employer_details_#{@@details_example_no}.json"
     end
   end
 

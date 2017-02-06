@@ -11,7 +11,7 @@
       "plan_years": [
         {
           "plan_year_begins": "2016-03-01",
-          "open_enrollment_begins": null,
+          "open_enrollment_begins": "2016-01-01",
           "open_enrollment_ends": "2016-02-13",
           "renewal_in_progress": false,
           "renewal_application_available": "2015-12-01",
@@ -36,8 +36,8 @@
           "employees_terminated": 2
         }
       ],
-      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/employer_details_0.json",
-      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/roster_0.json",
+      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/blob/master/generated/broker_1/employer_details_0.json",
+      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/blob/master/generated/broker_1/roster_0.json",
       "contact_info": [
         {
           "first": "Bob",
@@ -76,8 +76,8 @@
           "employees_terminated": 1
         }
       ],
-      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/employer_details_1.json",
-      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/roster_1.json",
+      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/blob/master/generated/broker_1/employer_details_1.json",
+      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/blob/master/generated/broker_1/roster_1.json",
       "contact_info": [
         {
           "first": "Jane",
@@ -118,7 +118,7 @@
       "plan_years": [
         {
           "plan_year_begins": "2016-04-01",
-          "open_enrollment_begins": null,
+          "open_enrollment_begins": "2016-02-01",
           "open_enrollment_ends": "2016-03-13",
           "renewal_in_progress": false,
           "renewal_application_available": "2016-01-01",
@@ -143,8 +143,8 @@
           "employees_terminated": 1
         }
       ],
-      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/employer_details_2.json",
-      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/roster_2.json",
+      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/blob/master/generated/broker_1/employer_details_2.json",
+      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/blob/master/generated/broker_1/roster_2.json",
       "contact_info": [
         {
           "first": "Priya",
@@ -185,7 +185,7 @@
       "plan_years": [
         {
           "plan_year_begins": "2016-07-01",
-          "open_enrollment_begins": null,
+          "open_enrollment_begins": "2016-05-01",
           "open_enrollment_ends": "2016-06-13",
           "renewal_in_progress": false,
           "renewal_application_available": "2016-04-01",
@@ -198,7 +198,7 @@
         },
         {
           "plan_year_begins": "2017-07-01",
-          "open_enrollment_begins": null,
+          "open_enrollment_begins": "2017-05-01",
           "open_enrollment_ends": "2017-06-13",
           "renewal_in_progress": false,
           "renewal_application_available": "2017-04-01",
@@ -210,8 +210,8 @@
           "employees_terminated": 1
         }
       ],
-      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/employer_details_3.json",
-      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/roster_3.json",
+      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/blob/master/generated/broker_1/employer_details_3.json",
+      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/blob/master/generated/broker_1/roster_3.json",
       "contact_info": [
         {
           "first": "Emile",
@@ -264,8 +264,8 @@
           "employees_terminated": 2
         }
       ],
-      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/employer_details_4.json",
-      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/roster_4.json",
+      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/blob/master/generated/broker_1/employer_details_4.json",
+      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/blob/master/generated/broker_1/roster_4.json",
       "contact_info": [
         {
           "first": "Yona",
@@ -320,7 +320,7 @@
       "plan_years": [
         {
           "plan_year_begins": "2016-04-01",
-          "open_enrollment_begins": null,
+          "open_enrollment_begins": "2016-02-01",
           "open_enrollment_ends": "2016-03-13",
           "renewal_in_progress": false,
           "renewal_application_available": "2016-01-01",
@@ -333,7 +333,7 @@
         },
         {
           "plan_year_begins": "2017-04-01",
-          "open_enrollment_begins": null,
+          "open_enrollment_begins": "2017-02-01",
           "open_enrollment_ends": "2017-03-13",
           "renewal_in_progress": true,
           "renewal_application_available": "2017-01-01",
@@ -345,8 +345,8 @@
           "employees_terminated": 1
         }
       ],
-      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/employer_details_5.json",
-      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/roster_5.json",
+      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/blob/master/generated/broker_1/employer_details_5.json",
+      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/blob/master/generated/broker_1/roster_5.json",
       "contact_info": [
         {
           "first": "Heinrich",
@@ -415,7 +415,7 @@
       "plan_years": [
         {
           "plan_year_begins": "2016-03-01",
-          "open_enrollment_begins": null,
+          "open_enrollment_begins": "2016-01-01",
           "open_enrollment_ends": "2016-02-13",
           "renewal_in_progress": false,
           "renewal_application_available": "2015-12-01",
@@ -428,7 +428,7 @@
         },
         {
           "plan_year_begins": "2017-03-01",
-          "open_enrollment_begins": null,
+          "open_enrollment_begins": "2017-01-01",
           "open_enrollment_ends": "2017-02-13",
           "renewal_in_progress": true,
           "renewal_application_available": "2016-12-01",
@@ -440,8 +440,8 @@
           "employees_terminated": 1
         }
       ],
-      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/employer_details_6.json",
-      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/roster_6.json",
+      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/blob/master/generated/broker_1/employer_details_6.json",
+      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/blob/master/generated/broker_1/roster_6.json",
       "contact_info": [
         {
           "first": "Claudette",
@@ -496,7 +496,7 @@
       "plan_years": [
         {
           "plan_year_begins": "2016-05-01",
-          "open_enrollment_begins": null,
+          "open_enrollment_begins": "2016-03-01",
           "open_enrollment_ends": "2016-04-13",
           "renewal_in_progress": false,
           "renewal_application_available": "2016-02-01",
@@ -509,7 +509,7 @@
         },
         {
           "plan_year_begins": "2017-05-01",
-          "open_enrollment_begins": null,
+          "open_enrollment_begins": "2017-03-01",
           "open_enrollment_ends": "2017-04-13",
           "renewal_in_progress": true,
           "renewal_application_available": "2017-02-01",
@@ -521,8 +521,8 @@
           "employees_terminated": 1
         }
       ],
-      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/employer_details_7.json",
-      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/roster_7.json",
+      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/blob/master/generated/broker_1/employer_details_7.json",
+      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/blob/master/generated/broker_1/roster_7.json",
       "contact_info": [
         {
           "first": "Claudette",
@@ -577,7 +577,7 @@
       "plan_years": [
         {
           "plan_year_begins": "2017-10-01",
-          "open_enrollment_begins": null,
+          "open_enrollment_begins": "2017-08-01",
           "open_enrollment_ends": "2017-09-13",
           "renewal_in_progress": false,
           "renewal_application_available": "2017-07-01",
@@ -589,8 +589,8 @@
           "employees_terminated": 0
         }
       ],
-      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/employer_details_8.json",
-      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/roster_8.json",
+      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/blob/master/generated/broker_1/employer_details_8.json",
+      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/blob/master/generated/broker_1/roster_8.json",
       "contact_info": [
         {
           "first": "Maria Susanna",
@@ -631,7 +631,7 @@
       "plan_years": [
         {
           "plan_year_begins": "2017-09-01",
-          "open_enrollment_begins": null,
+          "open_enrollment_begins": "2017-07-01",
           "open_enrollment_ends": "2017-08-13",
           "renewal_in_progress": false,
           "renewal_application_available": "2017-06-01",
@@ -643,8 +643,8 @@
           "employees_terminated": 1
         }
       ],
-      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/employer_details_9.json",
-      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/roster_9.json",
+      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/blob/master/generated/broker_1/employer_details_9.json",
+      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/blob/master/generated/broker_1/roster_9.json",
       "contact_info": [
         {
           "first": "Portia",
@@ -699,7 +699,7 @@
       "plan_years": [
         {
           "plan_year_begins": "2017-08-01",
-          "open_enrollment_begins": null,
+          "open_enrollment_begins": "2017-06-01",
           "open_enrollment_ends": "2017-07-13",
           "renewal_in_progress": false,
           "renewal_application_available": "2017-05-01",
@@ -711,8 +711,8 @@
           "employees_terminated": 0
         }
       ],
-      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/employer_details_10.json",
-      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/roster_10.json",
+      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/blob/master/generated/broker_1/employer_details_10.json",
+      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/blob/master/generated/broker_1/roster_10.json",
       "contact_info": [
         {
           "first": "Joe",

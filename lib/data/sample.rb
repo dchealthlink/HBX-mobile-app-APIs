@@ -2,7 +2,11 @@ class Sample
 
   class << self
 
-    def sample_employee_data
+    def broker_basics
+      {broker_agency: "Bob's Brokers", broker_name: 'Bill'}
+    end
+
+    def employee
       [['male Sammy R. Davis Jr. 1925-12-08 ***-**-6789 2008-12-08',
         ['female Tracey M. Davis Jr. 1965-08-07 ***-**-9909',
          'male Manny D. Davis X 1971-09-09 ***-**-5505']],

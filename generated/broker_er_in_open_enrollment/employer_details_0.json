@@ -1,18 +1,18 @@
 {
-  "employer_name": "Strategy & Tactics Game Shop",
+  "employer_name": "National Network to End Domestic Abuse",
   "binder_payment_due": null,
   "billing_report_date": "2017-03-06",
-  "active_general_agency": null,
+  "active_general_agency": "Betadyne General Agency, Inc.",
   "plan_years": [
     {
-      "plan_year_begins": "2017-10-01",
-      "open_enrollment_begins": "2017-08-01",
-      "open_enrollment_ends": "2017-09-13",
+      "plan_year_begins": "2017-04-01",
+      "open_enrollment_begins": "2017-02-01",
+      "open_enrollment_ends": "2017-03-13",
       "renewal_in_progress": false,
-      "renewal_application_available": "2017-07-01",
-      "renewal_application_due": "2017-09-10",
-      "state": "Active",
-      "minimum_participation_required": 2,
+      "renewal_application_available": "2017-01-01",
+      "renewal_application_due": "2017-03-10",
+      "state": "Enrolling",
+      "minimum_participation_required": 3,
       "plan_offerings": [
         {
           "benefit_group_name": "FULL-TIME EMPLOYEES",

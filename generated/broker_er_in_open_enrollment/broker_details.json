@@ -1,0 +1,60 @@
+{
+  "broker_agency": "Bob's Brokers",
+  "broker_name": "Bill",
+  "broker_clients": [
+    {
+      "employer_name": "National Network to End Domestic Abuse",
+      "binder_payment_due": null,
+      "billing_report_date": "2017-03-06",
+      "active_general_agency": "Betadyne General Agency, Inc.",
+      "employees_total": 5,
+      "plan_years": [
+        {
+          "plan_year_begins": "2017-04-01",
+          "open_enrollment_begins": "2017-02-01",
+          "open_enrollment_ends": "2017-03-13",
+          "renewal_in_progress": false,
+          "renewal_application_available": "2017-01-01",
+          "renewal_application_due": "2017-03-10",
+          "state": "Enrolling",
+          "minimum_participation_required": 3,
+          "employees_enrolled": 1,
+          "employees_waived": 1,
+          "employees_terminated": 1
+        }
+      ],
+      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/blob/master/generated/broker_er_in_open_enrollment/employer_details_0.json",
+      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/blob/master/generated/broker_er_in_open_enrollment/roster_0.json",
+      "contact_info": [
+        {
+          "first": "Jane",
+          "last": "Doe",
+          "phone": "202-555-0000",
+          "mobile": "202-468-6571",
+          "emails": [
+            "contact@endabuse.org"
+          ],
+          "address_1": "",
+          "address_2": "",
+          "city": "",
+          "state": "",
+          "zip": ""
+        },
+        {
+          "first": "Primary",
+          "last": "Office",
+          "phone": "202-468-6571",
+          "mobile": "",
+          "emails": [
+            ""
+          ],
+          "address_1": "1600 New Hampshire Avenue",
+          "address_2": "",
+          "city": "Washington",
+          "state": "DC",
+          "zip": "20001"
+        }
+      ]
+    }
+  ]
+}

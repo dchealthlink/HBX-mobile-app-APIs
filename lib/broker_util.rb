@@ -2,19 +2,31 @@ require_relative 'employee_util'
 require_relative 'employer_util'
 require_relative 'data/sample'
 
-class BrokerUtil
+class BrokerUtil < BaseUtil
   include Helper
+  attr_accessor :broker_directory
 
-  def create_broker_details
-    {
-        broker_agency: "Bob's Brokers",
-        broker_name: 'Bill',
-        broker_clients: [participation(*::Sample.client_A), participation(*::Sample.client_B), participation(*::Sample.client_C),
-                         participation(*::Sample.client_D), participation(*::Sample.client_E), participation(*::Sample.client_F),
-                         participation(*::Sample.client_G), participation(*::Sample.client_H), participation(*::Sample.client_I),
-                         participation(*::Sample.client_J), participation(*::Sample.client_K)
-        ]
-    }
+  def create_broker
+    ::Sample.broker_basics.merge(
+        {
+            broker_clients: [participation(*::Sample.client_A), participation(*::Sample.client_B), participation(*::Sample.client_C),
+                             participation(*::Sample.client_D), participation(*::Sample.client_E), participation(*::Sample.client_F),
+                             participation(*::Sample.client_G), participation(*::Sample.client_H), participation(*::Sample.client_I),
+                             participation(*::Sample.client_J), participation(*::Sample.client_K)
+            ]
+        })
+  end
+
+  def create_empty_broker
+    ::Sample.broker_basics.merge({broker_clients: []})
+  end
+
+  def create_broker_er_in_open_enrollment
+    ::Sample.broker_basics.merge({broker_clients: [participation(*::Sample.client_B)]})
+  end
+
+  def create_broker_er_in_pending
+    ::Sample.broker_basics.merge({broker_clients: [participation(*::Sample.client_K)]})
   end
 
   #
@@ -25,7 +37,7 @@ class BrokerUtil
   #TODO(Ben): "total" parameter does not appear to be used.
   def participation employer_name, total, enrolled, waived, plan_years, contacts
     total_employees = total_employees employer_name
-    employee_data = ::Sample.sample_employee_data.take total_employees
+    employee_data = ::Sample.employee.take total_employees
 
     employee_util = ::EmployeeUtil.new coverage_options: coverage_options, employee_data: employee_data,
                                        employer_name: employer_name, enrolled: enrolled, plan_years: plan_years,
@@ -65,8 +77,8 @@ class BrokerUtil
     summary[:employees_total] = total_employees
     add_plan_years plan_years, roster, summary, total_employees
 
-    summary[:employer_details_url] = ::EmployerUtil.create_employer_details employer_util.details
-    summary[:employee_roster_url] = ::EmployeeUtil.create_employee_roster roster
+    summary[:employer_details_url] = ::EmployerUtil.create_employer_details @broker_directory, @partial_path, employer_util.details
+    summary[:employee_roster_url] = ::EmployeeUtil.create_employee_roster @broker_directory, @partial_path, roster
     summary[:contact_info] = contacts
   end
 
