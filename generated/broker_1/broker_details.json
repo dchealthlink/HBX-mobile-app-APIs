@@ -7,6 +7,7 @@
       "binder_payment_due": null,
       "billing_report_date": "2017-03-01",
       "active_general_agency": "Betadyne General Agency, Inc.",
+      "employees_total": 5,
       "plan_years": [
         {
           "plan_year_begins": "2016-03-01",
@@ -35,9 +36,8 @@
           "employees_terminated": 2
         }
       ],
-      "employees_total": 5,
-      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/employer_details_0.json",
-      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/roster_0.json",
+      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/employer_details_0.json",
+      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/roster_0.json",
       "contact_info": [
         {
           "first": "Bob",
@@ -60,6 +60,7 @@
       "binder_payment_due": null,
       "billing_report_date": "2017-03-01",
       "active_general_agency": "Betadyne General Agency, Inc.",
+      "employees_total": 5,
       "plan_years": [
         {
           "plan_year_begins": "2017-04-01",
@@ -75,9 +76,8 @@
           "employees_terminated": 1
         }
       ],
-      "employees_total": 5,
-      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/employer_details_1.json",
-      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/roster_1.json",
+      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/employer_details_1.json",
+      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/roster_1.json",
       "contact_info": [
         {
           "first": "Jane",
@@ -113,7 +113,8 @@
       "employer_name": "District Yoga",
       "binder_payment_due": null,
       "billing_report_date": "2017-03-01",
-      "active_general_agency": null,
+      "active_general_agency": "Betadyne General Agency, Inc.",
+      "employees_total": 5,
       "plan_years": [
         {
           "plan_year_begins": "2016-04-01",
@@ -123,9 +124,9 @@
           "renewal_application_available": "2016-01-01",
           "renewal_application_due": "2016-03-10",
           "state": "Active",
-          "minimum_participation_required": 2,
+          "minimum_participation_required": 3,
           "employees_enrolled": 1,
-          "employees_waived": 1,
+          "employees_waived": 2,
           "employees_terminated": 1
         },
         {
@@ -136,15 +137,14 @@
           "renewal_application_available": "2017-01-01",
           "renewal_application_due": "2017-03-10",
           "state": "Renewing Enrolling",
-          "minimum_participation_required": 2,
+          "minimum_participation_required": 3,
           "employees_enrolled": 1,
           "employees_waived": 1,
           "employees_terminated": 1
         }
       ],
-      "employees_total": 4,
-      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/employer_details_2.json",
-      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/roster_2.json",
+      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/employer_details_2.json",
+      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/roster_2.json",
       "contact_info": [
         {
           "first": "Priya",
@@ -181,6 +181,7 @@
       "binder_payment_due": null,
       "billing_report_date": "2017-03-01",
       "active_general_agency": "Betadyne General Agency, Inc.",
+      "employees_total": 5,
       "plan_years": [
         {
           "plan_year_begins": "2016-07-01",
@@ -190,8 +191,8 @@
           "renewal_application_available": "2016-04-01",
           "renewal_application_due": "2016-06-10",
           "state": "Active",
-          "minimum_participation_required": 4,
-          "employees_enrolled": 2,
+          "minimum_participation_required": 3,
+          "employees_enrolled": 1,
           "employees_waived": 1,
           "employees_terminated": 2
         },
@@ -203,15 +204,14 @@
           "renewal_application_available": "2017-04-01",
           "renewal_application_due": "2017-06-10",
           "state": "Active",
-          "minimum_participation_required": 4,
+          "minimum_participation_required": 3,
           "employees_enrolled": 2,
-          "employees_waived": 2,
+          "employees_waived": 1,
           "employees_terminated": 1
         }
       ],
-      "employees_total": 6,
-      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/employer_details_3.json",
-      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/roster_3.json",
+      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/employer_details_3.json",
+      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/roster_3.json",
       "contact_info": [
         {
           "first": "Emile",
@@ -248,6 +248,7 @@
       "binder_payment_due": null,
       "billing_report_date": "2017-03-01",
       "active_general_agency": "Betadyne General Agency, Inc.",
+      "employees_total": 5,
       "plan_years": [
         {
           "plan_year_begins": "2017-03-01",
@@ -257,15 +258,14 @@
           "renewal_application_available": "2016-12-01",
           "renewal_application_due": "2017-02-10",
           "state": "Renewing Enrolling",
-          "minimum_participation_required": 4,
-          "employees_enrolled": 2,
+          "minimum_participation_required": 3,
+          "employees_enrolled": 1,
           "employees_waived": 1,
           "employees_terminated": 2
         }
       ],
-      "employees_total": 6,
-      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/employer_details_4.json",
-      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/roster_4.json",
+      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/employer_details_4.json",
+      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/roster_4.json",
       "contact_info": [
         {
           "first": "Yona",
@@ -315,7 +315,8 @@
       "employer_name": "Best Brau Brewing Company",
       "binder_payment_due": null,
       "billing_report_date": "2017-03-01",
-      "active_general_agency": null,
+      "active_general_agency": "Betadyne General Agency, Inc.",
+      "employees_total": 5,
       "plan_years": [
         {
           "plan_year_begins": "2016-04-01",
@@ -325,9 +326,9 @@
           "renewal_application_available": "2016-01-01",
           "renewal_application_due": "2016-03-10",
           "state": "Active",
-          "minimum_participation_required": 2,
+          "minimum_participation_required": 3,
           "employees_enrolled": 1,
-          "employees_waived": 1,
+          "employees_waived": 2,
           "employees_terminated": 1
         },
         {
@@ -338,15 +339,14 @@
           "renewal_application_available": "2017-01-01",
           "renewal_application_due": "2017-03-10",
           "state": "Renewing Published",
-          "minimum_participation_required": 2,
+          "minimum_participation_required": 3,
           "employees_enrolled": 1,
           "employees_waived": 1,
           "employees_terminated": 1
         }
       ],
-      "employees_total": 4,
-      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/employer_details_5.json",
-      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/roster_5.json",
+      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/employer_details_5.json",
+      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/roster_5.json",
       "contact_info": [
         {
           "first": "Heinrich",
@@ -410,7 +410,8 @@
       "employer_name": "Bistrot Du Monde",
       "binder_payment_due": null,
       "billing_report_date": "2017-03-01",
-      "active_general_agency": null,
+      "active_general_agency": "Betadyne General Agency, Inc.",
+      "employees_total": 5,
       "plan_years": [
         {
           "plan_year_begins": "2016-03-01",
@@ -420,10 +421,10 @@
           "renewal_application_available": "2015-12-01",
           "renewal_application_due": "2016-02-10",
           "state": "Active",
-          "minimum_participation_required": 2,
-          "employees_enrolled": 1,
+          "minimum_participation_required": 3,
+          "employees_enrolled": 2,
           "employees_waived": 1,
-          "employees_terminated": 0
+          "employees_terminated": 1
         },
         {
           "plan_year_begins": "2017-03-01",
@@ -433,15 +434,14 @@
           "renewal_application_available": "2016-12-01",
           "renewal_application_due": "2017-02-10",
           "state": "Renewing Publish Pending",
-          "minimum_participation_required": 2,
-          "employees_enrolled": 0,
-          "employees_waived": 1,
+          "minimum_participation_required": 3,
+          "employees_enrolled": 1,
+          "employees_waived": 2,
           "employees_terminated": 1
         }
       ],
-      "employees_total": 3,
-      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/employer_details_6.json",
-      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/roster_6.json",
+      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/employer_details_6.json",
+      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/roster_6.json",
       "contact_info": [
         {
           "first": "Claudette",
@@ -492,6 +492,7 @@
       "binder_payment_due": null,
       "billing_report_date": "2017-03-01",
       "active_general_agency": "Betadyne General Agency, Inc.",
+      "employees_total": 5,
       "plan_years": [
         {
           "plan_year_begins": "2016-05-01",
@@ -501,8 +502,8 @@
           "renewal_application_available": "2016-02-01",
           "renewal_application_due": "2016-04-10",
           "state": "Active",
-          "minimum_participation_required": 4,
-          "employees_enrolled": 2,
+          "minimum_participation_required": 3,
+          "employees_enrolled": 1,
           "employees_waived": 1,
           "employees_terminated": 2
         },
@@ -514,15 +515,14 @@
           "renewal_application_available": "2017-02-01",
           "renewal_application_due": "2017-04-10",
           "state": "Renewing Draft",
-          "minimum_participation_required": 4,
+          "minimum_participation_required": 3,
           "employees_enrolled": 2,
-          "employees_waived": 2,
+          "employees_waived": 1,
           "employees_terminated": 1
         }
       ],
-      "employees_total": 6,
-      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/employer_details_7.json",
-      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/roster_7.json",
+      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/employer_details_7.json",
+      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/roster_7.json",
       "contact_info": [
         {
           "first": "Claudette",
@@ -572,7 +572,8 @@
       "employer_name": "Strategy & Tactics Game Shop",
       "binder_payment_due": null,
       "billing_report_date": "2017-03-01",
-      "active_general_agency": null,
+      "active_general_agency": "Betadyne General Agency, Inc.",
+      "employees_total": 5,
       "plan_years": [
         {
           "plan_year_begins": "2017-10-01",
@@ -582,15 +583,14 @@
           "renewal_application_available": "2017-07-01",
           "renewal_application_due": "2017-09-10",
           "state": "Active",
-          "minimum_participation_required": 2,
-          "employees_enrolled": 1,
+          "minimum_participation_required": 3,
+          "employees_enrolled": 2,
           "employees_waived": 1,
-          "employees_terminated": 0
+          "employees_terminated": 1
         }
       ],
-      "employees_total": 3,
-      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/employer_details_8.json",
-      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/roster_8.json",
+      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/employer_details_8.json",
+      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/roster_8.json",
       "contact_info": [
         {
           "first": "Maria Susanna",
@@ -623,10 +623,11 @@
       ]
     },
     {
-      "employer_name": "Portia's Tea Bar",
+      "employer_name": "Portia's Tea Bar ",
       "binder_payment_due": null,
       "billing_report_date": "2017-03-01",
-      "active_general_agency": null,
+      "active_general_agency": "Betadyne General Agency, Inc.",
+      "employees_total": 5,
       "plan_years": [
         {
           "plan_year_begins": "2017-09-01",
@@ -636,15 +637,14 @@
           "renewal_application_available": "2017-06-01",
           "renewal_application_due": "2017-08-10",
           "state": "Active",
-          "minimum_participation_required": 2,
+          "minimum_participation_required": 3,
           "employees_enrolled": 1,
-          "employees_waived": 1,
-          "employees_terminated": 0
+          "employees_waived": 2,
+          "employees_terminated": 1
         }
       ],
-      "employees_total": 3,
-      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/employer_details_9.json",
-      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/roster_9.json",
+      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/employer_details_9.json",
+      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/roster_9.json",
       "contact_info": [
         {
           "first": "Portia",
@@ -682,7 +682,7 @@
           "emails": [
             ""
           ],
-          "address_1": "1600 Utah Avenue",
+          "address_1": " 1600 Utah Avenue",
           "address_2": "Suite 500",
           "city": "Washington",
           "state": "DC",
@@ -691,10 +691,11 @@
       ]
     },
     {
-      "employer_name": "J. Grigory Food Trucks & Fine Comestibles",
+      "employer_name": "J.Grigory Food Trucks & Fine Comestibles",
       "binder_payment_due": null,
       "billing_report_date": "2017-03-01",
-      "active_general_agency": null,
+      "active_general_agency": "Betadyne General Agency, Inc.",
+      "employees_total": 5,
       "plan_years": [
         {
           "plan_year_begins": "2017-08-01",
@@ -704,15 +705,14 @@
           "renewal_application_available": "2017-05-01",
           "renewal_application_due": "2017-07-10",
           "state": "Active",
-          "minimum_participation_required": 2,
-          "employees_enrolled": 1,
+          "minimum_participation_required": 3,
+          "employees_enrolled": 2,
           "employees_waived": 1,
           "employees_terminated": 1
         }
       ],
-      "employees_total": 4,
-      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/employer_details_10.json",
-      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/roster_10.json",
+      "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/employer_details_10.json",
+      "employee_roster_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/master/generated/broker_1/roster_10.json",
       "contact_info": [
         {
           "first": "Joe",
@@ -720,7 +720,7 @@
           "phone": "202-468-6571",
           "mobile": "202-468-6571",
           "emails": [
-            "jgrigory@jgrigory.com"
+            "jgrigory @jgrigory.com"
           ],
           "address_1": "",
           "address_2": "",

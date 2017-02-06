@@ -2,7 +2,7 @@
   "employer_name": "Best Brau Brewing Company",
   "binder_payment_due": null,
   "billing_report_date": "2017-03-01",
-  "active_general_agency": null,
+  "active_general_agency": "Betadyne General Agency, Inc.",
   "plan_years": [
     {
       "plan_year_begins": "2016-04-01",
@@ -12,7 +12,7 @@
       "renewal_application_available": "2016-01-01",
       "renewal_application_due": "2016-03-10",
       "state": "Active",
-      "minimum_participation_required": 2,
+      "minimum_participation_required": 3,
       "plan_offerings": [
         {
           "benefit_group_name": "FULL-TIME EMPLOYEES",
@@ -134,7 +134,7 @@
       "renewal_application_available": "2017-01-01",
       "renewal_application_due": "2017-03-10",
       "state": "Renewing Published",
-      "minimum_participation_required": 2,
+      "minimum_participation_required": 3,
       "plan_offerings": [
         {
           "benefit_group_name": "FULL-TIME EMPLOYEES",

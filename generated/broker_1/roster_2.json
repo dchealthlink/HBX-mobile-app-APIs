@@ -129,9 +129,9 @@
           "start_on": "2017-04-01",
           "health": {
             "status": "Enrolled",
-            "employer_contribution": 5222.93,
-            "employee_cost": 2803.96,
-            "total_premium": 8026.89,
+            "employer_contribution": 4178.34,
+            "employee_cost": 2243.16,
+            "total_premium": 6421.5,
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
@@ -139,9 +139,9 @@
           },
           "dental": {
             "status": "Enrolled",
-            "employer_contribution": 5222.93,
-            "employee_cost": 2803.96,
-            "total_premium": 8026.89,
+            "employer_contribution": 4178.34,
+            "employee_cost": 2243.16,
+            "total_premium": 6421.5,
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
@@ -169,9 +169,9 @@
           "start_on": "2016-04-01",
           "health": {
             "status": "Enrolled",
-            "employer_contribution": 5222.93,
-            "employee_cost": 2803.96,
-            "total_premium": 8026.89,
+            "employer_contribution": 4178.34,
+            "employee_cost": 2243.16,
+            "total_premium": 6421.5,
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
@@ -179,9 +179,9 @@
           },
           "dental": {
             "status": "Enrolled",
-            "employer_contribution": 5222.93,
-            "employee_cost": 2803.96,
-            "total_premium": 8026.89,
+            "employer_contribution": 4178.34,
+            "employee_cost": 2243.16,
+            "total_premium": 6421.5,
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
@@ -216,6 +216,46 @@
           "ssn_masked": "***-**-7603",
           "gender": "male"
         }
+      ]
+    },
+    {
+      "first_name": "Jillian",
+      "middle_name": "S.",
+      "last_name": "Holtzmann",
+      "name_suffix": "PhD.",
+      "date_of_birth": "1985-11-11",
+      "ssn_masked": "***-**-2050",
+      "gender": "female",
+      "hired_on": "2009-11-12",
+      "id": 204,
+      "enrollments": [
+        {
+          "start_on": "2016-04-01",
+          "health": {
+            "status": "Waived",
+            "employer_contribution": 0.0,
+            "employee_cost": 0.0,
+            "total_premium": 0.0,
+            "plan_name": "KP DC Silver 2000/35",
+            "plan_type": "HMO",
+            "metal_level": "Silver",
+            "benefit_group_name": "PART-TIME EMPLOYEES"
+          },
+          "dental": {
+            "status": "Not Enrolled"
+          }
+        },
+        {
+          "start_on": "2017-04-01",
+          "health": {
+            "status": "Not Enrolled"
+          },
+          "dental": null
+        }
+      ],
+      "is_business_owner": false,
+      "dependents": [
+
       ]
     }
   ]
