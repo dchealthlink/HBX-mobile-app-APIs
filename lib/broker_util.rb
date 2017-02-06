@@ -42,7 +42,7 @@ class BrokerUtil
   end
 
   def total_employees employer_name
-    @total_employees ||= 3 + (employer_name.length % 4)
+    @total_employees = 3 + (employer_name.length % 4)
   end
 
   def coverage_options

@@ -1,7 +1,7 @@
 {
   "employer_name": "Bistrot Du Bois",
   "binder_payment_due": null,
-  "billing_report_date": "2017-03-01",
+  "billing_report_date": "2017-03-06",
   "active_general_agency": "Betadyne General Agency, Inc.",
   "plan_years": [
     {
@@ -12,7 +12,7 @@
       "renewal_application_available": "2016-02-01",
       "renewal_application_due": "2016-04-10",
       "state": "Active",
-      "minimum_participation_required": 3,
+      "minimum_participation_required": 4,
       "plan_offerings": [
         {
           "benefit_group_name": "FULL-TIME EMPLOYEES",
@@ -134,7 +134,7 @@
       "renewal_application_available": "2017-02-01",
       "renewal_application_due": "2017-04-10",
       "state": "Renewing Draft",
-      "minimum_participation_required": 3,
+      "minimum_participation_required": 4,
       "plan_offerings": [
         {
           "benefit_group_name": "FULL-TIME EMPLOYEES",

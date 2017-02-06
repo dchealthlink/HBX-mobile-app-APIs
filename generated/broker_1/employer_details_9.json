@@ -1,8 +1,8 @@
 {
   "employer_name": "Portia's Tea Bar ",
   "binder_payment_due": null,
-  "billing_report_date": "2017-03-01",
-  "active_general_agency": "Betadyne General Agency, Inc.",
+  "billing_report_date": "2017-03-06",
+  "active_general_agency": null,
   "plan_years": [
     {
       "plan_year_begins": "2017-09-01",
@@ -12,7 +12,7 @@
       "renewal_application_available": "2017-06-01",
       "renewal_application_due": "2017-08-10",
       "state": "Active",
-      "minimum_participation_required": 3,
+      "minimum_participation_required": 2,
       "plan_offerings": [
         {
           "benefit_group_name": "FULL-TIME EMPLOYEES",
