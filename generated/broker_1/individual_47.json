@@ -1,0 +1,33 @@
+{
+  "first_name": "Frank",
+  "middle_name": "S.",
+  "last_name": "Sinatra",
+  "name_suffix": "III",
+  "date_of_birth": "1915-12-12",
+  "ssn_masked": "***-**-2000",
+  "gender": "male",
+  "hired_on": "2007-12-12",
+  "id": 1001,
+  "enrollments": [
+    {
+      "start_on": "2017-08-01",
+      "health": {
+        "status": "Waived",
+        "employer_contribution": 0.0,
+        "employee_cost": 0.0,
+        "total_premium": 0.0,
+        "plan_name": "KP DC Silver 2000/35",
+        "plan_type": "HMO",
+        "metal_level": "Silver",
+        "benefit_group_name": "FULL-TIME EMPLOYEES"
+      },
+      "dental": {
+        "status": "Not Enrolled"
+      }
+    }
+  ],
+  "is_business_owner": true,
+  "dependents": [
+
+  ]
+}

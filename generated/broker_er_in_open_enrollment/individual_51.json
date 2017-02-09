@@ -1,0 +1,40 @@
+{
+  "first_name": "Dean",
+  "middle_name": "D.",
+  "last_name": "Martin",
+  "name_suffix": "Sr.",
+  "date_of_birth": "1917-06-07",
+  "ssn_masked": "***-**-4566",
+  "gender": "male",
+  "hired_on": "2012-03-03",
+  "id": 2,
+  "enrollments": [
+    {
+      "start_on": "2017-04-01",
+      "health": {
+        "status": "Enrolled",
+        "employer_contribution": 2284.09,
+        "employee_cost": 1216.32,
+        "total_premium": 3500.41,
+        "plan_name": "KP DC Silver 2000/35",
+        "plan_type": "HMO",
+        "metal_level": "Silver",
+        "benefit_group_name": "PART-TIME EMPLOYEES"
+      },
+      "dental": {
+        "status": "Enrolled",
+        "employer_contribution": 2284.09,
+        "employee_cost": 1216.32,
+        "total_premium": 3500.41,
+        "plan_name": "KP DC Silver 2000/35",
+        "plan_type": "HMO",
+        "metal_level": "Silver",
+        "benefit_group_name": "PART-TIME EMPLOYEES"
+      }
+    }
+  ],
+  "is_business_owner": false,
+  "dependents": [
+
+  ]
+}

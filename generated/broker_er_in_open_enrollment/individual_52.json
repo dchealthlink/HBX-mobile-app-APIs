@@ -1,0 +1,41 @@
+{
+  "first_name": "Abigail",
+  "middle_name": "M.",
+  "last_name": "Yates",
+  "name_suffix": "PhD.",
+  "date_of_birth": "1975-12-08",
+  "ssn_masked": "***-**-6001",
+  "gender": "female",
+  "hired_on": "2008-10-08",
+  "id": 3,
+  "enrollments": [
+    {
+      "start_on": "2017-04-01",
+      "health": {
+        "status": "Waived",
+        "employer_contribution": 0.0,
+        "employee_cost": 0.0,
+        "total_premium": 0.0,
+        "plan_name": "KP DC Silver 2000/35",
+        "plan_type": "HMO",
+        "metal_level": "Silver",
+        "benefit_group_name": "PART-TIME EMPLOYEES"
+      },
+      "dental": {
+        "status": "Not Enrolled"
+      }
+    }
+  ],
+  "is_business_owner": false,
+  "dependents": [
+    {
+      "first_name": "Kevin",
+      "middle_name": "R.",
+      "last_name": "Beckman",
+      "name_suffix": "X.",
+      "date_of_birth": "1985-08-07",
+      "ssn_masked": "***-**-7603",
+      "gender": "male"
+    }
+  ]
+}

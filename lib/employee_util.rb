@@ -1,4 +1,5 @@
 require_relative 'base_util'
+require_relative 'individual_util'
 
 class EmployeeUtil < BaseUtil
   include Helper
@@ -26,7 +27,7 @@ class EmployeeUtil < BaseUtil
     end
   end
 
-  def add_roster
+  def add_roster root_directory, partial_path
     {
         employer_name: @employer_name,
         roster: @employee_data.each_with_index.map do |e, index|
@@ -35,6 +36,8 @@ class EmployeeUtil < BaseUtil
           employee[:enrollments] = enrollments index
           employee[:is_business_owner] = (index == 1) #Frank is the Chairman of the Board
           employee[:dependents] = e.shift.map { |d| person_details(d) }
+
+          IndividualUtil.create_individual root_directory, partial_path, employee
           employee
         end
     }

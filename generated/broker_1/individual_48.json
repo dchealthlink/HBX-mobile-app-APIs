@@ -1,0 +1,24 @@
+{
+  "first_name": "Dean",
+  "middle_name": "D.",
+  "last_name": "Martin",
+  "name_suffix": "Sr.",
+  "date_of_birth": "1917-06-07",
+  "ssn_masked": "***-**-4566",
+  "gender": "male",
+  "hired_on": "2012-03-03",
+  "id": 1002,
+  "enrollments": [
+    {
+      "start_on": "2017-08-01",
+      "health": {
+        "status": "Not Enrolled"
+      },
+      "dental": null
+    }
+  ],
+  "is_business_owner": false,
+  "dependents": [
+
+  ]
+}

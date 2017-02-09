@@ -1,0 +1,40 @@
+{
+  "first_name": "Patty",
+  "middle_name": "D.",
+  "last_name": "Tolan",
+  "name_suffix": "Cdtr",
+  "date_of_birth": "1987-06-06",
+  "ssn_masked": "***-**-4546",
+  "gender": "female",
+  "hired_on": "2015-04-03",
+  "id": 405,
+  "enrollments": [
+    {
+      "start_on": "2017-03-01",
+      "health": {
+        "status": "Enrolled",
+        "employer_contribution": 3481.95,
+        "employee_cost": 1869.3,
+        "total_premium": 5351.25,
+        "plan_name": "KP DC Silver 2000/35",
+        "plan_type": "HMO",
+        "metal_level": "Silver",
+        "benefit_group_name": "PART-TIME EMPLOYEES"
+      },
+      "dental": {
+        "status": "Enrolled",
+        "employer_contribution": 3481.95,
+        "employee_cost": 1869.3,
+        "total_premium": 5351.25,
+        "plan_name": "KP DC Silver 2000/35",
+        "plan_type": "HMO",
+        "metal_level": "Silver",
+        "benefit_group_name": "PART-TIME EMPLOYEES"
+      }
+    }
+  ],
+  "is_business_owner": false,
+  "dependents": [
+
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "first_name": "Jillian",
+  "middle_name": "S.",
+  "last_name": "Holtzmann",
+  "name_suffix": "PhD.",
+  "date_of_birth": "1985-11-11",
+  "ssn_masked": "***-**-2050",
+  "gender": "female",
+  "hired_on": "2009-11-12",
+  "id": 4,
+  "enrollments": [
+    {
+      "start_on": "2017-04-01",
+      "health": {
+        "status": "Not Enrolled"
+      },
+      "dental": null
+    }
+  ],
+  "is_business_owner": false,
+  "dependents": [
+
+  ]
+}

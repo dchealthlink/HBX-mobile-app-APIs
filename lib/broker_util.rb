@@ -42,7 +42,7 @@ class BrokerUtil < BaseUtil
     employee_util = ::EmployeeUtil.new coverage_options: coverage_options, employee_data: employee_data,
                                        employer_name: employer_name, enrolled: enrolled, plan_years: plan_years,
                                        total_employees: total_employees, waived: waived
-    roster = employee_util.add_roster
+    roster = employee_util.add_roster @broker_directory, @partial_path
     summary = summary_details employer_name, total_employees
 
     employer_details = summary.clone

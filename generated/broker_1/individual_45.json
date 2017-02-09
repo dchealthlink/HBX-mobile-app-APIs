@@ -1,0 +1,48 @@
+{
+  "first_name": "Abigail",
+  "middle_name": "M.",
+  "last_name": "Yates",
+  "name_suffix": "PhD.",
+  "date_of_birth": "1975-12-08",
+  "ssn_masked": "***-**-6001",
+  "gender": "female",
+  "hired_on": "2008-10-08",
+  "id": 903,
+  "enrollments": [
+    {
+      "start_on": "2017-09-01",
+      "health": {
+        "status": "Enrolled",
+        "employer_contribution": 2206.18,
+        "employee_cost": 1191.23,
+        "total_premium": 3397.41,
+        "plan_name": "KP DC Silver 2000/35",
+        "plan_type": "HMO",
+        "metal_level": "Silver",
+        "benefit_group_name": "PART-TIME EMPLOYEES"
+      },
+      "dental": {
+        "status": "Enrolled",
+        "employer_contribution": 2206.18,
+        "employee_cost": 1191.23,
+        "total_premium": 3397.41,
+        "plan_name": "KP DC Silver 2000/35",
+        "plan_type": "HMO",
+        "metal_level": "Silver",
+        "benefit_group_name": "PART-TIME EMPLOYEES"
+      }
+    }
+  ],
+  "is_business_owner": false,
+  "dependents": [
+    {
+      "first_name": "Kevin",
+      "middle_name": "R.",
+      "last_name": "Beckman",
+      "name_suffix": "X.",
+      "date_of_birth": "1985-08-07",
+      "ssn_masked": "***-**-7603",
+      "gender": "male"
+    }
+  ]
+}
