@@ -2,6 +2,11 @@ class Scenarios < BaseUtil
 
   class << self
 
+    # Create accounts
+    def create_accounts
+      write_json Helper::account_json, nil, $ROOT_DIRECTORY, 'accounts.json'
+    end
+
     # Create broker 1
     def create_broker_1
       broker_util 'broker_1' do |broker_util|
@@ -44,8 +49,9 @@ class Scenarios < BaseUtil
       yield BrokerUtil.new broker_directory: full_path, partial_path: "#{$GENERATED_DIR}/#{broker_dir}"
     end
 
-    def write_json broker, broker_util
-      Helper::write_json broker, "#{broker_util.broker_directory}/#{$BROKER_FILE_NAME}"
+    def write_json content, broker_util=nil, override_dir=nil, override_filename=nil
+      broker_util ? Helper::write_json(content, "#{broker_util.broker_directory}/#{$BROKER_FILE_NAME}") :
+          Helper::write_json(content, "#{override_dir}/#{override_filename}", true)
     end
 
   end

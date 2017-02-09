@@ -1,13 +1,25 @@
 module Helper
 
   class << self
-    def write_json content, file_name
-      File.write file_name, JSON.pretty_generate(content)
+    def write_json content, file_name, is_json=false
+      is_json ? File.write(file_name, JSON.pretty_generate(JSON.parse(content))) :
+          File.write(file_name, JSON.pretty_generate(content))
     end
 
     def create_directory path
       FileUtils.rm_rf(Dir.glob("#{path}/*"))
       FileUtils.mkdir_p(path) unless File.directory?(path)
+    end
+
+    def account_json
+      Jbuilder.encode do |json|
+        json.brokers do
+          json.array! %w{broker_1 broker_empty broker_er_roster_empty broker_er_in_pending broker_er_in_open_enrollment}
+        end
+        json.employers do
+          json.array! %w{er_roster_empty er_in_open_enrollment er_in_pending}
+        end
+      end
     end
 
     def staffer first: 'John', last: 'Doe', phone: '202-468-6571', mobile: '202-468-6571', email: 'john.doe@example.com'

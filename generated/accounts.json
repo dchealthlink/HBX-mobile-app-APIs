@@ -1,0 +1,14 @@
+{
+  "brokers": [
+    "broker_1",
+    "broker_empty",
+    "broker_er_roster_empty",
+    "broker_er_in_pending",
+    "broker_er_in_open_enrollment"
+  ],
+  "employers": [
+    "er_roster_empty",
+    "er_in_open_enrollment",
+    "er_in_pending"
+  ]
+}
