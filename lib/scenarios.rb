@@ -1,5 +1,11 @@
 class Scenarios < BaseUtil
 
+  BROKER_1 = 'broker_1'
+  BROKER_EMPTY = 'broker_empty'
+  BROKER_IN_OE = 'broker_er_in_open_enrollment'
+  BROKER_IN_PENDING = 'broker_er_in_pending'
+  BROKER_ROSTER_EMPTY = 'broker_er_roster_empty'
+
   class << self
 
     # Create accounts
@@ -9,21 +15,21 @@ class Scenarios < BaseUtil
 
     # Create broker 1
     def create_broker_1
-      broker_util 'broker_1' do |broker_util|
+      broker_util BROKER_1 do |broker_util|
         write_json broker_util.create_broker, broker_util
       end
     end
 
     # Create empty broker
     def create_empty_broker
-      broker_util 'broker_empty' do |broker_util|
+      broker_util BROKER_EMPTY do |broker_util|
         write_json broker_util.create_empty_broker, broker_util
       end
     end
 
     # Create broker in open enrollment
     def create_broker_er_in_open_enrollment
-      broker_util 'broker_er_in_open_enrollment' do |broker_util|
+      broker_util BROKER_IN_OE do |broker_util|
         EmployeeUtil.roster_example_no = EmployerUtil.details_example_no = 0
         write_json broker_util.create_broker_er_in_open_enrollment, broker_util
       end
@@ -31,7 +37,7 @@ class Scenarios < BaseUtil
 
     # Create broker in pending
     def create_broker_er_in_pending
-      broker_util 'broker_er_in_pending' do |broker_util|
+      broker_util BROKER_IN_PENDING do |broker_util|
         EmployeeUtil.roster_example_no = EmployerUtil.details_example_no = 0
         write_json broker_util.create_broker_er_in_pending, broker_util
       end

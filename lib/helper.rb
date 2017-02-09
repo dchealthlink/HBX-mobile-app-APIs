@@ -14,7 +14,10 @@ module Helper
     def account_json
       Jbuilder.encode do |json|
         json.brokers do
-          json.array! %w{broker_1 broker_empty broker_er_roster_empty broker_er_in_pending broker_er_in_open_enrollment}
+          json.array! [
+                          Scenarios::BROKER_1, Scenarios::BROKER_EMPTY, Scenarios::BROKER_ROSTER_EMPTY, Scenarios::BROKER_IN_PENDING,
+                          Scenarios::BROKER_IN_OE
+                      ]
         end
         json.employers do
           json.array! %w{er_roster_empty er_in_open_enrollment er_in_pending}
