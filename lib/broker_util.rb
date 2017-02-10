@@ -35,20 +35,19 @@ class BrokerUtil < BaseUtil
   private
 
   #TODO(Ben): "total" parameter does not appear to be used.
-  def participation employer_name, total, enrolled, waived, plan_years, contacts
+  def participation employer_name, employer_id, total, enrolled, waived, plan_years, contacts
     total_employees = total_employees employer_name
+    summary = summary_details employer_name, total_employees
+    employer_details = summary.clone
+    employer_util = ::EmployerUtil.new details: employer_details, plan_years: plan_years, total_employees: total_employees
+    employer_util.add_plan_details
+
     employee_data = ::Sample.employee.take total_employees
 
     employee_util = ::EmployeeUtil.new coverage_options: coverage_options, employee_data: employee_data,
                                        employer_name: employer_name, enrolled: enrolled, plan_years: plan_years,
                                        total_employees: total_employees, waived: waived
-    roster = employee_util.add_roster @broker_directory, @partial_path
-    summary = summary_details employer_name, total_employees
-
-    employer_details = summary.clone
-    employer_util = ::EmployerUtil.new details: employer_details, plan_years: plan_years, total_employees: total_employees
-    employer_util.add_plan_details
-
+    roster = employee_util.add_roster @broker_directory, @partial_path, employer_details, employer_id
     add_to_summary contacts, employer_util, plan_years, roster, summary, total_employees
     summary
   end
@@ -77,8 +76,8 @@ class BrokerUtil < BaseUtil
     summary[:employees_total] = total_employees
     add_plan_years plan_years, roster, summary, total_employees
 
-    summary[:employer_details_url] = ::EmployerUtil.create_employer_details @broker_directory, @partial_path, employer_util.details
-    summary[:employee_roster_url] = ::EmployeeUtil.create_employee_roster @broker_directory, @partial_path, roster
+    summary[:employer_details_url] = ::EmployerUtil.create_employer_details_file @broker_directory, @partial_path, employer_util.details
+    summary[:employee_roster_url] = ::EmployeeUtil.create_employee_roster_file @broker_directory, @partial_path, roster
     summary[:contact_info] = contacts
   end
 

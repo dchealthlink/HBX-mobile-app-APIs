@@ -6,10 +6,18 @@
   "date_of_birth": "1917-06-07",
   "ssn_masked": "***-**-4566",
   "gender": "male",
-  "hired_on": "2012-03-03",
   "id": 2,
+  "employments": [
+    {
+      "employer_profile_id": "6834a475e41b070fd20001d5",
+      "employer_name": "National Network to End Domestic Abuse",
+      "hired_on": "2012-03-03",
+      "is_business_owner": false
+    }
+  ],
   "enrollments": [
     {
+      "employer_profile_id": "6834a475e41b070fd20001d5",
       "start_on": "2017-04-01",
       "health": {
         "status": "Enrolled",
@@ -33,7 +41,6 @@
       }
     }
   ],
-  "is_business_owner": false,
   "dependents": [
 
   ]

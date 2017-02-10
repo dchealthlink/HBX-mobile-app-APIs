@@ -6,24 +6,24 @@
   "date_of_birth": "1925-12-08",
   "ssn_masked": "***-**-6789",
   "gender": "male",
-  "id": 800,
+  "id": 0,
   "employments": [
     {
-      "employer_profile_id": "5834a475e41b070fd20001d9",
-      "employer_name": "Strategy & Tactics Game Shop",
+      "employer_profile_id": "1134a475e41b070fd20001d5",
+      "employer_name": "J.Grigory Food Trucks & Fine Comestibles",
       "hired_on": "2008-12-08",
       "is_business_owner": false
     }
   ],
   "enrollments": [
     {
-      "employer_profile_id": "5834a475e41b070fd20001d9",
-      "start_on": "2017-10-01",
+      "employer_profile_id": "1134a475e41b070fd20001d5",
+      "start_on": "2017-08-01",
       "health": {
         "status": "Enrolled",
-        "employer_contribution": 653.68,
-        "employee_cost": 352.96,
-        "total_premium": 1006.64,
+        "employer_contribution": 12833.33,
+        "employee_cost": 7083.33,
+        "total_premium": 19916.66,
         "plan_name": "KP DC Silver 2000/35",
         "plan_type": "HMO",
         "metal_level": "Silver",
@@ -31,9 +31,9 @@
       },
       "dental": {
         "status": "Enrolled",
-        "employer_contribution": 653.68,
-        "employee_cost": 352.96,
-        "total_premium": 1006.64,
+        "employer_contribution": 12833.33,
+        "employee_cost": 7083.33,
+        "total_premium": 19916.66,
         "plan_name": "KP DC Silver 2000/35",
         "plan_type": "HMO",
         "metal_level": "Silver",

@@ -6,10 +6,18 @@
   "date_of_birth": "1917-06-07",
   "ssn_masked": "***-**-4566",
   "gender": "male",
-  "hired_on": "2012-03-03",
   "id": 802,
+  "employments": [
+    {
+      "employer_profile_id": "5834a475e41b070fd20001d9",
+      "employer_name": "Strategy & Tactics Game Shop",
+      "hired_on": "2012-03-03",
+      "is_business_owner": false
+    }
+  ],
   "enrollments": [
     {
+      "employer_profile_id": "5834a475e41b070fd20001d9",
       "start_on": "2017-10-01",
       "health": {
         "status": "Not Enrolled"
@@ -17,7 +25,6 @@
       "dental": null
     }
   ],
-  "is_business_owner": false,
   "dependents": [
 
   ]

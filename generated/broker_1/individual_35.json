@@ -6,10 +6,18 @@
   "date_of_birth": "1917-06-07",
   "ssn_masked": "***-**-4566",
   "gender": "male",
-  "hired_on": "2012-03-03",
   "id": 702,
+  "employments": [
+    {
+      "employer_profile_id": "5834a475e41b070fd20001d8",
+      "employer_name": "Bistrot Du Bois",
+      "hired_on": "2012-03-03",
+      "is_business_owner": false
+    }
+  ],
   "enrollments": [
     {
+      "employer_profile_id": "5834a475e41b070fd20001d8",
       "start_on": "2016-05-01",
       "health": {
         "status": "Waived",
@@ -26,6 +34,7 @@
       }
     },
     {
+      "employer_profile_id": "5834a475e41b070fd20001d8",
       "start_on": "2017-05-01",
       "health": {
         "status": "Not Enrolled"
@@ -33,7 +42,6 @@
       "dental": null
     }
   ],
-  "is_business_owner": false,
   "dependents": [
 
   ]

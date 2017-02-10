@@ -6,10 +6,18 @@
   "date_of_birth": "1975-12-08",
   "ssn_masked": "***-**-6001",
   "gender": "female",
-  "hired_on": "2008-10-08",
   "id": 903,
+  "employments": [
+    {
+      "employer_profile_id": "1034a475e41b070fd20001d5",
+      "employer_name": "Portia's Tea Bar ",
+      "hired_on": "2008-10-08",
+      "is_business_owner": false
+    }
+  ],
   "enrollments": [
     {
+      "employer_profile_id": "1034a475e41b070fd20001d5",
       "start_on": "2017-09-01",
       "health": {
         "status": "Enrolled",
@@ -33,7 +41,6 @@
       }
     }
   ],
-  "is_business_owner": false,
   "dependents": [
     {
       "first_name": "Kevin",

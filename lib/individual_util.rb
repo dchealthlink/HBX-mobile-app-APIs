@@ -6,7 +6,7 @@ class IndividualUtil < BaseUtil
   @@individual_example_no = 0
 
   class << self
-    def create_individual root_directory, partial_path, content
+    def create_individual_file root_directory, partial_path, content
       Helper::write_json content, individual_path(root_directory)
       url = url individual_path(partial_path)
       @@individual_example_no += 1

@@ -30,7 +30,7 @@ class Scenarios < BaseUtil
     # Create broker in open enrollment
     def create_broker_er_in_open_enrollment
       broker_util BROKER_IN_OE do |broker_util|
-        EmployeeUtil.roster_example_no = EmployerUtil.details_example_no = 0
+        reset_count
         write_json broker_util.create_broker_er_in_open_enrollment, broker_util
       end
     end
@@ -38,7 +38,7 @@ class Scenarios < BaseUtil
     # Create broker in pending
     def create_broker_er_in_pending
       broker_util BROKER_IN_PENDING do |broker_util|
-        EmployeeUtil.roster_example_no = EmployerUtil.details_example_no = 0
+        reset_count
         write_json broker_util.create_broker_er_in_pending, broker_util
       end
     end
@@ -47,6 +47,10 @@ class Scenarios < BaseUtil
     # Private
     #
     private
+
+    def reset_count
+      EmployeeUtil.roster_example_no = EmployerUtil.details_example_no = IndividualUtil.individual_example_no = 0
+    end
 
     def broker_util broker_dir
       puts "# Creating #{broker_dir}"

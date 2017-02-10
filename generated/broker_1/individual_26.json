@@ -6,10 +6,18 @@
   "date_of_birth": "1925-12-08",
   "ssn_masked": "***-**-6789",
   "gender": "male",
-  "hired_on": "2008-12-08",
   "id": 500,
+  "employments": [
+    {
+      "employer_profile_id": "5834a475e41b070fd20001d6",
+      "employer_name": "Best Brau Brewing Company",
+      "hired_on": "2008-12-08",
+      "is_business_owner": false
+    }
+  ],
   "enrollments": [
     {
+      "employer_profile_id": "5834a475e41b070fd20001d6",
       "start_on": "2016-04-01",
       "health": {
         "status": "Waived",
@@ -26,6 +34,7 @@
       }
     },
     {
+      "employer_profile_id": "5834a475e41b070fd20001d6",
       "start_on": "2017-04-01",
       "health": {
         "status": "Not Enrolled"
@@ -33,7 +42,6 @@
       "dental": null
     }
   ],
-  "is_business_owner": false,
   "dependents": [
     {
       "first_name": "Tracey",

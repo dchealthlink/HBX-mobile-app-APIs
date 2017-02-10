@@ -6,10 +6,18 @@
   "date_of_birth": "1925-12-08",
   "ssn_masked": "***-**-6789",
   "gender": "male",
-  "hired_on": "2008-12-08",
   "id": 1000,
+  "employments": [
+    {
+      "employer_profile_id": "1134a475e41b070fd20001d5",
+      "employer_name": "J.Grigory Food Trucks & Fine Comestibles",
+      "hired_on": "2008-12-08",
+      "is_business_owner": false
+    }
+  ],
   "enrollments": [
     {
+      "employer_profile_id": "1134a475e41b070fd20001d5",
       "start_on": "2017-08-01",
       "health": {
         "status": "Enrolled",
@@ -33,7 +41,6 @@
       }
     }
   ],
-  "is_business_owner": false,
   "dependents": [
     {
       "first_name": "Tracey",

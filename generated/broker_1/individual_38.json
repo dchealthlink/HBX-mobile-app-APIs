@@ -6,10 +6,18 @@
   "date_of_birth": "1987-06-06",
   "ssn_masked": "***-**-4546",
   "gender": "female",
-  "hired_on": "2015-04-03",
   "id": 705,
+  "employments": [
+    {
+      "employer_profile_id": "5834a475e41b070fd20001d8",
+      "employer_name": "Bistrot Du Bois",
+      "hired_on": "2015-04-03",
+      "is_business_owner": false
+    }
+  ],
   "enrollments": [
     {
+      "employer_profile_id": "5834a475e41b070fd20001d8",
       "start_on": "2016-05-01",
       "health": {
         "status": "Enrolled",
@@ -33,6 +41,7 @@
       }
     },
     {
+      "employer_profile_id": "5834a475e41b070fd20001d8",
       "start_on": "2017-05-01",
       "health": {
         "status": "Waived",
@@ -49,7 +58,6 @@
       }
     }
   ],
-  "is_business_owner": false,
   "dependents": [
 
   ]

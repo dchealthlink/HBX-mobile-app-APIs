@@ -6,10 +6,18 @@
   "date_of_birth": "1975-12-08",
   "ssn_masked": "***-**-6001",
   "gender": "female",
-  "hired_on": "2008-10-08",
   "id": 3,
+  "employments": [
+    {
+      "employer_profile_id": "5834a475e41b070fd20001d5",
+      "employer_name": "Courageous Consulting, LLC",
+      "hired_on": "2008-10-08",
+      "is_business_owner": false
+    }
+  ],
   "enrollments": [
     {
+      "employer_profile_id": "5834a475e41b070fd20001d5",
       "start_on": "2016-03-01",
       "health": {
         "status": "Waived",
@@ -26,6 +34,7 @@
       }
     },
     {
+      "employer_profile_id": "5834a475e41b070fd20001d5",
       "start_on": "2017-03-01",
       "health": {
         "status": "Not Enrolled"
@@ -33,7 +42,6 @@
       "dental": null
     }
   ],
-  "is_business_owner": false,
   "dependents": [
     {
       "first_name": "Kevin",

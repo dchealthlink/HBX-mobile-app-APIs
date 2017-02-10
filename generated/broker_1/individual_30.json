@@ -6,10 +6,18 @@
   "date_of_birth": "1925-12-08",
   "ssn_masked": "***-**-6789",
   "gender": "male",
-  "hired_on": "2008-12-08",
   "id": 600,
+  "employments": [
+    {
+      "employer_profile_id": "5834a475e41b070fd20001d7",
+      "employer_name": "Bistrot Du Monde",
+      "hired_on": "2008-12-08",
+      "is_business_owner": false
+    }
+  ],
   "enrollments": [
     {
+      "employer_profile_id": "5834a475e41b070fd20001d7",
       "start_on": "2016-03-01",
       "health": {
         "status": "Enrolled",
@@ -33,6 +41,7 @@
       }
     },
     {
+      "employer_profile_id": "5834a475e41b070fd20001d7",
       "start_on": "2017-03-01",
       "health": {
         "status": "Waived",
@@ -49,7 +58,6 @@
       }
     }
   ],
-  "is_business_owner": false,
   "dependents": [
     {
       "first_name": "Tracey",

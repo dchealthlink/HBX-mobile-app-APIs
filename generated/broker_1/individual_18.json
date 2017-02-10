@@ -6,10 +6,18 @@
   "date_of_birth": "1985-11-11",
   "ssn_masked": "***-**-2050",
   "gender": "female",
-  "hired_on": "2009-11-12",
   "id": 304,
+  "employments": [
+    {
+      "employer_profile_id": "8834a475e41b070fd20001d5",
+      "employer_name": "DC Cupcakes",
+      "hired_on": "2009-11-12",
+      "is_business_owner": false
+    }
+  ],
   "enrollments": [
     {
+      "employer_profile_id": "8834a475e41b070fd20001d5",
       "start_on": "2016-07-01",
       "health": {
         "status": "Terminated",
@@ -26,6 +34,7 @@
       "dental": null
     },
     {
+      "employer_profile_id": "8834a475e41b070fd20001d5",
       "start_on": "2017-07-01",
       "health": {
         "status": "Enrolled",
@@ -49,7 +58,6 @@
       }
     }
   ],
-  "is_business_owner": false,
   "dependents": [
 
   ]

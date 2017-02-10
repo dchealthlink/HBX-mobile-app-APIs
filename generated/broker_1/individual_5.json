@@ -6,10 +6,18 @@
   "date_of_birth": "1925-12-08",
   "ssn_masked": "***-**-6789",
   "gender": "male",
-  "hired_on": "2008-12-08",
   "id": 100,
+  "employments": [
+    {
+      "employer_profile_id": "6834a475e41b070fd20001d5",
+      "employer_name": "National Network to End Domestic Abuse",
+      "hired_on": "2008-12-08",
+      "is_business_owner": false
+    }
+  ],
   "enrollments": [
     {
+      "employer_profile_id": "6834a475e41b070fd20001d5",
       "start_on": "2017-04-01",
       "health": {
         "status": "Not Enrolled"
@@ -17,7 +25,6 @@
       "dental": null
     }
   ],
-  "is_business_owner": false,
   "dependents": [
     {
       "first_name": "Tracey",

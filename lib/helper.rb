@@ -60,7 +60,7 @@ module Helper
     dt.strftime('%Y-%m-%d') if dt
   end
 
-  def person_details person
+  def person_details person, hired_on=true
     gender, first, mid, last, sfx, dob, ssn, hired = person.split
     result = {
         first_name: first,
@@ -71,7 +71,7 @@ module Helper
         ssn_masked: ssn,
         gender: gender
     }
-    result[:hired_on] = hired if hired
+    result[:hired_on] = hired if hired && hired_on
     result
   end
 

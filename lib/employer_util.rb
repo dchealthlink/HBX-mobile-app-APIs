@@ -7,7 +7,7 @@ class EmployerUtil < BaseUtil
   @@details_example_no = 0
 
   class << self
-    def create_employer_details root_directory, partial_path, content
+    def create_employer_details_file root_directory, partial_path, content
       Helper::write_json content, employer_details_path(root_directory)
       url = url employer_details_path(partial_path)
       @@details_example_no += 1
