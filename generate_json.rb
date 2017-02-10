@@ -11,7 +11,7 @@ require_relative 'lib/broker_util'
 require_relative 'lib/scenarios'
 
 branch = ARGV[0] || 'master'
-$github_url_prefix = "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-API/blob/#{branch}"
+$github_url_prefix = "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/#{branch}"
 
 $GENERATED_DIR = 'generated'
 $ROOT_DIRECTORY = "#{__dir__}/#{$GENERATED_DIR}"
