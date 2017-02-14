@@ -117,7 +117,6 @@ module Helper
     if employer_id
       carrier = {
           name: 'Kaiser',
-          contact_info: %w{1-800-777-7902 1-888-777-7902},
           terms_and_conditions_url: '/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline'
       }
       enrollment[:carrier] = carrier

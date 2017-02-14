@@ -18,7 +18,7 @@
   "enrollments": [
     {
       "employer_profile_id": "9834a475e41b070fd20001d5",
-      "start_on": "2017-03-01",
+      "start_on": "2017-04-01",
       "health": {
         "status": "Enrolled",
         "employer_contribution": 3481.95,
@@ -30,10 +30,6 @@
         "benefit_group_name": "FULL-TIME EMPLOYEES",
         "carrier": {
           "name": "Kaiser",
-          "contact_info": [
-            "1-800-777-7902",
-            "1-888-777-7902"
-          ],
           "terms_and_conditions_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
         }
       },
@@ -48,10 +44,6 @@
         "benefit_group_name": "FULL-TIME EMPLOYEES",
         "carrier": {
           "name": "Kaiser",
-          "contact_info": [
-            "1-800-777-7902",
-            "1-888-777-7902"
-          ],
           "terms_and_conditions_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
         }
       }

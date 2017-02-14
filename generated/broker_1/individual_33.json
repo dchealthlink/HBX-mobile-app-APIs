@@ -30,13 +30,9 @@
         "benefit_group_name": "PART-TIME EMPLOYEES",
         "carrier": {
           "name": "Kaiser",
-          "contact_info": [
-            "1-800-777-7902",
-            "1-888-777-7902"
-          ],
           "terms_and_conditions_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
         },
-        "terminated_on": "2017-02-13",
+        "terminated_on": "2017-02-14",
         "terminate_reason": "I have coverage through an individual market health plan"
       },
       "dental": null
@@ -55,10 +51,6 @@
         "benefit_group_name": "PART-TIME EMPLOYEES",
         "carrier": {
           "name": "Kaiser",
-          "contact_info": [
-            "1-800-777-7902",
-            "1-888-777-7902"
-          ],
           "terms_and_conditions_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
         }
       },
@@ -73,10 +65,6 @@
         "benefit_group_name": "PART-TIME EMPLOYEES",
         "carrier": {
           "name": "Kaiser",
-          "contact_info": [
-            "1-800-777-7902",
-            "1-888-777-7902"
-          ],
           "terms_and_conditions_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
         }
       }
