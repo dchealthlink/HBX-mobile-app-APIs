@@ -1,0 +1,222 @@
+
+
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "title": "Broker Employers List",
+  "description": "List of employers who are clients of a given broker",
+  "properties": {
+    "broker_agency": {
+      "type": "string",
+      "description": "Legal name of broker agency organization"
+    },
+    "broker_clients": {
+      "type": "array",
+      "title": "Broker clients array schema.",
+      "description": "the list of employer clients of a broker",
+      "items": {
+        "type": "object",
+        "title": "roker clients array eleemnt schema.",
+        "description": "An employer client of a broker",
+        "properties": {
+          "employer_name": {
+            "type": "string",
+            "title": "Employer_name schema.",
+            "description": "The business name of the employer client."
+          },
+          "open_enrollment_begins": {
+            "type": ["string", "null"],
+            "title": "Open_enrollment_begins schema.",
+            "description": "The date (MM/DD/YYYY) on which this employer's next open enrollment begins"
+          },
+          "open_enrollment_ends": {
+            "type": "string",
+            "title": "Open_enrollment_ends schema.",
+            "description": "The date (MM/DD/YYYY) on which this employer's next open enrollment ends"
+          },
+          "plan_year_begins": {
+            "type": "string",
+            "title": "Plan_year_begins schema.",
+            "description": "The date (MM/DD/YYYY) on which this employer's next coverage plan year begins"
+          },
+          "renewal_in_progress": { 
+            "enum": [ "false", "true" ],
+            "title": "Renewal_in_progress schema.",
+            "description": "Boolean value(true/false) showing whether the employer is currently in a renewal process."
+          },
+          "renewal_application_available": {
+            "type": "string",
+            "title": "Renewal_application_available schema.",
+            "description": "The date (MM/DD/YYYY) on which this employer's next coverage plan year renewal period begins"
+          },
+          "renewal_application_due": {
+            "type": "string",
+            "title": "Renewal_application_due schema.",
+            "description": "The date (MM/DD/YYYY) of the deadline for this employer's next renewal application."
+          },
+          "binder_payment_due": {
+            "type": ["string", "null"],
+            "title": "Binder_payment_due schema.",
+            "description": "The date (MM/DD/YYYY) on which this employer's next binder payment, if any, is due, or null."
+          },
+          "employees_total": {
+            "type": "integer",
+            "title": "Employees_total schema.",
+            "description": "The total number of employees on this employer's roster"
+          },
+          "employees_enrolled": {
+            "type": "integer",
+            "title": "Employees_enrolled schema.",
+            "description": "The total number of employees on this employer's roster who have enrolled in an HBX plan offered by the employer."
+          },
+          "employees_waived": {
+            "type": "integer",
+            "title": "Employees_waived schema.",
+            "description": "The total number of employees on this employer's roster who have waived coverage through this employer"
+          },
+          "minimum_participation_required": {
+            "type": "integer",
+            "title": "Minimum_participation_required schema.",
+            "description": "The total number of employees who must be enrolled or waived in order for this employer to meet the minimum participation requirement."
+          },
+          "estimated_premium": {
+            "type": "object",
+            "title": "Estimated premium schema.",
+            "description": "Information on the employer's current monthly premium.",
+            "properties": {            
+              "billing_report_date": {
+                "type": "string",
+                "title": "billing_report_date schema.",
+                "description": "The date (MM/DD/YYYY) for which monthly premium information is provided."
+              },            
+              "total_premium": {
+                "type": "number",
+                "title": "total_premium schema.",
+                "description": "The monthly total premium."
+              },            
+              "employee_contribution": {
+                "type": "number",
+                "title": "Employee_contribution schema.",
+                "description": "The portion of the monthly total premium paid by employees."
+              },
+              "employer_contribution": {
+                "type": "number",
+                "title": "Employer_contribution schema.",
+                "description": "The portion of the monthly total premium paid by the employer"
+              }
+            },
+            "required": [
+              "employee_contribution",
+              "employer_contribution"
+            ]
+          },
+          "contact_info": {
+            "type": "array",
+            "title": "Employer contact info array schema.",
+            "description": "the list of contacts (staff points of contact as well as office locations) for an employer",
+            "items": {
+              "type": "object",
+              "title": "Contact_info schema.",
+              "description": "Contact information for this contact",
+              "properties": {
+                "first": {
+                  "type": "string",
+                  "title": "First name schema.",
+                  "description": "First name of the contact."
+                },
+                "last": {
+                  "type": "string",
+                  "title": "Last name schema.",
+                  "description": "Last name of the contact."
+                },
+                "phone": {
+                  "type": "string",
+                  "pattern": "(^$)|([0-9]{3}-[0-9]{3}-[0-9]{4})",
+                  "title": "Phone schema.",
+                  "description": "Phone number of the contact."
+                },
+                "mobile": {
+                  "type": "string",
+                  "format": "phone",
+                  "title": "Phone schema.",
+                  "description": "Phone number of the contact."
+                },
+                "emails": {
+                  "type": "array",
+                  "format": "email",
+                  "title": "Email schema.",
+                  "description": "Contact emails for the contact",
+                  "items": {
+                    "type": "string",
+                     "oneOf": [
+                      { "enum": [ "" ] },
+                      { "format": "email" }
+                    ]
+                  }
+                },
+                "address_1": {
+                  "type": ["string", "null"],
+                  "title": "Address_1 schema.",
+                  "description": "First line of contact address."
+                },
+                "address_2": {
+                  "type": "string",
+                  "title": "Address_2 schema.",
+                  "description": "Second line of contact address."
+                },
+                "city": {
+                  "type": "string",
+                  "title": "City schema.",
+                  "description": "City of contact address."
+                },
+                "state": {
+                  "type": "string",
+                  "title": "State schema.",
+                  "description": "Two-letter state code of contact address."
+                },
+                "zip": {
+                  "type": "string",
+                  "title": "Zip schema.",
+                  "description": "Five-digit zip code of contact address"
+                }
+              },
+              "required": [
+                "first",
+                "phone",
+                "emails",
+                "address_1",
+                "city",
+                "state",
+                "zip"
+              ]
+            }
+          },
+          "general_agency": {
+            "type": "string",
+            "title": "General_agency schema.",
+            "description": "An optional name of a general agency or wholesaler which this broker uses for this client."
+          }
+        },
+        "required": [
+          "employer_name",
+          "open_enrollment_begins",
+          "open_enrollment_ends",
+          "plan_year_begins",
+          "renewal_application_available",
+          "renewal_application_due",
+          "renewal_in_progress",
+          "employees_total",
+          "employees_enrolled",
+          "employees_waived",
+          "minimum_participation_required",
+          "estimated_premium",
+          "contact_info"
+        ]
+      }
+    }
+  },
+  "required": [
+    "broker_clients"
+  ]
+}
+
