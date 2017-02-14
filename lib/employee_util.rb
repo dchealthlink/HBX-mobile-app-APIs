@@ -43,23 +43,23 @@ class EmployeeUtil < BaseUtil
   def create_person person, index, employee=true, employer_profile_id=nil, employer_details=nil
     pers = person_details person.first, employee
     pers[:id] = ::EmployeeUtil.roster_example_no * 100 + index
-    pers[:employments] = employments person.first, employer_profile_id, employer_details, employee, index unless employee
+    pers[:employments] = employments person.first, employer_profile_id, employer_details, index unless employee
     pers[:enrollments] = enrollments index, employer_profile_id
-    pers[:is_business_owner] = is_business_owner(index, employee) if employee
+    pers[:is_business_owner] = is_business_owner(index) if employee
     pers[:dependents] = person.last.map { |d| person_details(d) }
     pers
   end
 
-  def is_business_owner index, employee
+  def is_business_owner index
     index == 1
   end
 
-  def employments person, employer_profile_id, employer_details, employee, index
+  def employments person, employer_profile_id, employer_details, index
     [
         employer_profile_id: employer_profile_id,
         employer_name: employer_details[:employer_name],
         hired_on: person.split.last,
-        is_business_owner: is_business_owner(index, employee)
+        is_business_owner: is_business_owner(index)
     ]
   end
 
@@ -74,7 +74,8 @@ class EmployeeUtil < BaseUtil
                                                         @total_employees,
                                                         er_contrib(@enrolled, @waived),
                                                         ee_contrib(@enrolled, @waived),
-                                                        (index == 1) ? 'FULL-TIME EMPLOYEES' : 'PART-TIME EMPLOYEES')
+                                                        (index == 1) ? 'FULL-TIME EMPLOYEES' : 'PART-TIME EMPLOYEES',
+                                                        employer_id)
       end
       year_enrollment
     end

@@ -88,11 +88,11 @@ module Helper
     }
   end
 
-  def enrollment_for status, total_employees, er_contrib, ee_contrib, benefit_group_name
+  def enrollment_for status, total_employees, er_contrib, ee_contrib, benefit_group_name, employer_id=nil
     return unless status
     enrollment = {status: status}
     enroll_waived_or_terminated enrollment, benefit_group_name, ee_contrib, er_contrib, status,
-                                total_employees if %w{Enrolled Waived Terminated}.include? status
+                                total_employees, employer_id if %w{Enrolled Waived Terminated}.include? status
     enrollment
   end
 
@@ -101,7 +101,8 @@ module Helper
   #
   private
 
-  def enroll_waived_or_terminated enrollment, benefit_group_name, ee_contrib, er_contrib, status, total_employees
+  def enroll_waived_or_terminated enrollment, benefit_group_name, ee_contrib, er_contrib, status, total_employees,
+                                  employer_id=nil
     er_cost = cost er_contrib, status, total_employees
     ee_cost = cost ee_contrib, status, total_employees
 
@@ -112,6 +113,15 @@ module Helper
     enrollment[:plan_type] = 'HMO'
     enrollment[:metal_level] = 'Silver'
     enrollment[:benefit_group_name] = benefit_group_name
+
+    if employer_id
+      carrier = {
+          name: 'Kaiser',
+          contact_info: %w{1-800-777-7902 1-888-777-7902},
+          terms_and_conditions_url: '/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline'
+      }
+      enrollment[:carrier] = carrier
+    end
 
     if status == 'Terminated'
       enrollment[:terminated_on] = Date.today
