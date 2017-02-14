@@ -5,7 +5,7 @@
     {
       "employer_name": "Courageous Consulting, LLC",
       "binder_payment_due": null,
-      "billing_report_date": "2017-03-10",
+      "billing_report_date": "2017-03-13",
       "active_general_agency": "Betadyne General Agency, Inc.",
       "employees_total": 5,
       "plan_years": [
@@ -58,7 +58,7 @@
     {
       "employer_name": "National Network to End Domestic Abuse",
       "binder_payment_due": null,
-      "billing_report_date": "2017-03-10",
+      "billing_report_date": "2017-03-13",
       "active_general_agency": "Betadyne General Agency, Inc.",
       "employees_total": 5,
       "plan_years": [
@@ -112,7 +112,7 @@
     {
       "employer_name": "District Yoga",
       "binder_payment_due": null,
-      "billing_report_date": "2017-03-10",
+      "billing_report_date": "2017-03-13",
       "active_general_agency": null,
       "employees_total": 4,
       "plan_years": [
@@ -179,7 +179,7 @@
     {
       "employer_name": "DC Cupcakes",
       "binder_payment_due": null,
-      "billing_report_date": "2017-03-10",
+      "billing_report_date": "2017-03-13",
       "active_general_agency": "Betadyne General Agency, Inc.",
       "employees_total": 6,
       "plan_years": [
@@ -246,7 +246,7 @@
     {
       "employer_name": "OPEN Art Studio",
       "binder_payment_due": null,
-      "billing_report_date": "2017-03-10",
+      "billing_report_date": "2017-03-13",
       "active_general_agency": "Betadyne General Agency, Inc.",
       "employees_total": 6,
       "plan_years": [
@@ -314,7 +314,7 @@
     {
       "employer_name": "Best Brau Brewing Company",
       "binder_payment_due": null,
-      "billing_report_date": "2017-03-10",
+      "billing_report_date": "2017-03-13",
       "active_general_agency": null,
       "employees_total": 4,
       "plan_years": [
@@ -409,17 +409,17 @@
     {
       "employer_name": "Bistrot Du Monde",
       "binder_payment_due": null,
-      "billing_report_date": "2017-03-10",
+      "billing_report_date": "2017-03-13",
       "active_general_agency": null,
       "employees_total": 3,
       "plan_years": [
         {
-          "plan_year_begins": "2016-03-01",
-          "open_enrollment_begins": "2016-01-01",
-          "open_enrollment_ends": "2016-02-13",
+          "plan_year_begins": "2016-04-01",
+          "open_enrollment_begins": "2016-02-01",
+          "open_enrollment_ends": "2016-03-13",
           "renewal_in_progress": false,
-          "renewal_application_available": "2015-12-01",
-          "renewal_application_due": "2016-02-10",
+          "renewal_application_available": "2016-01-01",
+          "renewal_application_due": "2016-03-10",
           "state": "Active",
           "minimum_participation_required": 2,
           "employees_enrolled": 1,
@@ -427,12 +427,12 @@
           "employees_terminated": 0
         },
         {
-          "plan_year_begins": "2017-03-01",
-          "open_enrollment_begins": "2017-01-01",
-          "open_enrollment_ends": "2017-02-13",
+          "plan_year_begins": "2017-04-01",
+          "open_enrollment_begins": "2017-02-01",
+          "open_enrollment_ends": "2017-03-13",
           "renewal_in_progress": true,
-          "renewal_application_available": "2016-12-01",
-          "renewal_application_due": "2017-02-10",
+          "renewal_application_available": "2017-01-01",
+          "renewal_application_due": "2017-03-10",
           "state": "Renewing Publish Pending",
           "minimum_participation_required": 2,
           "employees_enrolled": 0,
@@ -490,7 +490,7 @@
     {
       "employer_name": "Bistrot Du Bois",
       "binder_payment_due": null,
-      "billing_report_date": "2017-03-10",
+      "billing_report_date": "2017-03-13",
       "active_general_agency": "Betadyne General Agency, Inc.",
       "employees_total": 6,
       "plan_years": [
@@ -571,7 +571,7 @@
     {
       "employer_name": "Strategy & Tactics Game Shop",
       "binder_payment_due": null,
-      "billing_report_date": "2017-03-10",
+      "billing_report_date": "2017-03-13",
       "active_general_agency": null,
       "employees_total": 3,
       "plan_years": [
@@ -625,7 +625,7 @@
     {
       "employer_name": "Portia's Tea Bar ",
       "binder_payment_due": null,
-      "billing_report_date": "2017-03-10",
+      "billing_report_date": "2017-03-13",
       "active_general_agency": null,
       "employees_total": 4,
       "plan_years": [
@@ -693,7 +693,7 @@
     {
       "employer_name": "J.Grigory Food Trucks & Fine Comestibles",
       "binder_payment_due": null,
-      "billing_report_date": "2017-03-10",
+      "billing_report_date": "2017-03-13",
       "active_general_agency": null,
       "employees_total": 3,
       "plan_years": [
