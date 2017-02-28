@@ -5,12 +5,14 @@ class Scenarios < BaseUtil
   BROKER_IN_OE = 'broker_er_in_open_enrollment'
   BROKER_IN_PENDING = 'broker_er_in_pending'
   BROKER_ROSTER_EMPTY = 'broker_er_roster_empty'
+  EMPLOYEE = 'employee'
+  INDIVIDUAL_APTC = 'individual_aptc'
 
   class << self
 
-    # Create accounts
+    # Create accounts - this doesn't write to accounts.json directly because it would overwrite things that got added via templates
     def create_accounts
-      write_json Helper::account_json, nil, $ROOT_DIRECTORY, 'accounts.json'
+      Helper::write_json Helper::account_json, "#{$ROOT_DIRECTORY}/accounts.json.to.merge"
     end
 
     # Create broker 1
@@ -41,6 +43,18 @@ class Scenarios < BaseUtil
         reset_count
         write_json broker_util.create_broker_er_in_pending, broker_util
       end
+    end
+
+# Create employee insured
+    def create_employee
+      insured_util EMPLOYEE do |employee|
+        reset_count
+        #write_json insured_util.
+      end
+    end
+
+# Create individual insured with APTC
+    def create_individual_aptc
     end
 
     #
