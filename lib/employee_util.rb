@@ -1,5 +1,5 @@
 require_relative 'base_util'
-require_relative 'individual_util'
+require_relative 'insured_util'
 
 class EmployeeUtil < BaseUtil
   include Helper

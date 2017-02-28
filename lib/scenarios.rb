@@ -63,7 +63,7 @@ class Scenarios < BaseUtil
     private
 
     def reset_count
-      EmployeeUtil.roster_example_no = EmployerUtil.details_example_no = IndividualUtil.individual_example_no = 0
+      EmployeeUtil.roster_example_no = EmployerUtil.details_example_no = InsuredUtil.insured_example_no = 0
     end
 
     def broker_util broker_dir

@@ -75,14 +75,14 @@
       ]
     },
     {
-      "first_name": "Frank",
-      "middle_name": "S.",
-      "last_name": "Sinatra",
-      "name_suffix": "III",
-      "date_of_birth": "1915-12-12",
-      "ssn_masked": "***-**-2000",
-      "gender": "male",
-      "hired_on": "2007-12-12",
+      "first_name": "Patty",
+      "middle_name": "D.",
+      "last_name": "Tolan",
+      "name_suffix": "Cdtr",
+      "date_of_birth": "1987-06-06",
+      "ssn_masked": "***-**-4546",
+      "gender": "female",
+      "hired_on": "2015-04-03",
       "id": 301,
       "enrollments": [
         {
@@ -131,14 +131,14 @@
       ]
     },
     {
-      "first_name": "Dean",
-      "middle_name": "D.",
-      "last_name": "Martin",
-      "name_suffix": "Sr.",
-      "date_of_birth": "1917-06-07",
-      "ssn_masked": "***-**-4566",
+      "first_name": "Frank",
+      "middle_name": "S.",
+      "last_name": "Sinatra",
+      "name_suffix": "III",
+      "date_of_birth": "1915-12-12",
+      "ssn_masked": "***-**-2000",
       "gender": "male",
-      "hired_on": "2012-03-03",
+      "hired_on": "2007-12-12",
       "id": 302,
       "enrollments": [
         {
@@ -171,14 +171,14 @@
       ]
     },
     {
-      "first_name": "Abigail",
-      "middle_name": "M.",
-      "last_name": "Yates",
+      "first_name": "Erin",
+      "middle_name": "S.",
+      "last_name": "Gilbert",
       "name_suffix": "PhD.",
-      "date_of_birth": "1975-12-08",
-      "ssn_masked": "***-**-6001",
+      "date_of_birth": "1969-03-01",
+      "ssn_masked": "***-**-4554",
       "gender": "female",
-      "hired_on": "2008-10-08",
+      "hired_on": "2016-01-01",
       "id": 303,
       "enrollments": [
         {
@@ -207,26 +207,18 @@
       ],
       "is_business_owner": false,
       "dependents": [
-        {
-          "first_name": "Kevin",
-          "middle_name": "R.",
-          "last_name": "Beckman",
-          "name_suffix": "X.",
-          "date_of_birth": "1985-08-07",
-          "ssn_masked": "***-**-7603",
-          "gender": "male"
-        }
+
       ]
     },
     {
-      "first_name": "Jillian",
-      "middle_name": "S.",
-      "last_name": "Holtzmann",
-      "name_suffix": "PhD.",
-      "date_of_birth": "1985-11-11",
-      "ssn_masked": "***-**-2050",
-      "gender": "female",
-      "hired_on": "2009-11-12",
+      "first_name": "Dean",
+      "middle_name": "D.",
+      "last_name": "Martin",
+      "name_suffix": "Sr.",
+      "date_of_birth": "1917-06-07",
+      "ssn_masked": "***-**-4566",
+      "gender": "male",
+      "hired_on": "2012-03-03",
       "id": 304,
       "enrollments": [
         {
@@ -275,14 +267,14 @@
       ]
     },
     {
-      "first_name": "Patty",
-      "middle_name": "D.",
-      "last_name": "Tolan",
-      "name_suffix": "Cdtr",
-      "date_of_birth": "1987-06-06",
-      "ssn_masked": "***-**-4546",
+      "first_name": "Abigail",
+      "middle_name": "M.",
+      "last_name": "Yates",
+      "name_suffix": "PhD.",
+      "date_of_birth": "1975-12-08",
+      "ssn_masked": "***-**-6001",
       "gender": "female",
-      "hired_on": "2015-04-03",
+      "hired_on": "2008-10-08",
       "id": 305,
       "enrollments": [
         {
@@ -327,7 +319,15 @@
       ],
       "is_business_owner": false,
       "dependents": [
-
+        {
+          "first_name": "Kevin",
+          "middle_name": "R.",
+          "last_name": "Beckman",
+          "name_suffix": "X.",
+          "date_of_birth": "1985-08-07",
+          "ssn_masked": "***-**-7603",
+          "gender": "male"
+        }
       ]
     }
   ]

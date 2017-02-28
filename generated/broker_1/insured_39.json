@@ -1,0 +1,55 @@
+{
+  "first_name": "Jillian",
+  "middle_name": "S.",
+  "last_name": "Holtzmann",
+  "name_suffix": "PhD.",
+  "date_of_birth": "1985-11-11",
+  "ssn_masked": "***-**-2050",
+  "gender": "female",
+  "id": 800,
+  "employments": [
+    {
+      "employer_profile_id": "5834a475e41b070fd20001d9",
+      "employer_name": "Strategy & Tactics Game Shop",
+      "hired_on": "2009-11-12",
+      "is_business_owner": false
+    }
+  ],
+  "enrollments": [
+    {
+      "employer_profile_id": "5834a475e41b070fd20001d9",
+      "start_on": "2017-10-01",
+      "health": {
+        "status": "Enrolled",
+        "employer_contribution": 653.68,
+        "employee_cost": 352.96,
+        "total_premium": 1006.64,
+        "plan_name": "KP DC Silver 2000/35",
+        "plan_type": "HMO",
+        "metal_level": "Silver",
+        "benefit_group_name": "PART-TIME EMPLOYEES",
+        "carrier": {
+          "name": "Kaiser",
+          "terms_and_conditions_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+        }
+      },
+      "dental": {
+        "status": "Enrolled",
+        "employer_contribution": 653.68,
+        "employee_cost": 352.96,
+        "total_premium": 1006.64,
+        "plan_name": "KP DC Silver 2000/35",
+        "plan_type": "HMO",
+        "metal_level": "Silver",
+        "benefit_group_name": "PART-TIME EMPLOYEES",
+        "carrier": {
+          "name": "Kaiser",
+          "terms_and_conditions_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+        }
+      }
+    }
+  ],
+  "dependents": [
+
+  ]
+}
