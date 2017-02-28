@@ -42,10 +42,8 @@ class BrokerUtil < BaseUtil
     employer_util = ::EmployerUtil.new details: employer_details, plan_years: plan_years, total_employees: total_employees
     employer_util.add_plan_details
 
-    employee_data = ::Sample.employee.take total_employees
-
-    employee_util = ::EmployeeUtil.new coverage_options: coverage_options, employee_data: employee_data,
-                                       employer_name: employer_name, enrolled: enrolled, plan_years: plan_years,
+    employee_util = ::EmployeeUtil.new coverage_options: coverage_options, employer_name: employer_name, 
+                                       enrolled: enrolled, plan_years: plan_years,
                                        total_employees: total_employees, waived: waived
     roster = employee_util.add_roster @broker_directory, @partial_path, employer_details, employer_id
     add_to_summary contacts, employer_util, plan_years, roster, summary, total_employees

@@ -4,6 +4,11 @@ require_relative 'individual_util'
 class EmployeeUtil < BaseUtil
   include Helper
 
+  def initialize args={}
+    super args
+    @employee_data = ::Sample.employee.take @total_employees
+  end
+
   @@roster_example_no = 0
 
   class << self
@@ -26,6 +31,7 @@ class EmployeeUtil < BaseUtil
       "#{root_directory}/roster_#{@@roster_example_no}.json"
     end
   end
+
 
   def add_roster root_directory, partial_path, employer_details, employer_profile_id
     {
