@@ -6,7 +6,7 @@ class EmployeeUtil < BaseUtil
 
   def initialize args={}
     super args
-    @employee_data = ::Sample.employee.take @total_employees
+    @employee_data = ::Sample.insured.shuffle.take @total_employees
   end
 
   @@roster_example_no = 0
@@ -32,14 +32,13 @@ class EmployeeUtil < BaseUtil
     end
   end
 
-
   def add_roster root_directory, partial_path, employer_details, employer_profile_id
     {
         employer_name: @employer_name,
         roster: @employee_data.each_with_index.map do |e, index|
           employee = create_person e.clone, index
-          individual = create_person e, index, false, employer_profile_id, employer_details
-          IndividualUtil.create_individual_file root_directory, partial_path, individual
+          insured = create_person e, index, false, employer_profile_id, employer_details
+          InsuredUtil.create_insured_file root_directory, partial_path, insured
           employee.delete :employments
           employee
         end
