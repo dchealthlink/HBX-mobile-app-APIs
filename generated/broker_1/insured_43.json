@@ -25,6 +25,7 @@
       "dental": null
     }
   ],
+  "is_business_owner": true,
   "dependents": [
     {
       "first_name": "Kevin",

@@ -33,6 +33,8 @@ class EmployeeUtil < BaseUtil
     end
   end
 
+
+
   def add_roster root_directory, partial_path, employer_details, employer_profile_id
     {
         employer_name: @employer_name,
@@ -40,18 +42,25 @@ class EmployeeUtil < BaseUtil
           employee = create_person e.clone, index
           insured = create_person e, index, false, employer_profile_id, employer_details
           InsuredUtil.create_insured_file root_directory, partial_path, insured
-          employee.delete :employments
           employee
         end
     }
   end
 
+# def create_employee employer_profile_id=nil, employer_details=nil
+#   pers = create_person person, index
+#   pers[:employments] = employments person.first, employer_profile_id, employer_details, index if employer_details
+#   pers[:is_business_owner] = is_business_owner(index) #if employee
+#   pers
+# end
+
+
   def create_person person, index, employee=true, employer_profile_id=nil, employer_details=nil
     pers = person_details person.first, employee
     pers[:id] = ::EmployeeUtil.roster_example_no * 100 + index
-    pers[:employments] = employments person.first, employer_profile_id, employer_details, index unless employee
+    pers[:employments] = employments person.first, employer_profile_id, employer_details, index if employer_details
     pers[:enrollments] = enrollments index, employer_profile_id
-    pers[:is_business_owner] = is_business_owner(index) if employee
+    pers[:is_business_owner] = is_business_owner(index) #if employee
     pers[:dependents] = person.last.map { |d| person_details(d) }
     pers
   end

@@ -38,6 +38,7 @@
       }
     }
   ],
+  "is_business_owner": false,
   "dependents": [
     {
       "first_name": "Tracey",
