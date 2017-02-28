@@ -1,6 +1,6 @@
 {
   "brokers": [
-    "broker_1",
+    { "broker_1" : { "broker_endpoint": "broker_details.json'"}
     "broker_empty",
     "broker_er_roster_empty",
     "broker_er_in_pending",
@@ -10,5 +10,9 @@
     "er_roster_empty",
     "er_in_open_enrollment",
     "er_in_pending"
-  ]
+  ],
+  "insured":  [
+    "employee",
+    "individual_aptc",
+    "individual_
 }
