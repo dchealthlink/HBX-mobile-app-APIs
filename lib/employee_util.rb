@@ -48,15 +48,14 @@ class EmployeeUtil < BaseUtil
   end
 
 # def create_employee employer_profile_id=nil, employer_details=nil
-#   pers = create_person person, index
+#   pers = create_person person, index, hired_on=true
 #   pers[:employments] = employments person.first, employer_profile_id, employer_details, index if employer_details
 #   pers[:is_business_owner] = is_business_owner(index) #if employee
 #   pers
 # end
 
-
   def create_person person, index, employee=true, employer_profile_id=nil, employer_details=nil
-    pers = person_details person.first, employee
+    pers = person_details person.first, true
     pers[:id] = ::EmployeeUtil.roster_example_no * 100 + index
     pers[:employments] = employments person.first, employer_profile_id, employer_details, index if employer_details
     pers[:enrollments] = enrollments index, employer_profile_id

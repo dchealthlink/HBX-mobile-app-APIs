@@ -6,6 +6,7 @@
   "date_of_birth": "1985-11-11",
   "ssn_masked": "***-**-2050",
   "gender": "female",
+  "hired_on": "2009-11-12",
   "id": 2,
   "employments": [
     {
