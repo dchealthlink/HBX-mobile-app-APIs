@@ -1,18 +1,18 @@
 {
-  "employer_name": "Best Brau Brewing Company",
+  "employer_name": "Courageous Consulting, LLC",
   "binder_payment_due": null,
-  "billing_report_date": "2017-03-28",
-  "active_general_agency": null,
+  "billing_report_date": "2017-02-28",
+  "active_general_agency": "Betadyne General Agency, Inc.",
   "plan_years": [
     {
-      "plan_year_begins": "2016-04-01",
-      "open_enrollment_begins": "2016-02-01",
-      "open_enrollment_ends": "2016-03-13",
+      "plan_year_begins": "2016-03-17",
+      "open_enrollment_begins": null,
+      "open_enrollment_ends": "2016-02-27",
       "renewal_in_progress": false,
-      "renewal_application_available": "2016-01-01",
-      "renewal_application_due": "2016-03-10",
+      "renewal_application_available": "2015-12-16",
+      "renewal_application_due": "2016-02-24",
       "state": "Active",
-      "minimum_participation_required": 2,
+      "minimum_participation_required": 3,
       "plan_offerings": [
         {
           "benefit_group_name": "FULL-TIME EMPLOYEES",
@@ -127,14 +127,14 @@
       ]
     },
     {
-      "plan_year_begins": "2017-04-01",
-      "open_enrollment_begins": "2017-02-01",
-      "open_enrollment_ends": "2017-03-13",
+      "plan_year_begins": "2017-03-18",
+      "open_enrollment_begins": "2017-01-15",
+      "open_enrollment_ends": "2017-02-27",
       "renewal_in_progress": true,
-      "renewal_application_available": "2017-01-01",
-      "renewal_application_due": "2017-03-10",
-      "state": "Renewing Published",
-      "minimum_participation_required": 2,
+      "renewal_application_available": "2016-12-16",
+      "renewal_application_due": "2017-03-18",
+      "state": "Renewing Enrolling",
+      "minimum_participation_required": 3,
       "plan_offerings": [
         {
           "benefit_group_name": "FULL-TIME EMPLOYEES",

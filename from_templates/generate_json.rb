@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 
 unless defined?(::JSON::JSON_LOADED) and ::JSON::JSON_LOADED
   require 'json'
@@ -163,7 +164,7 @@ def processDirectories(src, dest, date)
     source_item = File.join(src, item)
     destination_directory = File.join(dest, item)
     if File.file?(source_item)
-      puts "Coping file: " + source_item
+      puts "Copying file: " + source_item
       puts "to: " + destination_directory
       FileUtils.copy(source_item, dest)
     elsif File.directory?(source_item)
