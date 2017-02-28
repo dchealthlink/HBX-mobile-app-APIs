@@ -6,7 +6,8 @@ class EmployeeUtil < BaseUtil
 
   def initialize args={}
     super args
-    @employee_data = ::Sample.insured.take @total_employees
+    fixed_shuffler = Random.new(@employer_name.length)
+    @employee_data = ::Sample.insured.shuffle(random: fixed_shuffler).take @total_employees
   end
 
   @@roster_example_no = 0

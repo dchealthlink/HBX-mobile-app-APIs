@@ -2,14 +2,14 @@
   "employer_name": "Best Brau Brewing Company",
   "roster": [
     {
-      "first_name": "Sammy",
-      "middle_name": "R.",
-      "last_name": "Davis",
-      "name_suffix": "Jr.",
-      "date_of_birth": "1925-12-08",
-      "ssn_masked": "***-**-6789",
-      "gender": "male",
-      "hired_on": "2008-12-08",
+      "first_name": "Abigail",
+      "middle_name": "M.",
+      "last_name": "Yates",
+      "name_suffix": "PhD.",
+      "date_of_birth": "1975-12-08",
+      "ssn_masked": "***-**-6001",
+      "gender": "female",
+      "hired_on": "2008-10-08",
       "id": 500,
       "enrollments": [
         {
@@ -37,6 +37,54 @@
         }
       ],
       "is_business_owner": false,
+      "dependents": [
+        {
+          "first_name": "Kevin",
+          "middle_name": "R.",
+          "last_name": "Beckman",
+          "name_suffix": "X.",
+          "date_of_birth": "1985-08-07",
+          "ssn_masked": "***-**-7603",
+          "gender": "male"
+        }
+      ]
+    },
+    {
+      "first_name": "Sammy",
+      "middle_name": "R.",
+      "last_name": "Davis",
+      "name_suffix": "Jr.",
+      "date_of_birth": "1925-12-08",
+      "ssn_masked": "***-**-6789",
+      "gender": "male",
+      "hired_on": "2008-12-08",
+      "id": 501,
+      "enrollments": [
+        {
+          "start_on": "2016-04-01",
+          "health": {
+            "status": "Not Enrolled"
+          },
+          "dental": null
+        },
+        {
+          "start_on": "2017-04-01",
+          "health": {
+            "status": "Terminated",
+            "employer_contribution": 0.0,
+            "employee_cost": 0.0,
+            "total_premium": 0.0,
+            "plan_name": "KP DC Silver 2000/35",
+            "plan_type": "HMO",
+            "metal_level": "Silver",
+            "benefit_group_name": "FULL-TIME EMPLOYEES",
+            "terminated_on": "2017-02-28",
+            "terminate_reason": "I have coverage through an individual market health plan"
+          },
+          "dental": null
+        }
+      ],
+      "is_business_owner": true,
       "dependents": [
         {
           "first_name": "Tracey",
@@ -67,46 +115,6 @@
       "ssn_masked": "***-**-2000",
       "gender": "male",
       "hired_on": "2007-12-12",
-      "id": 501,
-      "enrollments": [
-        {
-          "start_on": "2016-04-01",
-          "health": {
-            "status": "Not Enrolled"
-          },
-          "dental": null
-        },
-        {
-          "start_on": "2017-04-01",
-          "health": {
-            "status": "Terminated",
-            "employer_contribution": 0.0,
-            "employee_cost": 0.0,
-            "total_premium": 0.0,
-            "plan_name": "KP DC Silver 2000/35",
-            "plan_type": "HMO",
-            "metal_level": "Silver",
-            "benefit_group_name": "FULL-TIME EMPLOYEES",
-            "terminated_on": "2017-02-28",
-            "terminate_reason": "I have coverage through an individual market health plan"
-          },
-          "dental": null
-        }
-      ],
-      "is_business_owner": true,
-      "dependents": [
-
-      ]
-    },
-    {
-      "first_name": "Dean",
-      "middle_name": "D.",
-      "last_name": "Martin",
-      "name_suffix": "Sr.",
-      "date_of_birth": "1917-06-07",
-      "ssn_masked": "***-**-4566",
-      "gender": "male",
-      "hired_on": "2012-03-03",
       "id": 502,
       "enrollments": [
         {
@@ -155,14 +163,14 @@
       ]
     },
     {
-      "first_name": "Abigail",
-      "middle_name": "M.",
-      "last_name": "Yates",
-      "name_suffix": "PhD.",
-      "date_of_birth": "1975-12-08",
-      "ssn_masked": "***-**-6001",
+      "first_name": "Patty",
+      "middle_name": "D.",
+      "last_name": "Tolan",
+      "name_suffix": "Cdtr",
+      "date_of_birth": "1987-06-06",
+      "ssn_masked": "***-**-4546",
       "gender": "female",
-      "hired_on": "2008-10-08",
+      "hired_on": "2015-04-03",
       "id": 503,
       "enrollments": [
         {
@@ -207,15 +215,7 @@
       ],
       "is_business_owner": false,
       "dependents": [
-        {
-          "first_name": "Kevin",
-          "middle_name": "R.",
-          "last_name": "Beckman",
-          "name_suffix": "X.",
-          "date_of_birth": "1985-08-07",
-          "ssn_masked": "***-**-7603",
-          "gender": "male"
-        }
+
       ]
     }
   ]
