@@ -8,14 +8,6 @@
   "gender": "female",
   "hired_on": "2008-10-08",
   "id": 901,
-  "employments": [
-    {
-      "employer_profile_id": "1034a475e41b070fd20001d5",
-      "employer_name": "Portia's Tea Bar ",
-      "hired_on": "2008-10-08",
-      "is_business_owner": true
-    }
-  ],
   "enrollments": [
     {
       "employer_profile_id": "1034a475e41b070fd20001d5",
@@ -26,7 +18,6 @@
       "dental": null
     }
   ],
-  "is_business_owner": true,
   "dependents": [
     {
       "first_name": "Kevin",
@@ -37,5 +28,14 @@
       "ssn_masked": "***-**-7603",
       "gender": "male"
     }
-  ]
+  ],
+  "employments": [
+    {
+      "employer_profile_id": "1034a475e41b070fd20001d5",
+      "employer_name": "Portia's Tea Bar ",
+      "hired_on": "2008-10-08",
+      "is_business_owner": true
+    }
+  ],
+  "is_business_owner": true
 }

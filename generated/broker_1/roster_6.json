@@ -52,10 +52,10 @@
           }
         }
       ],
-      "is_business_owner": false,
       "dependents": [
 
-      ]
+      ],
+      "is_business_owner": false
     },
     {
       "first_name": "Jillian",
@@ -92,10 +92,10 @@
           "dental": null
         }
       ],
-      "is_business_owner": true,
       "dependents": [
 
-      ]
+      ],
+      "is_business_owner": true
     },
     {
       "first_name": "Sammy",
@@ -132,7 +132,6 @@
           "dental": null
         }
       ],
-      "is_business_owner": false,
       "dependents": [
         {
           "first_name": "Tracey",
@@ -152,7 +151,8 @@
           "ssn_masked": "***-**-5505",
           "gender": "male"
         }
-      ]
+      ],
+      "is_business_owner": false
     }
   ]
 }

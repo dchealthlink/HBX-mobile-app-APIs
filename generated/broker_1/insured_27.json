@@ -8,14 +8,6 @@
   "gender": "male",
   "hired_on": "2008-12-08",
   "id": 501,
-  "employments": [
-    {
-      "employer_profile_id": "5834a475e41b070fd20001d6",
-      "employer_name": "Best Brau Brewing Company",
-      "hired_on": "2008-12-08",
-      "is_business_owner": true
-    }
-  ],
   "enrollments": [
     {
       "employer_profile_id": "5834a475e41b070fd20001d6",
@@ -47,7 +39,6 @@
       "dental": null
     }
   ],
-  "is_business_owner": true,
   "dependents": [
     {
       "first_name": "Tracey",
@@ -67,5 +58,14 @@
       "ssn_masked": "***-**-5505",
       "gender": "male"
     }
-  ]
+  ],
+  "employments": [
+    {
+      "employer_profile_id": "5834a475e41b070fd20001d6",
+      "employer_name": "Best Brau Brewing Company",
+      "hired_on": "2008-12-08",
+      "is_business_owner": true
+    }
+  ],
+  "is_business_owner": true
 }

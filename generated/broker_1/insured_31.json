@@ -8,14 +8,6 @@
   "gender": "female",
   "hired_on": "2009-11-12",
   "id": 601,
-  "employments": [
-    {
-      "employer_profile_id": "5834a475e41b070fd20001d7",
-      "employer_name": "Bistrot Du Monde",
-      "hired_on": "2009-11-12",
-      "is_business_owner": true
-    }
-  ],
   "enrollments": [
     {
       "employer_profile_id": "5834a475e41b070fd20001d7",
@@ -47,8 +39,16 @@
       "dental": null
     }
   ],
-  "is_business_owner": true,
   "dependents": [
 
-  ]
+  ],
+  "employments": [
+    {
+      "employer_profile_id": "5834a475e41b070fd20001d7",
+      "employer_name": "Bistrot Du Monde",
+      "hired_on": "2009-11-12",
+      "is_business_owner": true
+    }
+  ],
+  "is_business_owner": true
 }

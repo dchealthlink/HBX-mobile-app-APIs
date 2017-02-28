@@ -8,14 +8,6 @@
   "gender": "male",
   "hired_on": "2007-12-12",
   "id": 4,
-  "employments": [
-    {
-      "employer_profile_id": "5834a475e41b070fd20001d5",
-      "employer_name": "Courageous Consulting, LLC",
-      "hired_on": "2007-12-12",
-      "is_business_owner": false
-    }
-  ],
   "enrollments": [
     {
       "employer_profile_id": "5834a475e41b070fd20001d5",
@@ -47,8 +39,16 @@
       "dental": null
     }
   ],
-  "is_business_owner": false,
   "dependents": [
 
-  ]
+  ],
+  "employments": [
+    {
+      "employer_profile_id": "5834a475e41b070fd20001d5",
+      "employer_name": "Courageous Consulting, LLC",
+      "hired_on": "2007-12-12",
+      "is_business_owner": false
+    }
+  ],
+  "is_business_owner": false
 }

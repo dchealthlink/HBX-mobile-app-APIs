@@ -8,14 +8,6 @@
   "gender": "female",
   "hired_on": "2016-01-01",
   "id": 1,
-  "employments": [
-    {
-      "employer_profile_id": "5834a475e41b070fd20001d5",
-      "employer_name": "Courageous Consulting, LLC",
-      "hired_on": "2016-01-01",
-      "is_business_owner": true
-    }
-  ],
   "enrollments": [
     {
       "employer_profile_id": "5834a475e41b070fd20001d5",
@@ -71,8 +63,16 @@
       }
     }
   ],
-  "is_business_owner": true,
   "dependents": [
 
-  ]
+  ],
+  "employments": [
+    {
+      "employer_profile_id": "5834a475e41b070fd20001d5",
+      "employer_name": "Courageous Consulting, LLC",
+      "hired_on": "2016-01-01",
+      "is_business_owner": true
+    }
+  ],
+  "is_business_owner": true
 }

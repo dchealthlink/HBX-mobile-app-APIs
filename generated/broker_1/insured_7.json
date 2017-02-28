@@ -8,14 +8,6 @@
   "gender": "female",
   "hired_on": "2009-11-12",
   "id": 102,
-  "employments": [
-    {
-      "employer_profile_id": "6834a475e41b070fd20001d5",
-      "employer_name": "National Network to End Domestic Abuse",
-      "hired_on": "2009-11-12",
-      "is_business_owner": false
-    }
-  ],
   "enrollments": [
     {
       "employer_profile_id": "6834a475e41b070fd20001d5",
@@ -50,8 +42,16 @@
       }
     }
   ],
-  "is_business_owner": false,
   "dependents": [
 
-  ]
+  ],
+  "employments": [
+    {
+      "employer_profile_id": "6834a475e41b070fd20001d5",
+      "employer_name": "National Network to End Domestic Abuse",
+      "hired_on": "2009-11-12",
+      "is_business_owner": false
+    }
+  ],
+  "is_business_owner": false
 }

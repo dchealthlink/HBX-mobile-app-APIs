@@ -8,14 +8,6 @@
   "gender": "female",
   "hired_on": "2009-11-12",
   "id": 704,
-  "employments": [
-    {
-      "employer_profile_id": "5834a475e41b070fd20001d8",
-      "employer_name": "Bistrot Du Bois",
-      "hired_on": "2009-11-12",
-      "is_business_owner": false
-    }
-  ],
   "enrollments": [
     {
       "employer_profile_id": "5834a475e41b070fd20001d8",
@@ -71,8 +63,16 @@
       }
     }
   ],
-  "is_business_owner": false,
   "dependents": [
 
-  ]
+  ],
+  "employments": [
+    {
+      "employer_profile_id": "5834a475e41b070fd20001d8",
+      "employer_name": "Bistrot Du Bois",
+      "hired_on": "2009-11-12",
+      "is_business_owner": false
+    }
+  ],
+  "is_business_owner": false
 }

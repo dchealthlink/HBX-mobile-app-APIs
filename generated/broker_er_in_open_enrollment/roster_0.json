@@ -20,10 +20,10 @@
           "dental": null
         }
       ],
-      "is_business_owner": false,
       "dependents": [
 
-      ]
+      ],
+      "is_business_owner": false
     },
     {
       "first_name": "Dean",
@@ -53,10 +53,10 @@
           "dental": null
         }
       ],
-      "is_business_owner": true,
       "dependents": [
 
-      ]
+      ],
+      "is_business_owner": true
     },
     {
       "first_name": "Jillian",
@@ -93,10 +93,10 @@
           }
         }
       ],
-      "is_business_owner": false,
       "dependents": [
 
-      ]
+      ],
+      "is_business_owner": false
     },
     {
       "first_name": "Sammy",
@@ -126,7 +126,6 @@
           }
         }
       ],
-      "is_business_owner": false,
       "dependents": [
         {
           "first_name": "Tracey",
@@ -146,7 +145,8 @@
           "ssn_masked": "***-**-5505",
           "gender": "male"
         }
-      ]
+      ],
+      "is_business_owner": false
     },
     {
       "first_name": "Patty",
@@ -167,10 +167,10 @@
           "dental": null
         }
       ],
-      "is_business_owner": false,
       "dependents": [
 
-      ]
+      ],
+      "is_business_owner": false
     }
   ]
 }

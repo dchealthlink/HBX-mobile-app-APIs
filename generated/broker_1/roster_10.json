@@ -36,10 +36,10 @@
           }
         }
       ],
-      "is_business_owner": false,
       "dependents": [
 
-      ]
+      ],
+      "is_business_owner": false
     },
     {
       "first_name": "Frank",
@@ -69,10 +69,10 @@
           }
         }
       ],
-      "is_business_owner": true,
       "dependents": [
 
-      ]
+      ],
+      "is_business_owner": true
     },
     {
       "first_name": "Dean",
@@ -93,10 +93,10 @@
           "dental": null
         }
       ],
-      "is_business_owner": false,
       "dependents": [
 
-      ]
+      ],
+      "is_business_owner": false
     }
   ]
 }

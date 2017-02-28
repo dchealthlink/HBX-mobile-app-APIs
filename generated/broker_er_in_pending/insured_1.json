@@ -8,14 +8,6 @@
   "gender": "male",
   "hired_on": "2007-12-12",
   "id": 1,
-  "employments": [
-    {
-      "employer_profile_id": "1134a475e41b070fd20001d5",
-      "employer_name": "J.Grigory Food Trucks & Fine Comestibles",
-      "hired_on": "2007-12-12",
-      "is_business_owner": true
-    }
-  ],
   "enrollments": [
     {
       "employer_profile_id": "1134a475e41b070fd20001d5",
@@ -39,8 +31,16 @@
       }
     }
   ],
-  "is_business_owner": true,
   "dependents": [
 
-  ]
+  ],
+  "employments": [
+    {
+      "employer_profile_id": "1134a475e41b070fd20001d5",
+      "employer_name": "J.Grigory Food Trucks & Fine Comestibles",
+      "hired_on": "2007-12-12",
+      "is_business_owner": true
+    }
+  ],
+  "is_business_owner": true
 }

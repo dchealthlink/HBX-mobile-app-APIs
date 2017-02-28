@@ -39,27 +39,26 @@ class EmployeeUtil < BaseUtil
     {
         employer_name: @employer_name,
         roster: @employee_data.each_with_index.map do |e, index|
-          employee = create_person e.clone, index
-          insured = create_person e, index, false, employer_profile_id, employer_details
+          employee_id = (::EmployeeUtil.roster_example_no * 100 + index)
+          employee = create_employee e.clone, employee_id, index
+          insured = create_employee e, employee_id, index, employer_profile_id, employer_details
           InsuredUtil.create_insured_file root_directory, partial_path, insured
           employee
         end
     }
   end
 
-# def create_employee employer_profile_id=nil, employer_details=nil
-#   pers = create_person person, index, hired_on=true
-#   pers[:employments] = employments person.first, employer_profile_id, employer_details, index if employer_details
-#   pers[:is_business_owner] = is_business_owner(index) #if employee
-#   pers
-# end
-
-  def create_person person, index, employee=true, employer_profile_id=nil, employer_details=nil
-    pers = person_details person.first, true
-    pers[:id] = ::EmployeeUtil.roster_example_no * 100 + index
+  def create_employee person, employee_id, index, employer_profile_id=nil, employer_details=nil
+    pers = create_person person, employee_id, true, (enrollments index, employer_profile_id)
     pers[:employments] = employments person.first, employer_profile_id, employer_details, index if employer_details
-    pers[:enrollments] = enrollments index, employer_profile_id
-    pers[:is_business_owner] = is_business_owner(index) #if employee
+    pers[:is_business_owner] = is_business_owner(index) 
+    pers
+  end 
+
+  def create_person person, id, include_hired_on=true, enrollments=nil
+    pers = person_details person.first, include_hired_on
+    pers[:id] = id
+    pers[:enrollments] = enrollments
     pers[:dependents] = person.last.map { |d| person_details(d) }
     pers
   end

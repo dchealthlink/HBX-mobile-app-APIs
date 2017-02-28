@@ -8,14 +8,6 @@
   "gender": "male",
   "hired_on": "2008-12-08",
   "id": 602,
-  "employments": [
-    {
-      "employer_profile_id": "5834a475e41b070fd20001d7",
-      "employer_name": "Bistrot Du Monde",
-      "hired_on": "2008-12-08",
-      "is_business_owner": false
-    }
-  ],
   "enrollments": [
     {
       "employer_profile_id": "5834a475e41b070fd20001d7",
@@ -47,7 +39,6 @@
       "dental": null
     }
   ],
-  "is_business_owner": false,
   "dependents": [
     {
       "first_name": "Tracey",
@@ -67,5 +58,14 @@
       "ssn_masked": "***-**-5505",
       "gender": "male"
     }
-  ]
+  ],
+  "employments": [
+    {
+      "employer_profile_id": "5834a475e41b070fd20001d7",
+      "employer_name": "Bistrot Du Monde",
+      "hired_on": "2008-12-08",
+      "is_business_owner": false
+    }
+  ],
+  "is_business_owner": false
 }

@@ -8,14 +8,6 @@
   "gender": "male",
   "hired_on": "2008-12-08",
   "id": 305,
-  "employments": [
-    {
-      "employer_profile_id": "8834a475e41b070fd20001d5",
-      "employer_name": "DC Cupcakes",
-      "hired_on": "2008-12-08",
-      "is_business_owner": false
-    }
-  ],
   "enrollments": [
     {
       "employer_profile_id": "8834a475e41b070fd20001d5",
@@ -71,7 +63,6 @@
       }
     }
   ],
-  "is_business_owner": false,
   "dependents": [
     {
       "first_name": "Tracey",
@@ -91,5 +82,14 @@
       "ssn_masked": "***-**-5505",
       "gender": "male"
     }
-  ]
+  ],
+  "employments": [
+    {
+      "employer_profile_id": "8834a475e41b070fd20001d5",
+      "employer_name": "DC Cupcakes",
+      "hired_on": "2008-12-08",
+      "is_business_owner": false
+    }
+  ],
+  "is_business_owner": false
 }

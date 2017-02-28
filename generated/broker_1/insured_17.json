@@ -8,14 +8,6 @@
   "gender": "female",
   "hired_on": "2016-01-01",
   "id": 303,
-  "employments": [
-    {
-      "employer_profile_id": "8834a475e41b070fd20001d5",
-      "employer_name": "DC Cupcakes",
-      "hired_on": "2016-01-01",
-      "is_business_owner": false
-    }
-  ],
   "enrollments": [
     {
       "employer_profile_id": "8834a475e41b070fd20001d5",
@@ -47,8 +39,16 @@
       "dental": null
     }
   ],
-  "is_business_owner": false,
   "dependents": [
 
-  ]
+  ],
+  "employments": [
+    {
+      "employer_profile_id": "8834a475e41b070fd20001d5",
+      "employer_name": "DC Cupcakes",
+      "hired_on": "2016-01-01",
+      "is_business_owner": false
+    }
+  ],
+  "is_business_owner": false
 }
