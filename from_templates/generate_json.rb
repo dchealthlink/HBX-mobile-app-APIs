@@ -184,7 +184,7 @@ def processDirectories(src, dest, date)
 end
 
 
-@commandLine = "gettestdata.rb <src dir> <dest dir> <optional gen date>"
+@commandLine = "generate_json.rb <src dir> <dest dir> <optional gen date>"
 
 if ARGV.length < 2 || ARGV.length > 3
   puts @commandLine

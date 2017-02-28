@@ -1,18 +1,17 @@
 {
-  "brokers": [
-    { "broker_1" : { "broker_endpoint": "broker_details.json'"}
-    "broker_empty",
-    "broker_er_roster_empty",
-    "broker_er_in_pending",
-    "broker_er_in_open_enrollment"
-  ],
-  "employers": [
-    "er_roster_empty",
-    "er_in_open_enrollment",
-    "er_in_pending"
-  ],
-  "insured":  [
-    "employee",
-    "individual_aptc",
-    "individual_
+    "broker_1"                     : { "broker_endpoint": "broker_details.json'"},
+    "broker_empty"                 : { "broker_endpoint": "broker_details.json'"},
+    "broker_er_roster_empty"       : { "broker_endpoint": "broker_details.json'"},
+    "broker_er_in_pending"         : { "broker_endpoint": "broker_details.json'"},
+    "broker_er_in_open_enrollment" : { "broker_endpoint": "broker_details.json'"},
+    "er_roster_empty"              : { "employer_details_endpoint_path": "employer_details.json",
+                                       "employee_roster_endpoint_path": "roster.json"},
+    "er_in_open_enrollment"        : { "employer_details_endpoint_path": "employer_details.json",
+                                       "employee_roster_endpoint_path": "roster.json"},
+    "er_in_pending"                : { "employer_details_endpoint_path": "employer_details.json",
+                                       "employee_roster_endpoint_path": "roster.json"},
+    "employee"                     : { "individual_endpoint_path": "insured.json" },
+    "individual_aptc"              : { "individual_endpoint_path": "insured.json" },
+    "individual_medicaid"          : { "individual_endpoint_path": "insured.json" },
+    "individual_uqhp"              : { "individual_endpoint_path": "insured.json" }
 }
