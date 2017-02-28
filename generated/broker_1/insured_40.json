@@ -1,17 +1,17 @@
 {
-  "first_name": "Patty",
-  "middle_name": "D.",
-  "last_name": "Tolan",
-  "name_suffix": "Cdtr",
-  "date_of_birth": "1987-06-06",
-  "ssn_masked": "***-**-4546",
+  "first_name": "Abigail",
+  "middle_name": "M.",
+  "last_name": "Yates",
+  "name_suffix": "PhD.",
+  "date_of_birth": "1975-12-08",
+  "ssn_masked": "***-**-6001",
   "gender": "female",
   "id": 801,
   "employments": [
     {
       "employer_profile_id": "5834a475e41b070fd20001d9",
       "employer_name": "Strategy & Tactics Game Shop",
-      "hired_on": "2015-04-03",
+      "hired_on": "2008-10-08",
       "is_business_owner": true
     }
   ],
@@ -39,6 +39,14 @@
     }
   ],
   "dependents": [
-
+    {
+      "first_name": "Kevin",
+      "middle_name": "R.",
+      "last_name": "Beckman",
+      "name_suffix": "X.",
+      "date_of_birth": "1985-08-07",
+      "ssn_masked": "***-**-7603",
+      "gender": "male"
+    }
   ]
 }
