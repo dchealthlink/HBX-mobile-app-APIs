@@ -27,4 +27,12 @@ class InsuredUtil < BaseUtil
 
   end
 
+  def create_person person, id, include_hired_on=true, enrollments=nil
+    pers = person_details person.first, include_hired_on
+    pers[:id] = id
+    pers[:enrollments] = enrollments
+    pers[:dependents] = person.last.map { |d| person_details(d) }
+    pers
+  end
+
 end
