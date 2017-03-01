@@ -50,7 +50,7 @@ class EmployeeUtil < BaseUtil
 
   def create_employee person, employee_id, index, employer_profile_id=nil, employer_details=nil
     pers = create_person person, employee_id, true, (enrollments index, employer_profile_id)
-    pers[:employments] = employments person.first, employer_profile_id, employer_details, index if employer_details
+    pers[:employments] = employments person.first, employer_profile_id, employer_details[:employer_name], index if employer_details
     pers[:is_business_owner] = is_business_owner(index) 
     pers
   end 
@@ -67,10 +67,10 @@ class EmployeeUtil < BaseUtil
     index == 1
   end
 
-  def employments person, employer_profile_id, employer_details, index
+  def employments person, employer_profile_id, employer_name, index
     [
         employer_profile_id: employer_profile_id,
-        employer_name: employer_details[:employer_name],
+        employer_name: employer_name,
         hired_on: person.split.last,
         is_business_owner: is_business_owner(index)
     ]

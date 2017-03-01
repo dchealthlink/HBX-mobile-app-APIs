@@ -13,7 +13,7 @@
       "id": 700,
       "enrollments": [
         {
-          "start_on": "2016-05-01",
+          "start_on": "2016-06-01",
           "health": {
             "status": "Terminated",
             "employer_contribution": 0.0,
@@ -23,13 +23,13 @@
             "plan_type": "HMO",
             "metal_level": "Silver",
             "benefit_group_name": "PART-TIME EMPLOYEES",
-            "terminated_on": "2017-02-28",
+            "terminated_on": "2017-03-01",
             "terminate_reason": "I have coverage through an individual market health plan"
           },
           "dental": null
         },
         {
-          "start_on": "2017-05-01",
+          "start_on": "2017-06-01",
           "health": {
             "status": "Enrolled",
             "employer_contribution": 1419.44,
@@ -77,7 +77,7 @@
       "id": 701,
       "enrollments": [
         {
-          "start_on": "2016-05-01",
+          "start_on": "2016-06-01",
           "health": {
             "status": "Enrolled",
             "employer_contribution": 1419.44,
@@ -100,7 +100,7 @@
           }
         },
         {
-          "start_on": "2017-05-01",
+          "start_on": "2017-06-01",
           "health": {
             "status": "Waived",
             "employer_contribution": 0.0,
@@ -133,7 +133,7 @@
       "id": 702,
       "enrollments": [
         {
-          "start_on": "2016-05-01",
+          "start_on": "2016-06-01",
           "health": {
             "status": "Waived",
             "employer_contribution": 0.0,
@@ -149,7 +149,7 @@
           }
         },
         {
-          "start_on": "2017-05-01",
+          "start_on": "2017-06-01",
           "health": {
             "status": "Not Enrolled"
           },
@@ -173,14 +173,14 @@
       "id": 703,
       "enrollments": [
         {
-          "start_on": "2016-05-01",
+          "start_on": "2016-06-01",
           "health": {
             "status": "Not Enrolled"
           },
           "dental": null
         },
         {
-          "start_on": "2017-05-01",
+          "start_on": "2017-06-01",
           "health": {
             "status": "Terminated",
             "employer_contribution": 0.0,
@@ -190,7 +190,7 @@
             "plan_type": "HMO",
             "metal_level": "Silver",
             "benefit_group_name": "PART-TIME EMPLOYEES",
-            "terminated_on": "2017-02-28",
+            "terminated_on": "2017-03-01",
             "terminate_reason": "I have coverage through an individual market health plan"
           },
           "dental": null
@@ -213,7 +213,7 @@
       "id": 704,
       "enrollments": [
         {
-          "start_on": "2016-05-01",
+          "start_on": "2016-06-01",
           "health": {
             "status": "Terminated",
             "employer_contribution": 0.0,
@@ -223,13 +223,13 @@
             "plan_type": "HMO",
             "metal_level": "Silver",
             "benefit_group_name": "PART-TIME EMPLOYEES",
-            "terminated_on": "2017-02-28",
+            "terminated_on": "2017-03-01",
             "terminate_reason": "I have coverage through an individual market health plan"
           },
           "dental": null
         },
         {
-          "start_on": "2017-05-01",
+          "start_on": "2017-06-01",
           "health": {
             "status": "Enrolled",
             "employer_contribution": 1419.44,
@@ -269,7 +269,7 @@
       "id": 705,
       "enrollments": [
         {
-          "start_on": "2016-05-01",
+          "start_on": "2016-06-01",
           "health": {
             "status": "Enrolled",
             "employer_contribution": 1419.44,
@@ -292,7 +292,7 @@
           }
         },
         {
-          "start_on": "2017-05-01",
+          "start_on": "2017-06-01",
           "health": {
             "status": "Waived",
             "employer_contribution": 0.0,
