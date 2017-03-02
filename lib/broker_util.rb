@@ -45,7 +45,7 @@ class BrokerUtil < BaseUtil
     employer_util = ::EmployerUtil.new details: employer_details, plan_years: plan_years, total_employees: total_employees
     employer_util.add_plan_details
 
-    employee_util = ::EmployeeUtil.new coverage_options: coverage_options, employer_name: employer_name, 
+    employee_util = ::EmployeeUtil.new employer_name: employer_name, 
                                        enrolled: enrolled, plan_years: plan_years,
                                        total_employees: total_employees, waived: waived
     roster = employee_util.add_roster @use_case_directory, @partial_path, employer_details, employer_id
@@ -55,13 +55,6 @@ class BrokerUtil < BaseUtil
 
   def total_employees employer_name
     @total_employees = 3 + (employer_name.length % 4)
-  end
-
-  def coverage_options
-    {
-        health: ['Enrolled', 'Waived', 'Not Enrolled', 'Terminated'],
-        dental: ['Enrolled', 'Not Enrolled', nil, nil]
-    }
   end
 
   def summary_details employer_name, total_employees

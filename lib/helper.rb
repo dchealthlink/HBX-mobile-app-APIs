@@ -9,11 +9,16 @@ module Helper
     def create_directory path
       FileUtils.rm_rf(Dir.glob("#{path}/*"))
       FileUtils.mkdir_p(path) unless File.directory?(path)
+      path
     end
 
     def broker_endpoint_filename
       "broker_details.json"
     end 
+
+    def insured_endpoint_filename
+      "insured.json"
+    end
 
     #TODO what this should really do is parse the existing accounts.json and add to it those
     # things we're actually generating, but for now we'll do this but then manually merge the files
@@ -29,7 +34,7 @@ module Helper
       end
 
       insureds = [Scenarios::EMPLOYEE, Scenarios::INDIVIDUAL_APTC].map do |use_case|
-        { use_case => { individual_endpoint_path: "insured.json" } }
+        { use_case => { individual_endpoint_path: insured_endpoint_filename } }
       end
 
       brokers + employers + insureds
@@ -140,6 +145,13 @@ module Helper
 
   def cost contrib, status, total_employees
     (status == 'Enrolled') ? (contrib / total_employees).round(2) : 0.0
+  end
+
+  def coverage_options
+    {
+        health: ['Enrolled', 'Waived', 'Not Enrolled', 'Terminated'],
+        dental: ['Enrolled', 'Not Enrolled', nil, nil]
+    }
   end
 
 end

@@ -4,11 +4,21 @@ require_relative 'insured_util'
 class EmployeeUtil < InsuredUtil
   include Helper
 
-  def initialize args={}
-    super args
+  def employee_data
     fixed_shuffler = Random.new(@employer_name.length)
-    @employee_data = ::Sample.insured.shuffle(random: fixed_shuffler).take @total_employees
+    ::Sample.insured.shuffle(random: fixed_shuffler).take @total_employees
   end
+
+  def set_employer_values employer_name, employer_profile_id, total_employees, enrolled, waived, plan_years, contacts 
+     @employer_name = employer_name
+     @employer_profile_id = employer_profile_id
+     @total_employees = total_employees
+     @plan_years = plan_years
+     @contacts = contacts
+     @enrolled = enrolled
+     @waived = waived
+  end
+
 
   @@roster_example_no = 0
 
@@ -37,21 +47,15 @@ class EmployeeUtil < InsuredUtil
   def add_roster root_directory, partial_path, employer_details, employer_profile_id
     {
         employer_name: @employer_name,
-        roster: @employee_data.each_with_index.map do |e, index|
+        roster: employee_data.each_with_index.map do |e, index|
           employee_id = (::EmployeeUtil.roster_example_no * 100 + index)
-          
-          #TODO REMOVE
-          insured = create_employee e, employee_id, index, employer_profile_id, employer_details[:employer_name]
-          InsuredUtil.create_insured_file root_directory, partial_path, insured
-          #TODO END REMOVE  
-
           create_employee e.clone, employee_id, index
         end
     }
   end
 
-  def create_single_employee root_directory, partial_path
-      create_employee @employee_data.first, 0, 1, @employer_profile_id, @employer_name
+  def create_single_employee 
+      create_employee employee_data.first, 0, 1, @employer_profile_id, @employer_name
   end      
 
   def create_employee person, employee_id, index, employer_profile_id=nil, employer_name=nil
@@ -88,9 +92,9 @@ class EmployeeUtil < InsuredUtil
     @plan_years.each_with_index.map do |py, py_index|
       start_on = fmt py.plan_year_begins
       year_enrollment = enrollment_hash employer_id, start_on
-      @coverage_options.keys.each do |coverage_kind|
-        which = (index + py_index + @employer_name.length) % @coverage_options[:health].length
-        status = @coverage_options[coverage_kind][which]
+      coverage_options.keys.each do |coverage_kind|
+        which = (index + py_index + @employer_name.length) % coverage_options[:health].length
+        status = coverage_options[coverage_kind][which]
         year_enrollment[coverage_kind] = enrollment_for(status,
                                                         @total_employees,
                                                         er_contrib(@enrolled, @waived),
@@ -120,6 +124,13 @@ class EmployeeUtil < InsuredUtil
 
   def ee_contrib enrolled, waived
     (enrolled * 425.00 * ((waived + 1) ** 0.2)).round(2)
+  end
+
+   def coverage_options
+    {
+        health: ['Enrolled', 'Waived', 'Not Enrolled', 'Terminated'],
+        dental: ['Enrolled', 'Not Enrolled', nil, nil]
+    }
   end
 
 end

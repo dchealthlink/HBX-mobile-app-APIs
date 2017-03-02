@@ -6,7 +6,6 @@ class InsuredUtil < BaseUtil
   @@insured_example_no = 0
 
   def target_path
-    print "the InsuredUtil use case directory is [#{@use_case_directory}]"
     "#{@use_case_directory}/#{::Helper.insured_endpoint_filename}"
   end
 
