@@ -47,9 +47,9 @@ class Scenarios < BaseUtil
 
 # Create employee insured
     def create_employee
-      insured_util EMPLOYEE do |employee|
+      employee_util EMPLOYEE do |employee_util|
         reset_count
-        #write_json insured_util.
+        write_json employee_util.create_single_employee, employee_util 
       end
     end
 
@@ -66,12 +66,31 @@ class Scenarios < BaseUtil
       EmployeeUtil.roster_example_no = EmployerUtil.details_example_no = InsuredUtil.insured_example_no = 0
     end
 
+#    def create_directory use_case_dir
+#      puts "# Creating #{use_case_dir}"
+#      Helper::create_directory "#{$ROOT_DIRECTORY}/#{use_case_dir}"
+#    end
+#    def broker_util use_case_dir
+#      yield BrokerUtil.new use_case_directory: (create_directory use_case_dir), partial_path: "#{$GENERATED_DIR}/#{use_case_dir}"
+#    end
+
     def broker_util use_case_dir
       puts "# Creating #{use_case_dir}"
       full_path = "#{$ROOT_DIRECTORY}/#{use_case_dir}"
       Helper::create_directory full_path
       yield BrokerUtil.new use_case_directory: full_path, partial_path: "#{$GENERATED_DIR}/#{use_case_dir}"
     end
+
+    def employee_util use_case_dir
+      puts "# Creating #{use_case_dir}"
+      full_path = "#{$ROOT_DIRECTORY}/#{use_case_dir}"
+      Helper::create_directory full_path
+      yield EmployeeUtil.new use_case_directory: full_path, partial_path: "#{$GENERATED_DIR}/#{use_case_dir}", employer_name: "ACME Industries Inc.", employer_profile_id: 80908, total_employees: 1
+    end
+
+  #  def employee_util use_case_dir
+  #    yield EmployeeUtil.new use_case_directory: (create_directory use_case_dir), partial_path: "#{$GENERATED_DIR}/##{use_case_dir}", employer_name: "ACME Industries Inc.", employer_profile_id: 80908, total_employees: 1
+  #  end
 
     def write_json content, util=nil, override_dir=nil, override_filename=nil
       util ? Helper::write_json(content, "#{util.target_path}") :

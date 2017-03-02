@@ -1,7 +1,7 @@
 require_relative 'base_util'
 require_relative 'insured_util'
 
-class IndividualUtil < BaseUtil
+class IndividualUtil < InsuredUtil
   include Helper
 
   

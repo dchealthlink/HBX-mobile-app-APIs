@@ -1,7 +1,7 @@
 require_relative 'base_util'
 require_relative 'insured_util'
 
-class EmployeeUtil < BaseUtil
+class EmployeeUtil < InsuredUtil
   include Helper
 
   def initialize args={}
@@ -32,11 +32,6 @@ class EmployeeUtil < BaseUtil
       "#{root_directory}/roster_#{@@roster_example_no}.json"
     end
 
-    def create_single_employee_of employee_id, root_directory, partial_path, employer_profile_id, employer_name
-      util = EmployeeUtil.new(employer_name: employer_name, employer_profile_id: employer_profile_id, 
-        total_employees: 1)
-      util.create_single_employee root_directory, partial_path
-    end
   end
 
   def add_roster root_directory, partial_path, employer_details, employer_profile_id
@@ -56,8 +51,7 @@ class EmployeeUtil < BaseUtil
   end
 
   def create_single_employee root_directory, partial_path
-      insured = create_employee @employee_data.first, @@insured_example_no, 1, @employer_profile_id, @employer_name
-      InsuredUtil.create_insured_file root_directory, partial_path, insured
+      create_employee @employee_data.first, 0, 1, @employer_profile_id, @employer_name
   end      
 
   def create_employee person, employee_id, index, employer_profile_id=nil, employer_name=nil
