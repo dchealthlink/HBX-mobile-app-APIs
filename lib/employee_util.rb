@@ -67,14 +67,6 @@ class EmployeeUtil < InsuredUtil
     pers
   end 
 
-  def create_person person, id, include_hired_on=true, enrollments=nil
-    pers = person_details person.first, include_hired_on
-    pers[:id] = id
-    pers[:enrollments] = enrollments
-    pers[:dependents] = person.last.map { |d| person_details(d) }
-    pers
-  end
-
   def is_business_owner index
     index == 1
   end
@@ -126,11 +118,5 @@ class EmployeeUtil < InsuredUtil
     (enrolled * 425.00 * ((waived + 1) ** 0.2)).round(2)
   end
 
-   def coverage_options
-    {
-        health: ['Enrolled', 'Waived', 'Not Enrolled', 'Terminated'],
-        dental: ['Enrolled', 'Not Enrolled', nil, nil]
-    }
-  end
 
 end

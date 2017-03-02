@@ -39,4 +39,11 @@ class InsuredUtil < BaseUtil
     pers
   end
 
+  def coverage_options
+    {
+        health: ['Enrolled', 'Waived', 'Not Enrolled', 'Terminated'],
+        dental: ['Enrolled', 'Not Enrolled', nil, nil]
+    }
+  end
+
 end
