@@ -1,5 +1,7 @@
 class BaseUtil
 
+  attr_accessor :use_case_directory
+
   def initialize args={}
     args.each do |k, v|
       instance_variable_set("@#{k}", v) unless v.nil?

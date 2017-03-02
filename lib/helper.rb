@@ -11,12 +11,16 @@ module Helper
       FileUtils.mkdir_p(path) unless File.directory?(path)
     end
 
+    def broker_endpoint_filename
+      "broker_details.json"
+    end 
+
     #TODO what this should really do is parse the existing accounts.json and add to it those
     # things we're actually generating, but for now we'll do this but then manually merge the files
     def account_json
       brokers = [Scenarios::BROKER_1, Scenarios::BROKER_EMPTY, Scenarios::BROKER_ROSTER_EMPTY, Scenarios::BROKER_IN_PENDING, Scenarios::BROKER_IN_OE
       ].map do |use_case|
-        { use_case => { broker_endpoint: "broker.details.json"}}
+        { use_case => { broker_endpoint: broker_endpoint_filename}}
       end
 
       employers = %w{er_roster_empty er_in_open_enrollment er_in_pending}.map do |use_case|
@@ -24,11 +28,11 @@ module Helper
                         employee_roster_endpoint_path: "roster.json"} }
       end
 
-      individuals = [Scenarios::EMPLOYEE, Scenarios::INDIVIDUAL_APTC].map do |use_case|
+      insureds = [Scenarios::EMPLOYEE, Scenarios::INDIVIDUAL_APTC].map do |use_case|
         { use_case => { individual_endpoint_path: "insured.json" } }
       end
 
-      brokers + employers + individuals
+      brokers + employers + insureds
     end
 
     def staffer first: 'John', last: 'Doe', phone: '202-468-6571', mobile: '202-468-6571', email: 'john.doe@example.com'

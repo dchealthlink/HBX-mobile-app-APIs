@@ -4,7 +4,10 @@ require_relative 'data/sample'
 
 class BrokerUtil < BaseUtil
   include Helper
-  attr_accessor :broker_directory
+
+  def target_path
+    "#{@use_case_directory}/#{::Helper.broker_endpoint_filename}"
+  end
 
   def create_broker
     ::Sample.broker_basics.merge(
@@ -45,7 +48,7 @@ class BrokerUtil < BaseUtil
     employee_util = ::EmployeeUtil.new coverage_options: coverage_options, employer_name: employer_name, 
                                        enrolled: enrolled, plan_years: plan_years,
                                        total_employees: total_employees, waived: waived
-    roster = employee_util.add_roster @broker_directory, @partial_path, employer_details, employer_id
+    roster = employee_util.add_roster @use_case_directory, @partial_path, employer_details, employer_id
     add_to_summary contacts, employer_util, plan_years, roster, summary, total_employees
     summary
   end
@@ -74,8 +77,8 @@ class BrokerUtil < BaseUtil
     summary[:employees_total] = total_employees
     add_plan_years plan_years, roster, summary, total_employees
 
-    summary[:employer_details_url] = ::EmployerUtil.create_employer_details_file @broker_directory, @partial_path, employer_util.details
-    summary[:employee_roster_url] = ::EmployeeUtil.create_employee_roster_file @broker_directory, @partial_path, roster
+    summary[:employer_details_url] = ::EmployerUtil.create_employer_details_file @use_case_directory, @partial_path, employer_util.details
+    summary[:employee_roster_url] = ::EmployeeUtil.create_employee_roster_file @use_case_directory, @partial_path, roster
     summary[:contact_info] = contacts
   end
 

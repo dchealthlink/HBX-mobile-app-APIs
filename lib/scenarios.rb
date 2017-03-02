@@ -66,15 +66,15 @@ class Scenarios < BaseUtil
       EmployeeUtil.roster_example_no = EmployerUtil.details_example_no = InsuredUtil.insured_example_no = 0
     end
 
-    def broker_util broker_dir
-      puts "# Creating #{broker_dir}"
-      full_path = "#{$ROOT_DIRECTORY}/#{broker_dir}"
+    def broker_util use_case_dir
+      puts "# Creating #{use_case_dir}"
+      full_path = "#{$ROOT_DIRECTORY}/#{use_case_dir}"
       Helper::create_directory full_path
-      yield BrokerUtil.new broker_directory: full_path, partial_path: "#{$GENERATED_DIR}/#{broker_dir}"
+      yield BrokerUtil.new use_case_directory: full_path, partial_path: "#{$GENERATED_DIR}/#{use_case_dir}"
     end
 
-    def write_json content, broker_util=nil, override_dir=nil, override_filename=nil
-      broker_util ? Helper::write_json(content, "#{broker_util.broker_directory}/#{$BROKER_FILE_NAME}") :
+    def write_json content, util=nil, override_dir=nil, override_filename=nil
+      util ? Helper::write_json(content, "#{util.target_path}") :
           Helper::write_json(content, "#{override_dir}/#{override_filename}", true)
     end
 

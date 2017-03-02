@@ -31,26 +31,40 @@ class EmployeeUtil < BaseUtil
     def roster_path root_directory
       "#{root_directory}/roster_#{@@roster_example_no}.json"
     end
+
+    def create_single_employee_of employee_id, root_directory, partial_path, employer_profile_id, employer_name
+      util = EmployeeUtil.new(employer_name: employer_name, employer_profile_id: employer_profile_id, 
+        total_employees: 1)
+      util.create_single_employee root_directory, partial_path
+    end
   end
-
-
 
   def add_roster root_directory, partial_path, employer_details, employer_profile_id
     {
         employer_name: @employer_name,
         roster: @employee_data.each_with_index.map do |e, index|
           employee_id = (::EmployeeUtil.roster_example_no * 100 + index)
-          employee = create_employee e.clone, employee_id, index
-          insured = create_employee e, employee_id, index, employer_profile_id, employer_details
+          
+          #TODO REMOVE
+          insured = create_employee e, employee_id, index, employer_profile_id, employer_details[:employer_name]
           InsuredUtil.create_insured_file root_directory, partial_path, insured
-          employee
+          #TODO END REMOVE  
+
+          create_employee e.clone, employee_id, index
         end
     }
   end
 
-  def create_employee person, employee_id, index, employer_profile_id=nil, employer_details=nil
+  def create_single_employee root_directory, partial_path
+      insured = create_employee @employee_data.first, @@insured_example_no, 1, @employer_profile_id, @employer_name
+      InsuredUtil.create_insured_file root_directory, partial_path, insured
+  end      
+
+  def create_employee person, employee_id, index, employer_profile_id=nil, employer_name=nil
     pers = create_person person, employee_id, true, (enrollments index, employer_profile_id)
-    pers[:employments] = employments person.first, employer_profile_id, employer_details[:employer_name], index if employer_details
+    if employer_name && employer_profile_id
+      pers[:employments] = employments person.first, employer_profile_id, employer_name, index
+    end
     pers[:is_business_owner] = is_business_owner(index) 
     pers
   end 

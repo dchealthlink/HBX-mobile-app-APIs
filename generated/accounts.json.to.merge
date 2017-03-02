@@ -1,27 +1,27 @@
 [
   {
     "broker_1": {
-      "broker_endpoint": "broker.details.json"
+      "broker_endpoint": "broker_details.json"
     }
   },
   {
     "broker_empty": {
-      "broker_endpoint": "broker.details.json"
+      "broker_endpoint": "broker_details.json"
     }
   },
   {
     "broker_er_roster_empty": {
-      "broker_endpoint": "broker.details.json"
+      "broker_endpoint": "broker_details.json"
     }
   },
   {
     "broker_er_in_pending": {
-      "broker_endpoint": "broker.details.json"
+      "broker_endpoint": "broker_details.json"
     }
   },
   {
     "broker_er_in_open_enrollment": {
-      "broker_endpoint": "broker.details.json"
+      "broker_endpoint": "broker_details.json"
     }
   },
   {
