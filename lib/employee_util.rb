@@ -5,8 +5,7 @@ class EmployeeUtil < InsuredUtil
   include Helper
 
   def employee_data
-    fixed_shuffler = Random.new(@employer_name.length)
-    ::Sample.insured.shuffle(random: fixed_shuffler).take @total_employees
+    shuffled(::Sample.insured).take @total_employees
   end
 
   def set_employer_values employer_name, employer_profile_id, total_employees, enrolled, waived, plan_years, contacts 
@@ -44,7 +43,7 @@ class EmployeeUtil < InsuredUtil
 
   end
 
-  def add_roster root_directory, partial_path, employer_details, employer_profile_id
+  def add_roster employer_details, employer_profile_id
     {
         employer_name: @employer_name,
         roster: employee_data.each_with_index.map do |e, index|

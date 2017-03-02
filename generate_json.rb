@@ -8,6 +8,7 @@ require_relative 'lib/helper'
 require_relative 'lib/plan_year'
 require_relative 'lib/date'
 require_relative 'lib/broker_util'
+require_relative 'lib/individual_util'
 require_relative 'lib/scenarios'
 
 branch = ARGV[0] || 'master'
@@ -22,4 +23,5 @@ Scenarios.create_empty_broker
 Scenarios.create_broker_er_in_open_enrollment
 Scenarios.create_broker_er_in_pending
 Scenarios.create_employee
+Scenarios.create_individual_uqhp
 Scenarios.create_individual_aptc

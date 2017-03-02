@@ -33,7 +33,7 @@ module Helper
                         employee_roster_endpoint_path: "roster.json"} }
       end
 
-      insureds = [Scenarios::EMPLOYEE, Scenarios::INDIVIDUAL_APTC].map do |use_case|
+      insureds = [Scenarios::EMPLOYEE, Scenarios::INDIVIDUAL_UQHP].map do |use_case|
         { use_case => { individual_endpoint_path: insured_endpoint_filename } }
       end
 
@@ -145,13 +145,6 @@ module Helper
 
   def cost contrib, status, total_employees
     (status == 'Enrolled') ? (contrib / total_employees).round(2) : 0.0
-  end
-
-  def coverage_options
-    {
-        health: ['Enrolled', 'Waived', 'Not Enrolled', 'Terminated'],
-        dental: ['Enrolled', 'Not Enrolled', nil, nil]
-    }
   end
 
 end

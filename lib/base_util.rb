@@ -8,6 +8,18 @@ class BaseUtil
     end
   end
 
+  def fixed_shuffler
+    Random.new(@use_case_directory.length)
+  end
+
+  def shuffled list
+    list.shuffle(random: fixed_shuffler)
+  end
+
+  def pick_from list
+    shuffled(list).first
+  end
+
   #
   # Protected
   #
