@@ -4,7 +4,10 @@ require_relative 'data/sample'
 
 class BrokerUtil < BaseUtil
   include Helper
-  attr_accessor :broker_directory
+
+  def target_path
+    "#{@use_case_directory}/#{::Helper.broker_endpoint_filename}"
+  end
 
   def create_broker
     ::Sample.broker_basics.merge(
@@ -42,25 +45,17 @@ class BrokerUtil < BaseUtil
     employer_util = ::EmployerUtil.new details: employer_details, plan_years: plan_years, total_employees: total_employees
     employer_util.add_plan_details
 
-    employee_data = ::Sample.employee.take total_employees
-
-    employee_util = ::EmployeeUtil.new coverage_options: coverage_options, employee_data: employee_data,
-                                       employer_name: employer_name, enrolled: enrolled, plan_years: plan_years,
+    employee_util = ::EmployeeUtil.new use_case_directory: @use_case_directory,
+                                       employer_name: employer_name, 
+                                       enrolled: enrolled, plan_years: plan_years,
                                        total_employees: total_employees, waived: waived
-    roster = employee_util.add_roster @broker_directory, @partial_path, employer_details, employer_id
+    roster = employee_util.add_roster employer_details, employer_id
     add_to_summary contacts, employer_util, plan_years, roster, summary, total_employees
     summary
   end
 
   def total_employees employer_name
     @total_employees = 3 + (employer_name.length % 4)
-  end
-
-  def coverage_options
-    {
-        health: ['Enrolled', 'Waived', 'Not Enrolled', 'Terminated'],
-        dental: ['Enrolled', 'Not Enrolled', nil, nil]
-    }
   end
 
   def summary_details employer_name, total_employees
@@ -76,8 +71,8 @@ class BrokerUtil < BaseUtil
     summary[:employees_total] = total_employees
     add_plan_years plan_years, roster, summary, total_employees
 
-    summary[:employer_details_url] = ::EmployerUtil.create_employer_details_file @broker_directory, @partial_path, employer_util.details
-    summary[:employee_roster_url] = ::EmployeeUtil.create_employee_roster_file @broker_directory, @partial_path, roster
+    summary[:employer_details_url] = ::EmployerUtil.create_employer_details_file @use_case_directory, @partial_path, employer_util.details
+    summary[:employee_roster_url] = ::EmployeeUtil.create_employee_roster_file @use_case_directory, @partial_path, roster
     summary[:contact_info] = contacts
   end
 

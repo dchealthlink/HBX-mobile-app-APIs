@@ -1,8 +1,23 @@
 require_relative 'base_util'
-require_relative 'individual_util'
+require_relative 'insured_util'
 
-class EmployeeUtil < BaseUtil
+class EmployeeUtil < InsuredUtil
   include Helper
+
+  def employee_data
+    shuffled(::Sample.insured).take @total_employees
+  end
+
+  def set_employer_values employer_name, employer_profile_id, total_employees, enrolled, waived, plan_years, contacts 
+     @employer_name = employer_name
+     @employer_profile_id = employer_profile_id
+     @total_employees = total_employees
+     @plan_years = plan_years
+     @contacts = contacts
+     @enrolled = enrolled
+     @waived = waived
+  end
+
 
   @@roster_example_no = 0
 
@@ -25,39 +40,40 @@ class EmployeeUtil < BaseUtil
     def roster_path root_directory
       "#{root_directory}/roster_#{@@roster_example_no}.json"
     end
+
   end
 
-  def add_roster root_directory, partial_path, employer_details, employer_profile_id
+  def add_roster employer_details, employer_profile_id
     {
         employer_name: @employer_name,
-        roster: @employee_data.each_with_index.map do |e, index|
-          employee = create_person e.clone, index
-          individual = create_person e, index, false, employer_profile_id, employer_details
-          IndividualUtil.create_individual_file root_directory, partial_path, individual
-          employee.delete :employments
-          employee
+        roster: employee_data.each_with_index.map do |e, index|
+          employee_id = (::EmployeeUtil.roster_example_no * 100 + index)
+          create_employee e.clone, employee_id, index
         end
     }
   end
 
-  def create_person person, index, employee=true, employer_profile_id=nil, employer_details=nil
-    pers = person_details person.first, employee
-    pers[:id] = ::EmployeeUtil.roster_example_no * 100 + index
-    pers[:employments] = employments person.first, employer_profile_id, employer_details, index unless employee
-    pers[:enrollments] = enrollments index, employer_profile_id
-    pers[:is_business_owner] = is_business_owner(index) if employee
-    pers[:dependents] = person.last.map { |d| person_details(d) }
+  def create_single_employee 
+      create_employee employee_data.first, 0, 1, @employer_profile_id, @employer_name
+  end      
+
+  def create_employee person, employee_id, index, employer_profile_id=nil, employer_name=nil
+    pers = create_person person, employee_id, true, (enrollments index, employer_profile_id)
+    if employer_name && employer_profile_id
+      pers[:employments] = employments person.first, employer_profile_id, employer_name, index
+    end
+    pers[:is_business_owner] = is_business_owner(index) 
     pers
-  end
+  end 
 
   def is_business_owner index
     index == 1
   end
 
-  def employments person, employer_profile_id, employer_details, index
+  def employments person, employer_profile_id, employer_name, index
     [
         employer_profile_id: employer_profile_id,
-        employer_name: employer_details[:employer_name],
+        employer_name: employer_name,
         hired_on: person.split.last,
         is_business_owner: is_business_owner(index)
     ]
@@ -67,9 +83,9 @@ class EmployeeUtil < BaseUtil
     @plan_years.each_with_index.map do |py, py_index|
       start_on = fmt py.plan_year_begins
       year_enrollment = enrollment_hash employer_id, start_on
-      @coverage_options.keys.each do |coverage_kind|
-        which = (index + py_index + @employer_name.length) % @coverage_options[:health].length
-        status = @coverage_options[coverage_kind][which]
+      coverage_options.keys.each do |coverage_kind|
+        which = (index + py_index + @employer_name.length) % coverage_options[:health].length
+        status = coverage_options[coverage_kind][which]
         year_enrollment[coverage_kind] = enrollment_for(status,
                                                         @total_employees,
                                                         er_contrib(@enrolled, @waived),
@@ -100,5 +116,6 @@ class EmployeeUtil < BaseUtil
   def ee_contrib enrolled, waived
     (enrolled * 425.00 * ((waived + 1) ** 0.2)).round(2)
   end
+
 
 end

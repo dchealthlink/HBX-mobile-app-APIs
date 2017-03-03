@@ -6,7 +6,12 @@ class Sample
       {broker_agency: "Bob's Brokers", broker_name: 'Bill'}
     end
 
-    def employee
+    def uids
+      ['75e41fd5434d5200a07001b8', 'd200005834a471d75e41b0f5', 
+        '434d5200507001b8a75e41fd', '0d75f53d2000058e41b4a471']
+    end
+
+    def insured
       [['male Sammy R. Davis Jr. 1925-12-08 ***-**-6789 2008-12-08',
         ['female Tracey M. Davis Jr. 1965-08-07 ***-**-9909',
          'male Manny D. Davis X 1971-09-09 ***-**-5505']],

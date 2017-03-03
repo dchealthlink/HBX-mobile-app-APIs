@@ -1,29 +1,72 @@
 require_relative 'base_util'
+require_relative 'insured_util'
 
-class IndividualUtil < BaseUtil
+class IndividualUtil < InsuredUtil
   include Helper
 
-  @@individual_example_no = 0
-
-  class << self
-    def create_individual_file root_directory, partial_path, content
-      Helper::write_json content, individual_path(root_directory)
-      url = url individual_path(partial_path)
-      @@individual_example_no += 1
-      url
-    end
-
-    def individual_example_no
-      @@individual_example_no
-    end
-
-    def individual_example_no= value
-      @@individual_example_no = value
-    end
-
-    def individual_path root_directory
-      "#{root_directory}/individual_#{@@individual_example_no}.json"
-    end
-
+  def family_data
+    pick_from(::Sample.insured)
   end
+
+  def individual_id
+    pick_from(::Sample.uids)
+  end
+ 
+  def plan_years
+    [PlanYear.in_open_enrollment]
+  end
+
+  def create_individual_uqhp 
+      create_person family_data, individual_id, false, enrollments
+  end 
+
+
+#### TODO this is copy-pasted from employee_util and not DRY. Needs refactoring of commonalities to insured_util.
+
+  def enrollments  
+    plan_years.each_with_index.map do |py, py_index|
+      start_on = fmt py.plan_year_begins
+      year_enrollment = {start_on: start_on}
+      coverage_options.keys.each do |coverage_kind|
+        status = pick_from(coverage_options[coverage_kind])
+        year_enrollment[coverage_kind] = enrollment_for(status)
+      end
+      year_enrollment
+    end
+  end
+
+  def enrollment_for status
+    return unless status
+    enrollment = {status: status}
+    enroll_waived_or_terminated enrollment, status if %w{Enrolled Waived Terminated}.include? status
+    enrollment
+  end
+
+  #
+  # Private
+  #
+  private
+
+  def enroll_waived_or_terminated enrollment, status
+    enrollment[:total_premium] = cost status
+    enrollment[:plan_name] = 'KP DC Silver 2000/35'
+    enrollment[:plan_type] = 'HMO'
+    enrollment[:metal_level] = 'Silver'
+
+    enrollment[:carrier] = {
+          name: 'Kaiser',
+          terms_and_conditions_url: '/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline'
+    }
+
+    if status == 'Terminated'
+      enrollment[:terminated_on] = Date.today
+      enrollment[:terminate_reason] = 'I have coverage through an individual market health plan'
+    end
+  end
+
+  def cost status
+    (status == 'Enrolled') ? pick_from(100..400).to_f : 0.0
+  end
+
+
 end

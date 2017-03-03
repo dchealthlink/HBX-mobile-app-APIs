@@ -1,5 +1,5 @@
 #!/bin/env ruby
-procs = `ps ax | grep rails | grep -v grep`.lines
+procs = `ps ax | grep -E 'rails|puma' | grep -v grep`.lines
 hash = Hash[procs.map do |p| 
 	p =~ /\s*(\d*) .*/
 	["/proc/#{$1}/environ", p] 

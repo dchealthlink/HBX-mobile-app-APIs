@@ -1,0 +1,32 @@
+{
+  "first_name": "Jillian",
+  "middle_name": "S.",
+  "last_name": "Holtzmann",
+  "name_suffix": "PhD.",
+  "date_of_birth": "1985-11-11",
+  "ssn_masked": "***-**-2050",
+  "gender": "female",
+  "id": "d200005834a471d75e41b0f5",
+  "enrollments": [
+    {
+      "start_on": "2017-05-01",
+      "health": {
+        "status": "Waived",
+        "total_premium": 0.0,
+        "plan_name": "KP DC Silver 2000/35",
+        "plan_type": "HMO",
+        "metal_level": "Silver",
+        "carrier": {
+          "name": "Kaiser",
+          "terms_and_conditions_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+        }
+      },
+      "dental": {
+        "status": "Not Enrolled"
+      }
+    }
+  ],
+  "dependents": [
+
+  ]
+}

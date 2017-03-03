@@ -5,12 +5,15 @@ class Scenarios < BaseUtil
   BROKER_IN_OE = 'broker_er_in_open_enrollment'
   BROKER_IN_PENDING = 'broker_er_in_pending'
   BROKER_ROSTER_EMPTY = 'broker_er_roster_empty'
+  EMPLOYEE = 'employee'
+  INDIVIDUAL_APTC = 'individual_aptc'
+  INDIVIDUAL_UQHP = 'individual_uqhp'
 
   class << self
 
-    # Create accounts
+    # Create accounts - this doesn't write to accounts.json directly because it would overwrite things that got added via templates
     def create_accounts
-      write_json Helper::account_json, nil, $ROOT_DIRECTORY, 'accounts.json'
+      Helper::write_json Helper::account_json, "#{$ROOT_DIRECTORY}/accounts.json.to.merge"
     end
 
     # Create broker 1
@@ -43,24 +46,56 @@ class Scenarios < BaseUtil
       end
     end
 
+# Create employee insured
+    def create_employee
+      employee_util EMPLOYEE do |employee_util|
+        reset_count
+        employee_util.set_employer_values(*::Sample.client_A)
+        write_json employee_util.create_single_employee, employee_util 
+      end
+    end
+
+# Create individual insured with UQHP
+    def create_individual_uqhp
+      individual_util INDIVIDUAL_UQHP do |individual_util|
+        reset_count
+        write_json individual_util.create_individual_uqhp, individual_util 
+      end
+    end
+
+
+# Create individual insured with APTC
+    def create_individual_aptc
+    end
+
     #
     # Private
     #
     private
 
     def reset_count
-      EmployeeUtil.roster_example_no = EmployerUtil.details_example_no = IndividualUtil.individual_example_no = 0
+      EmployeeUtil.roster_example_no = EmployerUtil.details_example_no = InsuredUtil.insured_example_no = 0
     end
 
-    def broker_util broker_dir
-      puts "# Creating #{broker_dir}"
-      full_path = "#{$ROOT_DIRECTORY}/#{broker_dir}"
-      Helper::create_directory full_path
-      yield BrokerUtil.new broker_directory: full_path, partial_path: "#{$GENERATED_DIR}/#{broker_dir}"
+    def create_directory use_case_dir
+      puts "# Creating #{use_case_dir}"
+      Helper::create_directory "#{$ROOT_DIRECTORY}/#{use_case_dir}"
     end
 
-    def write_json content, broker_util=nil, override_dir=nil, override_filename=nil
-      broker_util ? Helper::write_json(content, "#{broker_util.broker_directory}/#{$BROKER_FILE_NAME}") :
+    def broker_util use_case_dir
+      yield BrokerUtil.new use_case_directory: (create_directory use_case_dir), partial_path: "#{$GENERATED_DIR}/#{use_case_dir}"
+    end
+
+    def employee_util use_case_dir
+      yield EmployeeUtil.new use_case_directory: (create_directory use_case_dir), partial_path: "#{$GENERATED_DIR}/#{use_case_dir}"
+    end
+
+    def individual_util use_case_dir
+      yield IndividualUtil.new use_case_directory: (create_directory use_case_dir), partial_path: "#{$GENERATED_DIR}/#{use_case_dir}"
+    end
+
+    def write_json content, util=nil, override_dir=nil, override_filename=nil
+      util ? Helper::write_json(content, "#{util.target_path}") :
           Helper::write_json(content, "#{override_dir}/#{override_filename}", true)
     end
 

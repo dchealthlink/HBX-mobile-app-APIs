@@ -13,7 +13,7 @@
       "id": 1000,
       "enrollments": [
         {
-          "start_on": "2017-08-01",
+          "start_on": "2017-09-01",
           "health": {
             "status": "Enrolled",
             "employer_contribution": 12833.33,
@@ -36,7 +36,6 @@
           }
         }
       ],
-      "is_business_owner": false,
       "dependents": [
         {
           "first_name": "Tracey",
@@ -56,21 +55,22 @@
           "ssn_masked": "***-**-5505",
           "gender": "male"
         }
-      ]
+      ],
+      "is_business_owner": false
     },
     {
-      "first_name": "Frank",
-      "middle_name": "S.",
-      "last_name": "Sinatra",
-      "name_suffix": "III",
-      "date_of_birth": "1915-12-12",
-      "ssn_masked": "***-**-2000",
-      "gender": "male",
-      "hired_on": "2007-12-12",
+      "first_name": "Patty",
+      "middle_name": "D.",
+      "last_name": "Tolan",
+      "name_suffix": "Cdtr",
+      "date_of_birth": "1987-06-06",
+      "ssn_masked": "***-**-4546",
+      "gender": "female",
+      "hired_on": "2015-04-03",
       "id": 1001,
       "enrollments": [
         {
-          "start_on": "2017-08-01",
+          "start_on": "2017-09-01",
           "health": {
             "status": "Waived",
             "employer_contribution": 0.0,
@@ -86,34 +86,34 @@
           }
         }
       ],
-      "is_business_owner": true,
       "dependents": [
 
-      ]
+      ],
+      "is_business_owner": true
     },
     {
-      "first_name": "Dean",
-      "middle_name": "D.",
-      "last_name": "Martin",
-      "name_suffix": "Sr.",
-      "date_of_birth": "1917-06-07",
-      "ssn_masked": "***-**-4566",
+      "first_name": "Frank",
+      "middle_name": "S.",
+      "last_name": "Sinatra",
+      "name_suffix": "III",
+      "date_of_birth": "1915-12-12",
+      "ssn_masked": "***-**-2000",
       "gender": "male",
-      "hired_on": "2012-03-03",
+      "hired_on": "2007-12-12",
       "id": 1002,
       "enrollments": [
         {
-          "start_on": "2017-08-01",
+          "start_on": "2017-09-01",
           "health": {
             "status": "Not Enrolled"
           },
           "dental": null
         }
       ],
-      "is_business_owner": false,
       "dependents": [
 
-      ]
+      ],
+      "is_business_owner": false
     }
   ]
 }
