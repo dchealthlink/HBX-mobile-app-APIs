@@ -5,7 +5,7 @@
     {
       "employer_name": "Courageous Consulting, LLC",
       "binder_payment_due": null,
-      "billing_report_date": "2017-04-01",
+      "billing_report_date": "2017-04-06",
       "active_general_agency": "Betadyne General Agency, Inc.",
       "employees_total": 5,
       "plan_years": [
@@ -20,7 +20,7 @@
           "minimum_participation_required": 3,
           "employees_enrolled": 1,
           "employees_waived": 1,
-          "employees_terminated": 1
+          "employees_terminated": 2
         },
         {
           "plan_year_begins": "2017-04-01",
@@ -33,7 +33,7 @@
           "minimum_participation_required": 3,
           "employees_enrolled": 1,
           "employees_waived": 1,
-          "employees_terminated": 2
+          "employees_terminated": 1
         }
       ],
       "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/employer_details_0.json",
@@ -58,7 +58,7 @@
     {
       "employer_name": "National Network to End Domestic Abuse",
       "binder_payment_due": null,
-      "billing_report_date": "2017-04-01",
+      "billing_report_date": "2017-04-06",
       "active_general_agency": "Betadyne General Agency, Inc.",
       "employees_total": 5,
       "plan_years": [
@@ -73,7 +73,7 @@
           "minimum_participation_required": 3,
           "employees_enrolled": 1,
           "employees_waived": 1,
-          "employees_terminated": 1
+          "employees_terminated": 2
         }
       ],
       "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/employer_details_1.json",
@@ -112,7 +112,7 @@
     {
       "employer_name": "District Yoga",
       "binder_payment_due": null,
-      "billing_report_date": "2017-04-01",
+      "billing_report_date": "2017-04-06",
       "active_general_agency": null,
       "employees_total": 4,
       "plan_years": [
@@ -179,7 +179,7 @@
     {
       "employer_name": "DC Cupcakes",
       "binder_payment_due": null,
-      "billing_report_date": "2017-04-01",
+      "billing_report_date": "2017-04-06",
       "active_general_agency": "Betadyne General Agency, Inc.",
       "employees_total": 6,
       "plan_years": [
@@ -194,7 +194,7 @@
           "minimum_participation_required": 4,
           "employees_enrolled": 2,
           "employees_waived": 1,
-          "employees_terminated": 2
+          "employees_terminated": 1
         },
         {
           "plan_year_begins": "2017-08-01",
@@ -246,7 +246,7 @@
     {
       "employer_name": "OPEN Art Studio",
       "binder_payment_due": null,
-      "billing_report_date": "2017-04-01",
+      "billing_report_date": "2017-04-06",
       "active_general_agency": "Betadyne General Agency, Inc.",
       "employees_total": 6,
       "plan_years": [
@@ -261,7 +261,7 @@
           "minimum_participation_required": 4,
           "employees_enrolled": 2,
           "employees_waived": 1,
-          "employees_terminated": 2
+          "employees_terminated": 1
         }
       ],
       "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/employer_details_4.json",
@@ -314,7 +314,7 @@
     {
       "employer_name": "Best Brau Brewing Company",
       "binder_payment_due": null,
-      "billing_report_date": "2017-04-01",
+      "billing_report_date": "2017-04-06",
       "active_general_agency": null,
       "employees_total": 4,
       "plan_years": [
@@ -409,7 +409,7 @@
     {
       "employer_name": "Bistrot Du Monde",
       "binder_payment_due": null,
-      "billing_report_date": "2017-04-01",
+      "billing_report_date": "2017-04-06",
       "active_general_agency": null,
       "employees_total": 3,
       "plan_years": [
@@ -424,7 +424,7 @@
           "minimum_participation_required": 2,
           "employees_enrolled": 1,
           "employees_waived": 1,
-          "employees_terminated": 0
+          "employees_terminated": 1
         },
         {
           "plan_year_begins": "2017-04-01",
@@ -490,7 +490,7 @@
     {
       "employer_name": "Bistrot Du Bois",
       "binder_payment_due": null,
-      "billing_report_date": "2017-04-01",
+      "billing_report_date": "2017-04-06",
       "active_general_agency": "Betadyne General Agency, Inc.",
       "employees_total": 6,
       "plan_years": [
@@ -505,7 +505,7 @@
           "minimum_participation_required": 4,
           "employees_enrolled": 2,
           "employees_waived": 1,
-          "employees_terminated": 2
+          "employees_terminated": 1
         },
         {
           "plan_year_begins": "2017-06-01",
@@ -571,7 +571,7 @@
     {
       "employer_name": "Strategy & Tactics Game Shop",
       "binder_payment_due": null,
-      "billing_report_date": "2017-04-01",
+      "billing_report_date": "2017-04-06",
       "active_general_agency": null,
       "employees_total": 3,
       "plan_years": [
@@ -586,7 +586,7 @@
           "minimum_participation_required": 2,
           "employees_enrolled": 1,
           "employees_waived": 1,
-          "employees_terminated": 0
+          "employees_terminated": 1
         }
       ],
       "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/employer_details_8.json",
@@ -625,7 +625,7 @@
     {
       "employer_name": "Portia's Tea Bar ",
       "binder_payment_due": null,
-      "billing_report_date": "2017-04-01",
+      "billing_report_date": "2017-04-06",
       "active_general_agency": null,
       "employees_total": 4,
       "plan_years": [
@@ -693,7 +693,7 @@
     {
       "employer_name": "J.Grigory Food Trucks & Fine Comestibles",
       "binder_payment_due": null,
-      "billing_report_date": "2017-04-01",
+      "billing_report_date": "2017-04-06",
       "active_general_agency": null,
       "employees_total": 3,
       "plan_years": [
@@ -708,7 +708,7 @@
           "minimum_participation_required": 2,
           "employees_enrolled": 1,
           "employees_waived": 1,
-          "employees_terminated": 0
+          "employees_terminated": 1
         }
       ],
       "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_1/employer_details_10.json",

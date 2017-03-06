@@ -5,7 +5,7 @@
     {
       "employer_name": "J.Grigory Food Trucks & Fine Comestibles",
       "binder_payment_due": null,
-      "billing_report_date": "2017-04-01",
+      "billing_report_date": "2017-04-06",
       "active_general_agency": null,
       "employees_total": 3,
       "plan_years": [
@@ -20,7 +20,7 @@
           "minimum_participation_required": 2,
           "employees_enrolled": 1,
           "employees_waived": 1,
-          "employees_terminated": 0
+          "employees_terminated": 1
         }
       ],
       "employer_details_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/broker_er_in_pending/employer_details_0.json",

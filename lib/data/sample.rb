@@ -7,15 +7,16 @@ class Sample
     end
 
     def uids
-      ['75e41fd5434d5200a07001b8', 'd200005834a471d75e41b0f5', 
-        '434d5200507001b8a75e41fd', '0d75f53d2000058e41b4a471']
+      ['75e41fd5434d5200a07001b8', 'd200005834a471d75e41b0f5',
+       '434d5200507001b8a75e41fd', '0d75f53d2000058e41b4a471']
     end
 
     def insured
       [['male Sammy R. Davis Jr. 1925-12-08 ***-**-6789 2008-12-08',
         ['female Tracey M. Davis Jr. 1965-08-07 ***-**-9909',
          'male Manny D. Davis X 1971-09-09 ***-**-5505']],
-       ['male Frank S. Sinatra III 1915-12-12 ***-**-2000 2007-12-12', []],
+       ['male Frank S. Sinatra III 1915-12-12 ***-**-2000 2007-12-12', ['female Tracey M. Davis Jr. 1965-08-07 ***-**-9909',
+                                                                        'male Manny D. Davis X 1971-09-09 ***-**-5505']],
        ['male Dean D. Martin Sr. 1917-06-07 ***-**-4566 2012-03-03', []],
        ['female Abigail M. Yates PhD. 1975-12-08 ***-**-6001 2008-10-08',
         ['male Kevin R. Beckman X. 1985-08-07 ***-**-7603']],

@@ -59,6 +59,7 @@ class Scenarios < BaseUtil
     def create_individual_uqhp
       individual_util INDIVIDUAL_UQHP do |individual_util|
         reset_count
+        individual_util.set_employer_values(*::Sample.client_A)
         write_json individual_util.create_individual_uqhp, individual_util 
       end
     end

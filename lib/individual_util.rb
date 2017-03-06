@@ -4,6 +4,21 @@ require_relative 'insured_util'
 class IndividualUtil < InsuredUtil
   include Helper
 
+  def create_individual_uqhp
+    create_individual
+  end
+
+  #
+  # Private
+  #
+  private
+
+  def create_individual
+    pers = create_person family_data, individual_id, false, enrollments
+    pers[:employments] = employments family_data.first, @employer_profile_id, @employer_name if @employer_name && @employer_profile_id
+    pers
+  end
+
   def family_data
     pick_from(::Sample.insured)
   end
@@ -11,19 +26,12 @@ class IndividualUtil < InsuredUtil
   def individual_id
     pick_from(::Sample.uids)
   end
- 
+
   def plan_years
     [PlanYear.in_open_enrollment]
   end
 
-  def create_individual_uqhp 
-      create_person family_data, individual_id, false, enrollments
-  end 
-
-
-#### TODO this is copy-pasted from employee_util and not DRY. Needs refactoring of commonalities to insured_util.
-
-  def enrollments  
+  def enrollments
     plan_years.each_with_index.map do |py, py_index|
       start_on = fmt py.plan_year_begins
       year_enrollment = {start_on: start_on}
@@ -42,11 +50,6 @@ class IndividualUtil < InsuredUtil
     enrollment
   end
 
-  #
-  # Private
-  #
-  private
-
   def enroll_waived_or_terminated enrollment, status
     enrollment[:total_premium] = cost status
     enrollment[:plan_name] = 'KP DC Silver 2000/35'
@@ -54,8 +57,8 @@ class IndividualUtil < InsuredUtil
     enrollment[:metal_level] = 'Silver'
 
     enrollment[:carrier] = {
-          name: 'Kaiser',
-          terms_and_conditions_url: '/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline'
+        name: 'Kaiser',
+        terms_and_conditions_url: '/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline'
     }
 
     if status == 'Terminated'

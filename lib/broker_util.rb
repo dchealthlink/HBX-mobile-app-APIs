@@ -46,10 +46,10 @@ class BrokerUtil < BaseUtil
     employer_util.add_plan_details
 
     employee_util = ::EmployeeUtil.new use_case_directory: @use_case_directory,
-                                       employer_name: employer_name, 
+                                       employer_name: employer_name,
                                        enrolled: enrolled, plan_years: plan_years,
                                        total_employees: total_employees, waived: waived
-    roster = employee_util.add_roster employer_details, employer_id
+    roster = employee_util.add_roster
     add_to_summary contacts, employer_util, plan_years, roster, summary, total_employees
     summary
   end
