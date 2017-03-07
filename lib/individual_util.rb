@@ -14,9 +14,7 @@ class IndividualUtil < InsuredUtil
   private
 
   def create_individual
-    pers = create_person family_data, individual_id, false, enrollments
-    pers[:employments] = employments family_data.first, @employer_profile_id, @employer_name if @employer_name && @employer_profile_id
-    pers
+    create_person family_data, individual_id, false, enrollments
   end
 
   def family_data
