@@ -20,7 +20,7 @@ class Sample
        ['male Dean D. Martin Sr. 1917-06-07 ***-**-4566 2012-03-03', []],
        ['female Abigail M. Yates PhD. 1975-12-08 ***-**-6001 2008-10-08',
         ['male Kevin R. Beckman X. 1985-08-07 ***-**-7603']],
-       ['female Jillian S. Holtzmann PhD. 1985-11-11 ***-**-2050 2009-11-12', []],
+       ['female Jillian S. Holtzmann PhD. 1985-11-11 ***-**-2050 2009-11-12', ['female Diotima P. Holtzmann IV 2003-12-19 ***-**-2003']],
        ['female Patty D. Tolan Cdtr 1987-06-06 ***-**-4546 2015-04-03', []],
        ['female Erin S. Gilbert PhD. 1969-03-01 ***-**-4554 2016-01-01', []]]
     end
