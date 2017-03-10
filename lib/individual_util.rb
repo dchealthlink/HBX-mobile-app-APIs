@@ -56,7 +56,7 @@ class IndividualUtil < InsuredUtil
 
     enrollment[:carrier] = {
         name: 'Kaiser',
-        terms_and_conditions_url: '/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline'
+        summary_of_benefits_url: '/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline'
     }
 
     if status == 'Terminated'
