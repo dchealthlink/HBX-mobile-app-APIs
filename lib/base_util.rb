@@ -1,5 +1,4 @@
 class BaseUtil
-
   attr_accessor :use_case_directory
 
   def initialize args={}

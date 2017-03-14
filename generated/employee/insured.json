@@ -34,9 +34,9 @@
       "start_on": "2017-04-01",
       "health": {
         "status": "Enrolled",
-        "employer_contribution": 128.33,
-        "employee_cost": 70.83,
-        "total_premium": 199.16,
+        "employer_contribution": 0.0,
+        "employee_cost": 0.0,
+        "total_premium": 0.0,
         "plan_name": "KP DC Silver 2000/35",
         "plan_type": "HMO",
         "metal_level": "Silver",
@@ -44,13 +44,16 @@
         "carrier": {
           "name": "Kaiser",
           "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
-        }
+        },
+        "provider_directory_url": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
+        "rx_formulary_url": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
+        "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services_rates.json"
       },
       "dental": {
         "status": "Enrolled",
-        "employer_contribution": 128.33,
-        "employee_cost": 70.83,
-        "total_premium": 199.16,
+        "employer_contribution": 0.0,
+        "employee_cost": 0.0,
+        "total_premium": 0.0,
         "plan_name": "KP DC Silver 2000/35",
         "plan_type": "HMO",
         "metal_level": "Silver",
@@ -58,7 +61,10 @@
         "carrier": {
           "name": "Kaiser",
           "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
-        }
+        },
+        "provider_directory_url": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
+        "rx_formulary_url": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
+        "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services_rates.json"
       }
     }
   ],
