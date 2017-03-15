@@ -1,6 +1,5 @@
 require_relative 'employee_util'
 require_relative 'employer_util'
-require_relative 'data/sample'
 
 class BrokerUtil < BaseUtil
   include Helper
@@ -10,26 +9,26 @@ class BrokerUtil < BaseUtil
   end
 
   def create_broker
-    ::Sample.broker_basics.merge(
+    ::BasicData.broker_basics.merge(
         {
-            broker_clients: [participation(*::Sample.client_A), participation(*::Sample.client_B), participation(*::Sample.client_C),
-                             participation(*::Sample.client_D), participation(*::Sample.client_E), participation(*::Sample.client_F),
-                             participation(*::Sample.client_G), participation(*::Sample.client_H), participation(*::Sample.client_I),
-                             participation(*::Sample.client_J), participation(*::Sample.client_K)
+            broker_clients: [participation(*::ClientData.client_A), participation(*::ClientData.client_B), participation(*::ClientData.client_C),
+                             participation(*::ClientData.client_D), participation(*::ClientData.client_E), participation(*::ClientData.client_F),
+                             participation(*::ClientData.client_G), participation(*::ClientData.client_H), participation(*::ClientData.client_I),
+                             participation(*::ClientData.client_J), participation(*::ClientData.client_K)
             ]
         })
   end
 
   def create_empty_broker
-    ::Sample.broker_basics.merge({broker_clients: []})
+    ::BasicData.broker_basics.merge({broker_clients: []})
   end
 
   def create_broker_er_in_open_enrollment
-    ::Sample.broker_basics.merge({broker_clients: [participation(*::Sample.client_B)]})
+    ::BasicData.broker_basics.merge({broker_clients: [participation(*::ClientData.client_B)]})
   end
 
   def create_broker_er_in_pending
-    ::Sample.broker_basics.merge({broker_clients: [participation(*::Sample.client_K)]})
+    ::BasicData.broker_basics.merge({broker_clients: [participation(*::ClientData.client_K)]})
   end
 
   #

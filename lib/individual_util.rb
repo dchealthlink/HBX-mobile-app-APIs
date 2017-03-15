@@ -18,11 +18,11 @@ class IndividualUtil < InsuredUtil
   end
 
   def family_data
-    pick_from(::Sample.insured)
+    pick_from(::InsuredData.insured)
   end
 
   def individual_id
-    pick_from(::Sample.uids)
+    pick_from(::BasicData.uids)
   end
 
   def plan_years
@@ -63,7 +63,7 @@ class IndividualUtil < InsuredUtil
 
     enrollment[:provider_directory_url] = 'http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor'
     enrollment[:rx_formulary_url] = 'https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf'
-    enrollment[:services_rates_url] = BaseUtil::url "#{$GENERATED_DIR}/#{ServicesUtil::SERVICES_RATE_JSON}"
+    enrollment[:services_rates_url] = BaseUtil::url "#{$GENERATED_DIR}/#{ServiceUtil::SERVICES_RATE_JSON}"
 
     if status == 'Terminated'
       enrollment[:terminated_on] = Date.today

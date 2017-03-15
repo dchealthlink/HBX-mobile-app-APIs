@@ -28,7 +28,7 @@ class EmployeeUtil < InsuredUtil
   end
 
   def employee_data
-    shuffled(::Sample.insured).take @total_employees
+    shuffled(::InsuredData.insured).take @total_employees
   end
 
   def add_roster

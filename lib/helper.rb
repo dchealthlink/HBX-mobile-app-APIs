@@ -137,7 +137,7 @@ module Helper
       enrollment[:carrier] = carrier
       enrollment[:provider_directory_url] = 'http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor'
       enrollment[:rx_formulary_url] = 'https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf'
-      enrollment[:services_rates_url] = BaseUtil::url "#{$GENERATED_DIR}/#{ServicesUtil::SERVICES_RATE_JSON}"
+      enrollment[:services_rates_url] = BaseUtil::url "#{$GENERATED_DIR}/#{ServiceUtil::SERVICES_RATE_JSON}"
     end
 
     if status == ' Terminated '

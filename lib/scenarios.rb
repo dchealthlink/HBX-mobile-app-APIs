@@ -9,6 +9,7 @@ class Scenarios < BaseUtil
   INDIVIDUAL_APTC = 'individual_aptc'
   INDIVIDUAL_UQHP = 'individual_uqhp'
   SERVICES = 'services'
+  PLANS = 'plans'
 
   class << self
 
@@ -51,7 +52,7 @@ class Scenarios < BaseUtil
     def create_employee
       employee_util EMPLOYEE do |employee_util|
         reset_count
-        employee_util.set_employer_values(*::Sample.client_A)
+        employee_util.set_employer_values(*::ClientData.client_A)
         write_json employee_util.create_single_employee, employee_util
       end
     end
@@ -72,6 +73,13 @@ class Scenarios < BaseUtil
     def create_services_rates
       services_util SERVICES do |services_util|
         write_json services_util.create_services_rates, services_util
+      end
+    end
+
+    # Create plans
+    def create_plans
+      plans_util PLANS do |plans_util|
+        write_json plans_util.create_available_plans, plans_util
       end
     end
 
@@ -102,7 +110,11 @@ class Scenarios < BaseUtil
     end
 
     def services_util use_case_dir
-      yield ServicesUtil.new use_case_directory: (create_directory use_case_dir), partial_path: "#{$GENERATED_DIR}/#{use_case_dir}"
+      yield ServiceUtil.new use_case_directory: (create_directory use_case_dir), partial_path: "#{$GENERATED_DIR}/#{use_case_dir}"
+    end
+
+    def plans_util use_case_dir
+      yield PlanUtil.new use_case_directory: (create_directory use_case_dir), partial_path: "#{$GENERATED_DIR}/#{use_case_dir}"
     end
 
     def write_json content, util=nil, override_dir=nil, override_filename=nil
