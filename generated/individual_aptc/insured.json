@@ -26,11 +26,11 @@
       "health": {
         "status": "Enrolled",
         "total_premium": 100.0,
+        "elected_aptc_pct": 0.51,
+        "applied_aptc_amount_in_cents": 51.0,
         "plan_name": "KP DC Silver 2000/35",
         "plan_type": "HMO",
         "metal_level": "Silver",
-        "elected_aptc_pct": 0.51,
-        "applied_aptc_amount_in_cents": 51.0,
         "carrier": {
           "name": "Kaiser",
           "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
@@ -42,11 +42,11 @@
       "dental": {
         "status": "Enrolled",
         "total_premium": 100.0,
+        "elected_aptc_pct": 0.51,
+        "applied_aptc_amount_in_cents": 51.0,
         "plan_name": "KP DC Silver 2000/35",
         "plan_type": "HMO",
         "metal_level": "Silver",
-        "elected_aptc_pct": 0.51,
-        "applied_aptc_amount_in_cents": 51.0,
         "carrier": {
           "name": "Kaiser",
           "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"

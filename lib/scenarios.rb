@@ -52,7 +52,7 @@ class Scenarios < BaseUtil
     def create_employee
       employee_util EMPLOYEE do |employee_util|
         reset_count
-        employee_util.set_employer_values(*::ClientData.client_A)
+        employee_util.set_values(*::ClientData.client_A)
         write_json employee_util.create_single_employee, employee_util
       end
     end

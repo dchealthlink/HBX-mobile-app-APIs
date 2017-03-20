@@ -31,10 +31,10 @@
             "employer_contribution": 0.0,
             "employee_cost": 0.0,
             "total_premium": 0.0,
+            "benefit_group_name": "PART-TIME EMPLOYEES",
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
-            "metal_level": "Silver",
-            "benefit_group_name": "PART-TIME EMPLOYEES"
+            "metal_level": "Silver"
           },
           "dental": {
             "status": "Not Enrolled"
@@ -47,10 +47,10 @@
             "employer_contribution": 0.0,
             "employee_cost": 0.0,
             "total_premium": 0.0,
+            "benefit_group_name": "PART-TIME EMPLOYEES",
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
-            "benefit_group_name": "PART-TIME EMPLOYEES",
             "terminated_on": "2017-03-20",
             "terminate_reason": " I have coverage through an individual market health plan "
           },
@@ -99,10 +99,10 @@
             "employer_contribution": 0.0,
             "employee_cost": 0.0,
             "total_premium": 0.0,
+            "benefit_group_name": "FULL-TIME EMPLOYEES",
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
-            "benefit_group_name": "FULL-TIME EMPLOYEES",
             "terminated_on": "2017-03-20",
             "terminate_reason": " I have coverage through an individual market health plan "
           },
@@ -157,20 +157,20 @@
             "employer_contribution": 5222.93,
             "employee_cost": 2803.96,
             "total_premium": 8026.89,
+            "benefit_group_name": "PART-TIME EMPLOYEES",
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
-            "metal_level": "Silver",
-            "benefit_group_name": "PART-TIME EMPLOYEES"
+            "metal_level": "Silver"
           },
           "dental": {
             "status": "Enrolled",
             "employer_contribution": 5222.93,
             "employee_cost": 2803.96,
             "total_premium": 8026.89,
+            "benefit_group_name": "PART-TIME EMPLOYEES",
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
-            "metal_level": "Silver",
-            "benefit_group_name": "PART-TIME EMPLOYEES"
+            "metal_level": "Silver"
           }
         }
       ],
@@ -208,20 +208,20 @@
             "employer_contribution": 5222.93,
             "employee_cost": 2803.96,
             "total_premium": 8026.89,
+            "benefit_group_name": "PART-TIME EMPLOYEES",
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
-            "metal_level": "Silver",
-            "benefit_group_name": "PART-TIME EMPLOYEES"
+            "metal_level": "Silver"
           },
           "dental": {
             "status": "Enrolled",
             "employer_contribution": 5222.93,
             "employee_cost": 2803.96,
             "total_premium": 8026.89,
+            "benefit_group_name": "PART-TIME EMPLOYEES",
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
-            "metal_level": "Silver",
-            "benefit_group_name": "PART-TIME EMPLOYEES"
+            "metal_level": "Silver"
           }
         },
         {
@@ -231,10 +231,10 @@
             "employer_contribution": 0.0,
             "employee_cost": 0.0,
             "total_premium": 0.0,
+            "benefit_group_name": "PART-TIME EMPLOYEES",
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
-            "metal_level": "Silver",
-            "benefit_group_name": "PART-TIME EMPLOYEES"
+            "metal_level": "Silver"
           },
           "dental": {
             "status": "Not Enrolled"

@@ -124,30 +124,45 @@ module Helper
     enrollment[:employer_contribution] = er_cost
     enrollment[:employee_cost] = ee_cost
     enrollment[:total_premium] = (er_cost + ee_cost).round(2)
+    enrollment[:benefit_group_name] = benefit_group_name
+
+    add_plan_details! enrollment
+    add_urls! enrollment if employer_id
+    add_terminated! enrollment, status
+  end
+
+
+  def cost contrib, status, total_employees
+    (status == 'Enrolled') ? (contrib / total_employees).round(2) : 0.0
+  end
+
+  #
+  # Private
+  #
+  private
+
+  def add_plan_details! enrollment
     enrollment[:plan_name] = 'KP DC Silver 2000/35'
     enrollment[:plan_type] = 'HMO'
     enrollment[:metal_level] = 'Silver'
-    enrollment[:benefit_group_name] = benefit_group_name
+  end
 
-    if employer_id
-      carrier = {
-          name: 'Kaiser',
-          summary_of_benefits_url: '/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline'
-      }
-      enrollment[:carrier] = carrier
-      enrollment[:provider_directory_url] = 'http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor'
-      enrollment[:rx_formulary_url] = 'https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf'
-      enrollment[:services_rates_url] = BaseUtil::url "#{$GENERATED_DIR}/#{ServiceUtil::SERVICES_RATE_JSON}"
-    end
-
+  def add_terminated! enrollment, status
     if status == 'Terminated'
       enrollment[:terminated_on] = Date.today
       enrollment[:terminate_reason] = ' I have coverage through an individual market health plan '
     end
   end
 
-  def cost contrib, status, total_employees
-    (status == 'Enrolled') ? (contrib / total_employees).round(2) : 0.0
+  def add_urls! enrollment
+    carrier = {
+        name: 'Kaiser',
+        summary_of_benefits_url: '/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline'
+    }
+    enrollment[:carrier] = carrier
+    enrollment[:provider_directory_url] = 'http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor'
+    enrollment[:rx_formulary_url] = 'https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf'
+    enrollment[:services_rates_url] = BaseUtil::url "#{$GENERATED_DIR}/#{ServiceUtil::SERVICES_RATE_JSON}"
   end
 
 end
