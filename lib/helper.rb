@@ -147,7 +147,7 @@ module Helper
   end
 
   def cost contrib, status, total_employees
-    (status == ' Enrolled ') ? (contrib / total_employees).round(2) : 0.0
+    (status == 'Enrolled') ? (contrib / total_employees).round(2) : 0.0
   end
 
 end
