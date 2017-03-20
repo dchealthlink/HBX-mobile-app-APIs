@@ -28,7 +28,7 @@ class EmployeeUtil < InsuredUtil
   end
 
   def employee_data
-    shuffled(::Sample.insured).take @total_employees
+    shuffled(::InsuredData.insured).take @total_employees
   end
 
   def add_roster
@@ -67,6 +67,16 @@ class EmployeeUtil < InsuredUtil
       end
       year_enrollment
     end
+  end
+
+  def set_values employer_name, employer_profile_id, total_employees, enrolled, waived, plan_years, contacts
+    @employer_name = employer_name
+    @employer_profile_id = employer_profile_id
+    @total_employees = total_employees
+    @plan_years = plan_years
+    @contacts = contacts
+    @enrolled = enrolled
+    @waived = waived
   end
 
   #

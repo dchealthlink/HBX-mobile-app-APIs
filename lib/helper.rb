@@ -14,7 +14,7 @@ module Helper
 
     def broker_endpoint_filename
       "broker_details.json"
-    end 
+    end
 
     def insured_endpoint_filename
       "insured.json"
@@ -25,16 +25,16 @@ module Helper
     def account_json
       brokers = [Scenarios::BROKER_1, Scenarios::BROKER_EMPTY, Scenarios::BROKER_ROSTER_EMPTY, Scenarios::BROKER_IN_PENDING, Scenarios::BROKER_IN_OE
       ].map do |use_case|
-        { use_case => { broker_endpoint: broker_endpoint_filename}}
+        {use_case => {broker_endpoint: broker_endpoint_filename}}
       end
 
       employers = %w{er_roster_empty er_in_open_enrollment er_in_pending}.map do |use_case|
-        { use_case => { employer_details_endpoint_path: "employer_details.json",
-                        employee_roster_endpoint_path: "roster.json"} }
+        {use_case => {employer_details_endpoint_path: "employer_details.json",
+                      employee_roster_endpoint_path: "roster.json"}}
       end
 
       insureds = [Scenarios::EMPLOYEE, Scenarios::INDIVIDUAL_UQHP].map do |use_case|
-        { use_case => { individual_endpoint_path: insured_endpoint_filename } }
+        {use_case => {individual_endpoint_path: insured_endpoint_filename}}
       end
 
       brokers + employers + insureds
@@ -124,27 +124,45 @@ module Helper
     enrollment[:employer_contribution] = er_cost
     enrollment[:employee_cost] = ee_cost
     enrollment[:total_premium] = (er_cost + ee_cost).round(2)
-    enrollment[:plan_name] = 'KP DC Silver 2000/35'
-    enrollment[:plan_type] = 'HMO'
-    enrollment[:metal_level] = 'Silver'
     enrollment[:benefit_group_name] = benefit_group_name
 
-    if employer_id
-      carrier = {
-          name: 'Kaiser',
-          summary_of_benefits_url: '/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline'
-      }
-      enrollment[:carrier] = carrier
-    end
-
-    if status == 'Terminated'
-      enrollment[:terminated_on] = Date.today
-      enrollment[:terminate_reason] = 'I have coverage through an individual market health plan'
-    end
+    add_plan_details! enrollment
+    add_urls! enrollment if employer_id
+    add_terminated! enrollment, status
   end
+
 
   def cost contrib, status, total_employees
     (status == 'Enrolled') ? (contrib / total_employees).round(2) : 0.0
+  end
+
+  #
+  # Private
+  #
+  private
+
+  def add_plan_details! enrollment
+    enrollment[:plan_name] = 'KP DC Silver 2000/35'
+    enrollment[:plan_type] = 'HMO'
+    enrollment[:metal_level] = 'Silver'
+  end
+
+  def add_terminated! enrollment, status
+    if status == 'Terminated'
+      enrollment[:terminated_on] = Date.today
+      enrollment[:terminate_reason] = ' I have coverage through an individual market health plan '
+    end
+  end
+
+  def add_urls! enrollment
+    carrier = {
+        name: 'Kaiser',
+        summary_of_benefits_url: '/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline'
+    }
+    enrollment[:carrier] = carrier
+    enrollment[:provider_directory_url] = 'http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor'
+    enrollment[:rx_formulary_url] = 'https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf'
+    enrollment[:services_rates_url] = BaseUtil::url "#{$GENERATED_DIR}/#{ServiceUtil::SERVICES_RATE_JSON}"
   end
 
 end

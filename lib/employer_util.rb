@@ -48,7 +48,7 @@ class EmployerUtil < BaseUtil
   private
 
   def health_plan group_difference, plan_year_index
-    plan_year_index == 0 ? ::Sample.health_plan_A(group_difference) : ::Sample.health_plan_B(group_difference)
+    plan_year_index == 0 ? ::HealthPlanData.health_plan_A(group_difference) : ::HealthPlanData.health_plan_B(group_difference)
   end
 
   def dental_plan plan_year_index

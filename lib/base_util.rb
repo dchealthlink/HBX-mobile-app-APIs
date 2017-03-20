@@ -1,5 +1,4 @@
 class BaseUtil
-
   attr_accessor :use_case_directory
 
   def initialize args={}
@@ -9,7 +8,7 @@ class BaseUtil
   end
 
   def fixed_shuffler
-    Random.new(@use_case_directory.length)
+    Random.new(@use_case_directory.gsub(/[^0-9A-Za-z]/, '').downcase.to_i(36)) #base-36 hash of alphanums
   end
 
   def shuffled list
@@ -18,6 +17,10 @@ class BaseUtil
 
   def pick_from list
     shuffled(list).first
+  end
+
+  def pick_from_range range 
+    pick_from range.to_a
   end
 
   #
