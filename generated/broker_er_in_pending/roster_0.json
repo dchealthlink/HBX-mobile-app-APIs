@@ -2,13 +2,13 @@
   "employer_name": "J.Grigory Food Trucks & Fine Comestibles",
   "roster": [
     {
-      "first_name": "Abigail",
-      "middle_name": "M.",
-      "last_name": "Yates",
-      "name_suffix": "PhD.",
-      "date_of_birth": "1975-12-08",
-      "ssn_masked": "***-**-6001",
-      "gender": "female",
+      "first_name": "Dean",
+      "middle_name": "D.",
+      "last_name": "Martin",
+      "name_suffix": "Sr.",
+      "date_of_birth": "1917-06-07",
+      "ssn_masked": "***-**-4566",
+      "gender": "male",
       "id": 0,
       "addresses": [
         {
@@ -49,24 +49,16 @@
         }
       ],
       "dependents": [
-        {
-          "first_name": "Kevin",
-          "middle_name": "R.",
-          "last_name": "Beckman",
-          "name_suffix": "X.",
-          "date_of_birth": "1985-08-07",
-          "ssn_masked": "***-**-7603",
-          "gender": "male"
-        }
+
       ]
     },
     {
-      "first_name": "Jillian",
-      "middle_name": "S.",
-      "last_name": "Holtzmann",
+      "first_name": "Abigail",
+      "middle_name": "M.",
+      "last_name": "Yates",
       "name_suffix": "PhD.",
-      "date_of_birth": "1985-11-11",
-      "ssn_masked": "***-**-2050",
+      "date_of_birth": "1975-12-08",
+      "ssn_masked": "***-**-6001",
       "gender": "female",
       "id": 1,
       "addresses": [
@@ -102,13 +94,13 @@
       ],
       "dependents": [
         {
-          "first_name": "Diotima",
-          "middle_name": "P.",
-          "last_name": "Holtzmann",
-          "name_suffix": "IV",
-          "date_of_birth": "2003-12-19",
-          "ssn_masked": "***-**-2003",
-          "gender": "female"
+          "first_name": "Kevin",
+          "middle_name": "R.",
+          "last_name": "Beckman",
+          "name_suffix": "X.",
+          "date_of_birth": "1985-08-07",
+          "ssn_masked": "***-**-7603",
+          "gender": "male"
         }
       ]
     },

@@ -67,6 +67,10 @@ class Scenarios < BaseUtil
 
     # Create individual insured with APTC
     def create_individual_aptc
+  #    individual_util INDIVIDUAL_APTC do |individual_util|
+  #      reset_count
+  #      write_json individual_util.create_individual_aptc, individual_util
+  #    end
     end
 
     # Create services rates
