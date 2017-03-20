@@ -34,7 +34,9 @@
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
-            "benefit_group_name": "PART-TIME EMPLOYEES"
+            "benefit_group_name": "PART-TIME EMPLOYEES",
+            "terminated_on": "2017-03-20",
+            "terminate_reason": " I have coverage through an individual market health plan "
           },
           "dental": null
         },
@@ -240,7 +242,9 @@
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
-            "benefit_group_name": "PART-TIME EMPLOYEES"
+            "benefit_group_name": "PART-TIME EMPLOYEES",
+            "terminated_on": "2017-03-20",
+            "terminate_reason": " I have coverage through an individual market health plan "
           },
           "dental": null
         }
@@ -299,7 +303,9 @@
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
-            "benefit_group_name": "PART-TIME EMPLOYEES"
+            "benefit_group_name": "PART-TIME EMPLOYEES",
+            "terminated_on": "2017-03-20",
+            "terminate_reason": " I have coverage through an individual market health plan "
           },
           "dental": null
         },
