@@ -19,6 +19,10 @@ class BaseUtil
     shuffled(list).first
   end
 
+  def pick_from_range range 
+    pick_from range.to_a
+  end
+
   #
   # Protected
   #

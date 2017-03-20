@@ -1,0 +1,71 @@
+{
+  "first_name": "Abigail",
+  "middle_name": "M.",
+  "last_name": "Yates",
+  "name_suffix": "PhD.",
+  "date_of_birth": "1975-12-08",
+  "ssn_masked": "***-**-6001",
+  "gender": "female",
+  "id": "75e41fd5434d5200a07001b8",
+  "addresses": [
+    {
+      "kind": "home",
+      "address_1": "33 N St NE",
+      "address_2": "",
+      "city": "Washington",
+      "county": null,
+      "state": "DC",
+      "location_state_code": null,
+      "zip": "20002",
+      "country_name": ""
+    }
+  ],
+  "enrollments": [
+    {
+      "start_on": "2017-05-01",
+      "health": {
+        "status": "Enrolled",
+        "total_premium": 100.0,
+        "plan_name": "KP DC Silver 2000/35",
+        "plan_type": "HMO",
+        "metal_level": "Silver",
+        "elected_aptc_pct": 0.51,
+        "applied_aptc_amount_in_cents": 51.0,
+        "carrier": {
+          "name": "Kaiser",
+          "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+        },
+        "provider_directory_url": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
+        "rx_formulary_url": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
+        "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services_rates.json"
+      },
+      "dental": {
+        "status": "Enrolled",
+        "total_premium": 100.0,
+        "plan_name": "KP DC Silver 2000/35",
+        "plan_type": "HMO",
+        "metal_level": "Silver",
+        "elected_aptc_pct": 0.51,
+        "applied_aptc_amount_in_cents": 51.0,
+        "carrier": {
+          "name": "Kaiser",
+          "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+        },
+        "provider_directory_url": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
+        "rx_formulary_url": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
+        "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services_rates.json"
+      }
+    }
+  ],
+  "dependents": [
+    {
+      "first_name": "Kevin",
+      "middle_name": "R.",
+      "last_name": "Beckman",
+      "name_suffix": "X.",
+      "date_of_birth": "1985-08-07",
+      "ssn_masked": "***-**-7603",
+      "gender": "male"
+    }
+  ]
+}
