@@ -140,14 +140,14 @@ module Helper
       enrollment[:services_rates_url] = BaseUtil::url "#{$GENERATED_DIR}/#{ServiceUtil::SERVICES_RATE_JSON}"
     end
 
-    if status == ' Terminated '
+    if status == 'Terminated'
       enrollment[:terminated_on] = Date.today
       enrollment[:terminate_reason] = ' I have coverage through an individual market health plan '
     end
   end
 
   def cost contrib, status, total_employees
-    (status == ' Enrolled ') ? (contrib / total_employees).round(2) : 0.0
+    (status == 'Enrolled') ? (contrib / total_employees).round(2) : 0.0
   end
 
 end
