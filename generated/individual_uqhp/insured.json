@@ -1,10 +1,10 @@
 {
-  "first_name": "Erin",
+  "first_name": "Jillian",
   "middle_name": "S.",
-  "last_name": "Gilbert",
+  "last_name": "Holtzmann",
   "name_suffix": "PhD.",
-  "date_of_birth": "1969-03-01",
-  "ssn_masked": "***-**-4554",
+  "date_of_birth": "1985-11-11",
+  "ssn_masked": "***-**-2050",
   "gender": "female",
   "id": "d200005834a471d75e41b0f5",
   "addresses": [
@@ -45,6 +45,14 @@
     }
   ],
   "dependents": [
-
+    {
+      "first_name": "Diotima",
+      "middle_name": "P.",
+      "last_name": "Holtzmann",
+      "name_suffix": "IV",
+      "date_of_birth": "2003-12-19",
+      "ssn_masked": "***-**-2003",
+      "gender": "female"
+    }
   ]
 }
