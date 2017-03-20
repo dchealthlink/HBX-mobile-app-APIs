@@ -69,6 +69,16 @@ class EmployeeUtil < InsuredUtil
     end
   end
 
+  def set_values employer_name, employer_profile_id, total_employees, enrolled, waived, plan_years, contacts
+    @employer_name = employer_name
+    @employer_profile_id = employer_profile_id
+    @total_employees = total_employees
+    @plan_years = plan_years
+    @contacts = contacts
+    @enrolled = enrolled
+    @waived = waived
+  end
+
   #
   # Private
   #
