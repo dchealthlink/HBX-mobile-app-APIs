@@ -1,16 +1,16 @@
 {
   "employer_name": "Bistrot Du Bois",
   "binder_payment_due": null,
-  "billing_report_date": "2017-01-26",
+  "billing_report_date": "2017-03-21",
   "active_general_agency": "Betadyne General Agency, Inc.",
   "plan_years": [
     {
-      "plan_year_begins": "2016-03-13",
+      "plan_year_begins": "2016-05-06",
       "open_enrollment_begins": null,
-      "open_enrollment_ends": "2016-02-25",
+      "open_enrollment_ends": "2016-04-19",
       "renewal_in_progress": false,
-      "renewal_application_available": "2015-12-13",
-      "renewal_application_due": "2016-02-22",
+      "renewal_application_available": "2016-02-05",
+      "renewal_application_due": "2016-04-16",
       "state": "Active",
       "minimum_participation_required": 4,
       "plan_offerings": [
@@ -127,12 +127,12 @@
       ]
     },
     {
-      "plan_year_begins": "2017-03-13",
+      "plan_year_begins": "2017-05-06",
       "open_enrollment_begins": null,
-      "open_enrollment_ends": "2017-02-25",
+      "open_enrollment_ends": "2017-04-20",
       "renewal_in_progress": true,
-      "renewal_application_available": "2016-12-13",
-      "renewal_application_due": "2017-03-13",
+      "renewal_application_available": "2017-02-05",
+      "renewal_application_due": "2017-05-06",
       "state": "Renewing Draft",
       "minimum_participation_required": 4,
       "plan_offerings": [

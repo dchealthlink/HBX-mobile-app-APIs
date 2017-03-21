@@ -1,9 +1,8 @@
+#! /usr/bin/env ruby
 
 unless defined?(::JSON::JSON_LOADED) and ::JSON::JSON_LOADED
   require 'json'
 end
-
-#! /usr/bin/env ruby
 
 require 'date'
 require 'json'

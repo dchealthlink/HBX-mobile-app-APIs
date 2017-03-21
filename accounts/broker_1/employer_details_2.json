@@ -1,16 +1,16 @@
 {
   "employer_name": "District Yoga",
   "binder_payment_due": null,
-  "billing_report_date": "2017-01-26",
+  "billing_report_date": "2017-03-21",
   "active_general_agency": null,
   "plan_years": [
     {
-      "plan_year_begins": "2016-02-13",
+      "plan_year_begins": "2016-04-07",
       "open_enrollment_begins": null,
-      "open_enrollment_ends": "2016-01-25",
+      "open_enrollment_ends": "2016-03-19",
       "renewal_in_progress": false,
-      "renewal_application_available": "2015-11-13",
-      "renewal_application_due": "2016-01-22",
+      "renewal_application_available": "2016-01-06",
+      "renewal_application_due": "2016-03-16",
       "state": "Active",
       "minimum_participation_required": 2,
       "plan_offerings": [
@@ -127,12 +127,12 @@
       ]
     },
     {
-      "plan_year_begins": "2017-02-13",
-      "open_enrollment_begins": "2016-12-13",
-      "open_enrollment_ends": "2017-01-25",
+      "plan_year_begins": "2017-04-08",
+      "open_enrollment_begins": "2017-02-05",
+      "open_enrollment_ends": "2017-03-20",
       "renewal_in_progress": true,
-      "renewal_application_available": "2016-11-13",
-      "renewal_application_due": "2017-02-13",
+      "renewal_application_available": "2017-01-06",
+      "renewal_application_due": "2017-04-08",
       "state": "Renewing Enrolling",
       "minimum_participation_required": 2,
       "plan_offerings": [

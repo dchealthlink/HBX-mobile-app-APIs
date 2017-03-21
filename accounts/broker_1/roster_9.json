@@ -6,14 +6,14 @@
       "middle_name": "R.",
       "last_name": "Davis",
       "name_suffix": "Jr.",
-      "date_of_birth": "2022-01-25T00:00:00+00:00",
+      "date_of_birth": "2022-03-20",
       "ssn_masked": "***-**-6789",
       "gender": "male",
       "hired_on": "2008-12-08",
       "id": 900,
       "enrollments": [
         {
-          "start_on": "2017-07-13",
+          "start_on": "2017-09-05",
           "health": {
             "status": "Enrolled",
             "employer_contribution": 2941.57,
@@ -70,7 +70,7 @@
       "id": 901,
       "enrollments": [
         {
-          "start_on": "2017-07-13",
+          "start_on": "2017-09-05",
           "health": {
             "status": "Waived",
             "employer_contribution": 0.0,
@@ -103,7 +103,7 @@
       "id": 902,
       "enrollments": [
         {
-          "start_on": "2017-07-13",
+          "start_on": "2017-09-05",
           "health": {
             "status": "Not Enrolled"
           },
