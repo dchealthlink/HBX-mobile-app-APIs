@@ -34,4 +34,6 @@ Scenarios.create_employee
 Scenarios.create_individual_uqhp
 Scenarios.create_individual_aptc
 Scenarios.create_services_rates
-Scenarios.create_plans
+Scenarios.create_plans_for_uqhp_single
+Scenarios.create_plans_for_uqhp_family
+Scenarios.create_plans_for_csr_family

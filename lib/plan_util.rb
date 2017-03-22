@@ -10,6 +10,16 @@ class PlanUtil < BaseUtil
     "#{@use_case_directory}/#{PLANS_JSON}"
   end
 
+
+  def is_valid_csr_plan plan
+  	%{ silver gold platinum }.include? plan[:metal_level]
+  end
+
+
+  def create_valid_csr_plans_for num_members
+  	create_plans_for(num_members).select{ |p| is_valid_csr_plan p }
+  end
+
   def create_plans_for num_members
   	builder = ::PlanBuilder.new fixed_shuffler
 
@@ -74,12 +84,6 @@ class PlanUtil < BaseUtil
               	deductible: 2750, is_standard_plan: false, metal_level: 'silver') 
   	]
 
-  end
-
-
-  def create_available_plans
-    #::AvailablePlanData::available_plans
-    create_plans_for 1
   end
 
 end

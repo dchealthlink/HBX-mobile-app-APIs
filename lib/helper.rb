@@ -37,7 +37,7 @@ module Helper
                       employee_roster_endpoint_path: "roster.json"}}
       end
 
-      insureds = [Scenarios::EMPLOYEE, Scenarios::INDIVIDUAL_UQHP].map do |use_case|
+      insureds = [Scenarios::EMPLOYEE, Scenarios::INDIVIDUAL_UQHP, Scenarios::INDIVIDUAL_APTC].map do |use_case|
         {use_case => {individual_endpoint_path: insured_endpoint_filename}}
       end
 

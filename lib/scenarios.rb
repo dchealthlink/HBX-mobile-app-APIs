@@ -9,13 +9,15 @@ class Scenarios < BaseUtil
   INDIVIDUAL_APTC = 'individual_aptc'
   INDIVIDUAL_UQHP = 'individual_uqhp'
   SERVICES = 'services'
-  PLANS = 'plans'
+  PLANS_UQHP_SINGLE = 'plans_for_uqhp_single'
+  PLANS_UQHP_FAMILY = 'plans_for_uqhp_family'
+  PLANS_CSR_FAMILY = 'plans_for_family_receiving_csr'
 
   class << self
 
     # Create accounts - this doesn't write to accounts.json directly because it would overwrite things that got added via templates
     def create_accounts
-      Helper::write_json Helper::account_json, "#{$ROOT_DIRECTORY}/accounts.json.to.merge"
+      Helper::write_json Helper::account_json, "#{$ROOT_DIRECTORY}/accounts.json"
     end
 
     # Create broker 1
@@ -81,9 +83,21 @@ class Scenarios < BaseUtil
     end
 
     # Create plans
-    def create_plans
-      plans_util PLANS do |plans_util|
-        write_json plans_util.create_available_plans, plans_util
+    def create_plans_for_uqhp_single
+      plans_util PLANS_UQHP_SINGLE do |plans_util|
+        write_json plans_util.create_plans_for(1), plans_util
+      end
+    end
+
+    def create_plans_for_uqhp_family
+      plans_util PLANS_UQHP_FAMILY do |plans_util|
+        write_json plans_util.create_plans_for(3), plans_util
+      end
+    end
+
+    def create_plans_for_csr_family
+      plans_util PLANS_CSR_FAMILY do |plans_util|
+        write_json plans_util.create_valid_csr_plans_for(3), plans_util
       end
     end
 
