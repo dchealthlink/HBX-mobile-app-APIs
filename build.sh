@@ -1,2 +1,2 @@
 from_templates/generate_json.rb from_templates/templates generated 
-./generate_json.rb
+./generate_json.rb $1
