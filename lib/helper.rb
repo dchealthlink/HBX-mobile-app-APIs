@@ -20,6 +20,10 @@ module Helper
       "insured.json"
     end
 
+    def services_rates_url
+      BaseUtil::url "#{$GENERATED_DIR}/services/#{ServiceUtil::SERVICES_RATE_JSON}"
+    end
+
     #TODO what this should really do is parse the existing accounts.json and add to it those
     # things we're actually generating, but for now we'll do this but then manually merge the files
     def account_json
@@ -162,7 +166,7 @@ module Helper
     enrollment[:carrier] = carrier
     enrollment[:provider_directory_url] = 'http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor'
     enrollment[:rx_formulary_url] = 'https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf'
-    enrollment[:services_rates_url] = BaseUtil::url "#{$GENERATED_DIR}/services/#{ServiceUtil::SERVICES_RATE_JSON}"
+    enrollment[:services_rates_url] = ::Helper.services_rates_url
   end
 
 end
