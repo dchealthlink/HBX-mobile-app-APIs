@@ -19,8 +19,7 @@ class PlanBuilder
                   dc_in_network: true, coverage_kind: 'health',
                   dental_level: '', is_standard_plan: true,
                   metal_level: 'bronze', nationwide: false,
-                  plan_type: 'hmo', 
-                  average_premium_per_member: 250.00,
+                  plan_type: 'hmo', avg_member_premium: 250.00,
                   provider_directory_url: 'https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N',
                   rx_formulary_url: 'https://carefirst.com/acarx',
                   active_year: 2017
@@ -47,7 +46,7 @@ class PlanBuilder
         name:                   name, # e.g. 'BlueChoice HMO Standard Bronze $5,000',
         nationwide:             nationwide,
         plan_type:              'hmo',
-        total_premium:          (num_members * average_premium_per_member),
+        total_premium:          (num_members * avg_member_premium).round(2),
         provider:               '',
         provider_directory_url: provider_directory_url,
         rx_formulary_url:       rx_formulary_url,
