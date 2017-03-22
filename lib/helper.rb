@@ -169,4 +169,8 @@ module Helper
     enrollment[:services_rates_url] = ::Helper.services_rates_url
   end
 
+  def in_dollars number
+    "$" + number.to_s.reverse.gsub(/(\d{3})(?=\d)/, '\\1,').reverse
+  end
+
 end
