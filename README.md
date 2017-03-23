@@ -1,41 +1,46 @@
 # HBX-mobile-app-APIs
 Specifications and resources for mobile apps needed by the HBX mobile app
 
-Entry point: [hostname]/api/v1/mobile_api/employers_list
+The MVP uses existing IAM & EnrollApp security systems, and not require any changes to HBX's security systems.
 
-## APIs needed - Simple Broker App
+## Broker APIs
 
-Iteration 0 of the mobile app targets SHOP brokers, and allows them to do easy management of SHOP employer clients.
+Entry point: 
+   * [hostname]/api/v1/mobile/broker
+      * [example response](generated/broker_1/broker_details.json)
 
-The MVP will use existing IAM & EnrollApp security systems, and not require any changes to HBX's security systems.
+via HATEOAS:
+   * [hostname]/api/v1/mobile/employer/&lt;id&gt;
+      * [example response](generated/broker_1/employer_details_0.json)
+   *  [hostname]/api/v1/mobile/employer/&lt;id&gt;/employees
+      * [example response](generated/broker_1/roster_0.json)
 
-The MVP will require a couple of specific new API endpoints to yield broker data.
+## Employer APIs
 
-The following JSON payloads provide the information that the mobile app needs for the Broker MVP:
-   `GET http://enroll.dchealthlink.com/broker_agencies/profiles/employers_api?id=<broker id>`
-     The following JSON payload is returned:
-     * [schema](generated/enroll/broker/employers_list/response/schema.json)
-     * [example](generated/enroll/broker/employers_list/response/example.json)
-    
-## Future Possibilities
+Entry points: 
+   * [hostname]/api/v1/mobile/employer/
+      * [example response](generated/er_in_open_enrollment/employer_details.json)
+   * [hostname]/api/v1/mobile/employer/employees
+      * [example response](generated/er_in_open_enrollment/roster.json)
 
-### Expanded Broker App 
+## Individual APIs
 
-The MVP API could be extended, or more endpoints added, to include:
- - roster/enrollment/participation information
- - employer plan offerings information
- - payment and invoice information
+Entry points: 
+   * [hostname]/api/v1/mobile/individual
+      * [example response](generated/individual_aptc/insured.json)
+   * [hostname]/api/v1/mobile/plans
+      * Parameters:
+       	* coverage_kind - health or dental
+        * active_year - if not given, upcoming year
+        * csr_kind - value for whether to restrict search by CSR eligibility
+        * ages - array of ages of family members, for premium calculation
+       	* elected_aptc_amount - for premium calculation
+        * effective_on - date to investigate plans for
+   	* [example response](generated/plans_for_uqhp_family/plans.json)
+
+via HATEOAS:
+   * [hostname]/api/v1/mobile/plans/&lt;id&gt;/services
+      * [example response](generated/services/service_rates.json)
 
 
-### Employer App
- - roster management
- - employee coverage information
 
-Additional versions could target additional customer groups including Employee and Individual users, providing shopping, verification, upload, notifications, etc.
-
-******
-
-### Some resources for dealing with JSON schemas:
-* [jsonschema - Python tool] (http://python-jsonschema.readthedocs.org/en/latest/)
-* [JSON Schema Lint - validator of JSON against a schema] (http://jsonschemalint.com/draft4/#)
-* [JSON Schema Generator] (http://jsonschema.net/#/)
