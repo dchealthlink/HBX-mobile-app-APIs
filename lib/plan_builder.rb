@@ -83,7 +83,8 @@ class PlanBuilder
         provider:               '',
         provider_directory_url: provider_directory_url,
         rx_formulary_url:       rx_formulary_url,
-        services_rates_url:     ::Helper.services_rates_url
+        services_rates_url:     ::Helper.services_rates_url,
+        summary_of_benefits_url: '/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline'
     }
   end
 
