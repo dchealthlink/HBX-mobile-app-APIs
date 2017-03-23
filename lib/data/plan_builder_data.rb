@@ -96,36 +96,28 @@ module PlanBuilderData
   #
   private
 
-  def create_bluecross_standard_hmo_health num_members, deductible: 5000, metal_level: 'bronze', avg_member_premium: 250.00
-    create_bluecross_health "BlueChoice HMO Standard #{metal_level.capitalize} $#{deductible}", num_members,
-                            avg_member_premium: avg_member_premium, deductible: deductible, metal_level: metal_level,
-                            provider_directory_url: 'https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N'
+ def create_bluecross_standard_hmo_health num_members, deductible: nil, metal_level: nil, **args
+    create_bluecross_health "BlueChoice HMO Standard #{metal_level.capitalize} $#{deductible}", num_members, args.merge(deductible: deductible, metal_level: metal_level,
+                   provider_directory_url: 'https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N')
   end
 
-  def create_bluecross_ppo_health num_members, deductible: 5000, metal_level: 'bronze', avg_member_premium: 250.00
-    create_bluecross_health "BluePreferred PPO Standard #{metal_level.capitalize} $#{deductible}",
-                            num_members, avg_member_premium: avg_member_premium, deductible: deductible,
-                            metal_level: metal_level, plan_type: 'ppo', dc_in_network: false, nationwide: true,
-                            provider_directory_url: 'https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_SP1&planName=Blue%20Preferred&isNational=Y'
+  def create_bluecross_ppo_health num_members, deductible: nil, metal_level: nil, **args
+    create_bluecross_health "BluePreferred PPO Standard #{metal_level.capitalize} $#{deductible}", 
+      num_members, args.merge(deductible: deductible, metal_level: metal_level, plan_type: 'ppo', dc_in_network: false, nationwide: true,
+        provider_directory_url: 'https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_SP1&planName=Blue%20Preferred&isNational=Y')
   end
 
-  def create_bluecross_health name, num_members, avg_member_premium: 250.00, dc_in_network: true,
-                              deductible: 5000, is_standard_plan: true, metal_level: 'bronze', nationwide: false,
-                              plan_type: 'hmo', provider_directory_url: nil
-    create_plan name, num_members, deductible: deductible, dc_in_network: dc_in_network,
-                avg_member_premium: avg_member_premium, is_standard_plan: is_standard_plan,
-                metal_level: metal_level, nationwide: nationwide, plan_type: plan_type,
-                provider_directory_url: provider_directory_url,
-                rx_formulary_url: 'https://carefirst.com/acarx'
+  def create_bluecross_health name, num_members, **args
+    create_plan name, num_members, args.merge(
+        rx_formulary_url: 'https://carefirst.com/acarx',
+        carrier_logo_image_url: 'https://enroll.dchealthlink.com/assets/logo/carrier/carefirst-d56435a500caeb412087891f47dee91d.jpg')
   end
 
-  def create_kaiser_health name, num_members, avg_member_premium: 250.00,
-                           deductible: 5000, is_standard_plan: true, metal_level: 'bronze'
-    create_plan name, num_members, deductible: deductible,
-                avg_member_premium: avg_member_premium, is_standard_plan: is_standard_plan,
-                metal_level: metal_level,
+  def create_kaiser_health name, num_members, **args
+    create_plan name, num_members, args.merge(
                 provider_directory_url: 'http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor',
-                rx_formulary_url: 'https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf'
+                rx_formulary_url: 'https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf',
+                carrier_logo_image_url: 'https://enroll.dchealthlink.com/assets/logo/carrier/kaiser-63900cee003506c33dc3eff1fa8e94d2.jpg')
   end
 
   def create_plan name, num_members,
@@ -136,7 +128,8 @@ module PlanBuilderData
                   plan_type: 'hmo', avg_member_premium: 250.00,
                   provider_directory_url: nil,
                   rx_formulary_url: nil,
-                  active_year: 2017
+                  active_year: 2017,
+                  carrier_logo_image_url: nil
 
     single_deductible = in_dollars deductible
     family_deductible = "#{single_deductible} per person | #{in_dollars (deductible * 2)} per group"
@@ -158,7 +151,7 @@ module PlanBuilderData
         nationwide: nationwide,
         plan_type: 'hmo',
         provider: ''
-    }.merge(provider(provider_directory_url, rx_formulary_url))
+    }.merge(provider(provider_directory_url, rx_formulary_url, carrier_logo_image_url))
         .merge(cost(num_members, family_deductible, single_deductible, deductible, avg_member_premium))
         .merge(hios(hios_base_id))
   end
@@ -169,12 +162,13 @@ module PlanBuilderData
           id: hios_base_id + '-01'}}
   end
 
-  def provider provider_directory_url, rx_formulary_url
+  def provider provider_directory_url, rx_formulary_url, carrier_logo_image_url
     {url:
          {provider_directory: provider_directory_url,
           rx_formulary: rx_formulary_url,
           services_rates: ::Helper.services_rates_url,
-          summary_of_benefits: '/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline'}
+          summary_of_benefits: '/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline',
+          carrier_logo: carrier_logo_image_url}
     }
   end
 
