@@ -15,7 +15,7 @@ class Scenarios < BaseUtil
 
   class << self
 
-    # Create accounts - this doesn't write to accounts.json directly because it would overwrite things that got added via templates
+    # Create accounts
     def create_accounts
       Helper::write_json Helper::account_json, "#{$ROOT_DIRECTORY}/accounts.json"
     end
