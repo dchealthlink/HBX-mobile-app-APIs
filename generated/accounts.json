@@ -51,10 +51,5 @@
     "individual_uqhp": {
       "individual_endpoint_path": "insured.json"
     }
-  },
-  {
-    "individual_aptc": {
-      "individual_endpoint_path": "insured.json"
-    }
   }
 ]
