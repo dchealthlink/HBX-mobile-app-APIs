@@ -2,104 +2,99 @@ module PlanBuilderData
   include Helper
 
   def add_plan_20 num_members
-    create_kaiser_health('KP DC Silver 2750/20%/HSA/Dental/Ped Dental', num_members,
-                         deductible: 2750, is_standard_plan: false, metal_level: 'silver', avg_member_premium: 247.44)
+    create_kaiser_health('KP DC Silver 2750/20%/HSA/Dental/Ped Dental', num_members, deductible: 2750,
+                         is_standard_plan: false, metal_level: 'silver', avg_member_premium: 247.44)
   end
 
   def add_plan_19 num_members
-    create_kaiser_health('KP DC Silver 1800/30/Dental/Ped Dental', num_members,
-                         deductible: 1800, is_standard_plan: false, metal_level: 'silver', avg_member_premium: 276.54)
+    create_kaiser_health('KP DC Silver 1800/30/Dental/Ped Dental', num_members, deductible: 1800,
+                         is_standard_plan: false, metal_level: 'silver', avg_member_premium: 276.54)
   end
 
   def add_plan_18 num_members
-    create_kaiser_health('KP DC STANDARD Silver 2000/25/Dental/Ped Dental', num_members,
-                         deductible: 2000, metal_level: 'silver', avg_member_premium: 285.76)
+    create_kaiser_health('KP DC STANDARD Silver 2000/25/Dental/Ped Dental', num_members, deductible: 2000,
+                         metal_level: 'silver', avg_member_premium: 285.76)
   end
 
   def add_plan_17 num_members
-    create_kaiser_health('KP DC STANDARD Platinum 0/20/Dental/Ped Dental', num_members,
-                         deductible: 0, metal_level: 'platinum', avg_member_premium: 380.79)
+    create_kaiser_health('KP DC STANDARD Platinum 0/20/Dental/Ped Dental', num_members, deductible: 0,
+                         metal_level: 'platinum', avg_member_premium: 380.79)
   end
 
   def add_plan_16 num_members
-    create_kaiser_health('KP DC STANDARD Gold 500/25/Dental/Ped Dental', num_members,
-                         deductible: 500, metal_level: 'gold', avg_member_premium: 339.03)
+    create_kaiser_health('KP DC STANDARD Gold 500/25/Dental/Ped Dental', num_members, deductible: 500,
+                         metal_level: 'gold', avg_member_premium: 339.03)
   end
 
   def add_plan_15 num_members
-    create_kaiser_health('KP DC STANDARD Bronze 5000/50/Dental/Ped Dental', num_members,
-                         deductible: 5000, metal_level: 'bronze', avg_member_premium: 214.52)
+    create_kaiser_health('KP DC STANDARD Bronze 5000/50/Dental/Ped Dental', num_members, deductible: 5000,
+                         metal_level: 'bronze', avg_member_premium: 214.52)
   end
 
   def add_plan_14 num_members
-    create_kaiser_health('KP DC Gold 1000/20/Dental/Ped Dental', num_members,
-                         deductible: 1000, is_standard_plan: false, metal_level: 'gold', avg_member_premium: 316.93)
+    create_kaiser_health('KP DC Gold 1000/20/Dental/Ped Dental', num_members, deductible: 1000, is_standard_plan: false,
+                         metal_level: 'gold', avg_member_premium: 316.93)
   end
 
   def add_plan_13 num_members
-    create_kaiser_health('KP DC Gold 0/20/Dental/Ped Dental', num_members,
-                         deductible: 0, is_standard_plan: false, metal_level: 'gold', avg_member_premium: 342.87)
+    create_kaiser_health('KP DC Gold 0/20/Dental/Ped Dental', num_members, deductible: 0, is_standard_plan: false,
+                         metal_level: 'gold', avg_member_premium: 342.87)
   end
 
   def add_plan_12 num_members
-    create_kaiser_health('KP DC Catastrophic 7150/0/Dental/Ped Dental', num_members,
-                         deductible: 7150, is_standard_plan: false, metal_level: 'catastrophic', avg_member_premium: 173.34)
+    create_kaiser_health('KP DC Catastrophic 7150/0/Dental/Ped Dental', num_members, deductible: 7150,
+                         is_standard_plan: false, metal_level: 'catastrophic', avg_member_premium: 173.34)
   end
 
   def add_plan_11 num_members
-    create_kaiser_health('KP DC Bronze 6400/55/Dental/Ped Dental', num_members,
-                         deductible: 6400, is_standard_plan: false, metal_level: 'bronze', avg_member_premium: 198.38)
+    create_kaiser_health('KP DC Bronze 6400/55/Dental/Ped Dental', num_members, deductible: 6400, is_standard_plan: false, metal_level: 'bronze', avg_member_premium: 198.38)
   end
 
   def add_plan_10 num_members
-    create_kaiser_health('KP DC Bronze 6200/20%/HSA/Dental/Ped Dental', num_members,
-                         deductible: 6200, is_standard_plan: false, metal_level: 'bronze', avg_member_premium: 203.11)
+    create_kaiser_health('KP DC Bronze 6200/20%/HSA/Dental/Ped Dental', num_members, deductible: 6200, is_standard_plan: false, metal_level: 'bronze', avg_member_premium: 203.11)
   end
 
   def add_plan_9 num_members
-    create_bluecross_ppo_health(num_members,
-                                deductible: 2000, metal_level: 'silver', avg_member_premium: 283.46)
+    create_bluecross_ppo_health(num_members, deductible: 2000, metal_level: 'silver', avg_member_premium: 283.46)
   end
 
   def add_plan_8 num_members
-    create_bluecross_ppo_health(num_members,
-                                deductible: 0, metal_level: 'platinum', avg_member_premium: 427.9)
+    create_bluecross_ppo_health(num_members, deductible: 0, metal_level: 'platinum', avg_member_premium: 427.9)
   end
 
   def add_plan_7 num_members
-    create_bluecross_ppo_health(num_members,
-                                deductible: 500, metal_level: 'gold', avg_member_premium: 367.59)
+    create_bluecross_ppo_health(num_members, deductible: 500, metal_level: 'gold', avg_member_premium: 367.59)
   end
 
   def add_plan_6 num_members
-    create_bluecross_ppo_health(num_members,
-                                deductible: 5000, metal_level: 'bronze', avg_member_premium: 224.76)
+    create_bluecross_ppo_health(num_members, deductible: 5000, metal_level: 'bronze', avg_member_premium: 224.76)
   end
 
   def add_plan_5 num_members
-    create_bluecross_health('BlueChoice HMO Young Adult $7,150', num_members,
-                            deductible: 7150, dc_in_network: false, is_standard_plan: false,
-                            metal_level: 'catastrophic', avg_member_premium: 113.28)
+    create_bluecross_health('BlueChoice HMO Young Adult $7,150', num_members, deductible: 7150, dc_in_network: false,
+                            is_standard_plan: false, metal_level: 'catastrophic', avg_member_premium: 113.28)
   end
 
   def add_plan_4 num_members
-    create_bluecross_standard_hmo_health(num_members,
-                                         deductible: 2000, metal_level: 'silver', avg_member_premium: 267.78)
+    create_bluecross_standard_hmo_health(num_members, deductible: 2000, metal_level: 'silver', avg_member_premium: 267.78)
   end
 
   def add_plan_3 num_members
-    create_bluecross_standard_hmo_health(num_members,
-                                         deductible: 0, metal_level: 'platinum', avg_member_premium: 414.41)
+    create_bluecross_standard_hmo_health(num_members, deductible: 0, metal_level: 'platinum', avg_member_premium: 414.41)
   end
 
   def add_plan_2 num_members
-    create_bluecross_standard_hmo_health(num_members,
-                                         deductible: 500, metal_level: 'gold', avg_member_premium: 349.11)
+    create_bluecross_standard_hmo_health(num_members, deductible: 500, metal_level: 'gold', avg_member_premium: 349.11)
   end
 
   def add_plan_1 num_members
     create_bluecross_standard_hmo_health(num_members, deductible: 5000, metal_level: 'bronze', avg_member_premium: 220.1)
   end
+
+  #
+  # Private
+  #
+  private
 
   def create_bluecross_standard_hmo_health num_members, deductible: 5000, metal_level: 'bronze', avg_member_premium: 250.00
     create_bluecross_health "BlueChoice HMO Standard #{metal_level.capitalize} $#{deductible}", num_members,
