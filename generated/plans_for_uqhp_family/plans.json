@@ -19,7 +19,8 @@
       "provider_directory": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
       "rx_formulary": "https://carefirst.com/acarx",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline",
+      "carrier_logo": "https://enroll.dchealthlink.com/assets/logo/carrier/carefirst-d56435a500caeb412087891f47dee91d.jpg"
     },
     "cost": {
       "deductible_text": "$5,000 per person | $10,000 per group",
@@ -51,7 +52,8 @@
       "provider_directory": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
       "rx_formulary": "https://carefirst.com/acarx",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline",
+      "carrier_logo": "https://enroll.dchealthlink.com/assets/logo/carrier/carefirst-d56435a500caeb412087891f47dee91d.jpg"
     },
     "cost": {
       "deductible_text": "$500 per person | $1,000 per group",
@@ -83,7 +85,8 @@
       "provider_directory": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
       "rx_formulary": "https://carefirst.com/acarx",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline",
+      "carrier_logo": "https://enroll.dchealthlink.com/assets/logo/carrier/carefirst-d56435a500caeb412087891f47dee91d.jpg"
     },
     "cost": {
       "deductible_text": "$0 per person | $0 per group",
@@ -115,7 +118,8 @@
       "provider_directory": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
       "rx_formulary": "https://carefirst.com/acarx",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline",
+      "carrier_logo": "https://enroll.dchealthlink.com/assets/logo/carrier/carefirst-d56435a500caeb412087891f47dee91d.jpg"
     },
     "cost": {
       "deductible_text": "$2,000 per person | $4,000 per group",
@@ -147,7 +151,8 @@
       "provider_directory": null,
       "rx_formulary": "https://carefirst.com/acarx",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline",
+      "carrier_logo": "https://enroll.dchealthlink.com/assets/logo/carrier/carefirst-d56435a500caeb412087891f47dee91d.jpg"
     },
     "cost": {
       "deductible_text": "$7,150 per person | $14,300 per group",
@@ -179,7 +184,8 @@
       "provider_directory": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_SP1&planName=Blue%20Preferred&isNational=Y",
       "rx_formulary": "https://carefirst.com/acarx",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline",
+      "carrier_logo": "https://enroll.dchealthlink.com/assets/logo/carrier/carefirst-d56435a500caeb412087891f47dee91d.jpg"
     },
     "cost": {
       "deductible_text": "$5,000 per person | $10,000 per group",
@@ -211,7 +217,8 @@
       "provider_directory": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_SP1&planName=Blue%20Preferred&isNational=Y",
       "rx_formulary": "https://carefirst.com/acarx",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline",
+      "carrier_logo": "https://enroll.dchealthlink.com/assets/logo/carrier/carefirst-d56435a500caeb412087891f47dee91d.jpg"
     },
     "cost": {
       "deductible_text": "$500 per person | $1,000 per group",
@@ -243,7 +250,8 @@
       "provider_directory": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_SP1&planName=Blue%20Preferred&isNational=Y",
       "rx_formulary": "https://carefirst.com/acarx",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline",
+      "carrier_logo": "https://enroll.dchealthlink.com/assets/logo/carrier/carefirst-d56435a500caeb412087891f47dee91d.jpg"
     },
     "cost": {
       "deductible_text": "$0 per person | $0 per group",
@@ -275,7 +283,8 @@
       "provider_directory": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_SP1&planName=Blue%20Preferred&isNational=Y",
       "rx_formulary": "https://carefirst.com/acarx",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline",
+      "carrier_logo": "https://enroll.dchealthlink.com/assets/logo/carrier/carefirst-d56435a500caeb412087891f47dee91d.jpg"
     },
     "cost": {
       "deductible_text": "$2,000 per person | $4,000 per group",
@@ -307,7 +316,8 @@
       "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
       "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline",
+      "carrier_logo": "https://enroll.dchealthlink.com/assets/logo/carrier/kaiser-63900cee003506c33dc3eff1fa8e94d2.jpg"
     },
     "cost": {
       "deductible_text": "$6,200 per person | $12,400 per group",
@@ -339,7 +349,8 @@
       "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
       "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline",
+      "carrier_logo": "https://enroll.dchealthlink.com/assets/logo/carrier/kaiser-63900cee003506c33dc3eff1fa8e94d2.jpg"
     },
     "cost": {
       "deductible_text": "$6,400 per person | $12,800 per group",
@@ -371,7 +382,8 @@
       "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
       "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline",
+      "carrier_logo": "https://enroll.dchealthlink.com/assets/logo/carrier/kaiser-63900cee003506c33dc3eff1fa8e94d2.jpg"
     },
     "cost": {
       "deductible_text": "$7,150 per person | $14,300 per group",
@@ -403,7 +415,8 @@
       "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
       "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline",
+      "carrier_logo": "https://enroll.dchealthlink.com/assets/logo/carrier/kaiser-63900cee003506c33dc3eff1fa8e94d2.jpg"
     },
     "cost": {
       "deductible_text": "$0 per person | $0 per group",
@@ -435,7 +448,8 @@
       "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
       "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline",
+      "carrier_logo": "https://enroll.dchealthlink.com/assets/logo/carrier/kaiser-63900cee003506c33dc3eff1fa8e94d2.jpg"
     },
     "cost": {
       "deductible_text": "$1,000 per person | $2,000 per group",
@@ -467,7 +481,8 @@
       "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
       "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline",
+      "carrier_logo": "https://enroll.dchealthlink.com/assets/logo/carrier/kaiser-63900cee003506c33dc3eff1fa8e94d2.jpg"
     },
     "cost": {
       "deductible_text": "$5,000 per person | $10,000 per group",
@@ -499,7 +514,8 @@
       "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
       "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline",
+      "carrier_logo": "https://enroll.dchealthlink.com/assets/logo/carrier/kaiser-63900cee003506c33dc3eff1fa8e94d2.jpg"
     },
     "cost": {
       "deductible_text": "$500 per person | $1,000 per group",
@@ -531,7 +547,8 @@
       "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
       "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline",
+      "carrier_logo": "https://enroll.dchealthlink.com/assets/logo/carrier/kaiser-63900cee003506c33dc3eff1fa8e94d2.jpg"
     },
     "cost": {
       "deductible_text": "$0 per person | $0 per group",
@@ -563,7 +580,8 @@
       "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
       "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline",
+      "carrier_logo": "https://enroll.dchealthlink.com/assets/logo/carrier/kaiser-63900cee003506c33dc3eff1fa8e94d2.jpg"
     },
     "cost": {
       "deductible_text": "$2,000 per person | $4,000 per group",
@@ -595,7 +613,8 @@
       "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
       "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline",
+      "carrier_logo": "https://enroll.dchealthlink.com/assets/logo/carrier/kaiser-63900cee003506c33dc3eff1fa8e94d2.jpg"
     },
     "cost": {
       "deductible_text": "$1,800 per person | $3,600 per group",
@@ -627,7 +646,8 @@
       "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
       "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline",
+      "carrier_logo": "https://enroll.dchealthlink.com/assets/logo/carrier/kaiser-63900cee003506c33dc3eff1fa8e94d2.jpg"
     },
     "cost": {
       "deductible_text": "$2,750 per person | $5,500 per group",
