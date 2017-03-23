@@ -147,11 +147,7 @@ module PlanBuilderData
         active_year: active_year,
         coverage_kind: coverage_kind,
         dc_in_network: dc_in_network,
-        deductible_text: (num_members > 1) ? family_deductible : single_deductible,
-        deductible: (num_members > 1) ? (deductible * 2) : deductible,
         dental_level: dental_level,
-        hios_base_id: hios_base_id,
-        hios_id: hios_base_id + '-01',
         is_active: true,
         is_standard_plan: is_standard_plan,
         market: 'individual',
@@ -161,12 +157,32 @@ module PlanBuilderData
         name: name, # e.g. 'BlueChoice HMO Standard Bronze $5,000',
         nationwide: nationwide,
         plan_type: 'hmo',
-        total_premium: (num_members * avg_member_premium).round(2),
-        provider: '',
-        provider_directory_url: provider_directory_url,
-        rx_formulary_url: rx_formulary_url,
-        services_rates_url: ::Helper.services_rates_url,
-        summary_of_benefits_url: '/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline'
+        provider: ''
+    }.merge(provider(provider_directory_url, rx_formulary_url))
+        .merge(cost(num_members, family_deductible, single_deductible, deductible, avg_member_premium))
+        .merge(hios(hios_base_id))
+  end
+
+  def hios hios_base_id
+    {hios:
+         {base_id: hios_base_id,
+          id: hios_base_id + '-01'}}
+  end
+
+  def provider provider_directory_url, rx_formulary_url
+    {url:
+         {provider_directory: provider_directory_url,
+          rx_formulary: rx_formulary_url,
+          services_rates: ::Helper.services_rates_url,
+          summary_of_benefits: '/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline'}
+    }
+  end
+
+  def cost num_members, family_deductible, single_deductible, deductible, avg_member_premium
+    {cost: {
+        deductible_text: (num_members > 1) ? family_deductible : single_deductible,
+        deductible: (num_members > 1) ? (deductible * 2) : deductible,
+        total_premium: (num_members * avg_member_premium).round(2), }
     }
   end
 

@@ -1,14 +1,10 @@
 [
   {
-    "id": "ab5fdf995b858260e4ac2c8c2",
+    "id": "a78a8f4c7a74a5c5d83085d90",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
-    "deductible_text": "$5,000",
-    "deductible": 5000,
     "dental_level": "",
-    "hios_base_id": "A065C5E9C5828DC",
-    "hios_id": "A065C5E9C5828DC-01",
     "is_active": true,
     "is_standard_plan": true,
     "market": "individual",
@@ -18,23 +14,29 @@
     "name": "BlueChoice HMO Standard Bronze $5000",
     "nationwide": false,
     "plan_type": "hmo",
-    "total_premium": 220.1,
     "provider": "",
-    "provider_directory_url": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
-    "rx_formulary_url": "https://carefirst.com/acarx",
-    "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-    "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    "url": {
+      "provider_directory": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
+      "rx_formulary": "https://carefirst.com/acarx",
+      "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    },
+    "cost": {
+      "deductible_text": "$5,000",
+      "deductible": 5000,
+      "total_premium": 220.1
+    },
+    "hios": {
+      "base_id": "0B5028B502238AE",
+      "id": "0B5028B502238AE-01"
+    }
   },
   {
-    "id": "836029eeeb09221ca9cf4e120",
+    "id": "30cbddf94150b19980e0114cd",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
-    "deductible_text": "$500",
-    "deductible": 500,
     "dental_level": "",
-    "hios_base_id": "615AD73D22BC651",
-    "hios_id": "615AD73D22BC651-01",
     "is_active": true,
     "is_standard_plan": true,
     "market": "individual",
@@ -44,23 +46,29 @@
     "name": "BlueChoice HMO Standard Gold $500",
     "nationwide": false,
     "plan_type": "hmo",
-    "total_premium": 349.11,
     "provider": "",
-    "provider_directory_url": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
-    "rx_formulary_url": "https://carefirst.com/acarx",
-    "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-    "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    "url": {
+      "provider_directory": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
+      "rx_formulary": "https://carefirst.com/acarx",
+      "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    },
+    "cost": {
+      "deductible_text": "$500",
+      "deductible": 500,
+      "total_premium": 349.11
+    },
+    "hios": {
+      "base_id": "561B8C44017502A",
+      "id": "561B8C44017502A-01"
+    }
   },
   {
-    "id": "10da1b0e58711136dea4b5889",
+    "id": "02c01e723b6945ed5a2522389",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
-    "deductible_text": "$0",
-    "deductible": 0,
     "dental_level": "",
-    "hios_base_id": "1872A837B19F5B2",
-    "hios_id": "1872A837B19F5B2-01",
     "is_active": true,
     "is_standard_plan": true,
     "market": "individual",
@@ -70,23 +78,29 @@
     "name": "BlueChoice HMO Standard Platinum $0",
     "nationwide": false,
     "plan_type": "hmo",
-    "total_premium": 414.41,
     "provider": "",
-    "provider_directory_url": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
-    "rx_formulary_url": "https://carefirst.com/acarx",
-    "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-    "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    "url": {
+      "provider_directory": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
+      "rx_formulary": "https://carefirst.com/acarx",
+      "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    },
+    "cost": {
+      "deductible_text": "$0",
+      "deductible": 0,
+      "total_premium": 414.41
+    },
+    "hios": {
+      "base_id": "9611A6E7F943463",
+      "id": "9611A6E7F943463-01"
+    }
   },
   {
-    "id": "a4df57b5566ae75acdaec3798",
+    "id": "9cca186759a005bc208cceb3e",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
-    "deductible_text": "$2,000",
-    "deductible": 2000,
     "dental_level": "",
-    "hios_base_id": "6E37C6B654E3A0B",
-    "hios_id": "6E37C6B654E3A0B-01",
     "is_active": true,
     "is_standard_plan": true,
     "market": "individual",
@@ -96,23 +110,29 @@
     "name": "BlueChoice HMO Standard Silver $2000",
     "nationwide": false,
     "plan_type": "hmo",
-    "total_premium": 267.78,
     "provider": "",
-    "provider_directory_url": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
-    "rx_formulary_url": "https://carefirst.com/acarx",
-    "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-    "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    "url": {
+      "provider_directory": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
+      "rx_formulary": "https://carefirst.com/acarx",
+      "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    },
+    "cost": {
+      "deductible_text": "$2,000",
+      "deductible": 2000,
+      "total_premium": 267.78
+    },
+    "hios": {
+      "base_id": "2F22E8008471857",
+      "id": "2F22E8008471857-01"
+    }
   },
   {
-    "id": "1a8dea6a2020d566c20fb2e83",
+    "id": "8c91e9e5b680222456c0e6f75",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": false,
-    "deductible_text": "$7,150",
-    "deductible": 7150,
     "dental_level": "",
-    "hios_base_id": "085C5A29028DB2A",
-    "hios_id": "085C5A29028DB2A-01",
     "is_active": true,
     "is_standard_plan": false,
     "market": "individual",
@@ -122,23 +142,29 @@
     "name": "BlueChoice HMO Young Adult $7,150",
     "nationwide": false,
     "plan_type": "hmo",
-    "total_premium": 113.28,
     "provider": "",
-    "provider_directory_url": null,
-    "rx_formulary_url": "https://carefirst.com/acarx",
-    "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-    "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    "url": {
+      "provider_directory": null,
+      "rx_formulary": "https://carefirst.com/acarx",
+      "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    },
+    "cost": {
+      "deductible_text": "$7,150",
+      "deductible": 7150,
+      "total_premium": 113.28
+    },
+    "hios": {
+      "base_id": "CE83B76D34970D0",
+      "id": "CE83B76D34970D0-01"
+    }
   },
   {
-    "id": "561bcc51356b020abeac2d833",
+    "id": "6d555ae8214b5211ccbe2b152",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": false,
-    "deductible_text": "$5,000",
-    "deductible": 5000,
     "dental_level": "",
-    "hios_base_id": "D9A8229DAD9EC3E",
-    "hios_id": "D9A8229DAD9EC3E-01",
     "is_active": true,
     "is_standard_plan": true,
     "market": "individual",
@@ -148,23 +174,29 @@
     "name": "BluePreferred PPO Standard Bronze $5000",
     "nationwide": true,
     "plan_type": "hmo",
-    "total_premium": 224.76,
     "provider": "",
-    "provider_directory_url": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_SP1&planName=Blue%20Preferred&isNational=Y",
-    "rx_formulary_url": "https://carefirst.com/acarx",
-    "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-    "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    "url": {
+      "provider_directory": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_SP1&planName=Blue%20Preferred&isNational=Y",
+      "rx_formulary": "https://carefirst.com/acarx",
+      "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    },
+    "cost": {
+      "deductible_text": "$5,000",
+      "deductible": 5000,
+      "total_premium": 224.76
+    },
+    "hios": {
+      "base_id": "CDE98E240AE0169",
+      "id": "CDE98E240AE0169-01"
+    }
   },
   {
-    "id": "cb2f5e420ec84d025f40de5ce",
+    "id": "15c6bc6fbad6c86de958dc670",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": false,
-    "deductible_text": "$500",
-    "deductible": 500,
     "dental_level": "",
-    "hios_base_id": "0CC0B9E8ECFB65A",
-    "hios_id": "0CC0B9E8ECFB65A-01",
     "is_active": true,
     "is_standard_plan": true,
     "market": "individual",
@@ -174,23 +206,29 @@
     "name": "BluePreferred PPO Standard Gold $500",
     "nationwide": true,
     "plan_type": "hmo",
-    "total_premium": 367.59,
     "provider": "",
-    "provider_directory_url": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_SP1&planName=Blue%20Preferred&isNational=Y",
-    "rx_formulary_url": "https://carefirst.com/acarx",
-    "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-    "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    "url": {
+      "provider_directory": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_SP1&planName=Blue%20Preferred&isNational=Y",
+      "rx_formulary": "https://carefirst.com/acarx",
+      "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    },
+    "cost": {
+      "deductible_text": "$500",
+      "deductible": 500,
+      "total_premium": 367.59
+    },
+    "hios": {
+      "base_id": "17AA94D8BC30CA8",
+      "id": "17AA94D8BC30CA8-01"
+    }
   },
   {
-    "id": "f51c8eb766319529358ed7d97",
+    "id": "7b7a90f041dbdab726972e711",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": false,
-    "deductible_text": "$0",
-    "deductible": 0,
     "dental_level": "",
-    "hios_base_id": "DD8E69EC65B6E84",
-    "hios_id": "DD8E69EC65B6E84-01",
     "is_active": true,
     "is_standard_plan": true,
     "market": "individual",
@@ -200,23 +238,29 @@
     "name": "BluePreferred PPO Standard Platinum $0",
     "nationwide": true,
     "plan_type": "hmo",
-    "total_premium": 427.9,
     "provider": "",
-    "provider_directory_url": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_SP1&planName=Blue%20Preferred&isNational=Y",
-    "rx_formulary_url": "https://carefirst.com/acarx",
-    "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-    "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    "url": {
+      "provider_directory": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_SP1&planName=Blue%20Preferred&isNational=Y",
+      "rx_formulary": "https://carefirst.com/acarx",
+      "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    },
+    "cost": {
+      "deductible_text": "$0",
+      "deductible": 0,
+      "total_premium": 427.9
+    },
+    "hios": {
+      "base_id": "FF6A688FC97A678",
+      "id": "FF6A688FC97A678-01"
+    }
   },
   {
-    "id": "53a27066b2740b28aad682b00",
+    "id": "17ee326f27356cfed97b0f62c",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": false,
-    "deductible_text": "$2,000",
-    "deductible": 2000,
     "dental_level": "",
-    "hios_base_id": "5BAFEEBE0103C07",
-    "hios_id": "5BAFEEBE0103C07-01",
     "is_active": true,
     "is_standard_plan": true,
     "market": "individual",
@@ -226,23 +270,29 @@
     "name": "BluePreferred PPO Standard Silver $2000",
     "nationwide": true,
     "plan_type": "hmo",
-    "total_premium": 283.46,
     "provider": "",
-    "provider_directory_url": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_SP1&planName=Blue%20Preferred&isNational=Y",
-    "rx_formulary_url": "https://carefirst.com/acarx",
-    "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-    "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    "url": {
+      "provider_directory": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_SP1&planName=Blue%20Preferred&isNational=Y",
+      "rx_formulary": "https://carefirst.com/acarx",
+      "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    },
+    "cost": {
+      "deductible_text": "$2,000",
+      "deductible": 2000,
+      "total_premium": 283.46
+    },
+    "hios": {
+      "base_id": "FF7391AC151165B",
+      "id": "FF7391AC151165B-01"
+    }
   },
   {
-    "id": "03fb6daa37f95a8ad552bc366",
+    "id": "625158aafac0a79efa5c3cd6e",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
-    "deductible_text": "$6,200",
-    "deductible": 6200,
     "dental_level": "",
-    "hios_base_id": "0627F23B0CEB211",
-    "hios_id": "0627F23B0CEB211-01",
     "is_active": true,
     "is_standard_plan": false,
     "market": "individual",
@@ -252,23 +302,29 @@
     "name": "KP DC Bronze 6200/20%/HSA/Dental/Ped Dental",
     "nationwide": false,
     "plan_type": "hmo",
-    "total_premium": 203.11,
     "provider": "",
-    "provider_directory_url": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
-    "rx_formulary_url": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
-    "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-    "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    "url": {
+      "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
+      "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
+      "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    },
+    "cost": {
+      "deductible_text": "$6,200",
+      "deductible": 6200,
+      "total_premium": 203.11
+    },
+    "hios": {
+      "base_id": "06672F9FFA33CEB",
+      "id": "06672F9FFA33CEB-01"
+    }
   },
   {
-    "id": "193ef6eddf47fe19191d5463c",
+    "id": "0a4a67799061a20ca87a598ff",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
-    "deductible_text": "$6,400",
-    "deductible": 6400,
     "dental_level": "",
-    "hios_base_id": "8F4E36B75B17FDE",
-    "hios_id": "8F4E36B75B17FDE-01",
     "is_active": true,
     "is_standard_plan": false,
     "market": "individual",
@@ -278,23 +334,29 @@
     "name": "KP DC Bronze 6400/55/Dental/Ped Dental",
     "nationwide": false,
     "plan_type": "hmo",
-    "total_premium": 198.38,
     "provider": "",
-    "provider_directory_url": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
-    "rx_formulary_url": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
-    "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-    "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    "url": {
+      "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
+      "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
+      "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    },
+    "cost": {
+      "deductible_text": "$6,400",
+      "deductible": 6400,
+      "total_premium": 198.38
+    },
+    "hios": {
+      "base_id": "178DAF6E8B6DD99",
+      "id": "178DAF6E8B6DD99-01"
+    }
   },
   {
-    "id": "0112ed197b2e6cc5f4c72dd1e",
+    "id": "eaa07aa6f49ddb5dae72b87a2",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
-    "deductible_text": "$7,150",
-    "deductible": 7150,
     "dental_level": "",
-    "hios_base_id": "EB003A91071BA40",
-    "hios_id": "EB003A91071BA40-01",
     "is_active": true,
     "is_standard_plan": false,
     "market": "individual",
@@ -304,23 +366,29 @@
     "name": "KP DC Catastrophic 7150/0/Dental/Ped Dental",
     "nationwide": false,
     "plan_type": "hmo",
-    "total_premium": 173.34,
     "provider": "",
-    "provider_directory_url": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
-    "rx_formulary_url": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
-    "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-    "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    "url": {
+      "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
+      "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
+      "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    },
+    "cost": {
+      "deductible_text": "$7,150",
+      "deductible": 7150,
+      "total_premium": 173.34
+    },
+    "hios": {
+      "base_id": "3EA7043A7999631",
+      "id": "3EA7043A7999631-01"
+    }
   },
   {
-    "id": "ec52166a91747aac48d17fa86",
+    "id": "cf900b7a8c094cdf719cf8c42",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
-    "deductible_text": "$0",
-    "deductible": 0,
     "dental_level": "",
-    "hios_base_id": "E2346B674570D1D",
-    "hios_id": "E2346B674570D1D-01",
     "is_active": true,
     "is_standard_plan": false,
     "market": "individual",
@@ -330,23 +398,29 @@
     "name": "KP DC Gold 0/20/Dental/Ped Dental",
     "nationwide": false,
     "plan_type": "hmo",
-    "total_premium": 342.87,
     "provider": "",
-    "provider_directory_url": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
-    "rx_formulary_url": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
-    "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-    "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    "url": {
+      "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
+      "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
+      "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    },
+    "cost": {
+      "deductible_text": "$0",
+      "deductible": 0,
+      "total_premium": 342.87
+    },
+    "hios": {
+      "base_id": "7F674A2E963410F",
+      "id": "7F674A2E963410F-01"
+    }
   },
   {
-    "id": "4ad42aaf7f12d7152a31d721d",
+    "id": "3688423f74bb7ea4643acba0b",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
-    "deductible_text": "$1,000",
-    "deductible": 1000,
     "dental_level": "",
-    "hios_base_id": "9BED4460904BCD2",
-    "hios_id": "9BED4460904BCD2-01",
     "is_active": true,
     "is_standard_plan": false,
     "market": "individual",
@@ -356,23 +430,29 @@
     "name": "KP DC Gold 1000/20/Dental/Ped Dental",
     "nationwide": false,
     "plan_type": "hmo",
-    "total_premium": 316.93,
     "provider": "",
-    "provider_directory_url": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
-    "rx_formulary_url": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
-    "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-    "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    "url": {
+      "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
+      "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
+      "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    },
+    "cost": {
+      "deductible_text": "$1,000",
+      "deductible": 1000,
+      "total_premium": 316.93
+    },
+    "hios": {
+      "base_id": "A3EA584CED5518A",
+      "id": "A3EA584CED5518A-01"
+    }
   },
   {
-    "id": "a0526b3ddd554cc6ea18aaef3",
+    "id": "135c4f049d81b018c8c501101",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
-    "deductible_text": "$5,000",
-    "deductible": 5000,
     "dental_level": "",
-    "hios_base_id": "3A60D224ED84424",
-    "hios_id": "3A60D224ED84424-01",
     "is_active": true,
     "is_standard_plan": true,
     "market": "individual",
@@ -382,23 +462,29 @@
     "name": "KP DC STANDARD Bronze 5000/50/Dental/Ped Dental",
     "nationwide": false,
     "plan_type": "hmo",
-    "total_premium": 214.52,
     "provider": "",
-    "provider_directory_url": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
-    "rx_formulary_url": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
-    "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-    "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    "url": {
+      "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
+      "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
+      "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    },
+    "cost": {
+      "deductible_text": "$5,000",
+      "deductible": 5000,
+      "total_premium": 214.52
+    },
+    "hios": {
+      "base_id": "14DA9682760FA88",
+      "id": "14DA9682760FA88-01"
+    }
   },
   {
-    "id": "086d02c68a90d18cc91e2dedd",
+    "id": "41a2acec90d6dc997a511448c",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
-    "deductible_text": "$500",
-    "deductible": 500,
     "dental_level": "",
-    "hios_base_id": "3352029B76151D9",
-    "hios_id": "3352029B76151D9-01",
     "is_active": true,
     "is_standard_plan": true,
     "market": "individual",
@@ -408,23 +494,29 @@
     "name": "KP DC STANDARD Gold 500/25/Dental/Ped Dental",
     "nationwide": false,
     "plan_type": "hmo",
-    "total_premium": 339.03,
     "provider": "",
-    "provider_directory_url": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
-    "rx_formulary_url": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
-    "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-    "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    "url": {
+      "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
+      "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
+      "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    },
+    "cost": {
+      "deductible_text": "$500",
+      "deductible": 500,
+      "total_premium": 339.03
+    },
+    "hios": {
+      "base_id": "CBDFB701EF8194E",
+      "id": "CBDFB701EF8194E-01"
+    }
   },
   {
-    "id": "f7f5703bb7743323a377e2735",
+    "id": "69977d08f3d1e229664a13cec",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
-    "deductible_text": "$0",
-    "deductible": 0,
     "dental_level": "",
-    "hios_base_id": "506600DE106A636",
-    "hios_id": "506600DE106A636-01",
     "is_active": true,
     "is_standard_plan": true,
     "market": "individual",
@@ -434,23 +526,29 @@
     "name": "KP DC STANDARD Platinum 0/20/Dental/Ped Dental",
     "nationwide": false,
     "plan_type": "hmo",
-    "total_premium": 380.79,
     "provider": "",
-    "provider_directory_url": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
-    "rx_formulary_url": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
-    "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-    "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    "url": {
+      "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
+      "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
+      "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    },
+    "cost": {
+      "deductible_text": "$0",
+      "deductible": 0,
+      "total_premium": 380.79
+    },
+    "hios": {
+      "base_id": "A4BFEF2BD99786E",
+      "id": "A4BFEF2BD99786E-01"
+    }
   },
   {
-    "id": "dc2f6ec03a9d0330a8294a404",
+    "id": "f1d625d15b5f88fd2475feec5",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
-    "deductible_text": "$2,000",
-    "deductible": 2000,
     "dental_level": "",
-    "hios_base_id": "669E3A4190D4193",
-    "hios_id": "669E3A4190D4193-01",
     "is_active": true,
     "is_standard_plan": true,
     "market": "individual",
@@ -460,23 +558,29 @@
     "name": "KP DC STANDARD Silver 2000/25/Dental/Ped Dental",
     "nationwide": false,
     "plan_type": "hmo",
-    "total_premium": 285.76,
     "provider": "",
-    "provider_directory_url": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
-    "rx_formulary_url": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
-    "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-    "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    "url": {
+      "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
+      "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
+      "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    },
+    "cost": {
+      "deductible_text": "$2,000",
+      "deductible": 2000,
+      "total_premium": 285.76
+    },
+    "hios": {
+      "base_id": "15E08A01203A8EC",
+      "id": "15E08A01203A8EC-01"
+    }
   },
   {
-    "id": "0ee42ad2817ec486c3accd881",
+    "id": "f637d4557ed92b3b1b7015ed0",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
-    "deductible_text": "$1,800",
-    "deductible": 1800,
     "dental_level": "",
-    "hios_base_id": "E4CC92365A5EEFA",
-    "hios_id": "E4CC92365A5EEFA-01",
     "is_active": true,
     "is_standard_plan": false,
     "market": "individual",
@@ -486,23 +590,29 @@
     "name": "KP DC Silver 1800/30/Dental/Ped Dental",
     "nationwide": false,
     "plan_type": "hmo",
-    "total_premium": 276.54,
     "provider": "",
-    "provider_directory_url": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
-    "rx_formulary_url": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
-    "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-    "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    "url": {
+      "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
+      "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
+      "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    },
+    "cost": {
+      "deductible_text": "$1,800",
+      "deductible": 1800,
+      "total_premium": 276.54
+    },
+    "hios": {
+      "base_id": "481C468D17E55C3",
+      "id": "481C468D17E55C3-01"
+    }
   },
   {
-    "id": "41442cb79ffd0e2a4b0a11494",
+    "id": "ee9a78fd9ce3a56616b2870ac",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
-    "deductible_text": "$2,750",
-    "deductible": 2750,
     "dental_level": "",
-    "hios_base_id": "65D54B0A25CD07D",
-    "hios_id": "65D54B0A25CD07D-01",
     "is_active": true,
     "is_standard_plan": false,
     "market": "individual",
@@ -512,11 +622,21 @@
     "name": "KP DC Silver 2750/20%/HSA/Dental/Ped Dental",
     "nationwide": false,
     "plan_type": "hmo",
-    "total_premium": 247.44,
     "provider": "",
-    "provider_directory_url": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
-    "rx_formulary_url": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
-    "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
-    "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    "url": {
+      "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
+      "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
+      "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
+      "summary_of_benefits": "/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline"
+    },
+    "cost": {
+      "deductible_text": "$2,750",
+      "deductible": 2750,
+      "total_premium": 247.44
+    },
+    "hios": {
+      "base_id": "B596BD5CA22B11D",
+      "id": "B596BD5CA22B11D-01"
+    }
   }
 ]
