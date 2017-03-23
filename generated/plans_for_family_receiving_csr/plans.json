@@ -91,7 +91,7 @@
     "plan_type": "hmo",
     "total_premium": 1102.77,
     "provider": "",
-    "provider_directory_url": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
+    "provider_directory_url": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_SP1&planName=Blue%20Preferred&isNational=Y",
     "rx_formulary_url": "https://carefirst.com/acarx",
     "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json"
   },
@@ -115,7 +115,7 @@
     "plan_type": "hmo",
     "total_premium": 1283.7,
     "provider": "",
-    "provider_directory_url": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
+    "provider_directory_url": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_SP1&planName=Blue%20Preferred&isNational=Y",
     "rx_formulary_url": "https://carefirst.com/acarx",
     "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json"
   },
@@ -123,7 +123,7 @@
     "_id": "d262b6314ad3ca721968df1ae",
     "active_year": 2017,
     "coverage_kind": "health",
-    "dc_in_network": true,
+    "dc_in_network": false,
     "deductible": "$2,000 per person | $4,000 per group",
     "dental_level": "",
     "hios_base_id": "B39DE456C5FD577",
@@ -139,7 +139,7 @@
     "plan_type": "hmo",
     "total_premium": 850.38,
     "provider": "",
-    "provider_directory_url": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
+    "provider_directory_url": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_SP1&planName=Blue%20Preferred&isNational=Y",
     "rx_formulary_url": "https://carefirst.com/acarx",
     "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json"
   },
@@ -163,8 +163,8 @@
     "plan_type": "hmo",
     "total_premium": 1028.61,
     "provider": "",
-    "provider_directory_url": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
-    "rx_formulary_url": "https://carefirst.com/acarx",
+    "provider_directory_url": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
+    "rx_formulary_url": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
     "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json"
   },
   {
@@ -187,8 +187,8 @@
     "plan_type": "hmo",
     "total_premium": 950.79,
     "provider": "",
-    "provider_directory_url": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
-    "rx_formulary_url": "https://carefirst.com/acarx",
+    "provider_directory_url": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
+    "rx_formulary_url": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
     "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json"
   },
   {
@@ -211,8 +211,8 @@
     "plan_type": "hmo",
     "total_premium": 1017.09,
     "provider": "",
-    "provider_directory_url": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
-    "rx_formulary_url": "https://carefirst.com/acarx",
+    "provider_directory_url": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
+    "rx_formulary_url": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
     "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json"
   },
   {
@@ -235,8 +235,8 @@
     "plan_type": "hmo",
     "total_premium": 1142.37,
     "provider": "",
-    "provider_directory_url": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
-    "rx_formulary_url": "https://carefirst.com/acarx",
+    "provider_directory_url": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
+    "rx_formulary_url": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
     "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json"
   },
   {
@@ -259,8 +259,8 @@
     "plan_type": "hmo",
     "total_premium": 857.28,
     "provider": "",
-    "provider_directory_url": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
-    "rx_formulary_url": "https://carefirst.com/acarx",
+    "provider_directory_url": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
+    "rx_formulary_url": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
     "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json"
   },
   {
@@ -283,8 +283,8 @@
     "plan_type": "hmo",
     "total_premium": 829.62,
     "provider": "",
-    "provider_directory_url": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
-    "rx_formulary_url": "https://carefirst.com/acarx",
+    "provider_directory_url": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
+    "rx_formulary_url": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
     "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json"
   },
   {
@@ -307,8 +307,8 @@
     "plan_type": "hmo",
     "total_premium": 742.32,
     "provider": "",
-    "provider_directory_url": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
-    "rx_formulary_url": "https://carefirst.com/acarx",
+    "provider_directory_url": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
+    "rx_formulary_url": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
     "services_rates_url": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json"
   }
 ]
