@@ -1,6 +1,6 @@
 [
   {
-    "id": "4035b4582b4a177231abfd089",
+    "id": "a3d5525494e48b6581493d5be",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
@@ -15,7 +15,7 @@
     "nationwide": false,
     "plan_type": "hmo",
     "provider": "",
-    "url": {
+    "links": {
       "provider_directory": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
       "rx_formulary": "https://carefirst.com/acarx",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
@@ -28,12 +28,12 @@
       "total_premium": 660.3
     },
     "hios": {
-      "base_id": "CDE06A3715C4269",
-      "id": "CDE06A3715C4269-01"
+      "base_id": "B1BEB334F38CC44",
+      "id": "B1BEB334F38CC44-01"
     }
   },
   {
-    "id": "85e71ac66f1b4902a5bda054d",
+    "id": "8eec5d0502d4d88907fec3afb",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
@@ -48,7 +48,7 @@
     "nationwide": false,
     "plan_type": "hmo",
     "provider": "",
-    "url": {
+    "links": {
       "provider_directory": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
       "rx_formulary": "https://carefirst.com/acarx",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
@@ -61,12 +61,12 @@
       "total_premium": 1047.33
     },
     "hios": {
-      "base_id": "9B7EAF25B362954",
-      "id": "9B7EAF25B362954-01"
+      "base_id": "5594067C4327CB5",
+      "id": "5594067C4327CB5-01"
     }
   },
   {
-    "id": "610b0eae82d55883f94217479",
+    "id": "89e6f9b8e81526c2126a21fb6",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
@@ -81,7 +81,7 @@
     "nationwide": false,
     "plan_type": "hmo",
     "provider": "",
-    "url": {
+    "links": {
       "provider_directory": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
       "rx_formulary": "https://carefirst.com/acarx",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
@@ -94,12 +94,12 @@
       "total_premium": 1243.23
     },
     "hios": {
-      "base_id": "21948B485D572EC",
-      "id": "21948B485D572EC-01"
+      "base_id": "7FC356A6BD4FC92",
+      "id": "7FC356A6BD4FC92-01"
     }
   },
   {
-    "id": "892787181906e845ed97576a2",
+    "id": "d32b541e33b9169d56a04e30f",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
@@ -114,7 +114,7 @@
     "nationwide": false,
     "plan_type": "hmo",
     "provider": "",
-    "url": {
+    "links": {
       "provider_directory": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
       "rx_formulary": "https://carefirst.com/acarx",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
@@ -127,12 +127,12 @@
       "total_premium": 803.34
     },
     "hios": {
-      "base_id": "BEC11C9CA0524F1",
-      "id": "BEC11C9CA0524F1-01"
+      "base_id": "5A2A6438DB99C0F",
+      "id": "5A2A6438DB99C0F-01"
     }
   },
   {
-    "id": "41f183d09ad4c980fdcd5afda",
+    "id": "c7e399ece48e4807ca872bd38",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": false,
@@ -147,7 +147,7 @@
     "nationwide": false,
     "plan_type": "hmo",
     "provider": "",
-    "url": {
+    "links": {
       "provider_directory": null,
       "rx_formulary": "https://carefirst.com/acarx",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
@@ -160,12 +160,12 @@
       "total_premium": 339.84
     },
     "hios": {
-      "base_id": "3E2E70DA06E9D5B",
-      "id": "3E2E70DA06E9D5B-01"
+      "base_id": "5281A8D555C1EC7",
+      "id": "5281A8D555C1EC7-01"
     }
   },
   {
-    "id": "efd4e2ab4047fe12d9441436f",
+    "id": "16a8ef526c92acb9c64d83d37",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": false,
@@ -180,7 +180,7 @@
     "nationwide": true,
     "plan_type": "hmo",
     "provider": "",
-    "url": {
+    "links": {
       "provider_directory": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_SP1&planName=Blue%20Preferred&isNational=Y",
       "rx_formulary": "https://carefirst.com/acarx",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
@@ -193,12 +193,12 @@
       "total_premium": 674.28
     },
     "hios": {
-      "base_id": "22E1BD3203B6FFD",
-      "id": "22E1BD3203B6FFD-01"
+      "base_id": "9A484F3D4CA3010",
+      "id": "9A484F3D4CA3010-01"
     }
   },
   {
-    "id": "434d27887c54773cd34e4c6c2",
+    "id": "3fe54abf92834c74c9324357e",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": false,
@@ -213,7 +213,7 @@
     "nationwide": true,
     "plan_type": "hmo",
     "provider": "",
-    "url": {
+    "links": {
       "provider_directory": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_SP1&planName=Blue%20Preferred&isNational=Y",
       "rx_formulary": "https://carefirst.com/acarx",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
@@ -226,12 +226,12 @@
       "total_premium": 1102.77
     },
     "hios": {
-      "base_id": "316B8B658A36C6C",
-      "id": "316B8B658A36C6C-01"
+      "base_id": "580762F06E3AC9C",
+      "id": "580762F06E3AC9C-01"
     }
   },
   {
-    "id": "5c65845de9e38f73c696f1c42",
+    "id": "2aa2c1e03d9db687cbcaa1fcb",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": false,
@@ -246,7 +246,7 @@
     "nationwide": true,
     "plan_type": "hmo",
     "provider": "",
-    "url": {
+    "links": {
       "provider_directory": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_SP1&planName=Blue%20Preferred&isNational=Y",
       "rx_formulary": "https://carefirst.com/acarx",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
@@ -259,12 +259,12 @@
       "total_premium": 1283.7
     },
     "hios": {
-      "base_id": "4297BEB9CBDA5B9",
-      "id": "4297BEB9CBDA5B9-01"
+      "base_id": "F1FCC09770CCC3D",
+      "id": "F1FCC09770CCC3D-01"
     }
   },
   {
-    "id": "793fda3ef1ea4b531cf5d4333",
+    "id": "6593623ae22eb22373b0cf4ec",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": false,
@@ -279,7 +279,7 @@
     "nationwide": true,
     "plan_type": "hmo",
     "provider": "",
-    "url": {
+    "links": {
       "provider_directory": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_SP1&planName=Blue%20Preferred&isNational=Y",
       "rx_formulary": "https://carefirst.com/acarx",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
@@ -292,12 +292,12 @@
       "total_premium": 850.38
     },
     "hios": {
-      "base_id": "0D844EA4E339E0E",
-      "id": "0D844EA4E339E0E-01"
+      "base_id": "17D1C8FB7EAFEF0",
+      "id": "17D1C8FB7EAFEF0-01"
     }
   },
   {
-    "id": "174ae298f3799641efec4b287",
+    "id": "2238442d194b55596a67d6d0d",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
@@ -312,7 +312,7 @@
     "nationwide": false,
     "plan_type": "hmo",
     "provider": "",
-    "url": {
+    "links": {
       "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
       "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
@@ -325,12 +325,12 @@
       "total_premium": 609.33
     },
     "hios": {
-      "base_id": "E6C325E18ABF263",
-      "id": "E6C325E18ABF263-01"
+      "base_id": "234B2BABDBE32AF",
+      "id": "234B2BABDBE32AF-01"
     }
   },
   {
-    "id": "f22ab00d55a7790697de1abb9",
+    "id": "a11a0a8f8fb313a68dfd00e09",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
@@ -345,7 +345,7 @@
     "nationwide": false,
     "plan_type": "hmo",
     "provider": "",
-    "url": {
+    "links": {
       "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
       "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
@@ -358,12 +358,12 @@
       "total_premium": 595.14
     },
     "hios": {
-      "base_id": "54D39D5C2FE3777",
-      "id": "54D39D5C2FE3777-01"
+      "base_id": "7D8230C8B5E5275",
+      "id": "7D8230C8B5E5275-01"
     }
   },
   {
-    "id": "85de34ece61293594cc311fa2",
+    "id": "b25189a3b81707f8eeffb591c",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
@@ -378,7 +378,7 @@
     "nationwide": false,
     "plan_type": "hmo",
     "provider": "",
-    "url": {
+    "links": {
       "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
       "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
@@ -391,12 +391,12 @@
       "total_premium": 520.02
     },
     "hios": {
-      "base_id": "731B224FB704D5D",
-      "id": "731B224FB704D5D-01"
+      "base_id": "5A76F41B37BA6EA",
+      "id": "5A76F41B37BA6EA-01"
     }
   },
   {
-    "id": "916f288de8ed858de175d286e",
+    "id": "8885846f0c54a5f300600b401",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
@@ -411,7 +411,7 @@
     "nationwide": false,
     "plan_type": "hmo",
     "provider": "",
-    "url": {
+    "links": {
       "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
       "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
@@ -424,12 +424,12 @@
       "total_premium": 1028.61
     },
     "hios": {
-      "base_id": "733D2355AF47775",
-      "id": "733D2355AF47775-01"
+      "base_id": "0BA5BAD368968F3",
+      "id": "0BA5BAD368968F3-01"
     }
   },
   {
-    "id": "fea0176834b6e2a2cc7a056e2",
+    "id": "32e33f4408b558d6203c1726f",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
@@ -444,7 +444,7 @@
     "nationwide": false,
     "plan_type": "hmo",
     "provider": "",
-    "url": {
+    "links": {
       "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
       "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
@@ -457,12 +457,12 @@
       "total_premium": 950.79
     },
     "hios": {
-      "base_id": "7EDADB143FD0520",
-      "id": "7EDADB143FD0520-01"
+      "base_id": "8093F3BE4056D14",
+      "id": "8093F3BE4056D14-01"
     }
   },
   {
-    "id": "d07065e124e843328f80a4673",
+    "id": "4b2dbe7eb8e5682f39c57896a",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
@@ -477,7 +477,7 @@
     "nationwide": false,
     "plan_type": "hmo",
     "provider": "",
-    "url": {
+    "links": {
       "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
       "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
@@ -490,12 +490,12 @@
       "total_premium": 643.56
     },
     "hios": {
-      "base_id": "5A540075935D176",
-      "id": "5A540075935D176-01"
+      "base_id": "A780164D5FB6EFE",
+      "id": "A780164D5FB6EFE-01"
     }
   },
   {
-    "id": "0d195be7837ad995f0bece52e",
+    "id": "12a11c0e3e11df5f8ff09839e",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
@@ -510,7 +510,7 @@
     "nationwide": false,
     "plan_type": "hmo",
     "provider": "",
-    "url": {
+    "links": {
       "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
       "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
@@ -523,12 +523,12 @@
       "total_premium": 1017.09
     },
     "hios": {
-      "base_id": "33697F849162029",
-      "id": "33697F849162029-01"
+      "base_id": "BF22E58395C5C87",
+      "id": "BF22E58395C5C87-01"
     }
   },
   {
-    "id": "a59c15e060336bf46fb1ea268",
+    "id": "2396ff3f55caf463fc1bedf73",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
@@ -543,7 +543,7 @@
     "nationwide": false,
     "plan_type": "hmo",
     "provider": "",
-    "url": {
+    "links": {
       "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
       "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
@@ -556,12 +556,12 @@
       "total_premium": 1142.37
     },
     "hios": {
-      "base_id": "FB971315DACB548",
-      "id": "FB971315DACB548-01"
+      "base_id": "15699FF22A1C329",
+      "id": "15699FF22A1C329-01"
     }
   },
   {
-    "id": "b2a2b82d0a4a9d1bc986fcd6c",
+    "id": "45ced2b92b1cec40b6d0c790a",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
@@ -576,7 +576,7 @@
     "nationwide": false,
     "plan_type": "hmo",
     "provider": "",
-    "url": {
+    "links": {
       "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
       "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
@@ -589,12 +589,12 @@
       "total_premium": 857.28
     },
     "hios": {
-      "base_id": "3E86B87E6ADD641",
-      "id": "3E86B87E6ADD641-01"
+      "base_id": "11C28481F07C5BA",
+      "id": "11C28481F07C5BA-01"
     }
   },
   {
-    "id": "c5091e4218039a65f9b4b8f24",
+    "id": "0a0a083e09b2b7daf6f592987",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
@@ -609,7 +609,7 @@
     "nationwide": false,
     "plan_type": "hmo",
     "provider": "",
-    "url": {
+    "links": {
       "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
       "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
@@ -622,12 +622,12 @@
       "total_premium": 829.62
     },
     "hios": {
-      "base_id": "E2491D58A80A8CF",
-      "id": "E2491D58A80A8CF-01"
+      "base_id": "37F744390A76378",
+      "id": "37F744390A76378-01"
     }
   },
   {
-    "id": "0c34e1c3d77de32129e14c21b",
+    "id": "ac411a7cff2de3d4466680b03",
     "active_year": 2017,
     "coverage_kind": "health",
     "dc_in_network": true,
@@ -642,7 +642,7 @@
     "nationwide": false,
     "plan_type": "hmo",
     "provider": "",
-    "url": {
+    "links": {
       "provider_directory": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
       "rx_formulary": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
       "services_rates": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/services/services_rates.json",
@@ -655,8 +655,8 @@
       "total_premium": 742.32
     },
     "hios": {
-      "base_id": "F82E313050DDB92",
-      "id": "F82E313050DDB92-01"
+      "base_id": "F298291ECA65144",
+      "id": "F298291ECA65144-01"
     }
   }
 ]

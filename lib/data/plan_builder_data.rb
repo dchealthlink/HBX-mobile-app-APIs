@@ -163,7 +163,7 @@ module PlanBuilderData
   end
 
   def provider provider_directory_url, rx_formulary_url, carrier_logo_image_url
-    {url:
+    {links:
          {provider_directory: provider_directory_url,
           rx_formulary: rx_formulary_url,
           services_rates: ::Helper.services_rates_url,
