@@ -1,0 +1,38 @@
+{
+  "verification_result": null,
+  "session": {
+    "response_code": "urn:openhbx:terms:v1:interactive_identity_verification#MORE_INFORMATION_REQUIRED",
+    "transaction_id": "transaction id for reference",
+    "session_id": "session id for reference",
+    "questions": [
+      {
+        "question_id": "First Question",
+        "question_text": "If you had to answer a question",
+        "response_options": [
+          {
+            "response_id": "A",
+            "response_text": "pick answer A"
+          },
+          {
+            "response_id": "B",
+            "response_text": "pick answer B"
+          }
+        ]
+      },
+      {
+        "question_id": "Second Question",
+        "question_text": "If somehow there was another question",
+        "response_options": [
+          {
+            "response_id": "C",
+            "response_text": "pick answer C"
+          },
+          {
+            "response_id": "D",
+            "response_text": "pick answer D"
+          }
+        ]
+      }
+    ]
+  }
+}

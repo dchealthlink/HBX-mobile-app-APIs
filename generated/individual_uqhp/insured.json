@@ -22,7 +22,7 @@
   ],
   "enrollments": [
     {
-      "start_on": "2017-05-01",
+      "start_on": "2017-06-01",
       "health": {
         "status": "Enrolled",
         "total_premium": 165.0,
