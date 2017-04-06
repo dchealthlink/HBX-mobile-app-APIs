@@ -105,7 +105,9 @@ class Scenarios < BaseUtil
     def create_identity_questions
       ridp_util RIDP do |ridp_util|
         write_json ridp_util.create_questions, ridp_util
-        write_json ridp_util.create_post_body, nil, "#{$ROOT_DIRECTORY}/#{RIDP}", 'post_body.json'
+        write_json ridp_util.create_verification_final_response, nil, "#{$ROOT_DIRECTORY}/#{RIDP}", 'verify_identity_final_response.json'
+        write_json ridp_util.create_post_body, nil, "#{$ROOT_DIRECTORY}/#{RIDP}", 'post_verify_identity.json'
+        write_json ridp_util.create_answer_questions, nil, "#{$ROOT_DIRECTORY}/#{RIDP}", 'post_answer_questions.json'
       end
     end
 

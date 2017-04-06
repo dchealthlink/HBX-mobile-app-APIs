@@ -3,7 +3,7 @@ module Helper
   class << self
     def write_json content, file_name, is_json=false
       is_json ? File.write(file_name, JSON.pretty_generate(JSON.parse(content))) :
-          File.write(file_name, JSON.pretty_generate(content))
+        File.write(file_name, JSON.pretty_generate(content))
     end
 
     def create_directory path
@@ -57,16 +57,16 @@ module Helper
     def contact first: '', last: '', phone: '', mobile: '', email: '', address_1: '', address_2: '', city: '',
                 state: '', zip: ''
       {
-          first: "#{first}",
-          last: "#{last}",
-          phone: "#{phone}",
-          mobile: "#{mobile}",
-          emails: ["#{email}"],
-          address_1: "#{address_1}",
-          address_2: "#{address_2}",
-          city: "#{city}",
-          state: "#{state}",
-          zip: "#{zip}"
+        first: "#{first}",
+        last: "#{last}",
+        phone: "#{phone}",
+        mobile: "#{mobile}",
+        emails: ["#{email}"],
+        address_1: "#{address_1}",
+        address_2: "#{address_2}",
+        city: "#{city}",
+        state: "#{state}",
+        zip: "#{zip}"
       }
     end
   end
@@ -82,13 +82,13 @@ module Helper
   def person_details person, hired_on=true
     gender, first, mid, last, sfx, dob, ssn, hired = person.split
     result = {
-        first_name: first,
-        middle_name: mid,
-        last_name: last,
-        name_suffix: sfx,
-        date_of_birth: dob,
-        ssn_masked: ssn,
-        gender: gender
+      first_name: first,
+      middle_name: mid,
+      last_name: last,
+      name_suffix: sfx,
+      date_of_birth: dob,
+      ssn_masked: ssn,
+      gender: gender
     }
     result[:hired_on] = hired if hired && hired_on
     result
@@ -96,14 +96,14 @@ module Helper
 
   def plan_year_details plan_year, total_employees
     {
-        plan_year_begins: fmt(plan_year.plan_year_begins),
-        open_enrollment_begins: fmt(plan_year.open_enrollment_begins),
-        open_enrollment_ends: fmt(plan_year.end_of_open_enrollment),
-        renewal_in_progress: plan_year.in_pending_renewal || plan_year.in_renewal_OE,
-        renewal_application_available: fmt(plan_year.renewal_begins),
-        renewal_application_due: fmt(plan_year.renewal_deadline),
-        state: plan_year.state,
-        minimum_participation_required: (total_employees * 2.0 / 3.0).to_i
+      plan_year_begins: fmt(plan_year.plan_year_begins),
+      open_enrollment_begins: fmt(plan_year.open_enrollment_begins),
+      open_enrollment_ends: fmt(plan_year.end_of_open_enrollment),
+      renewal_in_progress: plan_year.in_pending_renewal || plan_year.in_renewal_OE,
+      renewal_application_available: fmt(plan_year.renewal_begins),
+      renewal_application_due: fmt(plan_year.renewal_deadline),
+      state: plan_year.state,
+      minimum_participation_required: (total_employees * 2.0 / 3.0).to_i
     }
   end
 
@@ -159,11 +159,9 @@ module Helper
   end
 
   def add_urls! enrollment
-    carrier = {
-        name: 'Kaiser',
-        summary_of_benefits_url: '/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline'
-    }
-    enrollment[:carrier] = carrier
+    enrollment[:carrier_name] = 'Kaiser'
+    enrollment[:summary_of_benefits_url] = '/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline'
+
     enrollment[:provider_directory_url] = 'http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor'
     enrollment[:rx_formulary_url] = 'https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf'
     enrollment[:services_rates_url] = ::Helper.services_rates_url
