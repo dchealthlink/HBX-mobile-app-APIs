@@ -25,7 +25,7 @@
     "cost": {
       "deductible_text": "$5,000 per person | $10,000 per group",
       "deductible": 10000,
-      "total_premium": 660.3
+      "monthly_premium": 660.3
     },
     "hios": {
       "base_id": "B1BEB334F38CC44",
@@ -58,7 +58,7 @@
     "cost": {
       "deductible_text": "$500 per person | $1,000 per group",
       "deductible": 1000,
-      "total_premium": 1047.33
+      "monthly_premium": 1047.33
     },
     "hios": {
       "base_id": "5594067C4327CB5",
@@ -91,7 +91,7 @@
     "cost": {
       "deductible_text": "$0 per person | $0 per group",
       "deductible": 0,
-      "total_premium": 1243.23
+      "monthly_premium": 1243.23
     },
     "hios": {
       "base_id": "7FC356A6BD4FC92",
@@ -124,7 +124,7 @@
     "cost": {
       "deductible_text": "$2,000 per person | $4,000 per group",
       "deductible": 4000,
-      "total_premium": 803.34
+      "monthly_premium": 803.34
     },
     "hios": {
       "base_id": "5A2A6438DB99C0F",
@@ -157,7 +157,7 @@
     "cost": {
       "deductible_text": "$7,150 per person | $14,300 per group",
       "deductible": 14300,
-      "total_premium": 339.84
+      "monthly_premium": 339.84
     },
     "hios": {
       "base_id": "5281A8D555C1EC7",
@@ -190,7 +190,7 @@
     "cost": {
       "deductible_text": "$5,000 per person | $10,000 per group",
       "deductible": 10000,
-      "total_premium": 674.28
+      "monthly_premium": 674.28
     },
     "hios": {
       "base_id": "9A484F3D4CA3010",
@@ -223,7 +223,7 @@
     "cost": {
       "deductible_text": "$500 per person | $1,000 per group",
       "deductible": 1000,
-      "total_premium": 1102.77
+      "monthly_premium": 1102.77
     },
     "hios": {
       "base_id": "580762F06E3AC9C",
@@ -256,7 +256,7 @@
     "cost": {
       "deductible_text": "$0 per person | $0 per group",
       "deductible": 0,
-      "total_premium": 1283.7
+      "monthly_premium": 1283.7
     },
     "hios": {
       "base_id": "F1FCC09770CCC3D",
@@ -289,7 +289,7 @@
     "cost": {
       "deductible_text": "$2,000 per person | $4,000 per group",
       "deductible": 4000,
-      "total_premium": 850.38
+      "monthly_premium": 850.38
     },
     "hios": {
       "base_id": "17D1C8FB7EAFEF0",
@@ -322,7 +322,7 @@
     "cost": {
       "deductible_text": "$6,200 per person | $12,400 per group",
       "deductible": 12400,
-      "total_premium": 609.33
+      "monthly_premium": 609.33
     },
     "hios": {
       "base_id": "234B2BABDBE32AF",
@@ -355,7 +355,7 @@
     "cost": {
       "deductible_text": "$6,400 per person | $12,800 per group",
       "deductible": 12800,
-      "total_premium": 595.14
+      "monthly_premium": 595.14
     },
     "hios": {
       "base_id": "7D8230C8B5E5275",
@@ -388,7 +388,7 @@
     "cost": {
       "deductible_text": "$7,150 per person | $14,300 per group",
       "deductible": 14300,
-      "total_premium": 520.02
+      "monthly_premium": 520.02
     },
     "hios": {
       "base_id": "5A76F41B37BA6EA",
@@ -421,7 +421,7 @@
     "cost": {
       "deductible_text": "$0 per person | $0 per group",
       "deductible": 0,
-      "total_premium": 1028.61
+      "monthly_premium": 1028.61
     },
     "hios": {
       "base_id": "0BA5BAD368968F3",
@@ -454,7 +454,7 @@
     "cost": {
       "deductible_text": "$1,000 per person | $2,000 per group",
       "deductible": 2000,
-      "total_premium": 950.79
+      "monthly_premium": 950.79
     },
     "hios": {
       "base_id": "8093F3BE4056D14",
@@ -487,7 +487,7 @@
     "cost": {
       "deductible_text": "$5,000 per person | $10,000 per group",
       "deductible": 10000,
-      "total_premium": 643.56
+      "monthly_premium": 643.56
     },
     "hios": {
       "base_id": "A780164D5FB6EFE",
@@ -520,7 +520,7 @@
     "cost": {
       "deductible_text": "$500 per person | $1,000 per group",
       "deductible": 1000,
-      "total_premium": 1017.09
+      "monthly_premium": 1017.09
     },
     "hios": {
       "base_id": "BF22E58395C5C87",
@@ -553,7 +553,7 @@
     "cost": {
       "deductible_text": "$0 per person | $0 per group",
       "deductible": 0,
-      "total_premium": 1142.37
+      "monthly_premium": 1142.37
     },
     "hios": {
       "base_id": "15699FF22A1C329",
@@ -586,7 +586,7 @@
     "cost": {
       "deductible_text": "$2,000 per person | $4,000 per group",
       "deductible": 4000,
-      "total_premium": 857.28
+      "monthly_premium": 857.28
     },
     "hios": {
       "base_id": "11C28481F07C5BA",
@@ -619,7 +619,7 @@
     "cost": {
       "deductible_text": "$1,800 per person | $3,600 per group",
       "deductible": 3600,
-      "total_premium": 829.62
+      "monthly_premium": 829.62
     },
     "hios": {
       "base_id": "37F744390A76378",
@@ -652,7 +652,7 @@
     "cost": {
       "deductible_text": "$2,750 per person | $5,500 per group",
       "deductible": 5500,
-      "total_premium": 742.32
+      "monthly_premium": 742.32
     },
     "hios": {
       "base_id": "F298291ECA65144",

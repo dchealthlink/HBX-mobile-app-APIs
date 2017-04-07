@@ -96,28 +96,28 @@ module PlanBuilderData
   #
   private
 
- def create_bluecross_standard_hmo_health num_members, deductible: nil, metal_level: nil, **args
+  def create_bluecross_standard_hmo_health num_members, deductible: nil, metal_level: nil, **args
     create_bluecross_health "BlueChoice HMO Standard #{metal_level.capitalize} $#{deductible}", num_members, args.merge(deductible: deductible, metal_level: metal_level,
-                   provider_directory_url: 'https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N')
+                                                                                                                        provider_directory_url: 'https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N')
   end
 
   def create_bluecross_ppo_health num_members, deductible: nil, metal_level: nil, **args
-    create_bluecross_health "BluePreferred PPO Standard #{metal_level.capitalize} $#{deductible}", 
-      num_members, args.merge(deductible: deductible, metal_level: metal_level, plan_type: 'ppo', dc_in_network: false, nationwide: true,
-        provider_directory_url: 'https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_SP1&planName=Blue%20Preferred&isNational=Y')
+    create_bluecross_health "BluePreferred PPO Standard #{metal_level.capitalize} $#{deductible}",
+                            num_members, args.merge(deductible: deductible, metal_level: metal_level, plan_type: 'ppo', dc_in_network: false, nationwide: true,
+                                                    provider_directory_url: 'https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_SP1&planName=Blue%20Preferred&isNational=Y')
   end
 
   def create_bluecross_health name, num_members, **args
     create_plan name, num_members, args.merge(
-        rx_formulary_url: 'https://carefirst.com/acarx',
-        carrier_logo_image_url: 'https://enroll.dchealthlink.com/assets/logo/carrier/carefirst-d56435a500caeb412087891f47dee91d.jpg')
+      rx_formulary_url: 'https://carefirst.com/acarx',
+      carrier_logo_image_url: 'https://enroll.dchealthlink.com/assets/logo/carrier/carefirst-d56435a500caeb412087891f47dee91d.jpg')
   end
 
   def create_kaiser_health name, num_members, **args
     create_plan name, num_members, args.merge(
-                provider_directory_url: 'http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor',
-                rx_formulary_url: 'https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf',
-                carrier_logo_image_url: 'https://enroll.dchealthlink.com/assets/logo/carrier/kaiser-63900cee003506c33dc3eff1fa8e94d2.jpg')
+      provider_directory_url: 'http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor',
+      rx_formulary_url: 'https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf',
+      carrier_logo_image_url: 'https://enroll.dchealthlink.com/assets/logo/carrier/kaiser-63900cee003506c33dc3eff1fa8e94d2.jpg')
   end
 
   def create_plan name, num_members,
@@ -136,47 +136,47 @@ module PlanBuilderData
 
     hios_base_id = gen_id(14).upcase
     {
-        id: gen_id(24),
-        active_year: active_year,
-        coverage_kind: coverage_kind,
-        dc_in_network: dc_in_network,
-        dental_level: dental_level,
-        is_active: true,
-        is_standard_plan: is_standard_plan,
-        market: 'individual',
-        maximum_age: 65,
-        metal_level: metal_level,
-        minimum_age: 20,
-        name: name, # e.g. 'BlueChoice HMO Standard Bronze $5,000',
-        nationwide: nationwide,
-        plan_type: 'hmo',
-        provider: ''
+      id: gen_id(24),
+      active_year: active_year,
+      coverage_kind: coverage_kind,
+      dc_in_network: dc_in_network,
+      dental_level: dental_level,
+      is_active: true,
+      is_standard_plan: is_standard_plan,
+      market: 'individual',
+      maximum_age: 65,
+      metal_level: metal_level,
+      minimum_age: 20,
+      name: name, # e.g. 'BlueChoice HMO Standard Bronze $5,000',
+      nationwide: nationwide,
+      plan_type: 'hmo',
+      provider: ''
     }.merge(provider(provider_directory_url, rx_formulary_url, carrier_logo_image_url))
-        .merge(cost(num_members, family_deductible, single_deductible, deductible, avg_member_premium))
-        .merge(hios(hios_base_id))
+      .merge(cost(num_members, family_deductible, single_deductible, deductible, avg_member_premium))
+      .merge(hios(hios_base_id))
   end
 
   def hios hios_base_id
     {hios:
-         {base_id: hios_base_id,
-          id: hios_base_id + '-01'}}
+       {base_id: hios_base_id,
+        id: hios_base_id + '-01'}}
   end
 
   def provider provider_directory_url, rx_formulary_url, carrier_logo_image_url
     {links:
-         {provider_directory: provider_directory_url,
-          rx_formulary: rx_formulary_url,
-          services_rates: ::Helper.services_rates_url,
-          summary_of_benefits: '/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline',
-          carrier_logo: carrier_logo_image_url}
+       {provider_directory: provider_directory_url,
+        rx_formulary: rx_formulary_url,
+        services_rates: ::Helper.services_rates_url,
+        summary_of_benefits: '/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline',
+        carrier_logo: carrier_logo_image_url}
     }
   end
 
   def cost num_members, family_deductible, single_deductible, deductible, avg_member_premium
     {cost: {
-        deductible_text: (num_members > 1) ? family_deductible : single_deductible,
-        deductible: (num_members > 1) ? (deductible * 2) : deductible,
-        total_premium: (num_members * avg_member_premium).round(2), }
+      deductible_text: (num_members > 1) ? family_deductible : single_deductible,
+      deductible: (num_members > 1) ? (deductible * 2) : deductible,
+      monthly_premium: (num_members * avg_member_premium).round(2), }
     }
   end
 
