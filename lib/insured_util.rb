@@ -33,7 +33,7 @@ class InsuredUtil < BaseUtil
   def create_person person, id, include_hired_on=true, enrollments=nil
     pers = person_details person.first, include_hired_on
     pers[:id] = id
-    pers[:addresses] = addresses
+    pers[:addresses] = ::InsuredData.addresses
     pers[:enrollments] = enrollments
     pers[:dependents] = person.last.map { |d| person_details(d) }
     pers
@@ -53,22 +53,6 @@ class InsuredUtil < BaseUtil
 
   def is_business_owner index=1
     index == 1
-  end
-
-  def addresses
-    [
-        {
-            kind: 'home',
-            address_1: '33 N St NE',
-            address_2: '',
-            city: 'Washington',
-            county: nil,
-            state: 'DC',
-            location_state_code: nil,
-            zip: '20002',
-            country_name: ''
-        }
-    ]
   end
 
   def employments person, employer_profile_id, employer_name, index=1
