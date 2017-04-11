@@ -11,12 +11,14 @@ require_relative 'lib/broker_util'
 require_relative 'lib/individual_util'
 require_relative 'lib/service_util'
 require_relative 'lib/plan_util'
+require_relative 'lib/ridp_util'
 require_relative 'lib/scenarios'
 require_relative 'lib/data/basic_data'
 require_relative 'lib/data/insured_data'
 require_relative 'lib/data/health_plan_data'
 require_relative 'lib/data/client_data'
 require_relative 'lib/data/service_rate_data'
+require_relative 'lib/data/ridp_data'
 
 branch = ARGV[0] || 'master'
 $github_url_prefix = "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/#{branch}"
@@ -36,3 +38,4 @@ Scenarios.create_services_rates
 Scenarios.create_plans_for_uqhp_single
 Scenarios.create_plans_for_uqhp_family
 Scenarios.create_plans_for_csr_family
+Scenarios.create_identity_questions

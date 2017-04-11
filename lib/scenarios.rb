@@ -12,6 +12,7 @@ class Scenarios < BaseUtil
   PLANS_UQHP_SINGLE = 'plans_for_uqhp_single'
   PLANS_UQHP_FAMILY = 'plans_for_uqhp_family'
   PLANS_CSR_FAMILY = 'plans_for_family_receiving_csr'
+  RIDP = 'ridp'
 
   class << self
 
@@ -101,6 +102,15 @@ class Scenarios < BaseUtil
       end
     end
 
+    def create_identity_questions
+      ridp_util RIDP do |ridp_util|
+        write_json ridp_util.create_questions, ridp_util
+        write_json ridp_util.create_verification_final_response, nil, "#{$ROOT_DIRECTORY}/#{RIDP}", 'verify_identity_final_response.json'
+        write_json ridp_util.create_post_body, nil, "#{$ROOT_DIRECTORY}/#{RIDP}", 'post_verify_identity.json'
+        write_json ridp_util.create_answer_questions, nil, "#{$ROOT_DIRECTORY}/#{RIDP}", 'post_answer_questions.json'
+      end
+    end
+
     #
     # Private
     #
@@ -116,28 +126,32 @@ class Scenarios < BaseUtil
     end
 
     def broker_util use_case_dir
-      yield BrokerUtil.new use_case_directory: (create_directory use_case_dir), partial_path: "#{$GENERATED_DIR}/#{use_case_dir}"
+      yield BrokerUtil.new use_case_directory: create_directory(use_case_dir), partial_path: "#{$GENERATED_DIR}/#{use_case_dir}"
     end
 
     def employee_util use_case_dir
-      yield EmployeeUtil.new use_case_directory: (create_directory use_case_dir), partial_path: "#{$GENERATED_DIR}/#{use_case_dir}"
+      yield EmployeeUtil.new use_case_directory: create_directory(use_case_dir), partial_path: "#{$GENERATED_DIR}/#{use_case_dir}"
     end
 
     def individual_util use_case_dir
-      yield IndividualUtil.new use_case_directory: (create_directory use_case_dir), partial_path: "#{$GENERATED_DIR}/#{use_case_dir}"
+      yield IndividualUtil.new use_case_directory: create_directory(use_case_dir), partial_path: "#{$GENERATED_DIR}/#{use_case_dir}"
     end
 
     def services_util use_case_dir
-      yield ServiceUtil.new use_case_directory: (create_directory use_case_dir), partial_path: "#{$GENERATED_DIR}/#{use_case_dir}"
+      yield ServiceUtil.new use_case_directory: create_directory(use_case_dir), partial_path: "#{$GENERATED_DIR}/#{use_case_dir}"
     end
 
     def plans_util use_case_dir
-      yield PlanUtil.new use_case_directory: (create_directory use_case_dir), partial_path: "#{$GENERATED_DIR}/#{use_case_dir}"
+      yield PlanUtil.new use_case_directory: create_directory(use_case_dir), partial_path: "#{$GENERATED_DIR}/#{use_case_dir}"
+    end
+
+    def ridp_util use_case_dir
+      yield RidpUtil.new use_case_directory: create_directory(use_case_dir), partial_path: "#{$GENERATED_DIR}/#{use_case_dir}"
     end
 
     def write_json content, util=nil, override_dir=nil, override_filename=nil
       util ? Helper::write_json(content, "#{util.target_path}") :
-          Helper::write_json(content, "#{override_dir}/#{override_filename}", true)
+        Helper::write_json(content, "#{override_dir}/#{override_filename}", false)
     end
 
   end

@@ -25,7 +25,7 @@
     "cost": {
       "deductible_text": "$5,000",
       "deductible": 5000,
-      "total_premium": 220.1
+      "monthly_premium": 220.1
     },
     "hios": {
       "base_id": "0B5028B502238AE",
@@ -58,7 +58,7 @@
     "cost": {
       "deductible_text": "$500",
       "deductible": 500,
-      "total_premium": 349.11
+      "monthly_premium": 349.11
     },
     "hios": {
       "base_id": "561B8C44017502A",
@@ -91,7 +91,7 @@
     "cost": {
       "deductible_text": "$0",
       "deductible": 0,
-      "total_premium": 414.41
+      "monthly_premium": 414.41
     },
     "hios": {
       "base_id": "9611A6E7F943463",
@@ -124,7 +124,7 @@
     "cost": {
       "deductible_text": "$2,000",
       "deductible": 2000,
-      "total_premium": 267.78
+      "monthly_premium": 267.78
     },
     "hios": {
       "base_id": "2F22E8008471857",
@@ -157,7 +157,7 @@
     "cost": {
       "deductible_text": "$7,150",
       "deductible": 7150,
-      "total_premium": 113.28
+      "monthly_premium": 113.28
     },
     "hios": {
       "base_id": "CE83B76D34970D0",
@@ -190,7 +190,7 @@
     "cost": {
       "deductible_text": "$5,000",
       "deductible": 5000,
-      "total_premium": 224.76
+      "monthly_premium": 224.76
     },
     "hios": {
       "base_id": "CDE98E240AE0169",
@@ -223,7 +223,7 @@
     "cost": {
       "deductible_text": "$500",
       "deductible": 500,
-      "total_premium": 367.59
+      "monthly_premium": 367.59
     },
     "hios": {
       "base_id": "17AA94D8BC30CA8",
@@ -256,7 +256,7 @@
     "cost": {
       "deductible_text": "$0",
       "deductible": 0,
-      "total_premium": 427.9
+      "monthly_premium": 427.9
     },
     "hios": {
       "base_id": "FF6A688FC97A678",
@@ -289,7 +289,7 @@
     "cost": {
       "deductible_text": "$2,000",
       "deductible": 2000,
-      "total_premium": 283.46
+      "monthly_premium": 283.46
     },
     "hios": {
       "base_id": "FF7391AC151165B",
@@ -322,7 +322,7 @@
     "cost": {
       "deductible_text": "$6,200",
       "deductible": 6200,
-      "total_premium": 203.11
+      "monthly_premium": 203.11
     },
     "hios": {
       "base_id": "06672F9FFA33CEB",
@@ -355,7 +355,7 @@
     "cost": {
       "deductible_text": "$6,400",
       "deductible": 6400,
-      "total_premium": 198.38
+      "monthly_premium": 198.38
     },
     "hios": {
       "base_id": "178DAF6E8B6DD99",
@@ -388,7 +388,7 @@
     "cost": {
       "deductible_text": "$7,150",
       "deductible": 7150,
-      "total_premium": 173.34
+      "monthly_premium": 173.34
     },
     "hios": {
       "base_id": "3EA7043A7999631",
@@ -421,7 +421,7 @@
     "cost": {
       "deductible_text": "$0",
       "deductible": 0,
-      "total_premium": 342.87
+      "monthly_premium": 342.87
     },
     "hios": {
       "base_id": "7F674A2E963410F",
@@ -454,7 +454,7 @@
     "cost": {
       "deductible_text": "$1,000",
       "deductible": 1000,
-      "total_premium": 316.93
+      "monthly_premium": 316.93
     },
     "hios": {
       "base_id": "A3EA584CED5518A",
@@ -487,7 +487,7 @@
     "cost": {
       "deductible_text": "$5,000",
       "deductible": 5000,
-      "total_premium": 214.52
+      "monthly_premium": 214.52
     },
     "hios": {
       "base_id": "14DA9682760FA88",
@@ -520,7 +520,7 @@
     "cost": {
       "deductible_text": "$500",
       "deductible": 500,
-      "total_premium": 339.03
+      "monthly_premium": 339.03
     },
     "hios": {
       "base_id": "CBDFB701EF8194E",
@@ -553,7 +553,7 @@
     "cost": {
       "deductible_text": "$0",
       "deductible": 0,
-      "total_premium": 380.79
+      "monthly_premium": 380.79
     },
     "hios": {
       "base_id": "A4BFEF2BD99786E",
@@ -586,7 +586,7 @@
     "cost": {
       "deductible_text": "$2,000",
       "deductible": 2000,
-      "total_premium": 285.76
+      "monthly_premium": 285.76
     },
     "hios": {
       "base_id": "15E08A01203A8EC",
@@ -619,7 +619,7 @@
     "cost": {
       "deductible_text": "$1,800",
       "deductible": 1800,
-      "total_premium": 276.54
+      "monthly_premium": 276.54
     },
     "hios": {
       "base_id": "481C468D17E55C3",
@@ -652,7 +652,7 @@
     "cost": {
       "deductible_text": "$2,750",
       "deductible": 2750,
-      "total_premium": 247.44
+      "monthly_premium": 247.44
     },
     "hios": {
       "base_id": "B596BD5CA22B11D",

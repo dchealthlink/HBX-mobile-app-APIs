@@ -1,0 +1,8 @@
+{
+  "verification_result": {
+    "response_code": "urn:openhbx:terms:v1:interactive_identity_verification#SUCCESS",
+    "response_text": "HS000000 Successful",
+    "transaction_id": "5cef-7a-2d4e"
+  },
+  "session": null
+}

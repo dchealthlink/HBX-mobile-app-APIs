@@ -1,16 +1,16 @@
 {
   "employer_name": "Strategy & Tactics Game Shop",
   "binder_payment_due": null,
-  "billing_report_date": "2017-04-23",
+  "billing_report_date": "2017-05-07",
   "active_general_agency": null,
   "plan_years": [
     {
-      "plan_year_begins": "2017-11-01",
-      "open_enrollment_begins": "2017-09-01",
-      "open_enrollment_ends": "2017-10-13",
+      "plan_year_begins": "2017-12-01",
+      "open_enrollment_begins": "2017-10-01",
+      "open_enrollment_ends": "2017-11-13",
       "renewal_in_progress": false,
-      "renewal_application_available": "2017-08-01",
-      "renewal_application_due": "2017-10-10",
+      "renewal_application_available": "2017-09-01",
+      "renewal_application_due": "2017-11-10",
       "state": "Active",
       "minimum_participation_required": 2,
       "plan_offerings": [
