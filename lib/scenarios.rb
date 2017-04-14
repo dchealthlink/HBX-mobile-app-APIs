@@ -106,16 +106,12 @@ class Scenarios < BaseUtil
     def create_identity_questions
       ridp_util RIDP do |ridp_util|
         write_json ridp_util.create_questions, ridp_util
-        write_json ridp_util.create_verification_final_response, nil, "#{$ROOT_DIRECTORY}/#{RIDP}", 'verify_identity_final_response.json'
+        write_json ridp_util.create_user_exists_in_enroll_SHOP, nil, "#{$ROOT_DIRECTORY}/#{RIDP}", 'user_exists_in_enroll_SHOP.json'
+        write_json ridp_util.create_user_exists_in_enroll_IVL, nil, "#{$ROOT_DIRECTORY}/#{RIDP}", 'user_exists_in_enroll_IVL.json'
+        write_json ridp_util.create_user_not_in_enroll, nil, "#{$ROOT_DIRECTORY}/#{RIDP}", 'user_not_in_enroll.json'
+        write_json ridp_util.create_verification_final_error_response, nil, "#{$ROOT_DIRECTORY}/#{RIDP}", 'verify_identity_final_error_response.json'
         write_json ridp_util.create_post_body, nil, "#{$ROOT_DIRECTORY}/#{RIDP}", 'post_verify_identity.json'
         write_json ridp_util.create_answer_questions, nil, "#{$ROOT_DIRECTORY}/#{RIDP}", 'post_answer_questions.json'
-      end
-    end
-
-    def check_user_existence
-      user_existence_util USER_EXISTENCE do |user_existence_util|
-        write_json user_existence_util.create_post_body, nil, "#{$ROOT_DIRECTORY}/#{USER_EXISTENCE}", 'post_user_existence.json'
-        write_json user_existence_util.create_user_existence, user_existence_util
       end
     end
 

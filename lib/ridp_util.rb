@@ -21,8 +21,20 @@ class RidpUtil < BaseUtil
     ::RidpData::answer_questions
   end
 
-  def create_verification_final_response
-    ::RidpData::verification_final_response
+  def create_user_exists_in_enroll_SHOP
+    ::RidpData::user_exists_in_enroll_SHOP
+  end
+
+  def create_user_exists_in_enroll_IVL
+    ::RidpData::user_exists_in_enroll_IVL
+  end
+
+  def create_user_not_in_enroll
+    ::RidpData::user_not_in_enroll
+  end
+
+  def create_verification_final_error_response
+    ::RidpData::verification_final_error_response
   end
 
 end

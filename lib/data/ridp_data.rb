@@ -2,19 +2,64 @@ class RidpData
 
   class << self
 
-    def verification_final_response
+    def verification_final_error_response
       {
         'verification_result': {
-          'response_code': 'urn:openhbx:terms:v1:interactive_identity_verification#SUCCESS',
-          'response_text': 'HS000000 Successful',
+          'response_code': 'urn:openhbx:terms:v1:interactive_identity_verification#FAILURE',
+          'response_text': 'Failed response - please see ref below.',
           'transaction_id': '5cef-7a-2d4e'
         },
         'session': nil
       }
     end
 
+    def user_exists_in_enroll_IVL
+      {
+        error: 'The social security number you entered is affiliated with another account.'
+      }
+    end
+
+    def user_not_in_enroll
+      {
+        error: 'user does not exist'
+      }
+    end
+
+    def user_exists_in_enroll_SHOP
+      {
+        primary_applicant: {
+          id: '58bf3bb6e41b0738bf0000ce',
+          user_id: '58bf3b87e41b0738bf0000cc',
+          first_name: 'Loren',
+          last_name: 'Dimallo'
+        },
+        employers: [
+          {
+            employer: {
+              id: '58bf321ee41b0738bf00000c',
+              legal_name: 'BriCol',
+              phone: '(783) 786-7857'
+            },
+            broker: {
+              id: '58c938e2e41b071e74000085',
+              legal_name: 'WilliamBroker',
+              phone: '(324) 534-4562'
+            }
+          },
+          {
+            employer: {
+              id: '58c6fd03e41b07562c000072',
+              legal_name: 'DevelopmentER',
+              phone: '(876) 786-7867'
+            }
+          }
+        ]
+      }
+    end
+
     def answer_questions
       {
+        'ssn': '121233211',
         'session_id': 'AB783917E63E4CA345448C600928D632.pidd1v-1304180857460210166972210',
         'transaction_id': 'c5f1-52-3a57',
         'question_response': [
