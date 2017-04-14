@@ -13,6 +13,7 @@ class Scenarios < BaseUtil
   PLANS_UQHP_FAMILY = 'plans_for_uqhp_family'
   PLANS_CSR_FAMILY = 'plans_for_family_receiving_csr'
   RIDP = 'ridp'
+  USER_EXISTENCE = 'user_existence'
 
   class << self
 
@@ -111,6 +112,13 @@ class Scenarios < BaseUtil
       end
     end
 
+    def check_user_existence
+      user_existence_util USER_EXISTENCE do |user_existence_util|
+        write_json user_existence_util.create_post_body, nil, "#{$ROOT_DIRECTORY}/#{USER_EXISTENCE}", 'post_user_existence.json'
+        write_json user_existence_util.create_user_existence, user_existence_util
+      end
+    end
+
     #
     # Private
     #
@@ -147,6 +155,10 @@ class Scenarios < BaseUtil
 
     def ridp_util use_case_dir
       yield RidpUtil.new use_case_directory: create_directory(use_case_dir), partial_path: "#{$GENERATED_DIR}/#{use_case_dir}"
+    end
+
+    def user_existence_util use_case_dir
+      yield UserExistenceUtil.new use_case_directory: create_directory(use_case_dir), partial_path: "#{$GENERATED_DIR}/#{use_case_dir}"
     end
 
     def write_json content, util=nil, override_dir=nil, override_filename=nil
