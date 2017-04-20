@@ -13,7 +13,10 @@ class Scenarios < BaseUtil
   PLANS_UQHP_FAMILY = 'plans_for_uqhp_family'
   PLANS_CSR_FAMILY = 'plans_for_family_receiving_csr'
   RIDP = 'ridp'
-  USER_EXISTENCE = 'user_existence'
+  RIDP_VERIFICATION_FAILURE = 'ridp_verification_failure'
+  RIDP_ENROLL_ACCOUNT_EXISTS = 'ridp_enroll_account_already_exists'
+  RIDP_FOUND_IN_ROSTER = 'ridp_person_found_in_enroll_roster'
+  RIDP_NEW_SIGNUP = 'ridp_new_signup'
 
   class << self
 
@@ -103,15 +106,31 @@ class Scenarios < BaseUtil
       end
     end
 
-    def create_identity_questions
-      ridp_util RIDP do |ridp_util|
-        write_json ridp_util.create_questions, ridp_util
-        write_json ridp_util.create_user_exists_in_enroll_SHOP, nil, "#{$ROOT_DIRECTORY}/#{RIDP}", 'user_exists_in_enroll_SHOP.json'
-        write_json ridp_util.create_user_exists_in_enroll_IVL, nil, "#{$ROOT_DIRECTORY}/#{RIDP}", 'user_exists_in_enroll_IVL.json'
-        write_json ridp_util.create_user_not_in_enroll, nil, "#{$ROOT_DIRECTORY}/#{RIDP}", 'user_not_in_enroll.json'
-        write_json ridp_util.create_verification_final_error_response, nil, "#{$ROOT_DIRECTORY}/#{RIDP}", 'verify_identity_final_error_response.json'
-        write_json ridp_util.create_post_body, nil, "#{$ROOT_DIRECTORY}/#{RIDP}", 'post_verify_identity.json'
-        write_json ridp_util.create_answer_questions, nil, "#{$ROOT_DIRECTORY}/#{RIDP}", 'post_answer_questions.json'
+    def create_ridp_verification_failure
+      ridp_util RIDP_VERIFICATION_FAILURE do |ridp_util|
+        write_json ridp_util.create_ridp_verification_failure, ridp_util
+        create_base_ridp ridp_util, RIDP_VERIFICATION_FAILURE
+      end
+    end
+
+    def create_enroll_account_already_exists
+      ridp_util RIDP_ENROLL_ACCOUNT_EXISTS do |ridp_util|
+        write_json ridp_util.create_user_exists_in_enroll_IVL, ridp_util
+        create_base_ridp ridp_util, RIDP_ENROLL_ACCOUNT_EXISTS
+      end
+    end
+
+    def create_person_found_in_enroll_roster
+      ridp_util RIDP_FOUND_IN_ROSTER do |ridp_util|
+        write_json ridp_util.create_user_exists_in_enroll_SHOP, ridp_util
+        create_base_ridp ridp_util, RIDP_FOUND_IN_ROSTER
+      end
+    end
+
+    def create_new_signup
+      ridp_util RIDP_NEW_SIGNUP do |ridp_util|
+        write_json ridp_util.create_user_not_in_enroll, ridp_util
+        create_base_ridp ridp_util, RIDP_NEW_SIGNUP
       end
     end
 
@@ -119,6 +138,12 @@ class Scenarios < BaseUtil
     # Private
     #
     private
+
+    def create_base_ridp ridp_util, directory
+      write_json ridp_util.create_questions, nil, "#{$ROOT_DIRECTORY}/#{directory}", 'verify_identity_questions.json'
+      write_json ridp_util.create_post_body, nil, "#{$ROOT_DIRECTORY}/#{directory}", 'post_verify_identity.json'
+      write_json ridp_util.create_answer_questions, nil, "#{$ROOT_DIRECTORY}/#{directory}", 'post_answer_questions.json'
+    end
 
     def reset_count
       EmployeeUtil.roster_example_no = EmployerUtil.details_example_no = InsuredUtil.insured_example_no = 0

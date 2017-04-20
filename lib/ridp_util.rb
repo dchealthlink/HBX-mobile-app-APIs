@@ -33,7 +33,7 @@ class RidpUtil < BaseUtil
     ::RidpData::user_not_in_enroll
   end
 
-  def create_verification_final_error_response
+  def create_ridp_verification_failure
     ::RidpData::verification_final_error_response
   end
 

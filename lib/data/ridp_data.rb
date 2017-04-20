@@ -15,18 +15,21 @@ class RidpData
 
     def user_exists_in_enroll_IVL
       {
-        error: 'The social security number you entered is affiliated with another account.'
+        ridp_verified: true,
+        user_found_in_enroll: true
       }
     end
 
     def user_not_in_enroll
       {
-        error: 'user does not exist'
+        ridp_verified: true,
+        user_found_in_enroll: false
       }
     end
 
     def user_exists_in_enroll_SHOP
       {
+        ridp_verified: true,
         primary_applicant: {
           id: '58bf3bb6e41b0738bf0000ce',
           user_id: '58bf3b87e41b0738bf0000cc',
@@ -42,7 +45,8 @@ class RidpData
             },
             broker: {
               id: '58c938e2e41b071e74000085',
-              legal_name: 'WilliamBroker',
+              organization_legal_name: 'WilliamBroker',
+              legal_name: 'William Broker',
               phone: '(324) 534-4562'
             }
           },
