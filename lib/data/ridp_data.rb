@@ -4,12 +4,13 @@ class RidpData
 
     def verification_final_error_response
       {
-        'verification_result': {
-          'response_code': 'urn:openhbx:terms:v1:interactive_identity_verification#FAILURE',
-          'response_text': 'Failed response - please see ref below.',
-          'transaction_id': '5cef-7a-2d4e'
+        verification_result: {
+          response_code: 'urn:openhbx:terms:v1:interactive_identity_verification#FAILURE',
+          response_text: 'Failed response - please see ref below.',
+          transaction_id: '5cef-7a-2d4e'
         },
-        'session': nil
+        session: nil,
+        ridp_verified: false
       }
     end
 
