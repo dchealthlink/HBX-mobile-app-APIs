@@ -16,5 +16,21 @@ class InsuredData
        ['female Erin S. Gilbert PhD. 1969-03-01 ***-**-4554 2016-01-01', []]]
     end
 
+    def addresses
+      [
+        {
+          kind: 'home',
+          address_1: '33 N St NE',
+          address_2: '',
+          city: 'Washington',
+          county: nil,
+          state: 'DC',
+          location_state_code: nil,
+          zip: '20002',
+          country_name: ''
+        }
+      ]
+    end
+
   end
 end

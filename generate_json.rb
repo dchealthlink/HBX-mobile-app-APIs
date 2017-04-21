@@ -38,4 +38,7 @@ Scenarios.create_services_rates
 Scenarios.create_plans_for_uqhp_single
 Scenarios.create_plans_for_uqhp_family
 Scenarios.create_plans_for_csr_family
-Scenarios.create_identity_questions
+Scenarios.create_ridp_verification_failure
+Scenarios.create_enroll_account_already_exists
+Scenarios.create_person_found_in_enroll_roster
+Scenarios.create_new_signup

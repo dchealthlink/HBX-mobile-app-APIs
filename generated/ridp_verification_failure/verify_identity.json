@@ -1,0 +1,9 @@
+{
+  "verification_result": {
+    "response_code": "urn:openhbx:terms:v1:interactive_identity_verification#FAILURE",
+    "response_text": "Failed response - please see ref below.",
+    "transaction_id": "5cef-7a-2d4e"
+  },
+  "session": null,
+  "ridp_verified": false
+}
