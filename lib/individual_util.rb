@@ -8,7 +8,7 @@ class IndividualUtil < InsuredUtil
     create_individual
   end
 
-   def create_individual_aptc
+  def create_individual_aptc
     create_individual (pick_from_range(25..75).to_f / 100)
   end
 
@@ -54,6 +54,8 @@ class IndividualUtil < InsuredUtil
 
   def enroll_waived_or_terminated enrollment, status, elected_aptc_pct
     total_premium = cost status
+    enrollment[:hbx_enrollment_id] = pick_from(::BasicData.uids)
+    enrollment[:health_link_id] = pick_from(::BasicData.uids)
     enrollment[:total_premium] = total_premium
     enrollment[:elected_aptc_pct] = elected_aptc_pct
     enrollment[:applied_aptc_amount_in_cents] = (elected_aptc_pct * total_premium).round(2)
