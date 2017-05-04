@@ -25,6 +25,8 @@
       "start_on": "2017-06-01",
       "health": {
         "status": "Enrolled",
+        "hbx_enrollment_id": "75e41fd5434d5200a07001b8",
+        "health_link_id": "75e41fd5434d5200a07001b8",
         "total_premium": 165.0,
         "elected_aptc_pct": 0.0,
         "applied_aptc_amount_in_cents": 0.0,
@@ -39,6 +41,8 @@
       },
       "dental": {
         "status": "Enrolled",
+        "hbx_enrollment_id": "75e41fd5434d5200a07001b8",
+        "health_link_id": "75e41fd5434d5200a07001b8",
         "total_premium": 165.0,
         "elected_aptc_pct": 0.0,
         "applied_aptc_amount_in_cents": 0.0,
