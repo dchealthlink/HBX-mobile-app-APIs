@@ -17,6 +17,7 @@ class Scenarios < BaseUtil
   RIDP_ENROLL_ACCOUNT_EXISTS = 'ridp_enroll_account_already_exists'
   RIDP_FOUND_IN_ROSTER = 'ridp_person_found_in_enroll_roster'
   RIDP_NEW_SIGNUP = 'ridp_new_signup'
+  SIGN_IN = 'sign_in'
 
   class << self
 
@@ -134,6 +135,13 @@ class Scenarios < BaseUtil
       end
     end
 
+    def create_iam_login_response
+      security_util SIGN_IN do |security_util|
+        write_json security_util.create_iam_2_factor_login, security_util
+        create_security security_util, SIGN_IN
+      end
+    end
+
     #
     # Private
     #
@@ -143,6 +151,12 @@ class Scenarios < BaseUtil
       write_json ridp_util.create_questions, nil, "#{$ROOT_DIRECTORY}/#{directory}", 'verify_identity_questions.json'
       write_json ridp_util.create_post_body, nil, "#{$ROOT_DIRECTORY}/#{directory}", 'post_verify_identity.json'
       write_json ridp_util.create_answer_questions, nil, "#{$ROOT_DIRECTORY}/#{directory}", 'post_answer_questions.json'
+    end
+
+    def create_security security_util, directory
+      write_json security_util.create_iam_1_factor_login, nil, "#{$ROOT_DIRECTORY}/#{directory}", 'iam_login_1_factor_response.json'
+      write_json security_util.create_local_login, nil, "#{$ROOT_DIRECTORY}/#{directory}", 'local_login_response.json'
+      write_json security_util.create_verification, nil, "#{$ROOT_DIRECTORY}/#{directory}", 'verification.json'
     end
 
     def reset_count
@@ -176,6 +190,10 @@ class Scenarios < BaseUtil
 
     def ridp_util use_case_dir
       yield RidpUtil.new use_case_directory: create_directory(use_case_dir), partial_path: "#{$GENERATED_DIR}/#{use_case_dir}"
+    end
+
+    def security_util use_case_dir
+      yield SecurityUtil.new use_case_directory: create_directory(use_case_dir), partial_path: "#{$GENERATED_DIR}/#{use_case_dir}"
     end
 
     def user_existence_util use_case_dir
