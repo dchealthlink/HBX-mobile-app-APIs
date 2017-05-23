@@ -1,0 +1,316 @@
+{
+  "Person": [
+    {
+      "eapersonid": "0030",
+      "personfirstname": "Matthew",
+      "personlastname": "Coleman",
+      "istaxrequired": "Y",
+      "isfilingjointly": "Y",
+      "isotherclaimed": "N"
+    },
+    {
+      "eapersonid": "0031",
+      "personfirstname": "Elizabeth",
+      "personlastname": "Coleman",
+      "istaxrequired": "Y",
+      "ismarried": "Y",
+      "isfilingjointly": "Y",
+      "isotherclaimed": "N"
+    },
+    {
+      "eapersonid": "0032",
+      "personfirstname": "Thomas",
+      "personlastname": "Coleman",
+      "istaxrequired": "Y",
+      "ismarried": "Y",
+      "isfilingjointly": "Y",
+      "isotherclaimed": "N"
+    },
+    {
+      "eapersonid": "0033",
+      "personfirstname": "Christina",
+      "personlastname": "Coleman",
+      "istaxrequired": "Y",
+      "ismarried": "Y",
+      "isfilingjointly": "Y",
+      "isotherclaimed": "N"
+    },
+    {
+      "eapersonid": "0034",
+      "personfirstname": "John",
+      "personlastname": "Coleman",
+      "istaxrequired": "Y",
+      "ismarried": "N",
+      "isotherclaimed": "N"
+    },
+    {
+      "eapersonid": "0035",
+      "personfirstname": "Robert",
+      "personlastname": "Coleman",
+      "istaxrequired": "N",
+      "ismarried": "N",
+      "isotherclaimed": "Y"
+    },
+    {
+      "eapersonid": "0036",
+      "personfirstname": "Edward",
+      "personlastname": "Coleman",
+      "istaxrequired": "Y",
+      "ismarried": "N",
+      "isotherclaimed": "N"
+    },
+    {
+      "eapersonid": "0037",
+      "personfirstname": "James",
+      "personlastname": "Coleman",
+      "istaxrequired": "N",
+      "ismarried": "N",
+      "isotherclaimed": "Y"
+    },
+    {
+      "eapersonid": "0038",
+      "personfirstname": "Christopher",
+      "personlastname": "Coleman",
+      "istaxrequired": "Y",
+      "ismarried": "Y",
+      "isfilingjointly": "Y",
+      "isotherclaimed": "N"
+    },
+    {
+      "eapersonid": "0039",
+      "personfirstname": "Calvin",
+      "personlastname": "Coleman",
+      "istaxrequired": "Y",
+      "ismarried": "Y",
+      "isfilingjointly": "Y",
+      "isotherclaimed": "N"
+    }
+  ],
+  "Relationship": [
+    {
+      "applicationrelationship": "spouse",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "parent",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "other",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "parent",
+      "physicalhousehold": "Y",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "parent",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "siblingStepsibling",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "child",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "siblingStepsibling",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "other",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "parent",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "other",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "parent",
+      "physicalhousehold": "Y",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "parent",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "other",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "other",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "other",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "siblingStepsibling",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "spouse",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "siblingStepsibling",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "siblingStepsibling",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "nephewNiece",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "grandchild",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "nephewNiece",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "newphewNiece",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "other",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "other",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "other",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "other",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "other",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "other",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "siblingStepsibling",
+      "physicalhousehold": "Y",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "nephewNiece",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "grandchild",
+      "physicalhousehold": "Y",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "nephewNiece",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "nephewNiece",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "nephewNiece",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "grandchild",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "nephewNiece",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "nephewNiece",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "child",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "siblingStepsibling",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "other",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "parent",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "other",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "other",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    }
+  ]
+}
