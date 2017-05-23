@@ -1,0 +1,82 @@
+{
+  "Person": [
+    {
+      "eapersonid": "0020",
+      "personfirstname": "Max",
+      "personlastname": "Clark",
+      "istaxrequired": "Y",
+      "ismarried": "Y",
+      "isfilingjointly": "Y",
+      "isotherclaimed": "N"
+    },
+    {
+      "eapersonid": "0021",
+      "personfirstname": "Minnie",
+      "personlastname": "Clark",
+      "istaxrequired": "Y",
+      "ismarried": "Y",
+      "isfilingjointly": "Y",
+      "isotherclaimed": "N"
+    },
+    {
+      "eapersoni": "0022",
+      "personfirstname": "Steve",
+      "personlastname": "Clark",
+      "istaxrequired": "N",
+      "ismarried": "N",
+      "isotherclaimed": "Y"
+    }
+  ],
+  "Relationship": [
+    {
+      "ApplicationRelationship": [
+        {
+          "eapersonid": "0020",
+          "relationship": "spouse",
+          "cross_personid": "0021"
+        },
+        {
+          "eapersonid": "0020",
+          "relationship": "parent",
+          "cross_personid": "0022"
+        },
+        {
+          "eapersonid": "0021",
+          "relationship": "parent",
+          "cross_personid": "0022"
+        }
+      ],
+      "PhysicalHousehold": [
+        {
+          "householdid": "household1",
+          "eapersonid": "0020"
+        },
+        {
+          "householdid": "household1",
+          "eapersonid": "0021"
+        },
+        {
+          "householdid": "household2",
+          "eapersonid": "0022"
+        }
+      ],
+      "TaxHousehold": [
+        {
+          "tax_no": "1",
+          "eapersonid": "0020",
+          "filer_type": "Filers"
+        },
+        {
+          "tax_no": "1",
+          "eapersonid": "0021",
+          "filer_type": "Filers"
+        },
+        {
+          "tax_no": "1",
+          "eapersonid": "0022",
+          "filer_type": "Dependents"
+        }
+      ]
+    }
+  ]
+}

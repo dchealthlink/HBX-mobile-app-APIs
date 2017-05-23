@@ -1,0 +1,98 @@
+{
+  "Person": [
+    {
+      "eapersonid": "0011",
+      "personfirstname": "James",
+      "personlastname": "Harper",
+      "istaxrequired": "Y",
+      "ismarried": "Y",
+      "isjointfilespouse": "Y",
+      "isotherclaimed": "N"
+    },
+    {
+      "eapersonid": "0012",
+      "personfirstname": "Anna",
+      "personlastname": "Harper",
+      "istaxrequired": "Y",
+      "ismarried": "Y",
+      "isjointfilespouse": "Y",
+      "isotherclaimed": "N"
+    },
+    {
+      "eapersonid": "0013",
+      "personfirstname": "Walter",
+      "personlastname": "Harper",
+      "istaxrequired": "Y",
+      "ismarried": "N",
+      "isotherclaimed": "Y"
+    },
+    {
+      "eapersonid": "0014",
+      "personfirstname": "Cynthia",
+      "personlastname": "Harper",
+      "istaxrequired": "Y",
+      "ismarried": "N",
+      "isotherclaimed": "Y"
+    },
+    {
+      "eapersonid": "0015",
+      "personfirstname": "Anthony",
+      "personlastname": "Harper",
+      "istaxrequired": "Y",
+      "ismarried": "N",
+      "isotherclaimed": "N"
+    }
+  ],
+  "Relationship": [
+    {
+      "applicationrelationship": "spouse",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "parent",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "parent",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "parent",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "parent",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "parent",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "parent",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "siblingStepsibling",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "siblingStepsibling",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "siblingStepsibling",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    }
+  ]
+}

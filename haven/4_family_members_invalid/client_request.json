@@ -1,0 +1,70 @@
+{
+  "Person": [
+    {
+      "eapersonid": "0016",
+      "personfirstname": "Ernst",
+      "personlastname": "Stern",
+      "istaxrequired": "Y",
+      "ismarried": "Y",
+      "isjointfilespouse": "Y",
+      "isotherclaimed": "N"
+    },
+    {
+      "eapersonid": "0017",
+      "personfirstname": "Edna",
+      "personlastname": "Stern",
+      "istaxrequired": "Y",
+      "ismarried": "Y",
+      "isjointfilespouse": "Y",
+      "isotherclaimed": "N"
+    },
+    {
+      "eapersonid": "0018",
+      "personfirstname": "Eli",
+      "personlastname": "Stern",
+      "istaxrequired": "N",
+      "ismarried": "N",
+      "isotherclaimed": "Y"
+    },
+    {
+      "eapersonid": "0019",
+      "personfirstname": "Elsa",
+      "personlastname": "Stern",
+      "istaxrequired": "N",
+      "ismarried": "N",
+      "isotherclaimed": "Y"
+    }
+  ],
+  "Relationship": [
+    {
+      "applicationrelationship": "spouse",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "parent",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "parent",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "parent",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "parent",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "parent",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "Person": [
+    {
+      "eapersonid": "0004",
+      "personfirstname": "Dina",
+      "personlastname": "Ryan",
+      "istaxrequired": "Y",
+      "ismarried": "Y",
+      "isjointfilespouse": "Y",
+      "isotherclaimed": "N"
+    },
+    {
+      "eapersonid": "0005",
+      "personfirstname": "David",
+      "personlastname": "Ryan",
+      "istaxrequired": "Y",
+      "ismarried": "Y",
+      "isjointfilespouse": "Y",
+      "isotherclaimed": "N"
+    },
+    {
+      "eapersonid": "0006",
+      "personfirstname": "Scotty",
+      "personlastname": "Ryan",
+      "istaxrequired": "N",
+      "ismarried": "N",
+      "isotherclaimed": "Y"
+    },
+    {
+      "eapersonid": "0007",
+      "personfirstname": "Granny",
+      "personlastname": "Ryan",
+      "istaxrequired": "N",
+      "ismarried": "N",
+      "isotherclaimed": "Y"
+    }
+  ],
+  "Relationship": [
+    {
+      "ApplicationRelationship": [
+        {
+          "eapersonid": "0004",
+          "relationship": "spouse",
+          "cross_personid": "0005"
+        },
+        {
+          "eapersonid": "0004",
+          "relationship": "parent",
+          "cross_personid": "0006"
+        },
+        {
+          "eapersonid": "0004",
+          "relationship": "child",
+          "cross_personid": "0007"
+        },
+        {
+          "eapersonid": "0005",
+          "relationship": "parent",
+          "cross_personid": "0006"
+        },
+        {
+          "eapersonid": "0005",
+          "relationship": "other",
+          "cross_personid": "0007"
+        },
+        {
+          "eapersonid": "0006",
+          "relationship": "grandchild",
+          "cross_personid": "0007"
+        }
+      ],
+      "PhysicalHousehold": [
+        {
+          "householdid": "household1",
+          "eapersonid": "0004"
+        },
+        {
+          "householdid": "household1",
+          "eapersonid": "0005"
+        },
+        {
+          "householdid": "household1",
+          "eapersonid": "0006"
+        },
+        {
+          "householdid": "household1",
+          "eapersonid": "0007"
+        }
+      ],
+      "TaxHousehold": [
+        {
+          "tax_no": "1",
+          "eapersonid": "0004",
+          "filer_type": "Filers"
+        },
+        {
+          "tax_no": "1",
+          "eapersonid": "0005",
+          "filer_type": "Filers"
+        },
+        {
+          "tax_no": "1",
+          "eapersonid": "0006",
+          "filer_type": "Dependents"
+        },
+        {
+          "tax_no": "1",
+          "eapersonid": "0007",
+          "filer_type": "Dependents"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "Person": [
+    {
+      "eapersonid": "0020",
+      "personfirstname": "Max",
+      "personlastname": "Clark",
+      "istaxrequired": "Y",
+      "ismarried": "Y",
+      "isfilingjointly": "Y",
+      "isotherclaimed": "N"
+    },
+    {
+      "eapersonid": "0021",
+      "personfirstname": "Minnie",
+      "personlastname": "Clark",
+      "istaxrequired": "Y",
+      "ismarried": "Y",
+      "isfilingjointly": "Y",
+      "isotherclaimed": "N"
+    },
+    {
+      "eapersonid": "0022",
+      "personfirstname": "Steve",
+      "personlastname": "Clark",
+      "istaxrequired": "N",
+      "ismarried": "N",
+      "isotherclaimed": "Y"
+    }
+  ],
+  "Relationship": [
+    {
+      "applicationrelationship": "spouse",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "parent",
+      "physicalhousehold": "N",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "parent",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
+    }
+  ]
+}
