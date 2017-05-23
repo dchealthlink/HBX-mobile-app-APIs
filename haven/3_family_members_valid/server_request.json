@@ -1,0 +1,77 @@
+{
+  "Person": [
+    {
+      "eapersonid": "0001",
+      "personfirstname": "Tim",
+      "personlastname": "Jones",
+      "istaxrequired": "Y",
+      "isotherclaimed": "N"
+    },
+    {
+      "eapersonid": "0002",
+      "personfirstname": "Tina",
+      "personlastname": "Jones",
+      "istaxrequired": "Y",
+      "isotherclaimed": "N"
+    },
+    {
+      "eapersonid": "0003",
+      "personfirstname": "James",
+      "personlastname": "Jones",
+      "istaxrequired": "Y",
+      "isotherclaimed": "Y"
+    }
+  ],
+  "Relationship": [
+    {
+      "ApplicationRelationship": [
+        {
+          "eapersonid": "0001",
+          "relationship": "spouse",
+          "cross_personid": "0002"
+        },
+        {
+          "eapersonid": "0001",
+          "relationship": "parent",
+          "cross_personid": "0003"
+        },
+        {
+          "eapersonid": "0002",
+          "relationship": "parent",
+          "cross_personid": "0003"
+        }
+      ],
+      "PhysicalHousehold": [
+        {
+          "householdid": "household1",
+          "eapersonid": "0001"
+        },
+        {
+          "householdid": "household1",
+          "eapersonid": "0002"
+        },
+        {
+          "householdid": "household1",
+          "eapersonid": "0003"
+        }
+      ],
+      "TaxHousehold": [
+        {
+          "tax_no": "1",
+          "eapersonid": "0001",
+          "filer_type": "Filers"
+        },
+        {
+          "tax_no": "1",
+          "eapersonid": "0002",
+          "filer_type": "Filers"
+        },
+        {
+          "tax_no": "1",
+          "eapersonid": "0003",
+          "filer_type": "Dependents"
+        }
+      ]
+    }
+  ]
+}
