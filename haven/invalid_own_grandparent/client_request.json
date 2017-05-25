@@ -1,5 +1,5 @@
 {
-  "eaid": "636592130550297",
+  "eaid": "636592131550297",
   "statecd": "DC",
   "appyear": "2017",
   "name": "00001-170206-1",
@@ -11,12 +11,12 @@
   "Person": [
     {
       "eapersonid": "007",
+      "isapplicant": "Y",
       "personfirstname": "A",
       "personlastname": "Person",
-      "isapplicant": "Y",
-      "persondob": "1980-03-03",
+      "persondob": "1980-01-01",
       "isssntrue": "Y",
-      "personssn": "198003030",
+      "personssn": "198001010",
       "gender": "M",
       "preferredcontactmethod": "email",
       "preferredlanguage": "english",
@@ -29,9 +29,9 @@
       "isformerfoster": "N",
       "isuscitizen": "Y",
       "isinsured": "N",
-      "citizen_status": "US",
       "istaxrequired": "Y",
       "isotherclaimed": "N",
+      "citizen_status": "US",
       "Address": [
         {
           "addresstype": "home",
@@ -63,9 +63,9 @@
       "personfirstname": "B",
       "personlastname": "Person",
       "isapplicant": "Y",
-      "persondob": "1980-05-05",
+      "persondob": "1980-02-02",
       "isssntrue": "Y",
-      "personssn": "198005050",
+      "personssn": "198002020",
       "gender": "F",
       "preferredcontactmethod": "email",
       "preferredlanguage": "english",
@@ -112,10 +112,10 @@
       "personfirstname": "C",
       "personlastname": "Person",
       "isapplicant": "Y",
-      "persondob": "1940-01-01",
+      "persondob": "2000-02-02",
       "isssntrue": "Y",
-      "personssn": "194001010",
-      "gender": "M",
+      "personssn": "200002020",
+      "gender": "F",
       "preferredcontactmethod": "email",
       "preferredlanguage": "english",
       "isdisabled": "N",
@@ -129,7 +129,6 @@
       "isinsured": "N",
       "citizen_status": "US",
       "istaxrequired": "N",
-      "ismarried": "N",
       "isotherclaimed": "Y",
       "Address": [
         {
