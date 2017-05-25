@@ -1,90 +1,518 @@
 {
+  "eaid": "636592130550297",
+  "statecd": "DC",
+  "appyear": "2017",
+  "name": "00001-170206-1",
+  "status": "Pending",
+  "applicantType": "user and/or family",
+  "motivationtype": "MT26301",
+  "applicationsource": "electronic",
+  "determinationtype": "mobile-internal",
   "Person": [
     {
       "eapersonid": "0030",
-      "personfirstname": "A",
-      "personlastname": "Person",
+      "personfirstname": "Matthew",
+      "personlastname": "Coleman",
+      "isapplicant": "Y",
+      "persondob": "1980-01-01",
+      "isssntrue": "Y",
+      "personssn": "198001011",
+      "gender": "M",
+      "preferredcontactmethod": "email",
+      "preferredlanguage": "english",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "citizen_status": "US",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 H St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "y"
+        }
+      ],
+      "nonESI": [
+        {
+          "insurancetype": "cobra",
+          "startdate": "2017-01-01",
+          "enddate": "2017-12-31"
+        }
+      ],
+      "Income": [
+        {
+          "incometype": "wages",
+          "paymentfrequency": "12",
+          "incomeamount": "500"
+        }
+      ],
       "istaxrequired": "Y",
-      "ismarried": "Y",
       "isfilingjointly": "Y",
       "isotherclaimed": "N"
     },
     {
       "eapersonid": "0031",
-      "personfirstname": "B",
-      "personlastname": "Person",
+      "personfirstname": "Elizabeth",
+      "personlastname": "Coleman",
+      "isapplicant": "Y",
+      "persondob": "1981-02-02",
+      "isssntrue": "Y",
+      "personssn": "198103021",
+      "gender": "F",
+      "preferredcontactmethod": "email",
+      "preferredlanguage": "english",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "citizen_status": "US",
       "istaxrequired": "Y",
       "ismarried": "Y",
       "isfilingjointly": "Y",
-      "isotherclaimed": "N"
+      "isotherclaimed": "N",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 H St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "y"
+        }
+      ],
+      "nonESI": [
+        {
+          "insurancetype": "cobra",
+          "startdate": "2017-01-01",
+          "enddate": "2017-12-31"
+        }
+      ],
+      "Income": [
+        {
+          "incometype": "wages",
+          "paymentfrequency": "12",
+          "incomeamount": "500"
+        }
+      ]
     },
     {
       "eapersonid": "0032",
-      "personfirstname": "C",
-      "personlastname": "Person",
+      "personfirstname": "Thomas",
+      "personlastname": "Coleman",
+      "isapplicant": "Y",
+      "persondob": "1995-01-01",
+      "isssntrue": "Y",
+      "personssn": "199501010",
+      "gender": "M",
+      "preferredcontactmethod": "email",
+      "preferredlanguage": "english",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "citizen_status": "US",
       "istaxrequired": "Y",
       "ismarried": "Y",
       "isfilingjointly": "Y",
-      "isotherclaimed": "N"
+      "isotherclaimed": "N",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 H St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "y"
+        }
+      ],
+      "nonESI": [
+        {
+          "insurancetype": "cobra",
+          "startdate": "2017-01-01",
+          "enddate": "2017-12-31"
+        }
+      ],
+      "Income": [
+        {
+          "incometype": "wages",
+          "paymentfrequency": "12",
+          "incomeamount": "500"
+        }
+      ]
     },
     {
       "eapersonid": "0033",
-      "personfirstname": "D",
-      "personlastname": "Person",
+      "personfirstname": "Christina",
+      "personlastname": "Coleman",
+      "isapplicant": "Y",
+      "persondob": "1994-01-01",
+      "isssntrue": "Y",
+      "personssn": "199401234",
+      "gender": "F",
+      "preferredcontactmethod": "email",
+      "preferredlanguage": "english",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "citizen_status": "US",
       "istaxrequired": "Y",
       "ismarried": "Y",
       "isfilingjointly": "Y",
-      "isotherclaimed": "N"
+      "isotherclaimed": "N",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 H St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "y"
+        }
+      ],
+      "nonESI": [
+        {
+          "insurancetype": "cobra",
+          "startdate": "2017-01-01",
+          "enddate": "2017-12-31"
+        }
+      ],
+      "Income": [
+        {
+          "incometype": "wages",
+          "paymentfrequency": "12",
+          "incomeamount": "500"
+        }
+      ]
     },
     {
       "eapersonid": "0034",
-      "personfirstname": "E",
-      "personlastname": "Person",
+      "personfirstname": "John",
+      "personlastname": "Coleman",
+      "isapplicant": "Y",
+      "persondob": "2007-05-04",
+      "isssntrue": "Y",
+      "personssn": "200705043",
+      "gender": "M",
+      "preferredcontactmethod": "email",
+      "preferredlanguage": "english",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "citizen_status": "US",
       "istaxrequired": "Y",
       "ismarried": "N",
-      "isotherclaimed": "N"
+      "isotherclaimed": "N",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 H St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "y"
+        }
+      ],
+      "nonESI": [
+        {
+          "insurancetype": "cobra",
+          "startdate": "2017-01-01",
+          "enddate": "2017-12-31"
+        }
+      ],
+      "Income": [
+        {
+          "incometype": "wages",
+          "paymentfrequency": "12",
+          "incomeamount": "500"
+        }
+      ]
     },
     {
       "eapersonid": "0035",
-      "personfirstname": "F",
-      "personlastname": "Person",
+      "personfirstname": "Robert",
+      "personlastname": "Coleman",
+      "isapplicant": "Y",
+      "persondob": "1983-05-05",
+      "isssntrue": "Y",
+      "personssn": "198305050",
+      "gender": "M",
+      "preferredcontactmethod": "email",
+      "preferredlanguage": "english",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "citizen_status": "US",
       "istaxrequired": "N",
       "ismarried": "N",
-      "isotherclaimed": "Y"
+      "isotherclaimed": "Y",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 H St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "y"
+        }
+      ],
+      "nonESI": [
+        {
+          "insurancetype": "cobra",
+          "startdate": "2017-01-01",
+          "enddate": "2017-12-31"
+        }
+      ],
+      "Income": [
+        {
+          "incometype": "wages",
+          "paymentfrequency": "12",
+          "incomeamount": "500"
+        }
+      ]
     },
     {
       "eapersonid": "0036",
-      "personfirstname": "G",
-      "personlastname": "Person",
+      "personfirstname": "Edward",
+      "personlastname": "Coleman",
+      "isapplicant": "Y",
+      "persondob": "1944-05-05",
+      "isssntrue": "Y",
+      "personssn": "194405050",
+      "gender": "M",
+      "preferredcontactmethod": "email",
+      "preferredlanguage": "english",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "citizen_status": "US",
       "istaxrequired": "Y",
       "ismarried": "N",
-      "isotherclaimed": "N"
+      "isotherclaimed": "N",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 H St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "y"
+        }
+      ],
+      "nonESI": [
+        {
+          "insurancetype": "cobra",
+          "startdate": "2017-01-01",
+          "enddate": "2017-12-31"
+        }
+      ],
+      "Income": [
+        {
+          "incometype": "wages",
+          "paymentfrequency": "12",
+          "incomeamount": "500"
+        }
+      ]
     },
     {
       "eapersonid": "0037",
-      "personfirstname": "H",
-      "personlastname": "Person",
+      "personfirstname": "James",
+      "personlastname": "Coleman",
+      "isapplicant": "Y",
+      "persondob": "1979-01-02",
+      "isssntrue": "Y",
+      "personssn": "M",
+      "gender": "M",
+      "preferredcontactmethod": "email",
+      "preferredlanguage": "english",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "citizen_status": "US",
       "istaxrequired": "N",
       "ismarried": "N",
-      "isotherclaimed": "Y"
+      "isotherclaimed": "Y",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 H St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "y"
+        }
+      ],
+      "nonESI": [
+        {
+          "insurancetype": "cobra",
+          "startdate": "2017-01-01",
+          "enddate": "2017-12-31"
+        }
+      ],
+      "Income": [
+        {
+          "incometype": "wages",
+          "paymentfrequency": "12",
+          "incomeamount": "500"
+        }
+      ]
     },
     {
       "eapersonid": "0038",
-      "personfirstname": "I",
-      "personlastname": "Person",
+      "personfirstname": "Christopher",
+      "personlastname": "Coleman",
+      "isapplicant": "Y",
+      "persondob": "1981-12-12",
+      "isssntrue": "Y",
+      "personssn": "198112121",
+      "gender": "M",
+      "preferredcontactmethod": "email",
+      "preferredlanguage": "english",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "citizen_status": "US",
       "istaxrequired": "Y",
       "ismarried": "Y",
       "isfilingjointly": "Y",
-      "isotherclaimed": "N"
+      "isotherclaimed": "N",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 H St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "y"
+        }
+      ],
+      "nonESI": [
+        {
+          "insurancetype": "cobra",
+          "startdate": "2017-01-01",
+          "enddate": "2017-12-31"
+        }
+      ],
+      "Income": [
+        {
+          "incometype": "wages",
+          "paymentfrequency": "12",
+          "incomeamount": "500"
+        }
+      ]
     },
     {
       "eapersonid": "0039",
-      "personfirstname": "J",
-      "personlastname": "Person",
+      "personfirstname": "Calvin",
+      "personlastname": "Coleman",
+      "isapplicant": "Y",
+      "persondob": "1975-03-03",
+      "isssntrue": "Y",
+      "personssn": "197503030",
+      "gender": "M",
+      "preferredcontactmethod": "email",
+      "preferredlanguage": "english",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "citizen_status": "US",
       "istaxrequired": "Y",
       "ismarried": "Y",
       "isfilingjointly": "Y",
-      "isotherclaimed": "N"
+      "isotherclaimed": "N",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 H St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "y"
+        }
+      ],
+      "nonESI": [
+        {
+          "insurancetype": "cobra",
+          "startdate": "2017-01-01",
+          "enddate": "2017-12-31"
+        }
+      ],
+      "Income": [
+        {
+          "incometype": "wages",
+          "paymentfrequency": "12",
+          "incomeamount": "500"
+        }
+      ]
     }
   ],
   "ApplicationRelationship": [
