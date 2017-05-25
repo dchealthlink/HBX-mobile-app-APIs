@@ -94,5 +94,10 @@
       "physicalhousehold": "N",
       "taxhousehold": "N"
     }
-  ]
+  ],
+  "Attestation": [{
+    "medicaidauth": "Y",
+    "renewalauth": "Y",
+    "submitauth": "Y"
+  }]
 }

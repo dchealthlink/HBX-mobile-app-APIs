@@ -1,8 +1,48 @@
 {
+  "eaid": "876544930278011",
+  "statecd": "DC",
+  "appyear": "2017",
+  "name": "SAMPLE-HAVEN-APPLICATION",
+  "status": "Pending",
+  "applicanttype": "user and-or family",
+  "motivationtype": "MT26301",
+  "applicationsource": "electronic",
+  "determinationtype": "mobile-internal",
   "Person": [
     {
-      "eapersonid": "0001",
-      "isapplicant": "Y", 
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ],
+      "nonESI": [
+        {
+          "insurancetype": "peco",
+          "startdate": "2017-01-01",
+          "enddate": "2017-12-31"
+        }
+      ],
+      "Income": [
+        {
+          "incometype": "wages",
+          "paymentfrequency": "1",
+          "incomeamount": "50000"
+        }
+      ],
+      "Deduction": [
+        {
+          "incometype": "selfEmployInsDeductions",
+          "incomeamount": "500"
+        }
+      ],
+      "eapersonid": "849588384759",
+      "isapplicant": "Y",
       "personfirstname": "Tim",
       "personlastname": "Jones",
       "persondob": "1975-01-01",
@@ -22,39 +62,42 @@
       "isinsured": "N",
       "isotherclaimed": "N",
       "istaxrequired": "Y",
-      "citizen_status": "US",
-      "Address": [{
-        "addresstype": "home",
-        "streetaddress1": "101 Great Jones St",
-        "streetaddress2": "apt 1",
-        "city": "Washington",
-        "statecd": "DC",
-        "postalcode": "20001",
-        "preferredaddress": "Y"
-      }],
-      "nonESI": [{
-        "insurancetype": "peco",
-        "startdate": "2017-01-01",
-        "enddate": "2017-12-31"
-      }],
-      "Income": [{
-        "incometype": "wages",
-        "paymentfrequency": "1",
-        "incomeamount": "50000"
-      }],
-      "Deduction": [{
-        "incometype": "selfEmployInsDeductions",
-        "incomeamount": "500"
-      }]
-      },
+      "citizen_status": "US"
+    },
     {
-      "eapersonid": "0002",
-      "isapplicant": "Y", 
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ],
+      "nonESI": [
+        {
+          "insurancetype": "peco",
+          "startdate": "2017-01-01",
+          "enddate": "2017-12-31"
+        }
+      ],
+      "Income": [
+        {
+          "incometype": "wages",
+          "paymentfrequency": "12",
+          "incomeamount": "1500",
+          "startdate": "2017-01-01"
+        }
+      ],
+      "eapersonid": "849588389839",
+      "isapplicant": "Y",
       "personfirstname": "Tina",
       "personlastname": "Jones",
-      "persondob": "1975-01-01",
+      "persondob": "1979-01-01",
       "isssntrue": "Y",
-      "personssn": "197501010",
+      "personssn": "197901010",
       "gender": "M",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
@@ -69,36 +112,34 @@
       "isinsured": "N",
       "isotherclaimed": "N",
       "istaxrequired": "Y",
-      "citizen_status": "US",
-      "Address": [{
-        "addresstype": "home",
-        "streetaddress1": "101 Great Jones St",
-        "streetaddress2": "apt 1",
-        "city": "Washington",
-        "statecd": "DC",
-        "postalcode": "20001",
-        "preferredaddress": "Y"
-      }],
-      "nonESI": [{
-        "insurancetype": "peco",
-        "startdate": "2017-01-01",
-        "enddate": "2017-12-31"
-      }],
-      "Income": [{
-        "incometype": "wages",
-        "paymentfrequency": "12",
-        "incomeamount": "1500",
-        "startdate": "2017-01-01"
-      }]
+      "citizen_status": "US"
     },
     {
-      "eapersonid": "0003",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ],
+      "Income": [
+        {
+          "incometype": "wages",
+          "paymentfrequency": "1",
+          "incomeamount": "2000"
+        }
+      ],
+      "eapersonid": "935588389839",
       "isapplicant": "Y",
       "personfirstname": "James",
       "personlastname": "Jones",
-      "persondob": "1975-01-01",
+      "persondob": "2000-01-01",
       "isssntrue": "Y",
-      "personssn": "197501010",
+      "personssn": "200001010",
       "gender": "M",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
@@ -112,74 +153,54 @@
       "isuscitizen": "Y",
       "isinsured": "N",
       "isotherclaimed": "Y",
-      "istaxrequired": "Y",
-      "citizen_status": "US",
-      "Address": [{
-        "addresstype": "home",
-        "streetaddress1": "101 Great Jones St",
-        "streetaddress2": "apt 1",
-        "city": "Washington",
-        "statecd": "DC",
-        "postalcode": "20001",
-        "preferredaddress": "Y"
-      }],
-      "Income": [{
-        "incometype": "wages",
-        "paymentfrequency": "1",
-        "incomeamount": "200000"
-      }]
+      "istaxrequired": "N",
+      "citizen_status": "US"
     }
   ],
-  "Relationship": [
+  "PhysicalHousehold": [
     {
-      "ApplicationRelationship": [
-        {
-          "eapersonid": "0001",
-          "relationship": "spouse",
-          "cross_personid": "0002"
-        },
-        {
-          "eapersonid": "0001",
-          "relationship": "parent",
-          "cross_personid": "0003"
-        },
-        {
-          "eapersonid": "0002",
-          "relationship": "parent",
-          "cross_personid": "0003"
-        }
-      ],
-      "PhysicalHousehold": [
-        {
-          "householdid": "household1",
-          "eapersonid": "0001"
-        },
-        {
-          "householdid": "household1",
-          "eapersonid": "0002"
-        },
-        {
-          "householdid": "household1",
-          "eapersonid": "0003"
-        }
-      ],
-      "TaxHousehold": [
-        {
-          "tax_no": "1",
-          "eapersonid": "0001",
-          "filer_type": "Filers"
-        },
-        {
-          "tax_no": "1",
-          "eapersonid": "0002",
-          "filer_type": "Filers"
-        },
-        {
-          "tax_no": "1",
-          "eapersonid": "0003",
-          "filer_type": "Dependents"
-        }
-      ]
+      "householdid": "household1",
+      "eapersonid": "849588384759"
+    },
+    {
+      "householdid": "household1",
+      "eapersonid": "849588389839"
+    },
+    {
+      "householdid": "household1",
+      "eapersonid": "935588389839"
+    }
+  ],
+  "TaxHousehold": [
+    {
+      "tax_no": "1",
+      "eapersonid": "849588384759",
+      "filer_type": "Filers"
+    },
+    {
+      "tax_no": "1",
+      "eapersonid": "849588389839",
+      "filer_type": "Filers"
+    },
+    {
+      "tax_no": "1",
+      "eapersonid": "935588389839",
+      "filer_type": "Dependents"
+    }
+  ],
+  "ApplicationRelationship": [
+    {
+      "eapersonid": "849588384759",
+      "relationship": "Spouse",
+      "cross_personid": "849588389839"
+    },{
+      "eapersonid": "849588384759",
+      "relationship": "Parent",
+      "cross_personid": "935588389839"
+    },{
+      "eapersonid": "849588389839",
+      "relationship": "Parent",
+      "cross_personid": "935588389839"
     }
   ]
 }

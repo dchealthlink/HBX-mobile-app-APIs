@@ -27,56 +27,52 @@
       "isotherclaimed": "Y"
     }
   ],
-  "Relationship": [
+  "ApplicationRelationship": [
     {
-      "ApplicationRelationship": [
-        {
-          "eapersonid": "007",
-          "relationship": "parent",
-          "cross_personid": "008"
-        },
-        {
-          "eapersonid": "007",
-          "relationship": "child",
-          "cross_personid": "009"
-        },
-        {
-          "eapersonid": "008",
-          "relationship": "parent",
-          "cross_personid": "009"
-        }
-      ],
-      "PhysicalHousehold": [
-        {
-          "householdid": "household1",
-          "eapersonid": "007"
-        },
-        {
-          "householdid": "household1",
-          "eapersonid": "008"
-        },
-        {
-          "householdid": "household1",
-          "eapersonid": "009"
-        }
-      ],
-      "TaxHousehold": [
-        {
-          "tax_no": "1",
-          "eapersonid": "007",
-          "filer_type": "Filers"
-        },
-        {
-          "tax_no": "1",
-          "eapersonid": "008",
-          "filer_type": "Filers"
-        },
-        {
-          "tax_no": "1",
-          "eapersonid": "009",
-          "filer_type": "Dependents"
-        }
-      ]
+      "eapersonid": "007",
+      "relationship": "parent",
+      "cross_personid": "008"
+    },
+    {
+      "eapersonid": "007",
+      "relationship": "child",
+      "cross_personid": "009"
+    },
+    {
+      "eapersonid": "008",
+      "relationship": "parent",
+      "cross_personid": "009"
+    }
+  ],
+  "PhysicalHousehold": [
+    {
+      "householdid": "household1",
+      "eapersonid": "007"
+    },
+    {
+      "householdid": "household1",
+      "eapersonid": "008"
+    },
+    {
+      "householdid": "household1",
+      "eapersonid": "009"
+    }
+  ],
+  "TaxHousehold": [
+    {
+      "tax_no": "1",
+      "eapersonid": "007",
+      "filer_type": "Filers"
+    },
+    {
+      "tax_no": "1",
+      "eapersonid": "008",
+      "filer_type": "Filers"
+    },
+    {
+      "tax_no": "1",
+      "eapersonid": "009",
+      "filer_type": "Dependents"
     }
   ]
 }
