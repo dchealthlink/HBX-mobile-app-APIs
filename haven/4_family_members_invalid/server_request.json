@@ -216,32 +216,32 @@
     {
       "eapersonid": "0016",
       "relationship": "spouse",
-      "cross_personid": "0017"
+      "cross_eapersonid": "0017"
     },
     {
       "eapersonid": "0016",
       "relationship": "parent",
-      "cross_personid": "0018"
+      "cross_eapersonid": "0018"
     },
     {
       "eapersonid": "0016",
       "relationship": "parent",
-      "cross_personid": "0019"
+      "cross_eapersonid": "0019"
     },
     {
       "eapersonid": "0017",
       "relationship": "parent",
-      "cross_personid": "0018"
+      "cross_eapersonid": "0018"
     },
     {
       "eapersonid": "0017",
       "relationship": "parent",
-      "cross_personid": "0019"
+      "cross_eapersonid": "0019"
     },
     {
       "eapersonid": "0018",
       "relationship": "parent",
-      "cross_personid": "0019"
+      "cross_eapersonid": "0019"
     }
   ],
   "PhysicalHousehold": [

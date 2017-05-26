@@ -264,52 +264,52 @@
     {
       "eapersonid": "0011",
       "relationship": "spouse",
-      "cross_personid": "0012"
+      "cross_eapersonid": "0012"
     },
     {
       "eapersonid": "0011",
       "relationship": "parent",
-      "cross_personid": "0013"
+      "cross_eapersonid": "0013"
     },
     {
       "eapersonid": "0011",
       "relationship": "parent",
-      "cross_personid": "0014"
+      "cross_eapersonid": "0014"
     },
     {
       "eapersonid": "0011",
       "relationship": "parent",
-      "cross_personid": "0015"
+      "cross_eapersonid": "0015"
     },
     {
       "eapersonid": "0012",
       "relationship": "parent",
-      "cross_personid": "0013"
+      "cross_eapersonid": "0013"
     },
     {
       "eapersonid": "0012",
       "relationship": "parent",
-      "cross_personid": "0014"
+      "cross_eapersonid": "0014"
     },
     {
       "eapersonid": "0012",
       "relationship": "parent",
-      "cross_personid": "0015"
+      "cross_eapersonid": "0015"
     },
     {
       "eapersonid": "0013",
       "relationship": "siblingStepsibling",
-      "cross_personid": "0014"
+      "cross_eapersonid": "0014"
     },
     {
       "eapersonid": "0013",
       "relationship": "siblingStepsibling",
-      "cross_personid": "0015"
+      "cross_eapersonid": "0015"
     },
     {
       "eapersonid": "0014",
       "relationship": "siblingStepsibling",
-      "cross_personid": "0015"
+      "cross_eapersonid": "0015"
     }
   ],
   "PhysicalHousehold": [

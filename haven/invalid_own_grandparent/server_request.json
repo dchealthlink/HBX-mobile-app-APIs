@@ -161,17 +161,17 @@
     {
       "eapersonid": "007",
       "relationship": "parent",
-      "cross_personid": "008"
+      "cross_eapersonid": "008"
     },
     {
       "eapersonid": "007",
       "relationship": "child",
-      "cross_personid": "009"
+      "cross_eapersonid": "009"
     },
     {
       "eapersonid": "008",
       "relationship": "parent",
-      "cross_personid": "009"
+      "cross_eapersonid": "009"
     }
   ],
   "PhysicalHousehold": [

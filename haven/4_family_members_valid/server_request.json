@@ -230,37 +230,37 @@
     {
       "eapersonid": "857483902983748",
       "relationship": "spouse",
-      "cross_personid": "847584930928374"
+      "cross_eapersonid": "847584930928374"
     },
     {
       "eapersonid": "857483902983748",
       "relationship": "parent",
-      "cross_personid": "109283746537463"
+      "cross_eapersonid": "109283746537463"
     },
     {
       "eapersonid": "857483902983748",
       "relationship": "child",
-      "cross_personid": "567483920918374"
+      "cross_eapersonid": "567483920918374"
     },
     {
       "eapersonid": "847584930928374",
       "relationship": "parent",
-      "cross_personid": "109283746537463"
+      "cross_eapersonid": "109283746537463"
     },
     {
       "eapersonid": "847584930928374",
       "relationship": "child-in-law",
-      "cross_personid": "567483920918374"
+      "cross_eapersonid": "567483920918374"
     },
     {
       "eapersonid": "109283746537463",
       "relationship": "child",
-      "cross_personid": "857483902983748"
+      "cross_eapersonid": "857483902983748"
     },
     {
       "eapersonid": "109283746537463",
       "relationship": "grandchild",
-      "cross_personid": "567483920918374"
+      "cross_eapersonid": "567483920918374"
     }
   ]
 }

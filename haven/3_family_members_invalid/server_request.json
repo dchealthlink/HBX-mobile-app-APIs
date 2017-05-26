@@ -166,17 +166,17 @@
     {
       "eapersonid": "0020",
       "relationship": "spouse",
-      "cross_personid": "0021"
+      "cross_eapersonid": "0021"
     },
     {
       "eapersonid": "0020",
       "relationship": "parent",
-      "cross_personid": "0022"
+      "cross_eapersonid": "0022"
     },
     {
       "eapersonid": "0021",
       "relationship": "parent",
-      "cross_personid": "0022"
+      "cross_eapersonid": "0022"
     }
   ],
   "PhysicalHousehold": [

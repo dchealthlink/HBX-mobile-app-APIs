@@ -192,15 +192,17 @@
     {
       "eapersonid": "849588384759",
       "relationship": "Spouse",
-      "cross_personid": "849588389839"
-    },{
+      "cross_eapersonid": "849588389839"
+    },
+    {
       "eapersonid": "849588384759",
       "relationship": "Parent",
-      "cross_personid": "935588389839"
-    },{
+      "cross_eapersonid": "935588389839"
+    },
+    {
       "eapersonid": "849588389839",
       "relationship": "Parent",
-      "cross_personid": "935588389839"
+      "cross_eapersonid": "935588389839"
     }
   ]
 }
