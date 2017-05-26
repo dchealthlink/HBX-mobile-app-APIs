@@ -2,7 +2,7 @@
   "eaid": "636592130550297",
   "statecd": "DC",
   "appyear": "2017",
-  "name": "00001-170206-1",
+  "name": "validFivePersonFamily",
   "status": "Pending",
   "applicantType": "user and/or family",
   "motivationtype": "MT26301",
@@ -298,17 +298,17 @@
     },
     {
       "eapersonid": "0013",
-      "relationship": "siblingStepsibling",
+      "relationship": "sibling/Stepsibling",
       "cross_eapersonid": "0014"
     },
     {
       "eapersonid": "0013",
-      "relationship": "siblingStepsibling",
+      "relationship": "sibling/Stepsibling",
       "cross_eapersonid": "0015"
     },
     {
       "eapersonid": "0014",
-      "relationship": "siblingStepsibling",
+      "relationship": "sibling/Stepsibling",
       "cross_eapersonid": "0015"
     }
   ],

@@ -2,7 +2,7 @@
   "eaid": "876544930278003",
   "statecd": "DC",
   "appyear": "2017",
-  "name": "SAMPLE-HAVEN-APPLICATION",
+  "name": "validFourPersonSample",
   "status": "Pending",
   "applicanttype": "user and-or family",
   "motivationtype": "MT26301",
@@ -52,8 +52,8 @@
       "Income": [
         {
           "incometype": "wages",
-          "paymentfrequency": "1",
-          "incomeamount": "50000"
+          "paymentfrequency": "12",
+          "incomeamount": "900"
         }
       ],
       "Deduction": [
@@ -106,8 +106,8 @@
       "Income": [
         {
           "incometype": "wages",
-          "paymentfrequency": "1",
-          "incomeamount": "50000"
+          "paymentfrequency": "12",
+          "incomeamount": "1000"
         }
       ],
       "Deduction": [
@@ -251,11 +251,6 @@
       "eapersonid": "847584930928374",
       "relationship": "child-in-law",
       "cross_eapersonid": "567483920918374"
-    },
-    {
-      "eapersonid": "109283746537463",
-      "relationship": "child",
-      "cross_eapersonid": "857483902983748"
     },
     {
       "eapersonid": "109283746537463",
