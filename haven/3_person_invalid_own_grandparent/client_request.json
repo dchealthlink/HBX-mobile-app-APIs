@@ -43,7 +43,7 @@
           "preferredaddress": "y"
         }
       ],
-      "nonESI": [
+      "Insurance": [
         {
           "insurancetype": "cobra",
           "startdate": "2017-01-01",
@@ -92,7 +92,7 @@
           "preferredaddress": "y"
         }
       ],
-      "nonESI": [
+      "Insurance": [
         {
           "insurancetype": "cobra",
           "startdate": "2017-01-01",
@@ -141,7 +141,7 @@
           "preferredaddress": "y"
         }
       ],
-      "nonESI": [
+      "Insurance": [
         {
           "insurancetype": "cobra",
           "startdate": "2017-01-01",
