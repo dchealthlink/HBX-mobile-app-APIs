@@ -45,7 +45,7 @@
       ],
       "Insurance": [
         {
-          "insurancetype": "cobra",
+          "insurancetype": "esi",
           "startdate": "2017-01-01",
           "enddate": "2017-12-31"
         }
@@ -96,7 +96,7 @@
       ],
       "Insurance": [
         {
-          "insurancetype": "cobra",
+          "insurancetype": "esi",
           "startdate": "2017-01-01",
           "enddate": "2017-12-31"
         }
@@ -146,7 +146,7 @@
       ],
       "Insurance": [
         {
-          "insurancetype": "cobra",
+          "insurancetype": "peco",
           "startdate": "2017-01-01",
           "enddate": "2017-12-31"
         }
