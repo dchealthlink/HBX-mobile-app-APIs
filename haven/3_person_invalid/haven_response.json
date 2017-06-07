@@ -2,29 +2,24 @@
   "Determination Date": "2017-06-07",
   "Applicants": [
     {
-      "Person ID": 149686343926,
+      "Person ID": 149686363848,
       "Medicaid Household": {
         "People": [
-          149686343926,
-          149686343992,
-          149686343981
+          149686363848,
+          149686363874,
+          149686363926
         ],
-        "MAGI": 67500,
-        "MAGI as Percentage of FPL": 330,
+        "MAGI": 12000,
+        "MAGI as Percentage of FPL": 58,
         "Size": 3
       },
-      "Medicaid Eligible": "N",
+      "Medicaid Eligible": "Y",
       "CHIP Eligible": "N",
-      "Ineligibility Reason": [
-        "Applicant's MAGI above the threshold for category"
-      ],
-      "Non-MAGI Referral": "N",
       "CHIP Ineligibility Reason": [
-        "Applicant did not meet the requirements for any CHIP category",
-        "Applicant not eligible under state health benefits rule"
+        "Applicant did not meet the requirements for any CHIP category"
       ],
-      "Category": "Parent Caretaker Category",
-      "Category Threshold": 45128,
+      "Category": "Adult Group Category",
+      "Category Threshold": 43903,
       "CHIP Category": "None",
       "CHIP Category Threshold": 0,
       "Determinations": {
@@ -35,7 +30,9 @@
           "Indicator": "Y"
         },
         "Parent Caretaker Category": {
-          "Indicator": "Y"
+          "Indicator": "N",
+          "Ineligibility Code": 146,
+          "Ineligibility Reason": "No child met all criteria for parent caretaker category"
         },
         "Pregnancy Category": {
           "Indicator": "N",
@@ -57,9 +54,7 @@
           "Indicator": "X"
         },
         "Income Medicaid Eligible": {
-          "Indicator": "N",
-          "Ineligibility Code": 402,
-          "Ineligibility Reason": "Applicant's income is greater than the threshold for all eligible categories"
+          "Indicator": "Y"
         },
         "Income CHIP Eligible": {
           "Indicator": "N",
@@ -97,19 +92,17 @@
         },
         "Work Quarters Override Income": {
           "Indicator": "N",
-          "Ineligibility Code": 340,
-          "Ineligibility Reason": "Income is greater than 100% FPL"
+          "Ineligibility Code": 338,
+          "Ineligibility Reason": "Applicant did not meet all the criteria for income override rule"
         },
         "State Health Benefits CHIP": {
-          "Indicator": "N",
-          "Ineligibility Code": 155,
-          "Ineligibility Reason": "State does not provide CHIP to applicants with access to state health insurance"
+          "Indicator": "X"
         },
         "CHIP Waiting Period Satisfied": {
           "Indicator": "X"
         },
         "Dependent Child Covered": {
-          "Indicator": "Y"
+          "Indicator": "X"
         },
         "Medicaid Non-MAGI Referral": {
           "Indicator": "N",
@@ -125,52 +118,158 @@
           "Indicator": "X"
         },
         "APTC Referral": {
-          "Indicator": "Y"
+          "Indicator": "N",
+          "Ineligibility Code": 406,
+          "Ineligibility Reason": "Applicant is eligible for Medicaid"
         }
       },
       "Other Outputs": {
-        "Qualified Children List": [
-          {
-            "Person ID": 149686343981,
-            "Determinations": {
-              "Dependent Age": {
-                "Indicator": "Y"
-              },
-              "Deprived Child": {
-                "Indicator": "X"
-              },
-              "Relationship": {
-                "Indicator": "Y"
-              }
-            }
-          }
-        ]
+        "Qualified Children List": []
       }
     },
     {
-      "Person ID": 149686343981,
+      "Person ID": 149686363874,
       "Medicaid Household": {
         "People": [
-          149686343926,
-          149686343992,
-          149686343981
+          149686363848,
+          149686363874,
+          149686363926
         ],
-        "MAGI": 67500,
-        "MAGI as Percentage of FPL": 330,
+        "MAGI": 12000,
+        "MAGI as Percentage of FPL": 58,
         "Size": 3
       },
-      "Medicaid Eligible": "N",
+      "Medicaid Eligible": "Y",
       "CHIP Eligible": "N",
-      "Ineligibility Reason": [
-        "Applicant's MAGI above the threshold for category"
-      ],
-      "Non-MAGI Referral": "N",
       "CHIP Ineligibility Reason": [
-        "Applicant did not meet the requirements for any CHIP category",
-        "Applicant not eligible under state health benefits rule"
+        "Applicant did not meet the requirements for any CHIP category"
+      ],
+      "Category": "Adult Group Category",
+      "Category Threshold": 43903,
+      "CHIP Category": "None",
+      "CHIP Category Threshold": 0,
+      "Determinations": {
+        "Residency": {
+          "Indicator": "Y"
+        },
+        "Adult Group Category": {
+          "Indicator": "Y"
+        },
+        "Parent Caretaker Category": {
+          "Indicator": "N",
+          "Ineligibility Code": 146,
+          "Ineligibility Reason": "No child met all criteria for parent caretaker category"
+        },
+        "Pregnancy Category": {
+          "Indicator": "N",
+          "Ineligibility Code": 124,
+          "Ineligibility Reason": "Applicant not pregnant or within postpartum period"
+        },
+        "Child Category": {
+          "Indicator": "N",
+          "Ineligibility Code": 394,
+          "Ineligibility Reason": "Applicant is over the age limit for the young adult threshold in the state"
+        },
+        "Optional Targeted Low Income Child": {
+          "Indicator": "X"
+        },
+        "CHIP Targeted Low Income Child": {
+          "Indicator": "X"
+        },
+        "Unborn Child": {
+          "Indicator": "X"
+        },
+        "Income Medicaid Eligible": {
+          "Indicator": "Y"
+        },
+        "Income CHIP Eligible": {
+          "Indicator": "N",
+          "Ineligibility Code": 401,
+          "Ineligibility Reason": "Applicant did not meet the requirements for any eligibility category"
+        },
+        "Medicaid CHIPRA 214": {
+          "Indicator": "X"
+        },
+        "CHIP CHIPRA 214": {
+          "Indicator": "X"
+        },
+        "Trafficking Victim": {
+          "Indicator": "X"
+        },
+        "Seven Year Limit": {
+          "Indicator": "X"
+        },
+        "Five Year Bar": {
+          "Indicator": "X"
+        },
+        "Title II Work Quarters Met": {
+          "Indicator": "X"
+        },
+        "Medicaid Citizen Or Immigrant": {
+          "Indicator": "Y"
+        },
+        "CHIP Citizen Or Immigrant": {
+          "Indicator": "Y"
+        },
+        "Former Foster Care Category": {
+          "Indicator": "N",
+          "Ineligibility Code": 400,
+          "Ineligibility Reason": "Applicant was not formerly in foster care"
+        },
+        "Work Quarters Override Income": {
+          "Indicator": "N",
+          "Ineligibility Code": 338,
+          "Ineligibility Reason": "Applicant did not meet all the criteria for income override rule"
+        },
+        "State Health Benefits CHIP": {
+          "Indicator": "X"
+        },
+        "CHIP Waiting Period Satisfied": {
+          "Indicator": "X"
+        },
+        "Dependent Child Covered": {
+          "Indicator": "X"
+        },
+        "Medicaid Non-MAGI Referral": {
+          "Indicator": "N",
+          "Ineligibility Code": 108,
+          "Ineligibility Reason": "Applicant does not meet requirements for a non-MAGI referral"
+        },
+        "Emergency Medicaid": {
+          "Indicator": "N",
+          "Ineligibility Code": 109,
+          "Ineligibility Reason": "Applicant does not meet the eligibility criteria for emergency Medicaid"
+        },
+        "Refugee Medical Assistance": {
+          "Indicator": "X"
+        },
+        "APTC Referral": {
+          "Indicator": "N",
+          "Ineligibility Code": 406,
+          "Ineligibility Reason": "Applicant is eligible for Medicaid"
+        }
+      },
+      "Other Outputs": {
+        "Qualified Children List": []
+      }
+    },
+    {
+      "Person ID": 149686363926,
+      "Medicaid Household": {
+        "People": [
+          149686363926
+        ],
+        "MAGI": 0,
+        "MAGI as Percentage of FPL": 0,
+        "Size": 1
+      },
+      "Medicaid Eligible": "Y",
+      "CHIP Eligible": "N",
+      "CHIP Ineligibility Reason": [
+        "Applicant did not meet the requirements for any CHIP category"
       ],
       "Category": "Child Category",
-      "Category Threshold": 66160,
+      "Category Threshold": 39074,
       "CHIP Category": "None",
       "CHIP Category Threshold": 0,
       "Determinations": {
@@ -205,9 +304,7 @@
           "Indicator": "X"
         },
         "Income Medicaid Eligible": {
-          "Indicator": "N",
-          "Ineligibility Code": 402,
-          "Ineligibility Reason": "Applicant's income is greater than the threshold for all eligible categories"
+          "Indicator": "Y"
         },
         "Income CHIP Eligible": {
           "Indicator": "N",
@@ -245,13 +342,11 @@
         },
         "Work Quarters Override Income": {
           "Indicator": "N",
-          "Ineligibility Code": 340,
-          "Ineligibility Reason": "Income is greater than 100% FPL"
+          "Ineligibility Code": 338,
+          "Ineligibility Reason": "Applicant did not meet all the criteria for income override rule"
         },
         "State Health Benefits CHIP": {
-          "Indicator": "N",
-          "Ineligibility Code": 155,
-          "Ineligibility Reason": "State does not provide CHIP to applicants with access to state health insurance"
+          "Indicator": "X"
         },
         "CHIP Waiting Period Satisfied": {
           "Indicator": "X"
@@ -273,157 +368,13 @@
           "Indicator": "X"
         },
         "APTC Referral": {
-          "Indicator": "Y"
+          "Indicator": "N",
+          "Ineligibility Code": 406,
+          "Ineligibility Reason": "Applicant is eligible for Medicaid"
         }
       },
       "Other Outputs": {
         "Qualified Children List": []
-      }
-    },
-    {
-      "Person ID": 149686343992,
-      "Medicaid Household": {
-        "People": [
-          149686343926,
-          149686343992,
-          149686343981
-        ],
-        "MAGI": 67500,
-        "MAGI as Percentage of FPL": 330,
-        "Size": 3
-      },
-      "Medicaid Eligible": "N",
-      "CHIP Eligible": "N",
-      "Ineligibility Reason": [
-        "Applicant's MAGI above the threshold for category"
-      ],
-      "Non-MAGI Referral": "N",
-      "CHIP Ineligibility Reason": [
-        "Applicant did not meet the requirements for any CHIP category",
-        "Applicant not eligible under state health benefits rule"
-      ],
-      "Category": "Parent Caretaker Category",
-      "Category Threshold": 45128,
-      "CHIP Category": "None",
-      "CHIP Category Threshold": 0,
-      "Determinations": {
-        "Residency": {
-          "Indicator": "Y"
-        },
-        "Adult Group Category": {
-          "Indicator": "Y"
-        },
-        "Parent Caretaker Category": {
-          "Indicator": "Y"
-        },
-        "Pregnancy Category": {
-          "Indicator": "N",
-          "Ineligibility Code": 124,
-          "Ineligibility Reason": "Applicant not pregnant or within postpartum period"
-        },
-        "Child Category": {
-          "Indicator": "N",
-          "Ineligibility Code": 394,
-          "Ineligibility Reason": "Applicant is over the age limit for the young adult threshold in the state"
-        },
-        "Optional Targeted Low Income Child": {
-          "Indicator": "X"
-        },
-        "CHIP Targeted Low Income Child": {
-          "Indicator": "X"
-        },
-        "Unborn Child": {
-          "Indicator": "X"
-        },
-        "Income Medicaid Eligible": {
-          "Indicator": "N",
-          "Ineligibility Code": 402,
-          "Ineligibility Reason": "Applicant's income is greater than the threshold for all eligible categories"
-        },
-        "Income CHIP Eligible": {
-          "Indicator": "N",
-          "Ineligibility Code": 401,
-          "Ineligibility Reason": "Applicant did not meet the requirements for any eligibility category"
-        },
-        "Medicaid CHIPRA 214": {
-          "Indicator": "X"
-        },
-        "CHIP CHIPRA 214": {
-          "Indicator": "X"
-        },
-        "Trafficking Victim": {
-          "Indicator": "X"
-        },
-        "Seven Year Limit": {
-          "Indicator": "X"
-        },
-        "Five Year Bar": {
-          "Indicator": "X"
-        },
-        "Title II Work Quarters Met": {
-          "Indicator": "X"
-        },
-        "Medicaid Citizen Or Immigrant": {
-          "Indicator": "Y"
-        },
-        "CHIP Citizen Or Immigrant": {
-          "Indicator": "Y"
-        },
-        "Former Foster Care Category": {
-          "Indicator": "N",
-          "Ineligibility Code": 400,
-          "Ineligibility Reason": "Applicant was not formerly in foster care"
-        },
-        "Work Quarters Override Income": {
-          "Indicator": "N",
-          "Ineligibility Code": 340,
-          "Ineligibility Reason": "Income is greater than 100% FPL"
-        },
-        "State Health Benefits CHIP": {
-          "Indicator": "N",
-          "Ineligibility Code": 155,
-          "Ineligibility Reason": "State does not provide CHIP to applicants with access to state health insurance"
-        },
-        "CHIP Waiting Period Satisfied": {
-          "Indicator": "X"
-        },
-        "Dependent Child Covered": {
-          "Indicator": "Y"
-        },
-        "Medicaid Non-MAGI Referral": {
-          "Indicator": "N",
-          "Ineligibility Code": 108,
-          "Ineligibility Reason": "Applicant does not meet requirements for a non-MAGI referral"
-        },
-        "Emergency Medicaid": {
-          "Indicator": "N",
-          "Ineligibility Code": 109,
-          "Ineligibility Reason": "Applicant does not meet the eligibility criteria for emergency Medicaid"
-        },
-        "Refugee Medical Assistance": {
-          "Indicator": "X"
-        },
-        "APTC Referral": {
-          "Indicator": "Y"
-        }
-      },
-      "Other Outputs": {
-        "Qualified Children List": [
-          {
-            "Person ID": 149686343981,
-            "Determinations": {
-              "Dependent Age": {
-                "Indicator": "Y"
-              },
-              "Deprived Child": {
-                "Indicator": "X"
-              },
-              "Relationship": {
-                "Indicator": "Y"
-              }
-            }
-          }
-        ]
       }
     }
   ]
