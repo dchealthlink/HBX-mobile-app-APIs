@@ -4,6 +4,7 @@
   "Applicants": [
     {
       "Person ID": 149686343926,
+      "eapersonid": "849588384759",
       "Medicaid Household": {
         "People": [
           149686343926,
@@ -150,6 +151,7 @@
     },
     {
       "Person ID": 149686343981,
+      "eapersonid": "849588389839",
       "Medicaid Household": {
         "People": [
           149686343926,
@@ -283,6 +285,7 @@
     },
     {
       "Person ID": 149686343992,
+      "eapersonid": "935588389839",
       "Medicaid Household": {
         "People": [
           149686343926,
