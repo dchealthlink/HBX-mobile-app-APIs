@@ -160,6 +160,7 @@ module Helper
 
   def add_urls! enrollment
     enrollment[:carrier_name] = 'Kaiser'
+    enrollment[:carrier_logo] = '/assets/logo/carrier/kaiser-63900cee003506c33dc3eff1fa8e94d2.jpg'
     enrollment[:summary_of_benefits_url] = '/document/download/dchbx-enroll-sbc-preprod/ad954b2b-81ca-4729-b440-811eead43498?content_type=application/pdf&filename=UHCChoicePlusHSAPOSGold1300A.pdf&disposition=inline'
 
     enrollment[:provider_directory_url] = 'http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor'
