@@ -114,21 +114,21 @@ class Scenarios < BaseUtil
       end
     end
 
-    def create_enroll_account_already_exists
+    def create_ridp_enroll_account_already_exists
       ridp_util RIDP_ENROLL_ACCOUNT_EXISTS do |ridp_util|
         write_json ridp_util.create_user_exists_in_enroll_IVL, ridp_util
         create_base_ridp ridp_util, RIDP_ENROLL_ACCOUNT_EXISTS
       end
     end
 
-    def create_person_found_in_enroll_roster
+    def create_ridp_person_found_in_enroll_roster
       ridp_util RIDP_FOUND_IN_ROSTER do |ridp_util|
         write_json ridp_util.create_user_exists_in_enroll_SHOP, ridp_util
         create_base_ridp ridp_util, RIDP_FOUND_IN_ROSTER
       end
     end
 
-    def create_new_signup
+    def create_ridp_new_signup
       ridp_util RIDP_NEW_SIGNUP do |ridp_util|
         write_json ridp_util.create_user_not_in_enroll, ridp_util
         create_base_ridp ridp_util, RIDP_NEW_SIGNUP
