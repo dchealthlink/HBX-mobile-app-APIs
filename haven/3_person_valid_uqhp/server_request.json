@@ -1,0 +1,150 @@
+{
+  "eaid": "876544930278011",
+  "statecd": "DC",
+  "appyear": "2017",
+  "name": "SAMPLE-HAVEN-APPLICATION",
+  "status": "Pending",
+  "applicanttype": "user and-or family",
+  "motivationtype": "MT26301",
+  "applicationsource": "electronic",
+  "determinationtype": "mobile-internal",
+  "medicaidauth": "Y",
+  "renewalauth": "Y",
+  "submitauth": "Y",
+  "Person": [
+    {
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ],
+      "eapersonid": "849588384759",
+      "isapplicant": "Y",
+      "personfirstname": "Tim",
+      "personlastname": "Jones",
+      "persondob": "1975-01-01",
+      "isssntrue": "Y",
+      "personssn": "197501010",
+      "gender": "M",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "citizen_status": "US"
+    },
+    {
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ],
+      "eapersonid": "849588389839",
+      "isapplicant": "Y",
+      "personfirstname": "Tina",
+      "personlastname": "Jones",
+      "persondob": "1979-01-01",
+      "isssntrue": "Y",
+      "personssn": "197901010",
+      "gender": "M",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "citizen_status": "US"
+    },
+    {
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ],
+      "eapersonid": "935588389839",
+      "isapplicant": "Y",
+      "personfirstname": "James",
+      "personlastname": "Jones",
+      "persondob": "2000-01-01",
+      "isssntrue": "Y",
+      "personssn": "200001010",
+      "gender": "M",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "citizen_status": "US"
+    }
+  ],
+  "PhysicalHousehold": [
+    {
+      "householdid": "household1",
+      "eapersonid": "849588384759"
+    },
+    {
+      "householdid": "household1",
+      "eapersonid": "849588389839"
+    },
+    {
+      "householdid": "household1",
+      "eapersonid": "935588389839"
+    }
+  ],
+  "TaxHousehold": [
+    {
+      "tax_no": "1",
+      "eapersonid": "849588384759",
+      "filer_type": "Filers"
+    },
+    {
+      "tax_no": "1",
+      "eapersonid": "849588389839",
+      "filer_type": "Filers"
+    },
+    {
+      "tax_no": "1",
+      "eapersonid": "935588389839",
+      "filer_type": "Dependents"
+    }
+  ],
+  "ApplicationRelationship": [
+    {
+      "eapersonid": "849588384759",
+      "relationship": "Spouse",
+      "cross_eapersonid": "849588389839"
+    },
+    {
+      "eapersonid": "849588384759",
+      "relationship": "Parent",
+      "cross_eapersonid": "935588389839"
+    },
+    {
+      "eapersonid": "849588389839",
+      "relationship": "Parent",
+      "cross_eapersonid": "935588389839"
+    }
+  ]
+}

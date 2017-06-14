@@ -42,5 +42,12 @@ via HATEOAS:
    * [hostname]/api/v1/mobile/plans/&lt;id&gt;/services
       * [example response](generated/services/service_rates.json)
 
+## Sign Up
 
-
+Entry points: 
+   * [hostname]/sign-up
+      * Parameters:
+       	* username - User Name
+        * password - Password
+        * token - encrypted token returned by the call to the Enroll RIDP endpoint
+        * ssn - Social Security Number

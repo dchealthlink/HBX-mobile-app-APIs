@@ -543,7 +543,7 @@
     },
     {
       "eapersonid": "0030",
-      "relationship": "siblingStepsibling",
+      "relationship": "sibling/stepsibling",
       "cross_eapersonid": "0036"
     },
     {
@@ -553,7 +553,7 @@
     },
     {
       "eapersonid": "0030",
-      "relationship": "siblingStepsibling",
+      "relationship": "sibling/stepsibling",
       "cross_eapersonid": "0038"
     },
     {
@@ -598,7 +598,7 @@
     },
     {
       "eapersonid": "0031",
-      "relationship": "siblingStepsibling",
+      "relationship": "sibling/stepsibling",
       "cross_eapersonid": "0039"
     },
     {
@@ -608,17 +608,17 @@
     },
     {
       "eapersonid": "0032",
-      "relationship": "siblingStepsibling",
+      "relationship": "sibling/stepsibling",
       "cross_eapersonid": "0034"
     },
     {
       "eapersonid": "0032",
-      "relationship": "siblingStepsibling",
+      "relationship": "sibling/stepsibling",
       "cross_eapersonid": "0035"
     },
     {
       "eapersonid": "0032",
-      "relationship": "nephewNiece",
+      "relationship": "nephew/niece",
       "cross_eapersonid": "0036"
     },
     {
@@ -628,12 +628,12 @@
     },
     {
       "eapersonid": "0032",
-      "relationship": "nephewNiece",
+      "relationship": "nephew/niece",
       "cross_eapersonid": "0038"
     },
     {
       "eapersonid": "0032",
-      "relationship": "nephewNiece",
+      "relationship": "nephew/niece",
       "cross_eapersonid": "0039"
     },
     {
@@ -668,12 +668,12 @@
     },
     {
       "eapersonid": "0034",
-      "relationship": "siblingStepsibling",
+      "relationship": "sibling/stepsibling",
       "cross_eapersonid": "0035"
     },
     {
       "eapersonid": "0034",
-      "relationship": "nephewNiece",
+      "relationship": "nephew/niece",
       "cross_eapersonid": "0036"
     },
     {
@@ -683,17 +683,17 @@
     },
     {
       "eapersonid": "0034",
-      "relationship": "nephewNiece",
+      "relationship": "nephew/niece",
       "cross_eapersonid": "0038"
     },
     {
       "eapersonid": "0034",
-      "relationship": "nephewNiece",
+      "relationship": "nephew/niece",
       "cross_eapersonid": "0039"
     },
     {
       "eapersonid": "0035",
-      "relationship": "nephewNiece",
+      "relationship": "nephew/niece",
       "cross_eapersonid": "0036"
     },
     {
@@ -703,12 +703,12 @@
     },
     {
       "eapersonid": "0035",
-      "relationship": "nephewNiece",
+      "relationship": "nephew/niece",
       "cross_eapersonid": "0038"
     },
     {
       "eapersonid": "0035",
-      "relationship": "nephewNiece",
+      "relationship": "nephew/niece",
       "cross_eapersonid": "0039"
     },
     {
@@ -718,7 +718,7 @@
     },
     {
       "eapersonid": "0036",
-      "relationship": "siblingStepsibling",
+      "relationship": "sibling/stepsibling",
       "cross_eapersonid": "0038"
     },
     {
