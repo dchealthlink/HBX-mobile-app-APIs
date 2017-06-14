@@ -173,5 +173,12 @@
       "physicalhousehold": "Y",
       "taxhousehold": "Y"
     }
+  ],
+  "Attestation": [
+    {
+      "medicaidauth": "Y",
+      "renewalauth": "Y",
+      "submitauth": "Y"
+    }
   ]
 }

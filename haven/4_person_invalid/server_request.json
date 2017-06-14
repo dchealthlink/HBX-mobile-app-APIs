@@ -8,6 +8,9 @@
   "motivationtype": "MT26301",
   "applicationsource": "electronic",
   "determinationtype": "mobile-internal",
+  "medicaidauth": "Y",
+  "renewalauth": "Y",
+  "submitauth": "Y",
   "Person": [
     {
       "eapersonid": "0016",
