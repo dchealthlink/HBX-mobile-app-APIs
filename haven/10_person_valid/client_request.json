@@ -742,11 +742,9 @@
       "taxhousehold": "N"
     }
   ],
-  "Attestation": [
-    {
-      "medicaidauth": "Y",
-      "renewalauth": "Y",
-      "submitauth": "Y"
-    }
-  ]
+  "Attestation": {
+    "medicaidauth": "Y",
+    "renewalauth": "Y",
+    "submitauth": "Y"
+  }
 }
