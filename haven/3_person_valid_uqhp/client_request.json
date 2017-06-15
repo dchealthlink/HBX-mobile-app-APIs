@@ -103,8 +103,6 @@
     }
   ],
   "Attestation": {
-    "medicaidauth": "Y",
-    "renewalauth": "Y",
     "submitauth": "Y"
   }
 }
