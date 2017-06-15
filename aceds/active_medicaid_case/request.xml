@@ -1,10 +1,10 @@
 <!-- we can just send that ClientInquiryRequest payload and only populate last name, first name, middle name, DOB, gender and SSN -->
 <tns:ClientInquiryRequest xmlns:tns="http://xmlns.dhs.dc.gov/DCAS/ESB/ACDService/V1">
-<tns:RequestNumber>ACEDS|12312|231</tns:RequestNumber>
+<tns:RequestNumber></tns:RequestNumber>
 <tns:ACEDS_CONDITION-CODE/>
 <tns:ACEDS_CONDITION-DESC/>
-<tns:ACEDS_USER-ID>james.butler6</tns:ACEDS_USER-ID>
-<tns:ACEDS_CLIENT-NUMBER-I>0</tns:ACEDS_CLIENT-NUMBER-I>
+<tns:ACEDS_USER-ID></tns:ACEDS_USER-ID>
+<tns:ACEDS_CLIENT-NUMBER-I></tns:ACEDS_CLIENT-NUMBER-I>
 <tns:ACEDS_LAST-NAME-I>Garcia</tns:ACEDS_LAST-NAME-I>
 <tns:ACEDS_FIRST-NAME-I>Mikey</tns:ACEDS_FIRST-NAME-I>
 <tns:ACEDS_MIDDLE-NAME-I/>
@@ -21,7 +21,7 @@
 <tns:ACEDS_CITIZENSHIP-VERIF-O/>
 <tns:ACEDS_RACE-O/>
 <tns:ACEDS_ETHNIC-CLASS-O/>
-<tns:ACEDS_CLIENT-NUMBER-O>0</tns:ACEDS_CLIENT-NUMBER-O>
+<tns:ACEDS_CLIENT-NUMBER-O></tns:ACEDS_CLIENT-NUMBER-O>
 <tns:ACEDS_MEDICAID-ARRAY>
 <tns:string/>
 </tns:ACEDS_MEDICAID-ARRAY>
