@@ -1,4 +1,4 @@
-<!-- we can just send that ClientInquiryRequest payload and only populate last name, first name, middle name, DOB, gender and SSN -->
+<!-- we can just send that ClientInquiryRequest payload and only populate last name, first name, DOB, and SSN -->
 <tns:ClientInquiryRequest xmlns:tns="http://xmlns.dhs.dc.gov/DCAS/ESB/ACDService/V1">
 <tns:RequestNumber></tns:RequestNumber>
 <tns:ACEDS_CONDITION-CODE/>
