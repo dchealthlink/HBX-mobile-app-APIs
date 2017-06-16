@@ -46,8 +46,11 @@ via HATEOAS:
 
 Entry points: 
    * [hostname]/sign-up
-      * Parameters:
+      * Parameters (POST only):
        	* username - User Name
         * password - Password
         * token - encrypted token returned by the call to the Enroll RIDP endpoint
         * ssn - Social Security Number
+        * first_name - First Name
+        * last_name - Last Name
+        * date_of_birth - Date of Birth (MM/DD/YYYY)

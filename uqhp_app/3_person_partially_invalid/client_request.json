@@ -31,7 +31,6 @@
       "gender": "M",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
-      "ismedicareentitled": "N",
       "isincarcerated": "N",
       "isstateresident": "Y",
       "isuscitizen": "Y",
@@ -59,7 +58,6 @@
       "gender": "M",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
-      "ismedicareentitled": "N",
       "isincarcerated": "N",
       "isstateresident": "Y",
       "isuscitizen": "Y",
@@ -87,7 +85,6 @@
       "gender": "M",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
-      "ismedicareentitled": "N",
       "isincarcerated": "N",
       "isstateresident": "Y",
       "isuscitizen": "Y",
@@ -96,25 +93,16 @@
   ],
   "Relationship": [
     {
-      "applicationrelationship": "spouse",
-      "physicalhousehold": "Y",
-      "taxhousehold": "Y",
-      "isjointfilespouse": "Y"
+      "applicationrelationship": "spouse"
     },
     {
-      "applicationrelationship": "parent",
-      "physicalhousehold": "Y",
-      "taxhousehold": "Y"
+      "applicationrelationship": "parent"
     },
     {
-      "applicationrelationship": "parent",
-      "physicalhousehold": "Y",
-      "taxhousehold": "Y"
+      "applicationrelationship": "parent"
     }
   ],
   "Attestation": {
-    "medicaidauth": "Y",
-    "renewalauth": "Y",
     "submitauth": "Y"
   }
 }
