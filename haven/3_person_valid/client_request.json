@@ -17,6 +17,11 @@
           "insurancetype": "peco",
           "startdate": "2017-01-01",
           "enddate": "2017-12-31"
+        },
+        {
+          "insurancetype": "esi",
+          "startdate": "2018-01-01",
+          "enddate": "2018-12-31"
         }
       ],
       "Income": [
