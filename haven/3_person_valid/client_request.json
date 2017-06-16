@@ -107,7 +107,8 @@
       "firstName": "Tina",
       "middleName": null,
       "lastName": "Jones",
-      "dateOfBirth": "1979-01-01",      "isinsured": "N",
+      "dateOfBirth": "1979-01-01",
+      "isinsured": "N",
       "isotherclaimed": "N",
       "istaxrequired": "Y",
       "citizen_status": "US"
