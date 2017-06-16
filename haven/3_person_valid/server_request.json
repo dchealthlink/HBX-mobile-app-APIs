@@ -31,6 +31,13 @@
           "enddate": "2017-12-31"
         }
       ],
+      "ESI": [
+        {
+          "insurancetype": "esi",
+          "startdate": "2018-01-01",
+          "enddate": "2018-12-31"
+        }
+      ],
       "Income": [
         {
           "incometype": "wages",
