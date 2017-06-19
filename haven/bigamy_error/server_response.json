@@ -1,0 +1,12 @@
+{
+  "eaid": "636592130550297",
+  "error": {
+    "type": "InvalidApplicantRelationshipError",
+    "source_eapersonid": "738490293849598",
+    "target_eapersonids": [
+      "738490293892835",
+      "738490293873810"
+    ],
+    "message": "Jonathan Bate has listed Regina Bate and Eric Bate as spouses. An individual may only list one spouse."
+  }
+}
