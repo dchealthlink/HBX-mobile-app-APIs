@@ -1,13 +1,4 @@
 {
-  "eaid": "636592130550297",
-  "statecd": "DC",
-  "appyear": "2017",
-  "name": "00001-170206-1",
-  "status": "Pending",
-  "applicantType": "user and/or family",
-  "motivationtype": "MT26301",
-  "applicationsource": "electronic",
-  "determinationtype": "mobile-internal",
   "Person": [
     {
       "eapersonid": "0030",
@@ -77,7 +68,11 @@
       "isstateresident": "Y",
       "islast3pregnant": "N",
       "isformerfoster": "N",
-      "isuscitizen": "Y",
+      "isuscitizen": "N",
+      "lawfullypresent": "Y",
+      "documentType": "certOfNatDocumentID",
+      "alienNumber": "3333333",
+      "naturalizationNumber": "97364891872",
       "isinsured": "N",
       "citizen_status": "US",
       "istaxrequired": "Y",
@@ -743,6 +738,15 @@
     }
   ],
   "Attestation": {
+    "eaid": "636592130550297",
+    "statecd": "DC",
+    "appyear": "2017",
+    "name": "00001-170206-1",
+    "status": "Pending",
+    "applicantType": "user and/or family",
+    "motivationtype": "MT26301",
+    "applicationsource": "electronic",
+    "determinationtype": "mobile-internal",
     "medicaidauth": "Y",
     "renewalauth": "Y",
     "submitauth": "Y"

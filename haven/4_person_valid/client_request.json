@@ -1,13 +1,4 @@
 {
-  "eaid": "876544930278003",
-  "statecd": "DC",
-  "appyear": "2017",
-  "name": "SAMPLE-HAVEN-APPLICATION",
-  "status": "Pending",
-  "applicanttype": "user and-or family",
-  "motivationtype": "MT26301",
-  "applicationsource": "electronic",
-  "determinationtype": "mobile-internal",
   "Person": [
     {
       "eapersonid": "857483902983748",
@@ -81,7 +72,14 @@
       "isstateresident": "Y",
       "islast3pregnant": "N",
       "isformerfoster": "N",
-      "isuscitizen": "Y",
+      "isuscitizen": "N",
+      "lawfullypresent": "Y",
+      "documenttype": "unexpForeignPassportDocumentID",
+      "I94Number": "12349876198",
+      "passportNumber": "73649862",
+      "countryOfIssuance": "GBR",
+      "SEVISID": "6789234987",
+      "docExpirationDate": "12/31/2016",
       "isinsured": "N",
       "istaxrequired": "Y",
       "isotherclaimed": "N",
@@ -220,6 +218,15 @@
     }
   ],
   "Attestation": {
+    "eaid": "876544930278003",
+    "statecd": "DC",
+    "appyear": "2017",
+    "name": "SAMPLE-HAVEN-APPLICATION",
+    "status": "Pending",
+    "applicanttype": "user and-or family",
+    "motivationtype": "MT26301",
+    "applicationsource": "electronic",
+    "determinationtype": "mobile-internal",
     "medicaidauth": "Y",
     "renewalauth": "Y",
     "submitauth": "Y"
