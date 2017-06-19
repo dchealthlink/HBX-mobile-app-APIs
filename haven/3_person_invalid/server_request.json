@@ -34,8 +34,6 @@
       "isinsured": "N",
       "citizen_status": "US",
       "istaxrequired": "Y",
-      "ismarried": "Y",
-      "isfilingjointly": "Y",
       "isotherclaimed": "N",
       "Address": [
         {
@@ -85,8 +83,6 @@
       "isinsured": "N",
       "citizen_status": "US",
       "istaxrequired": "Y",
-      "ismarried": "Y",
-      "isfilingjointly": "Y",
       "isotherclaimed": "N",
       "Address": [
         {
@@ -136,7 +132,6 @@
       "isinsured": "N",
       "citizen_status": "US",
       "istaxrequired": "N",
-      "ismarried": "N",
       "isotherclaimed": "Y",
       "Address": [
         {

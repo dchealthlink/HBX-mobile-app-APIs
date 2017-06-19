@@ -21,6 +21,8 @@
       "isuscitizen": "Y",
       "isinsured": "N",
       "citizen_status": "US",
+      "istaxrequired": "Y",
+      "isotherclaimed": "N",
       "Address": [
         {
           "addresstype": "home",
@@ -45,10 +47,7 @@
           "paymentfrequency": "12",
           "incomeamount": "500"
         }
-      ],
-      "istaxrequired": "Y",
-      "isfilingjointly": "Y",
-      "isotherclaimed": "N"
+      ]      
     },
     {
       "eapersonid": "0031",
@@ -76,8 +75,6 @@
       "isinsured": "N",
       "citizen_status": "US",
       "istaxrequired": "Y",
-      "ismarried": "Y",
-      "isfilingjointly": "Y",
       "isotherclaimed": "N",
       "Address": [
         {
@@ -127,8 +124,6 @@
       "isinsured": "N",
       "citizen_status": "US",
       "istaxrequired": "Y",
-      "ismarried": "Y",
-      "isfilingjointly": "Y",
       "isotherclaimed": "N",
       "Address": [
         {
@@ -178,8 +173,6 @@
       "isinsured": "N",
       "citizen_status": "US",
       "istaxrequired": "Y",
-      "ismarried": "Y",
-      "isfilingjointly": "Y",
       "isotherclaimed": "N",
       "Address": [
         {
@@ -229,7 +222,6 @@
       "isinsured": "N",
       "citizen_status": "US",
       "istaxrequired": "Y",
-      "ismarried": "N",
       "isotherclaimed": "N",
       "Address": [
         {
@@ -279,7 +271,6 @@
       "isinsured": "N",
       "citizen_status": "US",
       "istaxrequired": "N",
-      "ismarried": "N",
       "isotherclaimed": "Y",
       "Address": [
         {
@@ -329,7 +320,6 @@
       "isinsured": "N",
       "citizen_status": "US",
       "istaxrequired": "Y",
-      "ismarried": "N",
       "isotherclaimed": "N",
       "Address": [
         {
@@ -379,7 +369,6 @@
       "isinsured": "N",
       "citizen_status": "US",
       "istaxrequired": "N",
-      "ismarried": "N",
       "isotherclaimed": "Y",
       "Address": [
         {
@@ -429,8 +418,6 @@
       "isinsured": "N",
       "citizen_status": "US",
       "istaxrequired": "Y",
-      "ismarried": "Y",
-      "isfilingjointly": "Y",
       "isotherclaimed": "N",
       "Address": [
         {
@@ -480,8 +467,6 @@
       "isinsured": "N",
       "citizen_status": "US",
       "istaxrequired": "Y",
-      "ismarried": "Y",
-      "isfilingjointly": "Y",
       "isotherclaimed": "N",
       "Address": [
         {
@@ -513,6 +498,7 @@
   "Relationship": [
     {
       "applicationrelationship": "spouse",
+      "isjointfilespouse": "Y",
       "physicalhousehold": "Y",
       "taxhousehold": "Y"
     },
@@ -598,6 +584,7 @@
     },
     {
       "applicationrelationship": "spouse",
+      "isjointfilespouse": "Y",
       "physicalhousehold": "Y",
       "taxhousehold": "Y"
     },
