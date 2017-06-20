@@ -5,7 +5,12 @@ class SecurityData
     def iam_login_1_factor_response
       {
         'session_key': '_session_id',
-        'session_value': 'naNW3AdRYb30l8himTJBwol9JI4'
+        'session_value': 'naNW3AdRYb30l8himTJBwol9JI4',
+        'enroll_server': 'https://enroll-mobile2.dchbx.org',
+        'broker_endpoint': 'https://enroll-mobile2.dchbx.org/api/v1/mobile/broker',
+        'employer_details_endpoint': 'https://enroll-mobile2.dchbx.org/api/v1/mobile/employer/details',
+        'employee_roster_endpoint': 'https://enroll-mobile2.dchbx.org/api/v1/mobile/employees',
+        'individual_endpoint': 'https://enroll-mobile2.dchbx.org/api/v1/mobile/insured'
       }
     end
 
