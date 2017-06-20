@@ -59,13 +59,19 @@ class RidpData
               phone: '(876) 786-7867'
             }
           }
-        ]
+        ],
+        token: 'OCd1eTQLsl+y4D3EU9ke1TbHkwT/NcbURkJEIj901aW2P0bGMqcxvOlyBdKB\nnmpHLyqBvFzweKeLqWkdu3P1pIG4J6kSFBbg3tEzsLPRA4u5E3Hosskh0TEN\n/xthnL4nJ7D0divNPqU6RMT+0F8A71qcR5Q4BCH1UsJyHce5BHeU6aR1Vrwi\nWpMjw4u0xUC2QKN9vn5x+W+3y5GgpS20YdojuIShs9PkN8O3I4zIKwSa5JBM\nYfLDD755tVn76dmYF7zXlVHaVLQR/aSwhAlz0PPc2pGuMXWt32F1JpdVLPAm\noIg5W+6fWn5jQVMquszMM7wM1F2H+ywjd6CAKngcGA==\n'
       }
     end
 
     def answer_questions
       {
-        'ssn': '121233211',
+        'person': {
+          'ssn': '121233212',
+          'first_name': 'LorenSon',
+          'last_name': 'Dimallo',
+          'birth_date': '20100305'
+        },
         'session_id': 'AB783917E63E4CA345448C600928D632.pidd1v-1304180857460210166972210',
         'transaction_id': 'c5f1-52-3a57',
         'question_response': [
