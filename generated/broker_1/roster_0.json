@@ -25,7 +25,7 @@
       ],
       "enrollments": [
         {
-          "start_on": "2016-07-01",
+          "start_on": "2016-08-01",
           "health": {
             "status": "Terminated",
             "employer_contribution": 0.0,
@@ -35,13 +35,13 @@
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
-            "terminated_on": "2017-06-12",
+            "terminated_on": "2017-06-19",
             "terminate_reason": " I have coverage through an individual market health plan "
           },
           "dental": null
         },
         {
-          "start_on": "2017-07-01",
+          "start_on": "2017-08-01",
           "health": {
             "status": "Not Enrolled"
           },
@@ -93,14 +93,14 @@
       ],
       "enrollments": [
         {
-          "start_on": "2016-07-01",
+          "start_on": "2016-08-01",
           "health": {
             "status": "Not Enrolled"
           },
           "dental": null
         },
         {
-          "start_on": "2017-07-01",
+          "start_on": "2017-08-01",
           "health": {
             "status": "Enrolled",
             "employer_contribution": 770.0,
@@ -159,7 +159,7 @@
       ],
       "enrollments": [
         {
-          "start_on": "2016-07-01",
+          "start_on": "2016-08-01",
           "health": {
             "status": "Enrolled",
             "employer_contribution": 770.0,
@@ -182,7 +182,7 @@
           }
         },
         {
-          "start_on": "2017-07-01",
+          "start_on": "2017-08-01",
           "health": {
             "status": "Waived",
             "employer_contribution": 0.0,
@@ -226,7 +226,7 @@
       ],
       "enrollments": [
         {
-          "start_on": "2016-07-01",
+          "start_on": "2016-08-01",
           "health": {
             "status": "Waived",
             "employer_contribution": 0.0,
@@ -242,7 +242,7 @@
           }
         },
         {
-          "start_on": "2017-07-01",
+          "start_on": "2017-08-01",
           "health": {
             "status": "Terminated",
             "employer_contribution": 0.0,
@@ -252,7 +252,7 @@
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
-            "terminated_on": "2017-06-12",
+            "terminated_on": "2017-06-19",
             "terminate_reason": " I have coverage through an individual market health plan "
           },
           "dental": null
@@ -294,7 +294,7 @@
       ],
       "enrollments": [
         {
-          "start_on": "2016-07-01",
+          "start_on": "2016-08-01",
           "health": {
             "status": "Terminated",
             "employer_contribution": 0.0,
@@ -304,13 +304,13 @@
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
-            "terminated_on": "2017-06-12",
+            "terminated_on": "2017-06-19",
             "terminate_reason": " I have coverage through an individual market health plan "
           },
           "dental": null
         },
         {
-          "start_on": "2017-07-01",
+          "start_on": "2017-08-01",
           "health": {
             "status": "Not Enrolled"
           },
