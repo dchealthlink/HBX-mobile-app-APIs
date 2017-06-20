@@ -18,6 +18,7 @@ class Scenarios < BaseUtil
   RIDP_FOUND_IN_ROSTER = 'ridp_person_found_in_enroll_roster'
   RIDP_NEW_SIGNUP = 'ridp_new_signup'
   SIGN_IN = 'sign_in'
+  USER_EXISTENCE = 'user_existence'
 
   class << self
 
@@ -135,6 +136,13 @@ class Scenarios < BaseUtil
       end
     end
 
+    def create_check_user_existence
+      user_existence_util USER_EXISTENCE do |util|
+        write_json util.create_response, util
+        create_base_user_existence util, USER_EXISTENCE
+      end
+    end
+
     def create_iam_login_response
       security_util SIGN_IN do |security_util|
         write_json security_util.create_iam_2_factor_login, security_util
@@ -146,6 +154,10 @@ class Scenarios < BaseUtil
     # Private
     #
     private
+
+    def create_base_user_existence ridp_util, directory
+      write_json ridp_util.create_post_body, nil, "#{$ROOT_DIRECTORY}/#{directory}", 'post_request.json'
+    end
 
     def create_base_ridp ridp_util, directory
       write_json ridp_util.create_questions, nil, "#{$ROOT_DIRECTORY}/#{directory}", 'verify_identity_questions.json'
