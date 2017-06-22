@@ -77,7 +77,7 @@
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
       "isincarcerated": "N",
-      "isstateresident": "Y",
+      "isstateresident": "N",
       "isuscitizen": "Y",
       "citizen_status": "US"
     }
