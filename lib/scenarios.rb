@@ -18,6 +18,7 @@ class Scenarios < BaseUtil
   RIDP_FOUND_IN_ROSTER = 'ridp_person_found_in_enroll_roster'
   RIDP_NEW_SIGNUP = 'ridp_new_signup'
   SIGN_IN = 'sign_in'
+  USER_EXISTENCE = 'user_existence'
 
   class << self
 
@@ -114,24 +115,31 @@ class Scenarios < BaseUtil
       end
     end
 
-    def create_enroll_account_already_exists
+    def create_ridp_enroll_account_already_exists
       ridp_util RIDP_ENROLL_ACCOUNT_EXISTS do |ridp_util|
         write_json ridp_util.create_user_exists_in_enroll_IVL, ridp_util
         create_base_ridp ridp_util, RIDP_ENROLL_ACCOUNT_EXISTS
       end
     end
 
-    def create_person_found_in_enroll_roster
+    def create_ridp_person_found_in_enroll_roster
       ridp_util RIDP_FOUND_IN_ROSTER do |ridp_util|
         write_json ridp_util.create_user_exists_in_enroll_SHOP, ridp_util
         create_base_ridp ridp_util, RIDP_FOUND_IN_ROSTER
       end
     end
 
-    def create_new_signup
+    def create_ridp_new_signup
       ridp_util RIDP_NEW_SIGNUP do |ridp_util|
         write_json ridp_util.create_user_not_in_enroll, ridp_util
         create_base_ridp ridp_util, RIDP_NEW_SIGNUP
+      end
+    end
+
+    def create_check_user_existence
+      user_existence_util USER_EXISTENCE do |util|
+        write_json util.create_response, util
+        create_base_user_existence util, USER_EXISTENCE
       end
     end
 
@@ -146,6 +154,10 @@ class Scenarios < BaseUtil
     # Private
     #
     private
+
+    def create_base_user_existence ridp_util, directory
+      write_json ridp_util.create_post_body, nil, "#{$ROOT_DIRECTORY}/#{directory}", 'post_request.json'
+    end
 
     def create_base_ridp ridp_util, directory
       write_json ridp_util.create_questions, nil, "#{$ROOT_DIRECTORY}/#{directory}", 'verify_identity_questions.json'

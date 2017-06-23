@@ -110,14 +110,14 @@ module PlanBuilderData
   def create_bluecross_health name, num_members, **args
     create_plan name, num_members, args.merge(
       rx_formulary_url: 'https://carefirst.com/acarx',
-      carrier_logo_image_url: 'https://enroll.dchealthlink.com/assets/logo/carrier/carefirst-d56435a500caeb412087891f47dee91d.jpg')
+      carrier_logo_image_url: '/assets/logo/carrier/carefirst-d56435a500caeb412087891f47dee91d.jpg')
   end
 
   def create_kaiser_health name, num_members, **args
     create_plan name, num_members, args.merge(
       provider_directory_url: 'http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor',
       rx_formulary_url: 'https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf',
-      carrier_logo_image_url: 'https://enroll.dchealthlink.com/assets/logo/carrier/kaiser-63900cee003506c33dc3eff1fa8e94d2.jpg')
+      carrier_logo_image_url: '/assets/logo/carrier/kaiser-63900cee003506c33dc3eff1fa8e94d2.jpg')
   end
 
   def create_plan name, num_members,
