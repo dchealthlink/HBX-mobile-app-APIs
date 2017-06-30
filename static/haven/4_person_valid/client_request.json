@@ -187,33 +187,27 @@
   "Relationship": [
     {
       "applicationrelationship": "spouse",
-      "physicalhousehold": "Y",
       "taxhousehold": "Y",
       "isjointfilespouse": "Y"
     },
     {
       "applicationrelationship": "parent",
-      "physicalhousehold": "Y",
       "taxhousehold": "Y"
     },
     {
       "applicationrelationship": "child",
-      "physicalhousehold": "Y",
       "taxhousehold": "Y"
     },
     {
       "applicationrelationship": "parent",
-      "physicalhousehold": "Y",
       "taxhousehold": "Y"
     },
     {
       "applicationrelationship": "other",
-      "physicalhousehold": "Y",
       "taxhousehold": "Y"
     },
     {
       "applicationrelationship": "grandchild",
-      "physicalhousehold": "Y",
       "taxhousehold": "Y"
     }
   ],

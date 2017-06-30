@@ -124,8 +124,8 @@
       "Address": [
         {
           "addresstype": "home",
-          "streetaddress1": "101 H St",
-          "streetaddress2": "apt 1",
+          "streetaddress1": "9904 Foxborough Lane",
+          "streetaddress2": "-",
           "city": "Washington",
           "statecd": "DC",
           "postalcode": "20001",
@@ -152,17 +152,14 @@
     {
       "applicationrelationship": "spouse",
       "isjointfilespouse": "Y",
-      "physicalhousehold": "Y",
       "taxhousehold": "Y"
     },
     {
       "applicationrelationship": "parent",
-      "physicalhousehold": "N",
       "taxhousehold": "Y"
     },
     {
       "applicationrelationship": "parent",
-      "physicalhousehold": "Y",
       "taxhousehold": "Y"
     }
   ],

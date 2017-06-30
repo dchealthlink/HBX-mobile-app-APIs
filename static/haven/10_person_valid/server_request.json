@@ -140,8 +140,8 @@
       "Address": [
         {
           "addresstype": "home",
-          "streetaddress1": "101 H St",
-          "streetaddress2": "apt 1",
+          "streetaddress1": "9904 Foxborough Lane",
+          "streetaddress2": "-",
           "city": "Washington",
           "statecd": "DC",
           "postalcode": "20001",
@@ -189,8 +189,8 @@
       "Address": [
         {
           "addresstype": "home",
-          "streetaddress1": "101 H St",
-          "streetaddress2": "apt 1",
+          "streetaddress1": "9904 Foxborough Lane",
+          "streetaddress2": "-",
           "city": "Washington",
           "statecd": "DC",
           "postalcode": "20001",
@@ -336,8 +336,8 @@
       "Address": [
         {
           "addresstype": "home",
-          "streetaddress1": "101 H St",
-          "streetaddress2": "apt 1",
+          "streetaddress1": "270 Red Street",
+          "streetaddress2": "apt 4H",
           "city": "Washington",
           "statecd": "DC",
           "postalcode": "20001",
@@ -434,7 +434,7 @@
       "Address": [
         {
           "addresstype": "home",
-          "streetaddress1": "101 H St",
+          "streetaddress1": "245 W 14th St",
           "streetaddress2": "apt 1",
           "city": "Washington",
           "statecd": "DC",
@@ -483,8 +483,8 @@
       "Address": [
         {
           "addresstype": "home",
-          "streetaddress1": "101 H St",
-          "streetaddress2": "apt 1",
+          "streetaddress1": "405 Cute St",
+          "streetaddress2": "-",
           "city": "Washington",
           "statecd": "DC",
           "postalcode": "20001",

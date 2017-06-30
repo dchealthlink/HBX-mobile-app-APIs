@@ -201,32 +201,26 @@
     {
       "applicationrelationship": "spouse",
       "isjointfilespouse": "Y",
-      "physicalhousehold": "Y",
       "taxhousehold": "Y"
     },
     {
       "applicationrelationship": "parent",
-      "physicalhousehold": "Y",
       "taxhousehold": "Y"
     },
     {
       "applicationrelationship": "parent",
-      "physicalhousehold": "Y",
       "taxhousehold": "Y"
     },
     {
       "applicationrelationship": "parent",
-      "physicalhousehold": "Y",
       "taxhousehold": "Y"
     },
     {
       "applicationrelationship": "parent",
-      "physicalhousehold": "Y",
       "taxhousehold": "Y"
     },
     {
       "applicationrelationship": "parent",
-      "physicalhousehold": "Y",
       "taxhousehold": "Y"
     }
   ],

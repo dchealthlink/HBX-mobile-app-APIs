@@ -151,17 +151,14 @@
   "Relationship": [
     {
       "applicationrelationship": "parent",
-      "physicalhousehold": "Y",
       "taxhousehold": "Y"
     },
     {
       "applicationrelationship": "child",
-      "physicalhousehold": "Y",
       "taxhousehold": "Y"
     },
     {
       "applicationrelationship": "parent",
-      "physicalhousehold": "Y",
       "taxhousehold": "Y"
     }
   ],

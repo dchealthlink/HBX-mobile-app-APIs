@@ -254,52 +254,42 @@
   "Relationship": [
     {
       "applicationrelationship": "spouse",
-      "physicalhousehold": "Y",
       "taxhousehold": "Y"
     },
     {
       "applicationrelationship": "parent",
-      "physicalhousehold": "Y",
       "taxhousehold": "Y"
     },
     {
       "applicationrelationship": "parent",
-      "physicalhousehold": "Y",
       "taxhousehold": "Y"
     },
     {
       "applicationrelationship": "parent",
-      "physicalhousehold": "N",
       "taxhousehold": "N"
     },
     {
       "applicationrelationship": "parent",
-      "physicalhousehold": "Y",
       "taxhousehold": "Y"
     },
     {
       "applicationrelationship": "parent",
-      "physicalhousehold": "Y",
       "taxhousehold": "Y"
     },
     {
       "applicationrelationship": "parent",
-      "physicalhousehold": "N",
       "taxhousehold": "N"
     },
     {
       "applicationrelationship": "siblingStepsibling",
-      "physicalhousehold": "Y",
       "taxhousehold": "Y"
     },
     {
       "applicationrelationship": "siblingStepsibling",
-      "physicalhousehold": "N",
       "taxhousehold": "N"
     },
     {
       "applicationrelationship": "siblingStepsibling",
-      "physicalhousehold": "N",
       "taxhousehold": "N"
     }
   ],
