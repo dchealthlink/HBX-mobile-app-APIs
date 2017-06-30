@@ -1,0 +1,162 @@
+{
+  "Person": [
+    {
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ],
+      "eapersonid": "849588384759",
+      "isapplicant": "Y",
+      "personfirstname": "Goneril",
+      "personlastname": "Windsor",
+      "persondob": "1975-01-01",
+      "isssntrue": "Y",
+      "personssn": "197501010",
+      "gender": "F",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "personresidencystatus": "dcfixedaddress",
+      "isstateresident": "Y",
+      "istempoos": "N",
+      "nofixedaddress": "N",
+      "isuscitizen": "Y",
+      "citizen_status": "US"
+    },
+    {
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "9909 Foxborough Circle",
+          "streetaddress2": "-",
+          "city": "Rockville",
+          "statecd": "MD",
+          "postalcode": "20850",
+          "preferredaddress": "Y"
+        }
+      ],
+      "eapersonid": "849588389839",
+      "isapplicant": "Y",
+      "personfirstname": "Regan",
+      "personlastname": "Windsor",
+      "persondob": "1979-01-01",
+      "isssntrue": "Y",
+      "personssn": "197901010",
+      "gender": "F",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "personresidencystatus": "tempoos",
+      "isstateresident": "Y",
+      "istempoos": "Y",
+      "nofixedaddress": "N",
+      "isuscitizen": "Y",
+      "citizen_status": "US"
+    },
+    {
+      "Address": [
+        {
+          "addresstype": "mail",
+          "streetaddress1": "PO Box 104",
+          "streetaddress2": "Planetarium Station",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ],
+      "eapersonid": "935588389839",
+      "isapplicant": "Y",
+      "personfirstname": "Cordelia",
+      "personlastname": "Windsor",
+      "persondob": "2000-01-01",
+      "isssntrue": "Y",
+      "personssn": "200001010",
+      "gender": "F",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "personresidencystatus": "homelessresident",
+      "isstateresident": "Y",
+      "istempoos": "N",
+      "nofixedaddress": "Y",
+      "isuscitizen": "Y",
+      "citizen_status": "US"
+    },
+    {
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ],
+      "eapersonid": "475893827364",
+      "isapplicant": "Y",
+      "personfirstname": "Edmund",
+      "personlastname": "Gloucester",
+      "persondob": "1980-02-28",
+      "isssntrue": "Y",
+      "personssn": "197501010",
+      "gender": "M",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "personresidencystatus": "dcfixedaddress",
+      "isstateresident": "Y",
+      "istempoos": "N",
+      "nofixedaddress": "N",
+      "isuscitizen": "Y",
+      "citizen_status": "US"
+    }
+  ],
+  "Relationship": [
+    {
+      "applicationrelationship": "sibling/Stepsibling"
+    },
+    {
+      "applicationrelationship": "sibling/Stepsibling"
+    },
+    {
+      "applicationrelationship": "spouse"
+    },
+    {
+      "applicationrelationship": "sibling/Stepsibling"
+    },
+    {
+      "applicationrelationship": "other"
+    },
+    {
+      "applicationrelationship": "other"
+    }
+  ],
+  "Attestation": {
+    "eaid": "876544930279033",
+    "statecd": "DC",
+    "appyear": "2017",
+    "name": "SAMPLE-HAVEN-APPLICATION",
+    "status": "Pending",
+    "applicanttype": "user and-or family",
+    "motivationtype": "MT26301",
+    "applicationsource": "electronic",
+    "determinationtype": "mobile-internal",
+    "medicaidauth": "Y",
+    "renewalauth": "Y",
+    "submitauth": "Y"
+  }
+}
