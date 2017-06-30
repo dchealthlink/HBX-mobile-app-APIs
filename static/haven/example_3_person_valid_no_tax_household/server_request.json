@@ -1,0 +1,170 @@
+{
+  "eaid": "636592130550297",
+  "statecd": "DC",
+  "appyear": "2017",
+  "name": "00001-170206-1",
+  "status": "Pending",
+  "applicantType": "user and/or family",
+  "motivationtype": "MT26301",
+  "applicationsource": "electronic",
+  "determinationtype": "mobile-internal",
+  "medicaidauth": "Y",
+  "renewalauth": "Y",
+  "submitauth": "Y",
+  "Person": [
+    {
+      "eapersonid": "1789278390",
+      "personfirstname": "Daniel",
+      "personlastname": "Ackroyd",
+      "isapplicant": "Y",
+      "persondob": "1950-08-08",
+      "isssntrue": "Y",
+      "personssn": "196908081",
+      "gender": "M",
+      "preferredcontactmethod": "email",
+      "preferredlanguage": "english",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "istempoos": "N",
+      "nofixedaddress": "N",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "citizen_status": "US",
+      "istaxrequired": "Y",
+      "isotherclaimed": "N",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 H St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "y"
+        }
+      ]
+    },
+    {
+      "eapersonid": "0192873645",
+      "personfirstname": "Roger",
+      "personlastname": "Ackroyd",
+      "isapplicant": "Y",
+      "persondob": "1975-09-09",
+      "isssntrue": "Y",
+      "personssn": "197109091",
+      "gender": "M",
+      "preferredcontactmethod": "email",
+      "preferredlanguage": "english",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "istempoos": "N",
+      "nofixedaddress": "N",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "citizen_status": "US",
+      "istaxrequired": "Y",
+      "isotherclaimed": "N",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 H St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "y"
+        }
+      ],
+    },
+    {
+      "eapersonid": "3647859827",
+      "personfirstname": "Gilda",
+      "personlastname": "Ackroyd",
+      "isapplicant": "Y",
+      "persondob": "1952-09-09",
+      "isssntrue": "Y",
+      "personssn": "197109091",
+      "gender": "F",
+      "preferredcontactmethod": "email",
+      "preferredlanguage": "english",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "istempoos": "N",
+      "nofixedaddress": "N",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "citizen_status": "US",
+      "istaxrequired": "N",
+      "isotherclaimed": "N",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 H St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "y"
+        }
+      ],
+    }
+  ],
+  "ApplicationRelationship": [
+    {
+      "eapersonid": "1789278390",
+      "relationship": "parent",
+      "cross_eapersonid": "0192873645",
+    },
+    {
+      "eapersonid": "1789278390",
+      "relationship": "spouse",
+      "cross_eapersonid": "3647859827",
+    },
+    {
+      "eapersonid": "0192873645",
+      "relationship": "child",
+      "cross_eapersonid": "3647859827",
+    }
+  ],
+  "PhysicalHousehold": [
+    {
+      "householdid": "household1",
+      "eapersonid": "1789278390"
+    },
+    {
+      "householdid": "household1",
+      "eapersonid": "0192873645"
+    },
+    {
+      "householdid": "household1",
+      "eapersonid": "3647859827",
+    }
+  ],
+  "TaxHousehold": [
+    {
+      "tax_no": "1",
+      "eapersonid": "1789278390",
+      "filer_type": "Filers"
+    },
+    {
+      "tax_no": "1",
+      "eapersonid": "0192873645",
+      "filer_type": "Filers"
+    }
+  ]
+}

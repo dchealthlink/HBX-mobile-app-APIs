@@ -1,5 +1,7 @@
+// these JSON became no longer invalid when requirements for "physicalhousehold" changed
+// so I have changed them to being invalidated on their values for "taxhousehold"
 {
-  "eaid": "636592130550297",
+  "eaid": "938920192837465",
   "statecd": "DC",
   "appyear": "2017",
   "name": "00001-170206-1",
@@ -33,7 +35,7 @@
       "isuscitizen": "Y",
       "isinsured": "N",
       "citizen_status": "US",
-      "istaxrequired": "Y",
+      "istaxrequired": "N",
       "isotherclaimed": "N",
       "Address": [
         {
@@ -46,9 +48,9 @@
           "preferredaddress": "y"
         }
       ],
-      "nonESI": [
+      "Insurance": [
         {
-          "insurancetype": "cobra",
+          "insurancetype": "esi",
           "startdate": "2017-01-01",
           "enddate": "2017-12-31"
         }
@@ -95,9 +97,9 @@
           "preferredaddress": "y"
         }
       ],
-      "nonESI": [
+      "Insurance": [
         {
-          "insurancetype": "cobra",
+          "insurancetype": "esi",
           "startdate": "2017-01-01",
           "enddate": "2017-12-31"
         }
@@ -144,7 +146,7 @@
           "preferredaddress": "y"
         }
       ],
-      "nonESI": [
+      "Insurance": [
         {
           "insurancetype": "cobra",
           "startdate": "2017-01-01",
