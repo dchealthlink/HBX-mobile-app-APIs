@@ -1,0 +1,9 @@
+{
+    "enroll_server": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/ridp_enroll_account_already_exists/",
+    "plan_endpoint": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/plans_for_family_receiving_csr/plans.json",
+    "verify_identity_endpoint": "verify_identity_questions.json",
+    "verify_identity_answers_endpoint": "verify_identity.json",
+    "local_sign_up_endpoint": "https://hbx-mobile2-preprod.dchbx.org/sign-up",
+    "local_login_endpoint": "https://hbx-mobile2-preprod.dchbx.org/login",
+    "local_logout_endpoint": "https://hbx-mobile2-preprod.dchbx.org/logout"
+}
