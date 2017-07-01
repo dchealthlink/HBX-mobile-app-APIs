@@ -22,9 +22,10 @@
       "gender": "M",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
-      "ismedicareentitled": "N",
       "isincarcerated": "N",
       "isstateresident": "Y",
+      "istempoos": "N",
+      "nofixedaddress": "N",
       "isuscitizen": "Y",
       "citizen_status": "US"
     },
@@ -50,9 +51,10 @@
       "gender": "M",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
-      "ismedicareentitled": "N",
       "isincarcerated": "N",
       "isstateresident": "Y",
+      "istempoos": "N",
+      "nofixedaddress": "N",
       "isuscitizen": "Y",
       "citizen_status": "US"
     },
@@ -62,8 +64,8 @@
           "addresstype": "home",
           "streetaddress1": "101 Great Jones St",
           "streetaddress2": "apt 1",
-          "city": "Washington",
-          "statecd": "DC",
+          "city": "Richmond",
+          "statecd": "VA",
           "postalcode": "20001",
           "preferredaddress": "Y"
         }
@@ -78,9 +80,10 @@
       "gender": "M",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
-      "ismedicareentitled": "N",
       "isincarcerated": "N",
-      "isstateresident": "Y",
+      "isstateresident": "N",
+      "istempoos": "N",
+      "nofixedaddress": "N",
       "isuscitizen": "Y",
       "citizen_status": "US"
     }
@@ -106,8 +109,6 @@
     "motivationtype": "MT26301",
     "applicationsource": "electronic",
     "determinationtype": "mobile-internal",
-    "medicaidauth": "Y",
-    "renewalauth": "Y",
     "submitauth": "Y"
   }
 }

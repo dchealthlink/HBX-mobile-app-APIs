@@ -1,16 +1,4 @@
 {
-  "eaid": "636592130550297",
-  "statecd": "DC",
-  "appyear": "2017",
-  "name": "00001-170206-1",
-  "status": "Pending",
-  "applicantType": "user and/or family",
-  "motivationtype": "MT26301",
-  "applicationsource": "electronic",
-  "determinationtype": "mobile-internal",
-  "medicaidauth": "Y",
-  "renewalauth": "Y",
-  "submitauth": "Y",
   "Person": [
     {
       "eapersonid": "1789278390",
@@ -88,7 +76,7 @@
     },
     {
       "eapersonid": "3647859827",
-      "personfirstname": "Gilda",
+      "personfirstname": "Gina",
       "personlastname": "Ackroyd",
       "isapplicant": "Y",
       "persondob": "1952-09-09",
@@ -124,47 +112,33 @@
       ],
     }
   ],
-  "ApplicationRelationship": [
+  "Relationship": [
     {
-      "eapersonid": "1789278390",
-      "relationship": "parent",
-      "cross_eapersonid": "0192873645",
+      "applicationrelationship": "parent",
+      "taxhousehold": "N"
     },
     {
-      "eapersonid": "1789278390",
-      "relationship": "spouse",
-      "cross_eapersonid": "3647859827",
+      "applicationrelationship": "spouse",
+      "isjointfilespouse": "N",
+      "taxhousehold": "N"
     },
     {
-      "eapersonid": "0192873645",
-      "relationship": "child",
-      "cross_eapersonid": "3647859827",
+      "applicationrelationship": "child",
+      "taxhousehold": "N"
     }
   ],
-  "PhysicalHousehold": [
-    {
-      "householdid": "household1",
-      "eapersonid": "1789278390"
-    },
-    {
-      "householdid": "household1",
-      "eapersonid": "0192873645"
-    },
-    {
-      "householdid": "household1",
-      "eapersonid": "3647859827",
-    }
-  ],
-  "TaxHousehold": [
-    {
-      "tax_no": "1",
-      "eapersonid": "1789278390",
-      "filer_type": "Filers"
-    },
-    {
-      "tax_no": "1",
-      "eapersonid": "0192873645",
-      "filer_type": "Filers"
-    }
-  ]
+  "Attestation": {
+    "eaid": "636592130550297",
+    "statecd": "DC",
+    "appyear": "2017",
+    "name": "00001-170206-1",
+    "status": "Pending",
+    "applicantType": "user and/or family",
+    "motivationtype": "MT26301",
+    "applicationsource": "electronic",
+    "determinationtype": "mobile-internal",
+    "medicaidauth": "Y",
+    "renewalauth": "Y",
+    "submitauth": "Y"
+  }
 }

@@ -22,8 +22,11 @@
       "gender": "M",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
+      "ismedicareentitled": "N",
       "isincarcerated": "N",
       "isstateresident": "Y",
+      "istempoos": "N",
+      "nofixedaddress": "N",
       "isuscitizen": "Y",
       "citizen_status": "US"
     },
@@ -49,8 +52,11 @@
       "gender": "M",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
+      "ismedicareentitled": "N",
       "isincarcerated": "N",
       "isstateresident": "Y",
+      "istempoos": "N",
+      "nofixedaddress": "N",
       "isuscitizen": "Y",
       "citizen_status": "US"
     },
@@ -76,8 +82,11 @@
       "gender": "M",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
+      "ismedicareentitled": "N",
       "isincarcerated": "N",
-      "isstateresident": "N",
+      "isstateresident": "Y",
+      "istempoos": "N",
+      "nofixedaddress": "N",
       "isuscitizen": "Y",
       "citizen_status": "US"
     }
@@ -103,6 +112,8 @@
     "motivationtype": "MT26301",
     "applicationsource": "electronic",
     "determinationtype": "mobile-internal",
+    "medicaidauth": "Y",
+    "renewalauth": "Y",
     "submitauth": "Y"
   }
 }

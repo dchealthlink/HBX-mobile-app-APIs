@@ -1,11 +1,11 @@
-{
+  {
   "Person": [
     {
-      "eapersonid": "1789278390",
-      "personfirstname": "Daniel",
-      "personlastname": "Ackroyd",
+      "eapersonid": "0020",
+      "personfirstname": "Max",
+      "personlastname": "Clark",
       "isapplicant": "Y",
-      "persondob": "1950-08-08",
+      "persondob": "1969-08-08",
       "isssntrue": "Y",
       "personssn": "196908081",
       "gender": "M",
@@ -16,82 +16,6 @@
       "ismedicareentitled": "N",
       "isincarcerated": "N",
       "isstateresident": "Y",
-      "istempoos": "N",
-      "nofixedaddress": "N",
-      "islast3pregnant": "N",
-      "isformerfoster": "N",
-      "isuscitizen": "Y",
-      "isinsured": "N",
-      "citizen_status": "US",
-      "istaxrequired": "Y",
-      "isotherclaimed": "N",
-      "Address": [
-        {
-          "addresstype": "home",
-          "streetaddress1": "101 H St",
-          "streetaddress2": "apt 1",
-          "city": "Washington",
-          "statecd": "DC",
-          "postalcode": "20001",
-          "preferredaddress": "y"
-        }
-      ]
-    },
-    {
-      "eapersonid": "0192873645",
-      "personfirstname": "Roger",
-      "personlastname": "Ackroyd",
-      "isapplicant": "Y",
-      "persondob": "1975-09-09",
-      "isssntrue": "Y",
-      "personssn": "197109091",
-      "gender": "M",
-      "preferredcontactmethod": "email",
-      "preferredlanguage": "english",
-      "isdisabled": "N",
-      "isstudent": "N",
-      "ismedicareentitled": "N",
-      "isincarcerated": "N",
-      "isstateresident": "Y",
-      "istempoos": "N",
-      "nofixedaddress": "N",
-      "islast3pregnant": "N",
-      "isformerfoster": "N",
-      "isuscitizen": "Y",
-      "isinsured": "N",
-      "citizen_status": "US",
-      "istaxrequired": "Y",
-      "isotherclaimed": "N",
-      "Address": [
-        {
-          "addresstype": "home",
-          "streetaddress1": "101 H St",
-          "streetaddress2": "apt 1",
-          "city": "Washington",
-          "statecd": "DC",
-          "postalcode": "20001",
-          "preferredaddress": "y"
-        }
-      ],
-    },
-    {
-      "eapersonid": "3647859827",
-      "personfirstname": "Gilda",
-      "personlastname": "Ackroyd",
-      "isapplicant": "Y",
-      "persondob": "1952-09-09",
-      "isssntrue": "Y",
-      "personssn": "197109091",
-      "gender": "F",
-      "preferredcontactmethod": "email",
-      "preferredlanguage": "english",
-      "isdisabled": "N",
-      "isstudent": "N",
-      "ismedicareentitled": "N",
-      "isincarcerated": "N",
-      "isstateresident": "Y",
-      "istempoos": "N",
-      "nofixedaddress": "N",
       "islast3pregnant": "N",
       "isformerfoster": "N",
       "isuscitizen": "Y",
@@ -110,25 +34,137 @@
           "preferredaddress": "y"
         }
       ],
+      "Insurance": [
+        {
+          "insurancetype": "esi",
+          "startdate": "2017-01-01",
+          "enddate": "2017-12-31"
+        }
+      ],
+      "Income": [
+        {
+          "incometype": "wages",
+          "paymentfrequency": "12",
+          "incomeamount": "500"
+        }
+      ]
+    },
+    {
+      "eapersonid": "0021",
+      "personfirstname": "Minnie",
+      "personlastname": "Clark",
+      "isapplicant": "Y",
+      "persondob": "1971-09-09",
+      "isssntrue": "Y",
+      "personssn": "197109091",
+      "gender": "F",
+      "preferredcontactmethod": "email",
+      "preferredlanguage": "english",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "citizen_status": "US",
+      "istaxrequired": "Y",
+      "isotherclaimed": "N",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 H St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "y"
+        }
+      ],
+      "Insurance": [
+        {
+          "insurancetype": "esi",
+          "startdate": "2017-01-01",
+          "enddate": "2017-12-31"
+        }
+      ],
+      "Income": [
+        {
+          "incometype": "wages",
+          "paymentfrequency": "12",
+          "incomeamount": "500"
+        }
+      ]
+    },
+    {
+      "eapersonid": "0022",
+      "personfirstname": "Steve",
+      "personlastname": "Clark",
+      "isapplicant": "Y",
+      "persondob": "1999-07-07",
+      "isssntrue": "Y",
+      "personssn": "199907071",
+      "gender": "M",
+      "preferredcontactmethod": "email",
+      "preferredlanguage": "english",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "citizen_status": "US",
+      "istaxrequired": "N",
+      "isotherclaimed": "Y",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "9904 Foxborough Lane",
+          "streetaddress2": "-",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "y"
+        }
+      ],
+      "Insurance": [
+        {
+          "insurancetype": "cobra",
+          "startdate": "2017-01-01",
+          "enddate": "2017-12-31"
+        }
+      ],
+      "Income": [
+        {
+          "incometype": "wages",
+          "paymentfrequency": "12",
+          "incomeamount": "500"
+        }
+      ]
     }
   ],
   "Relationship": [
     {
-      "applicationrelationship": "parent",
-      "taxhousehold": "N"
-    },
-    {
       "applicationrelationship": "spouse",
-      "isjointfilespouse": "N",
-      "taxhousehold": "N"
+      "isjointfilespouse": "Y",
+      "taxhousehold": "Y"
     },
     {
-      "applicationrelationship": "child",
-      "taxhousehold": "N"
+      "applicationrelationship": "parent",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "parent",
+      "taxhousehold": "Y"
     }
   ],
   "Attestation": {
-    "eaid": "636592130550297",
+    "eaid": "938920192837465",
     "statecd": "DC",
     "appyear": "2017",
     "name": "00001-170206-1",
