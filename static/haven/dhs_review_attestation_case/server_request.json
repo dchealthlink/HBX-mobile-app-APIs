@@ -9,7 +9,7 @@
   "applicationsource": "electronic",
   "determinationtype": "mobile-internal",
   "medicaidauth": "Y",
-  "medicaiddhsreviewauth": "Y",
+  "medicaiddhsreviewauth": "N",
   "renewalauth": "Y",
   "submitauth": "Y",
   "Person": [

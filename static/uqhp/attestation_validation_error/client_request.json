@@ -14,14 +14,15 @@
       ],
       "eapersonid": "849588384759",
       "isapplicant": "Y",
-      "personfirstname": "Skip",
-      "personlastname": "Valentine",
+      "personfirstname": "Tim",
+      "personlastname": "Jones",
       "persondob": "1975-01-01",
       "isssntrue": "Y",
       "personssn": "197501010",
       "gender": "M",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
+      "ismedicareentitled": "N",
       "isincarcerated": "N",
       "isstateresident": "Y",
       "isuscitizen": "Y",
@@ -41,19 +42,44 @@
       ],
       "eapersonid": "849588389839",
       "isapplicant": "Y",
-      "personfirstname": "Gina",
-      "personlastname": "Valentine",
+      "personfirstname": "Tina",
+      "personlastname": "Jones",
       "persondob": "1979-01-01",
       "isssntrue": "Y",
       "personssn": "197901010",
       "gender": "M",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
-      "isincarcerated": "Y",
-      "isincarceratedpending": "Y",
-      "incarceratedstartdate": "01-01-2017",
-      "isreleasedateknown": "N",
-      "isincarceratedinstate": "Y",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "isuscitizen": "Y",
+      "citizen_status": "US"
+    },
+    {
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ],
+      "eapersonid": "935588389839",
+      "isapplicant": "Y",
+      "personfirstname": "James",
+      "personlastname": "Jones",
+      "persondob": "2000-01-01",
+      "isssntrue": "Y",
+      "personssn": "200001010",
+      "gender": "M",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
       "isstateresident": "Y",
       "isuscitizen": "Y",
       "citizen_status": "US"
@@ -62,6 +88,12 @@
   "Relationship": [
     {
       "applicationrelationship": "spouse"
+    },
+    {
+      "applicationrelationship": "parent"
+    },
+    {
+      "applicationrelationship": "parent"
     }
   ],
   "Attestation": {
@@ -75,8 +107,8 @@
     "applicationsource": "electronic",
     "determinationtype": "mobile-internal",
     "eligchangeauth": "Y",
-    "uqhpsubmitauth": "Y",
-    "esignaturefirstname": "Skip",
-    "esignaturelastname": "Valentine"
+    "uqhpsubmitauth": "N",
+    "esignaturefirstname": "Tim",
+    "esignaturelastname": "Jones"
   }
 }

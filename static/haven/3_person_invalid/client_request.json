@@ -177,7 +177,10 @@
     "applicationsource": "electronic",
     "determinationtype": "mobile-internal",
     "medicaidauth": "Y",
+    "medicaiddhsreviewauth": "Y",
     "renewalauth": "Y",
-    "submitauth": "Y"
+    "submitauth": "Y",
+    "esignaturefirstname": "Max",
+    "esignaturelastname": "Clark"
   }
 }

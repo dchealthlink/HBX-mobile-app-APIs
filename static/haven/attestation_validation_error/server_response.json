@@ -1,0 +1,10 @@
+{
+  "eaid": "876544930278011",
+  "error": {
+    "type": "attestationValidationError",
+    "source_fields": "medicaidauth",
+    "source_values": [
+      "N"
+    ],
+    "message": "Please agree to authorize DCHBX to review your application before submitting."
+  }

@@ -1,17 +1,4 @@
 {
-  "eaid": "876544930278003",
-  "statecd": "DC",
-  "appyear": "2017",
-  "name": "validFourPersonSample",
-  "status": "Pending",
-  "applicanttype": "user and-or family",
-  "motivationtype": "MT26301",
-  "applicationsource": "electronic",
-  "determinationtype": "mobile-internal",
-  "medicaidauth": "Y",
-  "medicaiddhsreviewauth": "Y",
-  "renewalauth": "Y",
-  "submitauth": "Y",
   "Person": [
     {
       "eapersonid": "857483902983748",
@@ -46,7 +33,7 @@
           "preferredaddress": "Y"
         }
       ],
-      "nonESI": [
+      "Insurance": [
         {
           "insurancetype": "peco",
           "startdate": "2017-01-01",
@@ -56,8 +43,8 @@
       "Income": [
         {
           "incometype": "wages",
-          "paymentfrequency": "12",
-          "incomeamount": "900"
+          "paymentfrequency": "1",
+          "incomeamount": "50000"
         }
       ],
       "Deduction": [
@@ -107,9 +94,9 @@
           "preferredaddress": "Y"
         }
       ],
-      "nonESI": [
+      "Insurance": [
         {
-          "insurancetype": "peco",
+          "insurancetype": "esi",
           "startdate": "2017-01-01",
           "enddate": "2017-12-31"
         }
@@ -117,8 +104,8 @@
       "Income": [
         {
           "incometype": "wages",
-          "paymentfrequency": "12",
-          "incomeamount": "1000"
+          "paymentfrequency": "1",
+          "incomeamount": "50000"
         }
       ],
       "Deduction": [
@@ -197,76 +184,54 @@
       ]
     }
   ],
-  "PhysicalHousehold": [
+  "Relationship": [
     {
-      "householdid": "household1",
-      "eapersonid": "857483902983748"
+      "applicationrelationship": "spouse",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y",
+      "isjointfilespouse": "Y"
     },
     {
-      "householdid": "household1",
-      "eapersonid": "847584930928374"
+      "applicationrelationship": "parent",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
     },
     {
-      "householdid": "household1",
-      "eapersonid": "109283746537463"
+      "applicationrelationship": "child",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
     },
     {
-      "householdid": "household1",
-      "eapersonid": "567483920918374"
+      "applicationrelationship": "parent",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "other",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "grandchild",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
     }
   ],
-  "TaxHousehold": [
-    {
-      "tax_no": "1",
-      "eapersonid": "857483902983748",
-      "filer_type": "Filers"
-    },
-    {
-      "tax_no": "1",
-      "eapersonid": "847584930928374",
-      "filer_type": "Filers"
-    },
-    {
-      "tax_no": "1",
-      "eapersonid": "109283746537463",
-      "filer_type": "Dependents"
-    },
-    {
-      "tax_no": "1",
-      "eapersonid": "567483920918374",
-      "filer_type": "Dependents"
-    }
-  ],
-  "ApplicationRelationship": [
-    {
-      "eapersonid": "857483902983748",
-      "relationship": "spouse",
-      "cross_eapersonid": "847584930928374"
-    },
-    {
-      "eapersonid": "857483902983748",
-      "relationship": "parent",
-      "cross_eapersonid": "109283746537463"
-    },
-    {
-      "eapersonid": "857483902983748",
-      "relationship": "child",
-      "cross_eapersonid": "567483920918374"
-    },
-    {
-      "eapersonid": "847584930928374",
-      "relationship": "parent",
-      "cross_eapersonid": "109283746537463"
-    },
-    {
-      "eapersonid": "847584930928374",
-      "relationship": "child-in-law",
-      "cross_eapersonid": "567483920918374"
-    },
-    {
-      "eapersonid": "109283746537463",
-      "relationship": "grandchild",
-      "cross_eapersonid": "567483920918374"
-    }
-  ]
+  "Attestation": {
+    "eaid": "876544930278003",
+    "statecd": "DC",
+    "appyear": "2017",
+    "name": "SAMPLE-HAVEN-APPLICATION",
+    "status": "Pending",
+    "applicanttype": "user and-or family",
+    "motivationtype": "MT26301",
+    "applicationsource": "electronic",
+    "determinationtype": "mobile-internal",
+    "medicaidauth": "Y",
+    "medicaiddhsreviewauth": "N",
+    "renewalauth": "Y",
+    "submitauth": "Y",
+    "esignaturefirstname": "Dina",
+    "esignaturelastname": "Ryan"
+  }
 }
