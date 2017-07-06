@@ -59,22 +59,22 @@
   },
   {
     "ridp_enroll_account_already_exists": {
-      "plan_shopping_path": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/ridp_enroll_account_already_exists/endpoints.json"
+      "endpoints": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/ridp_enroll_account_already_exists/endpoints.json"
     }
   },
   {
     "ridp_new_signup": {
-      "plan_shopping_path": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/ridp_new_signup/endpoints.json"
+      "endpoints": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/ridp_new_signup/endpoints.json"
     }
   },
   {
     "ridp_person_found_in_enroll_roster": {
-      "plan_shopping_path": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/ridp_person_found_in_enroll_roster/endpoints.json"
+      "endpoints": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/ridp_person_found_in_enroll_roster/endpoints.json"
     }
   },
   {
     "ridp_verification_failure": {
-      "plan_shopping_path": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/ridp_verification_failure/endpoints.json"
+      "endpoints": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/ridp_verification_failure/endpoints.json"
     }
   }
 ]
