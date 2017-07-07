@@ -72,7 +72,7 @@
       "endpoints": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/ridp_person_found_in_enroll_roster/endpoints.json"
     }
   },
-  
+
   {
     "ridp_verification_failure": {
       "endpoints": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/ridp_verification_failure/endpoints.json"
