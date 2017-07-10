@@ -1,0 +1,19 @@
+{
+  "eaid": "876544930278011",
+  "ineligible_for_coverage": [
+    {
+      "eapersonid": "849588389839",
+      "personfirstname": "Gina",
+      "personlastname": "Valentine",
+      "persondob": "1979-01-01"
+    }
+  ],
+  "eligible_for_qhp": [
+    {
+      "eapersonid": "849588384759",
+      "personfirstname": "Skip",
+      "personlastname": "Valentine",
+      "persondob": "1975-01-01"
+    }
+  ]
+}

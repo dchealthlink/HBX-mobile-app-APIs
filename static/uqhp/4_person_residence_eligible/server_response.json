@@ -1,0 +1,31 @@
+{
+  "eaid": "876544930279033",
+  "ineligible_for_coverage": [
+  ],
+  "eligible_for_qhp": [
+    {
+      "eapersonid": "849588384759",
+      "personfirstname": "Goneril",
+      "personlastname": "Windsor",
+      "persondob": "1975-01-01"
+    },
+    {
+      "eapersonid": "849588389839",
+      "personfirstname": "Regan",
+      "personlastname": "Windsor",
+      "persondob": "1979-01-01"
+    },
+    {
+      "eapersonid": "935588389839",
+      "personfirstname": "Cordelia",
+      "personlastname": "Windsor",
+      "persondob": "2000-01-01"
+    },
+    {
+      "eapersonid": "475893827364",
+      "personfirstname": "Edmund",
+      "personlastname": "Gloucester",
+      "persondob": "1980-02-28"
+    }
+  ]
+}

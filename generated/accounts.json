@@ -56,5 +56,26 @@
     "individual_aptc": {
       "individual_endpoint_path": "insured.json"
     }
+  },
+  {
+    "ridp_enroll_account_already_exists": {
+      "endpoints": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/ridp_enroll_account_already_exists/endpoints.json"
+    }
+  },
+  {
+    "ridp_new_signup": {
+      "endpoints": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/ridp_new_signup/endpoints.json"
+    }
+  },
+  {
+    "ridp_person_found_in_enroll_roster": {
+      "endpoints": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/ridp_person_found_in_enroll_roster/endpoints.json"
+    }
+  },
+
+  {
+    "ridp_verification_failure": {
+      "endpoints": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/ridp_verification_failure/endpoints.json"
+    }
   }
 ]

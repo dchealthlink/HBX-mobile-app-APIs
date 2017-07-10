@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?><ClientInquiryResponse xmlns:imp1="http://xmlns.dhs.dc.gov/DCAS/ESB/ACDService/V1" xmlns="http://xmlns.dhs.dc.gov/DCAS/ESB/ACDService/V1">
+   <imp1:RequestNumber/>
+   <imp1:ACEDS_CONDITION-CODE>0</imp1:ACEDS_CONDITION-CODE>
+   <imp1:ACEDS_CONDITION-DESC>MATCH CODE I    EXACT MATCH</imp1:ACEDS_CONDITION-DESC>
+   <imp1:ACEDS_USER-ID/>
+   <imp1:ACEDS_CLIENT-NUMBER-I>0</imp1:ACEDS_CLIENT-NUMBER-I>
+   <imp1:ACEDS_LAST-NAME-I>UTDAN01</imp1:ACEDS_LAST-NAME-I>
+   <imp1:ACEDS_FIRST-NAME-I>MA1</imp1:ACEDS_FIRST-NAME-I>
+   <imp1:ACEDS_MIDDLE-NAME-I/>
+   <imp1:ACEDS_SUFFIX-I/>
+   <imp1:ACEDS_DATE-OF-BIRTH-I>6011980</imp1:ACEDS_DATE-OF-BIRTH-I>
+   <imp1:ACEDS_SEX-I>F</imp1:ACEDS_SEX-I>
+   <imp1:ACEDS_SSN-I>450311880</imp1:ACEDS_SSN-I>
+   <imp1:ACEDS_CLIENT-SHORT-ARRAY-OUT>
+      <imp1:string>UTDAN01             MA1                               06011980F450311880 0000931626</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+      <imp1:string>00000000 000000000 0000000000</imp1:string>
+   </imp1:ACEDS_CLIENT-SHORT-ARRAY-OUT>
+   <imp1:ACEDS_CITIZENSHIP-O>US</imp1:ACEDS_CITIZENSHIP-O>
+   <imp1:ACEDS_CITIZENSHIP-VERIF-O>VR</imp1:ACEDS_CITIZENSHIP-VERIF-O>
+   <imp1:ACEDS_RACE-O>UN</imp1:ACEDS_RACE-O>
+   <imp1:ACEDS_ETHNIC-CLASS-O>UN</imp1:ACEDS_ETHNIC-CLASS-O>
+   <imp1:ACEDS_CLIENT-NUMBER-O>931626</imp1:ACEDS_CLIENT-NUMBER-O>
+   <imp1:ACEDS_MEDICAID-ARRAY>
+      <imp1:string>0601201799999999774D</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+      <imp1:string>0000000000000000</imp1:string>
+   </imp1:ACEDS_MEDICAID-ARRAY>
+</ClientInquiryResponse>

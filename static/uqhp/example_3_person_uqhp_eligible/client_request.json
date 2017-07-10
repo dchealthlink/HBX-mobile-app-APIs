@@ -112,8 +112,9 @@
     "motivationtype": "MT26301",
     "applicationsource": "electronic",
     "determinationtype": "mobile-internal",
-    "medicaidauth": "Y",
-    "renewalauth": "Y",
-    "submitauth": "Y"
+    "eligchangeauth": "Y",
+    "uqhpsubmitauth": "Y",
+    "esignaturefirstname": "Tim",
+    "esignaturelastname": "Jones"
   }
 }

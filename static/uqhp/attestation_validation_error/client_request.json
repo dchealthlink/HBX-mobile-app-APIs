@@ -1,0 +1,114 @@
+{
+  "Person": [
+    {
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ],
+      "eapersonid": "849588384759",
+      "isapplicant": "Y",
+      "personfirstname": "Tim",
+      "personlastname": "Jones",
+      "persondob": "1975-01-01",
+      "isssntrue": "Y",
+      "personssn": "197501010",
+      "gender": "M",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "isuscitizen": "Y",
+      "citizen_status": "US"
+    },
+    {
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ],
+      "eapersonid": "849588389839",
+      "isapplicant": "Y",
+      "personfirstname": "Tina",
+      "personlastname": "Jones",
+      "persondob": "1979-01-01",
+      "isssntrue": "Y",
+      "personssn": "197901010",
+      "gender": "M",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "isuscitizen": "Y",
+      "citizen_status": "US"
+    },
+    {
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ],
+      "eapersonid": "935588389839",
+      "isapplicant": "Y",
+      "personfirstname": "James",
+      "personlastname": "Jones",
+      "persondob": "2000-01-01",
+      "isssntrue": "Y",
+      "personssn": "200001010",
+      "gender": "M",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "isuscitizen": "Y",
+      "citizen_status": "US"
+    }
+  ],
+  "Relationship": [
+    {
+      "applicationrelationship": "spouse"
+    },
+    {
+      "applicationrelationship": "parent"
+    },
+    {
+      "applicationrelationship": "parent"
+    }
+  ],
+  "Attestation": {
+    "eaid": "876544930278011",
+    "statecd": "DC",
+    "appyear": "2017",
+    "name": "SAMPLE-HAVEN-APPLICATION",
+    "status": "Pending",
+    "applicanttype": "user and-or family",
+    "motivationtype": "MT26301",
+    "applicationsource": "electronic",
+    "determinationtype": "mobile-internal",
+    "eligchangeauth": "Y",
+    "uqhpsubmitauth": "N",
+    "esignaturefirstname": "Tim",
+    "esignaturelastname": "Jones"
+  }
+}

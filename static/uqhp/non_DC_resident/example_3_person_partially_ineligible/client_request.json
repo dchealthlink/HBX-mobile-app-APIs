@@ -109,6 +109,9 @@
     "motivationtype": "MT26301",
     "applicationsource": "electronic",
     "determinationtype": "mobile-internal",
-    "submitauth": "Y"
+    "eligchangeauth": "Y",
+    "uqhpsubmitauth": "Y",
+    "esignaturefirstname": "Tim",
+    "esignaturelastname": "Jones"
   }
 }
