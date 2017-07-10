@@ -1,0 +1,12 @@
+{
+  "eaid": "938920192837465",
+  "error": {
+    "type": "InvalidTaxHouseholdError",
+    "source_eapersonid": "0020",
+    "target_eapersonids": [
+      "0021",
+      "0022"
+    ],
+    "message": "Max Clark claims both to be a tax non-filer and sharing a tax return with Minnie Clark and Steve Clark. Individuals may not be claimed as filers unless they file taxes or are claimed as a dependent."
+  }
+}
