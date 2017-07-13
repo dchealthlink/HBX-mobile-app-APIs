@@ -1,0 +1,9 @@
+{
+  "enroll_server": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/static/images",
+  "plan_endpoint": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/generated/plans_for_uqhp_single/plans.json",
+  "verify_identity_endpoint": "https://github.com/dchealthlink/HBX-mobile-app-APIs/blob/master/static/ridp/new_signup/verify_identity_questions.json",
+  "verify_identity_answers_endpoint": "https://github.com/dchealthlink/HBX-mobile-app-APIs/blob/master/static/ridp/new_signup/verify_identity.json",
+  "local_sign_up_endpoint": "http://localhost:3002/sign-up",
+  "local_login_endpoint": "http://localhost:3002/login",
+  "local_logout_endpoint": "http://localhost:3002/logout"
+}

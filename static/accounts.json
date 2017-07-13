@@ -56,5 +56,10 @@
     "individual_aptc": {
       "individual_endpoint_path": "insured.json"
     }
+  },
+  {
+    "new_user_uqhp_single": {
+       "endpoints_path" : "https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/static/endpoints/new_user_uqhp_single.endpoints.json"
+    }
   }
 ]
