@@ -57,9 +57,29 @@
       "individual_endpoint_path": "insured.json"
     }
   },
+   {
+    "enroll_account_exists": {
+      "endpoints_path" : "https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/static/endpoints/enroll_account_exists.endpoints.json"
+     }
+  },
+  {
+    "new_user_csr_family": {
+      "endpoints_path" : "https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/static/endpoints/new_user_csr_family.endpoints.json"
+     }
+  },
   {
     "new_user_uqhp_single": {
-       "endpoints_path" : "https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/static/endpoints/new_user_uqhp_single.endpoints.json"
-    }
-  }
+      "endpoints_path" : "https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/static/endpoints/new_user_uqhp_single.endpoints.json"
+     }
+  },
+  {
+    "ridp_verification_failure": {
+      "endpoints_path" : "https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/static/endpoints/ridp_verification_failure.endpoints.json"
+     }
+  },
+  {
+    "roster_user_uqhp_family": {
+      "endpoints_path" : "https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/static/endpoints/roster_user_uqhp_family.endpoints.json"
+     }
+  } 
 ]
