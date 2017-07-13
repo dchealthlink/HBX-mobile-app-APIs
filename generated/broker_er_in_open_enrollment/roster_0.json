@@ -2,13 +2,13 @@
   "employer_name": "National Network to End Domestic Abuse",
   "roster": [
     {
-      "first_name": "Dean",
-      "middle_name": "D.",
-      "last_name": "Martin",
-      "name_suffix": "Sr.",
-      "date_of_birth": "1917-06-07",
-      "ssn_masked": "***-**-4566",
-      "gender": "male",
+      "first_name": "Jillian",
+      "middle_name": "S.",
+      "last_name": "Holtzmann",
+      "name_suffix": "PhD.",
+      "date_of_birth": "1985-11-11",
+      "ssn_masked": "***-**-2050",
+      "gender": "female",
       "id": 0,
       "addresses": [
         {
@@ -35,23 +35,31 @@
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
-            "terminated_on": "2017-07-07",
+            "terminated_on": "2017-07-13",
             "terminate_reason": " I have coverage through an individual market health plan "
           },
           "dental": null
         }
       ],
       "dependents": [
-
+        {
+          "first_name": "Diotima",
+          "middle_name": "P.",
+          "last_name": "Holtzmann",
+          "name_suffix": "IV",
+          "date_of_birth": "2003-12-19",
+          "ssn_masked": "***-**-2003",
+          "gender": "female"
+        }
       ]
     },
     {
-      "first_name": "Erin",
-      "middle_name": "S.",
-      "last_name": "Gilbert",
-      "name_suffix": "PhD.",
-      "date_of_birth": "1969-03-01",
-      "ssn_masked": "***-**-4554",
+      "first_name": "Patty",
+      "middle_name": "D.",
+      "last_name": "Tolan",
+      "name_suffix": "Cdtr",
+      "date_of_birth": "1987-06-06",
+      "ssn_masked": "***-**-4546",
       "gender": "female",
       "id": 1,
       "addresses": [
@@ -81,12 +89,12 @@
       ]
     },
     {
-      "first_name": "Patty",
-      "middle_name": "D.",
-      "last_name": "Tolan",
-      "name_suffix": "Cdtr",
-      "date_of_birth": "1987-06-06",
-      "ssn_masked": "***-**-4546",
+      "first_name": "Erin",
+      "middle_name": "S.",
+      "last_name": "Gilbert",
+      "name_suffix": "PhD.",
+      "date_of_birth": "1969-03-01",
+      "ssn_masked": "***-**-4554",
       "gender": "female",
       "id": 2,
       "addresses": [
@@ -132,13 +140,13 @@
       ]
     },
     {
-      "first_name": "Jillian",
-      "middle_name": "S.",
-      "last_name": "Holtzmann",
-      "name_suffix": "PhD.",
-      "date_of_birth": "1985-11-11",
-      "ssn_masked": "***-**-2050",
-      "gender": "female",
+      "first_name": "Dean",
+      "middle_name": "D.",
+      "last_name": "Martin",
+      "name_suffix": "Sr.",
+      "date_of_birth": "1917-06-07",
+      "ssn_masked": "***-**-4566",
+      "gender": "male",
       "id": 3,
       "addresses": [
         {
@@ -172,24 +180,16 @@
         }
       ],
       "dependents": [
-        {
-          "first_name": "Diotima",
-          "middle_name": "P.",
-          "last_name": "Holtzmann",
-          "name_suffix": "IV",
-          "date_of_birth": "2003-12-19",
-          "ssn_masked": "***-**-2003",
-          "gender": "female"
-        }
+
       ]
     },
     {
-      "first_name": "Sammy",
-      "middle_name": "R.",
-      "last_name": "Davis",
-      "name_suffix": "Jr.",
-      "date_of_birth": "1925-12-08",
-      "ssn_masked": "***-**-6789",
+      "first_name": "Frank",
+      "middle_name": "S.",
+      "last_name": "Sinatra",
+      "name_suffix": "III",
+      "date_of_birth": "1915-12-12",
+      "ssn_masked": "***-**-2000",
       "gender": "male",
       "id": 4,
       "addresses": [
@@ -217,7 +217,7 @@
             "plan_name": "KP DC Silver 2000/35",
             "plan_type": "HMO",
             "metal_level": "Silver",
-            "terminated_on": "2017-07-07",
+            "terminated_on": "2017-07-13",
             "terminate_reason": " I have coverage through an individual market health plan "
           },
           "dental": null
