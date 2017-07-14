@@ -1,0 +1,9 @@
+{
+  "enroll_server": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/static/images",
+  "plan_endpoint": "N/A",
+  "verify_identity_endpoint": "https://github.com/dchealthlink/HBX-mobile-app-APIs/blob/master/static/ridp/verification_failure/verify_identity_questions.json",
+  "verify_identity_answers_endpoint": "https://github.com/dchealthlink/HBX-mobile-app-APIs/blob/master/static/ridp/verification_failure/verify_identity.json",
+  "local_sign_up_endpoint": "N/A",
+  "local_login_endpoint": "N/A",
+  "local_logout_endpoint": "N/A"
+}

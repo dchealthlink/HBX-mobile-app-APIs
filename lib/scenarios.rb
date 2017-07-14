@@ -12,20 +12,10 @@ class Scenarios < BaseUtil
   PLANS_UQHP_SINGLE = 'plans_for_uqhp_single'
   PLANS_UQHP_FAMILY = 'plans_for_uqhp_family'
   PLANS_CSR_FAMILY = 'plans_for_family_receiving_csr'
-  RIDP = 'ridp'
-  RIDP_VERIFICATION_FAILURE = 'ridp_verification_failure'
-  RIDP_ENROLL_ACCOUNT_EXISTS = 'ridp_enroll_account_already_exists'
-  RIDP_FOUND_IN_ROSTER = 'ridp_person_found_in_enroll_roster'
-  RIDP_NEW_SIGNUP = 'ridp_new_signup'
   SIGN_IN = 'sign_in'
   USER_EXISTENCE = 'user_existence'
 
   class << self
-
-    # Create accounts
-    def create_accounts
-      Helper::write_json Helper::account_json, "#{$ROOT_DIRECTORY}/accounts.json"
-    end
 
     # Create broker 1
     def create_broker_1
@@ -105,34 +95,6 @@ class Scenarios < BaseUtil
     def create_plans_for_csr_family
       plans_util PLANS_CSR_FAMILY do |plans_util|
         write_json plans_util.create_valid_csr_plans_for(3), plans_util
-      end
-    end
-
-    def create_ridp_verification_failure
-      ridp_util RIDP_VERIFICATION_FAILURE do |ridp_util|
-        write_json ridp_util.create_ridp_verification_failure, ridp_util
-        create_base_ridp ridp_util, RIDP_VERIFICATION_FAILURE
-      end
-    end
-
-    def create_ridp_enroll_account_already_exists
-      ridp_util RIDP_ENROLL_ACCOUNT_EXISTS do |ridp_util|
-        write_json ridp_util.create_user_exists_in_enroll_IVL, ridp_util
-        create_base_ridp ridp_util, RIDP_ENROLL_ACCOUNT_EXISTS
-      end
-    end
-
-    def create_ridp_person_found_in_enroll_roster
-      ridp_util RIDP_FOUND_IN_ROSTER do |ridp_util|
-        write_json ridp_util.create_user_exists_in_enroll_SHOP, ridp_util
-        create_base_ridp ridp_util, RIDP_FOUND_IN_ROSTER
-      end
-    end
-
-    def create_ridp_new_signup
-      ridp_util RIDP_NEW_SIGNUP do |ridp_util|
-        write_json ridp_util.create_user_not_in_enroll, ridp_util
-        create_base_ridp ridp_util, RIDP_NEW_SIGNUP
       end
     end
 
