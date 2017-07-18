@@ -1,85 +1,85 @@
 [
   {
     "broker_1": {
-      "broker_endpoint": "https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/broker_1/broker_details.json"
+      "broker_endpoint": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/broker_1/broker_details.json"
     }
   },
   {
     "broker_empty": {
-      "broker_endpoint": "https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/broker_empty/broker_details.json"
+      "broker_endpoint": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/broker_empty/broker_details.json"
     }
   },
   {
     "broker_er_roster_empty": {
-      "broker_endpoint": "https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/broker_er_roster_empty/broker_details.json"
+      "broker_endpoint": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/broker_er_roster_empty/broker_details.json"
     }
   },
   {
     "broker_er_in_pending": {
-      "broker_endpoint": "https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/broker_er_in_pending/broker_details.json"
+      "broker_endpoint": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/broker_er_in_pending/broker_details.json"
     }
   },
   {
     "broker_er_in_open_enrollment": {
-      "broker_endpoint": "https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/broker_er_in_open_enrollment/broker_details.json"
+      "broker_endpoint": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/broker_er_in_open_enrollment/broker_details.json"
     }
   },
   {
     "er_roster_empty": {
-      "employer_details_endpoint_path": "https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/er_roster_empty/employer_details.json",
-      "employee_roster_endpoint_path": "https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/er_roster_empty/roster.json"
+      "employer_details_endpoint_path": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/er_roster_empty/employer_details.json",
+      "employee_roster_endpoint_path": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/er_roster_empty/roster.json"
     }
   },
   {
     "er_in_open_enrollment": {
-      "employer_details_endpoint_path": "https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/er_in_open_enrollment/employer_details.json",
-      "employee_roster_endpoint_path": "https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/er_in_open_enrollment/roster.json"
+      "employer_details_endpoint_path": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/er_in_open_enrollment/employer_details.json",
+      "employee_roster_endpoint_path": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/er_in_open_enrollment/roster.json"
     }
   },
   {
     "er_in_pending": {
-      "employer_details_endpoint_path": "https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/er_in_pending/employer_details.json",
-      "employee_roster_endpoint_path": "https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/er_in_pending/roster.json"
+      "employer_details_endpoint_path": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/er_in_pending/employer_details.json",
+      "employee_roster_endpoint_path": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/er_in_pending/roster.json"
     }
   },
   {
     "employee": {
-      "individual_endpoint_path": "https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/employee/insured.json"
+      "individual_endpoint_path": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/employee/insured.json"
     }
   },
   {
     "individual_uqhp": {
-      "individual_endpoint_path": "https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/individual_uqhp/insured.json"
+      "individual_endpoint_path": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/individual_uqhp/insured.json"
     }
   },
   {
     "individual_aptc": {
-      "individual_endpoint_path": "https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/individual_aptc/insured.json"
+      "individual_endpoint_path": "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/tree/master/generated/individual_aptc/insured.json"
     }
   },
    {
     "enroll_account_exists": {
-      "endpoints_path" : "https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/static/endpoints/enroll_account_exists.endpoints.json"
+      "endpoints_path" : "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/tree/master/static/endpoints/enroll_account_exists.endpoints.json"
      }
   },
   {
     "new_user_csr_family": {
-      "endpoints_path" : "https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/static/endpoints/new_user_csr_family.endpoints.json"
+      "endpoints_path" : "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/tree/master/static/endpoints/new_user_csr_family.endpoints.json"
      }
   },
   {
     "new_user_uqhp_single": {
-      "endpoints_path" : "https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/static/endpoints/new_user_uqhp_single.endpoints.json"
+      "endpoints_path" : "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/tree/master/static/endpoints/new_user_uqhp_single.endpoints.json"
      }
   },
   {
     "ridp_verification_failure": {
-      "endpoints_path" : "https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/static/endpoints/ridp_verification_failure.endpoints.json"
+      "endpoints_path" : "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/tree/master/static/endpoints/ridp_verification_failure.endpoints.json"
      }
   },
   {
     "roster_user_uqhp_family": {
-      "endpoints_path" : "https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/static/endpoints/roster_user_uqhp_family.endpoints.json"
+      "endpoints_path" : "https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/tree/master/static/endpoints/roster_user_uqhp_family.endpoints.json"
      }
   } 
 ]
