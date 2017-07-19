@@ -1,8 +1,8 @@
 {
   "verification_result": {
     "response_code": "urn:openhbx:terms:v1:interactive_identity_verification#FAILURE",
-    "response_text": "You have not passed identity validation. To proceed please contact Experian at 1-866-578-5409, and provide them with reference number 2ffe-a5-1cbf.",
-    "transaction_id": "2ffe-a5-1cbf"
+    "response_text": "To keep your data secure, we are required to verify your identity electronically using the credit reporting agency Experian. Unfortunately, Experian was unable to confirm your identity based on the information you provided. You will need to complete your application at the DC Health Benefit Exchange Authority office at 1225 I St NW. Please call (202)715-7576 to set up an appointment.",
+    "transaction_id": "5cef-7a-2d4e"
   },
   "session": null,
   "ridp_verified": false
