@@ -1,0 +1,9 @@
+{
+  "verification_result": {
+    "response_code": "urn:openhbx:terms:v1:interactive_identity_verification#FAILURE",
+    "response_text": "You have not passed identity validation. To proceed please contact Experian at 1-866-578-5409, and provide them with reference number 2ffe-a5-1cbf.",
+    "transaction_id": "2ffe-a5-1cbf"
+  },
+  "session": null,
+  "ridp_verified": false
+}
