@@ -8,9 +8,16 @@
   "motivationtype": "MT26301",
   "applicationsource": "electronic",
   "determinationtype": "mobile-internal",
+  "taxreturninfo":"Y",
+  "voterregistration": "Y",
   "medicaidauth": "Y",
   "renewalauth": "Y",
+  "reportauth": "Y",
+  "medicaidadditionalinsuranceauth": "Y",
+  "childsupportagencyauth": "Y",
   "submitauth": "Y",
+  "attestauth": "Y",
+  "medicaiddhsreviewauth": "Y",
   "Person": [
     {
       "Address": [

@@ -2,7 +2,7 @@
   "eaid": "876544930278011",
   "error": {
     "type": "attestationValidationError",
-    "source_fields": "uqhpsubmitauth",
+    "source_fields": "uqhpattestauth",
     "source_values": [
       "N"
     ],

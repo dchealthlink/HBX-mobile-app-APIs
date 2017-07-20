@@ -107,7 +107,7 @@
     "applicationsource": "electronic",
     "determinationtype": "mobile-internal",
     "eligchangeauth": "Y",
-    "uqhpsubmitauth": "N",
+    "uqhpattestauth": "N",
     "esignaturefirstname": "Tim",
     "esignaturelastname": "Jones"
   }

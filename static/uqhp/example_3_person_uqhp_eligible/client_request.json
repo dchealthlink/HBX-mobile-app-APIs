@@ -112,8 +112,9 @@
     "motivationtype": "MT26301",
     "applicationsource": "electronic",
     "determinationtype": "mobile-internal",
+    "voterregistration": "Y",
     "eligchangeauth": "Y",
-    "uqhpsubmitauth": "Y",
+    "uqhpattestauth": "Y",
     "esignaturefirstname": "Tim",
     "esignaturelastname": "Jones"
   }
