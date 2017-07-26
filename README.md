@@ -61,8 +61,6 @@ Entry points:
 Entry points:
 
 ##### _Sign Up_
-
-Entry points: 
    * [hostname]/sign-up
       * Parameters (POST only):
        	* username - User Name
