@@ -58,7 +58,9 @@ Entry points:
 
 ## APIs in _[hbx-mobile-integration](https://github.com/dchealthlink/hbx-mobile-integration)_
 
-## Sign Up
+Entry points:
+
+##### Sign Up
 
 Entry points: 
    * [hostname]/sign-up
