@@ -1,9 +1,0 @@
-{
-  "eaid": "847590283657892",
-  "error": {
-    "type": "UserExistsInAceds",
-    "source_eapersonid": "165283747759",
-    "targetacedsclientid": "931254",
-    "message": "It looks like Emanuel Nelson already has an application in DC Health Link. To make changes, log in to your account at www.dchealthlink.com or call us at (855) 532-5465."
-  }
-}
