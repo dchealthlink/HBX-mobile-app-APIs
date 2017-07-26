@@ -60,7 +60,7 @@ Entry points:
 
 Entry points:
 
-##### Sign Up
+##### _Sign Up_
 
 Entry points: 
    * [hostname]/sign-up
