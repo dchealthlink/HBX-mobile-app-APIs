@@ -5,16 +5,16 @@ The MVP uses existing IAM & EnrollApp security systems, and not require any chan
 
 ## Broker APIs
 
-#### _Broker_
+####    _Broker_
 Entry point: 
    * [hostname]/api/v1/mobile/broker
       * [example response](generated/broker_1/broker_details.json)
 
 ### via HATEOAS:
-#### _Employer Details for Broker_
+####    _Employer Details for Broker_
    * [hostname]/api/v1/mobile/employer/&lt;id&gt;
       * [example response](generated/broker_1/employer_details_0.json)
-#### _Employee Roster for Broker_
+####    _Employee Roster for Broker_
    *  [hostname]/api/v1/mobile/employer/&lt;id&gt;/employees
       * [example response](generated/broker_1/roster_0.json)
 
