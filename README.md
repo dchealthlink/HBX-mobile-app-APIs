@@ -3,40 +3,40 @@ Specifications and resources for mobile apps needed by the HBX mobile app
 
 The MVP uses existing IAM & EnrollApp security systems, and not require any changes to HBX's security systems.
 
+## APIs in _[enroll_mobile_api](https://github.com/dchealthlink/enroll_mobile_api)_
 
-
-## Broker APIs
+### Broker APIs
 
 #####    _Broker_
 Entry point: 
    * [hostname]/api/v1/mobile/broker
       * [example response](generated/broker_1/broker_details.json)
 
-### via HATEOAS:
-####    _Employer Details for Broker_
+#### via HATEOAS:
+#####    _Employer Details for Broker_
    * [hostname]/api/v1/mobile/employer/&lt;id&gt;
       * [example response](generated/broker_1/employer_details_0.json)
-####    _Employee Roster for Broker_
+#####    _Employee Roster for Broker_
    *  [hostname]/api/v1/mobile/employer/&lt;id&gt;/employees
       * [example response](generated/broker_1/roster_0.json)
 
-## Employer APIs
+### Employer APIs
 
 Entry points: 
-####    _Employer_
+#####    _Employer_
    * [hostname]/api/v1/mobile/employer/
       * [example response](generated/er_in_open_enrollment/employer_details.json)
-####    _Employee Roster for Employer_
+#####    _Employee Roster for Employer_
    * [hostname]/api/v1/mobile/employer/employees
       * [example response](generated/er_in_open_enrollment/roster.json)
 
-## Individual APIs
+### Individual APIs
 
 Entry points: 
-####    _Individual_
+#####    _Individual_
    * [hostname]/api/v1/mobile/individual
       * [example response](generated/individual_aptc/insured.json)
-####    _Plans_
+#####    _Plans_
   * [hostname]/api/v1/mobile/plans
       * Parameters:
        	* coverage_kind - health or dental
@@ -47,14 +47,16 @@ Entry points:
         * effective_on - date to investigate plans for
    	* [example response](generated/plans_for_uqhp_family/plans.json)
 
-### via HATEOAS:
-####   _Services & Rates_ 
+#### via HATEOAS:
+#####   _Services & Rates_ 
    * [hostname]/api/v1/mobile/services_rates
       * Parameters:
         * coverage_kind - health or dental
         * active_year - YYYY, year of plan
         * hios_id - id of insurance plan
       * [example response](generated/services/service_rates.json)
+
+## APIs in _[mobile_integration_server](https://github.com/dchealthlink/hbx-mobile-integration)_
 
 ## Sign Up
 
