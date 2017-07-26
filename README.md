@@ -31,7 +31,7 @@ Entry points:
    * [hostname]/api/v1/mobile/plans
       * Parameters:
        	* coverage_kind - health or dental
-        * active_year - if not given, upcoming year
+        * active_year - YYYY; if not given, upcoming year
         * csr_kind - value for whether to restrict search by CSR eligibility
         * ages - array of ages of family members, for premium calculation
        	* elected_aptc_amount - for premium calculation
@@ -39,7 +39,11 @@ Entry points:
    	* [example response](generated/plans_for_uqhp_family/plans.json)
 
 via HATEOAS:
-   * [hostname]/api/v1/mobile/plans/&lt;id&gt;/services
+   * [hostname]/api/v1/mobile/services_rates
+      * Parameters:
+        * coverage_kind - health or dental
+        * active_year - YYYY, year of plan
+        * hios_id - id of insurance plan
       * [example response](generated/services/service_rates.json)
 
 ## Sign Up
