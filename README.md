@@ -3,9 +3,11 @@ Specifications and resources for mobile apps needed by the HBX mobile app
 
 The MVP uses existing IAM & EnrollApp security systems, and not require any changes to HBX's security systems.
 
+
+
 ## Broker APIs
 
-####    _Broker_
+#####    _Broker_
 Entry point: 
    * [hostname]/api/v1/mobile/broker
       * [example response](generated/broker_1/broker_details.json)
@@ -21,17 +23,21 @@ Entry point:
 ## Employer APIs
 
 Entry points: 
+####    _Employer_
    * [hostname]/api/v1/mobile/employer/
       * [example response](generated/er_in_open_enrollment/employer_details.json)
+####    _Employee Roster for Employer_
    * [hostname]/api/v1/mobile/employer/employees
       * [example response](generated/er_in_open_enrollment/roster.json)
 
 ## Individual APIs
 
 Entry points: 
+####    _Individual_
    * [hostname]/api/v1/mobile/individual
       * [example response](generated/individual_aptc/insured.json)
-   * [hostname]/api/v1/mobile/plans
+####    _Plans_
+  * [hostname]/api/v1/mobile/plans
       * Parameters:
        	* coverage_kind - health or dental
         * active_year - YYYY; if not given, upcoming year
@@ -41,7 +47,8 @@ Entry points:
         * effective_on - date to investigate plans for
    	* [example response](generated/plans_for_uqhp_family/plans.json)
 
-via HATEOAS:
+### via HATEOAS:
+####   _Services & Rates_ 
    * [hostname]/api/v1/mobile/services_rates
       * Parameters:
         * coverage_kind - health or dental
