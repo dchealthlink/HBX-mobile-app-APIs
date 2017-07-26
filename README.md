@@ -3,7 +3,7 @@ Specifications and resources for mobile apps needed by the HBX mobile app
 
 The MVP uses existing IAM & EnrollApp security systems, and not require any changes to HBX's security systems.
 
-## APIs in _[enroll_mobile_api](https://github.com/dchealthlink/enroll_mobile_api)_
+## APIs in _[enroll-mobile-api](https://github.com/dchealthlink/enroll-mobile-api)_
 
 ### Broker APIs
 
