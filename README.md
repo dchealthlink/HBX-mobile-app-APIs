@@ -56,7 +56,7 @@ Entry points:
         * hios_id - id of insurance plan
       * [example response](generated/services/service_rates.json)
 
-## APIs in _[mobile_integration_server](https://github.com/dchealthlink/hbx-mobile-integration)_
+## APIs in _[hbx-mobile-integration](https://github.com/dchealthlink/hbx-mobile-integration)_
 
 ## Sign Up
 
