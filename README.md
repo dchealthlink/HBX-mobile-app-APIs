@@ -10,7 +10,7 @@ Entry point:
    * [hostname]/api/v1/mobile/broker
       * [example response](generated/broker_1/broker_details.json)
 
-via HATEOAS:
+### via HATEOAS:
 #### Employer Details for Broker
    * [hostname]/api/v1/mobile/employer/&lt;id&gt;
       * [example response](generated/broker_1/employer_details_0.json)
