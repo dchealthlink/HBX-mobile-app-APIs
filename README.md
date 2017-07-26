@@ -54,7 +54,7 @@ Entry points:
         * coverage_kind - health or dental
         * active_year - YYYY, year of plan
         * hios_id - id of insurance plan
-      * [example response](generated/services/service_rates.json)
+      * [example response](generated/services/services_rates.json)
 
 ## APIs in _[hbx-mobile-integration](https://github.com/dchealthlink/hbx-mobile-integration)_
 
