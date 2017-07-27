@@ -1,6 +1,8 @@
 {
   "eaid": "876544930278003",
   "dhs_review_initiated": true,
+  "aptc_eligible_amount_monthly": 500.00,
+  "csr_kind": "csr_94",
   "ineligible_for_coverage": [ 
   ],
   "eligible_for_medicaid": [
@@ -29,8 +31,6 @@
         "personfirstname": "Scotty",
         "personlastname": "Ryan",
         "persondob": "2015-01-01",
-        "aptc_eligible_amount_monthly": 500.00,
-        "csr_kind": "csr_94"
      }
   ]
 }
