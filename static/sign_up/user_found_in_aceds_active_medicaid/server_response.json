@@ -1,0 +1,6 @@
+{
+  "error": {
+    "type": "userHasActiveMedicaid",
+    "message": "It looks like you've already got an application at DC Health Link. To make changes, log on at www.dchealthlink.com or call (855)532-5465."
+  }
+}
