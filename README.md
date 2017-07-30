@@ -30,11 +30,11 @@ Entry points:
    * [hostname]/api/v1/mobile/employer/employees
       * [example response](generated/er_in_open_enrollment/roster.json)
 
-### Individual APIs
+### Individual & Employee APIs
 
 Entry points: 
-#####    _Individual_
-   * [hostname]/api/v1/mobile/individual
+#####    _Insured_
+   * [hostname]/api/v1/mobile/insured
       * [example response](generated/individual_aptc/insured.json)
 #####    _Plans_
   * [hostname]/api/v1/mobile/plans
