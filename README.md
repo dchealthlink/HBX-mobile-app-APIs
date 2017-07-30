@@ -63,7 +63,7 @@ Entry points:
 ##### _Sign Up_
    * [hostname]/sign-up (POST)
       * [example of request payload](https://github.com/dchealthlink/HBX-mobile-app-APIs/blob/master/static/sign_up/request_payload.json)
-      * Parameters found in post payload:
+      * Elements found in post payload:
        	* username - User Name
         * password - Password
         * token - encrypted token returned by the call to the Enroll RIDP endpoint
@@ -80,8 +80,8 @@ Entry points:
 
 ##### Login
    * [hostname]/login (POST)
-     * [example of request payload]()
-     * Parameters found in post payload:
-       	* username - User Name (in either IAM or the integration server)
-        * password - Password  (in either IAM or the integration server)
+     * Parameters (POST):
+       	* userid - User Name (in either IAM or the integration server)
+        * pass - Password  (in either IAM or the integration server)
         * device_id - this is the device ID that can be used to send push notifications to the device via Apple or Google
+     * ("local"/integration server login response)[https://github.com/dchealthlink/HBX-mobile-app-APIs/blob/master/static/login/local_login_response.json]
