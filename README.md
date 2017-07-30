@@ -79,7 +79,7 @@ Entry points:
 Entry points:
 
 ##### Login
-     * [hostname]/login (POST)
+   * [hostname]/login (POST)
      * [example of request payload]()
      * Parameters found in post payload:
        	* username - User Name (in either IAM or the integration server)
