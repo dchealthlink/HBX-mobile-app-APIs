@@ -2,8 +2,10 @@
     "username": "testuser",
     "password": "mypassword",
     "token": "[token]",
-    "ssn": "000000088",
-    "first_name": "Donald",
-    "last_name": "Trump",
-    "date_of_birth": "1900-01-01"
+    "person": {
+        "ssn": "000000088",
+        "first_name": "Donald",
+        "last_name": "Trump",
+        "date_of_birth": "19000101"
+    }
 }
