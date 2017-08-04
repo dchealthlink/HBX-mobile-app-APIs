@@ -1,0 +1,9 @@
+{
+    "uuid": "c1ef1790-5ae3-0135-9635-1232a5b27e8a",
+    "_links": {
+        "haven_determination_url": "/haven-determination",
+        "uqhp_url": "/uqhp-determination",
+        "status_url": "/status",
+        "plan_choice_url": "/submit-plan-choice"
+    }
+}
