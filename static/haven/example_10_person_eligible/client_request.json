@@ -1,7 +1,7 @@
 {
   "Person": [
     {
-      "eapersonid": "0030",
+      "eapersonid": "003990298376450",
       "personfirstname": "Matthew",
       "personlastname": "Coleman",
       "isapplicant": "Y",
@@ -50,7 +50,7 @@
       ]      
     },
     {
-      "eapersonid": "0031",
+      "eapersonid": "003990298376451",
       "personfirstname": "Elizabeth",
       "personlastname": "Coleman",
       "isapplicant": "Y",
@@ -73,7 +73,7 @@
       "alienNumber": "3333333",
       "naturalizationNumber": "97364891872",
       "isinsured": "N",
-      "citizen_status": "US",
+      "citizen_status": "LP",
       "istaxrequired": "Y",
       "isotherclaimed": "N",
       "Address": [
@@ -103,7 +103,7 @@
       ]
     },
     {
-      "eapersonid": "0032",
+      "eapersonid": "003990298376452",
       "personfirstname": "Thomas",
       "personlastname": "Coleman",
       "isapplicant": "Y",
@@ -152,7 +152,7 @@
       ]
     },
     {
-      "eapersonid": "0033",
+      "eapersonid": "003990298376453",
       "personfirstname": "Christina",
       "personlastname": "Coleman",
       "isapplicant": "Y",
@@ -201,7 +201,7 @@
       ]
     },
     {
-      "eapersonid": "0034",
+      "eapersonid": "003990298376454",
       "personfirstname": "John",
       "personlastname": "Coleman",
       "isapplicant": "Y",
@@ -250,7 +250,7 @@
       ]
     },
     {
-      "eapersonid": "0035",
+      "eapersonid": "003990298376455",
       "personfirstname": "Robert",
       "personlastname": "Coleman",
       "isapplicant": "Y",
@@ -299,7 +299,7 @@
       ]
     },
     {
-      "eapersonid": "0036",
+      "eapersonid": "003990298376456",
       "personfirstname": "Edward",
       "personlastname": "Coleman",
       "isapplicant": "Y",
@@ -348,7 +348,7 @@
       ]
     },
     {
-      "eapersonid": "0037",
+      "eapersonid": "003990298376457",
       "personfirstname": "James",
       "personlastname": "Coleman",
       "isapplicant": "Y",
@@ -397,7 +397,7 @@
       ]
     },
     {
-      "eapersonid": "0038",
+      "eapersonid": "003990298376458",
       "personfirstname": "Christopher",
       "personlastname": "Coleman",
       "isapplicant": "Y",
@@ -446,7 +446,7 @@
       ]
     },
     {
-      "eapersonid": "0039",
+      "eapersonid": "003990298376459",
       "personfirstname": "Calvin",
       "personlastname": "Coleman",
       "isapplicant": "Y",
@@ -508,7 +508,7 @@
       "taxhousehold": "N"
     },
     {
-      "applicationrelationship": "other",
+      "applicationrelationship": "parent-in-law",
       "physicalhousehold": "N",
       "taxhousehold": "N"
     },
@@ -523,7 +523,7 @@
       "taxhousehold": "Y"
     },
     {
-      "applicationrelationship": "siblingStepsibling",
+      "applicationrelationship": "sibling/Stepsibling",
       "physicalhousehold": "N",
       "taxhousehold": "N"
     },
@@ -533,52 +533,52 @@
       "taxhousehold": "Y"
     },
     {
-      "applicationrelationship": "siblingStepsibling",
+      "applicationrelationship": "sibling/Stepsibling",
       "physicalhousehold": "N",
       "taxhousehold": "N"
     },
     {
-      "applicationrelationship": "other",
-      "physicalhousehold": "N",
-      "taxhousehold": "N"
-    },
-    {
-      "applicationrelationship": "parent",
-      "physicalhousehold": "N",
-      "taxhousehold": "N"
-    },
-    {
-      "applicationrelationship": "other",
+      "applicationrelationship": "sibling-in-law",
       "physicalhousehold": "N",
       "taxhousehold": "N"
     },
     {
       "applicationrelationship": "parent",
-      "physicalhousehold": "Y",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "parent-in-law",
+      "physicalhousehold": "N",
       "taxhousehold": "N"
     },
     {
       "applicationrelationship": "parent",
       "physicalhousehold": "Y",
-      "taxhousehold": "Y"
-    },
-    {
-      "applicationrelationship": "other",
-      "physicalhousehold": "N",
       "taxhousehold": "N"
     },
     {
-      "applicationrelationship": "other",
+      "applicationrelationship": "parent",
       "physicalhousehold": "Y",
       "taxhousehold": "Y"
     },
     {
-      "applicationrelationship": "other",
+      "applicationrelationship": "sibling-in-law",
       "physicalhousehold": "N",
       "taxhousehold": "N"
     },
     {
-      "applicationrelationship": "siblingStepsibling",
+      "applicationrelationship": "child-in-law",
+      "physicalhousehold": "Y",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "sibling-in-law",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "sibling/Stepsibling",
       "physicalhousehold": "N",
       "taxhousehold": "N"
     },
@@ -589,92 +589,92 @@
       "taxhousehold": "Y"
     },
     {
-      "applicationrelationship": "siblingStepsibling",
+      "applicationrelationship": "sibling/Stepsibling",
       "physicalhousehold": "N",
       "taxhousehold": "N"
     },
     {
-      "applicationrelationship": "siblingStepsibling",
+      "applicationrelationship": "sibling/Stepsibling",
       "physicalhousehold": "N",
       "taxhousehold": "N"
     },
     {
-      "applicationrelationship": "nephewNiece",
-      "physicalhousehold": "N",
-      "taxhousehold": "N"
-    },
-    {
-      "applicationrelationship": "grandchild",
-      "physicalhousehold": "N",
-      "taxhousehold": "N"
-    },
-    {
-      "applicationrelationship": "nephewNiece",
-      "physicalhousehold": "N",
-      "taxhousehold": "N"
-    },
-    {
-      "applicationrelationship": "newphewNiece",
-      "physicalhousehold": "N",
-      "taxhousehold": "N"
-    },
-    {
-      "applicationrelationship": "other",
-      "physicalhousehold": "N",
-      "taxhousehold": "N"
-    },
-    {
-      "applicationrelationship": "other",
-      "physicalhousehold": "N",
-      "taxhousehold": "N"
-    },
-    {
-      "applicationrelationship": "other",
-      "physicalhousehold": "N",
-      "taxhousehold": "N"
-    },
-    {
-      "applicationrelationship": "other",
-      "physicalhousehold": "N",
-      "taxhousehold": "N"
-    },
-    {
-      "applicationrelationship": "other",
-      "physicalhousehold": "N",
-      "taxhousehold": "N"
-    },
-    {
-      "applicationrelationship": "other",
-      "physicalhousehold": "N",
-      "taxhousehold": "N"
-    },
-    {
-      "applicationrelationship": "siblingStepsibling",
-      "physicalhousehold": "Y",
-      "taxhousehold": "N"
-    },
-    {
-      "applicationrelationship": "nephewNiece",
+      "applicationrelationship": "nephew/niece",
       "physicalhousehold": "N",
       "taxhousehold": "N"
     },
     {
       "applicationrelationship": "grandchild",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "nephew/niece",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "nephew/niece",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "sibling-in-law",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "sibling-in-law",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "other",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "other",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "other",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "other",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "sibling/Stepsibling",
       "physicalhousehold": "Y",
       "taxhousehold": "N"
     },
     {
-      "applicationrelationship": "nephewNiece",
+      "applicationrelationship": "nephew/niece",
       "physicalhousehold": "N",
       "taxhousehold": "N"
     },
     {
-      "applicationrelationship": "nephewNiece",
+      "applicationrelationship": "grandchild",
+      "physicalhousehold": "Y",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "nephew/niece",
       "physicalhousehold": "N",
       "taxhousehold": "N"
     },
     {
-      "applicationrelationship": "nephewNiece",
+      "applicationrelationship": "nephew/niece",
+      "physicalhousehold": "N",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "nephew/niece",
       "physicalhousehold": "N",
       "taxhousehold": "N"
     },
@@ -684,12 +684,12 @@
       "taxhousehold": "Y"
     },
     {
-      "applicationrelationship": "nephewNiece",
+      "applicationrelationship": "nephew/niece",
       "physicalhousehold": "N",
       "taxhousehold": "N"
     },
     {
-      "applicationrelationship": "nephewNiece",
+      "applicationrelationship": "nephew/niece",
       "physicalhousehold": "N",
       "taxhousehold": "N"
     },
@@ -699,12 +699,12 @@
       "taxhousehold": "N"
     },
     {
-      "applicationrelationship": "siblingStepsibling",
+      "applicationrelationship": "sibling/Stepsibling",
       "physicalhousehold": "N",
       "taxhousehold": "N"
     },
     {
-      "applicationrelationship": "other",
+      "applicationrelationship": "unrelated",
       "physicalhousehold": "N",
       "taxhousehold": "N"
     },
@@ -714,29 +714,27 @@
       "taxhousehold": "N"
     },
     {
-      "applicationrelationship": "other",
+      "applicationrelationship": "unrelated",
       "physicalhousehold": "N",
       "taxhousehold": "N"
     },
     {
-      "applicationrelationship": "other",
+      "applicationrelationship": "unrelated",
       "physicalhousehold": "N",
       "taxhousehold": "N"
     }
   ],
   "Attestation": {
-    "eaid": "636592130550297",
+    "eaid": "080920175409005",
     "statecd": "DC",
     "appyear": "2017",
     "name": "00001-170206-1",
-    "status": "Pending",
     "applicantType": "user and/or family",
     "motivationtype": "MT26301",
     "applicationsource": "electronic",
     "determinationtype": "mobile-internal",
     "taxreturninfo":"Y",
     "voterregistration": "Y",
-    "medicaidauth": "Y",
     "renewalauth": "Y",
     "reportauth": "Y",
     "medicaidadditionalinsuranceauth": "Y",

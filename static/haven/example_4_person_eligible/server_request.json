@@ -50,7 +50,7 @@
           "preferredaddress": "Y"
         }
       ],
-      "nonESI": [
+      "Insurance": [
         {
           "insurancetype": "peco",
           "startdate": "2017-01-01",
@@ -111,7 +111,7 @@
           "preferredaddress": "Y"
         }
       ],
-      "nonESI": [
+      "Insurance": [
         {
           "insurancetype": "peco",
           "startdate": "2017-01-01",

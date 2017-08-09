@@ -1,0 +1,69 @@
+{
+  "eaid": "080920175409005",
+  "dhs_review_initiated": true,
+  "ineligible_for_coverage": [],
+  "eligible_for_uqhp": [
+  {
+      "eapersonid": "3990298376456",
+      "personfirstname": "Edward",
+      "personlastname": "Coleman",
+      "persondob": "1944-05-05"
+    },
+    {
+      "eapersonid": "3990298376451",
+      "personfirstname": "Elizabeth",
+      "personlastname": "Coleman",
+      "persondob": "1981-02-02"
+    }],
+  "eligible_for_medicaid": [
+    {
+      "eapersonid": "3990298376450",
+      "personfirstname": "Matthew",
+      "personlastname": "Coleman",
+      "persondob": "1980-01-01"
+    },
+    {
+      "eapersonid": "3990298376457",
+      "personfirstname": "James",
+      "personlastname": "Coleman",
+      "persondob": "1979-01-02"
+    },
+    {
+      "eapersonid": "3990298376455",
+      "personfirstname": "Robert",
+      "personlastname": "Coleman",
+      "persondob": "1983-05-05"
+    },
+    {
+      "eapersonid": "3990298376452",
+      "personfirstname": "Thomas",
+      "personlastname": "Coleman",
+      "persondob": "1995-01-01"
+    },
+    {
+      "eapersonid": "3990298376453",
+      "personfirstname": "Christina",
+      "personlastname": "Coleman",
+      "persondob": "1994-01-01"
+    },
+    {
+      "eapersonid": "3990298376454",
+      "personfirstname": "John",
+      "personlastname": "Coleman",
+      "persondob": "2007-05-04"
+    },
+    {
+      "eapersonid": "3990298376458",
+      "personfirstname": "Christopher",
+      "personlastname": "Coleman",
+      "persondob": "1981-12-12"
+    },
+    {
+      "eapersonid": "3990298376459",
+      "personfirstname": "Calvin",
+      "personlastname": "Coleman",
+      "persondob": "1975-03-03"
+    }
+  ],
+  "eligible_for_qhp": []
+}
