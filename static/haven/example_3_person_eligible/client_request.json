@@ -1,42 +1,6 @@
 {
   "Person": [
     {
-      "Address": [
-        {
-          "addresstype": "home",
-          "streetaddress1": "101 Great Jones St",
-          "streetaddress2": "apt 1",
-          "city": "Washington",
-          "statecd": "DC",
-          "postalcode": "20001",
-          "preferredaddress": "Y"
-        }
-      ],
-      "Insurance": [
-        {
-          "insurancetype": "peco",
-          "startdate": "2017-01-01",
-          "enddate": "2017-12-31"
-        },
-        {
-          "insurancetype": "esi",
-          "startdate": "2018-01-01",
-          "enddate": "2018-12-31"
-        }
-      ],
-      "Income": [
-        {
-          "incometype": "wages",
-          "paymentfrequency": "1",
-          "incomeamount": "50000"
-        }
-      ],
-      "Deduction": [
-        {
-          "incometype": "selfEmployInsDeductions",
-          "incomeamount": "500"
-        }
-      ],
       "eapersonid": "849588384759",
       "isapplicant": "Y",
       "personfirstname": "Tim",
@@ -58,9 +22,7 @@
       "isinsured": "N",
       "isotherclaimed": "N",
       "istaxrequired": "Y",
-      "citizen_status": "US"
-    },
-    {
+      "citizen_status": "US",
       "Address": [
         {
           "addresstype": "home",
@@ -74,19 +36,36 @@
       ],
       "Insurance": [
         {
-          "insurancetype": "esi",
+          "insurancetype": "peco",
           "startdate": "2017-01-01",
           "enddate": "2017-12-31"
+        },
+        {
+          "insurancetype": "esi",
+          "planexists": "Y",
+          "personeligible": "Y",
+          "personenrolled": "Y",
+          "plancoverage": "emponly",
+          "planMEC": "Y",
+          "personcost": "100.00",
+          "costfrequency": "12"
         }
       ],
       "Income": [
         {
-          "incometype": "wages",
+          "incometype": "wages_and_salaries",
           "paymentfrequency": "12",
-          "incomeamount": "1500",
-          "startdate": "2017-01-01"
+          "incomeamount": "1500.00"
         }
       ],
+      "Deduction": [
+        {
+          "incometype": "self_employed_health_insurance",
+          "incomeamount": "500.00"
+        }
+      ]
+    },
+    {
       "eapersonid": "849588389839",
       "isapplicant": "Y",
       "personfirstname": "Tina",
@@ -112,9 +91,7 @@
       "isinsured": "N",
       "isotherclaimed": "N",
       "istaxrequired": "Y",
-      "citizen_status": "US"
-    },
-    {
+      "citizen_status": "US",
       "Address": [
         {
           "addresstype": "home",
@@ -126,13 +103,34 @@
           "preferredaddress": "Y"
         }
       ],
-      "Income": [
+      "Insurance": [
         {
-          "incometype": "wages",
-          "paymentfrequency": "1",
-          "incomeamount": "2000"
+          "insurancetype": "peco",
+          "startdate": "2017-01-01",
+          "enddate": "2017-12-31"
         }
       ],
+      "Income": [
+        {
+          "incometype": "farming_and_fishing",
+          "paymentfrequency": "1",
+          "incomeamount": "12000.00",
+          "startdate": "2017-01-01",
+          "enddate": "2017-07-02"
+        },
+        {
+          "incometype": "net_self_employment",
+          "paymentfrequency": "1",
+          "incomeamount": "2000.00"
+        },
+        {
+          "incometype": "wages_and_salaries",
+          "paymentfrequency": "1",
+          "incomeamount": "12000.00"
+        }
+      ]
+    },
+    {
       "eapersonid": "935588389839",
       "isapplicant": "Y",
       "personfirstname": "James",
@@ -154,7 +152,27 @@
       "isinsured": "N",
       "isotherclaimed": "Y",
       "istaxrequired": "N",
-      "citizen_status": "US"
+      "citizen_status": "US",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ],
+      "Income": [
+        {
+          "incometype": "wages_and_salaries",
+          "paymentfrequency": "12",
+          "incomeamount": "100.00",
+          "startdate": "2013-12-12",
+          "enddate": "2017-01-31"
+        }
+      ]
     }
   ],
   "Relationship": [

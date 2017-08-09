@@ -33,7 +33,7 @@
           "preferredaddress": "Y"
         }
       ],
-      "Insurance": [
+      "nonESI": [
         {
           "insurancetype": "peco",
           "startdate": "2017-01-01",
@@ -43,8 +43,8 @@
       "Income": [
         {
           "incometype": "wages",
-          "paymentfrequency": "1",
-          "incomeamount": "50000"
+          "paymentfrequency": "12",
+          "incomeamount": "900"
         }
       ],
       "Deduction": [
@@ -94,9 +94,9 @@
           "preferredaddress": "Y"
         }
       ],
-      "Insurance": [
+      "nonESI": [
         {
-          "insurancetype": "esi",
+          "insurancetype": "peco",
           "startdate": "2017-01-01",
           "enddate": "2017-12-31"
         }
@@ -104,8 +104,8 @@
       "Income": [
         {
           "incometype": "wages",
-          "paymentfrequency": "1",
-          "incomeamount": "50000"
+          "paymentfrequency": "12",
+          "incomeamount": "1000"
         }
       ],
       "Deduction": [
