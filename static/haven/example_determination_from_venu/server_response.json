@@ -1,0 +1,19 @@
+{
+  "eaid": "636580991165470",
+  "dhs_review_initiated": true,
+  "ineligible_for_coverage": [],
+  "eligible_for_uqhp": [],
+  "eligible_for_qhp": [
+    {
+      "eapersonid": "636580991165166",
+      "personfirstname": "TRACY",
+      "personlastname": "MCGRADY",
+      "persondob": "1987-09-01"
+    },
+    {
+      "eapersonid": "636580991162887",
+      "personfirstname": "SELFSUFFICIENT",
+      "personlastname": "MCGRADY",
+      "persondob": "1999-01-01"
+    }]
+}
