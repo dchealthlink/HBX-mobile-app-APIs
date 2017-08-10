@@ -1,6 +1,8 @@
 {
   "eaid": "080920171129005",
   "dhs_review_initiated": true,
+  "aptc_eligible_amount_monthly": 88.51,
+  "csr_kind": "csr_87",
   "ineligible_for_coverage": [],
   "eligible_for_medicaid": [
     {
