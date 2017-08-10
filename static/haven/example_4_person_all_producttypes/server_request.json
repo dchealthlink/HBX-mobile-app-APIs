@@ -1,0 +1,307 @@
+{
+  "eaid": "081020171431001",
+  "statecd": "DC",
+  "appyear": "2017",
+  "name": "SAMPLE-HAVEN-APPLICATION",
+  "applicanttype": "user and/or family",
+  "motivationtype": "MT26301",
+  "applicationsource": "electronic",
+  "determinationtype": "mobile-internal",
+  "comments": "one each UQHP, APTC, Medicaid-eligible, and one total ineligibility",
+  "taxreturninfo":"Y",
+  "voterregistration": "Y",
+  "renewalauth": "Y",
+  "reportauth": "Y",
+  "medicaidadditionalinsuranceauth": "Y",
+  "childsupportagencyauth": "Y",
+  "submitauth": "Y",
+  "attestauth": "Y",
+  "medicaiddhsreviewauth": "Y",
+  "Person": [
+    {
+      "eapersonid": "849588384759",
+      "isapplicant": "Y",
+      "personfirstname": "iopdfoiuaspf",
+      "personlastname": "opiuqewr",
+      "persondob": "1975-01-01",
+      "isssntrue": "Y",
+      "personssn": "197501010",
+      "gender": "M",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "isotherclaimed": "N",
+      "istaxrequired": "Y",
+      "citizen_status": "US",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ],
+      "Insurance": [
+        {
+          "insurancetype": "peco",
+          "startdate": "2017-01-01",
+          "enddate": "2017-12-31"
+        },
+        {
+          "insurancetype": "esi",
+          "planexists": "Y",
+          "personeligible": "Y",
+          "personenrolled": "Y",
+          "plancoverage": "emponly",
+          "planMEC": "Y",
+          "personcost": "100.00",
+          "costfrequency": "12"
+        }
+      ],
+      "Income": [
+        {
+          "incometype": "wages_and_salaries",
+          "paymentfrequency": "26",
+          "incomeamount": "20000.00"
+        }
+      ],
+      "Deduction": [
+        {
+          "incometype": "self_employed_health_insurance",
+          "incomeamount": "500.00"
+        }
+      ]
+    },
+    {
+      "eapersonid": "849588389839",
+      "isapplicant": "Y",
+      "personfirstname": "iupoisa",
+      "personlastname": "opiuqewr",
+      "persondob": "1979-01-01",
+      "isssntrue": "Y",
+      "personssn": "197901010",
+      "gender": "M",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "N",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "N",
+      "lawfullypresent": "Y",
+      "documenttype": "certOfCitDocumentID",
+      "alienNumber": "3333333",
+      "citizenshipNumber": "7777777",
+      "isinsured": "N",
+      "isotherclaimed": "N",
+      "istaxrequired": "Y",
+      "citizen_status": "US",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "New York",
+          "statecd": "NY",
+          "postalcode": "10033",
+          "preferredaddress": "Y"
+        }
+      ],
+      "Insurance": [
+        {
+          "insurancetype": "peco",
+          "startdate": "2017-01-01",
+          "enddate": "2017-12-31"
+        }
+      ],
+      "Income": [
+        {
+          "incometype": "farming_and_fishing",
+          "paymentfrequency": "1",
+          "incomeamount": "12000.00",
+          "startdate": "2017-01-01",
+          "enddate": "2017-07-02"
+        },
+        {
+          "incometype": "net_self_employment",
+          "paymentfrequency": "1",
+          "incomeamount": "2000.00"
+        },
+        {
+          "incometype": "wages_and_salaries",
+          "paymentfrequency": "1",
+          "incomeamount": "12000.00"
+        }
+      ]
+    },
+    {
+      "eapersonid": "935588389839",
+      "isapplicant": "Y",
+      "personfirstname": "oiuoier",
+      "personlastname": "opiuqewr",
+      "persondob": "2000-01-01",
+      "isssntrue": "Y",
+      "personssn": "200001010",
+      "gender": "M",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "isotherclaimed": "N",
+      "istaxrequired": "Y",
+      "citizen_status": "US",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ]
+    },
+    {
+      "eapersonid": "849588384749",
+      "isapplicant": "Y",
+      "personfirstname": "oiuppsf",
+      "personlastname": "qwerjc",
+      "persondob": "1945-01-01",
+      "isssntrue": "Y",
+      "personssn": "194501010",
+      "gender": "M",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "isotherclaimed": "N",
+      "istaxrequired": "Y",
+      "citizen_status": "US",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 2",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ],
+      "Income": [
+        {
+          "incometype": "wages_and_salaries",
+          "paymentfrequency": "12",
+          "incomeamount": "2000.00"
+        }
+      ],
+      "Deduction": [
+        {
+          "incometype": "self_employed_health_insurance",
+          "incomeamount": "500.00"
+        }
+      ]
+    }
+  ],
+  "PhysicalHousehold": [
+    {
+      "householdid": "household1",
+      "eapersonid": "849588384759"
+    },
+    {
+      "householdid": "household2",
+      "eapersonid": "849588389839"
+    },
+    {
+      "householdid": "household1",
+      "eapersonid": "935588389839"
+    },
+    {
+      "householdid": "household3",
+      "eapersonid": "849588384749"
+    }
+  ],
+  "TaxHousehold": [
+    {
+      "tax_no": "1",
+      "eapersonid": "849588384759",
+      "filer_type": "Filers"
+    },
+    {
+      "tax_no": "2",
+      "eapersonid": "849588389839",
+      "filer_type": "Filers"
+    },
+    {
+      "tax_no": "3",
+      "eapersonid": "935588389839",
+      "filer_type": "Filers"
+    },
+    {
+      "tax_no": "4",
+      "eapersonid": "849588384749",
+      "filer_type": "Filers"
+    }
+  ],
+  "ApplicationRelationship": [
+    {
+      "eapersonid": "849588384759",
+      "relationship": "sibling/Stepsibling",
+      "cross_eapersonid": "849588389839"
+    },
+    {
+      "eapersonid": "849588384759",
+      "relationship": "Parent",
+      "cross_eapersonid": "935588389839"
+    },
+    {
+      "eapersonid": "849588384759",
+      "relationship": "Child",
+      "cross_eapersonid": "849588384749"
+    },
+    {
+      "eapersonid": "849588389839",
+      "relationship": "Aunt/Uncle",
+      "cross_eapersonid": "935588389839"
+    },
+    {
+      "eapersonid": "849588389839",
+      "relationship": "Child",
+      "cross_eapersonid": "849588384749"
+    },
+    {
+      "eapersonid": "935588389839",
+      "relationship": "Grandchild",
+      "cross_eapersonid": "849588384749"
+    }
+  ]
+}
