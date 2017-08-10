@@ -1,0 +1,317 @@
+{
+  "Person": [
+    {
+      "eapersonid": "837940998738029",
+      "personfirstname": "James",
+      "personlastname": "Harper",
+      "isapplicant": "Y",
+      "persondob": "1975-04-05",
+      "isssntrue": "Y",
+      "personssn": "197504050",
+      "gender": "M",
+      "preferredcontactmethod": "email",
+      "preferredlanguage": "english",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "citizen_status": "US",
+      "istaxrequired": "Y",
+      "isotherclaimed": "N",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 H St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "y"
+        }
+      ],
+      "Insurance": [
+        {
+          "insurancetype": "esi",
+          "startdate": "2017-01-01",
+          "enddate": "2017-12-31"
+        }
+      ],
+      "Income": [
+        {
+          "incometype": "wages",
+          "paymentfrequency": "12",
+          "incomeamount": "500"
+        }
+      ]
+    },
+    {
+      "eapersonid": "837940998738423",
+      "personfirstname": "Anna",
+      "personlastname": "Harper",
+      "isapplicant": "Y",
+      "persondob": "1973-03-02",
+      "isssntrue": "Y",
+      "personssn": "197303020",
+      "gender": "F",
+      "preferredcontactmethod": "email",
+      "preferredlanguage": "english",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "citizen_status": "US",
+      "istaxrequired": "Y",
+      "ismarried": "Y",
+      "isjointfilespouse": "Y",
+      "isotherclaimed": "N",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 H St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "y"
+        }
+      ],
+      "Insurance": [
+        {
+          "insurancetype": "esi",
+          "startdate": "2017-01-01",
+          "enddate": "2017-12-31"
+        }
+      ],
+      "Income": [
+        {
+          "incometype": "wages",
+          "paymentfrequency": "12",
+          "incomeamount": "500"
+        }
+      ]
+    },
+    {
+      "eapersonid": "837940982738444",
+      "personfirstname": "Walter",
+      "personlastname": "Harper",
+      "isapplicant": "Y",
+      "persondob": "1999-01-01",
+      "isssntrue": "Y",
+      "personssn": "199901010",
+      "gender": "M",
+      "preferredcontactmethod": "email",
+      "preferredlanguage": "english",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "citizen_status": "US",
+      "istaxrequired": "Y",
+      "ismarried": "N",
+      "isotherclaimed": "Y",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 H St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "y"
+        }
+      ],
+      "Insurance": [
+        {
+          "insurancetype": "peco",
+          "startdate": "2017-01-01",
+          "enddate": "2017-12-31"
+        }
+      ],
+      "Income": [
+        {
+          "incometype": "wages",
+          "paymentfrequency": "12",
+          "incomeamount": "500"
+        }
+      ]
+    },
+    {
+      "eapersonid": "837940982738490",
+      "personfirstname": "Cynthia",
+      "personlastname": "Harper",
+      "isapplicant": "Y",
+      "persondob": "2001-03-03",
+      "isssntrue": "Y",
+      "personssn": "200103030",
+      "gender": "F",
+      "preferredcontactmethod": "email",
+      "preferredlanguage": "english",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "citizen_status": "US",
+      "istaxrequired": "Y",
+      "ismarried": "N",
+      "isotherclaimed": "Y",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 H St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "y"
+        }
+      ],
+      "Insurance": [
+        {
+          "insurancetype": "cobra",
+          "startdate": "2017-01-01",
+          "enddate": "2017-12-31"
+        }
+      ],
+      "Income": [
+        {
+          "incometype": "wages",
+          "paymentfrequency": "12",
+          "incomeamount": "500"
+        }
+      ]
+    },
+    {
+      "eapersonid": "837940998738298",
+      "personfirstname": "Anthony",
+      "personlastname": "Harper",
+      "isapplicant": "Y",
+      "persondob": "1997-01-17",
+      "isssntrue": "Y",
+      "personssn": "199701171",
+      "gender": "M",
+      "preferredcontactmethod": "email",
+      "preferredlanguage": "english",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "citizen_status": "US",
+      "istaxrequired": "Y",
+      "ismarried": "N",
+      "isotherclaimed": "N",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 H St",
+          "streetaddress2": "apt 2",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "y"
+        }
+      ],
+      "Insurance": [
+        {
+          "insurancetype": "cobra",
+          "startdate": "2017-01-01",
+          "enddate": "2017-12-31"
+        }
+      ],
+      "Income": [
+        {
+          "incometype": "wages",
+          "paymentfrequency": "12",
+          "incomeamount": "500"
+        }
+      ]
+    }
+  ],
+  "Relationship": [
+    {
+      "applicationrelationship": "spouse",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "parent",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "parent",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "parent",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "parent",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "parent",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "parent",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "siblingStepsibling",
+      "taxhousehold": "Y"
+    },
+    {
+      "applicationrelationship": "siblingStepsibling",
+      "taxhousehold": "N"
+    },
+    {
+      "applicationrelationship": "siblingStepsibling",
+      "taxhousehold": "N"
+    }
+  ],
+  "Attestation": {
+    "eaid": "080920171355001",
+    "statecd": "DC",
+    "appyear": "2017",
+    "name": "00001-170206-1",
+    "applicantType": "user and/or family",
+    "motivationtype": "MT26301",
+    "applicationsource": "electronic",
+    "determinationtype": "mobile-internal",    
+    "taxreturninfo":"Y",
+    "voterregistration": "Y",
+    "renewalauth": "Y",
+    "reportauth": "Y",
+    "medicaidadditionalinsuranceauth": "Y",
+    "childsupportagencyauth": "Y",
+    "submitauth": "Y",
+    "attestauth": "Y",
+    "medicaiddhsreviewauth": "Y",
+    "esignaturefirstname": "James",
+    "esignaturelastname": "Harper"
+  }
+}

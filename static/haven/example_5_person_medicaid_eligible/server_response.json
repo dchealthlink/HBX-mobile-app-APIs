@@ -1,0 +1,40 @@
+{
+  "eaid": "080920171355001",
+  "dhs_review_initiated": true,
+  "ineligible_for_coverage": [ 
+  ],
+  "eligible_for_medicaid": [
+      {
+        "eapersonid": "837940998738029",
+        "personfirstname": "James",
+        "personlastname": "Harper",
+        "persondob": "1975-04-05"
+      },
+      {
+        "eapersonid": "837940998738423",
+        "personfirstname": "Anna",
+        "personlastname": "Harper",
+        "persondob": "1973-03-02"
+      },
+      {
+        "eapersonid": "837940982738444",
+        "personfirstname": "Walter",
+        "personlastname": "Harper",
+        "persondob": "1999-01-01"
+      },
+      {
+        "eapersonid": "837940998738298",
+        "personfirstname": "Anthony",
+        "personlastname": "Harper",
+        "persondob": "1997-01-17"
+      },
+      {
+        "eapersonid": "837940982738490",
+        "personfirstname": "Cynthia",
+        "personlastname": "Harper",
+        "persondob": "2001-03-03",
+      }
+  ],
+  "eligible_for_qhp": [
+  ]
+}

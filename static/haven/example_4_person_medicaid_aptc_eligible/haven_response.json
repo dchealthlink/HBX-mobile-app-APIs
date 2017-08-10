@@ -1,0 +1,262 @@
+{
+  "eaid": "080920171136001",
+  "applid": "1502292974187",
+  "statecd": "DC",
+  "appyear": "2017",
+  "name": "validFourPersonSample",
+  "status": "Submitted",
+  "applicanttype": "user and-or family",
+  "motivationtype": "MT26301",
+  "applicationsource": "electronic",
+  "determinationtype": "mobile-internal",
+  "Person": [
+    {
+      "personid": "150229297459",
+      "eapersonid": "567483920918374",
+      "isapplicant": "Y",
+      "personfirstname": "Granny",
+      "personlastname": "Ryan",
+      "persondob": "1945-01-01",
+      "personssn": "194501010",
+      "gender": "M",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "isotherclaimed": "Y",
+      "istaxrequired": "N",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ]
+    },
+    {
+      "personid": "150229297476",
+      "eapersonid": "847584930928374",
+      "isapplicant": "Y",
+      "personfirstname": "David",
+      "personlastname": "Ryan",
+      "persondob": "1970-01-01",
+      "personssn": "197001010",
+      "gender": "M",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "N",
+      "isinsured": "N",
+      "isotherclaimed": "N",
+      "istaxrequired": "Y",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ]
+    },
+    {
+      "personid": "150229297407",
+      "eapersonid": "857483902983748",
+      "isapplicant": "Y",
+      "personfirstname": "Dina",
+      "personlastname": "Ryan",
+      "persondob": "1975-01-01",
+      "personssn": "197501010",
+      "gender": "F",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "isotherclaimed": "N",
+      "istaxrequired": "Y",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ]
+    },
+    {
+      "personid": "150229297457",
+      "eapersonid": "109283746537463",
+      "isapplicant": "Y",
+      "personfirstname": "Scotty",
+      "personlastname": "Ryan",
+      "persondob": "2015-01-01",
+      "personssn": "201501010",
+      "gender": "M",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "isotherclaimed": "Y",
+      "istaxrequired": "N",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ]
+    }
+  ],
+  "PhysicalHousehold": [
+    {
+      "householdid": "household1",
+      "personid": "150229297407"
+    },
+    {
+      "householdid": "household1",
+      "personid": "150229297457"
+    },
+    {
+      "householdid": "household1",
+      "personid": "150229297459"
+    },
+    {
+      "householdid": "household1",
+      "personid": "150229297476"
+    }
+  ],
+  "TaxHousehold": [
+    {
+      "tax_no": "1",
+      "personid": "150229297407",
+      "filer_type": "Filers"
+    },
+    {
+      "tax_no": "1",
+      "personid": "150229297457",
+      "filer_type": "Dependents"
+    },
+    {
+      "tax_no": "1",
+      "personid": "150229297459",
+      "filer_type": "Dependents"
+    },
+    {
+      "tax_no": "1",
+      "personid": "150229297476",
+      "filer_type": "Filers"
+    }
+  ],
+  "ApplicationRelationship": [
+    {
+      "personid": "150229297407",
+      "relationship": "parent",
+      "cross_personid": "150229297457"
+    },
+    {
+      "personid": "150229297407",
+      "relationship": "child",
+      "cross_personid": "150229297459"
+    },
+    {
+      "personid": "150229297407",
+      "relationship": "spouse",
+      "cross_personid": "150229297476"
+    },
+    {
+      "personid": "150229297457",
+      "relationship": "grandchild",
+      "cross_personid": "150229297459"
+    },
+    {
+      "personid": "150229297476",
+      "relationship": "parent",
+      "cross_personid": "150229297457"
+    },
+    {
+      "personid": "150229297476",
+      "relationship": "child-in-law",
+      "cross_personid": "150229297459"
+    }
+  ],
+  "PDC": [
+    {
+      "pdcrefnum": "1502292975",
+      "producttype": "APTC",
+      "status": "A",
+      "numperson": "2",
+      "primarypersonid": "150229297407",
+      "resultid": "1",
+      "aptc": "0.00",
+      "csrpercent": "94",
+      "person": [
+        {
+          "personid": "150229297459",
+          "status": "A"
+        },
+        {
+          "personid": "150229297476",
+          "status": "A"
+        }
+      ]
+    },
+    {
+      "pdcrefnum": "92403651",
+      "producttype": "Medicaid",
+      "status": "A",
+      "numperson": "2",
+      "primarypersonid": "150229297407",
+      "resultid": "1",
+      "person": [
+        {
+          "personid": "150229297407",
+          "status": "A"
+        },
+        {
+          "personid": "150229297457",
+          "status": "A"
+        }
+      ]
+    }
+  ]
+}
