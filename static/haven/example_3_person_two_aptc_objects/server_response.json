@@ -1,6 +1,6 @@
 {
   "eaid": "081020171543002",
-  "dhs_review_initiated": true,
-  "error": "2 Households both alike in APTC",
-  "message": "Unfortunately we are unable to process your request. Please apply online at www.dchealthlink.com or call us at (855) 532-5465"
+  "dhs_review_initiated": true,  
+  "error": "MultipleAPTCTaxHouseholds",
+  "message": "Because you have multiple tax households in your application which have been determined eligible for APTC, your case is too complex for our mobile application. Please apply online at www.dchealthlink.com or call us at (855) 532-5465"
 }
