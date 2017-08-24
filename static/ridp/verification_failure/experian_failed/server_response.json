@@ -1,8 +1,7 @@
 {
   "verification_result": {
-    "response_code": "urn:openhbx:terms:v1:interactive_identity_verification#FAILURE",
-    "response_text": "We're sorry. The third-party service used to confirm your identity is currently unavailable. Please try again later. If you continue to receive this message after trying several times, please call DC Health Link customer service for assistance at 1-855-532-5464.",
-    "transaction_id": "5cef-7a-2d4e"
+    "response_code": "unreachable",
+    "response_text": "We're sorry. The third-party service used to confirm your identity is currently unavailable. Please try again later. If you continue to receive this message after trying several times, please call DC Health Link customer service for assistance at 1-855-532-5464."
   },
   "session": null,
   "ridp_verified": false
