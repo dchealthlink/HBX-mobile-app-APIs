@@ -1,0 +1,6 @@
+{
+  "Error": "Duplicate entry '1503631520334-150363152043-household1' for key 'PRIMARY'",
+  "Location": "application_household",
+  "applId": "1503631520334",
+  "determinationtype": "mobile-internal"
+}

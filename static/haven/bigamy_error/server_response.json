@@ -1,5 +1,5 @@
 {
-  "eaid": "636592130550297",
+  "eaid": "082420172324001",
   "error": {
     "type": "InvalidApplicantRelationshipError",
     "source_eapersonid": "738490293849598",
@@ -7,6 +7,6 @@
       "738490293892835",
       "738490293873810"
     ],
-    "message": "Jonathan Bate has listed Regina Bate and Eric Bate as spouses. An individual may only list one spouse."
+    "message": "It seems one of your applicants has listed two spouses. An individual may only list one spouse."
   }
 }
