@@ -191,7 +191,7 @@
     }
   ],
   "Attestation": {
-    "eaid": "080920171129005",
+    "eaid": "082420172255001",
     "appyear": "2017",
     "statecd": "DC",
     "name": "SAMPLE-HAVEN-APPLICATION",
@@ -201,6 +201,7 @@
     "determinationtype": "mobile-internal",
     "taxreturninfo":"Y",
     "voterregistration": "Y",
+    "medicaidauth": "Y",
     "renewalauth": "Y",
     "reportauth": "Y",
     "medicaidadditionalinsuranceauth": "Y",

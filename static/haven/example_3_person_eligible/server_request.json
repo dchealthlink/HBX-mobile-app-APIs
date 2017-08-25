@@ -1,5 +1,5 @@
 {
-  "eaid": "080920171129005",
+  "eaid": "082420172255001",
   "statecd": "DC",
   "appyear": "2017",
   "name": "SAMPLE-HAVEN-APPLICATION",
@@ -9,6 +9,7 @@
   "determinationtype": "mobile-internal",
   "taxreturninfo":"Y",
   "voterregistration": "Y",
+  "medicaidauth": "Y",
   "renewalauth": "Y",
   "reportauth": "Y",
   "medicaidadditionalinsuranceauth": "Y",

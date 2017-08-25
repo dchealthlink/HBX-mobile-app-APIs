@@ -249,6 +249,7 @@
     "motivationtype": "MT26301",
     "applicationsource": "electronic",
     "determinationtype": "mobile-internal",
+    "medicaidauth": "Y",
     "taxreturninfo":"Y",
     "voterregistration": "Y",
     "renewalauth": "Y",

@@ -72,7 +72,7 @@
           "postalcode": "20001",
           "preferredaddress": "y"
         }
-      ],
+      ]
     }
   ],
   "Relationship": [
@@ -83,17 +83,25 @@
     }
   ],
   "Attestation": {
-    "eaid": "636592130550297",
+    "eaid": "082420172304001",
     "statecd": "DC",
     "appyear": "2017",
-    "name": "00001-170206-1",
-    "status": "Pending",
-    "applicantType": "user and/or family",
+    "name": "SAMPLE-HAVEN-APPLICATION",
+    "applicanttype": "user and/or family",
     "motivationtype": "MT26301",
     "applicationsource": "electronic",
     "determinationtype": "mobile-internal",
+    "taxreturninfo": "Y",
+    "voterregistration": "Y",
     "medicaidauth": "Y",
     "renewalauth": "Y",
-    "submitauth": "Y"
+    "reportauth": "Y",
+    "medicaidadditionalinsuranceauth": "Y",
+    "childsupportagencyauth": "Y",
+    "submitauth": "Y",
+    "attestauth": "Y",
+    "medicaiddhsreviewauth": "Y",
+    "esignaturefirstname": "Donald",
+    "esignaturelastname": "Turmp"
   }
 }

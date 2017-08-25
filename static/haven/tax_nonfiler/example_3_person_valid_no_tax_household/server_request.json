@@ -1,9 +1,8 @@
 {
-  "eaid": "636592130550297",
+  "eaid": "082420172309003",
   "statecd": "DC",
   "appyear": "2017",
   "name": "00001-170206-1",
-  "status": "Pending",
   "applicantType": "user and/or family",
   "motivationtype": "MT26301",
   "applicationsource": "electronic",
@@ -85,7 +84,7 @@
           "postalcode": "20001",
           "preferredaddress": "y"
         }
-      ],
+      ]
     },
     {
       "eapersonid": "3647859827",
@@ -122,24 +121,24 @@
           "postalcode": "20001",
           "preferredaddress": "y"
         }
-      ],
+      ]
     }
   ],
   "ApplicationRelationship": [
     {
       "eapersonid": "1789278390",
       "relationship": "parent",
-      "cross_eapersonid": "0192873645",
+      "cross_eapersonid": "0192873645"
     },
     {
       "eapersonid": "1789278390",
       "relationship": "spouse",
-      "cross_eapersonid": "3647859827",
+      "cross_eapersonid": "3647859827"
     },
     {
       "eapersonid": "0192873645",
       "relationship": "child",
-      "cross_eapersonid": "3647859827",
+      "cross_eapersonid": "3647859827"
     }
   ],
   "PhysicalHousehold": [
@@ -153,7 +152,7 @@
     },
     {
       "householdid": "household1",
-      "eapersonid": "3647859827",
+      "eapersonid": "3647859827"
     }
   ],
   "TaxHousehold": [
@@ -163,7 +162,7 @@
       "filer_type": "Filers"
     },
     {
-      "tax_no": "1",
+      "tax_no": "2",
       "eapersonid": "0192873645",
       "filer_type": "Filers"
     }

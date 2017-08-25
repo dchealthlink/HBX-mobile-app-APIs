@@ -1,0 +1,20 @@
+{
+  "eaid": "082420172304001",
+  "dhs_review_initiated": true,
+  "ineligible_for_coverage": [],
+  "eligible_for_medicaid": [
+    {
+      "eapersonid": "1789278390",
+      "personfirstname": "Donald",
+      "personlastname": "Turmp",
+      "persondob": "1969-08-08"
+    },
+    {
+      "eapersonid": "192873645",
+      "personfirstname": "Jessica",
+      "personlastname": "Turmp",
+      "persondob": "1971-09-09",
+    }
+  ],
+  "eligible_for_qhp": []
+}

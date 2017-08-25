@@ -8,6 +8,7 @@
   "applicationsource": "electronic",
   "determinationtype": "mobile-internal",
   "comments": "one each UQHP, APTC, Medicaid-eligible, and one total ineligibility",
+  "medicaidauth": "Y",
   "taxreturninfo":"Y",
   "voterregistration": "Y",
   "renewalauth": "Y",

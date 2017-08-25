@@ -1,3 +1,172 @@
 {
-  "Error": "149686372230 and 149686372287 have inconsistent relationships to 149686372291"
+  "eaid": "082420170937001",
+  "applid": "1503581865017",
+  "statecd": "DC",
+  "appyear": "2017",
+  "name": "00001-170206-1",
+  "status": "Submitted",
+  "applicanttype": "user and/or family",
+  "motivationtype": "MT26301",
+  "applicationsource": "electronic",
+  "determinationtype": "Internal",
+  "Person": [
+    {
+      "personid": "150358186536",
+      "eapersonid": "1007",
+      "isapplicant": "Y",
+      "personfirstname": "A",
+      "personlastname": "Person",
+      "persondob": "1980-01-01",
+      "personssn": "198001010",
+      "gender": "M",
+      "preferredcontactmethod": "email",
+      "preferredlanguage": "english",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "isotherclaimed": "N",
+      "istaxrequired": "Y",
+      "citizen_status": "US",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 H St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "y"
+        }
+      ]
+    },
+    {
+      "personid": "150358186574",
+      "eapersonid": "1008",
+      "isapplicant": "Y",
+      "personfirstname": "B",
+      "personlastname": "Person",
+      "persondob": "1980-02-02",
+      "personssn": "198002020",
+      "gender": "F",
+      "preferredcontactmethod": "email",
+      "preferredlanguage": "english",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "isotherclaimed": "N",
+      "istaxrequired": "Y",
+      "citizen_status": "US",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 H St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "y"
+        }
+      ]
+    },
+    {
+      "personid": "150358186559",
+      "eapersonid": "1009",
+      "isapplicant": "Y",
+      "personfirstname": "C",
+      "personlastname": "Person",
+      "persondob": "2000-02-02",
+      "personssn": "200002020",
+      "gender": "F",
+      "preferredcontactmethod": "email",
+      "preferredlanguage": "english",
+      "isdisabled": "N",
+      "isstudent": "N",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "islast3pregnant": "N",
+      "isformerfoster": "N",
+      "isuscitizen": "Y",
+      "isinsured": "N",
+      "isotherclaimed": "Y",
+      "istaxrequired": "N",
+      "citizen_status": "US",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 H St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "y"
+        }
+      ]
+    }
+  ],
+  "PhysicalHousehold": [
+    {
+      "householdid": "household1",
+      "personid": "150358186536"
+    },
+    {
+      "householdid": "household1",
+      "personid": "150358186559"
+    },
+    {
+      "householdid": "household1",
+      "personid": "150358186574"
+    }
+  ],
+  "TaxHousehold": [
+    {
+      "tax_no": "1",
+      "personid": "150358186536",
+      "filer_type": "Filers"
+    },
+    {
+      "tax_no": "1",
+      "personid": "150358186559",
+      "filer_type": "Dependents"
+    },
+    {
+      "tax_no": "1",
+      "personid": "150358186574",
+      "filer_type": "Filers"
+    }
+  ],
+  "ApplicationRelationship": [
+    {
+      "personid": "150358186536",
+      "relationship": "child",
+      "cross_personid": "150358186559"
+    },
+    {
+      "personid": "150358186536",
+      "relationship": "parent",
+      "cross_personid": "150358186574"
+    },
+    {
+      "personid": "150358186574",
+      "relationship": "parent",
+      "cross_personid": "150358186559"
+    }
+  ],
+  "PDC": [
+    {
+      "Error": "150358186536 and 150358186559 have inconsistent relationships to 150358186574"
+    }
+  ]
 }

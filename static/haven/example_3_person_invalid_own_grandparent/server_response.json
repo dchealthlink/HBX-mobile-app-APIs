@@ -1,0 +1,7 @@
+{
+  "eaid": "082420170937001",
+  "error": {
+    "type": "inconsistentRelationshipError",
+    "message": "It seems some of your applicants have inconsistent relationships with each other. Please review your relationship choices."
+  }
+}

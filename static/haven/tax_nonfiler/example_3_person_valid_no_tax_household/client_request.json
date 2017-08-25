@@ -72,7 +72,7 @@
           "postalcode": "20001",
           "preferredaddress": "y"
         }
-      ],
+      ]
     },
     {
       "eapersonid": "3647859827",
@@ -109,7 +109,7 @@
           "postalcode": "20001",
           "preferredaddress": "y"
         }
-      ],
+      ]
     }
   ],
   "Relationship": [
@@ -128,11 +128,10 @@
     }
   ],
   "Attestation": {
-    "eaid": "636592130550297",
+    "eaid": "082420172309003",
     "statecd": "DC",
     "appyear": "2017",
     "name": "00001-170206-1",
-    "status": "Pending",
     "applicantType": "user and/or family",
     "motivationtype": "MT26301",
     "applicationsource": "electronic",

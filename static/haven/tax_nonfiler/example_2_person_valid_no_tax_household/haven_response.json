@@ -1,30 +1,22 @@
 {
   "eaid": "082420172304001",
+  "applid": "1503630339408",
   "statecd": "DC",
   "appyear": "2017",
   "name": "SAMPLE-HAVEN-APPLICATION",
+  "status": "Submitted",
   "applicanttype": "user and/or family",
   "motivationtype": "MT26301",
   "applicationsource": "electronic",
-  "determinationtype": "mobile-internal",
-  "taxreturninfo": "Y",
-  "voterregistration": "Y",
-  "medicaidauth": "Y",
-  "renewalauth": "Y",
-  "reportauth": "Y",
-  "medicaidadditionalinsuranceauth": "Y",
-  "childsupportagencyauth": "Y",
-  "submitauth": "Y",
-  "attestauth": "Y",
-  "medicaiddhsreviewauth": "Y",
+  "determinationtype": "Internal",
   "Person": [
     {
+      "personid": "150363033914",
       "eapersonid": "1789278390",
+      "isapplicant": "Y",
       "personfirstname": "Donald",
       "personlastname": "Turmp",
-      "isapplicant": "Y",
       "persondob": "1969-08-08",
-      "isssntrue": "Y",
       "personssn": "196908081",
       "gender": "F",
       "preferredcontactmethod": "email",
@@ -32,17 +24,17 @@
       "isdisabled": "N",
       "isstudent": "N",
       "ismedicareentitled": "N",
+      "istempoos": "N",
       "isincarcerated": "N",
       "isstateresident": "Y",
-      "istempoos": "N",
-      "nofixedaddress": "N",
       "islast3pregnant": "N",
+      "nofixedaddress": "N",
       "isformerfoster": "N",
       "isuscitizen": "Y",
       "isinsured": "N",
-      "citizen_status": "US",
-      "istaxrequired": "N",
       "isotherclaimed": "N",
+      "istaxrequired": "N",
+      "citizen_status": "US",
       "Address": [
         {
           "addresstype": "home",
@@ -56,12 +48,12 @@
       ]
     },
     {
-      "eapersonid": "0192873645",
+      "personid": "150363033943",
+      "eapersonid": "192873645",
+      "isapplicant": "Y",
       "personfirstname": "Jessica",
       "personlastname": "Turmp",
-      "isapplicant": "Y",
       "persondob": "1971-09-09",
-      "isssntrue": "Y",
       "personssn": "197109091",
       "gender": "M",
       "preferredcontactmethod": "email",
@@ -69,17 +61,17 @@
       "isdisabled": "N",
       "isstudent": "N",
       "ismedicareentitled": "N",
+      "istempoos": "N",
       "isincarcerated": "N",
       "isstateresident": "Y",
-      "istempoos": "N",
-      "nofixedaddress": "N",
       "islast3pregnant": "N",
+      "nofixedaddress": "N",
       "isformerfoster": "N",
       "isuscitizen": "Y",
       "isinsured": "N",
-      "citizen_status": "US",
-      "istaxrequired": "Y",
       "isotherclaimed": "N",
+      "istaxrequired": "Y",
+      "citizen_status": "US",
       "Address": [
         {
           "addresstype": "home",
@@ -93,28 +85,48 @@
       ]
     }
   ],
-  "ApplicationRelationship": [
-    {
-      "eapersonid": "1789278390",
-      "relationship": "spouse",
-      "cross_eapersonid": "0192873645"
-    }
-  ],
   "PhysicalHousehold": [
     {
       "householdid": "household1",
-      "eapersonid": "1789278390"
+      "personid": "150363033914"
     },
     {
       "householdid": "household1",
-      "eapersonid": "0192873645"
+      "personid": "150363033943"
     }
   ],
   "TaxHousehold": [
     {
       "tax_no": "1",
-      "eapersonid": "0192873645",
+      "personid": "150363033943",
       "filer_type": "Filers"
+    }
+  ],
+  "ApplicationRelationship": [
+    {
+      "personid": "150363033914",
+      "relationship": "spouse",
+      "cross_personid": "150363033943"
+    }
+  ],
+  "PDC": [
+    {
+      "pdcrefnum": "22758681",
+      "producttype": "Medicaid",
+      "status": "A",
+      "numperson": "2",
+      "primarypersonid": "150363033914",
+      "resultid": "1",
+      "person": [
+        {
+          "personid": "150363033914",
+          "status": "A"
+        },
+        {
+          "personid": "150363033943",
+          "status": "A"
+        }
+      ]
     }
   ]
 }

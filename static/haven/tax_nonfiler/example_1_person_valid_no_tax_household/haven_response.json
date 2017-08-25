@@ -1,30 +1,22 @@
 {
   "eaid": "082420172255001",
+  "applid": "1503630080071",
   "statecd": "DC",
   "appyear": "2017",
   "name": "SAMPLE-HAVEN-APPLICATION",
+  "status": "Submitted",
   "applicanttype": "user and/or family",
   "motivationtype": "MT26301",
   "applicationsource": "electronic",
-  "determinationtype": "mobile-internal",
-  "taxreturninfo":"Y",
-  "voterregistration": "Y",
-  "medicaidauth": "Y",
-  "renewalauth": "Y",
-  "reportauth": "Y",
-  "medicaidadditionalinsuranceauth": "Y",
-  "childsupportagencyauth": "Y",
-  "submitauth": "Y",
-  "attestauth": "Y",
-  "medicaiddhsreviewauth": "Y",
+  "determinationtype": "Internal",
   "Person": [
     {
+      "personid": "150363008013",
       "eapersonid": "849588384759",
       "isapplicant": "Y",
       "personfirstname": "Tim",
       "personlastname": "Jones",
       "persondob": "1975-01-01",
-      "isssntrue": "Y",
       "personssn": "197501010",
       "gender": "M",
       "preferredcontactmethod": "Email",
@@ -51,44 +43,29 @@
           "postalcode": "20001",
           "preferredaddress": "Y"
         }
-      ],
-      "nonESI": [
-        {
-          "insurancetype": "peco",
-          "startdate": "2017-01-01",
-          "enddate": "2017-12-31"
-        }
-      ],
-      "ESI": [
-        {
-          "insurancetype": "esi",
-          "startdate": "2018-01-01",
-          "enddate": "2018-12-31"
-        }
-      ],
-      "Income": [
-        {
-          "incometype": "wages",
-          "paymentfrequency": "1",
-          "incomeamount": "50000"
-        }
-      ],
-      "Deduction": [
-        {
-          "incometype": "selfEmployInsDeductions",
-          "incomeamount": "500"
-        }
       ]
     }
   ],
   "PhysicalHousehold": [
     {
       "householdid": "household1",
-      "eapersonid": "849588384759"
+      "personid": "150363008013"
     }
   ],
-  "TaxHousehold": [
-  ],
-  "ApplicationRelationship": [
+  "PDC": [
+    {
+      "pdcrefnum": "68380480",
+      "producttype": "Medicaid",
+      "status": "A",
+      "numperson": "1",
+      "primarypersonid": "150363008013",
+      "resultid": "1",
+      "person": [
+        {
+          "personid": "150363008013",
+          "status": "A"
+        }
+      ]
+    }
   ]
 }

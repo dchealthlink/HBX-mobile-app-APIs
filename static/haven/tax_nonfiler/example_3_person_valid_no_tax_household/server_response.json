@@ -1,0 +1,27 @@
+{
+  "eaid": "082420172309003",
+  "dhs_review_initiated": true,
+  "ineligible_for_coverage": [],
+  "eligible_for_medicaid": [
+    {
+      "eapersonid": "192873645",
+      "personfirstname": "Roger",
+      "personlastname": "Ackroyd",
+      "persondob": "1975-09-09"
+    },
+    {
+      "eapersonid": "3647859827",
+      "personfirstname": "Gina",
+      "personlastname": "Ackroyd",
+      "persondob": "1952-09-09"
+    }
+  ],
+  "eligible_for_qhp": [
+    {
+      "eapersonid": "1789278390",
+      "personfirstname": "Daniel",
+      "personlastname": "Ackroyd",
+      "persondob": "1950-08-08"
+    }
+  ]
+}
