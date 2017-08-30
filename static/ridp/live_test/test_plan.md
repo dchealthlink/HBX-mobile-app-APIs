@@ -18,23 +18,31 @@ Turn on RIDP testing at the ESB
   - capture [the response XML](https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/static/ridp/live_test/valid_answers/soap.response.xml)
 - send the second [XML payload](https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/static/ridp/live_test/valid_answers/soap.answers.request.xml) with answers to the ESB via rails console
   - make sure it appears on the ESB
-  - capture [the response XML](TODO link: valid_answers/soap_response_answers.xml)
+  - capture [the response XML](https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/static/ridp/live_test/valid_answers/soap.response.answers.xml)
   - send the [JSON payload](https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/static/ridp/live_test/valid_answers/converted.request.json) to the ESB via rails console, using the enroll_mobile_api code to convert it to JSON
-  - make sure it appears on the ESB
-  - make sure [the response XML](https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/static/ridp/live_test/valid_answers/soap.response.xml) is the same
-  [TODO : the same for JSON ]
+    - make sure it appears on the ESB
+    - make sure [the response XML](https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/static/ridp/live_test/valid_answers/soap.response.xml) is the same
+  - send the [JSON payload](https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/static/ridp/live_test/valid_answers/converted.answers.request.json) with answers to the ESB via rails console
+    - make sure it appears on the ESB
+    - make sure [the response XML](https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/static/ridp/live_test/valid_answers/soap.response.answers.xml) is the same
   
 ## Test Case 3: [wrong_answers](https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/static/ridp/live_test/wrong_answers)
 - send the first [XML payload](https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/static/ridp/live_test/wrong_answers/soap.request.xml) with PII to the ESB via rails console
   - make sure it appears on the ESB
-  - capture [the response XML]()
+  - capture [the response XML](https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/static/ridp/live_test/wrong_answers/soap.response.xml)
 - send the second [XML payload](https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/static/ridp/live_test/wrong_answers/soap.answers.request.xml) with answers to the ESB via rails console
   - make sure it appears on the ESB
-  - capture [the response XML](TODO link: wrong_answers/soap.response.answers.xml)
+  - capture [the response XML](https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/static/ridp/live_test/wrong_answers/soap.response.answers.xml)
 - capture the transaction id from the second response
 - send the third [XML payload](https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/static/ridp/live_test/wrong_answers/soap.override.request.xml) with the transactionid to the ESB via rails console
-(TODO...)
-
-
-
-
+  - make sure it appears on the ESB
+  - capture [the response XML](https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/static/ridp/live_test/wrong_answers/soap.override.response.xml)
+- send the [JSON payload](https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/static/ridp/live_test/wrong_answers/converted.request.json) to the ESB via rails console, using the enroll_mobile_api code to convert it to JSON
+  - make sure it appears on the ESB
+  - make sure [the response XML](https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/static/ridp/live_test/wrong_answers/soap.response.xml) is the same
+- send the [JSON payload](https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/static/ridp/live_test/wrong_answers/converted.answers.request.json) with answers to the ESB via rails console, using the enroll_mobile_api code to convert it to JSON
+  - make sure it appears on the ESB
+  - make sure [the response XML](https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/static/ridp/live_test/wrong_answers/soap.response.answers.xml) is the same
+- send the third [JSON payload](https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/static/ridp/live_test/wrong_answers/converted.override.request.json) with the transactionid to the ESB via rails console
+  - make sure it appears on the ESB
+  - make sure [the response XML](https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/static/ridp/live_test/wrong_answers/soap.override.response.xml) is the same
