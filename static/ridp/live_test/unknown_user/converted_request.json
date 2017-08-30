@@ -1,18 +1,18 @@
 {
   "person": {
     "person_name": {
-      "person_surname": "Rashid",
-      "person_given_name": "Erin"
+      "person_surname": "Notarealuser",
+      "person_given_name": "Schmeggeggee"
     },
     "addresses": [
       {
         "address": {
           "type": "home",
-          "address_line_1": "302 E ADAMS ST",
+          "address_line_1": "302 E UNREAL ST",
           "address_line_2": "",
-          "location_city_name": "PITTSBURG",
-          "location_state_code": "KS",
-          "postal_code": "66762"
+          "location_city_name": "HOGWARTS",
+          "location_state_code": "UK",
+          "postal_code": "99999"
         }
       }
     ],
@@ -34,9 +34,10 @@
     ]
   },
   "person_demographics": {
-    "ssn": "666024882",
+    "ssn": "010101010",
     "sex": "male",
-    "birth_date": "19631008",
+    "birth_date": "19000202",
+    "is_incarcerated": true,
     "created_at": "2017-08-18T18:18:25Z",
     "modified_at": "2017-08-23T19:41:26Z"
   }
