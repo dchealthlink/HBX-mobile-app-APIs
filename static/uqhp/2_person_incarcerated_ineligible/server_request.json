@@ -1,4 +1,18 @@
 {
+  "eaid": "876544930278011",
+  "statecd": "DC",
+  "appyear": "2017",
+  "name": "SAMPLE-HAVEN-APPLICATION",
+  "status": "Pending",
+  "applicanttype": "user and-or family",
+  "motivationtype": "MT26301",
+  "applicationsource": "electronic",
+  "determinationtype": "mobile-uqhp",
+  "voterregistration": "Y",
+  "eligchangeauth": "Y",
+  "uqhpattestauth": "Y",
+  "esignaturefirstname": "Skip",
+  "esignaturelastname": "Valentine"
   "Person": [
     {
       "Address": [
@@ -61,25 +75,11 @@
       "eligible_for_qhp": false
     }
   ],
-  "Relationship": [
+  "ApplicationRelationship": [
     {
-      "applicationrelationship": "spouse"
-    }
-  ],
-  "Attestation": {
-    "eaid": "876544930278011",
-    "statecd": "DC",
-    "appyear": "2017",
-    "name": "SAMPLE-HAVEN-APPLICATION",
-    "status": "Pending",
-    "applicanttype": "user and-or family",
-    "motivationtype": "MT26301",
-    "applicationsource": "electronic",
-    "determinationtype": "mobile-internal",
-    "voterregistration": "Y",
-    "eligchangeauth": "Y",
-    "uqhpattestauth": "Y",
-    "esignaturefirstname": "Skip",
-    "esignaturelastname": "Valentine"
-  }
+      "eapersonid": "849588384759",
+      "relationship": "Spouse",
+      "cross_eapersonid": "849588389839"
+    },
+  ]
 }
