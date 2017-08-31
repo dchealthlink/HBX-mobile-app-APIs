@@ -1,0 +1,85 @@
+{
+  "Person": [
+    {
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ],
+      "eapersonid": "849588384759",
+      "isapplicant": "Y",
+      "personfirstname": "Skip",
+      "personlastname": "Valentine",
+      "persondob": "1975-01-01",
+      "isssntrue": "Y",
+      "personssn": "197501010",
+      "gender": "M",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "isuscitizen": "Y",
+      "citizen_status": "US",
+      "eligible_for_qhp": true
+    },
+    {
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ],
+      "eapersonid": "849588389839",
+      "isapplicant": "Y",
+      "personfirstname": "Gina",
+      "personlastname": "Valentine",
+      "persondob": "1979-01-01",
+      "isssntrue": "Y",
+      "personssn": "197901010",
+      "gender": "M",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "isincarcerated": "Y",
+      "isincarceratedpending": "N",
+      "incarceratedstartdate": "01-01-2017",
+      "isreleasedateknown": "N",
+      "isincarceratedinstate": "Y",
+      "isstateresident": "Y",
+      "isuscitizen": "Y",
+      "citizen_status": "US",
+      "eligible_for_qhp": false
+    }
+  ],
+  "Relationship": [
+    {
+      "applicationrelationship": "spouse"
+    }
+  ],
+  "Attestation": {
+    "eaid": "876544930278011",
+    "statecd": "DC",
+    "appyear": "2017",
+    "name": "SAMPLE-HAVEN-APPLICATION",
+    "status": "Pending",
+    "applicanttype": "user and-or family",
+    "motivationtype": "MT26301",
+    "applicationsource": "electronic",
+    "determinationtype": "mobile-internal",
+    "voterregistration": "Y",
+    "eligchangeauth": "Y",
+    "uqhpattestauth": "Y",
+    "esignaturefirstname": "Skip",
+    "esignaturelastname": "Valentine"
+  }
+}
