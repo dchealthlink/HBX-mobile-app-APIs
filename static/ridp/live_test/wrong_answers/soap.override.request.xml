@@ -1,9 +1,3 @@
-<soapenv:Envelope xmlns:ns=“http://openhbx.org/api/terms/1.0” xmlns:soapenv=“http://schemas.xmlsoap.org/soap/envelope/“>
-  <soapenv:Header>
-  </soapenv:Header>
-  <soapenv:Body>
-     <ns:interactive_verification_override_request>
+     <ns:interactive_verification_override_request xmlns:ns=“http://openhbx.org/api/terms/1.0”>
         <ns:transaction_id>TRANSACTIONID</ns:transaction_id>
      </ns:interactive_verification_override_request>
-  </soapenv:Body>
-</soapenv:Envelope>
