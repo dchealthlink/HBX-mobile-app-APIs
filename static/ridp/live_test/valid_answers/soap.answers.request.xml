@@ -1,4 +1,4 @@
-     <ns:interactive_verification_question_response xmlns:ns=“http://openhbx.org/api/terms/1.0”>
+     <ns:interactive_verification_question_response xmlns:ns="http://openhbx.org/api/terms/1.0">
         <ns:session_id>SESSIONID</ns:session_id>
         <ns:transaction_id>TRANSACTIONID</ns:transaction_id>
         <!--1 or more repetitions:-->
