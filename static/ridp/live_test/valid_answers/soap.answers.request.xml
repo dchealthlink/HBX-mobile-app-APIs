@@ -1,11 +1,6 @@
-<soapenv:Envelope xmlns:ns=“http://openhbx.org/api/terms/1.0” xmlns:soapenv=“http://schemas.xmlsoap.org/soap/envelope/“>
-  <soapenv:Header>
-     
-  </soapenv:Header>
-  <soapenv:Body>
-     <ns:interactive_verification_question_response>
-        <ns:session_id>98B9100CE72244D6E4DD21E1D3B9C273.pidd1v-1303061644420210129077184</ns:session_id>
-        <ns:transaction_id>7871-42-2f5c</ns:transaction_id>
+     <ns:interactive_verification_question_response xmlns:ns=“http://openhbx.org/api/terms/1.0”>
+        <ns:session_id>SESSIONID</ns:session_id>
+        <ns:transaction_id>TRANSACTIONID</ns:transaction_id>
         <!--1 or more repetitions:-->
         <ns:question_response>
            <ns:question_id>1</ns:question_id>
@@ -36,5 +31,3 @@
            </ns:answer>
         </ns:question_response>
      </ns:interactive_verification_question_response>
-  </soapenv:Body>
-</soapenv:Envelope>

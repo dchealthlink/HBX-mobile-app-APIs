@@ -1,0 +1,29 @@
+{
+    "enrollments": [
+        {
+            "start_on": "2017-04-01",
+            "health": {
+                "health_link_id": "827657",
+                "hbx_enrollment_id": "59a9637aafc98246e3000009",
+                "status": "Enrolled",
+                "plan_name": "KP DC STANDARD Bronze 5000/50/Dental/Ped Dental",
+                "plan_type": "hmo",
+                "metal_level": "bronze",
+                "total_premium": 224.32,
+                "elected_aptc_pct": 0,
+                "applied_aptc_amount_in_cents": 0,
+                "carrier_name": "Kaiser",
+                "carrier_logo": "/assets/logo/carrier/kaiser-63900cee003506c33dc3eff1fa8e94d2.jpg",
+                "summary_of_benefits_url": "/document/download/dchbx-enroll-sbc-preprod/a70869ab-d179-4ddd-83bb-f74849102058?content_type=application/pdf&filename=KPDCSTANDARDBronze500050DentalPedDental.pdf&disposition=inline",
+                "deductible": "$5,000",
+                "family_deductible": "$5000 per person | $10000 per group",
+                "provider_directory_url": "http://mydoctor.kaiserpermanente.org/mas/mdo/?kp_shortcut_referrer=kp.org/doctor",
+                "rx_formulary_url": "https://healthy.kaiserpermanente.org/static/health/pdfs/formulary/mid/mid_exchange_formulary.pdf",
+                "services_rates_url": "/api/v1/mobile/services_rates?hios_id=94506DC0390007-01&active_year=2017&coverage_kind=health"
+            },
+            "dental": {
+                "status": "Not Enrolled"
+            }
+        }
+    ]
+}
