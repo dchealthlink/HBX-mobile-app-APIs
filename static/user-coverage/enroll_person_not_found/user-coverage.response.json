@@ -1,0 +1,6 @@
+{
+    "error": {
+        "type": "GenericHBXError",
+        "message": "person was not found"
+    }
+}
