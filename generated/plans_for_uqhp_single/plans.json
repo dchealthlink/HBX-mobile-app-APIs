@@ -46,7 +46,7 @@
     "minimum_age": 20,
     "name": "BlueChoice HMO Standard Gold $500",
     "nationwide": false,
-    "plan_type": "hmo",
+    "plan_type": "HMO",
     "provider": "",
     "links": {
       "provider_directory": "https://member.carefirst.com/mos/#/fadpublic/search/standard?sType=M&planCode=DC_CC3&planName=BlueChoice%20HMO&isNational=N",
