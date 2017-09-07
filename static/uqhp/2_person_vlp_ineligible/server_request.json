@@ -1,5 +1,5 @@
 {
-  "eaid": "876544930278011",
+    "eaid": "876544930278011",
     "statecd": "DC",
     "appyear": "2017",
     "name": "SAMPLE-HAVEN-APPLICATION",
@@ -7,7 +7,7 @@
     "applicanttype": "user and-or family",
     "motivationtype": "MT26301",
     "applicationsource": "electronic",
-    "determinationtype": "mobile-internal",
+    "determinationtype": "mobile-uqhp-store",
     "voterregistration": "Y",
     "eligchangeauth": "Y",
     "uqhpattestauth": "Y",
@@ -30,6 +30,7 @@
       "isuscitizen": "N",
       "lawfullypresent": "N",
       "citizen_status": "NLP",
+      "eligible_for_qhp": "N",
       "Address": [
         {
           "addresstype": "home",
@@ -61,6 +62,7 @@
       "isstateresident": "Y",
       "isuscitizen": "Y",
       "citizen_status": "US",
+      "eligible_for_qhp": "Y",
       "Address": [
         {
           "addresstype": "home",
@@ -74,15 +76,11 @@
       ]
     }
   ],
-  "PhysicalHousehold": [
+  "ApplicationRelationship": [ 
     {
-      "householdid": "household1",
-      "eapersonid": "849588384759"
-    },
-    {
-      "householdid": "household1",
-      "eapersonid": "849588389839"
-    }],
-  "TaxHousehold": [],
-  "ApplicationRelationship": []
+      "eapersonid": "849588384759",
+      "relationship": "Spouse",
+      "cross_eapersonid": "849588389839"
+    }
+  ]
 }
