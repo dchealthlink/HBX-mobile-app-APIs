@@ -1,6 +1,3 @@
-     <soapenv:Envelope xmlns:soapenv=“http://schemas.xmlsoap.org/soap/envelope/” xmlns:ns=“http://openhbx.org/api/terms/1.0">
-  <soapenv:Header/>
-  <soapenv:Body>
      <ns:interactive_verification_start>
         <ns:individual>
            <ns:id>
@@ -44,5 +41,3 @@
            </ns:person_demographics>
         </ns:individual>
      </ns:interactive_verification_start>
-  </soapenv:Body>
-</soapenv:Envelope>
