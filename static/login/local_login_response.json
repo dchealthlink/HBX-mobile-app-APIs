@@ -1,9 +1,19 @@
 {
-    "uuid": "fe029350-6fb9-0135-bf8c-123fe20ecd78",
+    "uuid": "c1ef1790-5ae3-0135-9635-1232a5b27e8a",
     "_links": {
-        "haven_determination_url": "/haven-determination",
-        "uqhp_url": "/uqhp-determination",
-        "status_url": "/status",
-        "plan_choice_url": "/submit-plan-choice"
+        "post": {
+            "sign_up_url": "http://mobile2-integration-preprod.dchbx.org/sign-up",
+            "plan_choice_url": "http://mobile2-integration-preprod.dchbx.org/plan-choice",
+            "haven_determination_url": "http://mobile2-integration-preprod.dchbx.org/haven-determination",
+            "uqhp_determination_url": "http://mobile2-integration-preprod.dchbx.org/uqhp-determination"
+        },
+        "get": {
+            "logout_url": "http://mobile2-integration-preprod.dchbx.org/logout",
+            "status_url": "http://mobile2-integration-preprod.dchbx.org/status",
+            "user_coverage_url": "http://mobile2-integration-preprod.dchbx.org/user-coverage",
+            "is_deployed_url": "http://mobile2-integration-preprod.dchbx.org/is-deployed",
+            "haven_determination_url": "http://mobile2-integration-preprod.dchbx.org/haven-determination",
+            "uqhp_determination_url": "http://mobile2-integration-preprod.dchbx.org/uqhp-determination"
+        }
     }
 }
