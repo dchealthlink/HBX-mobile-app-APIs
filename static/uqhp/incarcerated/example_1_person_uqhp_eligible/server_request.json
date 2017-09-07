@@ -1,5 +1,5 @@
 {
-  "eaid": "876544930278011",
+  "eaid": "091020170921001",
   "statecd": "DC",
   "appyear": "2017",
   "name": "SAMPLE-HAVEN-APPLICATION",
@@ -8,50 +8,14 @@
   "motivationtype": "MT26301",
   "applicationsource": "electronic",
   "determinationtype": "mobile-internal",
-  "taxreturninfo":"Y",
   "voterregistration": "Y",
-  "medicaidauth": "Y",
-  "renewalauth": "Y",
-  "reportauth": "Y",
-  "medicaidadditionalinsuranceauth": "Y",
-  "childsupportagencyauth": "Y",
-  "submitauth": "Y",
-  "attestauth": "Y",
-  "medicaiddhsreviewauth": "Y",
+      "eligchangeauth": "Y",
+      "uqhpattestauth": "Y",
+      "esignaturefirstname": "Tim",
+      "esignaturelastname": "Jones",
   "Person": [
     {
-      "Address": [
-        {
-          "addresstype": "home",
-          "streetaddress1": "101 Great Jones St",
-          "streetaddress2": "apt 1",
-          "city": "Washington",
-          "statecd": "DC",
-          "postalcode": "20001",
-          "preferredaddress": "Y"
-        }
-      ],
-      "nonESI": [
-        {
-          "insurancetype": "peco",
-          "startdate": "2017-01-01",
-          "enddate": "2017-12-31"
-        }
-      ],
-      "Income": [
-        {
-          "incometype": "wages",
-          "paymentfrequency": "1",
-          "incomeamount": "50000"
-        }
-      ],
-      "Deduction": [
-        {
-          "incometype": "selfEmployInsDeductions",
-          "incomeamount": "500"
-        }
-      ],
-      "eapersonid": "849588384759",
+      "eapersonid": "091020170923001",
       "isapplicant": "Y",
       "personfirstname": "Tim",
       "personlastname": "Jones",
@@ -78,22 +42,48 @@
       "isinsured": "N",
       "isotherclaimed": "N",
       "istaxrequired": "Y",
-      "citizen_status": "US"
+      "citizen_status": "US",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ],
+      "Insurance": [
+        {
+          "insurancetype": "peco",
+          "startdate": "2017-01-01",
+          "enddate": "2017-12-31"
+        }
+      ],
+      "Income": [
+        {
+          "incometype": "wages",
+          "paymentfrequency": "1",
+          "incomeamount": "50000"
+        }
+      ],
+      "Deduction": [
+        {
+          "incometype": "selfEmployInsDeductions",
+          "incomeamount": "500"
+        }
+      ]
+      
     }
   ],
   "PhysicalHousehold": [
     {
       "householdid": "household1",
-      "eapersonid": "849588384759"
+      "eapersonid": "091020170923001"
     }
   ],
-  "TaxHousehold": [
-    {
-      "tax_no": "1",
-      "eapersonid": "849588384759",
-      "filer_type": "Filers"
-    }
-  ],
+  "TaxHousehold": [],
   "ApplicationRelationship": [
   ]
 }

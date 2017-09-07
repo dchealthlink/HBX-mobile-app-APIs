@@ -1,0 +1,12 @@
+{
+  "eaid": "091020170921001",
+  "ineligible_for_coverage": [],
+  "eligible_for_qhp": [
+    {
+      "eapersonid": "091020170923001",
+      "personfirstname": "Tim",
+      "personlastname": "Jones",
+      "persondob": "1975-01-01"
+    }
+  ]
+}
