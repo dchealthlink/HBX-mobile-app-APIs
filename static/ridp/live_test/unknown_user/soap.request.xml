@@ -19,9 +19,9 @@
                     <ns:type>urn:openhbx:terms:v1:address_type#home</ns:type>
                     <ns:address_line_1>302 E UNREAL ST</ns:address_line_1>
                     <ns:address_line_2/>
-                    <ns:location_city_name>HOGWARTS</ns:location_city_name>
-                    <ns:location_state_code>UK</ns:location_state_code>
-                    <ns:postal_code>99999</ns:postal_code>
+                    <ns:location_city_name>LAWRENCE</ns:location_city_name>
+                    <ns:location_state_code>KS</ns:location_state_code>
+                    <ns:postal_code>66762</ns:postal_code>
                     <!--Optional:-->
                     <ns:location_postal_extension_code>5406</ns:location_postal_extension_code>
                  </ns:address>
