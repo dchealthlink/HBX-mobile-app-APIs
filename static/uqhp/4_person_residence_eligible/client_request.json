@@ -1,17 +1,6 @@
 {
   "Person": [
     {
-      "Address": [
-        {
-          "addresstype": "home",
-          "streetaddress1": "101 Great Jones St",
-          "streetaddress2": "apt 1",
-          "city": "Washington",
-          "statecd": "DC",
-          "postalcode": "20001",
-          "preferredaddress": "Y"
-        }
-      ],
       "eapersonid": "849588384759",
       "isapplicant": "Y",
       "personfirstname": "Goneril",
@@ -29,20 +18,20 @@
       "istempoos": "N",
       "nofixedaddress": "N",
       "isuscitizen": "Y",
-      "citizen_status": "US"
-    },
-    {
+      "citizen_status": "US",
       "Address": [
         {
           "addresstype": "home",
-          "streetaddress1": "9909 Foxborough Circle",
-          "streetaddress2": "-",
-          "city": "Rockville",
-          "statecd": "MD",
-          "postalcode": "20850",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
           "preferredaddress": "Y"
         }
-      ],
+      ]
+    },
+    {
       "eapersonid": "849588389839",
       "isapplicant": "Y",
       "personfirstname": "Regan",
@@ -60,20 +49,20 @@
       "istempoos": "Y",
       "nofixedaddress": "N",
       "isuscitizen": "Y",
-      "citizen_status": "US"
-    },
-    {
+      "citizen_status": "US",
       "Address": [
         {
-          "addresstype": "mail",
-          "streetaddress1": "PO Box 104",
-          "streetaddress2": "Planetarium Station",
+          "addresstype": "home",
+          "streetaddress1": "9909 Foxborough Circle",
+          "streetaddress2": "-",
           "city": "Washington",
           "statecd": "DC",
-          "postalcode": "20001",
+          "postalcode": "20850",
           "preferredaddress": "Y"
         }
-      ],
+      ]
+    },
+    {
       "eapersonid": "935588389839",
       "isapplicant": "Y",
       "personfirstname": "Cordelia",
@@ -91,20 +80,20 @@
       "istempoos": "N",
       "nofixedaddress": "Y",
       "isuscitizen": "Y",
-      "citizen_status": "US"
-    },
-    {
+      "citizen_status": "US",
       "Address": [
         {
-          "addresstype": "home",
-          "streetaddress1": "101 Great Jones St",
-          "streetaddress2": "apt 1",
+          "addresstype": "mail",
+          "streetaddress1": "PO Box 104",
+          "streetaddress2": "Planetarium Station",
           "city": "Washington",
           "statecd": "DC",
           "postalcode": "20001",
           "preferredaddress": "Y"
         }
       ],
+    },
+    {
       "eapersonid": "475893827364",
       "isapplicant": "Y",
       "personfirstname": "Edmund",
@@ -122,7 +111,18 @@
       "istempoos": "N",
       "nofixedaddress": "N",
       "isuscitizen": "Y",
-      "citizen_status": "US"
+      "citizen_status": "US",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ]
     }
   ],
   "Relationship": [

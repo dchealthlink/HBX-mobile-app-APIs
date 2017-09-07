@@ -1,17 +1,6 @@
 {
   "Person": [
     {
-      "Address": [
-        {
-          "addresstype": "home",
-          "streetaddress1": "101 Great Jones St",
-          "streetaddress2": "apt 1",
-          "city": "Washington",
-          "statecd": "DC",
-          "postalcode": "20001",
-          "preferredaddress": "Y"
-        }
-      ],
       "eapersonid": "849588384759",
       "isapplicant": "Y",
       "personfirstname": "Antonio",
@@ -26,9 +15,7 @@
       "isstateresident": "Y",
       "isuscitizen": "N",
       "lawfullypresent": "N",
-      "citizen_status": "NLP"
-    },
-    {
+      "citizen_status": "NLP",
       "Address": [
         {
           "addresstype": "home",
@@ -39,7 +26,9 @@
           "postalcode": "20001",
           "preferredaddress": "Y"
         }
-      ],
+      ]
+    },
+    {
       "eapersonid": "849588389839",
       "isapplicant": "Y",
       "personfirstname": "Duchess",
@@ -57,7 +46,18 @@
       "isincarceratedinstate": "Y",
       "isstateresident": "Y",
       "isuscitizen": "Y",
-      "citizen_status": "US"
+      "citizen_status": "US",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ]
     }
   ],
   "Relationship": [

@@ -1,4 +1,18 @@
 {
+  "eaid": "876544930279033",
+    "statecd": "DC",
+    "appyear": "2017",
+    "name": "SAMPLE-HAVEN-APPLICATION",
+    "status": "Pending",
+    "applicanttype": "user and-or family",
+    "motivationtype": "MT26301",
+    "applicationsource": "electronic",
+    "determinationtype": "mobile-internal",
+    "voterregistration": "Y",
+    "eligchangeauth": "Y",
+    "uqhpattestauth": "Y",
+    "esignaturefirstname": "Goneril",
+    "esignaturelastname": "Windsor",
   "Person": [
     {
       "eapersonid": "849588384759",
@@ -55,8 +69,8 @@
           "addresstype": "home",
           "streetaddress1": "9909 Foxborough Circle",
           "streetaddress2": "-",
-          "city": "Rockville",
-          "statecd": "MD",
+          "city": "Washington",
+          "statecd": "DC",
           "postalcode": "20850",
           "preferredaddress": "Y"
         }
@@ -91,7 +105,7 @@
           "postalcode": "20001",
           "preferredaddress": "Y"
         }
-      ]
+      ],
     },
     {
       "eapersonid": "475893827364",
@@ -125,40 +139,23 @@
       ]
     }
   ],
-  "Relationship": [
+  "PhysicalHousehold": [
     {
-      "applicationrelationship": "sibling/Stepsibling"
+      "householdid": "household1",
+      "eapersonid": "849588384759"
     },
     {
-      "applicationrelationship": "sibling/Stepsibling"
+      "householdid": "household2",
+      "eapersonid": "849588389839"
     },
     {
-      "applicationrelationship": "spouse"
+      "householdid": "household3",
+      "eapersonid": "935588389839"
     },
     {
-      "applicationrelationship": "sibling/Stepsibling"
-    },
-    {
-      "applicationrelationship": "other"
-    },
-    {
-      "applicationrelationship": "other"
-    }
-  ],
-  "Attestation": {
-    "eaid": "876544930279033",
-    "statecd": "DC",
-    "appyear": "2017",
-    "name": "SAMPLE-HAVEN-APPLICATION",
-    "status": "Pending",
-    "applicanttype": "user and-or family",
-    "motivationtype": "MT26301",
-    "applicationsource": "electronic",
-    "determinationtype": "mobile-internal",
-    "voterregistration": "Y",
-    "eligchangeauth": "Y",
-    "uqhpattestauth": "Y",
-    "esignaturefirstname": "Goneril",
-    "esignaturelastname": "Windsor"
-  }
+      "householdid": "household1",
+      "eapersonid": "475893827364"
+    }],
+  "TaxHousehold": [],
+  "ApplicationRelationship": []
 }

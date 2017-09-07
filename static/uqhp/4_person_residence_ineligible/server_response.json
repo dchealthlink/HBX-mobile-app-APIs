@@ -1,6 +1,12 @@
 {
   "eaid": "876544930279033",
   "ineligible_for_coverage": [
+    {
+      "eapersonid": "849588389839",
+      "personfirstname": "Regan",
+      "personlastname": "Windsor",
+      "persondob": "1979-01-01"
+    }
   ],
   "eligible_for_qhp": [
     {
@@ -8,12 +14,6 @@
       "personfirstname": "Goneril",
       "personlastname": "Windsor",
       "persondob": "1975-01-01"
-    },
-    {
-      "eapersonid": "849588389839",
-      "personfirstname": "Regan",
-      "personlastname": "Windsor",
-      "persondob": "1979-01-01"
     },
     {
       "eapersonid": "935588389839",
