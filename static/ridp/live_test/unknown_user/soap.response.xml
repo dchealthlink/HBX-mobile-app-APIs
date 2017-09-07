@@ -1,1 +1,13 @@
-[add response XML here]
+<interactive_verification_result xmlns='http://openhbx.org/api/terms/1.0' xmlns:env='http://schemas.xmlsoap.org/soap/envelope/' xmlns:intv='http://openhbx.org/api/terms/1.0' xmlns:wsa='http://www.w3.org/2005/08/addressing'>
+  <intv:verification_result>
+    <intv:response_code>
+      urn:openhbx:terms:v1:interactive_identity_verification#FAILURE
+    </intv:response_code>
+    <intv:response_text>
+      HE200016-Input validation error
+    </intv:response_text>
+    <intv:transaction_id>
+      7f25-8a-6c8c
+    </intv:transaction_id>
+  </intv:verification_result>
+</interactive_verification_result>
