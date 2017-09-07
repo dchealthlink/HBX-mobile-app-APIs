@@ -1,1 +1,217 @@
-[add response XML here]
+<interactive_verification_result xmlns='http://openhbx.org/api/terms/1.0' xmlns:env='http://schemas.xmlsoap.org/soap/envelope/' xmlns:intv='http://openhbx.org/api/terms/1.0' xmlns:wsa='http://www.w3.org/2005/08/addressing'>
+  <intv:session>
+    <intv:response_code>
+      urn:openhbx:terms:v1:interactive_identity_verification#MORE_INFORMATION_REQUIRED
+    </intv:response_code>
+    <intv:transaction_id>
+      c836-06-33b1
+    </intv:transaction_id>
+    <intv:session_id>
+      AVDGEXKNTXQSNMND0VTF5OQH.pidd2v-1709070918180210099367154
+    </intv:session_id>
+    <intv:question>
+      <intv:question_id>
+        1
+      </intv:question_id>
+      <intv:question_text>
+        Please select the county for the address you provided.
+      </intv:question_text>
+      <intv:response_options>
+        <intv:response_option>
+          <intv:response_id>
+            1
+          </intv:response_id>
+          <intv:response_text>
+            RUSH
+          </intv:response_text>
+        </intv:response_option>
+        <intv:response_option>
+          <intv:response_id>
+            2
+          </intv:response_id>
+          <intv:response_text>
+            CRAWFORD
+          </intv:response_text>
+        </intv:response_option>
+        <intv:response_option>
+          <intv:response_id>
+            3
+          </intv:response_id>
+          <intv:response_text>
+            FORD
+          </intv:response_text>
+        </intv:response_option>
+        <intv:response_option>
+          <intv:response_id>
+            4
+          </intv:response_id>
+          <intv:response_text>
+            MORRIS
+          </intv:response_text>
+        </intv:response_option>
+        <intv:response_option>
+          <intv:response_id>
+            5
+          </intv:response_id>
+          <intv:response_text>
+            NONE OF THE ABOVE/DOES NOT APPLY
+          </intv:response_text>
+        </intv:response_option>
+      </intv:response_options>
+    </intv:question>
+    <intv:question>
+      <intv:question_id>
+        2
+      </intv:question_id>
+      <intv:question_text>
+        Which of the following is a current or previous employer? If there is
+        not a matched employer name, please select 'NONE OF THE ABOVE'.
+      </intv:question_text>
+      <intv:response_options>
+        <intv:response_option>
+          <intv:response_id>
+            1
+          </intv:response_id>
+          <intv:response_text>
+            LOWES
+          </intv:response_text>
+        </intv:response_option>
+        <intv:response_option>
+          <intv:response_id>
+            2
+          </intv:response_id>
+          <intv:response_text>
+            NORTHROP GRUMMAN
+          </intv:response_text>
+        </intv:response_option>
+        <intv:response_option>
+          <intv:response_id>
+            3
+          </intv:response_id>
+          <intv:response_text>
+            LINDA ROTH BURRELL
+          </intv:response_text>
+        </intv:response_option>
+        <intv:response_option>
+          <intv:response_id>
+            4
+          </intv:response_id>
+          <intv:response_text>
+            EMPLICITY ELITE STAR CO
+          </intv:response_text>
+        </intv:response_option>
+        <intv:response_option>
+          <intv:response_id>
+            5
+          </intv:response_id>
+          <intv:response_text>
+            NONE OF THE ABOVE/DOES NOT APPLY
+          </intv:response_text>
+        </intv:response_option>
+      </intv:response_options>
+    </intv:question>
+    <intv:question>
+      <intv:question_id>
+        3
+      </intv:question_id>
+      <intv:question_text>
+        According to our records, you graduated from which of the following High
+        Schools?
+      </intv:question_text>
+      <intv:response_options>
+        <intv:response_option>
+          <intv:response_id>
+            1
+          </intv:response_id>
+          <intv:response_text>
+            FORT LAUDERDALE HIGH SCHOOL
+          </intv:response_text>
+        </intv:response_option>
+        <intv:response_option>
+          <intv:response_id>
+            2
+          </intv:response_id>
+          <intv:response_text>
+            Woodinville High School
+          </intv:response_text>
+        </intv:response_option>
+        <intv:response_option>
+          <intv:response_id>
+            3
+          </intv:response_id>
+          <intv:response_text>
+            SMOKY HILL HIGH SCHOOL
+          </intv:response_text>
+        </intv:response_option>
+        <intv:response_option>
+          <intv:response_id>
+            4
+          </intv:response_id>
+          <intv:response_text>
+            SANTO HIGH SCHOOL
+          </intv:response_text>
+        </intv:response_option>
+        <intv:response_option>
+          <intv:response_id>
+            5
+          </intv:response_id>
+          <intv:response_text>
+            NONE OF THE ABOVE/DOES NOT APPLY
+          </intv:response_text>
+        </intv:response_option>
+      </intv:response_options>
+    </intv:question>
+    <intv:question>
+      <intv:question_id>
+        4
+      </intv:question_id>
+      <intv:question_text>
+        According to our records, you may have resided or currently reside on
+        one of the following streets. Please select your street name from the
+        choices listed below.
+      </intv:question_text>
+      <intv:response_options>
+        <intv:response_option>
+          <intv:response_id>
+            1
+          </intv:response_id>
+          <intv:response_text>
+            MAYBROOK
+          </intv:response_text>
+        </intv:response_option>
+        <intv:response_option>
+          <intv:response_id>
+            2
+          </intv:response_id>
+          <intv:response_text>
+            MARYVALE
+          </intv:response_text>
+        </intv:response_option>
+        <intv:response_option>
+          <intv:response_id>
+            3
+          </intv:response_id>
+          <intv:response_text>
+            UNION
+          </intv:response_text>
+        </intv:response_option>
+        <intv:response_option>
+          <intv:response_id>
+            4
+          </intv:response_id>
+          <intv:response_text>
+            BOSTON
+          </intv:response_text>
+        </intv:response_option>
+        <intv:response_option>
+          <intv:response_id>
+            5
+          </intv:response_id>
+          <intv:response_text>
+            NONE OF THE ABOVE/DOES NOT APPLY
+          </intv:response_text>
+        </intv:response_option>
+      </intv:response_options>
+    </intv:question>
+  </intv:session>
+</interactive_verification_result>
