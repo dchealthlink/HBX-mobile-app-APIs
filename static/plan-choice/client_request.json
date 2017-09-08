@@ -3,7 +3,7 @@
 	"determinationtype": "mobile-plan-choice",
 	"plan_hios_id": "A065C5E9C5828DC-01",
 	"plan_name": "BlueChoice HMO Standard Bronze $5000",
-	"effective-date": "2017-12-15",
+	"effective_date": "2017-12-15",
 	"monthly_premium": 220.1,
 	"applicants": [
 	    { 
