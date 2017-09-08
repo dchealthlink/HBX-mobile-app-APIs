@@ -11,9 +11,6 @@
       "gender": "M",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
-      "isdisabled": "N",
-      "isstudent": "N",
-      "ismedicareentitled": "N",
       "isincarcerated": "Y",
       "isincarceratedpending": "Y",
       "incarceratedstartdate": "2017-06-01",
@@ -22,12 +19,7 @@
       "isstateresident": "Y",
       "istempoos": "N",
       "nofixedaddress": "N",
-      "islast3pregnant": "N",
-      "isformerfoster": "N",
       "isuscitizen": "Y",
-      "isinsured": "N",
-      "isotherclaimed": "N",
-      "istaxrequired": "Y",
       "citizen_status": "US",
       "Address": [
         {
@@ -39,39 +31,16 @@
           "postalcode": "20001",
           "preferredaddress": "Y"
         }
-      ],
-      "Insurance": [
-        {
-          "insurancetype": "peco",
-          "startdate": "2017-01-01",
-          "enddate": "2017-12-31"
-        }
-      ],
-      "Income": [
-        {
-          "incometype": "wages",
-          "paymentfrequency": "1",
-          "incomeamount": "50000"
-        }
-      ],
-      "Deduction": [
-        {
-          "incometype": "selfEmployInsDeductions",
-          "incomeamount": "500"
-        }
       ]
-      
     }
   ],
-  "Relationship": [
-  ],
+  "Relationship": [],
   "Attestation": [
     {
       "eaid": "091020170921001",
       "statecd": "DC",
       "appyear": "2017",
       "name": "SAMPLE-HAVEN-APPLICATION",
-      "status": "Pending",
       "applicanttype": "user and-or family",
       "motivationtype": "MT26301",
       "applicationsource": "electronic",

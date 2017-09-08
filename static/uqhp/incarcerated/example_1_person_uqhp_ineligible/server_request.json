@@ -3,7 +3,6 @@
   "statecd": "DC",
   "appyear": "2017",
   "name": "SAMPLE-HAVEN-APPLICATION",
-  "status": "Pending",
   "applicanttype": "user and-or family",
   "motivationtype": "MT26301",
   "applicationsource": "electronic",
@@ -25,7 +24,6 @@
       "gender": "M",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
-      "ismedicareentitled": "N",
       "isincarcerated": "Y",
       "isincarceratedpending": "N",
       "incarceratedstartdate": "2017-06-01",
@@ -34,10 +32,9 @@
       "isstateresident": "Y",
       "istempoos": "N",
       "nofixedaddress": "N",
-      "islast3pregnant": "N",
-      "isformerfoster": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
+      "eligible_for_qhp": "N",
       "Address": [
         {
           "addresstype": "home",
@@ -48,35 +45,10 @@
           "postalcode": "20001",
           "preferredaddress": "Y"
         }
-      ],
-      "nonESI": [
-        {
-          "insurancetype": "peco",
-          "startdate": "2017-01-01",
-          "enddate": "2017-12-31"
-        }
-      ],
-      "Income": [
-        {
-          "incometype": "wages",
-          "paymentfrequency": "1",
-          "incomeamount": "50000"
-        }
-      ],
-      "Deduction": [
-        {
-          "incometype": "selfEmployInsDeductions",
-          "incomeamount": "500"
-        }
       ]
     }
   ],
-  "PhysicalHousehold": [
-    {
-      "householdid": "household1",
-      "eapersonid": "091020170920001"
-    }
-  ],
+  "PhysicalHousehold": [],
   "TaxHousehold": [],
   "ApplicationRelationship": []
 }

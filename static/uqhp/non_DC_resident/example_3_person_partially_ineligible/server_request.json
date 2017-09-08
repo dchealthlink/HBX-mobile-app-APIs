@@ -3,7 +3,6 @@
   "statecd": "DC",
   "appyear": "2017",
   "name": "SAMPLE-HAVEN-APPLICATION",
-  "status": "Pending",
   "applicanttype": "user and-or family",
   "motivationtype": "MT26301",
   "applicationsource": "electronic",
@@ -31,6 +30,7 @@
       "nofixedaddress": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
+      "eligible_for_qhp": "Y",
       "Address": [
         {
           "addresstype": "home",
@@ -60,6 +60,7 @@
       "nofixedaddress": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
+      "eligible_for_qhp": "Y",
       "Address": [
         {
           "addresstype": "home",
@@ -89,6 +90,7 @@
       "nofixedaddress": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
+      "eligible_for_qhp": "N",
       "Address": [
         {
           "addresstype": "home",
@@ -102,20 +104,23 @@
       ]
     }
   ],
-  "PhysicalHousehold": [
-    {
-      "householdid": "household1",
-      "eapersonid": "091020170928002"
-    },
-    {
-      "householdid": "household1",
-      "eapersonid": "091020170928003"
-    },
-    {
-      "householdid": "household2",
-      "eapersonid": "091020170928001"
-    }
-  ],
+  "PhysicalHousehold": [],
   "TaxHousehold": [],
-  "ApplicationRelationship": []
+  "ApplicationRelationship": [
+    {
+      "eapersonid": "091020170928002",
+      "relationship": "Spouse",
+      "cross_eapersonid": "091020170928003"
+    },
+    {
+      "eapersonid": "091020170928002",
+      "relationship": "Parent",
+      "cross_eapersonid": "091020170928001"
+    },
+    {
+      "eapersonid": "091020170928003",
+      "relationship": "Parent",
+      "cross_eapersonid": "091020170928001"
+    }
+  ]
 }

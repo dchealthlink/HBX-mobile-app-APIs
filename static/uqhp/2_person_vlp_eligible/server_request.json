@@ -3,7 +3,6 @@
     "statecd": "DC",
     "appyear": "2017",
     "name": "SAMPLE-HAVEN-APPLICATION",
-    "status": "Pending",
     "applicanttype": "user and-or family",
     "motivationtype": "MT26301",
     "applicationsource": "electronic",
@@ -34,6 +33,7 @@
       "alienNumber": "123456789",
       "citizenshipNumber": "12345678",
       "citizen_status": "LP",
+      "eligible_for_qhp": "Y",
       "Address": [
         {
           "addresstype": "home",
@@ -65,6 +65,7 @@
       "isstateresident": "Y",
       "isuscitizen": "Y",
       "citizen_status": "US",
+      "eligible_for_qhp": "Y",
       "Address": [
         {
           "addresstype": "home",
@@ -78,15 +79,12 @@
       ]
     }
   ],
-  "PhysicalHousehold": [
-    {
-      "householdid": "household1",
-      "eapersonid": "849588384759"
-    },
-    {
-      "householdid": "household1",
-      "eapersonid": "849588389839"
-    }],
+  "PhysicalHousehold": [],
   "TaxHousehold": [],
-  "ApplicationRelationship": []
+  "ApplicationRelationship": [
+    {
+      "eapersonid": "849588384759",
+      "relationship": "Spouse",
+      "cross_eapersonid": "849588389839"
+    }]
 }

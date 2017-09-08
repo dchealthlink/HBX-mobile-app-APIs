@@ -1,18 +1,17 @@
 {
   "eaid": "876544930278011",
-    "statecd": "DC",
-    "appyear": "2017",
-    "name": "SAMPLE-HAVEN-APPLICATION",
-    "status": "Pending",
-    "applicanttype": "user and-or family",
-    "motivationtype": "MT26301",
-    "applicationsource": "electronic",
-    "determinationtype": "mobile-internal",
-    "voterregistration": "Y",
-    "eligchangeauth": "Y",
-    "uqhpattestauth": "Y",
-    "esignaturefirstname": "Skip",
-    "esignaturelastname": "Valentine",
+  "statecd": "DC",
+  "appyear": "2017",
+  "name": "SAMPLE-HAVEN-APPLICATION",
+  "applicanttype": "user and-or family",
+  "motivationtype": "MT26301",
+  "applicationsource": "electronic",
+  "determinationtype": "mobile-internal",
+  "voterregistration": "Y",
+  "eligchangeauth": "Y",
+  "uqhpattestauth": "Y",
+  "esignaturefirstname": "Skip",
+  "esignaturelastname": "Valentine",
   "Person": [
     {
       "eapersonid": "849588384759",
@@ -29,6 +28,7 @@
       "isstateresident": "Y",
       "isuscitizen": "Y",
       "citizen_status": "US",
+      "eligible_for_qhp": "Y",
       "Address": [
         {
           "addresstype": "home",
@@ -60,6 +60,7 @@
       "isstateresident": "Y",
       "isuscitizen": "Y",
       "citizen_status": "US",
+      "eligible_for_qhp": "Y",
       "Address": [
         {
           "addresstype": "home",
@@ -73,15 +74,13 @@
       ]
     }
   ],
-  "PhysicalHousehold": [
-    {
-      "householdid": "household1",
-      "eapersonid": "849588384759"
-    },
-    {
-      "householdid": "household1",
-      "eapersonid": "849588389839"
-    }],
+  "PhysicalHousehold": [],
   "TaxHousehold": [],
-  "ApplicationRelationship": []
+  "ApplicationRelationship": [
+    {
+      "eapersonid": "849588384759",
+      "relationship": "Spouse",
+      "cross-eapersonid": "849588389839"
+    }
+  ]
 }

@@ -3,7 +3,6 @@
     "statecd": "DC",
     "appyear": "2017",
     "name": "SAMPLE-HAVEN-APPLICATION",
-    "status": "Pending",
     "applicanttype": "user and-or family",
     "motivationtype": "MT26301",
     "applicationsource": "electronic",
@@ -33,6 +32,7 @@
       "nofixedaddress": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
+      "eligible_for_qhp": "Y",
       "Address": [
         {
           "addresstype": "home",
@@ -64,6 +64,7 @@
       "nofixedaddress": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
+      "eligible_for_qhp": "N",
       "Address": [
         {
           "addresstype": "home",
@@ -95,6 +96,7 @@
       "nofixedaddress": "Y",
       "isuscitizen": "Y",
       "citizen_status": "US",
+      "eligible_for_qhp": "Y",
       "Address": [
         {
           "addresstype": "mail",
@@ -126,6 +128,7 @@
       "nofixedaddress": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
+      "eligible_for_qhp": "Y",
       "Address": [
         {
           "addresstype": "home",
@@ -139,23 +142,37 @@
       ]
     }
   ],
-  "PhysicalHousehold": [
-    {
-      "householdid": "household1",
-      "eapersonid": "849588384759"
-    },
-    {
-      "householdid": "household2",
-      "eapersonid": "849588389839"
-    },
-    {
-      "householdid": "household3",
-      "eapersonid": "935588389839"
-    },
-    {
-      "householdid": "household1",
-      "eapersonid": "475893827364"
-    }],
+  "PhysicalHousehold": [],
   "TaxHousehold": [],
-  "ApplicationRelationship": []
+  "ApplicationRelationship": [
+    {
+      "eapersonid": "849588384759",
+      "relationship": "Sibling/Stepsibling",
+      "cross_eapersonid": "849588389839"
+    },
+    {
+      "eapersonid": "849588384759",
+      "relationship": "Sibling/Stepsibling",
+      "cross_eapersonid": "935588389839"
+    },
+    {
+      "eapersonid": "849588384759",
+      "relationship": "Spouse",
+      "cross_eapersonid": "475893827364475893827364"
+    },
+    {
+      "eapersonid": "849588389839",
+      "relationship": "Sibling/Stepsibling",
+      "cross_eapersonid": "935588389839"
+    },
+    {
+      "eapersonid": "849588389839",
+      "relationship": "Other",
+      "cross_eapersonid": "475893827364"
+    },
+    {
+      "eapersonid": "935588389839",
+      "relationship": "Other",
+      "cross_eapersonid": "475893827364"
+    }]
 }
