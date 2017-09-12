@@ -21,7 +21,7 @@
 ## Setup
 - Turn *off* RIDP testing at the ESB for Test Cases
 
-## Test Case: [Status Codes for RIDP connection error](https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/static/ridp/new_signup)
+## Test Case 3: [Status Codes for RIDP connection error](https://github.com/dchealthlink/HBX-mobile-app-APIs/tree/master/static/ridp/new_signup)
 
 - GET /endpoints
 - POST [JSON payload](https://raw.githubusercontent.com/dchealthlink/HBX-mobile-app-APIs/master/static/ridp/new_signup/post_verify_identity.json) to /verify_identity with valid (test) PII
