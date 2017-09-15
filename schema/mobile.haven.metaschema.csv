@@ -1,6 +1,7 @@
 #ENTITY,FIELD,LABEL,TYPE,OPTIONS,PREREQ_FIELD,PREREQ_VALUES,SUMMARY_ELEMENT_ORDER,MOBILE_ONLY,TARGET,MAXLENGTH,DEFAULT_VALUE,READONLY,OPTIONAL,EXTRA,HINT,,,,
 #Application,blank,blank?,yesnoradio,,,,,,,,,,,,,,,,
-#Application,determinationtype,determinationtype,hardwired,mobile-internal,,,,,both,,,,,,,,,,
+#Application,determinationtype,determinationtype,hardwired,mobile-internal,,,,,haven,,,,,,,,,,
+#Application,determinationtype,determinationtype,hardwired,uqhp-store,,,,,uqhp,,,,,,,,,,
 #Application,name,name = finappid,hardwired,,,,,,both,,,,,,,,,,
 #Application,applicationsource,electronic,hardwired,electronic,,,,,both,,,,,,,,,,
 #Application,intakesource,intake source,hardwired,mobile,,,,,both,,,,,,,,,,
