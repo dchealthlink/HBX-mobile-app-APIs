@@ -8794,42 +8794,6 @@
           "dependent_fields": [
 
           ]
-        },
-        {
-          "field": "startdate",
-          "label": "On what date did the person begin to receive this income?",
-          "type": "date",
-          "options": null,
-          "prereq_field": "",
-          "prereq_values": null,
-          "summary_element_order": null,
-          "mobile_only": "Y",
-          "maxlength": null,
-          "default_value": null,
-          "readonly": "N",
-          "optional": "N",
-          "dependency_level": 0,
-          "dependent_fields": [
-
-          ]
-        },
-        {
-          "field": "enddate",
-          "label": "On what date did the person stop receiving this income? (optional)",
-          "type": "date",
-          "options": null,
-          "prereq_field": "",
-          "prereq_values": null,
-          "summary_element_order": null,
-          "mobile_only": null,
-          "maxlength": null,
-          "default_value": null,
-          "readonly": "N",
-          "optional": "Y",
-          "dependency_level": 0,
-          "dependent_fields": [
-
-          ]
         }
       ],
       "dependency_level": 0,
