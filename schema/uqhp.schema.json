@@ -5954,59 +5954,203 @@
       "optional": "N",
       "dependency_level": 0,
       "dependent_fields": [
-        {
-          "field": "taxhousehold",
-          "label": "Do they plan to file taxes jointly for 2018?",
-          "type": "yesnoradio",
-          "options": null,
-          "prereq_field": "applicationrelationship",
-          "prereq_values": [
-            "spouse"
-          ],
-          "summary_element_order": null,
-          "mobile_only": null,
-          "maxlength": null,
-          "default_value": null,
-          "readonly": "N",
-          "optional": "N",
-          "dependency_level": 1,
-          "dependent_fields": [
 
-          ]
-        },
-        {
-          "field": "taxhousehold",
-          "label": "Will either of these people claim the other as a dependent on their taxes in 2018?",
-          "type": "yesnoradio",
-          "options": null,
-          "prereq_field": "applicationrelationship",
-          "prereq_values": [
-            "aunt/Uncle",
-            "child",
-            "domestic Partner",
-            "grandchild",
-            "grandparent",
-            "nephew/Niece",
-            "other",
-            "parent",
-            "sibling/Stepsibling",
-            "unrelated"
-          ],
-          "summary_element_order": null,
-          "mobile_only": null,
-          "maxlength": null,
-          "default_value": null,
-          "readonly": "N",
-          "optional": "N",
-          "dependency_level": 1,
-          "dependent_fields": [
-
-          ]
-        }
       ]
     }
   ],
   "Attestation": [
+    {
+      "field": "eaid",
+      "label": "",
+      "type": "idgen",
+      "options": null,
+      "prereq_field": "",
+      "prereq_values": null,
+      "summary_element_order": null,
+      "mobile_only": null,
+      "maxlength": null,
+      "default_value": null,
+      "readonly": "N",
+      "optional": "N",
+      "dependency_level": 0,
+      "dependent_fields": [
+
+      ]
+    },
+    {
+      "field": "statecd",
+      "label": "",
+      "type": "hardwired",
+      "options": [
+        {
+          "name": "hardwired",
+          "value": "DC"
+        }
+      ],
+      "prereq_field": "",
+      "prereq_values": null,
+      "summary_element_order": null,
+      "mobile_only": null,
+      "maxlength": null,
+      "default_value": null,
+      "readonly": "N",
+      "optional": "N",
+      "dependency_level": 0,
+      "dependent_fields": [
+
+      ]
+    },
+    {
+      "field": "name",
+      "label": "",
+      "type": "hardwired",
+      "options": [
+        {
+          "name": "hardwired",
+          "value": "SAMPLE-HAVEN-APPLICATION"
+        }
+      ],
+      "prereq_field": "",
+      "prereq_values": null,
+      "summary_element_order": null,
+      "mobile_only": null,
+      "maxlength": null,
+      "default_value": null,
+      "readonly": "N",
+      "optional": "N",
+      "dependency_level": 0,
+      "dependent_fields": [
+
+      ]
+    },
+    {
+      "field": "applicanttype",
+      "label": "",
+      "type": "hardwired",
+      "options": null,
+      "prereq_field": "",
+      "prereq_values": null,
+      "summary_element_order": null,
+      "mobile_only": null,
+      "maxlength": null,
+      "default_value": null,
+      "readonly": "N",
+      "optional": "N",
+      "dependency_level": 0,
+      "dependent_fields": [
+
+      ]
+    },
+    {
+      "field": "determinationtype",
+      "label": "determinationtype",
+      "type": "hardwired",
+      "options": [
+        {
+          "name": "hardwired",
+          "value": "uqhp-store"
+        }
+      ],
+      "prereq_field": "",
+      "prereq_values": null,
+      "summary_element_order": null,
+      "mobile_only": null,
+      "maxlength": null,
+      "default_value": null,
+      "readonly": "N",
+      "optional": "N",
+      "dependency_level": 0,
+      "dependent_fields": [
+
+      ]
+    },
+    {
+      "field": "motivationtype",
+      "label": "",
+      "type": "hardwired",
+      "options": [
+        {
+          "name": "hardwired",
+          "value": "MT26301"
+        }
+      ],
+      "prereq_field": "",
+      "prereq_values": null,
+      "summary_element_order": null,
+      "mobile_only": null,
+      "maxlength": null,
+      "default_value": null,
+      "readonly": "N",
+      "optional": "N",
+      "dependency_level": 0,
+      "dependent_fields": [
+
+      ]
+    },
+    {
+      "field": "applicationsource",
+      "label": "",
+      "type": "hardwired",
+      "options": [
+        {
+          "name": "hardwired",
+          "value": "electronic"
+        }
+      ],
+      "prereq_field": "",
+      "prereq_values": null,
+      "summary_element_order": null,
+      "mobile_only": null,
+      "maxlength": null,
+      "default_value": null,
+      "readonly": "N",
+      "optional": "N",
+      "dependency_level": 0,
+      "dependent_fields": [
+
+      ]
+    },
+    {
+      "field": "appyear",
+      "label": "",
+      "type": "hardwired",
+      "options": [
+        {
+          "name": "hardwired",
+          "value": "2018"
+        }
+      ],
+      "prereq_field": "",
+      "prereq_values": null,
+      "summary_element_order": null,
+      "mobile_only": null,
+      "maxlength": null,
+      "default_value": null,
+      "readonly": "N",
+      "optional": "N",
+      "dependency_level": 0,
+      "dependent_fields": [
+
+      ]
+    },
+    {
+      "field": "finappid",
+      "label": "financial applicationid",
+      "type": "idgen",
+      "options": null,
+      "prereq_field": "",
+      "prereq_values": null,
+      "summary_element_order": null,
+      "mobile_only": null,
+      "maxlength": null,
+      "default_value": null,
+      "readonly": "N",
+      "optional": "N",
+      "dependency_level": 0,
+      "dependent_fields": [
+
+      ]
+    },
     {
       "field": "voterregistration",
       "label": "Would you like to have an application to register to vote mailed to you? Please note: if you select No you will be considered to have decided not to register to vote at this time. You may file a complaint if you believe that someone has interfered with your right to register or not register to vote, your right to privacy in deciding whether or not to register to vote, or your right to choose your own political party or other political choice. To file a complaint, contact the DC Board of Elections, 441 4th St NW, Suite 250 North, Washington, DC 20001, or call (202)727-2525.",
