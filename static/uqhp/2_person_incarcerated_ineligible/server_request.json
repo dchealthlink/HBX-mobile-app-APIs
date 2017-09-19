@@ -6,7 +6,7 @@
   "applicanttype": "user and-or family",
   "motivationtype": "MT26301",
   "applicationsource": "electronic",
-  "determinationtype": "mobile-uqhp",
+  "determinationtype": "uqhp-store",
   "voterregistration": "Y",
   "eligchangeauth": "Y",
   "uqhpattestauth": "Y",

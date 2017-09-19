@@ -73,7 +73,7 @@
     "applicanttype": "user and-or family",
     "motivationtype": "MT26301",
     "applicationsource": "electronic",
-    "determinationtype": "mobile-internal",
+    "determinationtype": "uqhp-stores",
     "voterregistration": "Y",
     "eligchangeauth": "Y",
     "uqhpattestauth": "Y",
