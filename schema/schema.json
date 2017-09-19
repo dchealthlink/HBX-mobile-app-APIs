@@ -9366,24 +9366,6 @@
       ]
     },
     {
-      "field": "voterregistration",
-      "label": "Would you like to have an application to register to vote mailed to you? Please note: if you select No you will be considered to have decided not to register to vote at this time. You may file a complaint if you believe that someone has interfered with your right to register or not register to vote, your right to privacy in deciding whether or not to register to vote, or your right to choose your own political party or other political choice. To file a complaint, contact the DC Board of Elections, 441 4th St NW, Suite 250 North, Washington, DC 20001, or call (202)727-2525.",
-      "type": "yesnoradio",
-      "options": null,
-      "prereq_field": "",
-      "prereq_values": null,
-      "summary_element_order": null,
-      "mobile_only": null,
-      "maxlength": null,
-      "default_value": null,
-      "readonly": "N",
-      "optional": "N",
-      "dependency_level": 0,
-      "dependent_fields": [
-
-      ]
-    },
-    {
       "field": "renewalauth",
       "label": "I understand that eligibility for Medicaid or private health insurance, with or without financial assistance, will be reviewed every year. This process is called renewal. DC Health Link will review eligibility by checking its records and other electronic data sources including, with my consent, information about my federal tax returns from the IRS. DC Health Link will send me a notice that includes the information it has found by checking its records and other electronic data sources, and I will be able to correct information that is wrong. I may also be asked to provide additional information. If found eligible, Medicaid or private health insurance coverage, with or without financial assistance, will be extended for another year for myself and/or members of my application group. child support, veterans payments, or supplemental security income (SSI).",
       "type": "yesnoradio",
@@ -9531,6 +9513,24 @@
       "field": "esignaturelastname",
       "label": "Last Name",
       "type": "text",
+      "options": null,
+      "prereq_field": "",
+      "prereq_values": null,
+      "summary_element_order": null,
+      "mobile_only": null,
+      "maxlength": null,
+      "default_value": null,
+      "readonly": "N",
+      "optional": "N",
+      "dependency_level": 0,
+      "dependent_fields": [
+
+      ]
+    },
+    {
+      "field": "voterregistration",
+      "label": "Would you like to have an application to register to vote mailed to you? Please note: if you select No you will be considered to have decided not to register to vote at this time. You may file a complaint if you believe that someone has interfered with your right to register or not register to vote, your right to privacy in deciding whether or not to register to vote, or your right to choose your own political party or other political choice. To file a complaint, contact the DC Board of Elections, 441 4th St NW, Suite 250 North, Washington, DC 20001, or call (202)727-2525.",
+      "type": "yesnoradio",
       "options": null,
       "prereq_field": "",
       "prereq_values": null,
