@@ -5673,8 +5673,8 @@
       ]
     },
     {
-      "field": "email",
-      "label": "What is this person’s primary e-mail address?",
+      "field": "homeemail",
+      "label": "What is this person’s primary e-mail address? (optional)",
       "type": "text",
       "options": null,
       "prereq_field": "",
@@ -5684,15 +5684,33 @@
       "maxlength": null,
       "default_value": null,
       "readonly": "N",
-      "optional": "N",
+      "optional": "Y",
       "dependency_level": 0,
       "dependent_fields": [
 
       ]
     },
     {
-      "field": "phonenumber",
-      "label": "enter phone number",
+      "field": "workemail",
+      "label": "What is this person’s work e-mail address? (optional)",
+      "type": "text",
+      "options": null,
+      "prereq_field": "",
+      "prereq_values": null,
+      "summary_element_order": null,
+      "mobile_only": null,
+      "maxlength": null,
+      "default_value": null,
+      "readonly": "N",
+      "optional": "Y",
+      "dependency_level": 0,
+      "dependent_fields": [
+
+      ]
+    },
+    {
+      "field": "homephone",
+      "label": "What is this person’s home phone number? (optional)",
       "type": "numeric",
       "options": null,
       "prereq_field": "",
@@ -5702,7 +5720,25 @@
       "maxlength": null,
       "default_value": null,
       "readonly": "N",
-      "optional": "N",
+      "optional": "Y",
+      "dependency_level": 0,
+      "dependent_fields": [
+
+      ]
+    },
+    {
+      "field": "mobilephone",
+      "label": "What is this person’s mobile phone number? (optional)",
+      "type": "numeric",
+      "options": null,
+      "prereq_field": "",
+      "prereq_values": null,
+      "summary_element_order": null,
+      "mobile_only": null,
+      "maxlength": null,
+      "default_value": null,
+      "readonly": "N",
+      "optional": "Y",
       "dependency_level": 0,
       "dependent_fields": [
 
