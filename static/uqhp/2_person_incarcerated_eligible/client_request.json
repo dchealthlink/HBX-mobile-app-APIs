@@ -12,17 +12,20 @@
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
       "isincarcerated": "N",
-      "isstateresident": "Y",
       "isuscitizen": "Y",
       "citizen_status": "US",
       "Address": [
         {
+          "isstateresident": "Y",
+          "istempoos": "N",
+          "nofixedaddress": "N",
           "addresstype": "home",
           "streetaddress1": "101 Great Jones St",
           "streetaddress2": "apt 1",
           "city": "Washington",
           "statecd": "DC",
           "postalcode": "20001",
+          "isseparatemailingaddress": "N",
           "preferredaddress": "Y"
         }
       ]
@@ -43,17 +46,20 @@
       "incarceratedstartdate": "01-01-2017",
       "isreleasedateknown": "N",
       "isincarceratedinstate": "Y",
-      "isstateresident": "Y",
       "isuscitizen": "Y",
       "citizen_status": "US",
       "Address": [
         {
+          "isstateresident": "Y",
+          "istempoos": "N",
+          "nofixedaddress": "N",
           "addresstype": "home",
           "streetaddress1": "101 Great Jones St",
           "streetaddress2": "apt 1",
           "city": "Washington",
           "statecd": "DC",
           "postalcode": "20001",
+          "isseparatemailingaddress": "N",
           "preferredaddress": "Y"
         }
       ]

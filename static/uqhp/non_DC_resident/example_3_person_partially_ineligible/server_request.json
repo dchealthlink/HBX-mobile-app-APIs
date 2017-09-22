@@ -33,6 +33,7 @@
       "eligible_for_qhp": "Y",
       "Address": [
         {
+          "personresidencystatus": "dcfixedaddress",
           "addresstype": "home",
           "streetaddress1": "101 Great Jones St",
           "streetaddress2": "apt 1",
@@ -63,6 +64,7 @@
       "eligible_for_qhp": "Y",
       "Address": [
         {
+          "personresidencystatus": "dcfixedaddress",
           "addresstype": "home",
           "streetaddress1": "101 Great Jones St",
           "streetaddress2": "apt 1",
@@ -93,6 +95,7 @@
       "eligible_for_qhp": "N",
       "Address": [
         {
+          "personresidencystatus": "nonresident",
           "addresstype": "home",
           "streetaddress1": "101 Great Jones St",
           "streetaddress2": "apt 1",
@@ -104,8 +107,6 @@
       ]
     }
   ],
-  "PhysicalHousehold": [],
-  "TaxHousehold": [],
   "ApplicationRelationship": [
     {
       "eapersonid": "091020170928002",

@@ -3,6 +3,9 @@
     {
       "Address": [
         {
+          "isstateresident": "Y",
+          "istempoos": "N",
+          "nofixedaddress": "N",
           "addresstype": "home",
           "streetaddress1": "101 Great Jones St",
           "streetaddress2": "apt 1",
@@ -23,7 +26,6 @@
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
       "isincarcerated": "N",
-      "isstateresident": "Y",
       "isuscitizen": "N",
       "lawfullypresent": "Y",
       "vetstatus": "N",
@@ -35,6 +37,9 @@
     {
       "Address": [
         {
+          "isstateresident": "Y",
+          "istempoos": "N",
+          "nofixedaddress": "N",
           "addresstype": "home",
           "streetaddress1": "101 Great Jones St",
           "streetaddress2": "apt 1",
@@ -59,7 +64,6 @@
       "incarceratedstartdate": "01-01-2017",
       "isreleasedateknown": "N",
       "isincarceratedinstate": "Y",
-      "isstateresident": "Y",
       "isuscitizen": "Y",
       "citizen_status": "US"
     }

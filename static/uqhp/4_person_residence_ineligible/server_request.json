@@ -1,17 +1,17 @@
 {
   "eaid": "876544930279033",
-    "statecd": "DC",
-    "appyear": "2017",
-    "name": "SAMPLE-HAVEN-APPLICATION",
-    "applicanttype": "user and-or family",
-    "motivationtype": "MT26301",
-    "applicationsource": "electronic",
-    "determinationtype": "uqhp-store",
-    "voterregistration": "Y",
-    "eligchangeauth": "Y",
-    "uqhpattestauth": "Y",
-    "esignaturefirstname": "Goneril",
-    "esignaturelastname": "Windsor",
+  "statecd": "DC",
+  "appyear": "2017",
+  "name": "SAMPLE-HAVEN-APPLICATION",
+  "applicanttype": "user and-or family",
+  "motivationtype": "MT26301",
+  "applicationsource": "electronic",
+  "determinationtype": "uqhp-store",
+  "voterregistration": "Y",
+  "eligchangeauth": "Y",
+  "uqhpattestauth": "Y",
+  "esignaturefirstname": "Goneril",
+  "esignaturelastname": "Windsor",
   "Person": [
     {
       "eapersonid": "849588384759",
@@ -26,7 +26,6 @@
       "preferredlanguage": "English",
       "ismedicareentitled": "N",
       "isincarcerated": "N",
-      "personresidencystatus": "dcfixedaddress",
       "isstateresident": "Y",
       "istempoos": "N",
       "nofixedaddress": "N",
@@ -35,6 +34,7 @@
       "eligible_for_qhp": "Y",
       "Address": [
         {
+          "personresidencystatus": "dcfixedaddress",
           "addresstype": "home",
           "streetaddress1": "101 Great Jones St",
           "streetaddress2": "apt 1",
@@ -58,7 +58,6 @@
       "preferredlanguage": "English",
       "ismedicareentitled": "N",
       "isincarcerated": "N",
-      "personresidencystatus": "tempoos",
       "isstateresident": "Y",
       "istempoos": "Y",
       "nofixedaddress": "N",
@@ -67,6 +66,7 @@
       "eligible_for_qhp": "N",
       "Address": [
         {
+          "personresidencystatus": "tempoos",
           "addresstype": "home",
           "streetaddress1": "9909 Foxborough Circle",
           "streetaddress2": "-",
@@ -90,7 +90,6 @@
       "preferredlanguage": "English",
       "ismedicareentitled": "N",
       "isincarcerated": "N",
-      "personresidencystatus": "homelessresident",
       "isstateresident": "Y",
       "istempoos": "N",
       "nofixedaddress": "Y",
@@ -99,6 +98,7 @@
       "eligible_for_qhp": "Y",
       "Address": [
         {
+          "personresidencystatus": "homelessresident",
           "addresstype": "mail",
           "streetaddress1": "PO Box 104",
           "streetaddress2": "Planetarium Station",
@@ -122,7 +122,6 @@
       "preferredlanguage": "English",
       "ismedicareentitled": "N",
       "isincarcerated": "N",
-      "personresidencystatus": "dcfixedaddress",
       "isstateresident": "Y",
       "istempoos": "N",
       "nofixedaddress": "N",
@@ -131,6 +130,7 @@
       "eligible_for_qhp": "Y",
       "Address": [
         {
+          "personresidencystatus": "dcfixedaddress",
           "addresstype": "home",
           "streetaddress1": "101 Great Jones St",
           "streetaddress2": "apt 1",
@@ -174,5 +174,6 @@
       "eapersonid": "935588389839",
       "relationship": "Other",
       "cross_eapersonid": "475893827364"
-    }]
+    }
+  ]
 }

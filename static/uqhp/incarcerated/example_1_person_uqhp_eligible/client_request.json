@@ -16,13 +16,14 @@
       "incarceratedstartdate": "2017-06-01",
       "isreleasedateknown": "N",
       "isincarceratedinstate": "Y",
-      "isstateresident": "Y",
-      "istempoos": "N",
-      "nofixedaddress": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
       "Address": [
         {
+          "personresidencystatus": "dcfixedaddress",
+          "isstateresident": "Y",
+          "istempoos": "N",
+          "nofixedaddress": "N",
           "addresstype": "home",
           "streetaddress1": "101 Great Jones St",
           "streetaddress2": "apt 1",

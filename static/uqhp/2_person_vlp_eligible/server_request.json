@@ -26,6 +26,8 @@
       "preferredlanguage": "English",
       "isincarcerated": "N",
       "isstateresident": "Y",
+      "istempoos": "N",
+      "nofixedaddress": "N",
       "isuscitizen": "N",
       "lawfullypresent": "Y",
       "vetstatus": "N",
@@ -63,6 +65,8 @@
       "isreleasedateknown": "N",
       "isincarceratedinstate": "Y",
       "isstateresident": "Y",
+      "istempoos": "N",
+      "nofixedaddress": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
       "eligible_for_qhp": "Y",
@@ -79,8 +83,6 @@
       ]
     }
   ],
-  "PhysicalHousehold": [],
-  "TaxHousehold": [],
   "ApplicationRelationship": [
     {
       "eapersonid": "849588384759",

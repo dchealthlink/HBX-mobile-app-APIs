@@ -26,6 +26,8 @@
       "preferredlanguage": "English",
       "isincarcerated": "N",
       "isstateresident": "Y",
+      "istempoos": "N",
+      "nofixedaddress": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
       "eligible_for_qhp": "Y",
@@ -37,6 +39,7 @@
           "city": "Washington",
           "statecd": "DC",
           "postalcode": "20001",
+          "isseparatemailingaddress": "N",
           "preferredaddress": "Y"
         }
       ]
@@ -58,6 +61,8 @@
       "isreleasedateknown": "N",
       "isincarceratedinstate": "Y",
       "isstateresident": "Y",
+      "istempoos": "N",
+      "nofixedaddress": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
       "eligible_for_qhp": "Y",
@@ -69,13 +74,12 @@
           "city": "Washington",
           "statecd": "DC",
           "postalcode": "20001",
+          "isseparatemailingaddress": "N",
           "preferredaddress": "Y"
         }
       ]
     }
   ],
-  "PhysicalHousehold": [],
-  "TaxHousehold": [],
   "ApplicationRelationship": [
     {
       "eapersonid": "849588384759",

@@ -13,13 +13,14 @@
       "preferredlanguage": "English",
       "ismedicareentitled": "N",
       "isincarcerated": "N",
-      "isstateresident": "Y",
-      "istempoos": "N",
-      "nofixedaddress": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
       "Address": [
         {
+          "personresidencystatus": "dcfixedaddress",
+          "isstateresident": "Y",
+          "istempoos": "N",
+          "nofixedaddress": "N",
           "addresstype": "home",
           "streetaddress1": "101 Great Jones St",
           "streetaddress2": "apt 1",
@@ -50,6 +51,10 @@
       "citizen_status": "US",
       "Address": [
         {
+          "personresidencystatus": "dcfixedaddress",
+          "isstateresident": "Y",
+          "istempoos": "N",
+          "nofixedaddress": "N",
           "addresstype": "home",
           "streetaddress1": "101 Great Jones St",
           "streetaddress2": "apt 1",
@@ -80,6 +85,10 @@
       "citizen_status": "US",
       "Address": [
         {
+          "personresidencystatus": "dcfixedaddress",
+          "isstateresident": "Y",
+          "istempoos": "N",
+          "nofixedaddress": "N",
           "addresstype": "home",
           "streetaddress1": "101 Great Jones St",
           "streetaddress2": "apt 1",

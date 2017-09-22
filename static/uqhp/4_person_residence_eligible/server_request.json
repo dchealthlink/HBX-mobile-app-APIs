@@ -26,7 +26,6 @@
       "preferredlanguage": "English",
       "ismedicareentitled": "N",
       "isincarcerated": "N",
-      "personresidencystatus": "dcfixedaddress",
       "isstateresident": "Y",
       "istempoos": "N",
       "nofixedaddress": "N",
@@ -35,6 +34,7 @@
       "eligible_for_qhp": "Y",
       "Address": [
         {
+          "personresidencystatus": "dcfixedaddress",
           "addresstype": "home",
           "streetaddress1": "101 Great Jones St",
           "streetaddress2": "apt 1",
@@ -58,15 +58,15 @@
       "preferredlanguage": "English",
       "ismedicareentitled": "N",
       "isincarcerated": "N",
-      "personresidencystatus": "tempoos",
       "isstateresident": "Y",
-      "istempoos": "Y",
+      "istempoos": "N",
       "nofixedaddress": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
       "eligible_for_qhp": "Y",
       "Address": [
         {
+          "personresidencystatus": "dcfixedaddress",
           "addresstype": "home",
           "streetaddress1": "9909 Foxborough Circle",
           "streetaddress2": "-",
@@ -90,7 +90,6 @@
       "preferredlanguage": "English",
       "ismedicareentitled": "N",
       "isincarcerated": "N",
-      "personresidencystatus": "homelessresident",
       "isstateresident": "Y",
       "istempoos": "N",
       "nofixedaddress": "Y",
@@ -99,6 +98,7 @@
       "eligible_for_qhp": "Y",
       "Address": [
         {
+          "personresidencystatus": "homelessresident",
           "addresstype": "mail",
           "streetaddress1": "PO Box 104",
           "streetaddress2": "Planetarium Station",
@@ -122,7 +122,6 @@
       "preferredlanguage": "English",
       "ismedicareentitled": "N",
       "isincarcerated": "N",
-      "personresidencystatus": "dcfixedaddress",
       "isstateresident": "Y",
       "istempoos": "N",
       "nofixedaddress": "N",
@@ -131,6 +130,7 @@
       "eligible_for_qhp": "Y",
       "Address": [
         {
+          "personresidencystatus": "dcfixedaddress",
           "addresstype": "home",
           "streetaddress1": "101 Great Jones St",
           "streetaddress2": "apt 1",
