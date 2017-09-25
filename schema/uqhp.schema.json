@@ -1028,6 +1028,31 @@
                   "dependent_fields": [
 
                   ]
+                },
+                {
+                  "field": "maddresstype",
+                  "label": "",
+                  "type": "hardwired",
+                  "options": [
+                    {
+                      "name": "hardwired",
+                      "value": "mail"
+                    }
+                  ],
+                  "prereq_field": "isseparatemailaddress",
+                  "prereq_values": [
+                    "Y"
+                  ],
+                  "summary_element_order": null,
+                  "mobile_only": null,
+                  "maxlength": null,
+                  "default_value": null,
+                  "readonly": "N",
+                  "optional": "N",
+                  "dependency_level": 2,
+                  "dependent_fields": [
+
+                  ]
                 }
               ]
             },
