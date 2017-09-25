@@ -42,6 +42,14 @@
           "statecd": "DC",
           "postalcode": "20001",
           "preferredaddress": "Y"
+        },
+        {
+          "streetaddress1": "Charleston Post Office",
+          "streetaddress2": "PO Box 2",
+          "city": "Rockville",
+          "statecd": "MD",
+          "postalcode": "20850",
+          "addresstype": "mail"
         }
       ]
     },
