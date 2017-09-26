@@ -1,1 +1,7 @@
-[add response XML here]
+<interactive_verification_result xmlns=\"http://openhbx.org/api/terms/1.0\" xmlns:bpmn=\"http://schemas.oracle.com/bpm/xpath\" xmlns:env=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:intv=\"http://openhbx.org/api/terms/1.0\" xmlns:wsa=\"http://www.w3.org/2005/08/addressing\">
+  <intv:verification_result>
+    <intv:response_code>urn:openhbx:terms:v1:interactive_identity_verification#FAILURE</intv:response_code>
+    <intv:response_text>HS000000 Successful</intv:response_text>
+    <intv:transaction_id>TRANSACTIONID</intv:transaction_id>
+  </intv:verification_result>
+</interactive_verification_result>
