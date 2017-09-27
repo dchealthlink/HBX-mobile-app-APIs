@@ -1,1 +1,5 @@
-[add response XML here]
+<interactive_verification_override_result xmlns=\"http://openhbx.org/api/terms/1.0\" xmlns:env=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ns8=\"http://openhbx.org/api/terms/1.0\" xmlns:wsa=\"http://www.w3.org/2005/08/addressing\">
+  <ns8:response_code>urn:openhbx:terms:v1:interactive_identity_verification#SUCCESS</ns8:response_code>
+  <ns8:response_text>HS000000 Successful</ns8:response_text>
+  <ns8:transaction_id>TRANSACTIONID</ns8:transaction_id>
+</interactive_verification_override_result>

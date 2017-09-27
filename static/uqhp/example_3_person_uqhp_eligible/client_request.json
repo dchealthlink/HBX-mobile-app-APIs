@@ -17,7 +17,6 @@
       "citizen_status": "US",
       "Address": [
         {
-          "personresidencystatus": "dcfixedaddress",
           "isstateresident": "Y",
           "istempoos": "N",
           "nofixedaddress": "N",
@@ -58,7 +57,6 @@
       "citizen_status": "US",
       "Address": [
         {
-          "personresidencystatus": "dcfixedaddress",
           "isstateresident": "Y",
           "istempoos": "N",
           "nofixedaddress": "N",
@@ -92,7 +90,6 @@
       "citizen_status": "US",
       "Address": [
         {
-          "personresidencystatus": "dcfixedaddress",
           "isstateresident": "Y",
           "istempoos": "N",
           "nofixedaddress": "N",
