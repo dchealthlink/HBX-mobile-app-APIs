@@ -9160,6 +9160,198 @@
   ],
   "Attestation": [
     {
+      "field": "eaid",
+      "label": "",
+      "type": "idgen",
+      "options": null,
+      "prereq_field": "",
+      "prereq_values": null,
+      "summary_element_order": null,
+      "mobile_only": null,
+      "maxlength": null,
+      "default_value": null,
+      "readonly": "N",
+      "optional": "N",
+      "dependency_level": 0,
+      "dependent_fields": [
+
+      ]
+    },
+    {
+      "field": "statecd",
+      "label": "",
+      "type": "hardwired",
+      "options": [
+        {
+          "name": "hardwired",
+          "value": "DC"
+        }
+      ],
+      "prereq_field": "",
+      "prereq_values": null,
+      "summary_element_order": null,
+      "mobile_only": null,
+      "maxlength": null,
+      "default_value": null,
+      "readonly": "N",
+      "optional": "N",
+      "dependency_level": 0,
+      "dependent_fields": [
+
+      ]
+    },
+    {
+      "field": "name",
+      "label": "",
+      "type": "hardwired",
+      "options": [
+        {
+          "name": "hardwired",
+          "value": "SAMPLE-HAVEN-APPLICATION"
+        }
+      ],
+      "prereq_field": "",
+      "prereq_values": null,
+      "summary_element_order": null,
+      "mobile_only": null,
+      "maxlength": null,
+      "default_value": null,
+      "readonly": "N",
+      "optional": "N",
+      "dependency_level": 0,
+      "dependent_fields": [
+
+      ]
+    },
+    {
+      "field": "applicanttype",
+      "label": "",
+      "type": "hardwired",
+      "options": null,
+      "prereq_field": "",
+      "prereq_values": null,
+      "summary_element_order": null,
+      "mobile_only": null,
+      "maxlength": null,
+      "default_value": null,
+      "readonly": "N",
+      "optional": "N",
+      "dependency_level": 0,
+      "dependent_fields": [
+
+      ]
+    },
+    {
+      "field": "determinationtype",
+      "label": "determinationtype",
+      "type": "hardwired",
+      "options": [
+        {
+          "name": "hardwired",
+          "value": "mobile-internal"
+        }
+      ],
+      "prereq_field": "",
+      "prereq_values": null,
+      "summary_element_order": null,
+      "mobile_only": null,
+      "maxlength": null,
+      "default_value": null,
+      "readonly": "N",
+      "optional": "N",
+      "dependency_level": 0,
+      "dependent_fields": [
+
+      ]
+    },
+    {
+      "field": "motivationtype",
+      "label": "",
+      "type": "hardwired",
+      "options": [
+        {
+          "name": "hardwired",
+          "value": "MT26301"
+        }
+      ],
+      "prereq_field": "",
+      "prereq_values": null,
+      "summary_element_order": null,
+      "mobile_only": null,
+      "maxlength": null,
+      "default_value": null,
+      "readonly": "N",
+      "optional": "N",
+      "dependency_level": 0,
+      "dependent_fields": [
+
+      ]
+    },
+    {
+      "field": "applicationsource",
+      "label": "",
+      "type": "hardwired",
+      "options": [
+        {
+          "name": "hardwired",
+          "value": "electronic"
+        }
+      ],
+      "prereq_field": "",
+      "prereq_values": null,
+      "summary_element_order": null,
+      "mobile_only": null,
+      "maxlength": null,
+      "default_value": null,
+      "readonly": "N",
+      "optional": "N",
+      "dependency_level": 0,
+      "dependent_fields": [
+
+      ]
+    },
+    {
+      "field": "appyear",
+      "label": "",
+      "type": "hardwired",
+      "options": [
+        {
+          "name": "hardwired",
+          "value": "2018"
+        }
+      ],
+      "prereq_field": "",
+      "prereq_values": null,
+      "summary_element_order": null,
+      "mobile_only": null,
+      "maxlength": null,
+      "default_value": null,
+      "readonly": "N",
+      "optional": "N",
+      "dependency_level": 0,
+      "dependent_fields": [
+
+      ]
+    },
+    {
+      "field": "finappid",
+      "label": "financial applicationid",
+      "type": "idgen",
+      "options": null,
+      "prereq_field": "",
+      "prereq_values": null,
+      "summary_element_order": null,
+      "mobile_only": null,
+      "maxlength": null,
+      "default_value": null,
+      "readonly": "N",
+      "optional": "N",
+      "dependency_level": 0,
+      "dependent_fields": [
+
+      ]
+    },
+    {
       "field": "taxreturninfo",
       "label": "To make it easier to determine my eligibility to help paying for coverage in future years, I agree to allow DC Health Link to use my income data, including information from tax returns, for the next five years. DC Health Link will send me a notice, let me make any changes, and I can opt out at any time.",
       "type": "yesnoradio",
