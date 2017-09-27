@@ -6020,59 +6020,6 @@
     }
   ],
   "Attestation": [
-    {
-      "field": "uqhpattestauth",
-      "label": "I understand that I’m submitting an application for health insurance, and that information I provided will be used to decide eligibility for each applicant. I've reviewed the information in this application, and I attest under penalty of perjury that it’s accurate and complete to the best of my knowledge. I understand that if I’m not truthful, there may be a penalty, including, but not limited to: ​1) Retroactive termination of my coverage and an obligation to repay all medical claims previously covered by the health insurance company, 2) Civil or criminal prosecution by federal or District of Columbia authorities.",
-      "type": "yesnoradio",
-      "options": null,
-      "prereq_field": "",
-      "prereq_values": null,
-      "summary_element_order": null,
-      "mobile_only": null,
-      "maxlength": null,
-      "default_value": null,
-      "readonly": "N",
-      "optional": "N",
-      "dependency_level": 0,
-      "dependent_fields": [
 
-      ]
-    },
-    {
-      "field": "esignaturefirstname",
-      "label": "Electronic Signature: First Name",
-      "type": "text",
-      "options": null,
-      "prereq_field": "",
-      "prereq_values": null,
-      "summary_element_order": null,
-      "mobile_only": null,
-      "maxlength": null,
-      "default_value": null,
-      "readonly": "N",
-      "optional": "N",
-      "dependency_level": 0,
-      "dependent_fields": [
-
-      ]
-    },
-    {
-      "field": "esignaturelastname",
-      "label": "Last Name",
-      "type": "text",
-      "options": null,
-      "prereq_field": "",
-      "prereq_values": null,
-      "summary_element_order": null,
-      "mobile_only": null,
-      "maxlength": null,
-      "default_value": null,
-      "readonly": "N",
-      "optional": "N",
-      "dependency_level": 0,
-      "dependent_fields": [
-
-      ]
-    }
   ]
 }

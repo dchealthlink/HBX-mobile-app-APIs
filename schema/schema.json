@@ -9176,42 +9176,6 @@
       "dependent_fields": [
 
       ]
-    },
-    {
-      "field": "esignaturefirstname",
-      "label": "Electronic Signature: First Name",
-      "type": "text",
-      "options": null,
-      "prereq_field": "",
-      "prereq_values": null,
-      "summary_element_order": null,
-      "mobile_only": null,
-      "maxlength": null,
-      "default_value": null,
-      "readonly": "N",
-      "optional": "N",
-      "dependency_level": 0,
-      "dependent_fields": [
-
-      ]
-    },
-    {
-      "field": "esignaturelastname",
-      "label": "Last Name",
-      "type": "text",
-      "options": null,
-      "prereq_field": "",
-      "prereq_values": null,
-      "summary_element_order": null,
-      "mobile_only": null,
-      "maxlength": null,
-      "default_value": null,
-      "readonly": "N",
-      "optional": "N",
-      "dependency_level": 0,
-      "dependent_fields": [
-
-      ]
     }
   ]
 }
