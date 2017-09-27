@@ -1,0 +1,166 @@
+{
+  "Person": [
+    {
+      "eapersonid": "090620171416002",
+      "isapplicant": "Y",
+      "personfirstname": "Bob",
+      "personlastname": "Barker",
+      "persondob": "1975-01-01",
+      "isssntrue": "Y",
+      "personssn": "000148374",
+      "gender": "M",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isuscitizen": "Y",
+      "citizen_status": "US",
+      "Address": [
+        {
+          "isstateresident": "Y",
+          "istempoos": "N",
+          "nofixedaddress": "N",
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y",
+          "isseparatemailaddress": "Y",
+          "mstreetaddress1": "Charleston Post Office",
+          "mstreetaddress2": "PO Box 2",
+          "mcity": "Rockville",
+          "mstatecd": "MD",
+          "mpostalcode": "20850",
+          "maddresstype": "mail"
+        }
+      ]
+    },
+    {
+      "eapersonid": "090620171416003",
+      "isapplicant": "Y",
+      "personfirstname": "Nellie",
+      "personlastname": "Barker",
+      "persondob": "1979-01-01",
+      "isssntrue": "Y",
+      "personssn": "000938478",
+      "gender": "M",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "istempoos": "N",
+      "nofixedaddress": "N",
+      "isuscitizen": "Y",
+      "citizen_status": "US",
+      "Address": [
+        {
+          "isstateresident": "Y",
+          "istempoos": "N",
+          "nofixedaddress": "N",
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ]
+    },
+    {
+      "eapersonid": "090620171416004",
+      "isapplicant": "Y",
+      "personfirstname": "Tom",
+      "personlastname": "Barker",
+      "persondob": "2000-01-01",
+      "isssntrue": "Y",
+      "personssn": "000293874",
+      "gender": "M",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "istempoos": "N",
+      "nofixedaddress": "N",
+      "isuscitizen": "Y",
+      "citizen_status": "US",
+      "Address": [
+        {
+          "isstateresident": "Y",
+          "istempoos": "N",
+          "nofixedaddress": "N",
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ]
+    },
+    {
+      "eapersonid": "090620171416004",
+      "isapplicant": "Y",
+      "personfirstname": "Laura",
+      "personlastname": "Barker",
+      "persondob": "2000-01-01",
+      "isssntrue": "Y",
+      "personssn": "000293874",
+      "gender": "M",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isstateresident": "Y",
+      "istempoos": "N",
+      "nofixedaddress": "N",
+      "isuscitizen": "Y",
+      "citizen_status": "US",
+      "Address": [
+        {
+          "isstateresident": "Y",
+          "istempoos": "N",
+          "nofixedaddress": "N",
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ]
+    }
+  ],
+  "Relationship": [
+    {
+      "applicationrelationship": "spouse"
+    },
+    {
+      "applicationrelationship": "parent"
+    },
+    {
+      "applicationrelationship": "parent"
+    }
+  ],
+  "Attestation": {
+    "eaid": "090620171416001",
+    "statecd": "DC",
+    "appyear": "2017",
+    "name": "SAMPLE-HAVEN-APPLICATION",
+    "applicanttype": "user and-or family",
+    "motivationtype": "MT26301",
+    "applicationsource": "electronic",
+    "determinationtype": "uqhp-store",
+    "voterregistration": "Y",
+    "eligchangeauth": "Y",
+    "uqhpattestauth": "Y",
+    "esignaturefirstname": "Tim",
+    "esignaturelastname": "Jones"
+  }
+}
