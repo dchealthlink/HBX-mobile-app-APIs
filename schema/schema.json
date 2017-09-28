@@ -6379,23 +6379,11 @@
         {
           "field": "studenttype",
           "label": "What is this person's student status?",
-          "type": "dropdown",
+          "type": "hardwired",
           "options": [
             {
-              "name": "Full Time",
+              "name": "hardwired",
               "value": "fulltime"
-            },
-            {
-              "name": "Part Time",
-              "value": "parttime"
-            },
-            {
-              "name": "Graduated",
-              "value": "graduated"
-            },
-            {
-              "name": "Half Time",
-              "value": "halftime"
             }
           ],
           "prereq_field": "isstudent",
@@ -6410,29 +6398,27 @@
           "optional": "N",
           "dependency_level": 1,
           "dependent_fields": [
-            {
-              "field": "studentenddate",
-              "label": "What is this person’s expected end date?",
-              "type": "date",
-              "options": null,
-              "prereq_field": "studenttype",
-              "prereq_values": [
-                "fulltime",
-                "parttime",
-                "graduated",
-                "halftime"
-              ],
-              "summary_element_order": null,
-              "mobile_only": null,
-              "maxlength": null,
-              "default_value": null,
-              "readonly": "N",
-              "optional": "N",
-              "dependency_level": 2,
-              "dependent_fields": [
 
-              ]
-            }
+          ]
+        },
+        {
+          "field": "studentenddate",
+          "label": "What is this person’s expected end date?",
+          "type": "date",
+          "options": null,
+          "prereq_field": "isstudent",
+          "prereq_values": [
+            "Y"
+          ],
+          "summary_element_order": null,
+          "mobile_only": null,
+          "maxlength": null,
+          "default_value": null,
+          "readonly": "N",
+          "optional": "N",
+          "dependency_level": 1,
+          "dependent_fields": [
+
           ]
         }
       ]
