@@ -5723,6 +5723,24 @@
       ]
     },
     {
+      "field": "isdisabled",
+      "label": "Does this person have a disability?",
+      "type": "yesnoradio",
+      "options": null,
+      "prereq_field": "",
+      "prereq_values": null,
+      "summary_element_order": null,
+      "mobile_only": null,
+      "maxlength": null,
+      "default_value": null,
+      "readonly": "N",
+      "optional": "N",
+      "dependency_level": 0,
+      "dependent_fields": [
+
+      ]
+    },
+    {
       "field": "homeemail",
       "label": "What is this person’s primary e-mail address? (optional)",
       "type": "text",
