@@ -6005,7 +6005,7 @@
       "options": [
         {
           "name": "Aunt or Uncle",
-          "value": "aunt/Uncle"
+          "value": "auntUncle"
         },
         {
           "name": "Child",
@@ -6025,7 +6025,7 @@
         },
         {
           "name": "Nephew or Niece",
-          "value": "nephew/Niece"
+          "value": "nephewNiece"
         },
         {
           "name": "Other",
