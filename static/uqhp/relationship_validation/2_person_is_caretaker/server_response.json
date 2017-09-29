@@ -1,0 +1,18 @@
+{
+  "eaid": "092920171537001",
+  "ineligible_for_coverage": [],
+  "eligible_for_qhp": [
+    {
+      "eapersonid": "092920171537002",
+      "personfirstname": "Elizabeth",
+      "personlastname": "Plantagenet",
+      "persondob": "1975-08-01"
+    },
+    {
+      "eapersonid": "092920171537003",
+      "personfirstname": "Richard",
+      "personlastname": "York",
+      "persondob": "1997-03-01"
+    },
+  ]
+}

@@ -13,6 +13,7 @@
       "preferredlanguage": "English",
       "ismedicareentitled": "N",
       "isincarcerated": "N",
+      "isdisabled": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
       "Address": [
@@ -44,6 +45,7 @@
       "preferredlanguage": "English",
       "ismedicareentitled": "N",
       "isincarcerated": "N",
+      "isdisabled": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
       "Address": [
@@ -75,6 +77,7 @@
       "preferredlanguage": "English",
       "ismedicareentitled": "N",
       "isincarcerated": "N",
+      "isdisabled": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
       "Address": [
@@ -106,6 +109,7 @@
       "preferredlanguage": "English",
       "ismedicareentitled": "N",
       "isincarcerated": "N",
+      "isdisabled": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
       "Address": [

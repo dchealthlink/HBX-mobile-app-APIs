@@ -16,6 +16,7 @@
       "incarceratedstartdate": "2017-06-01",
       "isreleasedateknown": "N",
       "isincarceratedinstate": "Y",
+      "isdisabled": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
       "Address": [

@@ -28,7 +28,7 @@
       "preferredlanguage": "English",
       "ismedicareentitled": "N",
       "isincarcerated": "N",
-      
+      "isdisabled": "N",
       "isuscitizen": "Y",
       "citizen_status": "US"
     },
@@ -57,6 +57,7 @@
       "preferredlanguage": "English",
       "ismedicareentitled": "N",
       "isincarcerated": "N",
+      "isdisabled": "N",
       "isstateresident": "Y",
       "isuscitizen": "Y",
       "citizen_status": "US"
@@ -89,6 +90,7 @@
       "preferredlanguage": "English",
       "ismedicareentitled": "N",
       "isincarcerated": "N",
+      "isdisabled": "N",
       "isstateresident": "Y",
       "isuscitizen": "Y",
       "citizen_status": "US"

@@ -26,6 +26,7 @@
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
       "isincarcerated": "N",
+      "isdisabled": "N",
       "isuscitizen": "Y",
       "citizen_status": "US"
     },
@@ -59,13 +60,14 @@
       "incarceratedstartdate": "01-01-2017",
       "isreleasedateknown": "N",
       "isincarceratedinstate": "Y",
+      "isdisabled": "N",
       "isuscitizen": "Y",
       "citizen_status": "US"
     }
   ],
   "Relationship": [
     {
-      "applicationrelationship": "spouse"
+      "applicationrelationship": "spouse",
     }
   ],
   "Attestation": {

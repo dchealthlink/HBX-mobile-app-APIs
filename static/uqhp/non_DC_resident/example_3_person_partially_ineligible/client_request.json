@@ -12,6 +12,7 @@
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
       "isincarcerated": "N",
+      "isdisabled": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
       "Address": [
@@ -42,6 +43,7 @@
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
       "isincarcerated": "N",
+      "isdisabled": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
       "Address": [
@@ -80,6 +82,7 @@
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
       "isincarcerated": "N",
+      "isdisabled": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
       "Address": [

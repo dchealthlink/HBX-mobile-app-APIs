@@ -1,5 +1,5 @@
 {
-  "eaid": "090620171416001",
+  "eaid": "092920171420001",
   "statecd": "DC",
   "appyear": "2017",
   "name": "SAMPLE-HAVEN-APPLICATION",
@@ -10,14 +10,14 @@
   "voterregistration": "Y",
   "eligchangeauth": "Y",
   "uqhpattestauth": "Y",
-  "esignaturefirstname": "Tim",
-  "esignaturelastname": "Jones",
+  "esignaturefirstname": "Bob",
+  "esignaturelastname": "Barker",
   "Person": [
     {
-      "eapersonid": "090620171416002",
+      "eapersonid": "092920171420002",
       "isapplicant": "Y",
-      "personfirstname": "Tim",
-      "personlastname": "Jones",
+      "personfirstname": "Bob",
+      "personlastname": "Barker",
       "persondob": "1975-01-01",
       "isssntrue": "Y",
       "personssn": "000148374",
@@ -27,11 +27,11 @@
       "ismedicareentitled": "N",
       "isincarcerated": "N",
       "isdisabled": "N",
+      "isuscitizen": "Y",
+      "citizen_status": "US",
       "isstateresident": "Y",
       "istempoos": "N",
       "nofixedaddress": "N",
-      "isuscitizen": "Y",
-      "citizen_status": "US",
       "eligible_for_qhp": "Y",
       "Address": [
         {
@@ -55,10 +55,10 @@
       ]
     },
     {
-      "eapersonid": "090620171416003",
+      "eapersonid": "092920171420003",
       "isapplicant": "Y",
-      "personfirstname": "Tina",
-      "personlastname": "Jones",
+      "personfirstname": "Nellie",
+      "personlastname": "Barker",
       "persondob": "1979-01-01",
       "isssntrue": "Y",
       "personssn": "000938478",
@@ -87,10 +87,42 @@
       ]
     },
     {
-      "eapersonid": "090620171416004",
+      "eapersonid": "092920171420004",
       "isapplicant": "Y",
-      "personfirstname": "James",
-      "personlastname": "Jones",
+      "personfirstname": "Tom",
+      "personlastname": "Barker",
+      "persondob": "2000-01-01",
+      "isssntrue": "Y",
+      "personssn": "000293874",
+      "gender": "M",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "ismedicareentitled": "N",
+      "isincarcerated": "N",
+      "isdisabled": "N",
+      "isstateresident": "Y",
+      "istempoos": "N",
+      "nofixedaddress": "N",
+      "isuscitizen": "Y",
+      "citizen_status": "US",
+      "eligible_for_qhp": "N",
+      "Address": [
+        {
+          "addresstype": "home",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ]
+    },
+    {
+      "eapersonid": "092920171420005",
+      "isapplicant": "Y",
+      "personfirstname": "Laura",
+      "personlastname": "Barker",
       "persondob": "2000-01-01",
       "isssntrue": "Y",
       "personssn": "000293874",
@@ -119,23 +151,38 @@
       ]
     }
   ],
-  "PhysicalHousehold": [],
-  "TaxHousehold": [],
   "ApplicationRelationship": [
     {
-      "eapersonid": "090620171416002",
+      "eapersonid": "092920171420002",
       "relationship": "Spouse",
-      "cross_eapersonid": "090620171416003"
+      "cross_eapersonid": "092920171420003"
     },
     {
-      "eapersonid": "090620171416002",
+      "eapersonid": "092920171420002",
       "relationship": "Parent",
-      "cross_eapersonid": "090620171416004"
+      "cross_eapersonid": "092920171420004"
     },
     {
-      "eapersonid": "090620171416003",
+      "eapersonid": "092920171420002",
+      "relationship": "Grandparent",
+      "isprimarycaretaker": "Y",
+      "cross_eapersonid": "092920171420005"
+    },
+    {
+      "eapersonid": "092920171420003",
       "relationship": "Parent",
-      "cross_eapersonid": "090620171416004"
+      "cross_eapersonid": "092920171420004"
+    },
+    {
+      "eapersonid": "092920171420003",
+      "relationship": "Grandparent",
+      "isprimarycaretaker": "Y",
+      "cross_eapersonid": "092920171420005"
+    },
+    {
+      "eapersonid": "092920171420004",
+      "relationship": "Aunt/Uncle",
+      "isprimarycaretaker": "N",
+      "cross_eapersonid": "092920171420005"
     }
-  ]
-}
+  ]}

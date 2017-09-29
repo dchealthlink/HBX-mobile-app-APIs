@@ -13,6 +13,7 @@
       "preferredlanguage": "English",
       "ismedicareentitled": "N",
       "isincarcerated": "N",
+      "isdisabled": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
       "Address": [
@@ -50,6 +51,7 @@
       "preferredlanguage": "English",
       "ismedicareentitled": "N",
       "isincarcerated": "N",
+      "isdisabled": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
       "Address": [
@@ -81,6 +83,7 @@
       "preferredlanguage": "English",
       "ismedicareentitled": "N",
       "isincarcerated": "N",
+      "isdisabled": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
       "Address": [
@@ -112,6 +115,7 @@
       "preferredlanguage": "English",
       "ismedicareentitled": "N",
       "isincarcerated": "N",
+      "isdisabled": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
       "Address": [
@@ -154,7 +158,7 @@
     "voterregistration": "Y",
     "eligchangeauth": "Y",
     "uqhpattestauth": "Y",
-    "esignaturefirstname": "Tim",
-    "esignaturelastname": "Jones"
+    "esignaturefirstname": "Bob",
+    "esignaturelastname": "Barker"
   }
 }

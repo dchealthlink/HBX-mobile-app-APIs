@@ -12,6 +12,7 @@
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
       "isincarcerated": "N",
+      "isdisabled": "N",
       "isuscitizen": "N",
       "lawfullypresent": "N",
       "citizen_status": "NLP",
@@ -46,6 +47,7 @@
       "incarceratedstartdate": "01-01-2017",
       "isreleasedateknown": "N",
       "isincarceratedinstate": "Y",
+      "isdisabled": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
       "Address": [

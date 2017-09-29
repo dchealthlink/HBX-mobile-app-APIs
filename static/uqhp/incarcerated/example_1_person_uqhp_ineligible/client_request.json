@@ -14,6 +14,7 @@
       "isincarcerated": "Y",
       "isincarceratedpending": "N",
       "incarceratedstartdate": "2017-06-01",
+      "isdisabled": "N",
       "isreleasedateknown": "N",
       "isincarceratedinstate": "Y",
       "isuscitizen": "Y",
