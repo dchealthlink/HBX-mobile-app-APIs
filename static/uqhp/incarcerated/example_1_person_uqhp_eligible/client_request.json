@@ -20,7 +20,6 @@
       "citizen_status": "US",
       "Address": [
         {
-          "personresidencystatus": "dcfixedaddress",
           "isstateresident": "Y",
           "istempoos": "N",
           "nofixedaddress": "N",
@@ -30,7 +29,8 @@
           "city": "Washington",
           "statecd": "DC",
           "postalcode": "20001",
-          "preferredaddress": "Y"
+          "preferredaddress": "Y",
+          "isseparatemailaddress": "N"
         }
       ]
     }

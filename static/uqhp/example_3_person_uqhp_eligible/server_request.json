@@ -48,7 +48,8 @@
           "city": "Rockville",
           "statecd": "MD",
           "postalcode": "20850",
-          "addresstype": "mail"
+          "addresstype": "mail",
+          "preferredaddress": "N"
         }
       ]
     },

@@ -16,7 +16,6 @@
       "citizen_status": "US",
       "Address": [
         {
-          "personresidencystatus": "dcfixedaddress",
           "isstateresident": "Y",
           "istempoos": "N",
           "nofixedaddress": "N",
@@ -26,7 +25,8 @@
           "city": "Washington",
           "statecd": "DC",
           "postalcode": "20001",
-          "preferredaddress": "Y"
+          "preferredaddress": "Y",
+          "isseparatemailaddress": "N"
         }
       ]
     },
@@ -56,7 +56,15 @@
           "city": "Washington",
           "statecd": "DC",
           "postalcode": "20001",
-          "preferredaddress": "Y"
+          "preferredaddress": "Y",
+          "isseparatemailaddress": "Y",
+          "mpreferredaddress": "N",
+          "mstreetaddress1": "Mount Vernon Station",
+          "mstreetaddress2": "PO Box 2",
+          "mcity": "Mount Vernon",
+          "mstatecd": "VA",
+          "mpostalcode": "90054",
+          "maddresstype": "mail"
         }
       ]
     },
@@ -76,7 +84,6 @@
       "citizen_status": "US",
       "Address": [
         {
-          "personresidencystatus": "nonresident",
           "isstateresident": "N",
           "istempoos": "N",
           "nofixedaddress": "N",
@@ -86,7 +93,8 @@
           "city": "Richmond",
           "statecd": "VA",
           "postalcode": "20001",
-          "preferredaddress": "Y"
+          "preferredaddress": "Y",
+          "isseparatemailaddress": "N"
         }
       ]
     }

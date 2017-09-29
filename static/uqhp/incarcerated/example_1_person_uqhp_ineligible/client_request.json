@@ -16,15 +16,11 @@
       "incarceratedstartdate": "2017-06-01",
       "isreleasedateknown": "N",
       "isincarceratedinstate": "Y",
-      "isstateresident": "Y",
-      "istempoos": "N",
-      "nofixedaddress": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
       "eligible_for_qhp": "N",
       "Address": [
         {
-          "personresidencystatus": "dcfixedaddress",
           "isstateresident": "Y",
           "istempoos": "N",
           "nofixedaddress": "N",
@@ -34,7 +30,8 @@
           "city": "Washington",
           "statecd": "DC",
           "postalcode": "20001",
-          "preferredaddress": "Y"
+          "preferredaddress": "Y",
+          "isseparatemailaddress": "N"
         }
       ]
     }

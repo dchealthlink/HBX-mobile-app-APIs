@@ -17,7 +17,6 @@
       "citizen_status": "US",
       "Address": [
         {
-          "personresidencystatus": "dcfixedaddress",
           "isstateresident": "Y",
           "istempoos": "N",
           "nofixedaddress": "N",
@@ -27,7 +26,8 @@
           "city": "Washington",
           "statecd": "DC",
           "postalcode": "20001",
-          "preferredaddress": "Y"
+          "preferredaddress": "Y",
+          "isseparatemailingaddress": "N"
         }
       ]
     },
@@ -48,7 +48,6 @@
       "citizen_status": "US",
       "Address": [
         {
-          "personresidencystatus": "tempoos",
           "isstateresident": "Y",
           "istempoos": "Y",
           "nofixedaddress": "N",
@@ -58,7 +57,8 @@
           "city": "Rockville",
           "statecd": "MD",
           "postalcode": "20850",
-          "preferredaddress": "Y"
+          "preferredaddress": "Y",
+          "isseparatemailingaddress": "N"
         }
       ]
     },
@@ -79,7 +79,6 @@
       "citizen_status": "US",
       "Address": [
         {
-          "personresidencystatus": "homelessresident",
           "isstateresident": "Y",
           "istempoos": "N",
           "nofixedaddress": "Y",
@@ -89,7 +88,8 @@
           "city": "Washington",
           "statecd": "DC",
           "postalcode": "20001",
-          "preferredaddress": "Y"
+          "preferredaddress": "Y",
+          "isseparatemailingaddress": "N"
         }
       ]
     },
@@ -110,7 +110,6 @@
       "citizen_status": "US",
       "Address": [
         {
-          "personresidencystatus": "dcfixedaddress",
           "isstateresident": "Y",
           "istempoos": "N",
           "nofixedaddress": "N",
@@ -120,7 +119,8 @@
           "city": "Washington",
           "statecd": "DC",
           "postalcode": "20001",
-          "preferredaddress": "Y"
+          "preferredaddress": "Y",
+          "isseparatemailingaddress": "N"
         }
       ]
     }

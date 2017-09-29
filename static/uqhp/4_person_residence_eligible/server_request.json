@@ -34,7 +34,6 @@
       "eligible_for_qhp": "Y",
       "Address": [
         {
-          "personresidencystatus": "dcfixedaddress",
           "addresstype": "home",
           "streetaddress1": "101 Great Jones St",
           "streetaddress2": "apt 1",
@@ -66,7 +65,6 @@
       "eligible_for_qhp": "Y",
       "Address": [
         {
-          "personresidencystatus": "dcfixedaddress",
           "addresstype": "home",
           "streetaddress1": "9909 Foxborough Circle",
           "streetaddress2": "-",
@@ -98,7 +96,6 @@
       "eligible_for_qhp": "Y",
       "Address": [
         {
-          "personresidencystatus": "homelessresident",
           "addresstype": "mail",
           "streetaddress1": "PO Box 104",
           "streetaddress2": "Planetarium Station",
@@ -130,7 +127,6 @@
       "eligible_for_qhp": "Y",
       "Address": [
         {
-          "personresidencystatus": "dcfixedaddress",
           "addresstype": "home",
           "streetaddress1": "101 Great Jones St",
           "streetaddress2": "apt 1",

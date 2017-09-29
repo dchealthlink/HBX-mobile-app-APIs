@@ -37,7 +37,6 @@
       "eligible_for_qhp": "Y",
       "Address": [
         {
-          "personresidencystatus": "dcfixedaddress",
           "addresstype": "home",
           "streetaddress1": "101 Great Jones St",
           "streetaddress2": "apt 1",

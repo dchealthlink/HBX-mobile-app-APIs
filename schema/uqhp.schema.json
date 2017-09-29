@@ -696,6 +696,31 @@
               "dependency_level": 1,
               "dependent_fields": [
                 {
+                  "field": "preferredaddress",
+                  "label": "",
+                  "type": "hardwired",
+                  "options": [
+                    {
+                      "name": "hardwired",
+                      "value": "Y"
+                    }
+                  ],
+                  "prereq_field": "isseparatemailaddress",
+                  "prereq_values": [
+                    "N"
+                  ],
+                  "summary_element_order": null,
+                  "mobile_only": null,
+                  "maxlength": null,
+                  "default_value": null,
+                  "readonly": "N",
+                  "optional": "N",
+                  "dependency_level": 2,
+                  "dependent_fields": [
+
+                  ]
+                },
+                {
                   "field": "mpostalcode",
                   "label": "zip",
                   "type": "zip",
@@ -1011,7 +1036,7 @@
                   "options": [
                     {
                       "name": "hardwired",
-                      "value": "Y"
+                      "value": "N"
                     }
                   ],
                   "prereq_field": "isseparatemailaddress",

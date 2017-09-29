@@ -28,25 +28,27 @@
       "isincarcerated": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
+      "isstateresident": "Y",
+      "istempoos": "N",
+      "nofixedaddress": "N",
       "Address": [
         {
-          "isstateresident": "Y",
-          "istempoos": "N",
-          "nofixedaddress": "N",
           "addresstype": "home",
           "streetaddress1": "101 Great Jones St",
           "streetaddress2": "apt 1",
           "city": "Washington",
           "statecd": "DC",
           "postalcode": "20001",
-          "preferredaddress": "Y",
-          "isseparatemailaddress": "Y",
-          "mstreetaddress1": "Charleston Post Office",
-          "mstreetaddress2": "PO Box 2",
-          "mcity": "Rockville",
-          "mstatecd": "MD",
-          "mpostalcode": "20850",
-          "maddresstype": "mail"
+          "preferredaddress": "Y"
+        },
+        {
+          "streetaddress1": "Charleston Post Office",
+          "streetaddress2": "PO Box 2",
+          "city": "Rockville",
+          "statecd": "MD",
+          "postalcode": "20850",
+          "addresstype": "mail",
+          "preferredaddress": "N"
         }
       ]
     },
@@ -70,9 +72,6 @@
       "citizen_status": "US",
       "Address": [
         {
-          "isstateresident": "Y",
-          "istempoos": "N",
-          "nofixedaddress": "N",
           "addresstype": "home",
           "streetaddress1": "101 Great Jones St",
           "streetaddress2": "apt 1",
@@ -103,9 +102,6 @@
       "citizen_status": "US",
       "Address": [
         {
-          "isstateresident": "Y",
-          "istempoos": "N",
-          "nofixedaddress": "N",
           "addresstype": "home",
           "streetaddress1": "101 Great Jones St",
           "streetaddress2": "apt 1",
@@ -136,9 +132,6 @@
       "citizen_status": "US",
       "Address": [
         {
-          "isstateresident": "Y",
-          "istempoos": "N",
-          "nofixedaddress": "N",
           "addresstype": "home",
           "streetaddress1": "101 Great Jones St",
           "streetaddress2": "apt 1",
