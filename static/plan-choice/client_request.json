@@ -1,6 +1,6 @@
 {
 	"eaid": "876544930278011",
-	"determinationtype": "mobile-plan-choice",
+	"determinationtype": "plan-choice",
 	"plan_hios_id": "A065C5E9C5828DC-01",
 	"plan_name": "BlueChoice HMO Standard Bronze $5000",
 	"effective_date": "2017-12-15",
