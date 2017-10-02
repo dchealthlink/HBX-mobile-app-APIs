@@ -165,7 +165,6 @@
     {
       "eapersonid": "092920171420002",
       "relationship": "Grandparent",
-      "isprimarycaretaker": "Y",
       "cross_eapersonid": "092920171420005"
     },
     {
@@ -176,13 +175,11 @@
     {
       "eapersonid": "092920171420003",
       "relationship": "Grandparent",
-      "isprimarycaretaker": "Y",
       "cross_eapersonid": "092920171420005"
     },
     {
       "eapersonid": "092920171420004",
       "relationship": "Aunt/Uncle",
-      "isprimarycaretaker": "N",
       "cross_eapersonid": "092920171420005"
     }
   ]}
