@@ -535,6 +535,32 @@
               ]
             },
             {
+              "field": "addresstype",
+              "label": "",
+              "type": "hardwired",
+              "options": [
+                {
+                  "name": "hardwired",
+                  "value": "home"
+                }
+              ],
+              "prereq_field": "personresidencystatus",
+              "prereq_values": [
+                "dcfixedaddress",
+                "tempoos"
+              ],
+              "summary_element_order": null,
+              "mobile_only": null,
+              "maxlength": null,
+              "default_value": null,
+              "readonly": "N",
+              "optional": "N",
+              "dependency_level": 1,
+              "dependent_fields": [
+
+              ]
+            },
+            {
               "field": "streetaddress1",
               "label": "Please enter this person’s home address",
               "type": "text",
@@ -1488,6 +1514,31 @@
           "dependency_level": 1,
           "dependent_fields": [
             {
+              "field": "citizen_status",
+              "label": "citizen status",
+              "type": "hardwired",
+              "options": [
+                {
+                  "name": "hardwired",
+                  "value": "NC"
+                }
+              ],
+              "prereq_field": "naturalizedcitizen",
+              "prereq_values": [
+                "Y"
+              ],
+              "summary_element_order": null,
+              "mobile_only": null,
+              "maxlength": null,
+              "default_value": null,
+              "readonly": "N",
+              "optional": "N",
+              "dependency_level": 2,
+              "dependent_fields": [
+
+              ]
+            },
+            {
               "field": "naturalizationNumber",
               "label": "What is this person’s Naturalization Number?",
               "type": "text",
@@ -1510,6 +1561,31 @@
           ]
         },
         {
+          "field": "citizen_status",
+          "label": "citizen status",
+          "type": "hardwired",
+          "options": [
+            {
+              "name": "hardwired",
+              "value": "US"
+            }
+          ],
+          "prereq_field": "isuscitizen",
+          "prereq_values": [
+            "Y"
+          ],
+          "summary_element_order": null,
+          "mobile_only": null,
+          "maxlength": null,
+          "default_value": null,
+          "readonly": "N",
+          "optional": "N",
+          "dependency_level": 1,
+          "dependent_fields": [
+
+          ]
+        },
+        {
           "field": "lawfullypresent",
           "label": "Is this person lawfully present in the USA?",
           "type": "yesnoradio",
@@ -1526,6 +1602,56 @@
           "optional": "N",
           "dependency_level": 1,
           "dependent_fields": [
+            {
+              "field": "citizen_status",
+              "label": "citizen status",
+              "type": "hardwired",
+              "options": [
+                {
+                  "name": "hardwired",
+                  "value": "LP"
+                }
+              ],
+              "prereq_field": "lawfullypresent",
+              "prereq_values": [
+                "Y"
+              ],
+              "summary_element_order": null,
+              "mobile_only": null,
+              "maxlength": null,
+              "default_value": null,
+              "readonly": "N",
+              "optional": "N",
+              "dependency_level": 2,
+              "dependent_fields": [
+
+              ]
+            },
+            {
+              "field": "citizen_status",
+              "label": "citizen status",
+              "type": "hardwired",
+              "options": [
+                {
+                  "name": "hardwired",
+                  "value": "NLP"
+                }
+              ],
+              "prereq_field": "lawfullypresent",
+              "prereq_values": [
+                "N"
+              ],
+              "summary_element_order": null,
+              "mobile_only": null,
+              "maxlength": null,
+              "default_value": null,
+              "readonly": "N",
+              "optional": "N",
+              "dependency_level": 2,
+              "dependent_fields": [
+
+              ]
+            },
             {
               "field": "documentType",
               "label": "What government issued registration does this person retain to prove Lawful Presence?",
@@ -6005,7 +6131,7 @@
       "options": [
         {
           "name": "Aunt or Uncle",
-          "value": "aunt/Uncle"
+          "value": "auntUncle"
         },
         {
           "name": "Child",
@@ -6025,7 +6151,7 @@
         },
         {
           "name": "Nephew or Niece",
-          "value": "nephew/Niece"
+          "value": "nephewNiece"
         },
         {
           "name": "Other",

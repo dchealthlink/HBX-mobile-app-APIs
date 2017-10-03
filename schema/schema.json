@@ -676,6 +676,32 @@
               ]
             },
             {
+              "field": "addresstype",
+              "label": "",
+              "type": "hardwired",
+              "options": [
+                {
+                  "name": "hardwired",
+                  "value": "home"
+                }
+              ],
+              "prereq_field": "personresidencystatus",
+              "prereq_values": [
+                "dcfixedaddress",
+                "tempoos"
+              ],
+              "summary_element_order": null,
+              "mobile_only": null,
+              "maxlength": null,
+              "default_value": null,
+              "readonly": "N",
+              "optional": "N",
+              "dependency_level": 1,
+              "dependent_fields": [
+
+              ]
+            },
+            {
               "field": "streetaddress1",
               "label": "Please enter this person’s home address",
               "type": "text",
@@ -9064,7 +9090,7 @@
       "options": [
         {
           "name": "Aunt or Uncle",
-          "value": "aunt/Uncle"
+          "value": "auntUncle"
         },
         {
           "name": "Child",
@@ -9084,7 +9110,7 @@
         },
         {
           "name": "Nephew or Niece",
-          "value": "nephew/Niece"
+          "value": "nephewNiece"
         },
         {
           "name": "Other",
