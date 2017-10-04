@@ -6277,7 +6277,12 @@
       "field": "applicanttype",
       "label": "user and-or family",
       "type": "hardwired",
-      "options": null,
+      "options": [
+        {
+          "name": "hardwired",
+          "value": "user and-or family"
+        }
+      ],
       "prereq_field": "",
       "prereq_values": null,
       "summary_element_order": null,

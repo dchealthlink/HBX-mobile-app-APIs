@@ -276,7 +276,7 @@ Relationship,taxhousehold,Will either of these people claim the other as a depen
 Attestation,eaid,,idgen,,,,,,both,,,,,,,,,,
 Attestation,statecd,,hardwired,DC,,,,,both,,,,,,,,,,
 Attestation,name,,hardwired,SAMPLE-UQHP-APPLICATION,,,,,both,,,,,,,,,,
-Attestation,applicanttype,user and-or family,hardwired,,,,,,both,,,,,,,,,,
+Attestation,applicanttype,user and-or family,hardwired,user and-or family,,,,,both,,,,,,,,,,
 Attestation,determinationtype,determinationtype,hardwired,uqhp-store,,,,,uqhp,,,,,,,,,,
 Attestation,motivationtype,,hardwired,MT26301,,,,,both,,,,,,,,,,
 Attestation,applicationsource,,hardwired,electronic,,,,,both,,,,,,,,,,
