@@ -6274,6 +6274,24 @@
       ]
     },
     {
+      "field": "applicanttype",
+      "label": "user and-or family",
+      "type": "hardwired",
+      "options": null,
+      "prereq_field": "",
+      "prereq_values": null,
+      "summary_element_order": null,
+      "mobile_only": null,
+      "maxlength": null,
+      "default_value": null,
+      "readonly": "N",
+      "optional": "N",
+      "dependency_level": 0,
+      "dependent_fields": [
+
+      ]
+    },
+    {
       "field": "determinationtype",
       "label": "determinationtype",
       "type": "hardwired",

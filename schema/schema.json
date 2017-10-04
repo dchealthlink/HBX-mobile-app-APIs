@@ -9244,7 +9244,7 @@
       "options": [
         {
           "name": "hardwired",
-          "value": "SAMPLE-HAVEN-APPLICATION"
+          "value": "SAMPLE-UQHP-APPLICATION"
         }
       ],
       "prereq_field": "",
@@ -9261,15 +9261,10 @@
       ]
     },
     {
-      "field": "determinationtype",
-      "label": "determinationtype",
+      "field": "applicanttype",
+      "label": "user and-or family",
       "type": "hardwired",
-      "options": [
-        {
-          "name": "hardwired",
-          "value": "mobile-internal"
-        }
-      ],
+      "options": null,
       "prereq_field": "",
       "prereq_values": null,
       "summary_element_order": null,
