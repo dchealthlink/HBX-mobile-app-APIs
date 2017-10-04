@@ -9122,7 +9122,7 @@
         },
         {
           "name": "Sibling/Stepsibling",
-          "value": "sibling/Stepsibling"
+          "value": "siblingStepsibling"
         },
         {
           "name": "Spouse",
@@ -9170,15 +9170,15 @@
           "options": null,
           "prereq_field": "applicationrelationship",
           "prereq_values": [
-            "aunt/Uncle",
+            "auntUncle",
             "child",
             "domestic Partner",
             "grandchild",
             "grandparent",
-            "nephew/Niece",
+            "nephewNiece",
             "other",
             "parent",
-            "sibling/Stepsibling",
+            "siblingStepsibling",
             "unrelated"
           ],
           "summary_element_order": null,

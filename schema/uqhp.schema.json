@@ -6163,7 +6163,7 @@
         },
         {
           "name": "Sibling/Stepsibling",
-          "value": "sibling/Stepsibling"
+          "value": "siblingStepsibling"
         },
         {
           "name": "Spouse",
@@ -6191,7 +6191,7 @@
           "options": null,
           "prereq_field": "applicationrelationship",
           "prereq_values": [
-            "aunt/Uncle",
+            "auntUncle",
             "grandparent"
           ],
           "summary_element_order": null,
