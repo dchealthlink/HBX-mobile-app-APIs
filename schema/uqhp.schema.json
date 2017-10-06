@@ -6184,27 +6184,7 @@
       "optional": "N",
       "dependency_level": 0,
       "dependent_fields": [
-        {
-          "field": "isprimarycaretaker",
-          "label": "Is {personfirstname1} the primary caretaker of {personfirstname2}?",
-          "type": "yesnoradio",
-          "options": null,
-          "prereq_field": "applicationrelationship",
-          "prereq_values": [
-            "auntUncle",
-            "grandparent"
-          ],
-          "summary_element_order": null,
-          "mobile_only": null,
-          "maxlength": null,
-          "default_value": null,
-          "readonly": "N",
-          "optional": "N",
-          "dependency_level": 1,
-          "dependent_fields": [
 
-          ]
-        }
       ]
     }
   ],
