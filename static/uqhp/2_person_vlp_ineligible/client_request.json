@@ -2,7 +2,6 @@
   "Person": [
     {
       "eapersonid": "849588384759",
-      "isapplicant": "Y",
       "personfirstname": "Antonio",
       "personlastname": "Bologna",
       "persondob": "1975-01-01",
@@ -32,7 +31,6 @@
     },
     {
       "eapersonid": "849588389839",
-      "isapplicant": "Y",
       "personfirstname": "Duchess",
       "personlastname": "Bologna",
       "persondob": "1979-01-01",
@@ -47,6 +45,7 @@
       "isreleasedateknown": "N",
       "isincarceratedinstate": "Y",
       "isuscitizen": "Y",
+      "naturalizedcitizen": "N",
       "citizen_status": "US",
       "Address": [
         {

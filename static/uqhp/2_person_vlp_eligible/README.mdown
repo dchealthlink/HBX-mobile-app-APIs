@@ -1,0 +1,6 @@
+#Eligibility based on lawful presence
+- primary applicant determined eligible because of the following field values:
+- "isuscitizen": "N"
+- "lawfullypresent": "Y"
+- "citizen_status": "LP"
+- lawful presence documents included in payload

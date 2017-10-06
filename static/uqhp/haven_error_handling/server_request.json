@@ -1,5 +1,5 @@
 {
-  "eaid": "091020170921001",
+  "eaid": "100620170649001",
   "statecd": "DC",
   "appyear": "2017",
   "name": "SAMPLE-HAVEN-APPLICATION",
@@ -14,20 +14,16 @@
   "esignaturelastname": "Jones",
   "Person": [
     {
-      "eapersonid": "091020170923001",
-      "personfirstname": "Tim",
-      "personlastname": "Jones",
+      "eapersonid": "100620170649002",
+      "personfirstname": "haven",
+      "personlastname": "test",
       "persondob": "1975-01-01",
       "isssntrue": "Y",
-      "personssn": "197501010",
+      "personssn": "000148374",
       "gender": "M",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
-      "isincarcerated": "Y",
-      "isincarceratedpending": "Y",
-      "incarceratedstartdate": "2017-06-01",
-      "isreleasedateknown": "N",
-      "isincarceratedinstate": "Y",
+      "isincarcerated": "N",
       "isstateresident": "Y",
       "istempoos": "N",
       "nofixedaddress": "N",
@@ -46,6 +42,15 @@
           "statecd": "DC",
           "postalcode": "20001",
           "preferredaddress": "Y"
+        },
+        {
+          "streetaddress1": "Charleston Post Office",
+          "streetaddress2": "PO Box 2",
+          "city": "Rockville",
+          "statecd": "MD",
+          "postalcode": "20850",
+          "addresstype": "mail",
+          "preferredaddress": "N"
         }
       ]
     }

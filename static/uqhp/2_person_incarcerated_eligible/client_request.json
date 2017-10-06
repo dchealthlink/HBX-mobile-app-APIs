@@ -2,7 +2,6 @@
   "Person": [
     {
       "eapersonid": "849588384759",
-      "isapplicant": "Y",
       "personfirstname": "Skip",
       "personlastname": "Valentine",
       "persondob": "1975-01-01",
@@ -13,7 +12,10 @@
       "preferredlanguage": "English",
       "isincarcerated": "N",
       "isuscitizen": "Y",
+      "isdisabled": "N",
+      "nativeamerican": "N",
       "citizen_status": "US",
+      "naturalizedcitizen": "N",
       "Address": [
         {
           "isstateresident": "Y",
@@ -47,7 +49,10 @@
       "isreleasedateknown": "N",
       "isincarceratedinstate": "Y",
       "isuscitizen": "Y",
+      "isdisabled": "N",
+      "nativeamerican": "N",
       "citizen_status": "US",
+      "naturalizedcitizen": "N",
       "Address": [
         {
           "isstateresident": "Y",

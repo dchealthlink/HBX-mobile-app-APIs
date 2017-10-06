@@ -2,7 +2,6 @@
   "Person": [
     {
       "eapersonid": "090620171416002",
-      "isapplicant": "Y",
       "personfirstname": "Tim",
       "personlastname": "Jones",
       "persondob": "1975-01-01",
@@ -11,10 +10,12 @@
       "gender": "M",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
-      "ismedicareentitled": "N",
       "isincarcerated": "N",
       "isuscitizen": "Y",
+      "naturalizedcitizen": "N",
       "citizen_status": "US",
+      "nativeamerican": "N",
+      "isdisabled": "N",
       "Address": [
         {
           "isstateresident": "Y",
@@ -40,7 +41,6 @@
     },
     {
       "eapersonid": "090620171416003",
-      "isapplicant": "Y",
       "personfirstname": "Tina",
       "personlastname": "Jones",
       "persondob": "1979-01-01",
@@ -49,10 +49,12 @@
       "gender": "M",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
-      "ismedicareentitled": "N",
       "isincarcerated": "N",
       "isuscitizen": "Y",
+      "naturalizedcitizen": "N",
       "citizen_status": "US",
+      "nativeamerican": "N",
+      "isdisabled": "N",
       "Address": [
         {
           "isstateresident": "Y",
@@ -70,7 +72,6 @@
     },
     {
       "eapersonid": "090620171416004",
-      "isapplicant": "Y",
       "personfirstname": "James",
       "personlastname": "Jones",
       "persondob": "2000-01-01",
@@ -79,10 +80,14 @@
       "gender": "M",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
-      "ismedicareentitled": "N",
       "isincarcerated": "N",
       "isuscitizen": "Y",
       "citizen_status": "US",
+      "naturalizedcitizen": "N",
+      "nativeamerican": "Y",
+      "tribalid": "3333333",
+      "isdisabled": "N",
+      "homephone": "2021234567",
       "Address": [
         {
           "isstateresident": "Y",

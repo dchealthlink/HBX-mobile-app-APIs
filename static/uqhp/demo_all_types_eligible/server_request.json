@@ -15,7 +15,6 @@
   "Person": [
     {
       "eapersonid": "090620171416002",
-      "isapplicant": "Y",
       "personfirstname": "Bob",
       "personlastname": "Barker",
       "persondob": "1975-01-01",
@@ -24,9 +23,11 @@
       "gender": "M",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
-      "ismedicareentitled": "N",
       "isincarcerated": "N",
       "isuscitizen": "Y",
+      "naturalizedcitizen": "N",
+      "isdisabled": "N",
+      "nativeamerican": "N",
       "citizen_status": "US",
       "isstateresident": "Y",
       "istempoos": "N",
@@ -54,7 +55,6 @@
     },
     {
       "eapersonid": "090620171416003",
-      "isapplicant": "Y",
       "personfirstname": "Nellie",
       "personlastname": "Barker",
       "persondob": "1979-01-01",
@@ -63,12 +63,14 @@
       "gender": "M",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
-      "ismedicareentitled": "N",
       "isincarcerated": "N",
       "isstateresident": "Y",
       "istempoos": "N",
       "nofixedaddress": "N",
       "isuscitizen": "Y",
+      "naturalizedcitizen": "N",
+      "isdisabled": "N",
+      "nativeamerican": "N",
       "citizen_status": "US",
       "Address": [
         {
@@ -84,7 +86,6 @@
     },
     {
       "eapersonid": "090620171416004",
-      "isapplicant": "Y",
       "personfirstname": "Tom",
       "personlastname": "Barker",
       "persondob": "2000-01-01",
@@ -93,12 +94,14 @@
       "gender": "M",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
-      "ismedicareentitled": "N",
       "isincarcerated": "N",
       "isstateresident": "Y",
       "istempoos": "N",
       "nofixedaddress": "N",
       "isuscitizen": "Y",
+      "naturalizedcitizen": "N",
+      "isdisabled": "N",
+      "nativeamerican": "N",
       "citizen_status": "US",
       "Address": [
         {
@@ -114,7 +117,6 @@
     },
     {
       "eapersonid": "090620171439404",
-      "isapplicant": "Y",
       "personfirstname": "Laura",
       "personlastname": "Barker",
       "persondob": "1992-01-01",
@@ -123,12 +125,14 @@
       "gender": "M",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
-      "ismedicareentitled": "N",
       "isincarcerated": "N",
       "isstateresident": "Y",
       "istempoos": "N",
       "nofixedaddress": "N",
       "isuscitizen": "Y",
+      "naturalizedcitizen": "N",
+      "isdisabled": "N",
+      "nativeamerican": "N",
       "citizen_status": "US",
       "Address": [
         {

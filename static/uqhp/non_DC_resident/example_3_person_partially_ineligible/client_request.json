@@ -2,7 +2,6 @@
   "Person": [
     {
       "eapersonid": "091020170928002",
-      "isapplicant": "Y",
       "personfirstname": "Tim",
       "personlastname": "Jones",
       "persondob": "1975-01-01",
@@ -13,6 +12,9 @@
       "preferredlanguage": "English",
       "isincarcerated": "N",
       "isuscitizen": "Y",
+      "naturalizedcitizen": "N",
+      "isdisabled": "N",
+      "nativeamerican": "N",
       "citizen_status": "US",
       "Address": [
         {
@@ -32,7 +34,6 @@
     },
     {
       "eapersonid": "091020170928003",
-      "isapplicant": "Y",
       "personfirstname": "Tina",
       "personlastname": "Jones",
       "persondob": "1979-01-01",
@@ -43,6 +44,9 @@
       "preferredlanguage": "English",
       "isincarcerated": "N",
       "isuscitizen": "Y",
+      "naturalizedcitizen": "N",
+      "isdisabled": "N",
+      "nativeamerican": "N",
       "citizen_status": "US",
       "Address": [
         {
@@ -70,7 +74,6 @@
     },
     {
       "eapersonid": "091020170928001",
-      "isapplicant": "Y",
       "personfirstname": "James",
       "personlastname": "Jones",
       "persondob": "2000-01-01",
@@ -81,6 +84,9 @@
       "preferredlanguage": "English",
       "isincarcerated": "N",
       "isuscitizen": "Y",
+      "naturalizedcitizen": "N",
+      "isdisabled": "N",
+      "nativeamerican": "N",
       "citizen_status": "US",
       "Address": [
         {

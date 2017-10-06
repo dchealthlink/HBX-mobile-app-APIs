@@ -2,7 +2,6 @@
   "Person": [
     {
       "eapersonid": "849588384759",
-      "isapplicant": "Y",
       "personfirstname": "Goneril",
       "personlastname": "Windsor",
       "persondob": "1975-01-01",
@@ -11,9 +10,11 @@
       "gender": "F",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
-      "ismedicareentitled": "N",
       "isincarcerated": "N",
       "isuscitizen": "Y",
+      "naturalizedcitizen": "N",
+      "isdisabled": "N",
+      "nativeamerican": "N",
       "citizen_status": "US",
       "Address": [
         {
@@ -32,7 +33,6 @@
     },
     {
       "eapersonid": "849588389839",
-      "isapplicant": "Y",
       "personfirstname": "Regan",
       "personlastname": "Windsor",
       "persondob": "1979-01-01",
@@ -41,9 +41,11 @@
       "gender": "F",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
-      "ismedicareentitled": "N",
       "isincarcerated": "N",
       "isuscitizen": "Y",
+      "naturalizedcitizen": "N",
+      "isdisabled": "N",
+      "nativeamerican": "N",
       "citizen_status": "US",
       "Address": [
         {
@@ -63,7 +65,6 @@
     },
     {
       "eapersonid": "935588389839",
-      "isapplicant": "Y",
       "personfirstname": "Cordelia",
       "personlastname": "Windsor",
       "persondob": "2000-01-01",
@@ -72,9 +73,11 @@
       "gender": "F",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
-      "ismedicareentitled": "N",
       "isincarcerated": "N",
       "isuscitizen": "Y",
+      "naturalizedcitizen": "N",
+      "isdisabled": "N",
+      "nativeamerican": "N",
       "citizen_status": "US",
       "Address": [
         {
@@ -94,7 +97,6 @@
     },
     {
       "eapersonid": "475893827364",
-      "isapplicant": "Y",
       "personfirstname": "Edmund",
       "personlastname": "Gloucester",
       "persondob": "1980-02-28",
@@ -103,8 +105,11 @@
       "gender": "M",
       "preferredcontactmethod": "Email",
       "preferredlanguage": "English",
-      "ismedicareentitled": "N",
       "isincarcerated": "N",
+      "isuscitizen": "Y",
+      "naturalizedcitizen": "N",
+      "isdisabled": "N",
+      "nativeamerican": "N",
       "citizen_status": "US",
       "Address": [
         {

@@ -29,7 +29,10 @@
       "istempoos": "N",
       "nofixedaddress": "N",
       "isuscitizen": "Y",
+      "isdisabled": "N",
+      "nativeamerican": "N",
       "citizen_status": "US",
+      "naturalizedcitizen": "N",
       "eligible_for_qhp": "Y",
       "Address": [
         {
@@ -64,7 +67,10 @@
       "istempoos": "N",
       "nofixedaddress": "N",
       "isuscitizen": "Y",
+      "isdisabled": "N",
+      "nativeamerican": "N",
       "citizen_status": "US",
+      "naturalizedcitizen": "N",
       "eligible_for_qhp": "Y",
       "Address": [
         {

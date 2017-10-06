@@ -2,7 +2,6 @@
   "Person": [
     {
       "eapersonid": "091020170920001",
-      "isapplicant": "Y",
       "personfirstname": "Tim",
       "personlastname": "Jones",
       "persondob": "1975-01-01",
@@ -17,6 +16,9 @@
       "isreleasedateknown": "N",
       "isincarceratedinstate": "Y",
       "isuscitizen": "Y",
+      "naturalizedcitizen": "N",
+      "isdisabled": "N",
+      "nativeamerican": "N",
       "citizen_status": "US",
       "eligible_for_qhp": "N",
       "Address": [
