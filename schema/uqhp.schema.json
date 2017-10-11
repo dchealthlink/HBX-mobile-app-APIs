@@ -6126,7 +6126,7 @@
   "Relationship": [
     {
       "field": "applicationrelationship",
-      "label": "{personfirstname1} is {personfirstname2}'s",
+      "label": "One is Two's",
       "type": "dropdown",
       "options": [
         {
@@ -6186,7 +6186,7 @@
       "dependent_fields": [
         {
           "field": "isprimarycaretaker",
-          "label": "Is {personfirstname1} the primary caretaker of {personfirstname2}?",
+          "label": "Is One the primary caretaker of Two?",
           "type": "yesnoradio",
           "options": null,
           "prereq_field": "applicationrelationship",
