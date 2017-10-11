@@ -6126,7 +6126,7 @@
   "Relationship": [
     {
       "field": "applicationrelationship",
-      "label": "One is Two's",
+      "label": "{personfirstname1} is {personfirstname2}'s",
       "type": "dropdown",
       "options": [
         {
