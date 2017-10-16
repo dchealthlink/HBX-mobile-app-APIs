@@ -6186,7 +6186,7 @@
       "dependent_fields": [
         {
           "field": "isprimarycaretaker",
-          "label": "Is One the primary caretaker of Two?",
+          "label": "Is {personfirstname1} the primary caretaker of {personfirstname2}?",
           "type": "yesnoradio",
           "options": null,
           "prereq_field": "applicationrelationship",
