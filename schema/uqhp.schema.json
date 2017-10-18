@@ -190,7 +190,7 @@
     },
     {
       "field": "Address",
-      "label": "Please enter this person’s address",
+      "label": "What is this person’s address?",
       "type": "section",
       "options": null,
       "prereq_field": "",

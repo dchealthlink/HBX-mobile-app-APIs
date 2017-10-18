@@ -20,7 +20,7 @@ Person,islast3pregnant,Has she been pregnant in the last 3 months?,yesnoradio,,i
 Person,pregnantenddate,On what date did her pregnancy end?,date,,islast3pregnant,Y,,,haven,,,,,,,,,,
 Person,islast3pregnant,,hardwired,N,gender,M,,,haven,,,,,,,,,,
 Person,numchildren,How many children is she expecting?,numeric,,ispregnant,Y,,,haven,2,,,,,,,,,
-Person,Address,Please enter this person’s address,addressSection,,,,,,both,,,,,,,,,,
+Person,Address,What is this person’s address?,addressSection,,,,,,both,,,,,,,,,,
 Address,personresidencystatus,Where does this person live?,dropdown,Lives in a fixed address in the District of Columbia:dcfixedaddress|District of Columbia resident temporarily living out of state (planning to return within 90 days):tempoos|Homeless resident of the District of Columbia:homelessresident|Does not live in the District of Columbia:nonresident,,,,Y,both,,,,,,,,,,
 Address,isstateresident,,hardwired,Y,personresidencystatus,dcfixedaddress,,,both,,,,,,,,,,
 Address,istempoos,,hardwired,N,personresidencystatus,dcfixedaddress,,,both,,,,,,,,,,
