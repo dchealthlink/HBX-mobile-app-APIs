@@ -1,26 +1,26 @@
 {
   "person": {
     "person_name": {
-      "person_surname": "Rashid",
-      "person_given_name": "Erin"
+      "person_surname": "VIOLETTE",
+      "person_given_name": "JOSEPH"
     },
     "addresses": [
       {
         "address": {
           "type": "home",
-          "address_line_1": "302 E ADAMS ST",
-          "address_line_2": "",
-          "location_city_name": "PITTSBURG",
-          "location_state_code": "KS",
-          "postal_code": "66762"
+          "address_line_1": "104 HAYLOFT CIR",
+          "address_line_2": "Apt. 808",
+          "location_city_name": "STERLING",
+          "location_state_code": "VA",
+          "postal_code": "20164"
         }
       }
     ],
     "emails": [
       {
         "email": {
-          "type": "work",
-          "email_address": "andrew@article19.org"
+          "type": "home",
+          "email_address": "VIOLETTE.VIOLETTE@gmail.com"
         }
       }
     ],
@@ -28,15 +28,15 @@
       {
         "phone": {
           "type": "home",
-          "phone_number": "2021234567"
+          "phone_number": "2025579888"
         }
       }
     ]
   },
   "person_demographics": {
-    "ssn": "666024882",
-    "sex": "male",
-    "birth_date": "19631008",
+    "ssn": "666444438",
+    "sex": "female",
+    "birth_date": "19620114",
     "created_at": "2017-08-18T18:18:25Z",
     "modified_at": "2017-08-23T19:41:26Z"
   }
