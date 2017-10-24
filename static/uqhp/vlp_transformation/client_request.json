@@ -1,0 +1,45 @@
+{
+  "Person": [
+    {
+      "personfirstname": "legal",
+      "personlastname": "immigrant",
+      "isuscitizen": "N",
+      "lawfullypresent": "Y",
+      "documenttype": "I327",
+      "alienNumber": "3333333",
+      "docExpirationDate": "20190101",
+      "Address": []
+    },
+    {
+      "personfirstname": "anotherlegal",
+      "personlastname": "immigrant",
+      "isuscitizen": "N",
+      "lawfullypresent": "Y",
+      "documenttype": "I94UnexpForeignPassport",
+      "I94Number": "194194194",
+      "visaNumber": "222222",
+      "sevisId": "777777",
+      "passportnumber": "2222222",
+      "docExpirationDate": "20190101",
+      "passportCountry": "SDN"
+    },
+    {
+      "personfirstname": "naturalized",
+      "personlastname": "citizen",
+      "isuscitizen": "Y",
+      "naturalizedcitizen": "Y",
+      "documenttype": "certOfCit",
+      "alienNumber": "33333333",
+      "citizenshipNumber": "3890987234"
+    },
+    {
+      "personfirstname": "anothernaturalized",
+      "personlastname": "citizen",
+      "isuscitizen": "Y",
+      "naturalizedcitizen": "Y",
+      "documenttype": "certOfNat",
+      "alienNumber": "3333334",
+      "naturalizationNumber": "100298470234"
+    }
+  ]
+}
