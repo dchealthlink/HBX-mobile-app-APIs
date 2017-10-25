@@ -9,7 +9,8 @@
 	    { 
 	    	"eapersonid": "083120171125009",
 	    	"personfirstname": "Skip",
-	    	"personlastname": "Valentine"
+	    	"personlastname": "Valentine",
+		"persondob": "19890825"
 	    }
 	]
 }
