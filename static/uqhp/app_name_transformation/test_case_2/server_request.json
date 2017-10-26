@@ -1,4 +1,17 @@
 {
+  "eaid": "102520172027001",
+  "statecd": "DC",
+  "appyear": "2018",
+  "name": "WBICFJ/C D=94P I48287377018 V60375222 S0004705859 P283929019 Y=KWT X2021-10-25",
+  "applicanttype": "user and-or family",
+  "motivationtype": "MT26301",
+  "applicationsource": "electronic",
+  "determinationtype": "uqhp-store",
+  "voterregistration": "Y",
+  "eligchangeauth": "Y",
+  "uqhpattestauth": "Y",
+  "esignaturefirstname": "Post",
+  "esignaturelastname": "Test",
   "Person": [
     {
       "eapersonid": "102520172024002",
@@ -32,29 +45,18 @@
       "race": "white,black,asianIndian,chinese,filipino,japanese",
       "ethnicity": "chicano",
       "nofixedaddress": "N",
-      "documenttype": "I94UnexpForeignPassport",
-      "I94Number": "287377018",
-      "visaNumber": "60375222",
-      "sevisId": "0004705859",
-      "passportnumber": "283929019",
-      "passportCountry": "KWT",
-      "docExpirationDate": "2021-10-25"
+      "Document": [
+        {
+          "documenttype": "I94UnexpForeignPassport",
+          "I94Number": "287377018",
+          "visaNumber": "60375222",
+          "sevisId": "0004705859",
+          "passportnumber": "283929019",
+          "passportCountry": "KWT",
+          "docExpirationDate": "20211025"
+        }
+      ]
     }
   ],
-  "Relationship": [],
-  "Attestation": {
-    "eaid": "102520172027001",
-    "statecd": "DC",
-    "appyear": "2018",
-    "name": "SAMPLE-HAVEN-APPLICATION",
-    "applicanttype": "user and-or family",
-    "motivationtype": "MT26301",
-    "applicationsource": "electronic",
-    "determinationtype": "uqhp-store",
-    "voterregistration": "Y",
-    "eligchangeauth": "Y",
-    "uqhpattestauth": "Y",
-    "esignaturefirstname": "Post",
-    "esignaturelastname": "Test"
-  }
+  "ApplicationRelationship": []
 }
