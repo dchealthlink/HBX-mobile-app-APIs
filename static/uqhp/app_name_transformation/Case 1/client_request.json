@@ -1,0 +1,55 @@
+{
+  
+  "Person": [
+    {
+      "eapersonid": "102520172024002",
+      "personfirstname": "Post",
+      "personlastname": "Test",
+      "persondob": "1989-08-25",
+      "personssn": "000887701",
+      "isincarcerated": "N",
+      "isuscitizen": "Y",
+      "Address": [
+        {
+          "addresstype": "mail",
+          "streetaddress1": "101 Great Jones St",
+          "streetaddress2": "apt 1",
+          "city": "Washington",
+          "statecd": "DC",
+          "postalcode": "20001",
+          "preferredaddress": "Y"
+        }
+      ],
+      "isssntrue": "Y",
+      "gender": "M",
+      "preferredcontactmethod": "Email",
+      "preferredlanguage": "English",
+      "ismedicareentitled": "N",
+      "naturalizedcitizen": "Y",
+      "citizen_status": "LP",
+      "eligibleforqhp": "Y",
+      "isstateresident": "Y",
+      "istempoos": "N",
+      "race": "white,black,asianIndian,chinese,filipino,japanese,korean,vietnamese,asianUnspecified,nativeHawaiian,other,AmericanAlaskanNative,nonMarianaPacificIsland,marianaIslands,samoan",
+      "ethnicity": "mexican,mexicanAmerican,chicano,puertoRican,cuban,other",
+      "nofixedaddress": "N",
+      "documenttype": "certOfCit",
+      "alienNumber": "9334384",
+      "citizenshipNumber": "99393933"
+    }
+  ],
+  "Relationship": [],
+  "Attestation": {"eaid": "102520172027001",
+  "statecd": "DC",
+  "appyear": "2018",
+  "name": "SAMPLE-HAVEN-APPLICATION",
+  "applicanttype": "user and-or family",
+  "motivationtype": "MT26301",
+  "applicationsource": "electronic",
+  "determinationtype": "uqhp-store",
+  "voterregistration": "Y",
+  "eligchangeauth": "Y",
+  "uqhpattestauth": "Y",
+  "esignaturefirstname": "Post",
+  "esignaturelastname": "Test"}
+}
