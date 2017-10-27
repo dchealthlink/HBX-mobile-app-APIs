@@ -1,0 +1,1 @@
+- Refer to "streetaddress1" fields of client and server requests for reference to how single quotes are transformed to backpops
