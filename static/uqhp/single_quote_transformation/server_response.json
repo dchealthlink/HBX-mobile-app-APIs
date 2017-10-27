@@ -1,0 +1,25 @@
+{
+  "eaid": "876544930278011",
+  "ineligible_for_coverage": [
+  ],
+  "eligible_for_qhp": [
+    {
+      "eapersonid": "090620171416002",
+      "personfirstname": "Tim",
+      "personlastname": "Jones",
+      "persondob": "1975-01-01"
+    },
+    {
+      "eapersonid": "090620171416003",
+      "personfirstname": "Tina",
+      "personlastname": "Jones",
+      "persondob": "1979-01-01"
+    },
+    {
+      "eapersonid": "090620171416004",
+      "personfirstname": "James",
+      "personlastname": "Jones",
+      "persondob": "2000-01-01"
+    }
+  ]
+}
